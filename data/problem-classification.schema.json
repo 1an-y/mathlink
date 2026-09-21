@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "problem-classification.schema.json",
+  "title": "Problem classification",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["taxonomy_version", "subject_id", "primary_chapter_id", "primary_problem_type_id", "knowledge_point_ids", "methods"],
+  "properties": {
+    "taxonomy_version": {"const": "1.1"},
+    "subject_id": {"const": "calculus"},
+    "primary_chapter_id": {"type": "string", "minLength": 1},
+    "secondary_chapter_ids": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "maxItems": 2,
+      "default": []
+    },
+    "primary_problem_type_id": {"type": "string", "minLength": 1},
+    "secondary_problem_type_ids": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "maxItems": 2,
+      "default": []
+    },
+    "knowledge_point_ids": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "maxItems": 6
+    },
+    "methods": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recommended_ids", "alternative_ids"],
+      "properties": {
+        "recommended_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "maxItems": 3
+        },
+        "alternative_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "maxItems": 3
+        }
+      }
+    },
+    "source": {
+      "type": "string",
+      "enum": ["user", "suggested_then_confirmed"],
+      "default": "user"
+    }
+  }
+}

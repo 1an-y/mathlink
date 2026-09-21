@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "subject": {
+    "id": "calculus",
+    "name": "高等数学"
+  },
+  "chapters": [
+    {
+      "id": "function_limit_continuity",
+      "name": "函数、极限与连续",
+      "problem_types": [
+        "function_properties",
+        "sequence_limit",
+        "function_limit",
+        "parameter_limit",
+        "continuity_and_discontinuity",
+        "limit_proof"
+      ],
+      "knowledge_points": [
+        "function_domain_range",
+        "function_properties",
+        "inverse_composite_function",
+        "sequence_limit",
+        "function_limit",
+        "infinitesimal_equivalence",
+        "indeterminate_form",
+        "continuity",
+        "discontinuity"
+      ]
+    },
+    {
+      "id": "one_variable_differential",
+      "name": "一元函数微分学",
+      "problem_types": [
+        "derivative_calculation",
+        "higher_derivative",
+        "piecewise_derivative",
+        "mean_value_theorem",
+        "monotonicity_extrema",
+        "concavity_inflection",
+        "inequality_proof",
+        "equation_root"
+      ],
+      "knowledge_points": [
+        "derivative_definition",
+        "differentiability_continuity",
+        "higher_derivative",
+        "mean_value_theorem",
+        "monotonicity",
+        "extrema",
+        "concavity_inflection",
+        "asymptote"
+      ]
+    },
+    {
+      "id": "one_variable_integral",
+      "name": "一元函数积分学",
+      "problem_types": [
+        "indefinite_integral",
+        "definite_integral",
+        "integral_defined_function",
+        "improper_integral",
+        "integral_equality_inequality",
+        "integral_application_geometry"
+      ],
+      "knowledge_points": [
+        "antiderivative",
+        "definite_integral_properties",
+        "fundamental_theorem_calculus",
+        "improper_integral_convergence",
+        "area_volume_arc"
+      ]
+    },
+    {
+      "id": "multivariable_differential",
+      "name": "多元函数微分学",
+      "problem_types": [
+        "partial_derivative_total_differential",
+        "composite_implicit_derivative",
+        "multivariable_extrema",
+        "conditional_extrema",
+        "directional_derivative_gradient"
+      ],
+      "knowledge_points": [
+        "partial_derivative",
+        "total_differential",
+        "composite_function_chain_rule",
+        "implicit_function",
+        "multivariable_extrema",
+        "directional_derivative_gradient"
+      ]
+    },
+    {
+      "id": "multiple_integral",
+      "name": "多元函数积分学",
+      "problem_types": [
+        "double_integral",
+        "triple_integral",
+        "multiple_integral_application"
+      ],
+      "knowledge_points": [
+        "double_integral_region",
+        "coordinate_transformation",
+        "triple_integral_region"
+      ]
+    },
+    {
+      "id": "curve_surface_integral",
+      "name": "曲线与曲面积分",
+      "problem_types": [
+        "line_integral_first_kind",
+        "line_integral_second_kind",
+        "surface_integral_first_kind",
+        "surface_integral_second_kind"
+      ],
+      "knowledge_points": [
+        "path_independence",
+        "green_formula",
+        "gauss_formula",
+        "stokes_formula"
+      ]
+    },
+    {
+      "id": "infinite_series",
+      "name": "无穷级数",
+      "problem_types": [
+        "positive_series_convergence",
+        "alternating_general_series",
+        "power_series_radius_domain",
+        "power_series_sum",
+        "function_series_expansion"
+      ],
+      "knowledge_points": [
+        "series_convergence",
+        "absolute_conditional_convergence",
+        "power_series",
+        "taylor_series"
+      ]
+    },
+    {
+      "id": "differential_equation",
+      "name": "常微分方程",
+      "problem_types": [
+        "first_order_differential_equation",
+        "reducible_higher_order_equation",
+        "linear_higher_order_equation"
+      ],
+      "knowledge_points": [
+        "separable_equation",
+        "first_order_linear_equation",
+        "second_order_linear_equation"
+      ]
+    }
+  ],
+  "problem_types": [
+    {"id":"function_properties","name":"函数性质判断"},
+    {"id":"sequence_limit","name":"数列极限计算"},
+    {"id":"function_limit","name":"函数极限计算"},
+    {"id":"parameter_limit","name":"含参数极限"},
+    {"id":"continuity_and_discontinuity","name":"连续性与间断点判断"},
+    {"id":"limit_proof","name":"极限存在性与极限证明"},
+    {"id":"derivative_calculation","name":"导数与微分计算"},
+    {"id":"higher_derivative","name":"高阶导数计算"},
+    {"id":"piecewise_derivative","name":"分段函数可导性"},
+    {"id":"mean_value_theorem","name":"中值定理证明"},
+    {"id":"monotonicity_extrema","name":"单调性与极值"},
+    {"id":"concavity_inflection","name":"凹凸性与拐点"},
+    {"id":"inequality_proof","name":"不等式证明"},
+    {"id":"equation_root","name":"方程根的存在性与个数"},
+    {"id":"indefinite_integral","name":"不定积分计算"},
+    {"id":"definite_integral","name":"定积分计算"},
+    {"id":"integral_defined_function","name":"积分上限函数"},
+    {"id":"improper_integral","name":"反常积分"},
+    {"id":"integral_equality_inequality","name":"积分等式与不等式证明"},
+    {"id":"integral_application_geometry","name":"定积分的几何应用"},
+    {"id":"partial_derivative_total_differential","name":"偏导数与全微分计算"},
+    {"id":"composite_implicit_derivative","name":"复合函数与隐函数求导"},
+    {"id":"multivariable_extrema","name":"多元函数极值"},
+    {"id":"conditional_extrema","name":"条件极值"},
+    {"id":"directional_derivative_gradient","name":"方向导数与梯度"},
+    {"id":"double_integral","name":"二重积分计算"},
+    {"id":"triple_integral","name":"三重积分计算"},
+    {"id":"multiple_integral_application","name":"重积分应用"},
+    {"id":"line_integral_first_kind","name":"第一类曲线积分"},
+    {"id":"line_integral_second_kind","name":"第二类曲线积分"},
+    {"id":"surface_integral_first_kind","name":"第一类曲面积分"},
+    {"id":"surface_integral_second_kind","name":"第二类曲面积分"},
+    {"id":"positive_series_convergence","name":"正项级数敛散性"},
+    {"id":"alternating_general_series","name":"交错与一般项级数敛散性"},
+    {"id":"power_series_radius_domain","name":"幂级数收敛域"},
+    {"id":"power_series_sum","name":"幂级数求和"},
+    {"id":"function_series_expansion","name":"函数展开为幂级数"},
+    {"id":"first_order_differential_equation","name":"一阶微分方程"},
+    {"id":"reducible_higher_order_equation","name":"可降阶高阶微分方程"},
+    {"id":"linear_higher_order_equation","name":"高阶线性微分方程"}
+  ],
+  "knowledge_points": [
+    {"id":"function_domain_range","name":"定义域与值域"},
+    {"id":"function_properties","name":"单调性、奇偶性与周期性"},
+    {"id":"inverse_composite_function","name":"反函数与复合函数"},
+    {"id":"sequence_limit","name":"数列极限"},
+    {"id":"function_limit","name":"函数极限"},
+    {"id":"infinitesimal_equivalence","name":"无穷小与等价无穷小"},
+    {"id":"indeterminate_form","name":"未定式"},
+    {"id":"continuity","name":"连续性"},
+    {"id":"discontinuity","name":"间断点"},
+    {"id":"derivative_definition","name":"导数定义"},
+    {"id":"differentiability_continuity","name":"可导、可微与连续的关系"},
+    {"id":"higher_derivative","name":"高阶导数"},
+    {"id":"mean_value_theorem","name":"微分中值定理"},
+    {"id":"monotonicity","name":"单调性"},
+    {"id":"extrema","name":"极值与最值"},
+    {"id":"concavity_inflection","name":"凹凸性与拐点"},
+    {"id":"asymptote","name":"渐近线"},
+    {"id":"antiderivative","name":"原函数"},
+    {"id":"definite_integral_properties","name":"定积分性质"},
+    {"id":"fundamental_theorem_calculus","name":"微积分基本定理"},
+    {"id":"improper_integral_convergence","name":"反常积分敛散性"},
+    {"id":"area_volume_arc","name":"面积、体积与弧长"},
+    {"id":"partial_derivative","name":"偏导数"},
+    {"id":"total_differential","name":"全微分"},
+    {"id":"composite_function_chain_rule","name":"多元复合函数链式法则"},
+    {"id":"implicit_function","name":"隐函数"},
+    {"id":"multivariable_extrema","name":"多元函数极值"},
+    {"id":"directional_derivative_gradient","name":"方向导数与梯度"},
+    {"id":"double_integral_region","name":"二重积分区域"},
+    {"id":"coordinate_transformation","name":"坐标变换"},
+    {"id":"triple_integral_region","name":"三重积分区域"},
+    {"id":"path_independence","name":"路径无关"},
+    {"id":"green_formula","name":"Green 公式"},
+    {"id":"gauss_formula","name":"Gauss 公式"},
+    {"id":"stokes_formula","name":"Stokes 公式"},
+    {"id":"series_convergence","name":"级数敛散性"},
+    {"id":"absolute_conditional_convergence","name":"绝对收敛与条件收敛"},
+    {"id":"power_series","name":"幂级数"},
+    {"id":"taylor_series","name":"Taylor 级数"},
+    {"id":"separable_equation","name":"可分离变量方程"},
+    {"id":"first_order_linear_equation","name":"一阶线性方程"},
+    {"id":"second_order_linear_equation","name":"二阶线性方程"}
+  ],
+  "methods": [
+    {"id":"equivalent_infinitesimal","name":"等价无穷小替换"},
+    {"id":"lhopital_rule","name":"洛必达法"},
+    {"id":"taylor_expansion","name":"Taylor 展开"},
+    {"id":"squeeze_theorem","name":"夹逼准则"},
+    {"id":"monotone_bounded","name":"单调有界准则"},
+    {"id":"recurrence_transformation","name":"递推变形"},
+    {"id":"logarithm_transformation","name":"取对数化幂指型"},
+    {"id":"definition","name":"按定义证明或计算"},
+    {"id":"differential_mean_value","name":"微分中值定理"},
+    {"id":"auxiliary_function","name":"构造辅助函数"},
+    {"id":"derivative_sign","name":"导数符号分析"},
+    {"id":"substitution","name":"换元法"},
+    {"id":"integration_by_parts","name":"分部积分"},
+    {"id":"symmetry_periodicity","name":"对称性与周期性"},
+    {"id":"differentiate_under_integral","name":"积分号下求导"},
+    {"id":"polar_coordinates","name":"极坐标变换"},
+    {"id":"cylindrical_coordinates","name":"柱坐标变换"},
+    {"id":"spherical_coordinates","name":"球坐标变换"},
+    {"id":"lagrange_multiplier","name":"Lagrange 乘数法"},
+    {"id":"green_formula","name":"Green 公式"},
+    {"id":"gauss_formula","name":"Gauss 公式"},
+    {"id":"stokes_formula","name":"Stokes 公式"},
+    {"id":"comparison_test","name":"比较判别法"},
+    {"id":"ratio_root_test","name":"比值或根值判别法"},
+    {"id":"standard_series_expansion","name":"利用已知展开式"}
+  ],
+  "aliases": {
+    "taylor_expansion": ["泰勒展开", "Taylor 展开", "泰勒公式"],
+    "lhopital_rule": ["洛必达", "L'Hopital"],
+    "integration_by_parts": ["分部积分法"],
+    "lagrange_multiplier": ["拉格朗日乘数法", "条件极值法"],
+    "equivalent_infinitesimal": ["等价替换", "等价无穷小"]
+  }
+}

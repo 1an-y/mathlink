@@ -1,0 +1,38 @@
+node_modules/
+dist/
+src-tauri/target/
+*.log
+.DS_Store
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+.ssh/
+.npmrc
+.netrc
+.git-credentials
+
+# Local application data
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+attachments/
+backups/
+
+# Local agent settings and generated Tauri schemas
+.agents/
+.codex/
+src-tauri/gen/

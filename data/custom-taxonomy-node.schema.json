@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "custom-taxonomy-node.schema.json",
+  "title": "Custom taxonomy node",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "kind", "name", "origin", "status", "created_at", "updated_at"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^usr_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["problem_type", "knowledge_point", "method"]
+    },
+    "name": {"type": "string", "minLength": 1, "maxLength": 40},
+    "normalized_name": {"type": "string", "minLength": 1, "maxLength": 80},
+    "description": {"type": "string", "maxLength": 200, "default": ""},
+    "chapter_id": {
+      "type": ["string", "null"],
+      "description": "Required for problem types and knowledge points; null for methods"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1, "maxLength": 40},
+      "uniqueItems": true,
+      "default": []
+    },
+    "origin": {"const": "user"},
+    "status": {"type": "string", "enum": ["active", "archived", "merged"]},
+    "merged_into_id": {"type": ["string", "null"], "default": null},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"kind": {"enum": ["problem_type", "knowledge_point"]}}},
+      "then": {"required": ["chapter_id"], "properties": {"chapter_id": {"type": "string", "minLength": 1}}}
+    },
+    {
+      "if": {"properties": {"kind": {"const": "method"}}},
+      "then": {"properties": {"chapter_id": {"type": "null"}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "merged"}}},
+      "then": {"required": ["merged_into_id"], "properties": {"merged_into_id": {"type": "string", "minLength": 1}}}
+    }
+  ]
+}
