@@ -166,6 +166,7 @@ def build_bank(parsed: dict, source_file: str) -> dict:
         answer_text = answer or "（答案待校对补充）"
         problems.append({
             "id": pid,
+            "number": p["number"],
             "title": f"{year} 年{paper_label(paper)} 第 {p['number']} 题",
             "questionText": p["question"] or "（题干待校对补充）",
             "answerText": answer_text,
