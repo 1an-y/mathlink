@@ -1,0 +1,1530 @@
+{
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "calculus",
+  "license": "CC BY-SA 4.0（译自 Active Calculus by Boelkins, CC BY-SA）",
+  "problems": [
+    {
+      "id": "bank.cal.ac.1.01",
+      "title": "人口增长的平均变化率",
+      "questionText": "根据美国人口普查，密歇根州大急流城（Grand Rapids）的人口 1980 年为 181843 人，1990 年为 189126 人，2000 年为 197800 人。（1）1980 年至 2000 年间，该城人口增加了多少人？（2）1980 年至 2000 年间，平均每年增加多少人？（3）函数 $f$ 在区间 $[a,b]$ 上的平均变化率定义为商 $\\frac{f(b)-f(a)}{b-a}$，该量在 $y = f(x)$ 的图象上表示什么？（4）设 $P(t)$ 表示该城在时刻 $t$ 的人口，$t$ 为自 1980 年 1 月 1 日起按年计的时间。求 $P$ 在 $t = 0$ 到 $t = 20$ 上的平均变化率，并指出其单位。（5）若假设该城人口每十年约增长 4%，可用 $P(t) = 181843 (1.04)^{t/10}$ 作为人口模型。用该模型计算 $P$ 在区间 $[5,10]$、$[5,9]$、$[5,8]$、$[5,7]$、$[5,6]$ 上的平均变化率，并据此估计 1985 年 1 月 1 日前后人口的增长速度。",
+      "answerText": "（1）$P(2000) - P(1980) = 197 800 - 181 843 = 15 957$（人）。（2）平均每年增长 $\\frac{15,957}{20} \\approx 798$（人/年）。（3）表示过点 $(a,f(a))$ 与 $(b,f(b))$ 的割线的斜率。（4）$$\\begin{aligned}AV_{[0,20]}=\\frac{P(20)-P(0)}{20-0}=\\frac{197 800 - 181 843}{20}=\\frac{15 957}{20} \\approx 798\\end{aligned}$$（人/年）。（5）$$\\begin{aligned}AV_{[5,10]} &=\\frac{P(10) - P(5)}{10-5} = \\frac{189 116.72 - 185 444.20}{10-5} \\approx 734.50 \\\\ AV_{[5,9]} &= \\frac{188 376.44 - 185 444.20}{9-5} \\approx 733.06 \\\\ AV_{[5,8]} &= \\frac{187 639.06 - 185,444.20}{8-5} \\approx 731.62 \\\\ AV_{[5,7]} &= \\frac{186 904.57 - 185,444.20}{7-5} \\approx 730.19 \\\\ AV_{[5,6]} &= \\frac{186 172.95 - 185,444.20}{6-5} \\approx 728.7535\\end{aligned}$$（人/年）。各值随区间右端点趋于 $t=5$ 而趋于约 729，故可估计 1985 年初人口约以每年 730 人的速度增长，其后一年该城约增加 730 人。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.1 exercise 11 (Grand Rapids population). 原题第 (f) 问为讨论性小问，已删。原书公式中千位分隔用空格（如 15 957），照原样保留。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.02",
+      "title": "含因式分解的 0/0 型极限",
+      "questionText": "设函数 $f(x) = \\frac{16-x^4}{x^2-4}$。（1）求 $f$ 的定义域；（2）用代数方法化简 $\\frac{16-x^4}{x^2-4}$，进而求 $\\lim_{x \\to 2} f(x)$（若存在）；（3）判断下列两个命题是否成立，并说明理由：命题一：$f(2) = -8$；命题二：$\\frac{16-x^4}{x^2-4} = -4-x^2$ 对一切实数 $x$ 成立。",
+      "answerText": "（1）$f$ 的定义域为除 $x = \\pm 2$ 外的一切实数。（2）$$\\begin{aligned}\\frac{16-x^4}{x^2-4} = \\frac{(4-x^2)(4+x^2)}{(x-2)(x+2)} = \\frac{(2-x)(2+x)(4+x^2)}{(x-2)(x+2)}\\end{aligned}$$，由于当 $x \\ne 2$ 时 $\\frac{2-x}{x-2} = -1$，故 $$\\begin{aligned}\\lim_{x \\to 2} \\frac{16-x^4}{x^2-4} = \\lim_{x \\to 2} \\frac{(2-x)(2+x)(4+x^2)}{(x-2)(x+2)} = \\lim_{x \\to 2} -1(4+x^2)\\end{aligned}$$，从而 $$\\begin{aligned}\\lim_{x \\to 2} \\frac{16-x^4}{x^2-4} = -1(4+2^2) = -8\\end{aligned}$$。（3）两个命题均不成立：$f(2)$ 无定义，故 $f(2) = -8$ 不成立——极限存在而函数在该点无定义，$x = 2$ 为可去间断点；$\\frac{16-x^4}{x^2-4} = -4-x^2$ 仅在 $x \\ne \\pm 2$ 时成立，求极限时可以放心使用，因为求极限过程只要求 $x$ 趋于 2 而不取 2。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [
+        "continuity_and_discontinuity"
+      ],
+      "knowledgePointIds": [
+        "limit_operations",
+        "discontinuity"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §1.2 exercise 8. 原题的数值列表估算与作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.03",
+      "title": "含绝对值函数的极限存在性",
+      "questionText": "设 $g(x) = -\\frac{|x+3|}{x+3}$。（1）求 $g$ 的定义域；（2）讨论 $\\lim_{x \\to -3} g(x)$ 是否存在，若存在求其值（提示：当 $a \\ge 0$ 时 $|a| = a$，当 $a \\lt 0$ 时 $|a| = -a$）；（3）判断下列两个命题是否成立，并说明理由：命题一：$g(-3) = -1$；命题二：$-\\frac{|x+3|}{x+3} = -1$。",
+      "answerText": "（1）$g$ 的定义域为除 $x = -3$ 外的一切实数。（2）当 $x \\gt -3$ 时，$-\\frac{|x+3|}{x+3} = -\\frac{x+3}{x+3} = -1$；当 $x \\lt -3$ 时，$-\\frac{|x+3|}{x+3} = -\\frac{-(x+3)}{x+3} = +1$。左、右极限均存在但不相等，故 $\\lim_{x \\to -3} g(x)$ 不存在（$x = -3$ 为跳跃间断点）。（3）两个命题均不成立：$-3$ 不在 $g$ 的定义域内，$g(-3)$ 无定义；第二个等式仅在 $x \\gt -3$ 时成立。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_existence",
+      "secondaryProblemTypeIds": [
+        "continuity_and_discontinuity"
+      ],
+      "knowledgePointIds": [
+        "one_sided_limit",
+        "discontinuity"
+      ],
+      "methodIds": [
+        "one_sided_limit"
+      ],
+      "notes": "Source: Active Calculus §1.2 exercise 9. 原题的数值列表估算与作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.04",
+      "title": "人口模型的平均变化率与瞬时变化率",
+      "questionText": "设某国人口 $P$（以十亿人为单位）近似满足 $P(t) = 1.15(1.014)^t$，其中 $t$ 为自 1993 年年初起算的年数。（1）按此模型，求 1993 年 1 月 1 日至 2000 年 1 月 1 日间人口的总改变量与该时段的平均变化率，并比较平均变化率与 2000 年 1 月 1 日人口瞬时变化率的大小（须指出各量的单位）；（2）按此模型，求自 2012 年 1 月 1 日开始的十年间人口的平均变化率；（3）写出 $t = 22.5$（即 2015 年 7 月 1 日）处瞬时变化率 $P'(22.5)$ 的极限表达式，估计其值（指出单位），并求曲线 $y = P(t)$ 在该点处的切线方程。",
+      "answerText": "（1）$P(7)-P(0) = 1.15(1.014)^7-1.15 \\approx 0.1175$（十亿人）；平均变化率 $AV_{[0,7]}=\\frac{0.1175}{7} \\approx 0.01679$（十亿人/年）。$t = 7$ 处的瞬时变化率为 $$\\begin{aligned}P'(7) = \\lim_{h \\to 0} AV_{[7,7+h]} = \\lim_{h \\to 0} \\frac{1.15(1.014)^{7+h}-1.15(1.014)^7}{h}\\end{aligned}$$，用较小的 $h$ 值估计得 $P'(7) \\approx 0.0176$（十亿人/年），故 $P'(7) \\gt AV_{[0,7]}$，即瞬时变化率大于平均变化率。（2）$$\\begin{aligned}AV_{[19,29]}=\\frac{1.15(1.014)^{29}-1.15(1.014)^{19}}{29-19} \\approx 0.02234\\end{aligned}$$（十亿人/年）。（3）$$\\begin{aligned}P'(22.5) = \\lim_{h \\to 0} \\frac{1.15(1.014)^{22.5+h}-1.15(1.014)^{22.5}}{h}\\end{aligned}$$，估计得 $P'(22.5) \\approx 0.02186$（十亿人/年）；过点 $(22.5, P(22.5))$、斜率为 $0.02186$ 的切线方程为 $y - 1.57236 = 0.02186(t-22.5)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.3 exercise 12 (China population model). 原书解答两处按 115 计算，与题面 $P(t)=1.15(1.014)^t$（单位：十亿人）不一致，系排版错误，本答案统一按 1.15 计算；原书 $P'(7)\\approx 0.1762$ 依题面模型应为 $\\approx 0.0176$（答案为项目自算）。原题 today's date 已固定为 2015-07-01（$t=22.5$，与原书一致）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.05",
+      "title": "用定义求一点处的导数",
+      "questionText": "用导数的极限定义求下列各函数在给定点 $a$ 处的导数值 $f'(a)$（先代数化简求出精确值）：（1）$f(x) = x^2 - 3x$，$a = 2$；（2）$f(x) = \\frac{1}{x}$，$a = 1$；（3）$f(x) = \\sqrt{x}$，$a = 1$；（4）$f(x) = 2 - |x-1|$，$a = 1$；（5）$f(x) = \\sin(x)$，$a = \\frac{\\pi}{2}$。",
+      "answerText": "（1）$$\\begin{aligned}f'(2) &= \\lim_{h \\to 0} \\frac{f(2+h)-f(2)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{\\left[(2+h)^2 - 3(2+h)\\right] - (-2)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{\\left[4+4h+h^2 - 6 - 3h\\right] + 2}{h} \\\\ &= \\lim_{h \\to 0} \\frac{h^2 + h}{h} \\\\ &= \\lim_{h \\to 0} \\frac{h(h+1)}{h} \\\\ &= \\lim_{h \\to 0} h+1 \\\\ &= 1\\end{aligned}$$（2）$$\\begin{aligned}f'(1) &= \\lim_{h \\to 0} \\frac{f(1+h)-f(1)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{\\frac{1}{1+h} - 1}{h} \\left(\\frac{1+h}{1+h} \\right) \\\\ &= \\lim_{h \\to 0} \\frac{1-(1+h)}{h(1+h)} \\\\ &= \\lim_{h \\to 0} -\\frac{1}{1+h} \\\\ &= -1\\end{aligned}$$（3）$$\\begin{aligned}f'(1) &= \\lim_{h \\to 0} \\frac{f(1+h)-f(1)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{\\sqrt{1+h}-\\sqrt{1}}{h} \\left(\\frac{\\sqrt{1+h}+1}{\\sqrt{1+h}+1} \\right) \\\\ &= \\lim_{h \\to 0} \\frac{(1+h)-1}{h(\\sqrt{1+h}+1)} \\\\ &= \\lim_{h \\to 0} \\frac{h}{h(\\sqrt{1+h}+1)} \\\\ &= \\frac{1}{\\sqrt{1+h}+1} \\\\ &= \\frac{1}{2}\\end{aligned}$$（4）注意到 $\\frac{f(1+h)-f(1)}{h} = \\frac{[2-|(1+h)-1|] - 2}{h} = \\frac{-|h|}{h}$：当 $h \\gt 0$ 时该商恒为 $-1$，当 $h \\lt 0$ 时恒为 $1$，故 $\\lim_{h \\to 0} \\frac{f(1+h)-f(1)}{h}$ 不存在，即 $f'(1)$ 不存在（曲线在 $(1,2)$ 处有尖角）。（5）$$\\begin{aligned}\\frac{f(\\frac{\\pi}{2}+h)-f(\\frac{\\pi}{2})}{h} &= \\frac{\\sin(\\frac{\\pi}{2}+h) - \\sin \\frac{\\pi}{2}}{h} \\\\ &= \\frac{\\sin(\\frac{\\pi}{2}+h) - 1}{h}\\end{aligned}$$，由正弦和角公式化简得该商等于 $\\frac{\\cos(h) - 1}{h}$，故 $$\\begin{aligned}f'(\\frac{\\pi}{2}) &= \\lim_{h \\to 0} \\frac{f(\\frac{\\pi}{2}+h)-f(\\frac{\\pi}{2})}{h} \\\\ &= \\lim_{h \\to 0} \\frac{\\cos(h) - 1}{h} \\\\ &= 0\\end{aligned}$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition",
+        "one_sided_limit"
+      ],
+      "notes": "Source: Active Calculus §1.3 exercise 13. 原题要求三种方法（代数/数值/图象）交叉验证，此处保留代数法；原书解答 (2) 中 $\\frac{-h)}{h(1+h)}$ 的多余右括号系原文笔误，照录。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.06",
+      "title": "用定义求多项式函数的导函数",
+      "questionText": "（1）用导数的极限定义求函数 $g(x) = x^2 - x + 3$ 的导函数 $g'(x)$；（2）用同样的方法求 $p(x) = 5x^2 - 4x + 12$ 的导函数 $p'(x)$。",
+      "answerText": "（1）由定义，$$\\begin{aligned}g'(x) &= \\lim_{h \\to 0} \\frac{g(x+h)-g(x)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{(x+h)^2 - (x+h) + 3 - (x^2 - x + 3)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{x^2 + 2xh + h^2 - x-h + 3 - x^2 + x - 3}{h} \\\\ &= \\lim_{h \\to 0} \\frac{2xh + h^2 - h}{h} \\\\ &= \\lim_{h \\to 0} \\frac{h(2x + h - 1)}{h} \\\\ &= \\lim_{h \\to 0} (2x + h - 1) \\\\ &= 2x - 1\\end{aligned}$$。（2）$$\\begin{aligned}p'(x) &= \\lim_{h \\to 0} \\frac{p(x+h)-p(x)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{5(x+h)^2 - 4(x+h) + 12 - (5x^2 - 4x + 12)}{h} \\\\ &= \\lim_{h \\to 0} \\frac{5x^2 + 10xh + 5h^2 - 4x-4h + 12 - 5x^2 + 4x - 12}{h} \\\\ &= \\lim_{h \\to 0} \\frac{10xh + 5h^2 - 4h}{h} \\\\ &= \\lim_{h \\to 0} \\frac{h(10x + 5h - 4)}{h} \\\\ &= \\lim_{h \\to 0} (10x + 5h - 4) \\\\ &= 10x - 4\\end{aligned}$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.4 exercise 11. 原题的作图验证与常数影响讨论小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.07",
+      "title": "用中心差商估计导数值",
+      "questionText": "一杯咖啡的温度 $F$（单位：华氏度）随时间 $t$（单位：分钟）的变化由 $F(t) = 75 + 110 e^{-0.05t}$ 给出。（1）用 $h = 0.01$ 的中心差商估计 $F'(10)$ 的值；（2）指出（1）中所得数值的单位，并说明其实际含义。",
+      "answerText": "（1）由中心差商公式，$$F'(10) \\approx \\frac{F(10.01) - F(9.99)}{0.02} = \\frac{(75 + 110 e^{-0.05\\cdot 10.01}) - (75 + 110 e^{-0.05\\cdot 9.99})}{0.02} \\approx -3.33592$$。（2）由于 $F$ 以华氏度计、$t$ 以分钟计，$F'(10) \\approx -3.33592$ 的单位为华氏度/分钟；其实际含义是：在时刻 $t = 10$ 分钟，咖啡温度正以约每分钟 $3.33592$ 华氏度的瞬时速率下降，即其后一分钟内温度预计约下降 $3.33592$ 华氏度。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.5 exercise 6. 原题的定性比较与图象描述小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.08",
+      "title": "由函数值与导数值判断函数性态",
+      "questionText": "设 $y = f(x)$ 二阶可导且 $f''$ 连续，已知 $f(2) = -3$，$f'(2) = 1.5$，$f''(2) = -0.25$。（1）$f$ 在 $x = 2$ 附近是单调增加还是单调减少？曲线在该点附近是凹（$f''>0$，向上凹）还是凸（$f''<0$，向上凸）？（2）预测 $f(2.1)$ 大于、等于还是小于 $-3$？（3）预测 $f'(2.1)$ 大于、等于还是小于 $1.5$？",
+      "answerText": "（1）$f'(2) = 1.5 \\gt 0$，故 $f$ 在 $x = 2$ 附近单调增加；$f''(2) = -0.25 \\lt 0$，故曲线在 $x = 2$ 附近凸（向上凸）。（2）大于 $-3$：$f$ 在 $x = 2$ 处增加，故 $f(2.1)$ 应大于 $f(2) = -3$。（3）小于 $1.5$：$f''(2) \\lt 0$ 表明 $f'$ 在 $x = 2$ 附近单调减少，故 $f'(2.1)$ 应小于 $f'(2) = 1.5$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "concavity_inflection",
+      "secondaryProblemTypeIds": [
+        "monotonicity_extrema"
+      ],
+      "knowledgePointIds": [
+        "monotonicity",
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §1.6 exercise 10. 原题的作图小问已删。术语按术语表：concave down＝凸（向上凸）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.09",
+      "title": "用数据表估计导数与二阶导数",
+      "questionText": "一名蹦极者的高度 $h$（单位：英尺）随时间 $t$（单位：秒）变化，部分数据如下表：当 $t$ 依次为 0.0，0.5，1.0，1.5，2.0，2.5，3.0，3.5，4.0，4.5，5.0 时，$h(t)$ 依次为 200，184.2，159.9，131.9，104.7，81.8，65.5，56.8，55.5，60.4，69.8；当 $t$ 依次为 5.5，6.0，6.5，7.0，7.5，8.0，8.5，9.0，9.5，10.0 时，$h(t)$ 依次为 81.6，93.7，104.4，112.6，117.7，119.4，118.2，114.8，110.0，104.7。（1）利用表中数据估计 $h'(4.5)$、$h'(5)$ 与 $h'(5.5)$，并指出蹦极者在哪个时刻上升最快；（2）结合（1）的结果估计 $h''(5)$，并说明该值刻画蹦极者的什么物理量及其单位。",
+      "answerText": "（1）用中心差商估计：$$\\begin{aligned}h'(4.5) &\\approx \\frac{h(5)-h(4)}{5-4} = \\frac{69.8 - 55.5}{1} = 14.3 \\\\ h'(5) &\\approx \\frac{h(5.5)-h(4.5)}{5.5-4.5} = \\frac{81.6 - 60.4}{1} = 21.2 \\\\ h'(5.5) &\\approx \\frac{h(6)-h(5)}{6-5} = \\frac{93.7 - 69.8}{1} = 23.9\\end{aligned}$$（英尺/秒）。故蹦极者在 $t = 5.5$ 秒时上升最快，速率约 $23.9$ 英尺/秒。（2）再用中心差商估计 $$\\begin{aligned}h''(5) \\approx \\frac{h'(5.5) - h'(4.5)}{5.5-4.5} = \\frac{23.9 - 14.3}{1} = 9.6\\end{aligned}$$。$h''(5)$ 度量蹦极者在 $t = 5$ 秒时的加速度，即速度的瞬时变化率，单位为英尺/秒²。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.6 exercise 12. 原书解答 $h'(5)$ 分母误写作 5.5-4.4（应为 5.5-4.5），本答案已按正确分母书写（数值结果 21.2 与原书一致）。原题凹凸性讨论小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.10",
+      "title": "连续、极限与可导关系的构造题",
+      "questionText": "分别写出一个满足所述条件的函数（给出解析式即可）；若这样的函数不存在，请说明理由。（1）函数 $f$ 在 $a = 2$ 处连续，但在 $a = 2$ 处不可导；（2）函数 $g$ 在 $a = 3$ 处可导，但在 $a = 3$ 处极限不存在；（3）函数 $h$ 在 $a = -2$ 处有极限，在 $a = -2$ 处有定义，但在 $a = -2$ 处不连续；（4）函数 $p$ 同时满足：$p(-1) = 3$ 且 $\\lim_{x \\to -1} p(x) = 2$；$p(0) = 1$ 且 $p'(0) = 0$；$\\lim_{x \\to 1} p(x) = p(1)$ 且 $p'(1)$ 不存在。",
+      "answerText": "（1）$f(x) = |x-2|$：在 $a = 2$ 处 $f(2) = 0 = \\lim_{x \\to 2} f(x)$，连续；但曲线在 $a = 2$ 处有尖角，不可导。（2）不存在：在一点可导的函数必在该点连续，从而必在该点有极限。（3）取 $x \\ne -2$ 时 $f(x) = 1$，且 $f(-2) = 4$：$\\lim_{x \\to -2} f(x) = 1$ 存在，$f(-2)$ 有定义，但 $f(-2) = 4 \\ne 1$，故在 $a = -2$ 处不连续（可去间断点）。（4）一例为 $$p(x)=\\begin{cases} 2, & x \\lt -1 \\\\ 3, & x = -1 \\\\ x^2 + 1, & -1 \\lt x \\le 1 \\\\ 3 - x, & x \\gt 1\\end{cases}$$ 验证：$p(-1)=3$，且 $x \\to -1$ 两侧函数值均趋于 $2$，故 $\\lim_{x \\to -1} p(x) = 2$；$p(0) = 1$，$p'(0) = 0$；$p(1) = 2$，$\\lim_{x \\to 1} p(x) = 2 = p(1)$，而 $p'_-(1) = 2$、$p'_+(1) = -1$，故 $p'(1)$ 不存在。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [
+        "one_variable_differential"
+      ],
+      "primaryProblemTypeId": "continuity_and_discontinuity",
+      "secondaryProblemTypeIds": [
+        "piecewise_derivative"
+      ],
+      "knowledgePointIds": [
+        "continuity",
+        "discontinuity",
+        "differentiability_continuity"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.7 exercise 8. 原书 (4) 的答案文字经图注转写有缺漏，本答案的分段函数为项目自拟并已逐条验证满足全部条件。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.7",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.11",
+      "title": "讨论 $g(x)=\\sqrt{|x|}$ 在原点的可导性",
+      "questionText": "设 $g(x) = \\sqrt{|x|}$。（1）用导数的极限定义证明 $g'(0) = \\lim_{h \\to 0} \\frac{\\sqrt{|h|}}{h}$；（2）讨论 $g'(0)$ 是否存在，并说明理由。",
+      "answerText": "（1）按定义，$$\\begin{aligned}g'(0) & = \\lim_{h \\to 0} \\frac{g(0+h) - g(0)}{h} \\\\ & = \\lim_{h \\to 0} \\frac{\\sqrt{|h|} - \\sqrt{|0|}}{h} \\\\ & = \\lim_{h \\to 0} \\frac{\\sqrt{|h|}}{h}\\end{aligned}$$（2）分别考虑单侧极限：当 $h \\to 0^+$ 时 $\\frac{\\sqrt{|h|}}{h} = \\frac{\\sqrt{h}}{h} = \\frac{1}{\\sqrt{h}} \\to +\\infty$；当 $h \\to 0^-$ 时 $\\frac{\\sqrt{|h|}}{h} = \\frac{\\sqrt{-h}}{h} = -\\frac{1}{\\sqrt{-h}} \\to -\\infty$。例如取 $h = \\pm 0.01$ 得 $\\frac{\\sqrt{|0.01|}}{0.01} = 10$，$\\frac{\\sqrt{|-0.01|}}{-0.01} = -10$。左、右极限分别趋于 $-\\infty$ 与 $+\\infty$，故 $g'(0)$ 不存在，即 $g$ 在 $x = 0$ 处不可导（曲线在原点处有尖角）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "differentiability_continuity"
+      ],
+      "methodIds": [
+        "definition",
+        "one_sided_limit"
+      ],
+      "notes": "Source: Active Calculus §1.7 exercise 10. 原题的作图与数值列表小问已删，保留定义推导与极限讨论。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.7",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.12",
+      "title": "由局部线性化求函数值与导数值",
+      "questionText": "设函数 $y = p(x)$ 在 $a = 3$ 处的局部线性化（切线近似）为 $L(x) = -2x + 5$。（1）求 $p(3)$ 与 $p'(3)$ 的值，并说明理由；（2）估计 $p(2.79)$ 的值；（3）设 $p''(3) = 0$ 且已知当 $x \\lt 3$ 时 $p''(x) \\lt 0$，问（2）中的估计偏大还是偏小？",
+      "answerText": "（1）切线在切点处与曲线有相同的函数值与斜率，故 $p(3) = L(3) = -1$，$p'(3) = L'(3) = -2$。（2）利用局部线性化，$p(2.79) \\approx L(2.79) = -2(2.79) + 5 = -0.58$。（3）偏大。由 $p''(x) \\lt 0$（$x \\lt 3$）知曲线在切点左侧凸（向上凸），此时切线位于曲线上方，故 $L(2.79)$ 高于 $p(2.79)$，估计值偏大。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "concavity_inflection"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "concavity_inflection"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §1.8 exercise 7. 原题的作图小问已删。局部线性化（local linearization）即切线近似，译名沿用教材表述。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.8",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.13",
+      "title": "由数据表作线性近似并判断偏差",
+      "questionText": "将一个土豆放入烤箱，其温度 $F$（单位：华氏度）在若干时刻的记录如下表（时间 $t$ 以分钟计）：当 $t$ 依次为 0，10，20，30，40，50，60 时，$F(t)$ 依次为 65，94.7，141.7，167.6，182.4，197.9，209.3。（1）用中心差商估计 $F'(30)$；（2）写出 $y = F(t)$ 在 $a = 30$ 处的局部线性化 $y = L(t)$；（3）用（2）中的线性化估计 $F(33)$；（4）判断（3）中的估计偏大还是偏小，并说明理由。",
+      "answerText": "（1）取 $h = 10$ 的中心差商：$$F'(30) \\approx \\frac{F(40)-F(20)}{40-20} = \\frac{182.4-141.7}{20} = 2.035$$（华氏度/分钟）。（2）$a = 30$ 处的局部线性化为 $$L(t) = F'(30)(t-30)+F(30) \\approx 2.035(t-30) + 167.6$$。（3）由（2），$F(33) \\approx L(33) \\approx 2.035 \\times 3 + 167.6 = 173.705$（华氏度）。（4）偏大。表中数据显示 $F(t)$ 在 $t = 30$ 附近增长但增长放缓，即曲线在该处凸（向上凸，$F'' \\lt 0$），切线位于曲线上方，故线性化给出的估计偏大。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "concavity_inflection"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.8 exercise 8. 原书解答误用 $F(20)=141.1$（题面数据表为 141.7），得出 $F'(30)\\approx 2.065$；本答案按题面数据自算得 $2.035$，相应 $F(33)\\approx 173.705$（答案为项目自算）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.8",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.14",
+      "title": "用局部线性化估计位置并判断偏差",
+      "questionText": "一物体沿直线运动，其位置函数 $y = s(t)$ 可导，$s(t)$ 表示 $t$ 时刻物体相对于原点的位置。已知 $t = 9$ 秒时物体的位置为 $s(9) = 4$ 英尺（即原点右侧 4 英尺），该时刻的瞬时速度为 $-1.2$ 英尺/秒，加速度为 $0.08$ 英尺/秒²。（1）用局部线性化估计 $t = 9.34$ 时物体的位置；（2）该估计偏大还是偏小？（3）在 $t = 9$ 时刻，物体正朝原点运动还是远离原点？其速度在增大还是减小？",
+      "answerText": "（1）$s$ 在 $t = 9$ 处的线性化为 $L(t) = s(9) + s'(9)(t-9) = 4 - 1.2(t-9)$，故 $s(9.34) \\approx L(9.34) = 4 - 1.2 \\times 0.34 = 3.592$（英尺）。（2）偏小（低估）。由 $s''(9) = 0.08 \\gt 0$ 知曲线在 $t = 9$ 附近凹（向上凹），切线位于曲线下方，故 $L(9.34)$ 低估了 $s(9.34)$。（3）$s'(9) = -1.2 \\lt 0$，物体正朝原点方向（位置减小的一侧）运动；$s''(9) = 0.08 \\gt 0$ 表明速度在增大（负的速度值在增大），即物体正在减速返回。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "concavity_inflection"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "concavity_inflection"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §1.8 exercise 9. 原书解答 (b)(c) 误将 t=9 写作 t=4，本答案已按题设 t=9 修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.8",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.15",
+      "title": "由导函数信息分析原函数并作切线近似",
+      "questionText": "设某函数 $f$ 的导函数为 $f'(x) = (x-1)e^{-x^2}$（$f$ 本身的表达式未知）。（1）求使 $f'(x) = 0$ 的 $x$ 值，并说明理由；（2）求使 $f''(x) \\gt 0$ 的 $x$ 的范围，并说明此时 $f$ 的图象是凹还是凸；（3）设 $f(2) = -3$，用 $f$ 在 $x = 2$ 处的切线近似估计 $f(1.88)$，并判断该估计值比真值大还是小。",
+      "answerText": "（1）由于 $e$ 的任何次幂恒为正，$f'(x) = (x-1)e^{-x^2} = 0$ 当且仅当 $x = 1$。（2）求导得 $f''(x) = e^{-x^2}\\left(1 + 2x - 2x^2\\right)$（答案为项目自算），由 $e^{-x^2} \\gt 0$ 知 $f''(x) \\gt 0 \\iff 2x^2 - 2x - 1 \\lt 0 \\iff \\frac{1-\\sqrt{3}}{2} \\lt x \\lt \\frac{1+\\sqrt{3}}{2}$，即约 $-0.37 \\lt x \\lt 1.37$；此时 $f$ 的图象凹（向上凹）。（3）$f'(2) = (2-1)e^{-4} \\approx 0.01832$，故切线近似为 $L(x) = f(2) + f'(2)(x-2) \\approx -3 + 0.01832(x-2)$，于是 $f(1.88) \\approx L(1.88) \\approx -3 + 0.01832(1.88-2) = -3.0022$。在 $x = 2$ 附近 $f''(x) \\lt 0$，曲线凸（向上凸），切线位于曲线上方，故估计值大于真值。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "concavity_inflection"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §1.8 exercise 10. 原题 (a)(b) 中的作图辅助要求已删。原书解答 (c) 算式 $-3.00022$ 与其答案 $-3.0022$ 不一致，正确值为 $-3.0022$。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.8",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.01",
+      "title": "由运算法则求组合函数的函数值与导数值",
+      "questionText": "设 $f$ 与 $g$ 均可导，且已知 $f(2) = 5$，$g(2) = -3$，$f'(2) = -1/2$，$g'(2) = 2$。（1）设 $h(x) = 3f(x) - 4g(x)$，求 $h(2)$ 与 $h'(2)$；（2）求曲线 $y = h(x)$ 在点 $(2,h(2))$ 处的切线方程；（3）设 $p(x) = -2f(x) + \\frac{1}{2}g(x)$，问 $p$ 在 $a = 2$ 处是单调增加、单调减少还是 neither（既不增也不减）？并说明理由；（4）利用 $p$ 在点 $(2,p(2))$ 处的局部线性化估计 $p(2.03)$。",
+      "answerText": "（1）$h(2) = 3f(2) - 4g(2) = 3(5) - 4(-3) = 27$；由和与常数倍法则 $h'(x) = 3f'(x) - 4g'(x)$，故 $h'(2) = 3f'(2) - 4g'(2) = 3(-1/2) - 4(2) = -19/2$。（2）切线方程为 $L(x) = h(2) + h'(2)(x-2)$，即 $$L(x) = 27 - \\frac{19}{2}(x-2)$$。（3）$p'(x) = -2f'(x) + \\frac{1}{2}g'(x)$，故 $p(2) = -2(5) + \\frac{1}{2}(-3) = -\\frac{23}{2}$，$p'(2) = -2(-\\frac{1}{2}) + \\frac{1}{2}(2) = 2 \\gt 0$，因此 $p$ 在 $x = 2$ 处单调增加。（4）$p$ 在 $a = 2$ 处的线性化为 $L(x) = p(2) + p'(2)(x-2) = -\\frac{23}{2} + 2(x-2)$，故 $$\\begin{aligned}p(2.03) \\approx L(2.03) = -\\frac{23}{2} + 2(0.03) = -11.44\\end{aligned}$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.1 exercise 8. taxonomy 无『导数四则运算法则』知识点，故以 derivative_definition 为最近似知识点。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.02",
+      "title": "三角函数和差组合的切线与凹凸性",
+      "questionText": "设 $f(x) = 3\\cos(x) - 2\\sin(x) + 6$。（1）求曲线 $y = f(x)$ 在 $a = \\frac{\\pi}{4}$ 处切线的精确斜率；（2）求 $y = f(x)$ 在 $a = \\pi$ 处的切线近似（局部线性化）；（3）在 $a = \\frac{\\pi}{2}$ 处，$f$ 是单调增加、单调减少还是 neither？（4）在 $a = \\frac{3\\pi}{2}$ 处，曲线的切线位于曲线上方、下方还是 neither？不用作图，说明判定方法。",
+      "answerText": "（1）$f'(x) = -3\\sin(x) - 2\\cos(x)$，故 $$\\begin{aligned}f'\\left(\\frac{\\pi}{4}\\right) &= -3\\sin\\left(\\frac{\\pi}{4}\\right) - 2\\cos\\left(\\frac{\\pi}{4}\\right) = -5\\left(\\frac{\\sqrt{2}}{2}\\right)\\end{aligned}$$。（2）$f(\\pi) = 3\\cos(\\pi) - 2\\sin(\\pi) + 6 = 3$，$f'(\\pi) = -3\\sin(\\pi) - 2\\cos(\\pi) = 2$，故线性化为 $$L(x) = 3+2(x-\\pi)$$。（3）$f'\\left(\\frac{\\pi}{2}\\right) = -3\\sin\\left(\\frac{\\pi}{2}\\right) - 2\\cos\\left(\\frac{\\pi}{2}\\right) = -3 \\lt 0$，故 $f$ 在 $a = \\frac{\\pi}{2}$ 处单调减少。（4）$f''(x) = -3\\cos(x)+2\\sin(x)$，$$\\begin{aligned}f''\\left(\\frac{3\\pi}{2}\\right) = -3\\cos\\left(\\frac{3\\pi}{2}\\right) + 2\\sin\\left(\\frac{3\\pi}{2}\\right) = -2 \\lt 0\\end{aligned}$$，曲线在 $a = \\frac{3\\pi}{2}$ 处凸（向上凸），故切线位于曲线上方（凹凸性由二阶导数符号判定，无需作图）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "concavity_inflection"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §2.2 exercise 5. 原书解答 (a) 中间行误写为 $-3(\\frac{\\sqrt{2}}{2})-3(\\frac{\\sqrt{2}}{2})$（应为 $-3$ 与 $-2$ 两项），本答案已按正确项书写（最终值 $-5\\frac{\\sqrt{2}}{2}$ 与原书一致）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.03",
+      "title": "用定义证明 $(\\sin x)'=\\cos x$",
+      "questionText": "本题用导数的极限定义证明 $\\frac{d}{dx}[\\sin(x)] = \\cos(x)$。设 $f(x) = \\sin(x)$，由定义 $$\\begin{aligned}f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin(x)}{h}\\end{aligned}$$。（1）利用正弦和角公式 $\\sin(\\alpha + \\beta) = \\sin(\\alpha)\\cos(\\beta) + \\cos(\\alpha)\\sin(\\beta)$ 及代数变形，证明 $$\\begin{aligned}f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x)(\\cos(h)-1) + \\cos(x)\\sin(h)}{h}\\end{aligned}$$；（2）说明为什么可以把与 $h$ 无关的因子提到极限号外，从而 $$\\begin{aligned}f'(x) = \\sin(x) \\cdot \\lim_{h \\to 0} \\frac{\\cos(h) -1 }{h} + \\cos(x) \\cdot \\lim_{h \\to 0} \\frac{\\sin(h)}{h}\\end{aligned}$$；（3）求极限 $\\lim_{h \\to 0} \\frac{\\cos(h) - 1}{h}$ 与 $\\lim_{h \\to 0} \\frac{\\sin(h)}{h}$ 的值；（4）综合以上结果给出 $f'(x)$；并用同样的方法说明 $\\frac{d}{dx}[\\cos(x)] = -\\sin(x)$。",
+      "answerText": "（1）由和角公式 $\\sin(x+h) = \\sin(x)\\cos(h) + \\cos(x)\\sin(h)$，$$\\begin{aligned}f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x)\\cos(h) + \\cos(x)\\sin(h) - \\sin(x)}{h}\\end{aligned}$$，合并第一、三项并提出因子 $\\sin(x)$，即得 $$\\begin{aligned}f'(x) = \\lim_{h \\to 0} \\frac{ \\sin(x)(\\cos(h)-1) + \\cos(x)\\sin(h) }{h}\\end{aligned}$$。（2）在上述极限中 $x$ 固定而 $h$ 变化，$\\sin(x)$ 与 $\\cos(x)$ 均可视为常数提到极限号外；再利用极限的四则运算法则（和的极限等于极限的和），即得所述表达式。（3）$$\\begin{aligned}\\lim_{h \\to 0} \\left( \\frac{\\cos(h)-1}{h} \\right) = 0\\end{aligned}$$，$$\\begin{aligned}\\lim_{h \\to 0} \\left( \\frac{\\sin(h)}{h} \\right) = 1\\end{aligned}$$（可用 $h = \\pm 0.01, \\pm 0.001, \\pm 0.0001$ 等小值验证）。（4）$$\\begin{aligned}f'(x) = \\sin(x) \\cdot \\lim_{h \\to 0} \\left( \\frac{\\cos(h)-1}{h} \\right) + \\cos(x) \\cdot \\lim_{h \\to 0} \\left( \\frac{\\sin(h)}{h} \\right) = \\sin(x) \\cdot 0 + \\cos(x) \\cdot 1 = \\cos(x)\\end{aligned}$$。对 $\\cos(x)$ 作完全平行的推导（利用 $\\cos(\\alpha + \\beta) = \\cos(\\alpha) \\cos(\\beta) - \\sin(\\alpha) \\sin(\\beta)$）即得 $\\frac{d}{dx}[\\cos(x)] = -\\sin(x)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [
+        "function_limit_continuity"
+      ],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "limit_proof"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "important_limits"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §2.2 exercise 6.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.04",
+      "title": "乘法与除法法则的函数值与导数值计算",
+      "questionText": "设 $f$ 与 $g$ 均可导，且已知 $f(2) = 5$，$g(2) = -3$，$f'(2) = -1/2$，$g'(2) = 2$。（1）设 $h(x) = g(x) \\cdot f(x)$，求 $h(2)$ 与 $h'(2)$；（2）求曲线 $y = h(x)$ 在点 $(2,h(2))$ 处的切线方程；（3）设 $r(x) = \\frac{g(x)}{f(x)}$，问 $r$ 在 $a = 2$ 处是单调增加、单调减少还是 neither？并说明理由；（4）利用 $r$ 在点 $(2,r(2))$ 处的局部线性化估计 $r(2.06)$。",
+      "answerText": "（1）$h(2) = g(2) \\cdot f(2) = (5) \\cdot (-3) = -15$；由乘法法则 $h'(x) = g(x) \\cdot f'(x) + f(x) \\cdot g'(x)$，故 $h'(2) = g(2) \\cdot f'(2) + f(2) \\cdot g'(2) = (-3)(-1/2) + (5)(2) = 23/2$。（2）切线方程为 $L(x) = h(2) + h'(2)(x-2)$，即 $$L(x) = -15 + 23/2(x-2)$$。（3）由除法法则 $r'(x) = \\frac{f(x) \\cdot g'(x) - g(x) \\cdot f'(x)}{(f(x))^2}$，故 $r'(2) = \\frac{(5)(2) - (-3)(-1/2)}{(5)^2} = \\frac{17/2}{25} = \\frac{17}{50} \\gt 0$，因此 $r$ 在 $a = 2$ 处单调增加。（4）$r(2) = \\frac{g(2)}{f(2)} = -\\frac{3}{5}$，$r$ 在 $a = 2$ 处的线性化为 $L(x) = r(2) + r'(2)(x-2) = -\\frac{3}{5} + \\frac{17}{50}(x-2)$，故 $$\\begin{aligned}r(2.06) \\approx L(2.06) = -\\frac{3}{5} + \\frac{17}{50}(2.06-2) = -0.5796\\end{aligned}$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.3 exercise 11.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.05",
+      "title": "油耗函数的倒数与乘积关系求导",
+      "questionText": "设 $f(v)$ 为汽车以速度 $v$（千米/小时）行驶时的油耗（单位：升/千米），即 $f(v)$ 表示汽车以速度 $v$ 行驶时每行驶一千米所消耗的汽油升数。已知 $f(80)=0.05$，$f'(80) = 0.0004$。（1）设 $g(v)$ 为同一汽车以速度 $v$ 行驶时每升汽油可行驶的距离。写出 $g(v)$ 与 $f(v)$ 的关系式，并求 $g(80)$ 与 $g'(80)$（指出单位）；（2）设 $h(v)$ 为汽车以速度 $v$ 行驶时每小时的油耗（单位：升/小时）。写出 $h(v)$ 与 $f(v)$ 的关系式，并求 $h(80)$ 与 $h'(80)$（指出单位）。",
+      "answerText": "（1）$g(v)$ 的单位是千米/升，与 $f(v)$（升/千米）互为倒数：$g(v) = \\frac{1}{f(v)}$。由除法法则，$$\\begin{aligned}g'(v) = \\frac{f(v) \\cdot 0 - 1 \\cdot f'(v)}{f(v)^2} = -\\frac{f'(v)}{f(v)^2}\\end{aligned}$$。于是 $g(80) = \\frac{1}{f(80)} = \\frac{1}{0.05} = 20$（千米/升），$$\\begin{aligned}g'(80) = -\\frac{f'(80)}{f(80)^2} = -\\frac{0.0004}{0.05^2} = -0.16\\end{aligned}$$（（千米/升）/（千米/小时））。（2）$h(v)$ 的单位是升/小时，等于速度（千米/小时）与 $f(v)$（升/千米）之积：$$\\begin{aligned}h(v) = v \\cdot f(v)\\end{aligned}$$。由乘法法则，$$\\begin{aligned}h'(v) = v \\cdot \\frac{d}{dv}[f(v)] + \\frac{d}{dv}[v] \\cdot f(v) = v \\cdot f'(v) + 1 \\cdot f(v)\\end{aligned}$$。故 $h(80) = 80 \\cdot 0.05 = 4$（升/小时），$h'(80) = 80 \\cdot 0.0004 + 0.05 = 0.082$（（升/小时）/（千米/小时））。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "economic_applications"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.3 exercise 15. 原题 (c) 为面向非数学读者的解释性讨论，已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.06",
+      "title": "含指数与余弦的商式函数求一阶与二阶导数",
+      "questionText": "一物体竖直运动，其高度（单位：英尺，时间以秒计）为 $h(t) = 3 + \\frac{2\\cos(t)}{1.2^t}$。（1）求 $t = 2$ 时物体的瞬时速度；（2）求 $t = 2$ 时物体的加速度。",
+      "answerText": "（1）瞬时速度为 $h'(2)$。由除法法则，$$\\begin{aligned}h'(t) &= \\frac{1.2^t \\cdot (-2\\sin(t)) - 2\\cos(t) \\cdot 1.2^t \\ln(1.2)}{(1.2^t)^2} \\\\ &= \\frac{1.2^t (-2\\sin(t) - 2\\cos(t) \\ln(1.2))}{(1.2^t)^2} \\\\ &= \\frac{-2\\sin(t) - 2\\cos(t) \\ln(1.2)}{1.2^t}\\end{aligned}$$，故 $$h'(2) = \\frac{-2\\sin(2) - 2\\cos(2) \\ln(1.2)}{1.2^2} \\approx -1.1575$$ 英尺/秒。（2）再对 $h'$ 求导（除法法则），$$\\begin{aligned}h''(t) &= \\frac{1.2^t(-2\\cos(t) + 2\\sin(t) \\ln(1.2)) - (-2\\sin(t) - 2\\cos(t) \\ln(1.2))1.2^t \\ln(1.2)}{(1.2^t)^2} \\\\ &= \\frac{\\cos(t)(-2 + 2\\ln^2(1.2)) + 4\\ln(1.2)\\sin(t))}{1.2^t}\\end{aligned}$$，故 $$h''(2) = \\frac{\\cos(2)(-2 + 2\\ln^2(1.2)) + 4\\ln(1.2)\\sin(2))}{1.2^2} \\approx 1.0193$$ 英尺/秒²。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "higher_derivative",
+      "secondaryProblemTypeIds": [
+        "derivative_calculation"
+      ],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.4 exercise 8. 原题 (c) 为日常语言描述小问，已删。原书 $h''$ 化简式括号有排印瑕疵（右括号不配对），照录不影响求值。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.07",
+      "title": "$\\sin x\\cot x$ 的导数与定义域陷阱",
+      "questionText": "设 $f(x) = \\sin(x) \\cot(x)$。（1）用乘法法则求 $f'(x)$；（2）判断命题“对一切实数 $x$ 都有 $f(x) = \\cos(x)$”是否成立，并说明理由；（3）将（1）中的结果化为只含正弦、余弦的表达式并化简，说明 $f'(x)$ 与 $-\\sin(x)$ 的关系（注意 $f$ 与 $f'$ 的定义域）。",
+      "answerText": "（1）由乘法法则，$f'(x) = \\sin(x) \\cdot (-\\csc^2(x)) + \\cot(x) \\cdot \\cos(x)$。（2）不成立。由 $\\cot(x) = \\frac{\\cos(x)}{\\sin(x)}$，$f(x) = \\sin(x) \\cdot \\frac{\\cos(x)}{\\sin(x)}$；但因分母含 $\\sin(x)$，$f$ 在 $x = \\frac{\\pi}{2} + k\\pi$（$k$ 为整数）处无定义，故 $f$ 的定义域是除 $\\frac{\\pi}{2}$ 的奇数倍外的一切实数，等式 $f(x) = \\cos(x)$ 只在这个范围内成立。（3）将 $\\csc(x)$、$\\cot(x)$ 化为正弦、余弦：$$\\begin{aligned}f'(x) &= \\sin(x) \\cdot \\left(-\\frac{1}{\\sin^2(x)}\\right) + \\frac{\\cos(x)}{\\sin(x)} \\cdot \\cos(x) \\\\ &= -\\frac{1}{\\sin(x)} + \\frac{\\cos^2(x)}{\\sin(x)} = \\frac{\\cos^2(x)-1}{\\sin(x)}\\end{aligned}$$。由 $\\cos^2(x) + \\sin^2(x) = 1$ 得 $\\cos^2(x)-1 = -\\sin^2(x)$，故当 $x \\ne \\frac{\\pi}{2} + k\\pi$（$k$ 为整数）时 $$\\begin{aligned}f'(x) = \\frac{-\\sin^2(x)}{\\sin(x)} = -\\sin(x)\\end{aligned}$$，即 $f'$ 在其定义域上与 $-\\sin(x)$ 相同，但二者定义域不同。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "differentiability_continuity"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.4 exercise 9.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.08",
+      "title": "含正切正割的商式函数求导与切线",
+      "questionText": "设 $$\\begin{aligned}p(z) = \\frac{z\\tan(z)}{z^2\\sec(z) + 1} + 3 e^z + 1\\end{aligned}$$。（1）求 $p'(z)$；（2）求曲线 $y = p(z)$ 在 $z = 0$ 处的切线方程；（3）$p$ 在 $z = 0$ 处是单调增加、单调减少还是 neither？并说明理由。",
+      "answerText": "（1）综合运用除法、乘法、和与常数倍法则：$$\\begin{aligned}p'(z) &= \\frac{d}{dz}\\left(\\frac{z\\tan(z)}{z^2\\sec(z) + 1} + 3 e^z + 1\\right) \\\\ &= \\frac{d}{dz}\\left(\\frac{z\\tan(z)}{z^2\\sec(z) + 1}\\right) + \\frac{d}{dz} \\left(3 e^z \\right) + \\frac{d}{dz}(1) \\\\ &= \\frac{\\left(z^2\\sec(z) +1 \\right)\\frac{d}{dz}\\left(z\\tan(z)\\right) - z\\tan(z) \\frac{d}{dz}\\left(z^2\\sec(z) + 1\\right)}{\\left(z^2\\sec(z) + 1\\right)^2} +3e^z \\\\ &= \\frac{\\left(z^2\\sec(z) +1 \\right)\\left(z\\sec^2(z)+\\tan(z)\\right) - z\\tan(z) \\left(z^2\\sec(z)\\tan(z)+2z\\sec(z)\\right)}{\\left(z^2\\sec(z) + 1\\right)^2} +3e^z\\end{aligned}$$（2）$p(0) = 0+3+1 = 4$，$p'(0) = 0+3=3$，故 $z = 0$ 处的切线方程为 $y - 4 = 3(x-0)$。（3）$p'(0) = 3 \\gt 0$，故 $p$ 在 $z = 0$ 处单调增加。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.4 exercise 10.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.09",
+      "title": "含抽象函数 $u(x)$ 的链式法则求导",
+      "questionText": "设 $u(x)$ 为可导函数。求下列各函数的导数（结果用 $u$ 和（或）$u'$ 表示）：（1）$p(x) = e^{u(x)}$；（2）$q(x) = u(e^x)$；（3）$r(x) = \\cot(u(x))$；（4）$s(x) = u(\\cot(x))$；（5）$a(x) = u(x^4)$；（6）$b(x) = (u(x))^4$。",
+      "answerText": "（1）由链式法则，$p'(x) = e^{u(x)} \\cdot u'(x)$。（2）由链式法则，$q'(x) = u'(e^x) \\cdot e^x$。（3）由链式法则，$r'(x) = -\\csc^2(u(x)) \\cdot u'(x)$。（4）由链式法则，$s'(x) = u'(\\cot(x)) \\cdot (-\\csc^2(x))$。（5）由链式法则，$a'(x) = u'(x^4) \\cdot 4x^3$。（6）由链式法则，$b'(x) = 4(u(x))^3 \\cdot u'(x)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.5 exercise 12.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.10",
+      "title": "球形水箱的 $\\frac{dV}{dh}$ 与 $\\frac{dV}{dt}$",
+      "questionText": "半径为 4 英尺的球形水箱内水深 $h$ 英尺时，箱内水的体积为 $$V = \\frac{\\pi}{3} h^2(12-h)$$。（1）求 $h = 1$ 时水的体积关于水深 $h$ 的瞬时变化率，并指出单位；（2）现设箱内水深由注水与排水联合调控，使 $h(t) = \\sin(\\pi t) + 1$（$t$ 以小时计，$h$ 仍以英尺计）。求 $t = 2$ 时水深关于时间的瞬时变化率；（3）在（2）的条件下，求 $t = 2$ 时水的体积关于时间的瞬时变化率（指出单位）。",
+      "answerText": "（1）将 $V$ 展开为 $$\\begin{aligned}V = \\frac{\\pi}{3}\\left(12h^2 - h^3\\right)\\end{aligned}$$，求导得 $$\\begin{aligned}\\frac{dV}{dh} = \\frac{\\pi}{3} \\left(24h - 3h^2\\right) = \\pi \\left(8h-h^2 \\right)\\end{aligned}$$（单位：立方英尺/英尺），故 $$\\begin{aligned}\\left. \\frac{dV}{dh} \\right|_{h=1} = \\pi \\left(8 \\cdot 1 - 1^2 \\right) = 7\\pi\\end{aligned}$$。（2）$h'(t) = \\pi \\cos(\\pi t)$，故 $h'(2) = \\pi \\cos(2\\pi) = \\pi$ 英尺/小时。（3）由链式法则，$$\\begin{aligned}\\frac{dV}{dt} = \\frac{dV}{dh} \\cdot h'(t)\\end{aligned}$$（即 $\\frac{\\pi}{3}\\left[ 12 \\cdot 2 h(t) \\cdot h'(t) - 3 (h(t))^2 \\cdot h'(t) \\right]$），在 $t = 2$ 处 $h(2) = \\sin(2\\pi) + 1 = 1$，$h'(2) = \\pi$，故 $$\\begin{aligned}\\left. \\frac{dV}{dt} \\right|_{t=2} = 7\\pi \\cdot \\pi = 7 \\pi^2\\end{aligned}$$ 立方英尺/小时。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.5 exercise 14. 原题 (d) 为 (a)(c) 差异的解释性讨论，已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.11",
+      "title": "含反三角与对数的复合函数求导",
+      "questionText": "求下列各函数的导数（写明所用求导法则）：（1）$f(x) = \\ln(2\\arctan(x) + 3\\arcsin(x) + 5)$；（2）$r(z) = \\arctan(\\ln(\\arcsin(z)))$；（3）$q(t) = \\arctan^2(3t) \\arcsin^4(7t)$；（4）$g(v) = \\ln\\left( \\frac{\\arctan(v)}{\\arcsin(v) + v^2} \\right)$。",
+      "answerText": "（1）由链式法则及和、常数倍法则，$$\\begin{aligned}f'(x) = \\frac{1}{2\\arctan(x) + 3\\arcsin(x) + 5} \\cdot \\left(\\frac{2}{1+x^2} + \\frac{3}{\\sqrt{1-x^2}}\\right)\\end{aligned}$$。（2）逐层使用链式法则，$$\\begin{aligned}r'(z) = \\frac{1}{1+\\left(\\ln(\\arcsin(z))\\right)^2} \\cdot \\left( \\frac{1}{\\arcsin(z)} \\right) \\cdot \\frac{1}{\\sqrt{1-z^2}}\\end{aligned}$$。（3）先由乘法法则，再对 $\\arcsin^4(7t) = \\left(\\arcsin(7t)\\right)^4$、$\\arctan^2(3t) = \\left( \\arctan(3t) \\right)^2$ 分别用链式法则，得 $$\\begin{aligned}q'(t) = \\arctan^2(3t) \\cdot \\left[4\\arcsin^3(7t) \\left( \\frac{7}{\\sqrt{1-(7t)^2}} \\right)\\right] + \\arcsin^4(7t) \\cdot \\left[2\\arctan(3t) \\left(\\frac{3}{1+(3t)^2}\\right) \\right]\\end{aligned}$$。（4）由链式法则与除法法则，$$\\begin{aligned}g'(v) = \\frac{1}{\\frac{\\arctan(v)}{\\arcsin(v) + v^2}} \\cdot \\frac{(\\arcsin(v) + v^2) \\cdot \\frac{1}{1+v^2} - \\arctan(v) \\cdot \\left(\\frac{1}{\\sqrt{1-v^2}} + 2v \\right)}{(\\arcsin(v) + v^2)^2}\\end{aligned}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.6 exercise 8.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.12",
+      "title": "反函数的导数互为倒数",
+      "questionText": "设 $f(x) = \\frac{1}{4}x^3 + 4$。（1）说明 $f$ 为什么是可逆（存在反函数）的函数；（2）设 $g$ 为 $f$ 的反函数，求 $g$ 的解析式；（3）计算 $f'(x)$、$g'(x)$、$f'(2)$ 与 $g'(6)$，并说明 $f'(2)$ 与 $g'(6)$ 之间的特殊关系及其原因。",
+      "answerText": "（1）$f$ 在 $\\mathbb{R}$ 上严格单调增加（$f'(x) = \\frac{3}{4}x^2 \\ge 0$ 且仅在 $x=0$ 处为 0），其图象与任一水平直线至多交于一点（通过水平线检验），故 $f$ 可逆。（2）由 $y = \\frac{1}{4}x^3 + 4$ 解出 $x$：$y - 4 = \\frac{1}{4}x^3$，$x^3 = 4(y-4)$，故 $$\\begin{aligned}x = \\sqrt[3]{4(y-4)} = f^{-1}(y)\\end{aligned}$$，即 $g(x) = f^{-1}(x) = \\sqrt[3]{4x-16}$。（3）$f'(x) = \\frac{3}{4}x^2$，故 $f'(2) = 3$；$g'(x) = \\frac{1}{3}(4x-16)^{-2/3} \\cdot 4$，故 $g'(6) = \\frac{1}{3} \\cdot 8^{-2/3} \\cdot 4 = \\frac{1}{3}$。二者互为倒数：由 $f(2) = 6$、$g(6) = 2$ 及反函数求导法则 $g'(6) = \\frac{1}{f'(g(6))} = \\frac{1}{f'(2)}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "inverse_derivative",
+        "inverse_composite_function"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.6 exercise 9. 原题作图小问已删。原书解答末句误写 $g'(3)=\\frac{1}{f'(2)}$，应为 $g'(6)$，本答案已修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.13",
+      "title": "隐函数曲线的切线方程",
+      "questionText": "设曲线由方程 $\\sin(x+y) + \\cos(x-y) = 1$ 给出，求曲线在点 $\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 处的切线方程。",
+      "answerText": "方程两边关于 $x$ 求导（$y$ 视为 $x$ 的函数），得 $$\\begin{aligned}\\frac{d}{dx} \\left( \\sin(x+y) + \\cos(x-y) \\right) &= \\frac{d}{dx}(1) \\\\ \\cos(x+y) \\left(1+\\frac{dy}{dx}\\right) - \\sin(x-y)\\left(1-\\frac{dy}{dx}\\right) &= 0\\end{aligned}$$。展开并整理：$$\\begin{aligned}\\frac{dy}{dx} \\left(\\cos(x+y) + \\sin(x-y) \\right) = \\sin(x-y) - \\cos(x+y)\\end{aligned}$$，故 $$\\begin{aligned}\\frac{dy}{dx} = \\frac{\\sin(x-y) - \\cos(x+y)}{\\cos(x+y) + \\sin(x-y)}\\end{aligned}$$。在点 $\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 处，$$\\begin{aligned}\\frac{dy}{dx}\\biggm|_{\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)} = \\frac{\\sin(0)-\\cos(\\pi)}{\\cos(\\pi) + \\sin(0)} = -1\\end{aligned}$$。故所求切线方程为 $$y = \\frac{\\pi}{2} - \\left(x-\\frac{\\pi}{2}\\right)$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.7 exercise 13. 原题答案附图（含占位提示文字）未采用。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.7",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.01",
+      "title": "滑轮收绳问题（相关变化率）",
+      "questionText": "一艘帆船静泊在码头附近。一根系于船头的绳索绕过码头立柱顶端的滑轮被收拉，立柱顶端比船头高出 5 英尺。若绳索以 2 英尺/秒的速率被收进，问当船头到滑轮的绳长为 13 英尺时，船以多大的速度接近码头？",
+      "answerText": "设 $x$ 为船头到码头的水平距离，$z$ 为船头到滑轮的绳长，则绳、立柱（竖直方向）与水平距离构成直角三角形，恒有 $$\\begin{aligned}x^2 + 5^2 = z^2\\end{aligned}$$。已知 $\\frac{dz}{dt} = -2$ 英尺/秒，两边对 $t$ 求导得 $$\\begin{aligned}2x \\frac{dx}{dt} = 2z \\frac{dz}{dt}\\end{aligned}$$。当 $z = 13$ 时，$x^2 + 5^2 = 13^2$，故 $x = 12$。代入得 $$\\begin{aligned}\\left. \\frac{dx}{dt} \\right|_{z = 13} = -\\frac{13}{6}\\end{aligned}$$ 英尺/秒，即船以 $\\frac{13}{6} \\approx 2.167$ 英尺/秒的速度接近码头。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.1 exercise 9. taxonomy 无『相关变化率（related rates）』题型/知识点，归入导数计算、复合函数求导。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.02",
+      "title": "棒球场视角角的变化率",
+      "questionText": "棒球场是边长 $90$ 英尺的正方形。一名跑垒员正以 $24$ 英尺/秒的速度从二垒冲向三垒，一名裁判站在本垒处。设 $\\theta$ 为三垒边线与裁判到跑垒员视线之间的夹角。问当跑垒员距三垒还有 $30$ 英尺时，$\\theta$ 的变化速度是多少？",
+      "answerText": "设 $x$ 为跑垒员沿二垒到三垒方向到三垒的距离，则 $\\frac{dx}{dt} = -24$ 英尺/秒。由正切定义，$$\\begin{aligned}\\tan(\\theta) = \\frac{x}{90} = \\frac{1}{90}x\\end{aligned}$$。两边对 $t$ 求导：$$\\begin{aligned}\\sec^2 (\\theta) \\frac{d\\theta}{dt} = \\frac{1}{90} \\frac{dx}{dt}\\end{aligned}$$，即 $$\\begin{aligned}\\frac{d\\theta}{dt} = \\frac{1}{90 \\sec^2 (\\theta)} \\frac{dx}{dt}\\end{aligned}$$。当 $x = 30$ 时，裁判到跑垒员的距离为 $z = \\sqrt{90^2 + 30^2} = \\sqrt{9000} = 30\\sqrt{10}$，故 $\\sec(\\theta) = \\frac{30\\sqrt{10}}{90} = \\frac{\\sqrt{10}}{3}$。于是 $$\\begin{aligned}\\left. \\frac{d\\theta}{dt} \\right|_{x = 30} = \\frac{1}{90 \\left( \\frac{\\sqrt{10}}{3} \\right)^2} (-24) = -\\frac{1}{100}(24) = -0.24\\end{aligned}$$ 弧度/秒，即 $\\theta$ 以每秒 $0.24$ 弧度的速率减小。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.1 exercise 11.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.03",
+      "title": "圆锥形沙堆高度的变化率",
+      "questionText": "沙子经传送带倾卸成堆，沙堆始终呈圆锥形，且底半径恒等于高。若沙子以 $10$ 立方英尺/分钟的速率倾卸，问当堆中沙子体积为 $1000$ 立方英尺时，沙堆高度增加多快？",
+      "answerText": "设 $h$ 为堆高，$r$ 为底半径，则 $r = h$，体积 $V = \\frac{1}{3} \\pi r^2 h = \\frac{1}{3} \\pi h^3$。两边对 $t$ 求导：$$\\begin{aligned}\\frac{dV}{dt} = \\pi h^2 \\frac{dh}{dt}\\end{aligned}$$。当 $V = 1000$ 时，$h^3 = \\frac{3000}{\\pi}$，即 $h = \\sqrt[3]{\\frac{3000}{\\pi}}$。代入 $\\frac{dV}{dt} = 10$，得 $$\\begin{aligned}\\left. \\frac{dh}{dt}\\right|_{V=1000} = \\frac{10}{\\pi \\left( \\sqrt[3]{\\frac{3000}{\\pi}} \\right)^2} \\approx 0.0328\\end{aligned}$$ 英尺/分钟。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.1 exercise 12.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.04",
+      "title": "含参数的有理函数的渐近线与间断点",
+      "questionText": "求函数 $$R(x) = \\frac{3(x-a)(x-b)}{5(x-a)(x-c)}$$（其中 $a$、$b$、$c$ 为互不相同的常数）的全部铅直渐近线与水平渐近线，并指出 $R$ 在哪些 $x$ 值处不连续，说明各间断点的类型。",
+      "answerText": "水平渐近线：因分子、分母同为二次多项式，$\\lim_{x \\to \\infty} R(x) = \\frac{3}{5}$，故水平渐近线为 $y = \\frac{3}{5}$。铅直渐近线：在 $x = c$ 处分母为零而分子不为零，故 $x = c$ 是铅直渐近线。在 $x = a$ 处分子、分母同时为零：$$\\begin{aligned}\\lim_{x \\to a} \\frac{3(x-a)(x-b)}{5(x-a)(x-c)} = \\lim_{x \\to a} \\frac{3(x-b)}{5(x-c)} = \\frac{3(a-b)}{5(a-c)}\\end{aligned}$$，极限存在但 $R(a)$ 无定义，故 $x = a$ 处为可去间断点（图象上为空洞 $(a, \\frac{3(a-b)}{5(a-c)})$），不是渐近线。综上：$R$ 在 $x = a$ 与 $x = c$ 两处不连续；$x = a$ 为可去间断点，$x = c$ 为无穷间断点（对应铅直渐近线）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "continuity_and_discontinuity",
+      "secondaryProblemTypeIds": [
+        "function_limit"
+      ],
+      "knowledgePointIds": [
+        "asymptote",
+        "discontinuity"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.2 exercise 12. 原题的作图小问已删。间断点类型按国内分类语汇（可去/无穷）表述。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.05",
+      "title": "$0^0$ 型未定式 $\\lim_{x\\to0^+}x^{2x}$",
+      "questionText": "考虑函数 $g(x) = x^{2x}$（对所有 $x \\gt 0$ 有定义）。注意 $\\lim_{x \\to 0^+} g(x)$ 是 $0^0$ 型未定式。（1）令 $h(x) = \\ln(g(x))$，证明 $h(x) = 2x \\ln(x)$；（2）说明为什么可改写为 $h(x) = \\frac{2\\ln(x)}{\\frac{1}{x}}$；（3）用洛必达法则求 $\\lim_{x \\to 0^+} h(x)$；（4）据此求 $\\lim_{x \\to 0^+} g(x)$，即 $\\lim_{x \\to 0^+} x^{2x}$。",
+      "answerText": "（1）$$\\begin{aligned}h(x) = \\ln(x^{2x}) = 2x \\cdot \\ln(x)\\end{aligned}$$。（2）由于 $x = \\frac{1}{\\frac{1}{x}}$，故 $$\\begin{aligned}h(x) = \\frac{2\\ln(x)}{\\frac{1}{x}}\\end{aligned}$$。（3）当 $x \\to 0^+$ 时分子 $2\\ln(x) \\to -\\infty$、分母 $\\frac{1}{x} \\to +\\infty$，为 $\\frac{\\infty}{\\infty}$ 型未定式，用洛必达法则：$$\\begin{aligned}\\lim_{x \\to 0^+} h(x) = \\lim_{x \\to 0^+} \\frac{2\\ln(x)}{\\frac{1}{x}} = \\lim_{x \\to 0^+} \\frac{\\frac{2}{x}}{-\\frac{1}{x^2}} = \\lim_{x \\to 0^+} (-2x) = 0\\end{aligned}$$。（4）因 $h(x) = \\ln(g(x)) \\to 0$ 且 $\\ln(1) = 0$，故 $$\\begin{aligned}\\lim_{x \\to 0^+} g(x) = \\lim_{x \\to 0^+} x^{2x} = 1\\end{aligned}$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indeterminate_form",
+        "limit_operations"
+      ],
+      "methodIds": [
+        "logarithm_transformation",
+        "lhopital_rule"
+      ],
+      "notes": "Source: Active Calculus §3.2 exercise 13.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.06",
+      "title": "由导函数符号表分析函数极值与性态",
+      "questionText": "设 $g(x)$ 在每个 $x \\ne 2$ 处连续，其一阶导数为 $g'(x) = \\frac{(x+4)(x-1)^2}{x-2}$，且已知 $g$ 在 $x = 2$ 处有铅直渐近线。（1）求 $g$ 的全部驻点，并说明 $x = 2$ 是否为驻点；（2）通过讨论 $g'(x)$ 在各区间上的符号（注意 $g'$ 可能在铅直渐近线两侧变号），判断 $g$ 在各驻点处取得极大值、极小值还是 neither（无极值）；（3）$g$ 是否存在全局最大值或全局最小值？说明理由；（4）求 $\\lim_{x \\to \\infty} g'(x)$，并说明该极限对 $g$ 的长期性态有何含义。",
+      "answerText": "（1）令 $g'(x) = 0$ 得 $x = -4$ 或 $x = 1$。$x = 2$ 虽使 $g'$ 无定义，但 $g$ 在 $x = 2$ 处有铅直渐近线、不在定义域内，故 $x = 2$ 不是驻点（但在符号表上仍须标注，因为 $g'$ 可能在该处变号）。（2）符号表：$g'(x) \\gt 0$（$x \\lt -4$）；$g'(x) \\lt 0$（$-4 \\lt x \\lt 1$）；$g'(x) \\lt 0$（$1 \\lt x \\lt 2$）；$g'(x) \\gt 0$（$x \\gt 2$）。由一阶导数判别法，$g$ 在 $x = -4$ 处取得极大值；在 $x = 1$ 处两侧 $g'$ 均为负，无极值。$x = 2$ 处 $g$ 由减转增，但这是铅直渐近线所致，$g$ 在该处无定义，不取得极值。（3）$g$ 无全局最小值：$g$ 在 $x \\to 2^-$ 时递减趋于 $-\\infty$。全局最大值：在 $x \\gt 2$ 上 $g$ 递增，且 $$\\begin{aligned}\\lim_{x \\to \\infty} g'(x) = \\lim_{x \\to \\infty} \\frac{x^3 + 2x^2 - 7x + 4}{x-2} \\cdot \\frac{\\frac{1}{x}}{\\frac{1}{x}} = \\lim_{x \\to \\infty} \\frac{x^2 + 2x - 7 + \\frac{4}{x}}{1 - \\frac{2}{x}} = \\infty\\end{aligned}$$，即 $g'(x) \\to \\infty$，故 $g$ 当 $x \\to \\infty$ 时无界增长，也不存在全局最大值（$x \\to 2^+$ 一侧 $g$ 是否下有界无法由题设确定）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [
+        "function_limit_continuity"
+      ],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [
+        "continuity_and_discontinuity"
+      ],
+      "knowledgePointIds": [
+        "monotonicity",
+        "extrema",
+        "asymptote"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §3.3 exercise 12. 原题作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.07",
+      "title": "由二阶导数求拐点与极值判定",
+      "questionText": "设函数 $p$ 的二阶导数为 $p''(x) = (x+1)(x-2)e^{-x}$。（1）列出 $p''$ 的符号表，求 $p$ 的全部拐点；（2）另知 $x = \\frac{\\sqrt{5}-1}{2}$ 是 $p$ 的一个驻点，问 $p$ 在该点取得极小值、极大值还是 neither？说明理由；（3）设点 $(2, \\frac{12}{e^2})$ 在曲线 $y = p(x)$ 上，且 $p'(2) = -\\frac{5}{e^2}$，求曲线在 $x = 2$ 处的切线方程；该切线在 $x = 2$ 处位于曲线上方、下方还是 neither？说明理由。",
+      "answerText": "（1）$p''(x) = 0$ 当且仅当 $x = -1$ 或 $x = 2$（指数因子恒正）。符号表：$p''(x) \\lt 0$ 当 $-1 \\lt x \\lt 2$；$p''(x) \\gt 0$ 当 $x \\lt -1$ 或 $x \\gt 2$。$p''$ 在 $x = -1$ 与 $x = 2$ 处均变号，故 $p$ 有拐点 $x = -1$ 与 $x = 2$；即 $p$ 在 $-1 \\lt x \\lt 2$ 上凸（向上凸），在其余范围凹（向上凹）。（2）$$p''\\left(\\frac{\\sqrt{5}-1}{2} \\right) \\approx -1.205 \\lt 0$$，曲线在该驻点处凸，故由二阶导数判别法 $p$ 在 $x = \\frac{\\sqrt{5}-1}{2}$ 处取得极大值。（3）切线方程为 $$y = -\\frac{5}{e^2}(x-2) + \\frac{12}{e^2}$$。因 $p''(2) = 0$ 且 $p$ 在 $x = 2$ 左侧凸、右侧凹，切线在 $x = 2$ 左侧位于曲线上方、右侧位于曲线下方，故在 $x = 2$ 处切线既不完全在上方也不完全在下方（neither）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "concavity_inflection",
+      "secondaryProblemTypeIds": [
+        "monotonicity_extrema"
+      ],
+      "knowledgePointIds": [
+        "concavity_inflection",
+        "extrema"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §3.3 exercise 13.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.08",
+      "title": "含参数函数族 $q(x)=\\frac{e^{-x}}{x-c}$ 的性态分析",
+      "questionText": "设函数族 $q(x) = \\frac{e^{-x}}{x-c}$（其中 $c \\gt 0$）。（1）说明 $q$ 为何以 $x = c$ 为铅直渐近线；（2）求 $\\lim_{x \\to \\infty} q(x)$ 与 $\\lim_{x \\to -\\infty} q(x)$；（3）计算 $q'(x)$，求 $q$ 的全部驻点；（4）讨论 $q'$ 的符号，判断 $q$ 在各驻点处取得极大值还是极小值。",
+      "answerText": "（1）在 $x = c$ 处分子 $e^{-c} \\ne 0$ 而分母为零，且 $\\lim_{x \\to c^+} \\frac{e^{-x}}{x-c} = \\infty$，$\\lim_{x \\to c^-} \\frac{e^{-x}}{x-c} = -\\infty$，故 $x = c$ 为铅直渐近线。（2）写 $q(x) = \\frac{1}{(x-c)e^x}$，当 $x \\to \\infty$ 时分母 $\\to +\\infty$，故 $\\lim_{x \\to \\infty} \\frac{e^{-x}}{x-c} = 0$（水平渐近线 $y = 0$）；当 $x \\to -\\infty$ 时为 $\\frac{\\infty}{-\\infty}$ 型，用洛必达法则 $$\\begin{aligned}\\lim_{x \\to -\\infty} \\frac{e^{-x}}{x-c} = \\lim_{x \\to -\\infty} \\frac{-e^{-x}}{1} = -\\infty\\end{aligned}$$。（3）$$\\begin{aligned}q'(x) = -\\frac{(x-c)e^x + e^x}{(x-c)^2\\left(e^x\\right)^2} = -\\frac{x-c+1}{(x-c)^2e^x}\\end{aligned}$$，$q'(x)$ 无定义点 $x=c$ 不在定义域内，令分子为零得唯一驻点 $x = c-1$。（4）分母 $(x-c)^2e^x \\gt 0$（$x \\ne c$），故 $q'(x)$ 的符号取决于 $-(x-c+1)$：当 $x \\lt c-1$ 时 $q'(x) \\gt 0$，当 $x \\gt c-1$（且 $x \\ne c$）时 $q'(x) \\lt 0$，故 $q$ 在 $(-\\infty, c-1)$ 上单调增加，在 $(c-1, c)$ 与 $(c, +\\infty)$ 上单调减少，$q$ 在 $x = c-1$ 处取得极大值（由（2）知函数值可任意变大，故该极大值不是全局最大值）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [
+        "function_limit_continuity"
+      ],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [
+        "function_limit"
+      ],
+      "knowledgePointIds": [
+        "monotonicity",
+        "extrema",
+        "asymptote"
+      ],
+      "methodIds": [
+        "derivative_sign",
+        "lhopital_rule"
+      ],
+      "notes": "Source: Active Calculus §3.4 exercise 7. 原题作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.09",
+      "title": "高斯型函数 $E(x)=e^{-\\frac{(x-m)^2}{2s^2}}$ 的性态",
+      "questionText": "设 $E(x) = e^{-\\frac{(x-m)^2}{2s^2}}$，其中 $m$ 为任意实数，$s$ 为正实数。（1）计算 $E'(x)$，求 $E$ 的全部驻点；（2）讨论 $E'$ 的符号，判断 $E$ 在各驻点处取得极大值还是极小值；（3）已知 $$\\begin{aligned}E''(x) = e^{-\\frac{(x-m)^2}{2s^2}} \\left(\\frac{(x-m)^2 - s^2}{s^4} \\right)\\end{aligned}$$，求使 $E''(x) = 0$ 的全部 $x$ 值（即 $E$ 的拐点横坐标）；（4）求 $\\lim_{x \\to \\infty} E(x)$ 与 $\\lim_{x \\to -\\infty} E(x)$。",
+      "answerText": "（1）由链式法则，$$\\begin{aligned}E'(x) = e^{-\\frac{(x-m)^2}{2s^2}} \\cdot \\left[ -\\frac{2(x-m)}{2s^2} \\right]\\end{aligned}$$。$E'(x)$ 处处有定义；由于指数因子恒正，$E'(x) = 0 \\iff -\\frac{2(x-m)}{2s^2} = 0 \\iff x = m$，故唯一驻点为 $x = m$。（2）$E'(x)$ 的符号取决于 $-\\frac{2(x-m)}{2s^2}$：当 $x \\lt m$ 时 $E'(x) \\gt 0$，当 $x \\gt m$ 时 $E'(x) \\lt 0$，故 $E$ 在 $x \\lt m$ 单调增加、在 $x \\gt m$ 单调减少，在 $x = m$ 处取得极大值。（3）由指数因子恒正，$E''(x) = 0 \\iff \\frac{(x-m)^2 - s^2}{s^4} = 0 \\iff (x-m)^2 = s^2 \\iff x = m \\pm s$。（4）当 $x \\to \\pm\\infty$ 时指数 $-\\frac{(x-m)^2}{2s^2} \\to -\\infty$，故 $\\lim_{x \\to \\infty} E(x) = \\lim_{x \\to -\\infty} E(x) = 0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [
+        "concavity_inflection",
+        "function_limit"
+      ],
+      "knowledgePointIds": [
+        "extrema",
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §3.4 exercise 8. 原题作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.10",
+      "title": "含参数函数族在闭区间上的最值",
+      "questionText": "求下列含参数的函数在给定区间上的最大值（绝对最大值）与最小值（绝对最小值）：（1）$p(x) = x^3 - a^2x$，区间 $[0,a]$（$a \\gt 0$）；（2）$r(x) = axe^{-bx}$，区间 $\\left[\\frac{1}{2b}, \\frac{2}{b}\\right]$（$a \\gt 0$，$b \\gt 1$）；（3）$w(x) = a(1-e^{-bx})$，区间 $[b, 3b]$（$a, b \\gt 0$）；（4）$s(x) = \\sin(kx)$，区间 $\\left[\\frac{\\pi}{3k}, \\frac{5\\pi}{6k}\\right]$（$k \\gt 0$）。",
+      "answerText": "（1）$p'(x) = 3x^2 - a^2 = 3\\left(x^2 - \\frac{a^2}{3} \\right)$，驻点 $x = \\pm \\frac{a}{\\sqrt{3}}$，其中 $\\frac{a}{\\sqrt{3}} \\in (0,a)$。比较：$p(0) = 0$，$p(a) = a^3 - a^2 \\cdot a = 0$，$p\\left( \\frac{a}{\\sqrt{3}} \\right) = \\frac{a^3}{3\\sqrt{3}} - \\frac{a^3}{\\sqrt{3}} = -\\frac{2a^3}{3\\sqrt{3}}$。故最大值 $p(0) = p(a) = 0$，最小值 $p\\left( \\frac{a}{\\sqrt{3}} \\right) = -\\frac{2a^3}{3\\sqrt{3}}$。（2）$r'(x) = ax e^{-bx} (-b) + e^{-bx} a = ae^{-bx}(-bx + 1)$，唯一驻点 $x = \\frac{1}{b}$，且 $\\frac{1}{2b} \\lt \\frac{1}{b} \\lt \\frac{2}{b}$（因 $b \\gt 1$）。比较：$r\\left( \\frac{1}{2b} \\right) \\approx 0.303 \\frac{a}{b}$，$r\\left( \\frac{2}{b} \\right) = \\frac{2a}{b}e^{-2} \\approx 0.270 \\frac{a}{b}$，$r\\left( \\frac{1}{b} \\right) = \\frac{a}{b}e^{-1} \\approx 0.368 \\frac{a}{b}$。故最大值 $r\\left( \\frac{1}{b} \\right) \\approx 0.368 \\frac{a}{b}$，最小值 $r\\left( \\frac{2}{b} \\right) \\approx 0.270 \\frac{a}{b}$。（3）$w'(x) = abe^{-bx} \\gt 0$ 恒成立，$w$ 在 $[b, 3b]$ 上单调增加，故最小值 $w(b) = a(1-e^{-b^2})$，最大值 $w(3b) = a(1-e^{-3b^2})$。（4）$s'(x) = k\\cos(kx) = 0$ 给出驻点 $x = \\frac{\\pi}{2k} \\pm \\frac{n\\pi}{k}$（$n$ 为整数），其中只有 $x = \\frac{\\pi}{2k}$ 落在区间 $\\left[\\frac{\\pi}{3k}, \\frac{5\\pi}{6k}\\right]$ 内。比较：$s\\left( \\frac{\\pi}{3k} \\right) = \\sin\\left( \\frac{\\pi}{3} \\right) = \\frac{\\sqrt{3}}{2}$，$s\\left( \\frac{5\\pi}{6k} \\right) = \\sin\\left( \\frac{5\\pi}{6} \\right) = \\frac{1}{2}$，$s\\left( \\frac{\\pi}{2k} \\right) = \\sin\\left( \\frac{\\pi}{2} \\right) = 1$。故最大值 $s\\left( \\frac{\\pi}{2k} \\right) = 1$，最小值 $s\\left( \\frac{5\\pi}{6k} \\right) = \\frac{1}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.5 exercise 8. 原书 (c) 答案误用记号 g(b)、g(3b)（应为 w），本答案已更正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.11",
+      "title": "正弦平移函数在给定区间上的最值",
+      "questionText": "设 $s(t) = 3\\sin(2(t-\\frac{\\pi}{6})) + 5$。通过求出并检验全部相关驻点以及区间端点的函数值，求 $s$ 在下列各区间上的精确最大值与最小值：（1）$[\\frac{\\pi}{6}, \\frac{7\\pi}{6}]$；（2）$[0, \\frac{\\pi}{2}]$；（3）$[0, 2\\pi]$；（4）$[\\frac{\\pi}{3}, \\frac{5\\pi}{6}]$。",
+      "answerText": "先求驻点：$s'(t) = 6\\cos(2(t-\\frac{\\pi}{6}))$，令其为零得 $2(t-\\frac{\\pi}{6}) = \\frac{\\pi}{2} \\pm k\\pi$，即 $$\\begin{aligned}t = \\frac{\\pi}{6} + \\frac{\\pi}{4} \\pm \\frac{k\\pi}{2} = \\frac{5\\pi}{12} \\pm \\frac{k\\pi}{2}\\end{aligned}$$（$k$ 为整数）。（1）在 $[\\frac{\\pi}{6}, \\frac{7\\pi}{6}]$ 内的驻点为 $t = \\frac{5\\pi}{12}$ 与 $t = \\frac{11\\pi}{12}$。比较端点与驻点值：$s(\\frac{5\\pi}{12}) = 8$，$s(\\frac{11\\pi}{12}) = 2$，$s(\\frac{\\pi}{6}) = 5$，$s(\\frac{7\\pi}{6}) = 5$。故最大值 $s(\\frac{5\\pi}{12}) = 8$，最小值 $s(\\frac{11\\pi}{12}) = 2$。（2）$[0, \\frac{\\pi}{2}]$ 内仅含驻点 $t = \\frac{5\\pi}{12}$。$s(\\frac{5\\pi}{12}) = 8$，$s(0) = 3\\sin(-\\frac{\\pi}{3}) + 5 = 5 - \\frac{3\\sqrt{3}}{2} \\approx 2.402$，$s(\\frac{\\pi}{2}) = 3\\sin(\\frac{2\\pi}{3}) + 5 = 5 + \\frac{3\\sqrt{3}}{2} \\approx 7.598$。故最大值 $s(\\frac{5\\pi}{12}) = 8$，最小值 $s(0) = 5 - \\frac{3\\sqrt{3}}{2}$。（3）$[0, 2\\pi]$ 上函数历经近两个完整周期，故必取得其最大值与最小值：最大值 $8$（如 $s(\\frac{5\\pi}{12}) = 8$），最小值 $2$（如 $s(\\frac{11\\pi}{12}) = 2$；区间内还有其他点取得这些值）。（4）$[\\frac{\\pi}{3}, \\frac{5\\pi}{6}]$ 内仅含驻点 $t = \\frac{5\\pi}{12}$。$s(\\frac{5\\pi}{12}) = 8$，$s(\\frac{\\pi}{3}) = 3\\sin(\\frac{\\pi}{3}) + 5 = \\frac{3\\sqrt{3}}{2} + 5 \\approx 7.598$，$s(\\frac{5\\pi}{6}) = 3\\sin(\\frac{4\\pi}{3}) + 5 = 5 - \\frac{3\\sqrt{3}}{2} \\approx 2.402$。故最大值 $s(\\frac{5\\pi}{12}) = 8$，最小值 $s(\\frac{5\\pi}{6}) = 5 - \\frac{3\\sqrt{3}}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.5 exercise 10.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.12",
+      "title": "限定造价的方底封闭箱的最大容积",
+      "questionText": "要用两种材料制作一个底面为正方形且带盖的长方体箱子：侧面材料每平方英尺 1.50 美元，顶、底材料每平方英尺 3.00 美元。若预算为 15 美元，箱子的最大容积是多少？（用微积分完整论证）",
+      "answerText": "设底面边长为 $x$、箱高为 $h$，则容积 $V = x^2 h$，表面积由两个 $x^2$ 的顶底与四个 $xh$ 的侧面组成，总造价 $$\\begin{aligned}C = 3.00 (2x^2) + 1.50 (4xh) = 6x^2 + 6xh\\end{aligned}$$。由造价约束 $15 = 6x^2 + 6xh$ 解出 $$\\begin{aligned}h = \\frac{15-6x^2}{6x}\\end{aligned}$$，代入得 $$\\begin{aligned}V = x^2 h = x^2 \\cdot \\frac{15-6x^2}{6x} = \\frac{15}{6}x - x^3\\end{aligned}$$。由 $h \\gt 0$ 得 $x \\lt \\sqrt{\\frac{15}{6}}$，故考虑 $V(x)$ 于 $0 \\lt x \\lt \\sqrt{\\frac{15}{6}}$；区间两端容积趋于 0，故最大值在驻点处取得。$V'(x) = \\frac{15}{6} - 3x^2 = 0$ 给出 $x^2 = \\frac{15}{18}$，即 $x = \\sqrt{\\frac{15}{18}}$。故最大容积为 $$V\\left( \\sqrt{\\frac{15}{18}} \\right) = \\frac{15}{6}\\left( \\sqrt{\\frac{15}{18}} \\right) - \\left( \\sqrt{\\frac{15}{18}} \\right)^3 \\approx 1.52145$$ 立方英尺。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.6 exercise 9.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.13",
+      "title": "两根电线杆间缆线的最短长度",
+      "questionText": "两根高度分别为 60 英尺与 80 英尺的竖直电线杆立在水平地面上，杆底相距 100 英尺。一根缆线从较高（或较低）一根杆的顶端出发，先落到两杆之间地面上某一点，再引至另一根杆的顶端。问缆线最少需要多长？（用微积分完整论证）",
+      "answerText": "设缆线触地点到第一根杆的水平距离为 $x$（$0 \\le x \\le 100$），则缆线总长 $$\\begin{aligned}L(x) = \\sqrt{x^2 + 3600} + \\sqrt{6400 + (100-x)^2}\\end{aligned}$$（第一段满足 $x^2 + 60^2 = y^2$，第二段满足 $(100-x)^2 + 80^2 = z^2$）。求导：$$\\begin{aligned}L'(x) = \\frac{2x}{2(x^2+3600)^{1/2}} + \\frac{-2(100-x)}{2((100-x)^2 + 6400)^{1/2}}\\end{aligned}$$。令 $L'(x) = 0$ 可解得唯一驻点 $x = \\frac{300}{7} \\approx 42.857$（项目自算精确解；等价地，由光线反射原理 $\\frac{x}{\\sqrt{x^2+3600}} = \\frac{100-x}{\\sqrt{(100-x)^2+6400}}$ 化简得 $80x = 60(100-x)$）。比较端点：$L(0) \\approx 188.062$，$L(100) \\approx 196.619$，而 $L\\left(\\frac{300}{7}\\right) = \\sqrt{29600} \\approx 172.047$。故缆线最短长度为 $\\sqrt{29600} \\approx 172.047$ 英尺，此时触地点距第一根杆约 $42.857$ 英尺。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.6 exercise 11. 原书用数值法解 $L'(x)=0$ 得 $x\\approx 42.85714$、$L\\approx 172.047$；本答案补充精确值 $x=\\frac{300}{7}$、$L_{\\min}=\\sqrt{29600}$（答案为项目自算）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.14",
+      "title": "圆柱加半球形封头的储罐最低造价",
+      "questionText": "某公司设计两端为半球形的圆柱形储气罐。要求罐容积为 1000 立方英尺；半球形端面每平方英尺造价 5 美元，圆柱形筒身每平方英尺造价 2 美元。用微积分求制造该储罐的最低造价。",
+      "answerText": "设圆柱部分长 $h$、半径 $r$。容积为 $V = \\pi r^2 h + \\frac{4}{3} \\pi r^3 = 1000$，解出 $$\\begin{aligned}h = \\frac{1000 - \\frac{4}{3} \\pi r^3}{\\pi r^2}\\end{aligned}$$。造价为 $$\\begin{aligned}C = 2(2\\pi r h) + 5(4 \\pi r^2) = 4 \\pi r h + 20 \\pi r^2\\end{aligned}$$，代入 $h$ 得 $$\\begin{aligned}C(r) = \\frac{4000}{r} - \\frac{16}{3}\\pi r^2 + 20 \\pi r^2 = \\frac{4000}{r} + \\frac{44 \\pi}{3}r^2\\end{aligned}$$。由 $h \\gt 0$ 得定义域 $0 \\lt r \\lt \\sqrt[3]{\\frac{750}{\\pi}}$。令 $C'(r) = -\\frac{4000}{r^2} + \\frac{88 \\pi}{3}r = 0$，解得 $$\\begin{aligned}r^3 = \\frac{1500}{11 \\pi}\\end{aligned}$$，即 $r = \\sqrt[3]{\\frac{1500}{11 \\pi}} \\approx 3.5144$（在定义域内）。当 $0 \\lt r \\lt 3.5144$ 时 $C'(r) \\lt 0$，当 $3.5144 \\lt r \\lt \\sqrt[3]{\\frac{750}{\\pi}}$ 时 $C'(r) \\gt 0$，故 $C$ 在该点取得最小值 $$C\\left(\\sqrt[3]{\\frac{1500}{11 \\pi}}\\right) \\approx 1707.27$$ 美元，即最低造价约为 1707.27 美元。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.6 exercise 12. 原书解答应为 1707.27 美元，经项目数值复算确认（$r \\approx 3.51439$，$C_{\\min} \\approx 1707.268$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.01",
+      "title": "玩具火箭：速度曲线下的面积与原函数",
+      "questionText": "一枚玩具火箭从地面竖直发射（无风天气）。火箭的竖直速度为 $v(t)= 500-32t$（英尺/秒，$t$ 以秒计）。（1）求发射后火箭速度为零的时刻，记为 $a$；$t = a$ 时火箭处于什么状态？（2）求 $y = v(t)$ 与 $t$ 轴在区间 $0 \\le t \\le a$ 上围成的面积，并说明该面积在此问题背景下的物理意义；（3）求 $v$ 的一个原函数 $s$（即满足 $s'(t) = v(t)$ 的函数 $s$）；（4）计算 $s(a) - s(0)$，并说明其物理意义；（5）计算 $s(5) - s(1)$，并说明该数值告诉我们火箭飞行的什么信息。",
+      "answerText": "（1）令 $v(t) = 0$ 得 $500 - 32t = 0$，即 $t = \\frac{500}{32} = \\frac{125}{8} = 15.625$ 秒；此时火箭速度由正变负、高度由增转减，火箭达到最高点。（2）$v$ 在 $[0, 15.625]$ 上为连结 $(0,500)$ 与 $(15.625,0)$ 的正线性函数，所围区域为直角三角形，面积 $$A = \\frac{1}{2}bh = \\frac{1}{2}(15.625)(500) = 3906.25$$；由于速度恒正，该面积表示火箭在 $[0, 15.625]$ 内上升的竖直距离。（3）$$s(t) = 500t - 16t^2$$ 满足 $s'(t) = v(t)$。（4）$$s(15.625) - s(0) = 500(15.625) - 16(15.625)^2 - (0 - 0) = 3906.25$$，即火箭在 $[0,15.625]$ 内位置的（净）改变量为 3906.25 英尺，也就是其上升的最大高度。（5）$s(5) - s(1) = 1616$，即火箭在 $t = 1$ 到 $t = 5$ 的 4 秒内上升了 1616 英尺。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [
+        "indefinite_integral"
+      ],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus",
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.1 exercise 8.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.02",
+      "title": "由速率数据表估计污染物总量",
+      "questionText": "水处理厂的滤网会随时间变脏而效率降低，每 30 天更换一次。在某个 30 天周期内，滤网向附近湖泊排放污染物的速率（单位：每日污染物单位数）每 6 天测量一次，数据如下（$t$ 为自更换滤网起的天数）：当 $t$ 依次为 0，6，12，18，24，30 时，速率 $p(t)$ 依次为 7，8，10，13，18，35（单位/天）。（1）说明为什么这 30 天内进入湖泊的污染物总量恰由 $y = p(t)$ 与 $t$ 轴在 $[0,30]$ 上围成的面积给出（从单位角度分析）；（2）取每个 6 天小区间左端点的速率值（即假设每段内速率不变）估计污染物总量，并说明该估计是高估还是低估及原因。",
+      "answerText": "（1）在速率近似不变的长度为 $\\triangle t$ 的小区间上，污染物总量约为 $p(t) \\cdot \\triangle t$：其单位为“单位/天 × 天 = 单位”，恰为污染物总量单位；几何上这正是以 $p(t)$ 为高、$\\triangle t$ 为宽的窄矩形面积。因此速率曲线下的面积给出 $[0,30]$ 内的污染物总量。（2）用左端点值估计：$$\\begin{aligned}P = 7 \\cdot 6 + 8 \\cdot 6 + 10 \\cdot 6 + 13 \\cdot 6 + 18 \\cdot 6 = 336\\end{aligned}$$（污染物单位）。由于速率 $p(t)$ 在整个周期内不断增大，而在每段上取的是最小（左端点）速率，故该估计为低估。（若取右端点值 $8,10,13,18,35$，得高估 $504$ 单位——答案为项目自算。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.1 exercise 10. 原题作图小问已删。右端点和 504 为项目自算补充。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.03",
+      "title": "线性函数的中点黎曼和与精确面积",
+      "questionText": "设 $f(x) = 3x + 4$。（1）取 4 个子区间，计算 $y=f(x)$ 在区间 $[2,5]$ 上的中点黎曼和 $M_4$（写明 $\\Delta x$ 与各分点 $x_0, x_1, \\ldots, x_4$ 的位置）；（2）用熟悉的几何公式求 $y = f(x)$ 与 $x$ 轴在 $[2,5]$ 上所围区域的精确面积；（3）说明为什么（1）（2）的值相同：对一般的 $n$，$M_n$ 仍精确吗？$L_4$ 或 $R_4$ 呢？",
+      "answerText": "（1）$\\triangle x = \\frac{5-2}{4} = 0.75$，分点为 $x_0 = 2$，$x_1 = 2.75$，$x_2 = 3.5$，$x_3 = 4.25$，$x_4 = 5$；各子区间中点为 $2.375$、$3.125$、$3.875$、$4.625$。于是 $$\\begin{aligned}M_4 &= f(2.375) \\cdot 0.75 + f(3.125) \\cdot 0.75 + f(3.875) \\cdot 0.75 + f(4.625) \\cdot 0.75 \\\\ &= \\left(11.125 + 13.375 + 15.625 + 17.875 \\right) \\cdot (0.75) \\\\ &= 58 \\cdot 0.75 \\\\ &= 43.5\\end{aligned}$$（2）$f(2) = 10$，$f(5) = 19$，所围区域为梯形，面积 $$\\begin{aligned}A = \\frac{1}{2}(10 + 19)(5-2) = \\frac{87}{2}\\end{aligned}$$。（3）中点矩形与以子区间两端函数值为底的梯形面积相同（多出与缺少的部分恰好抵消），故 $M_n$ 对任意 $n$ 都给出精确面积；而递增线性函数下 $L_4$ 恒低估、$R_4$ 恒高估，均不精确。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.2 exercise 8. 原题作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.04",
+      "title": "识别黎曼和对应的函数与区间",
+      "questionText": "设 $$\\begin{aligned}S = ((1.4)^2 + 1) \\cdot 0.4 + ((1.8)^2 + 1) \\cdot 0.4 + ((2.2)^2 + 1) \\cdot 0.4 + ((2.6)^2 + 1) \\cdot 0.4 +((3.0)^2 + 1) \\cdot 0.4\\end{aligned}$$。（1）设 $S$ 是某个函数的右端点黎曼和：该函数 $f$ 与区间 $[a,b]$ 分别是什么？为什么？（2）若 $S$ 是左端点黎曼和，结论如何变化？若是中点黎曼和呢？（3）设 $S$ 确为右端点黎曼和，它近似的是什么几何量？（4）用求和记号 $\\sum$ 写出一个新和 $R$：它是同一函数的右端点黎曼和，但子区间个数是 $S$ 的两倍。",
+      "answerText": "（1）被代入的点是 $x_1 = 1.4$，$x_2 = 1.8$，$x_3 = 2.2$，$x_4 = 2.6$，$x_5 = 3.0$，$\\triangle x = 0.4$，共 5 个子区间，右端点和意味着 $x_0 = 1.0$。故 $f(x) = x^2 + 1$，区间为 $[1,3]$。（2）若为左端点和，各点整体左移：$x_0 = 1.4, \\ldots, x_5 = 3.4$，函数不变而区间为 $[1.4, 3.4]$；若为中点和，例如 $1.4$ 是某长 $0.4$ 的子区间的中点，则 $x_0 = 1.2$，区间为 $[1.2, 3.2]$，函数不变。（3）$S$ 近似 $f(x) = x^2 + 1$ 在 $[1,3]$ 上与 $x$ 轴所围的（曲边梯形）面积。（4）取 $\\triangle x = 0.2$（$n = 10$），右端点 $x_i = 1 + 0.2i$，故 $$\\begin{aligned}R_{10} = \\sum_{i=1}^{10} \\left( (1+0.2i)^2 + 1 \\right) \\cdot 0.2\\end{aligned}$$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.2 exercise 9.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.05",
+      "title": "刹车汽车的黎曼和里程估计",
+      "questionText": "一辆沿直线行驶的汽车正在刹车，其速度在若干时刻的测量值如下表：当 $t$ 依次为 0，0.3，0.6，0.9，1.2，1.5，1.8（秒）时，速度 $v(t)$ 依次为 100，88，74，59，40，19，0（英尺/秒）。（1）用 3 个子区间的中点黎曼和估计刹车期间汽车行驶的总距离；（2）在 $[0,1.8]$ 上计算 $L_6$、$R_6$ 与 $\\frac{1}{2}(L_6 + R_6)$，作为总距离的估计；（3）设 $v(t)$ 在 $[0,1.8]$ 上始终单调递减，问汽车停下前行驶距离的最大可能值是多少？为什么？",
+      "answerText": "（1）中点为 $0.3$、$0.9$、$1.5$，$\\triangle t = 0.6$，故 $$\\begin{aligned}M_3 = f(0.3) \\cdot 0.6 + f(0.9) \\cdot 0.6 + f(1.5) \\cdot 0.6 = 166 \\cdot 0.6 = 99.6\\end{aligned}$$ 英尺，即汽车在 1.8 秒刹车过程中约行驶 99.6 英尺。（2）$$\\begin{aligned}L_6 = f(0) \\cdot 0.3 + f(0.3) \\cdot 0.3 + \\cdots + f(1.5) \\cdot 0.3 = 380 \\cdot 0.3 = 114\\end{aligned}$$，$$\\begin{aligned}R_6 = f(0.3) \\cdot 0.3 + f(0.6) \\cdot 0.3 + \\cdots + f(1.8) \\cdot 0.3 = 280 \\cdot 0.3 = 84\\end{aligned}$$，$$\\begin{aligned}\\frac{1}{2}(L_6 + R_6) = \\frac{114+84}{2} = 99\\end{aligned}$$。三者均为总距离的估计：$v$ 递减时 $L_6$ 为高估、$R_6$ 为低估。（3）最大可能距离为 $114$ 英尺，即 $L_6$：因 $v(t)$ 递减，左端点和总是高估，而真实距离不超过任何高估。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.2 exercise 10. 原题作图小问已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.06",
+      "title": "由速度求位移、路程与平均速度",
+      "questionText": "设一运动物体的速度为 $v(t) = t(t-1)(t-3)$（英尺/秒），$0 \\le t \\le 4$。（1）写出一个由定积分（或定积分之和）表示的式子，其值为物体在 $[0,4]$ 上位置的净变化；（2）计算该净变化的精确值；（3）写出一个由定积分表示的式子，其值为物体在 $[0,4]$ 上行驶的总路程；（4）计算总路程的精确值；（5）求物体在 $[0,4]$ 上的平均速度（精确值）。",
+      "answerText": "（1）$v(t) = 0$ 于 $t = 0, 1, 3$；$v \\gt 0$ 于 $(0,1)$ 与 $(3,4)$，$v \\lt 0$ 于 $(1,3)$。位置的净变化为 $$\\begin{aligned}P = \\int_0^1 v(t) \\, dt + \\int_1^3 v(t) \\, dt + \\int_3^4 v(t) \\, dt = \\int_0^4 v(t) \\, dt\\end{aligned}$$。（2）$$\\begin{aligned}\\int_0^4 v(t) \\, dt = \\int_0^4 (t^3 - 4t^2 + 3t) \\, dt = \\left. \\left( \\frac{t^4}{4} - \\frac{4t^3}{3} + \\frac{3t^2}{2} \\right) \\right|_0^4 = \\frac{8}{3} \\approx 2.667\\end{aligned}$$ 英尺（答案为项目自算；原书用黎曼和估计得 $\\approx 2.665$）。（3）总路程须把负速度部分取相反数：$$\\begin{aligned}D = \\int_0^1 v(t) \\, dt - \\int_1^3 v(t) \\, dt + \\int_3^4 v(t) \\, dt\\end{aligned}$$。（4）各段积分分别为 $\\int_0^1 v \\, dt = \\frac{5}{12}$，$\\int_1^3 v \\, dt = -\\frac{8}{3}$，$\\int_3^4 v \\, dt = \\frac{59}{12}$，故 $$\\begin{aligned}D = \\frac{5}{12} - \\left(-\\frac{8}{3}\\right) + \\frac{59}{12} = 8\\end{aligned}$$ 英尺（答案为项目自算；原书估计 $\\approx 8.00016$）。（5）平均速度 $$\\begin{aligned}v_{\\operatorname{AVG} [0,4]} = \\frac{1}{4-0} \\int_0^4 v(t) \\, dt = \\frac{1}{4} \\cdot \\frac{8}{3} = \\frac{2}{3} \\approx 0.667\\end{aligned}$$ 英尺/秒（答案为项目自算）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties",
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.3 exercise 10. 原题用技术工具做黎曼和估计的小问已删，改求精确值（借牛顿-莱布尼茨公式），已注明。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.07",
+      "title": "两条抛物线之间区域的面积",
+      "questionText": "设 $f(x) = 3 - x^2$，$g(x) = 2x^2$。（1）写出一个定积分（或定积分之差）的表达式，其值为 $y = f(x)$ 与 $y = g(x)$ 在 $[-1,1]$ 上所夹区域的精确面积；（2）说明为什么（1）中的表达式与单一积分 $\\int_{-1}^1 [f(x) - g(x)] \\, dx$ 的值相同；（3）计算该面积的精确值。",
+      "answerText": "（1）$f$ 与 $g$ 在 $[-1,1]$ 上均为正，且 $f(x) \\ge g(x)$。两曲线之间的面积可用两个定积分之差表示：$$\\begin{aligned}A_1 - A_2 = \\int_{-1}^{1} (3-x^2) \\, dx - \\int_{-1}^{1} 2x^2 \\, dx\\end{aligned}$$，其中 $A_1 = \\int_{-1}^{1} (3-x^2) \\, dx$、$A_2 = \\int_{-1}^{1} 2x^2 \\, dx$ 分别是 $f$、$g$ 与 $x$ 轴所围的面积。（2）对同一区间上的定积分用和差法则：$$\\begin{aligned}\\int_{-1}^{1} (3-x^2) \\, dx - \\int_{-1}^{1} 2x^2 \\, dx = \\int_{-1}^{1} [ (3-x^2) - 2x^2 ] \\, dx\\end{aligned}$$，即 $\\int_{-1}^1 [f(x) - g(x)] \\, dx$。一般地，若在 $[a,b]$ 上 $p(x) \\ge q(x)$，则两曲线间面积为 $\\int_a^b [p(x) - q(x)] \\, dx$。（3）$$\\begin{aligned}\\int_{-1}^{1} \\left[(3-x^2) - 2x^2\\right] \\, dx = \\int_{-1}^{1} (3-3x^2) \\, dx = \\left. \\left( 3x - x^3 \\right) \\right|_{-1}^{1} = 4\\end{aligned}$$，即所求面积为 4（答案为项目自算）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [
+        "definite_integral"
+      ],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.3 exercise 12. 原题作图与解释性小问已合并改写。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.08",
+      "title": "分段函数的净面积、平均值与延拓",
+      "questionText": "设函数 $f$ 分段定义为 $$f(x) = \\begin{cases} -x^2 + 2x + 1, & \\text{if } 0 \\le x \\lt 2 \\\\ -x + 3, & \\text{if } 2 \\le x \\lt 3 \\\\ x^2 - 8x + 15, & \\text{if } 3 \\le x \\le 5 \\end{cases}$$。（1）求 $f$ 与 $x$ 轴在区间 $[2,5]$ 上所围的净（带符号）面积的精确值；（2）求 $f$ 在 $[0,5]$ 上的平均值的精确值；（3）在 $5 \\le x \\le 7$ 上定义一个函数 $g$，使得把 $f$ 按下式延拓后在 $[0,7]$ 上满足 $\\int_0^7 f(x) \\, dx = 0$：$f(x) = g(x)$（$5 \\le x \\le 7$ 时）。",
+      "answerText": "（1）净面积为 $\\int_2^5 f(x) \\, dx$。分段计算并用微积分基本定理：$$\\begin{aligned}\\int_2^5 f(x) \\, dx &= \\int_2^3 f(x) \\, dx + \\int_3^5 f(x) \\, dx \\\\ &= \\int_2^3 -x+3 \\, dx + \\int_3^5 x^2-8x+15 \\, dx \\\\ &= \\left. \\left( -\\frac{1}{2}x^2 + 3x \\right)\\right|_2^3 + \\left. \\left( \\frac{1}{3}x^3 - 4x^2 + 15x \\right)\\right|_3^5 \\\\ &= \\left(\\frac{9}{2}-4\\right) + \\left( \\frac{50}{3}-18 \\right) \\\\ &= \\frac{127}{6} - 22 = -\\frac{5}{6}\\end{aligned}$$。（2）先算 $\\int_0^5 f(x) \\, dx = \\int_0^2 f(x) \\, dx + \\int_2^5 f(x) \\, dx = \\left. \\left( -\\frac{1}{3}x^3 + x^2 + x \\right)\\right|_0^2 - \\frac{5}{6} = \\frac{10}{3} - \\frac{5}{6} = \\frac{5}{2}$，故平均值为 $$\\begin{aligned}\\displaystyle f_{\\operatorname{AVG} [0,5]} = \\frac{1}{5-0} \\int_0^5 f(x) \\, dx = \\left(\\frac{1}{5}\\right) \\left(\\frac{5}{2}\\right) = \\frac{1}{2}\\end{aligned}$$。（3）因 $\\int_0^5 f(x) \\, dx = \\frac{5}{2}$，须使 $\\int_5^7 g(x) \\, dx = -\\frac{5}{2}$。取过点 $(5,0)$（保持连续）的线性函数 $$g(x) = -\\frac{5}{4}(x - 5)$$（$5 \\le x \\le 7$），验证：$$\\begin{aligned}\\int_5^7 -\\frac{5}{4}(x - 5) \\, dx &= -\\left(\\frac{5}{4}\\right) \\left. \\left(\\frac{x^2}{2} - 5x\\right) \\right|_5^7 \\\\ &= -\\left(\\frac{5}{4}\\right) \\left( 12 - 10 \\right) = -\\frac{5}{2}\\end{aligned}$$，满足要求。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "piecewise_integral",
+        "fundamental_theorem_calculus",
+        "definite_integral_properties"
+      ],
+      "methodIds": [
+        "interval_partition"
+      ],
+      "notes": "Source: Active Calculus §4.4 exercise 11. 原文 cases 环境中的 PreTeXt 宏 \\amp 已按 LaTeX 输出惯例转写为对齐符 &（数学内容不变）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.09",
+      "title": "飞机爬升时间：倒数函数与定积分",
+      "questionText": "飞机以最快速度爬升时，爬升率（英尺/分钟）随高度增加而减小。某单引擎飞机的爬升率数据如下，其中 $c(h)$ 为高度 $h$（英尺）处的爬升率：当 $h$ 依次为 0，1000，2000，3000，4000，5000，6000，7000，8000，9000，10000（英尺）时，$c$ 依次为 925，875，830，780，730，685，635，585，535，490，440（英尺/分钟）。定义新函数 $m(h)$：飞机在高度 $h$ 处每再爬升 1 英尺所需的分钟数。（1）说明 $m(h)$ 与 $c(h)$ 的关系及 $m$ 的单位；（2）写出一个定积分，其值恰为飞机爬升到 10000 英尺所需的总分钟数，并说明该积分为何具有此含义；（3）用中点黎曼和 $M_5$（5 个子区间）估计（2）中积分的值（在已有的高度数据点中取各长 2000 英尺子区间的中点），并指出单位。",
+      "answerText": "（1）$c(h)$ 的单位为英尺/分钟，$m(h)$ 的单位为分钟/英尺，二者互为倒数：$$m(h) = \\frac{1}{c(h)}$$，例如 $m(0) = \\frac{1}{925}$，$m(1000) = \\frac{1}{875}$，依此类推。（2）所需总分钟数为 $$\\begin{aligned}M = \\int_{0}^{10000} m(h) \\, dh\\end{aligned}$$：黎曼和中每项为 $m(h) \\cdot \\triangle h$，单位为“分钟/英尺 × 英尺 = 分钟”，故积分值以分钟计，即爬升到 10000 英尺所需的总时间（$m$ 的原函数给出爬升到高度 $h$ 的累计分钟数）。（3）取 5 个长 $2000$ 英尺的子区间，中点为 $1000, 3000, 5000, 7000, 9000$：$$\\begin{aligned}\\int_{0}^{10000} m(h) \\, dh &\\approx M_5 \\\\ &= \\left( \\frac{1}{875} + \\frac{1}{780} + \\frac{1}{685} + \\frac{1}{585} + \\frac{1}{490} \\right) \\cdot 2000 \\\\ &\\approx 15.27\\end{aligned}$$，即飞机爬升到 10000 英尺约需 15.27 分钟。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.4 exercise 13. 原题 (b) 为对原函数含义的开放解释，已并入 (2) 的说明。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.10",
+      "title": "$\\frac{1}{x}$ 在全体非零实数上的原函数",
+      "questionText": "对 $x \\gt 0$，$f(x) = \\frac{1}{x}$ 的一个原函数是 $F(x) = \\ln(x)$；但 $f$ 在所有 $x \\ne 0$ 处有定义，而 $F$ 仅在 $x \\gt 0$ 上有定义。（1）设 $x \\lt 0$，令 $G(x) = \\ln(-x)$，计算 $G'(x)$；（2）说明为什么在 $x \\lt 0$ 上 $G$ 是 $f$ 的原函数；（3）设 $H(x) = \\ln(|x|)$，利用 $$|x| = \\begin{cases} -x, & \\text{if } x \\lt 0 \\\\ x, & \\text{if } x \\ge 0 \\end{cases}$$ 说明：当 $x \\lt 0$ 时 $H(x) = G(x)$，当 $x \\gt 0$ 时 $H(x) = F(x)$；（4）综上说明为什么我们说：对一切 $x \\ne 0$，$\\frac{1}{x}$ 的一个原函数是 $\\ln(|x|)$。",
+      "answerText": "（1）由链式法则，$$G'(x) = \\frac{1}{-x} \\cdot (-1) = \\frac{1}{x}$$。（2）在 $x \\lt 0$ 上恒有 $G'(x) = \\frac{1}{x} = f(x)$，故 $G$ 是 $f$ 在该区间上的原函数。（3）当 $x \\lt 0$ 时 $|x| = -x$，故 $H(x) = \\ln(|x|) = \\ln(-x) = G(x)$；当 $x \\gt 0$ 时 $|x| = x$，故 $H(x) = \\ln(|x|) = \\ln(x) = F(x)$。（4）分段求导：当 $x \\lt 0$ 时 $H'(x) = G'(x) = \\frac{1}{x}$；当 $x \\gt 0$ 时 $H'(x) = F'(x) = \\frac{1}{x}$。故对一切 $x \\ne 0$ 都有 $H'(x) = \\frac{1}{x}$，即 $\\ln(|x|)$ 是 $\\frac{1}{x}$ 在其定义域上的原函数。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.4 exercise 15. 原文 cases 环境中的 PreTeXt 宏 \\amp 已按 LaTeX 输出惯例转写为对齐符 &（数学内容不变）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.4",
+        "license": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}
