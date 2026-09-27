@@ -39,6 +39,25 @@ struct ProblemSource {
     license: Option<String>,
 }
 
+/// 批量导入结果统计（camelCase 序列化，与前端 storage.ts 的 ImportStats 对齐）。
+#[derive(Serialize, Deserialize, Default)]
+#[serde(rename_all = "camelCase")]
+struct ImportStats {
+    imported: i64,
+    skipped: i64,
+}
+
+/// 题库包文件（data/banks/*.json）；顶层其余字段（subject/license 等）serde 默认忽略。
+#[derive(Deserialize)]
+struct BankFile {
+    format: String,
+    #[serde(default)]
+    #[allow(dead_code)]
+    version: i64,
+    #[serde(default)]
+    problems: Vec<Problem>,
+}
+
 fn default_origin() -> String {
     "user".to_string()
 }
@@ -106,6 +125,11 @@ const DB_SCHEMA_VERSION: i64 = 1;
 
 fn init_db(path: &Path) -> Result<(), String> {
     let mut connection = Connection::open(path).map_err(|error| error.to_string())?;
+    schema_and_migrate(&mut connection)
+}
+
+/// 建表 + 逐级迁移；测试中直接对内存库调用。
+fn schema_and_migrate(connection: &mut Connection) -> Result<(), String> {
     connection.execute_batch(
         "PRAGMA foreign_keys = ON;
          CREATE TABLE IF NOT EXISTS problems (
@@ -123,7 +147,7 @@ fn init_db(path: &Path) -> Result<(), String> {
            result TEXT NOT NULL, note TEXT NOT NULL, created_at TEXT NOT NULL
          );"
     ).map_err(|error| error.to_string())?;
-    migrate_db(&mut connection)
+    migrate_db(connection)
 }
 
 /// 基于 PRAGMA user_version 的逐级迁移：0 → 1 添加题目文本 / 来源 / 难度 / 内置标记列。
@@ -195,20 +219,101 @@ fn list_problems(state: State<AppState>) -> Result<Vec<Problem>, String> {
     Ok(problems)
 }
 
+/// 共享插入：题目行 + 图片附件（create_problem 与批量导入共用，避免两份 SQL 漂移）。
+fn insert_problem(transaction: &rusqlite::Transaction<'_>, problem: &Problem, attachment_dir: &Path) -> Result<(), String> {
+    let source_json = problem.source.as_ref().and_then(|value| serde_json::to_string(value).ok());
+    transaction.execute(
+        "INSERT INTO problems (id,title,primary_chapter_id,secondary_chapter_ids,primary_problem_type_id,secondary_problem_type_ids,knowledge_point_ids,method_ids,notes,created_at,question_text,answer_text,origin,difficulty,source_json) VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12,?13,?14,?15)",
+        params![
+            &problem.id, &problem.title, &problem.primary_chapter_id,
+            serde_json::to_string(&problem.secondary_chapter_ids).unwrap(),
+            &problem.primary_problem_type_id,
+            serde_json::to_string(&problem.secondary_problem_type_ids).unwrap(),
+            serde_json::to_string(&problem.knowledge_point_ids).unwrap(),
+            serde_json::to_string(&problem.method_ids).unwrap(),
+            &problem.notes, &problem.created_at,
+            problem.question_text.as_deref(), problem.answer_text.as_deref(),
+            &problem.origin, problem.difficulty, source_json
+        ]
+    ).map_err(|error| error.to_string())?;
+    let directory = attachment_dir.join(&problem.id);
+    for (index, image) in problem.question_images.iter().enumerate() {
+        let path = save_data_url(image, &directory, &format!("question-{index}"))?;
+        transaction.execute("INSERT INTO attachments VALUES (?1,?2,'question',?3,?4)", params![Uuid::new_v4().to_string(), problem.id, path.to_string_lossy(), index]).map_err(|error| error.to_string())?;
+    }
+    for (index, image) in problem.answer_images.iter().enumerate() {
+        let path = save_data_url(image, &directory, &format!("answer-{index}"))?;
+        transaction.execute("INSERT INTO attachments VALUES (?1,?2,'answer',?3,?4)", params![Uuid::new_v4().to_string(), problem.id, path.to_string_lossy(), index]).map_err(|error| error.to_string())?;
+    }
+    Ok(())
+}
+
+/// 按 id 幂等导入：已存在的跳过（保留用户侧数据），事务整体提交。
+fn import_problems_on(connection: &mut Connection, problems: &[Problem], attachment_dir: &Path) -> Result<ImportStats, String> {
+    let transaction = connection.transaction().map_err(|error| error.to_string())?;
+    let mut stats = ImportStats::default();
+    for problem in problems {
+        let exists: i64 = transaction
+            .query_row("SELECT COUNT(*) FROM problems WHERE id=?1", [&problem.id], |row| row.get(0))
+            .map_err(|error| error.to_string())?;
+        if exists > 0 {
+            stats.skipped += 1;
+            continue;
+        }
+        insert_problem(&transaction, problem, attachment_dir)?;
+        stats.imported += 1;
+    }
+    transaction.commit().map_err(|error| error.to_string())?;
+    Ok(stats)
+}
+
+#[tauri::command]
+fn bulk_import_problems(problems: Vec<Problem>, state: State<AppState>) -> Result<ImportStats, String> {
+    let _guard = state.lock.lock().map_err(|error| error.to_string())?;
+    let mut connection = open_db(&state)?;
+    import_problems_on(&mut connection, &problems, &state.attachment_dir)
+}
+
+#[tauri::command]
+fn import_bank_from_file(path: String, state: State<AppState>) -> Result<ImportStats, String> {
+    let _guard = state.lock.lock().map_err(|error| error.to_string())?;
+    let content = fs::read_to_string(&path).map_err(|error| format!("无法读取题库文件：{error}"))?;
+    let bank: BankFile = serde_json::from_str(&content).map_err(|error| format!("题库文件解析失败：{error}"))?;
+    if bank.format != "mathlink-bank" {
+        return Err("不是有效的 mathlink 题库包（format 字段不匹配）".to_string());
+    }
+    let mut connection = open_db(&state)?;
+    import_problems_on(&mut connection, &bank.problems, &state.attachment_dir)
+}
+
 #[tauri::command]
 fn create_problem(draft: ProblemDraft, state: State<AppState>) -> Result<Problem, String> {
     let _guard = state.lock.lock().map_err(|error| error.to_string())?;
     let mut connection = open_db(&state)?;
     let transaction = connection.transaction().map_err(|error| error.to_string())?;
-    let id = Uuid::new_v4().to_string(); let created_at = Utc::now().to_rfc3339();
-    let source_json = draft.source.as_ref().and_then(|value| serde_json::to_string(value).ok());
-    transaction.execute("INSERT INTO problems (id,title,primary_chapter_id,secondary_chapter_ids,primary_problem_type_id,secondary_problem_type_ids,knowledge_point_ids,method_ids,notes,created_at,question_text,answer_text,origin,difficulty,source_json) VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12,?13,?14,?15)", params![&id,&draft.title,&draft.primary_chapter_id,serde_json::to_string(&draft.secondary_chapter_ids).unwrap(),&draft.primary_problem_type_id,serde_json::to_string(&draft.secondary_problem_type_ids).unwrap(),serde_json::to_string(&draft.knowledge_point_ids).unwrap(),serde_json::to_string(&draft.method_ids).unwrap(),&draft.notes,&created_at,draft.question_text.as_deref(),draft.answer_text.as_deref(),&draft.origin,draft.difficulty,source_json]).map_err(|error| error.to_string())?;
-    let directory = state.attachment_dir.join(&id);
-    let mut question_images = Vec::new(); let mut answer_images = Vec::new();
-    for (index,image) in draft.question_images.iter().enumerate() { let path=save_data_url(image,&directory,&format!("question-{index}"))?; transaction.execute("INSERT INTO attachments VALUES (?1,?2,'question',?3,?4)",params![Uuid::new_v4().to_string(),id,path.to_string_lossy(),index]).map_err(|error| error.to_string())?; question_images.push(image.clone()); }
-    for (index,image) in draft.answer_images.iter().enumerate() { let path=save_data_url(image,&directory,&format!("answer-{index}"))?; transaction.execute("INSERT INTO attachments VALUES (?1,?2,'answer',?3,?4)",params![Uuid::new_v4().to_string(),id,path.to_string_lossy(),index]).map_err(|error| error.to_string())?; answer_images.push(image.clone()); }
+    let problem = Problem {
+        id: Uuid::new_v4().to_string(),
+        created_at: Utc::now().to_rfc3339(),
+        attempts: Vec::new(),
+        title: draft.title,
+        question_images: draft.question_images,
+        answer_images: draft.answer_images,
+        primary_chapter_id: draft.primary_chapter_id,
+        secondary_chapter_ids: draft.secondary_chapter_ids,
+        primary_problem_type_id: draft.primary_problem_type_id,
+        secondary_problem_type_ids: draft.secondary_problem_type_ids,
+        knowledge_point_ids: draft.knowledge_point_ids,
+        method_ids: draft.method_ids,
+        notes: draft.notes,
+        question_text: draft.question_text,
+        answer_text: draft.answer_text,
+        origin: draft.origin,
+        difficulty: draft.difficulty,
+        source: draft.source,
+    };
+    insert_problem(&transaction, &problem, &state.attachment_dir)?;
     transaction.commit().map_err(|error| error.to_string())?;
-    Ok(Problem { id, title:draft.title, question_images, answer_images, primary_chapter_id:draft.primary_chapter_id, secondary_chapter_ids:draft.secondary_chapter_ids, primary_problem_type_id:draft.primary_problem_type_id, secondary_problem_type_ids:draft.secondary_problem_type_ids, knowledge_point_ids:draft.knowledge_point_ids, method_ids:draft.method_ids, notes:draft.notes, created_at, attempts:Vec::new(), question_text:draft.question_text, answer_text:draft.answer_text, origin:draft.origin, difficulty:draft.difficulty, source:draft.source })
+    Ok(problem)
 }
 
 #[tauri::command]
@@ -228,7 +333,97 @@ pub fn run() {
             let db_path=data_dir.join("mathlink.db"); init_db(&db_path).map_err(std::io::Error::other)?;
             app.manage(AppState{db_path,attachment_dir,lock:Mutex::new(())}); Ok(())
         })
-        .invoke_handler(tauri::generate_handler![list_problems,create_problem,add_attempt])
+        .invoke_handler(tauri::generate_handler![list_problems,create_problem,add_attempt,bulk_import_problems,import_bank_from_file])
         .run(tauri::generate_context!())
         .expect("error while running MathLink");
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn sample(id: &str) -> Problem {
+        Problem {
+            id: id.to_string(),
+            title: format!("题目 {id}"),
+            question_images: Vec::new(),
+            answer_images: Vec::new(),
+            primary_chapter_id: "multiple_integral".to_string(),
+            secondary_chapter_ids: Vec::new(),
+            primary_problem_type_id: "double_integral".to_string(),
+            secondary_problem_type_ids: Vec::new(),
+            knowledge_point_ids: vec!["integration_order".to_string()],
+            method_ids: Vec::new(),
+            notes: String::new(),
+            created_at: "2026-09-27T00:00:00.000Z".to_string(),
+            attempts: Vec::new(),
+            question_text: Some(r#"$\iint_D xy\,\mathrm{d}\sigma$"#.to_string()),
+            answer_text: Some(r#"$$\dfrac{1}{12}$$"#.to_string()),
+            origin: "builtin".to_string(),
+            difficulty: Some(3),
+            source: Some(ProblemSource {
+                kind: "example".to_string(),
+                year: None,
+                paper: None,
+                number: None,
+                book: Some("Active Calculus Multivariable".to_string()),
+                section: Some("Double Integrals".to_string()),
+                license: Some("CC BY-SA 4.0".to_string()),
+            }),
+        }
+    }
+
+    fn setup() -> Connection {
+        let mut connection = Connection::open_in_memory().expect("open memory db");
+        schema_and_migrate(&mut connection).expect("init schema");
+        connection
+    }
+
+    #[test]
+    fn bulk_import_is_idempotent() {
+        let mut connection = setup();
+        let attachment_dir = std::env::temp_dir();
+        let problems = vec![sample("bank.cal.1"), sample("bank.cal.2"), sample("bank.cal.3")];
+        let first = import_problems_on(&mut connection, &problems, &attachment_dir).expect("first import");
+        assert_eq!((first.imported, first.skipped), (3, 0));
+        let second = import_problems_on(&mut connection, &problems, &attachment_dir).expect("second import");
+        assert_eq!((second.imported, second.skipped), (0, 3));
+        let count: i64 = connection.query_row("SELECT COUNT(*) FROM problems", [], |row| row.get(0)).unwrap();
+        assert_eq!(count, 3);
+    }
+
+    #[test]
+    fn imported_fields_roundtrip() {
+        let mut connection = setup();
+        let attachment_dir = std::env::temp_dir();
+        import_problems_on(&mut connection, &[sample("bank.cal.1")], &attachment_dir).expect("import");
+        let (question_text, origin, difficulty, source_json): (Option<String>, Option<String>, Option<i64>, Option<String>) = connection
+            .query_row("SELECT question_text,origin,difficulty,source_json FROM problems WHERE id='bank.cal.1'", [], |row| {
+                Ok((row.get(0)?, row.get(1)?, row.get(2)?, row.get(3)?))
+            })
+            .unwrap();
+        assert_eq!(question_text.as_deref(), Some(r#"$\iint_D xy\,\mathrm{d}\sigma$"#));
+        assert_eq!(origin.as_deref(), Some("builtin"));
+        assert_eq!(difficulty, Some(3));
+        let source: ProblemSource = serde_json::from_str(&source_json.expect("source json")).unwrap();
+        assert_eq!(source.kind, "example");
+        assert_eq!(source.book.as_deref(), Some("Active Calculus Multivariable"));
+    }
+
+    #[test]
+    fn migration_backfills_origin_on_legacy_schema() {
+        let mut connection = Connection::open_in_memory().unwrap();
+        // 手工构造 v0 旧表（无新列），验证迁移回填 origin='user'
+        connection.execute_batch(
+            "CREATE TABLE problems (id TEXT PRIMARY KEY, title TEXT NOT NULL, primary_chapter_id TEXT NOT NULL,
+             secondary_chapter_ids TEXT NOT NULL, primary_problem_type_id TEXT NOT NULL, secondary_problem_type_ids TEXT NOT NULL,
+             knowledge_point_ids TEXT NOT NULL, method_ids TEXT NOT NULL, notes TEXT NOT NULL, created_at TEXT NOT NULL);
+             INSERT INTO problems VALUES ('old-1','旧题','c','[]','p','[]','[]','[]','','2020-01-01T00:00:00Z');"
+        ).unwrap();
+        schema_and_migrate(&mut connection).expect("migrate legacy");
+        let origin: String = connection.query_row("SELECT origin FROM problems WHERE id='old-1'", [], |row| row.get(0)).unwrap();
+        assert_eq!(origin, "user");
+        let version: i64 = connection.query_row("PRAGMA user_version", [], |row| row.get(0)).unwrap();
+        assert_eq!(version, DB_SCHEMA_VERSION);
+    }
 }
