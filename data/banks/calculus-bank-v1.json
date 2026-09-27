@@ -1,0 +1,91 @@
+{
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "calculus",
+  "license": "CC BY-SA 4.0",
+  "description": "机制验证用示例题库：题目均为项目自编示例（source.kind=exam 条目仅演示来源徽章格式，并非真实真题）",
+  "problems": [
+    {
+      "id": "bank.cal.1",
+      "title": "求含三角函数差的未定式极限",
+      "questionText": "求极限 $\\lim_{x\\to 0}\\dfrac{\\tan x-\\sin x}{x^{3}}$。",
+      "answerText": "$$\\lim_{x\\to 0}\\dfrac{\\tan x-\\sin x}{x^{3}}=\\lim_{x\\to 0}\\dfrac{\\tan x}{x}\\cdot\\dfrac{1-\\cos x}{x^{2}}=1\\cdot\\dfrac{1}{2}=\\dfrac{1}{2}$$ 其中用到 $\\tan x\\sim x$ 与 $1-\\cos x\\sim \\dfrac{x^{2}}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal"
+      ],
+      "methodIds": [
+        "equivalent_infinitesimal",
+        "taylor_expansion"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "exam",
+        "year": 2018,
+        "paper": "math1",
+        "number": 15
+      }
+    },
+    {
+      "id": "bank.cal.2",
+      "title": "计算两条抛物线围成区域上的二重积分",
+      "questionText": "计算二重积分 $\\iint_{D}xy\\,\\mathrm{d}\\sigma$，其中 $D$ 由曲线 $y=x^{2}$ 与 $y=\\sqrt{x}$ 所围成。",
+      "answerText": "两曲线交点为 $(0,0)$ 与 $(1,1)$，区域可表示为 $x^{2}\\le y\\le \\sqrt{x},\\ 0\\le x\\le 1$：$$\\iint_{D}xy\\,\\mathrm{d}\\sigma=\\int_{0}^{1}\\!\\int_{x^{2}}^{\\sqrt{x}}xy\\,\\mathrm{d}y\\,\\mathrm{d}x=\\int_{0}^{1}\\dfrac{x(x-x^{4})}{2}\\,\\mathrm{d}x=\\dfrac{1}{2}\\Big(\\dfrac{1}{3}-\\dfrac{1}{6}\\Big)=\\dfrac{1}{12}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region",
+        "integration_order"
+      ],
+      "methodIds": [],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus Multivariable",
+        "section": "Double Integrals over General Regions",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.3",
+      "title": "求解一阶线性微分方程",
+      "questionText": "求微分方程 $y'+\\dfrac{1}{x}y=x$ 的通解。",
+      "answerText": "这是一阶线性方程，$P(x)=\\dfrac{1}{x}$，积分因子为 $\\mathrm{e}^{\\int P\\,\\mathrm{d}x}=x$。于是 $(xy)'=x^{2}$，积分得 $xy=\\dfrac{x^{3}}{3}+C$，故通解为 $$y=\\dfrac{x^{2}}{3}+\\dfrac{C}{x}\\quad(x\\neq 0)$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation"
+      ],
+      "methodIds": [],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    }
+  ]
+}

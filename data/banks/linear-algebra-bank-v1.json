@@ -1,0 +1,97 @@
+{
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "linear_algebra",
+  "license": "CC BY-SA 4.0",
+  "description": "机制验证用示例题库：题目均为项目自编示例（source.kind=exam 条目仅演示来源徽章格式，并非真实真题）",
+  "problems": [
+    {
+      "id": "bank.la.1",
+      "title": "实对称矩阵的正交对角化",
+      "questionText": "设 $A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}$，求正交矩阵 $Q$，使 $Q^{\\mathrm{T}}AQ$ 为对角矩阵，并写出该对角矩阵。",
+      "answerText": "由 $\\det(A-\\lambda E)=(2-\\lambda)^{2}-1=0$ 得 $\\lambda_{1}=1,\\ \\lambda_{2}=3$。对应特征向量 $\\xi_{1}=(1,-1)^{\\mathrm{T}},\\ \\xi_{2}=(1,1)^{\\mathrm{T}}$（已正交），单位化后取 $$Q=\\dfrac{1}{\\sqrt{2}}\\begin{pmatrix}1&1\\\\-1&1\\end{pmatrix},\\quad Q^{\\mathrm{T}}AQ=\\operatorname{diag}(1,3)$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept",
+        "la.knowledge.real_symmetric_properties",
+        "la.knowledge.orthogonal_diagonalization"
+      ],
+      "methodIds": [
+        "la.method.characteristic_polynomial"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "exam",
+        "year": 2019,
+        "paper": "math1",
+        "number": 20
+      }
+    },
+    {
+      "id": "bank.la.2",
+      "title": "按行展开计算三阶行列式",
+      "questionText": "计算行列式 $D=\\begin{vmatrix}1&2&3\\\\2&3&4\\\\3&5&7\\end{vmatrix}$。",
+      "answerText": "按第一行展开：$$D=1\\cdot(3\\cdot7-4\\cdot5)-2\\cdot(2\\cdot7-4\\cdot3)+3\\cdot(2\\cdot5-3\\cdot3)=1-4+3=0$$ 事实上第二行减第一行、第三行减第二行后得两行相同，也可直接判断 $D=0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.determinant_computation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.row_column_expansion",
+        "la.knowledge.determinant_properties"
+      ],
+      "methodIds": [
+        "la.method.row_column_expansion"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Determinants",
+        "license": "GFDL / CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.3",
+      "title": "二次型正定性的判定",
+      "questionText": "判断二次型 $f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+3x_{3}^{2}+2x_{1}x_{2}+2x_{1}x_{3}$ 是否正定。",
+      "answerText": "$f$ 的矩阵为 $$A=\\begin{pmatrix}1&1&1\\\\1&2&0\\\\1&0&3\\end{pmatrix}$$ 顺序主子式 $\\Delta_{1}=1>0$，$\\Delta_{2}=\\begin{vmatrix}1&1\\\\1&2\\end{vmatrix}=1>0$，$\\Delta_{3}=|A|=1\\cdot6-1\\cdot3+1\\cdot(-2)=1>0$，故 $f$ 正定。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.quadratic_forms",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.quadratic_form_matrix",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.positive_definite_criteria",
+        "la.knowledge.positive_definite_concept"
+      ],
+      "methodIds": [
+        "la.method.positive_definite_definition"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    }
+  ]
+}

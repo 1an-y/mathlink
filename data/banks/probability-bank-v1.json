@@ -1,0 +1,95 @@
+{
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "probability_statistics",
+  "license": "CC BY-SA 4.0",
+  "description": "机制验证用示例题库：题目均为项目自编示例（source.kind=exam 条目仅演示来源徽章格式，并非真实真题）",
+  "problems": [
+    {
+      "id": "bank.prob.1",
+      "title": "由联合分布律求期望与协方差",
+      "questionText": "设二维离散型随机变量 $(X,Y)$ 的联合分布律为 $P\\{X=0,Y=0\\}=0.2$，$P\\{X=0,Y=1\\}=0.3$，$P\\{X=1,Y=0\\}=0.3$，$P\\{X=1,Y=1\\}=0.2$。求 $E(X)$、$E(Y)$ 与 $\\operatorname{Cov}(X,Y)$。",
+      "answerText": "边缘分布得 $P\\{X=1\\}=0.5$，$P\\{Y=1\\}=0.5$，故 $E(X)=E(Y)=0.5$；$E(XY)=1\\cdot1\\cdot0.2=0.2$。$$\\operatorname{Cov}(X,Y)=E(XY)-E(X)E(Y)=0.2-0.25=-0.05$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.multidimensional_random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.expectation_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.joint_discrete_distribution",
+        "prob.knowledge.covariance"
+      ],
+      "methodIds": [
+        "prob.method.linearity_expectation"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "exam",
+        "year": 2020,
+        "paper": "math3",
+        "number": 22
+      }
+    },
+    {
+      "id": "bank.prob.2",
+      "title": "贝叶斯公式：检测结果为阳性的患病概率",
+      "questionText": "某疾病在人群中的患病率为 $1\\%$。某检测试剂对患病者呈阳性的概率为 $0.95$，对健康者呈阳性的概率为 $0.05$。现随机抽取一人检测结果为阳性，求其确实患病的概率。",
+      "answerText": "设 $A$ 表示患病，$B$ 表示阳性。由全概率公式 $$P(B)=0.01\\times0.95+0.99\\times0.05=0.059$$ 由贝叶斯公式 $$P(A\\mid B)=\\dfrac{P(A)P(B\\mid A)}{P(B)}=\\dfrac{0.0095}{0.059}\\approx0.161$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.conditional_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.total_probability_formula"
+      ],
+      "methodIds": [
+        "prob.method.total_probability_decomposition",
+        "prob.method.bayes_backwards"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§4.1 Conditional Probability",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.3",
+      "title": "指数分布参数的最大似然估计",
+      "questionText": "设总体 $X$ 服从参数为 $\\lambda$ 的指数分布，$X_{1},\\dots,X_{n}$ 为样本，观测值为 $x_{1},\\dots,x_{n}$。求 $\\lambda$ 的最大似然估计量。",
+      "answerText": "似然函数 $L(\\lambda)=\\prod_{i=1}^{n}\\lambda\\mathrm{e}^{-\\lambda x_{i}}=\\lambda^{n}\\mathrm{e}^{-\\lambda n\\bar{x}}$。取对数 $\\ln L=n\\ln\\lambda-\\lambda n\\bar{x}$，令 $\\dfrac{\\mathrm{d}\\ln L}{\\mathrm{d}\\lambda}=\\dfrac{n}{\\lambda}-n\\bar{x}=0$，解得 $$\\hat{\\lambda}=\\dfrac{1}{\\bar{x}}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.parameter_estimation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.maximum_likelihood_method"
+      ],
+      "methodIds": [
+        "prob.method.maximum_likelihood_procedure"
+      ],
+      "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    }
+  ]
+}

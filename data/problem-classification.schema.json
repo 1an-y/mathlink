@@ -2,12 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "problem-classification.schema.json",
   "title": "Problem classification",
+  "description": "mathlink 题库条目的分类标签与来源元数据，字段与 src/types.ts 的 Problem 对齐（methods 为扁平 methodIds，与实现一致）",
   "type": "object",
   "additionalProperties": false,
-  "required": ["taxonomy_version", "subject_id", "primary_chapter_id", "primary_problem_type_id", "knowledge_point_ids", "methods"],
+  "required": ["taxonomy_version", "subject_id", "primary_chapter_id", "primary_problem_type_id", "knowledge_point_ids"],
   "properties": {
-    "taxonomy_version": {"const": "1.1"},
-    "subject_id": {"const": "calculus"},
+    "taxonomy_version": {"type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$", "examples": ["1.2", "1"]},
+    "subject_id": {"enum": ["calculus", "linear_algebra", "probability_statistics"]},
     "primary_chapter_id": {"type": "string", "minLength": 1},
     "secondary_chapter_ids": {
       "type": "array",
@@ -30,29 +31,31 @@
       "uniqueItems": true,
       "maxItems": 6
     },
-    "methods": {
+    "methodIds": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "maxItems": 3,
+      "default": [],
+      "description": "解题方法标签，扁平数组（与 Problem.methodIds 一致）"
+    },
+    "questionText": {"type": "string", "description": "题干 LaTeX 文本，$...$ 行内、$$...$$ 独立公式"},
+    "answerText": {"type": "string", "description": "解答 LaTeX 文本"},
+    "origin": {"enum": ["builtin", "user"], "default": "builtin"},
+    "difficulty": {"type": "integer", "minimum": 1, "maximum": 5},
+    "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["recommended_ids", "alternative_ids"],
+      "required": ["kind"],
       "properties": {
-        "recommended_ids": {
-          "type": "array",
-          "items": {"type": "string", "minLength": 1},
-          "uniqueItems": true,
-          "maxItems": 3
-        },
-        "alternative_ids": {
-          "type": "array",
-          "items": {"type": "string", "minLength": 1},
-          "uniqueItems": true,
-          "maxItems": 3
-        }
+        "kind": {"enum": ["exam", "example", "custom"]},
+        "year": {"type": "integer", "minimum": 1987, "maximum": 2100, "description": "kind=exam 时的考试年份"},
+        "paper": {"enum": ["math1", "math2", "math3"]},
+        "number": {"type": "integer", "minimum": 1, "maximum": 30, "description": "kind=exam 时的题号"},
+        "book": {"type": "string", "description": "kind=example 时的来源书目"},
+        "section": {"type": "string", "description": "kind=example 时的章节"},
+        "license": {"type": "string", "description": "来源许可，如 CC BY-SA 4.0 / GFDL"}
       }
-    },
-    "source": {
-      "type": "string",
-      "enum": ["user", "suggested_then_confirmed"],
-      "default": "user"
     }
   }
 }
