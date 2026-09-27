@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>题间 · 题库总览</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --ink: #1f2430; --sub: #6b7280;
+    --accent: #2f6fed; --accent-soft: #eaf1fe; --border: #e5e7eb;
+    --chip: #f1f2f4; --good: #16803c; --warn: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161c; --card: #1d2029; --ink: #e8eaf0; --sub: #9aa1ad;
+      --accent: #6f9bf0; --accent-soft: #26314a; --border: #303542; --chip: #262a35; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif; }
+  header { padding: 28px 20px 14px; max-width: 980px; margin: 0 auto; }
+  header h1 { margin: 0 0 4px; font-size: 26px; }
+  header p { margin: 0; color: var(--sub); font-size: 14px; }
+  .stats { display: flex; gap: 18px; margin-top: 12px; color: var(--sub); font-size: 13px; flex-wrap: wrap; }
+  .stats strong { color: var(--ink); font-size: 17px; margin-right: 4px; }
+  .toolbar { max-width: 980px; margin: 14px auto 0; padding: 0 20px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tabs button { border: 1px solid var(--border); background: var(--card); color: var(--ink);
+    padding: 7px 14px; border-radius: 999px; cursor: pointer; font-size: 14px; }
+  .tabs button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .toolbar input[type=search] { flex: 1; min-width: 200px; border: 1px solid var(--border); background: var(--card);
+    color: var(--ink); border-radius: 999px; padding: 8px 16px; font-size: 14px; outline: none; }
+  .toolbar select { border: 1px solid var(--border); background: var(--card); color: var(--ink);
+    border-radius: 999px; padding: 7px 12px; font-size: 13px; }
+  .chapters { max-width: 980px; margin: 12px auto 0; padding: 0 20px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .chapters button { border: 1px solid var(--border); background: var(--chip); color: var(--ink);
+    padding: 5px 12px; border-radius: 999px; cursor: pointer; font-size: 13px; }
+  .chapters button.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  main { max-width: 980px; margin: 18px auto 60px; padding: 0 20px; display: grid; gap: 14px; }
+  .problem { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; }
+  .problem-head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+  .problem-head h2 { margin: 0; font-size: 16px; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 12px; }
+  .badge { background: var(--chip); border-radius: 6px; padding: 2px 8px; color: var(--sub); }
+  .badge.exam { background: var(--accent-soft); color: var(--accent); }
+  .badge.builtin { background: transparent; border: 1px dashed var(--border); }
+  .meta { color: var(--sub); font-size: 12px; margin: 8px 0 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .question { font-size: 15px; line-height: 1.8; }
+  details.answer { margin-top: 10px; }
+  details.answer summary { cursor: pointer; color: var(--accent); font-size: 13px; user-select: none; }
+  details.answer .answer-body { border-top: 1px dashed var(--border); margin-top: 8px; padding-top: 8px; font-size: 15px; line-height: 1.8; }
+  .katex-display { overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
+  .empty { text-align: center; color: var(--sub); padding: 48px 0; }
+  footer { text-align: center; color: var(--sub); font-size: 12px; padding: 0 0 40px; }
+  @media print {
+    body { background: #fff; }
+    .toolbar, .chapters, .tabs { display: none; }
+    details.answer { open: true; }
+    details.answer summary { display: none; }
+    details.answer .answer-body { display: block !important; }
+    .problem { break-inside: avoid; border-color: #ccc; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>题间 · 题库总览</h1>
+  <p>考研数学一 / 二 / 三 · 内置题库静态展示（数据生成于构建时刻，供展示与审校）</p>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="toolbar">
+  <div class="tabs" id="subjectTabs"></div>
+  <input type="search" id="search" placeholder="搜索标题或题干…">
+  <select id="sourceFilter">
+    <option value="all">全部来源</option>
+    <option value="exam">真题</option>
+    <option value="example">例题</option>
+    <option value="custom">自编</option>
+  </select>
+</div>
+<div class="chapters" id="chapters"></div>
+<main id="list"></main>
+<footer>mathlink 题库静态展示 · 由 scripts/build-bank-viewer.py 生成</footer>
+<script>
+const DATA = __DATA__;
+const EXAM_LABEL = { math1: "数一", math2: "数二", math3: "数三" };
+const SOURCE_LABEL = { exam: "真题", example: "例题", custom: "自编" };
+const chapterNames = DATA.chapterNames;
+let state = { subject: "all", chapter: "all", source: "all", query: "" };
+
+const allProblems = DATA.banks.flatMap(b => b.problems);
+
+function problemsOf(subject) { return subject === "all" ? allProblems : allProblems.filter(p => bankSubject(p) === subject); }
+function bankSubject(p) { return DATA.bankOf[p.id] || ""; }
+
+function render() {
+  const stats = document.getElementById("stats");
+  const counts = {};
+  for (const b of DATA.banks) counts[b.subject] = (counts[b.subject] || 0) + b.problems.length;
+  stats.innerHTML = DATA.subjects.map(s => `<span><strong>${counts[s.id] || 0}</strong>${s.name}</span>`).join("")
+    + `<span><strong>${allProblems.length}</strong>总计</span>`;
+
+  document.getElementById("subjectTabs").innerHTML =
+    [{ id: "all", name: "全部" }, ...DATA.subjects].map(s =>
+      `<button class="${state.subject === s.id ? "active" : ""}" data-subject="${s.id}">${s.name}</button>`).join("");
+
+  const pool = problemsOf(state.subject).filter(p => state.source === "all" || (p.source && p.source.kind) === state.source)
+    .filter(p => state.chapter === "all" || p.primaryChapterId === state.chapter)
+    .filter(p => !state.query || (p.title + (p.questionText || "")).toLowerCase().includes(state.query.toLowerCase()));
+
+  const chapterIds = [...new Set(problemsOf(state.subject).map(p => p.primaryChapterId))];
+  document.getElementById("chapters").innerHTML =
+    [{ id: "all", name: "全部章节" }, ...chapterIds.map(id => ({ id, name: chapterNames[id] || id }))]
+      .map(c => `<button class="${state.chapter === c.id ? "active" : ""}" data-chapter="${c.id}">${c.name}</button>`).join("");
+
+  const list = document.getElementById("list");
+  if (!pool.length) { list.innerHTML = `<div class="empty">没有符合条件的题目</div>`; afterRender(); return; }
+  list.innerHTML = pool.map(p => {
+    const src = p.source || {};
+    const badges = [];
+    if (src.kind) badges.push(`<span class="badge ${src.kind}">${SOURCE_LABEL[src.kind] || src.kind}</span>`);
+    if (src.year) badges.push(`<span class="badge exam">${src.year}${src.paper ? " · " + (EXAM_LABEL[src.paper] || src.paper) : ""}${src.number ? " · 第" + src.number + "题" : ""}</span>`);
+    if (src.book) badges.push(`<span class="badge">${src.book}${src.section ? " · " + src.section : ""}${src.license ? " · " + src.license : ""}</span>`);
+    if (p.origin === "builtin") badges.push(`<span class="badge builtin">内置</span>`);
+    const stars = p.difficulty ? `<span class="badge">难度 ${"★".repeat(p.difficulty)}${"☆".repeat(5 - p.difficulty)}</span>` : "";
+    const chapter = chapterNames[p.primaryChapterId] || p.primaryChapterId;
+    const tags = [...(p.knowledgePointIds || []).map(id => DATA.kpNames[id] || id), ...(p.methodIds || []).map(id => DATA.kpNames[id] || id)];
+    return `<article class="problem">
+      <div class="problem-head"><h2>${esc(p.title)}</h2><div class="badges">${badges.join("")}${stars}</div></div>
+      <div class="meta"><span>${esc(chapter)}</span>${tags.slice(0, 6).map(t => `<span># ${esc(t)}</span>`).join("")}</div>
+      <div class="question">${esc(p.questionText || "（图片题，见 app）")}</div>
+      ${p.answerText ? `<details class="answer"><summary>查看解答</summary><div class="answer-body">${esc(p.answerText)}</div></details>` : ""}
+    </article>`;
+  }).join("");
+  afterRender();
+}
+
+function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+function afterRender() {
+  if (window.renderMathInElement) {
+    renderMathInElement(document.getElementById("list"), {
+      delimiters: [{ left: "$$", right: "$$", display: true }, { left: "$", right: "$", display: false }],
+      throwOnError: false
+    });
+  }
+}
+
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  if (b.dataset.subject) { state.subject = b.dataset.subject; state.chapter = "all"; }
+  else if (b.dataset.chapter) state.chapter = b.dataset.chapter;
+  render();
+});
+document.getElementById("search").addEventListener("input", (e) => { state.query = e.target.value; render(); });
+document.getElementById("sourceFilter").addEventListener("change", (e) => { state.source = e.target.value; render(); });
+
+window.addEventListener("DOMContentLoaded", () => {
+  // katex defer 加载完成后 auto-render 即可用；直接先渲染一次
+  if (window.renderMathInElement) render(); else window.addEventListener("load", render);
+});
+render();
+</script>
+</body>
+</html>
