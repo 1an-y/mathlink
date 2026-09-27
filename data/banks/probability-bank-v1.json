@@ -3,7 +3,7 @@
   "version": 1,
   "subject": "probability_statistics",
   "license": "CC BY-SA 4.0",
-  "description": "机制验证用示例题库：题目均为项目自编示例（source.kind=exam 条目仅演示来源徽章格式，并非真实真题）",
+  "description": "内置题库：项目自编示例与练习题（题目为项目原创，非真实真题）",
   "problems": [
     {
       "id": "bank.prob.1",
@@ -83,6 +83,153 @@
         "prob.method.maximum_likelihood_procedure"
       ],
       "notes": "机制验证示例题（题目为项目自编，非真实真题）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.prob.4",
+      "title": "古典概型：抽人问题",
+      "questionText": "从 $5$ 名男生、$3$ 名女生中随机选取 $3$ 人，求至少选出 $1$ 名女生的概率。",
+      "answerText": "对立事件“全为男生”：$\\dfrac{\\binom{5}{3}}{\\binom{8}{3}}=\\dfrac{10}{56}$，故所求为 $1-\\dfrac{10}{56}=\\dfrac{23}{28}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.classical_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [
+        "prob.method.permutation_combination"
+      ],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.prob.5",
+      "title": "无放回抽取的条件概率",
+      "questionText": "一批产品共 $5$ 件，其中 $3$ 件正品、$2$ 件次品。无放回地依次取 $2$ 件，已知第 $1$ 件是正品，求第 $2$ 件也是正品的概率。",
+      "answerText": "第 $1$ 件为正品后，剩 $4$ 件中有 $2$ 件正品，故 $P=\\dfrac{2}{4}=\\dfrac{1}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.conditional_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.conditional_probability_formula"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.prob.6",
+      "title": "泊松分布的概率计算",
+      "questionText": "设 $X$ 服从参数为 $1$ 的泊松分布，求 $P\\{X\\ge 2\\}$。",
+      "answerText": "$P\\{X\\ge2\\}=1-\\mathrm{e}^{-1}-\\mathrm{e}^{-1}=1-2\\mathrm{e}^{-1}\\approx0.264$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.common_discrete_distributions",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.poisson_distribution"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.prob.7",
+      "title": "随机变量函数的期望与方差",
+      "questionText": "设 $X\\sim U(0,2)$，$Y=X^{2}$，求 $E(Y)$ 与 $D(Y)$。",
+      "answerText": "$E(Y)=\\int_{0}^{2}\\tfrac{x^{2}}{2}\\,\\mathrm{d}x=\\tfrac{4}{3}$；$E(Y^{2})=\\int_{0}^{2}\\tfrac{x^{4}}{2}\\,\\mathrm{d}x=\\tfrac{16}{5}$，故 $D(Y)=\\tfrac{16}{5}-\\tfrac{16}{9}=\\tfrac{64}{45}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.expectation_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.function_of_random_variable",
+        "prob.knowledge.variance"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.prob.8",
+      "title": "t 统计量的构造",
+      "questionText": "设 $X_{1},X_{2},X_{3}$ 是来自总体 $N(0,1)$ 的简单随机样本，指出 $W=\\dfrac{X_{1}}{\\sqrt{(X_{2}^{2}+X_{3}^{2})/2}}$ 服从的分布。",
+      "answerText": "$X_{1}\\sim N(0,1)$，$X_{2}^{2}+X_{3}^{2}\\sim\\chi^{2}(2)$ 且独立，由 $t$ 分布定义 $W\\sim t(2)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.mathematical_statistics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.normal_sampling_distribution",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.t_distribution"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.prob.9",
+      "title": "0-1 分布参数的最大似然估计",
+      "questionText": "设总体 $X\\sim B(1,p)$，$X_{1},\\dots,X_{n}$ 为样本，求 $p$ 的最大似然估计量。",
+      "answerText": "$L(p)=p^{n\\bar x}(1-p)^{n-n\\bar x}$，令 $\\dfrac{\\mathrm{d}\\ln L}{\\mathrm{d}p}=0$ 解得 $\\hat p=\\bar x$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.parameter_estimation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.maximum_likelihood_method"
+      ],
+      "methodIds": [
+        "prob.method.maximum_likelihood_procedure"
+      ],
+      "notes": "项目自编练习题",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",

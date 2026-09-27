@@ -3,7 +3,7 @@
   "version": 1,
   "subject": "calculus",
   "license": "CC BY-SA 4.0",
-  "description": "机制验证用示例题库：题目均为项目自编示例（source.kind=exam 条目仅演示来源徽章格式，并非真实真题）",
+  "description": "内置题库：项目自编示例与练习题（题目为项目原创，非真实真题）",
   "problems": [
     {
       "id": "bank.cal.1",
@@ -83,6 +83,235 @@
       "attempts": [],
       "origin": "builtin",
       "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.4",
+      "title": "含根式的 0/0 极限",
+      "questionText": "求极限 $\\lim_{x\\to 0}\\dfrac{\\sqrt{1+x\\sin x}-1}{x\\ln(1+x)}$。",
+      "answerText": "当 $x\\to 0$ 时 $\\sqrt{1+x\\sin x}-1\\sim \\dfrac{x\\sin x}{2}\\sim \\dfrac{x^{2}}{2}$，$x\\ln(1+x)\\sim x^{2}$，故原式 $=\\dfrac{1}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal"
+      ],
+      "methodIds": [
+        "equivalent_infinitesimal"
+      ],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.5",
+      "title": "用泰勒公式或洛必达求三次无穷小极限",
+      "questionText": "求极限 $\\lim_{x\\to 0}\\dfrac{x-\\sin x}{x^{3}}$。",
+      "answerText": "由 $\\sin x=x-\\dfrac{x^{3}}{6}+o(x^{3})$ 得 $x-\\sin x=\\dfrac{x^{3}}{6}+o(x^{3})$，故极限为 $\\dfrac{1}{6}$。（也可连续三次洛必达。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal"
+      ],
+      "methodIds": [
+        "lhopital_rule",
+        "taylor_expansion"
+      ],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.6",
+      "title": "求曲线的拐点",
+      "questionText": "求曲线 $y=x\\mathrm{e}^{-x}$ 的拐点。",
+      "answerText": "$y'=\\mathrm{e}^{-x}(1-x)$，$y''=\\mathrm{e}^{-x}(x-2)$。当 $x<2$ 时 $y''<0$，$x>2$ 时 $y''>0$，故拐点为 $\\left(2,\\ 2\\mathrm{e}^{-2}\\right)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "concavity_inflection",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.7",
+      "title": "含绝对值的定积分（三角化简）",
+      "questionText": "计算定积分 $\\int_{0}^{\\pi}\\sqrt{1-\\sin 2x}\\,\\mathrm{d}x$。",
+      "answerText": "$\\sqrt{1-\\sin 2x}=\\sqrt{(\\cos x-\\sin x)^{2}}=|\\cos x-\\sin x|$，分段去绝对值：$$\\int_{0}^{\\pi/4}(\\cos x-\\sin x)\\,\\mathrm{d}x+\\int_{\\pi/4}^{\\pi}(\\sin x-\\cos x)\\,\\mathrm{d}x=(\\sqrt{2}-1)+(1+\\sqrt{2})=2\\sqrt{2}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_substitution"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.8",
+      "title": "正项级数敛散性判别（比较判别法）",
+      "questionText": "判断级数 $\\sum_{n=1}^{\\infty}\\dfrac{n\\cos^{2}n}{n^{3}+1}$ 的敛散性。",
+      "answerText": "$0\\le\\dfrac{n\\cos^{2}n}{n^{3}+1}\\le\\dfrac{n}{n^{3}}=\\dfrac{1}{n^{2}}$，而 $\\sum\\dfrac{1}{n^{2}}$ 收敛，由比较判别法知原级数收敛。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "positive_series_convergence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "numeric_series_properties"
+      ],
+      "methodIds": [
+        "comparison_test"
+      ],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.9",
+      "title": "幂级数求和函数",
+      "questionText": "求幂级数 $\\sum_{n=1}^{\\infty}\\dfrac{x^{n}}{n}$ 的收敛域及和函数。",
+      "answerText": "收敛半径 $R=1$；$x=-1$ 时交错级数收敛、$x=1$ 时调和级数发散，收敛域 $[-1,1)$。设 $S(x)=\\sum_{n\\ge1}\\dfrac{x^{n}}{n}$，则 $S'(x)=\\dfrac{1}{1-x}$，$S(0)=0$，故 $$S(x)=\\int_{0}^{x}\\frac{\\mathrm{d}t}{1-t}=-\\ln(1-x),\\quad x\\in[-1,1)$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "power_series_sum",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "power_series_sum",
+        "power_series_interval"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.10",
+      "title": "一阶线性微分方程通解",
+      "questionText": "求微分方程 $y'+y=\\mathrm{e}^{-x}$ 的通解。",
+      "answerText": "齐次通解 $C\\mathrm{e}^{-x}$；设特解 $y^{*}=ax\\,\\mathrm{e}^{-x}$ 代入得 $a=1$，故 $$y=(x+C)\\,\\mathrm{e}^{-x}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.11",
+      "title": "交换积分次序计算累次积分",
+      "questionText": "计算 $\\int_{0}^{1}\\mathrm{d}x\\int_{x}^{1}\\mathrm{e}^{-y^{2}}\\,\\mathrm{d}y$。",
+      "answerText": "交换次序（区域 $0\\le x\\le y\\le 1$）：$$\\int_{0}^{1}y\\,\\mathrm{e}^{-y^{2}}\\,\\mathrm{d}y=\\left[-\\tfrac{1}{2}\\mathrm{e}^{-y^{2}}\\right]_{0}^{1}=\\frac{1-\\mathrm{e}^{-1}}{2}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "integration_order",
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "custom"
+      }
+    },
+    {
+      "id": "bank.cal.12",
+      "title": "截面法计算三重积分",
+      "questionText": "计算 $\\iiint_{\\Omega}z\\,\\mathrm{d}V$，其中 $\\Omega$ 由平面 $z=0$ 与抛物面 $z=1-x^{2}-y^{2}$ 围成。",
+      "answerText": "截面法：高度 $z$ 处截面面积 $\\pi(1-z)$，$$\\int_{0}^{1}z\\cdot\\pi(1-z)\\,\\mathrm{d}z=\\pi\\left(\\frac{1}{2}-\\frac{1}{3}\\right)=\\frac{\\pi}{6}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "triple_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "triple_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "项目自编练习题",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
       "source": {
         "kind": "custom"
       }
