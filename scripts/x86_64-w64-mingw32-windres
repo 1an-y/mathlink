@@ -1,0 +1,41 @@
+#!/bin/sh
+
+if [ "$1" = "-V" ] || [ "$1" = "--version" ]; then
+  echo "GNU windres compatible wrapper for Zig rc"
+  exit 0
+fi
+
+input=""
+output=""
+include_dir=""
+
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --input)
+      input="$2"
+      shift 2
+      ;;
+    --output)
+      output="$2"
+      shift 2
+      ;;
+    --include-dir)
+      include_dir="$2"
+      shift 2
+      ;;
+    --output-format=*|--target=*|-O*|-F*)
+      shift
+      ;;
+    *)
+      shift
+      ;;
+  esac
+done
+
+if [ -z "$input" ] || [ -z "$output" ]; then
+  echo "windres wrapper: missing input or output" >&2
+  exit 1
+fi
+
+export ZIG_GLOBAL_CACHE_DIR="/tmp/mathlink-zig-cache"
+exec /tmp/mathlink-zig/ziglang/zig rc /:auto-includes none /:output-format coff /:target x86_64 /i "$include_dir" /fo "$output" -- "$input"

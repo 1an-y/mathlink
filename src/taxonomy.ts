@@ -11,6 +11,10 @@ function readCustom(): Record<TagKind, TaxonomyItem[]> {
   }
 }
 
+export function getCustomTags(): Record<TagKind, TaxonomyItem[]> {
+  return readCustom();
+}
+
 export function getTaxonomy(): Taxonomy {
   const custom = readCustom();
   return {

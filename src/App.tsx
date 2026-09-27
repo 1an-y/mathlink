@@ -94,17 +94,28 @@ export default function App() {
 }
 
 function Sidebar({ view, count, open, navigate, close, theme, toggleTheme }: { view: View; count: number; open: boolean; navigate: (v: View) => void; close: () => void; theme: "light" | "dark"; toggleTheme: () => void }) {
+  const [exporting, setExporting] = useState(false);
   const nav = [
     { id: "library" as View, label: "题库", icon: Library },
     { id: "review" as View, label: "复习", icon: RotateCcw },
     { id: "glossary" as View, label: "定义索引", icon: BookMarked },
     { id: "tags" as View, label: "标签管理", icon: Tags }
   ];
-  const backup = () => {
-    const blob = new Blob([exportBackup()], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a"); anchor.href = url; anchor.download = `题间备份-${new Date().toISOString().slice(0, 10)}.json`; anchor.click();
-    URL.revokeObjectURL(url);
+  const backup = async () => {
+    setExporting(true);
+    try {
+      const blob = new Blob([await exportBackup()], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = `题间完整备份-${new Date().toISOString().slice(0, 10)}.json`;
+      anchor.click();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch (error) {
+      window.alert(`导出失败：${error instanceof Error ? error.message : String(error)}`);
+    } finally {
+      setExporting(false);
+    }
   };
   return <>
     {open && <button className="nav-scrim" onClick={close} aria-label="关闭导航" />}
@@ -116,7 +127,7 @@ function Sidebar({ view, count, open, navigate, close, theme, toggleTheme }: { v
       <button className="add-primary" onClick={() => navigate("add")}><Plus size={18} />添加题目</button>
       <div className="sidebar-foot">
         <button onClick={toggleTheme}>{theme === "light" ? <Moon size={17} /> : <Sun size={17} />}切换为{theme === "light" ? "深色" : "浅色"}</button>
-        <button onClick={backup}><Download size={17} />导出备份</button>
+        <button onClick={() => void backup()} disabled={exporting}><Download size={17} />{exporting ? "正在导出…" : "导出完整备份"}</button>
       </div>
     </aside>
   </>;
