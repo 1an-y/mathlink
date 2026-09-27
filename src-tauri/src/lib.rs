@@ -23,6 +23,28 @@ struct Attempt {
 
 #[derive(Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
+struct ProblemSource {
+    kind: String,
+    #[serde(default)]
+    year: Option<i64>,
+    #[serde(default)]
+    paper: Option<String>,
+    #[serde(default)]
+    number: Option<i64>,
+    #[serde(default)]
+    book: Option<String>,
+    #[serde(default)]
+    section: Option<String>,
+    #[serde(default)]
+    license: Option<String>,
+}
+
+fn default_origin() -> String {
+    "user".to_string()
+}
+
+#[derive(Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 struct Problem {
     id: String,
     title: String,
@@ -37,6 +59,16 @@ struct Problem {
     notes: String,
     created_at: String,
     attempts: Vec<Attempt>,
+    #[serde(default)]
+    question_text: Option<String>,
+    #[serde(default)]
+    answer_text: Option<String>,
+    #[serde(default = "default_origin")]
+    origin: String,
+    #[serde(default)]
+    difficulty: Option<i64>,
+    #[serde(default)]
+    source: Option<ProblemSource>,
 }
 
 #[derive(Deserialize)]
@@ -52,14 +84,28 @@ struct ProblemDraft {
     knowledge_point_ids: Vec<String>,
     method_ids: Vec<String>,
     notes: String,
+    #[serde(default)]
+    question_text: Option<String>,
+    #[serde(default)]
+    answer_text: Option<String>,
+    #[serde(default = "default_origin")]
+    origin: String,
+    #[serde(default)]
+    difficulty: Option<i64>,
+    #[serde(default)]
+    source: Option<ProblemSource>,
 }
 
 fn open_db(state: &AppState) -> Result<Connection, String> {
     Connection::open(&state.db_path).map_err(|error| error.to_string())
 }
 
+/// 当前 SQLite schema 版本（PRAGMA user_version）。
+/// 旧库未设版本时 user_version 为 0，按 0 起步逐级迁移。
+const DB_SCHEMA_VERSION: i64 = 1;
+
 fn init_db(path: &Path) -> Result<(), String> {
-    let connection = Connection::open(path).map_err(|error| error.to_string())?;
+    let mut connection = Connection::open(path).map_err(|error| error.to_string())?;
     connection.execute_batch(
         "PRAGMA foreign_keys = ON;
          CREATE TABLE IF NOT EXISTS problems (
@@ -76,7 +122,35 @@ fn init_db(path: &Path) -> Result<(), String> {
            id TEXT PRIMARY KEY, problem_id TEXT NOT NULL REFERENCES problems(id) ON DELETE CASCADE,
            result TEXT NOT NULL, note TEXT NOT NULL, created_at TEXT NOT NULL
          );"
-    ).map_err(|error| error.to_string())
+    ).map_err(|error| error.to_string())?;
+    migrate_db(&mut connection)
+}
+
+/// 基于 PRAGMA user_version 的逐级迁移：0 → 1 添加题目文本 / 来源 / 难度 / 内置标记列。
+/// 后续版本在其后追加 `if version < N { ... }` 步骤即可。
+fn migrate_db(connection: &mut Connection) -> Result<(), String> {
+    let version: i64 = connection
+        .query_row("PRAGMA user_version", [], |row| row.get(0))
+        .map_err(|error| error.to_string())?;
+    if version >= DB_SCHEMA_VERSION {
+        return Ok(());
+    }
+    let transaction = connection.transaction().map_err(|error| error.to_string())?;
+    if version < 1 {
+        transaction
+            .execute_batch(
+                "ALTER TABLE problems ADD COLUMN question_text TEXT;
+                 ALTER TABLE problems ADD COLUMN answer_text TEXT;
+                 ALTER TABLE problems ADD COLUMN origin TEXT NOT NULL DEFAULT 'user';
+                 ALTER TABLE problems ADD COLUMN difficulty INTEGER;
+                 ALTER TABLE problems ADD COLUMN source_json TEXT;",
+            )
+            .map_err(|error| error.to_string())?;
+    }
+    transaction
+        .pragma_update(None, "user_version", DB_SCHEMA_VERSION)
+        .map_err(|error| error.to_string())?;
+    transaction.commit().map_err(|error| error.to_string())
 }
 
 fn save_data_url(data_url: &str, directory: &Path, stem: &str) -> Result<PathBuf, String> {
@@ -105,18 +179,18 @@ fn json_vec(value: String) -> Vec<String> {
 fn list_problems(state: State<AppState>) -> Result<Vec<Problem>, String> {
     let _guard = state.lock.lock().map_err(|error| error.to_string())?;
     let connection = open_db(&state)?;
-    let mut statement = connection.prepare("SELECT id,title,primary_chapter_id,secondary_chapter_ids,primary_problem_type_id,secondary_problem_type_ids,knowledge_point_ids,method_ids,notes,created_at FROM problems ORDER BY created_at DESC").map_err(|error| error.to_string())?;
-    let rows = statement.query_map([], |row| Ok((row.get::<_,String>(0)?,row.get::<_,String>(1)?,row.get::<_,String>(2)?,row.get::<_,String>(3)?,row.get::<_,String>(4)?,row.get::<_,String>(5)?,row.get::<_,String>(6)?,row.get::<_,String>(7)?,row.get::<_,String>(8)?,row.get::<_,String>(9)?))).map_err(|error| error.to_string())?;
+    let mut statement = connection.prepare("SELECT id,title,primary_chapter_id,secondary_chapter_ids,primary_problem_type_id,secondary_problem_type_ids,knowledge_point_ids,method_ids,notes,created_at,question_text,answer_text,origin,difficulty,source_json FROM problems ORDER BY created_at DESC").map_err(|error| error.to_string())?;
+    let rows = statement.query_map([], |row| Ok((row.get::<_,String>(0)?,row.get::<_,String>(1)?,row.get::<_,String>(2)?,row.get::<_,String>(3)?,row.get::<_,String>(4)?,row.get::<_,String>(5)?,row.get::<_,String>(6)?,row.get::<_,String>(7)?,row.get::<_,String>(8)?,row.get::<_,String>(9)?,row.get::<_,Option<String>>(10)?,row.get::<_,Option<String>>(11)?,row.get::<_,Option<String>>(12)?,row.get::<_,Option<i64>>(13)?,row.get::<_,Option<String>>(14)?))).map_err(|error| error.to_string())?;
     let mut problems = Vec::new();
     for row in rows {
-        let (id,title,chapter,secondary_chapters,problem_type,secondary_types,knowledge,methods,notes,created_at) = row.map_err(|error| error.to_string())?;
+        let (id,title,chapter,secondary_chapters,problem_type,secondary_types,knowledge,methods,notes,created_at,question_text,answer_text,origin,difficulty,source_json) = row.map_err(|error| error.to_string())?;
         let mut attachment_query = connection.prepare("SELECT kind,file_path FROM attachments WHERE problem_id=?1 ORDER BY position").map_err(|error| error.to_string())?;
         let attachments = attachment_query.query_map([&id], |row| Ok((row.get::<_,String>(0)?,row.get::<_,String>(1)?))).map_err(|error| error.to_string())?;
         let mut question_images = Vec::new(); let mut answer_images = Vec::new();
         for attachment in attachments { let (kind,path) = attachment.map_err(|error| error.to_string())?; if kind == "question" { question_images.push(load_data_url(&path)); } else { answer_images.push(load_data_url(&path)); } }
         let mut attempt_query = connection.prepare("SELECT id,result,note,created_at FROM attempts WHERE problem_id=?1 ORDER BY created_at DESC").map_err(|error| error.to_string())?;
         let attempts = attempt_query.query_map([&id], |row| Ok(Attempt { id:row.get(0)?,result:row.get(1)?,note:row.get(2)?,created_at:row.get(3)? })).map_err(|error| error.to_string())?.collect::<Result<Vec<_>,_>>().map_err(|error| error.to_string())?;
-        problems.push(Problem { id,title,question_images,answer_images,primary_chapter_id:chapter,secondary_chapter_ids:json_vec(secondary_chapters),primary_problem_type_id:problem_type,secondary_problem_type_ids:json_vec(secondary_types),knowledge_point_ids:json_vec(knowledge),method_ids:json_vec(methods),notes,created_at,attempts });
+        problems.push(Problem { id,title,question_images,answer_images,primary_chapter_id:chapter,secondary_chapter_ids:json_vec(secondary_chapters),primary_problem_type_id:problem_type,secondary_problem_type_ids:json_vec(secondary_types),knowledge_point_ids:json_vec(knowledge),method_ids:json_vec(methods),notes,created_at,attempts,question_text,answer_text,origin:origin.unwrap_or_else(default_origin),difficulty,source:source_json.and_then(|value| serde_json::from_str(&value).ok()) });
     }
     Ok(problems)
 }
@@ -127,13 +201,14 @@ fn create_problem(draft: ProblemDraft, state: State<AppState>) -> Result<Problem
     let mut connection = open_db(&state)?;
     let transaction = connection.transaction().map_err(|error| error.to_string())?;
     let id = Uuid::new_v4().to_string(); let created_at = Utc::now().to_rfc3339();
-    transaction.execute("INSERT INTO problems VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10)", params![&id,&draft.title,&draft.primary_chapter_id,serde_json::to_string(&draft.secondary_chapter_ids).unwrap(),&draft.primary_problem_type_id,serde_json::to_string(&draft.secondary_problem_type_ids).unwrap(),serde_json::to_string(&draft.knowledge_point_ids).unwrap(),serde_json::to_string(&draft.method_ids).unwrap(),&draft.notes,&created_at]).map_err(|error| error.to_string())?;
+    let source_json = draft.source.as_ref().and_then(|value| serde_json::to_string(value).ok());
+    transaction.execute("INSERT INTO problems (id,title,primary_chapter_id,secondary_chapter_ids,primary_problem_type_id,secondary_problem_type_ids,knowledge_point_ids,method_ids,notes,created_at,question_text,answer_text,origin,difficulty,source_json) VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12,?13,?14,?15)", params![&id,&draft.title,&draft.primary_chapter_id,serde_json::to_string(&draft.secondary_chapter_ids).unwrap(),&draft.primary_problem_type_id,serde_json::to_string(&draft.secondary_problem_type_ids).unwrap(),serde_json::to_string(&draft.knowledge_point_ids).unwrap(),serde_json::to_string(&draft.method_ids).unwrap(),&draft.notes,&created_at,draft.question_text.as_deref(),draft.answer_text.as_deref(),&draft.origin,draft.difficulty,source_json]).map_err(|error| error.to_string())?;
     let directory = state.attachment_dir.join(&id);
     let mut question_images = Vec::new(); let mut answer_images = Vec::new();
     for (index,image) in draft.question_images.iter().enumerate() { let path=save_data_url(image,&directory,&format!("question-{index}"))?; transaction.execute("INSERT INTO attachments VALUES (?1,?2,'question',?3,?4)",params![Uuid::new_v4().to_string(),id,path.to_string_lossy(),index]).map_err(|error| error.to_string())?; question_images.push(image.clone()); }
     for (index,image) in draft.answer_images.iter().enumerate() { let path=save_data_url(image,&directory,&format!("answer-{index}"))?; transaction.execute("INSERT INTO attachments VALUES (?1,?2,'answer',?3,?4)",params![Uuid::new_v4().to_string(),id,path.to_string_lossy(),index]).map_err(|error| error.to_string())?; answer_images.push(image.clone()); }
     transaction.commit().map_err(|error| error.to_string())?;
-    Ok(Problem { id, title:draft.title, question_images, answer_images, primary_chapter_id:draft.primary_chapter_id, secondary_chapter_ids:draft.secondary_chapter_ids, primary_problem_type_id:draft.primary_problem_type_id, secondary_problem_type_ids:draft.secondary_problem_type_ids, knowledge_point_ids:draft.knowledge_point_ids, method_ids:draft.method_ids, notes:draft.notes, created_at, attempts:Vec::new() })
+    Ok(Problem { id, title:draft.title, question_images, answer_images, primary_chapter_id:draft.primary_chapter_id, secondary_chapter_ids:draft.secondary_chapter_ids, primary_problem_type_id:draft.primary_problem_type_id, secondary_problem_type_ids:draft.secondary_problem_type_ids, knowledge_point_ids:draft.knowledge_point_ids, method_ids:draft.method_ids, notes:draft.notes, created_at, attempts:Vec::new(), question_text:draft.question_text, answer_text:draft.answer_text, origin:draft.origin, difficulty:draft.difficulty, source:draft.source })
 }
 
 #[tauri::command]
