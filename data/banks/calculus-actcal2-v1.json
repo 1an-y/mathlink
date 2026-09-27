@@ -1,0 +1,1462 @@
+{
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "calculus",
+  "license": "CC BY-SA 4.0",
+  "description": "内置题库：Active Calculus (Boelkins) 第 5-8 章（积分技巧、积分应用、微分方程、泰勒级数）习题翻译，原文 CC BY-SA 4.0",
+  "problems": [
+    {
+      "id": "bank.cal.ac2.501",
+      "title": "三角函数 tan、cot、sec、csc 的不定积分",
+      "questionText": "求下列不定积分：\n（1）$\\int \\tan(x) \\, dx$；（2）$\\int \\cot(x) \\, dx$；（3）$\\int \\sec(x) \\, dx$；（4）$\\int \\csc(x) \\, dx$。\n（提示：求（3）时可先计算 $\\int \\frac{\\sec^2(x) + \\sec(x) \\tan(x)}{\\sec(x) + \\tan(x)} \\, dx$，注意其分子可因式分解。）",
+      "answerText": "（1）令 $u = \\cos(x)$，则 $du = -\\sin(x) \\ dx$，$$\\int \\tan(x) \\, dx = \\ln\\left(|\\sec(x)|\\right) + C$$（2）令 $u = \\sin(x)$，则 $du = \\cos(x) \\ dx$，$$\\int \\cot(x) \\, dx = -\\ln\\left(|\\csc(x)|\\right) + C$$（3）令 $u = \\sec(x) + \\tan(x)$，则 $du = \\left(\\sec(x)\\tan(x)+\\sec^2(x)\\right) \\ dx$，$$\\int \\frac{\\sec^2(x) + \\sec(x) \\tan(x)}{\\sec(x) + \\tan(x)} \\, dx = \\ln\\left(|\\sec(x) + \\tan(x)|\\right) + C$$ 又分子可提出公因子 $\\sec(x)$：$$\\frac{\\sec^2(x) + \\sec(x) \\tan(x)}{\\sec(x) + \\tan(x)} = \\frac{\\sec(x)\\left(\\sec(x) + \\tan(x)\\right)}{\\sec(x) + \\tan(x)} = \\sec(x)$$ 故 $$\\int \\sec(x) \\, dx = \\ln\\left(|\\sec(x) + \\tan(x)|\\right) + C$$（4）将分子分母同乘 $1 = \\frac{\\csc(x) + \\cot(x)}{\\csc(x) + \\cot(x)}$，得 $\\int \\frac{\\csc^2(x) + \\csc(x) \\cot(x)}{\\csc(x) + \\cot(x)} \\, dx$，再令 $u = \\csc(x) + \\cot(x)$ 换元即得 $$\\int \\csc(x) \\, dx = -\\ln\\left(|\\csc(x) + \\cot(x)|\\right) + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §5.3 习题（Exercise 5.3.11），公式保留原文。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.502",
+      "title": "换元法求含根式的不定积分",
+      "questionText": "求下列不定积分：\n（1）$\\int x \\sqrt{x-1} \\, dx$；（2）$\\int x^2 \\sqrt{x-1} \\, dx$；（3）$\\int x \\sqrt{x^2 - 1} \\, dx$。",
+      "answerText": "（1）令 $u = x-1$，则 $x = u+1$，$dx = du$，$$\\int x \\sqrt{x-1} \\, dx = \\int (u+1) \\sqrt{u} \\, du = \\int \\left(u^{3/2} + u^{1/2} \\right) \\, du = \\frac{2}{5} (x-1)^{5/2} + \\frac{2}{3} (x-1)^{3/2} + C$$（2）同法令 $u = x-1$：$$\\int x^2 \\sqrt{x-1} \\, dx = \\frac{2}{7} (x-1)^{7/2} + \\frac{4}{5} (x-1)^{5/2} + \\frac{2}{3} (x-1)^{3/2} + C$$（3）注意到 $u = x^2 - 1$ 时 $du = 2x \\, dx$，构成函数—导数对，且 $x \\, dx = \\frac{1}{2} \\, du$：$$\\int x \\sqrt{x^2 - 1} \\, dx = \\frac{1}{3} (x^2-1)^{3/2} + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §5.3 习题（Exercise 5.3.12）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.503",
+      "title": "sin³x 与 cos³x 的不定积分",
+      "questionText": "求下列不定积分：\n（1）$\\int \\sin^3(x) \\, dx$；（2）$\\int \\cos^3(x) \\, dx$。\n（提示：利用 $\\sin^2(x) + \\cos^2(x) = 1$ 将被积函数改写，如 $\\sin^3(x) = \\sin(x) (1-\\cos^2(x))$，再换元。）",
+      "answerText": "（1）$\\sin^3(x) = \\sin(x) \\cdot \\sin^2(x) = \\sin(x) (1-\\cos^2(x))$，令 $u = \\cos(x)$，$du = -\\sin(x) \\, dx$：$$\\int \\sin^3(x) \\, dx = \\int (u^2-1) \\, du = \\frac{1}{3}\\cos^3(x) - \\cos(x) + C$$（2）$\\cos^3(x) = \\cos(x) (1-\\sin^2(x))$，令 $u = \\sin(x)$，$du = \\cos(x) \\, dx$：$$\\int \\cos^3(x) \\, dx = \\sin(x) - \\frac{1}{3}\\sin^3(x) + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §5.3 习题（Exercise 5.3.13）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.504",
+      "title": "变上限积分函数的导数与显式表达式",
+      "questionText": "设 $f(t) = te^{-2t}$，$F(x) = \\int_0^x f(t) \\, dt$。\n（1）求 $F'(x)$；\n（2）利用微积分基本定理写出 $F(x)$ 的不含积分符号的表达式；\n（3）当 $x > 0$ 时，$F$ 是增函数还是减函数？说明理由。",
+      "answerText": "（1）由微积分基本定理，$F'(x) = f(x) = xe^{-2x}$。\n（2）对 $\\int te^{-2t} \\, dt$ 分部积分，取 $u = t$，$dv = e^{-2t} \\, dt$，则 $v = -\\frac{1}{2}e^{-2t}$，得 $\\int te^{-2t} \\, dt = -\\frac{1}{2}te^{-2t} - \\frac{1}{4}e^{-2t}$，故 $$F(x) = -\\frac{1}{2}xe^{-2x} - \\frac{1}{4}e^{-2x} + \\frac{1}{4}$$（3）是增函数：当 $x > 0$ 时 $F'(x) = xe^{-2x} > 0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [
+        "indefinite_integral"
+      ],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [
+        "integration_by_parts"
+      ],
+      "notes": "译自 Active Calculus §5.4 习题（Exercise 5.4.13）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.505",
+      "title": "含 e^{x} 复合结构的不定积分",
+      "questionText": "求下列不定积分：\n（1）$\\int e^{2x} \\cos(e^x) \\, dx$（提示：令 $z = e^{x}$）；\n（2）$\\int e^{2x} \\cos(e^{2x}) \\, dx$；\n（3）$\\int e^{2x} \\sin(e^x) \\, dx$；\n（4）$\\int e^{3x} \\sin(e^{3x}) \\, dx$；\n（5）$\\int xe^{x^2} \\cos(e^{x^2}) \\sin(e^{x^2}) \\, dx$。",
+      "answerText": "（1）令 $z = e^x$，$dz = e^x \\, dx$，则 $\\int e^{2x} \\cos(e^x) \\, dx = \\int z \\cos(z) \\, dz$，再对 $\\int z \\cos(z) \\, dz$ 分部积分：$$\\int e^{2x} \\cos(e^x) \\, dx = e^x \\sin(e^x) + \\cos(e^x) + C$$（2）此时 $u = e^{2x}$ 与 $du = 2e^{2x} \\, dx$ 已构成函数—导数对，直接换元：$$\\int e^{2x} \\cos(e^{2x}) \\, dx = \\frac{1}{2} \\sin(e^{2x}) + C$$（3）与（1）同法：$$\\int e^{2x} \\sin(e^x) \\, dx = \\sin(e^x) - e^x\\cos(e^x) + C$$（4）$$\\int e^{3x} \\sin(e^{3x}) \\, dx = -\\frac{1}{3} \\cos(e^{3x}) + C$$（5）由链式法则 $\\frac{d}{dx}\\left[e^{x^2}\\right] = 2xe^{x^2}$，令 $z = e^{x^2}$ 换元后再令 $u = \\sin(z)$：$$\\int xe^{x^2} \\cos(e^{x^2}) \\sin(e^{x^2}) \\, dx = \\frac{1}{4} \\sin^2(e^{x^2}) + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "substitution",
+        "integration_by_parts"
+      ],
+      "notes": "译自 Active Calculus §5.4 习题（Exercise 5.4.14）。原书答案（3）误将 z 留在结果中（写作 \\sin(e^x) - z\\cos(e^x) + C），已按 $z=e^x$ 回代修正；其余公式与原书一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.506",
+      "title": "判别积分方法并计算不定积分",
+      "questionText": "对下列每个不定积分，指出宜用换元积分法、分部积分法、两者兼用还是均不可用（不存在初等原函数），并求出能求出的积分：\n（1）$\\int x^2 \\cos(x^3) \\, dx$；\n（2）$\\int x^5 \\cos(x^3) \\, dx$；\n（3）$\\int x\\ln(x^2) \\, dx$；\n（4）$\\int \\sin(x^4) \\, dx$；\n（5）$\\int x^3 \\sin(x^4) \\, dx$；\n（6）$\\int x^7 \\sin(x^4) \\, dx$。",
+      "answerText": "（1）换元法（$u = x^3$，$du = 3x^2 \\, dx$）：$$\\int x^2 \\cos(x^3) \\ dx = \\frac{1}{3} \\sin(x^3) + C$$（2）换元与分部积分兼用（先令 $z = x^3$ 化为 $\\frac{1}{3} \\int z \\cos(z) \\ dz$，再分部）：$$\\int x^5 \\cos(x^3) \\ dx = \\frac{1}{3} \\left(x^3\\sin(x^3) + \\cos(x^3) \\right) + C$$（3）分部积分（$u = \\ln(x^2)$，$dv = x \\ dx$）：$$\\int x\\ln(x^2) \\, dx = \\frac{x^2}{2} \\ln(x^2) - \\frac{x^2}{2} + C$$（4）均不可用：令 $u = x^4$ 缺少因子 $x^3$，分部积分只会更繁，此积分在初等函数范围内积不出来。\n（5）换元法（$u = x^4$，$du = 4x^3 \\, dx$）：$$\\int x^3 \\sin(x^4) \\ dx = -\\frac{1}{4} \\cos(x^4) + C$$（6）两者兼用：$$\\int x^7 \\sin(x^4) \\ dx = -\\frac{1}{4} x^4 \\cos(x^4) + \\frac{1}{4} \\sin(x^4) + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "substitution",
+        "integration_by_parts"
+      ],
+      "notes": "译自 Active Calculus §5.4 习题（Exercise 5.4.15）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.507",
+      "title": "部分分式法求有理函数的不定积分",
+      "questionText": "利用部分分式法求下列不定积分：\n（1）$\\int \\frac{x^3 + x + 1}{x^4 - 1} \\, dx$；\n（2）$\\int \\frac{x^5 + x^2 + 3}{x^3 - 6x^2 + 11x - 6} \\, dx$；\n（3）$\\int \\frac{x^2 - x - 1}{(x-3)^3} \\, dx$。",
+      "answerText": "（1）先分解 $\\frac{x^3 + x + 1}{x^4 - 1} = -\\frac{1}{2(x^2+1)} + \\frac{1}{4(x+1)} + \\frac{3}{4(x-1)}$，$$\\int \\frac{x^3 + x + 1}{x^4 - 1} \\, dx = -\\frac{1}{2} \\arctan(x) + \\frac{1}{4} \\ln|x+1| + \\frac{3}{4} \\ln|x-1| + C$$（2）被除式次数高于除式，先带除得 $\\frac{x^5 + x^2 + 3}{x^3 - 6x^2 + 11x - 6} = x^2 + 6x + 25 + \\frac{255}{2(x-3)} - \\frac{39}{x-2} + \\frac{5}{2(x-1)}$，$$\\int \\frac{x^5 + x^2 + 3}{x^3 - 6x^2 + 11x - 6} \\, dx = \\frac{x^3}{3} + 3x^2 + 25x + \\frac{255}{2} \\ln|x-3| - 39 \\ln|x-2| + \\frac{5}{2} \\ln|x-1| + C$$（3）$\\frac{x^2 - x - 1}{(x-3)^3} = \\frac{1}{x-3} + \\frac{5}{(x-3)^2} + \\frac{5}{(x-3)^3}$，$$\\int \\frac{x^2 - x - 1}{(x-3)^3} \\, dx = \\ln|x-3| - \\frac{5}{x-3} - \\frac{5}{2(x-3)^2} + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "rational_function_integration"
+      ],
+      "notes": "译自 Active Calculus §5.5 习题（Exercise 5.5.6）。原书题干要求借助 CAS 分解并验证，此处改为直接用部分分式法求解，数学内容不变。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.508",
+      "title": "利用积分公式与换元求无理函数积分",
+      "questionText": "利用适当的换元及下列积分公式求不定积分：\n$\\int \\frac{du}{u\\sqrt{u^2+a^2}} = -\\frac{1}{a} \\ln \\left| \\frac{a+\\sqrt{u^2 + a^2}}{u} \\right| + C$，$\\int \\sqrt{u^2 \\pm a^2} \\, du = \\frac{u}{2}\\sqrt{u^2 \\pm a^2} \\pm \\frac{a^2}{2}\\ln|u + \\sqrt{u^2 \\pm a^2}| + C$，$\\int \\frac{du}{u\\sqrt{a^2 - u^2}} = -\\frac{1}{a} \\ln \\left| \\frac{a + \\sqrt{a^2 - u^2}}{u} \\right| + C$。\n（1）$\\int \\frac{1}{x \\sqrt{9x^2 + 25}} \\, dx$；\n（2）$\\int x \\sqrt{1 + x^4} \\, dx$；\n（3）$\\int e^x \\sqrt{4 + e^{2x}} \\, dx$；\n（4）$\\int \\frac{\\tan(x)}{\\sqrt{9 - \\cos^2(x)}} \\, dx$。",
+      "answerText": "（1）令 $u = 3x$，$du = 3 \\, dx$，$x = \\frac{1}{3} u$，$$\\int \\frac{1}{x \\sqrt{9x^2 + 25}} \\, dx = \\int \\frac{1}{u \\sqrt{u^2 + 25}} \\, du = -\\frac{1}{5} \\ln \\left| \\frac{5+\\sqrt{9x^2 + 5^2}}{3x} \\right| + C$$（2）令 $u = x^2$，$du = 2x \\, dx$：$$\\int x \\sqrt{1 + x^4} \\, dx = \\frac{1}{2} \\left( \\frac{x^2}{2}\\sqrt{x^4 + 1} + \\frac{1}{2}\\ln|x^2 + \\sqrt{x^4 + 1}| \\right) + C$$（3）令 $u = e^x$，$du = e^x \\, dx$：$$\\int e^x \\sqrt{4 + e^{2x}} \\, dx = \\frac{e^x}{2}\\sqrt{e^{2x} + 4} + 2\\ln|e^x + \\sqrt{e^{2x} + 4}| + C$$（4）写 $\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}$，令 $u = \\cos(x)$，$du = -\\sin(x) \\, dx$，$$\\int \\frac{\\tan(x)}{\\sqrt{9 - \\cos^2(x)}} \\, dx = \\frac{1}{3} \\ln \\left| \\frac{3 + \\sqrt{9 - \\cos^2(x)}}{\\cos(x)} \\right| + C$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
+      "methodIds": [
+        "substitution",
+        "trigonometric_substitution"
+      ],
+      "notes": "译自 Active Calculus §5.5 习题（Exercise 5.5.7）。原书要求查附录积分表并用 CAS 验证，此处把所需公式直接列入题干，去掉 CAS 环节，公式文字取自原书附录。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.509",
+      "title": "潮水冲沙与补沙问题",
+      "questionText": "某海滨公园的潮水以 $$R(t) = 2 + 5\\sin \\left( \\frac{4\\pi t}{25} \\right)$$（立方码/小时）的速率带走海滩上的沙子，同时抽沙站以 $$S(t) = \\frac{15t}{1+3t}$$（立方码/小时）的速率向海滩补沙，其中 $t$ 以小时计，$0 \\le t \\le 6$。已知 $t = 0$ 时海滩上有沙 2500 立方码。\n（1）用定积分表示 $0 \\le t \\le 6$ 时段内潮水带走的沙量，并说明理由；\n（2）写出时刻 $x$ 海滩沙量 $Y(x)$ 的表达式；\n（3）求 $t = 4$ 时海滩沙量的瞬时变化率。",
+      "answerText": "（1）因为 $R(t)\\cdot \\triangle t$ 的单位是立方码，变化率的积分等于总变化量，故潮水带走的沙量为 $$\\int_0^6 \\left[2 + 5\\sin \\left( \\frac{4\\pi t}{25} \\right) \\right] \\, dt$$（2）沙的净变化率是补沙速率减去带走速率，故 $$Y(x) = 2500 + \\int_0^x \\left[ S(t) - R(t) \\right] \\, dt = 2500 + \\int_0^x \\left[ \\frac{15t}{1+3t} - \\left( 2 + 5\\sin \\left( \\frac{4\\pi t}{25} \\right) \\right) \\right] \\, dt$$（3）对变上限积分求导得 $Y'(x) = S(x) - R(x)$，故 $Y'(4) = S(4) - R(4) \\approx -1.90875$（立方码/小时），即此刻海滩沙量在减少。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [
+        "definite_integral"
+      ],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "fundamental_theorem_calculus",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §5.2 习题（Exercise 5.2.5）。原书第（4）问要求用绘图/数值方法近似求最小值时刻，属数值估算，未收录。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§5.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.601",
+      "title": "求两条曲线围成区域的面积",
+      "questionText": "求由曲线 $y = \\sqrt{x}$ 与直线 $y = \\frac{1}{4}x$ 所围成的有限区域的面积。",
+      "answerText": "联立 $\\sqrt{x}=\\frac{1}{4}x$ 解得两曲线交于 $(0,0)$ 与 $(16,4)$。取竖直细条，其高为 $\\sqrt{x}-\\frac{1}{4}x$，故所求面积为 $$A = \\int_{0}^{16} \\left(\\sqrt{x} - \\frac{1}{4}x\\right) \\, dx = \\frac{32}{3}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.1 活动（Activity 6.1.1 任务 (a)）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.602",
+      "title": "两条抛物线围成区域的面积",
+      "questionText": "求由曲线 $y = 12-2x^2$ 与 $y = x^2 - 8$ 所围成的有限区域的面积。",
+      "answerText": "联立 $12-2x^2=x^2-8$，即 $3x^2=20$，交点横坐标为 $x=\\pm \\sqrt{20/3}$。在该区间上 $12-2x^2 \\ge x^2-8$，取竖直细条，$$A = \\int_{-\\sqrt{20/3}}^{\\sqrt{20/3}} ((12-2x^2)-(x^2-8)) \\, dx = \\frac{160 \\sqrt{\\frac{5}{3}}}{3} \\approx 68.853$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.1 活动（Activity 6.1.1 任务 (b)）。原书解答中积分限误写为 $\\pm\\sqrt{20}/3$（实为 $\\pm\\sqrt{20/3}$），已按方程 $3x^2=20$ 修正，面积值不变。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.603",
+      "title": "正弦曲线与余弦曲线围成区域的面积",
+      "questionText": "求由 $y$ 轴、曲线 $f(x) = \\cos(x)$ 与 $g(x) = \\sin(x)$ 所围成区域的面积，其中区域取 $f$ 与 $g$ 在 $y$ 轴右侧第一个交点之前的部分。",
+      "answerText": "$\\sin$ 与 $\\cos$ 在 $y$ 轴右侧第一个交点为 $x=\\frac{\\pi}{4}$。在 $[0,\\frac{\\pi}{4}]$ 上 $\\cos(x) \\ge \\sin(x)$，故 $$A = \\int_0^\\frac{\\pi}{4} \\left( \\cos(x) - \\sin(x) \\right) dx = \\sqrt{2} - 1$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.1 活动（Activity 6.1.1 任务 (c)）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.604",
+      "title": "以 y 为积分变量求区域面积",
+      "questionText": "求由曲线 $x=y^2$ 与 $x=6-2y^2$ 所围成的有限区域的面积。",
+      "answerText": "联立 $y^2=6-2y^2$ 得 $3y^2=6$，即 $y=\\pm \\sqrt{2}$。当 $y \\in [-\\sqrt{2}, \\sqrt{2}]$ 时 $6-2y^2 \\ge y^2$，取水平细条，对 $y$ 积分：$$A = \\int_{y=-\\sqrt{2}}^{y=\\sqrt{2}} (6-2y^2 - y^2) \\, dy = 8\\sqrt{2} \\approx 11.314$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.1 活动（Activity 6.1.2 任务 (a)）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.605",
+      "title": "求旋转体体积（垫圈法）",
+      "questionText": "求由曲线 $y = \\sqrt{x}$ 与 $y = x^3$ 围成的有限区域 $S$ 绕 $x$ 轴旋转一周所得旋转体的体积。",
+      "answerText": "两曲线交于 $(0,0)$ 与 $(1,1)$。取垂直于 $x$ 轴的截面，得垫圈（环形）截面，外半径 $R(x) = \\sqrt{x}$，内半径 $r(x) = x^3$，截面面积为 $\\pi((\\sqrt{x})^2 - (x^3)^2) = \\pi(x - x^6)$，故 $$V = \\int_0^1 \\pi(x - x^6) \\, dx = \\frac{5}{14}\\pi$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.2 活动（Activity 6.2.1 任务 (c)）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.606",
+      "title": "两条抛物线间区域绕 x 轴旋转的体积",
+      "questionText": "求由曲线 $y = 2x^2 + 1$ 与 $y = x^2 + 4$ 围成的有限区域 $S$ 绕 $x$ 轴旋转一周所得旋转体的体积。",
+      "answerText": "两曲线交于 $(\\pm \\sqrt{3}, 7)$。旋转后垂直于转轴的截面为垫圈，外半径 $R(x) = x^2 + 4$，内半径 $r(x) = 2x^2 + 1$，故 $$V = \\int_{-\\sqrt{3}}^{\\sqrt{3}} \\pi( (x^2 + 4)^2 - (2x^2 + 1)^2) \\, dx = \\frac{136\\sqrt{3}}{5}\\pi$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.2 活动（Activity 6.2.1 任务 (d)）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.607",
+      "title": "非均匀密度细棒的质量",
+      "questionText": "一横截面积为 $1\\ \\mathrm{cm}^2$ 的细棒按密度函数 $\\rho(x) = 2e^{-0.2x}$ 分布质量，其中 $x$（单位：cm）为到棒左端的距离，$\\rho(x)$ 的单位为 g/cm。若棒长为 10 cm，求棒的精确质量。",
+      "answerText": "质量 $M = \\int_a^b \\rho(x) \\, dx$，故 $$M = \\int_{0}^{10} 2e^{-0.2x} \\, dx = \\left. \\frac{2}{-0.2}e^{-0.2x} \\right|_{0}^{10} = -10e^{-2}+10e^{0}$$ 即 $M = 10 - 10e^{-2} \\approx 8.64665$ 克。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [
+        "definite_integral"
+      ],
+      "knowledgePointIds": [
+        "definite_integral_substitution"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.1 任务 (a)）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.608",
+      "title": "按等质量分割细棒的截断点",
+      "questionText": "一横截面积为 $1\\ \\mathrm{cm}^2$、长为 12 cm 的细棒，其质量按密度函数 $\\rho(x) = \\frac{1}{25}(x-15)^2$（单位：g/cm）分布。求将棒分成两段等质量的精确截断位置 $z$。",
+      "answerText": "棒的总质量 $M = \\int_{0}^{12} \\frac{1}{25}(x-15)^2 \\, dx = \\frac{1116}{25}$。设截断位置为 $b$，要求 $$\\int_{0}^{b} \\frac{1}{25}(x-15)^2 \\, dx = \\frac{1}{2} \\cdot \\frac{1116}{25}$$ 由 $\\int_{0}^{b} \\frac{1}{25}(x-15)^2 \\, dx = \\frac{1}{75}( (b-15)^3 - (-15)^3 )$ 得 $(b-15)^3 - (-15)^3 = 1674$，即 $(b-15)^3 = -1700$，故 $b-15 = \\sqrt[3]{-1700} \\approx -11.9348$，即 $b \\approx 3.0652$（cm）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.1 任务 (c)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.609",
+      "title": "线性变密度细棒的质量与质心",
+      "questionText": "一长为 20 cm 的细棒按密度函数 $\\rho(x) = 4 + 0.1x$ 分布质量，$x=0$ 对应棒的左端，$\\rho$ 以 g/cm 计，$x$ 以 cm 计。\n（1）求棒的总质量 $M$；\n（2）不计算，猜测棒的质心坐标 $\\overline{x}$ 等于 10、小于 10 还是大于 10？说明理由；\n（3）求棒的质心 $\\overline{x}$ 的精确值；\n（4）求棒的平均密度。",
+      "answerText": "（1）$M = \\int_{0}^{20} 4 + 0.1x \\, dx = 100$（g）。\n（2）大于 10：密度随 $x$ 增大而增大，质量向右端集中。\n（3）由公式 $\\overline{x} = \\frac{\\int_{0}^{20} x \\rho(x) \\, dx}{\\int_{0}^{20} \\rho(x) \\, dx}$ 得 $$\\overline{x} = \\frac{\\int_{0}^{20} x (4 + 0.1x) \\, dx}{\\int_{0}^{20} 4 + 0.1x \\, dx} = \\frac{\\frac{3200}{3}}{100} = \\frac{32}{3}$$ 确实略大于 10。\n（4）平均密度为质量除以长度：$\\rho_{\\text{AVG} [0,20]} = \\frac{1}{20-0} \\int_{0}^{20} \\rho(x) \\,dx = \\frac{100}{20} = 5$（g/cm）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.3 任务 (a)–(d)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.610",
+      "title": "变力做功：拉绳与提漏桶",
+      "questionText": "（1）一条重绳悬于悬崖边缘，绳长 200 英尺，每英尺重 0.3 磅，初始时绳完全垂下。将绳全部拉上悬崖需做多少功？（提示：设 $F(h)$ 表示拉入 $h$ 英尺后仍悬在崖外的绳重。）\n（2）一只漏桶从 100 英尺深的井底被匀速提起。桶与水共重 40 磅，上提过程中桶以恒定速率漏水，每提升 1 英尺减轻 0.1 磅。求将桶提到井口所做的总功。",
+      "answerText": "（1）拉入 $h$ 英尺后，悬在崖外的绳重为 $F(h) = 0.3(200-h)$。拉起一小段 $\\Delta h$ 所做的功为 $F(h) \\Delta h = 0.3(200-h) \\Delta h$，故总功 $$W = \\int_0^{200} 0.3(200-h) \\, dh = 6000 \\text{ 英尺·磅}$$（2）提升 $h$ 英尺后桶重 $B(h) = 40 - 0.1h$，总功 $$W = \\int_0^{100} (40-0.1h) \\, dh = 3500 \\text{ 英尺·磅}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.4 活动（Activity 6.4.1 任务 (a)(b)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.611",
+      "title": "胡克定律求弹簧做功",
+      "questionText": "胡克定律指出：将弹簧压缩（或拉伸）到与自然长度相差 $x$ 单位所需的力为 $F(x) = kx$，其中 $k$ 为劲度系数。已知用 5 磅的力可将某弹簧从自然长度拉伸 4 英寸（$\\frac{1}{3}$ 英尺）。\n（1）求劲度系数 $k$；\n（2）求将弹簧从自然长度拉伸到超出自然长度 1 英尺所做的功；\n（3）求将弹簧从超出自然长度 1 英尺拉伸到超出 1.5 英尺所需的功。",
+      "answerText": "（1）由 $F(1/3) = 5$ 及 $F(x) = kx$ 得 $5 = k \\cdot \\frac{1}{3}$，故 $k = 15$。\n（2）$$W = \\int_0^1 15x \\, dx = \\frac{15}{2} \\text{ 英尺·磅}$$（3）$$W = \\int_1^{1.5} 15x \\, dx = 9.375 \\text{ 英尺·磅}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.4 活动（Activity 6.4.1 任务 (d)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.612",
+      "title": "指数型密度细棒的长度、质心与等质量分割",
+      "questionText": "一长为 $a$ 的细棒按密度函数 $\\rho(x) = 10e^{-0.1x}$ 分布质量，$x$ 以 cm 计，$\\rho$ 以 g/cm 计。\n（1）若棒的质量为 30 g，求 $a$ 的值；\n（2）对该 30 g 的棒，判断其质心位于中点左侧还是右侧，并说明理由；\n（3）求该棒的质心；\n（4）应在 $x$ 为何值处将棒截断，使两段质量相等？",
+      "answerText": "（1）棒的质量为 $\\int_0^a 10e^{-0.1x} \\ dx = 100\\left(1-e^{-0.1a}\\right)$。令其等于 30，得 $e^{-0.1a} = 0.7$，故 $a = -10 \\ln(0.7) \\approx 3.567$ cm。\n（2）密度函数递减，质量向左端集中，质心应在中点左侧。\n（3）$\\overline{x} = \\frac{\\int_0^a x \\rho(x) \\ dx}{\\int_0^a \\rho(x) \\ dx}$，其中对 $\\int_0^a 10xe^{-0.1x} \\ dx$ 分部积分计算得 $\\approx 50.3338$，故 $\\overline{x} \\approx \\frac{50.3338}{30} \\approx 1.687$，小于棒长之半 $3.567/2$，与（2）的预测一致。\n（4）设截断点为 $q$，要求 $\\int_0^q 10e^{-0.1x} \\ dx = 100\\left(1-e^{-0.1q}\\right) = 15$，解得 $q = -10\\ln(0.85) \\approx 1.625$ cm。注意该点与质心不同：等质量分割不考虑力矩。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [
+        "integration_by_parts"
+      ],
+      "notes": "译自 Active Calculus §6.3 习题（Exercise 6.3.5）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.613",
+      "title": "含 ln x 的反常积分敛散性",
+      "questionText": "判断下列反常积分收敛还是发散，若收敛求其值：\n（1）$\\int_e^{\\infty} \\frac{\\ln(x)}{x} \\, dx$；\n（2）$\\int_e^{\\infty} \\frac{1}{x\\ln(x)} \\, dx$；\n（3）$\\int_e^{\\infty} \\frac{1}{x(\\ln(x))^2} \\, dx$；\n（4）$\\int_e^{\\infty} \\frac{1}{x(\\ln(x))^p} \\, dx$，其中 $p$ 为正实数；\n（5）$\\int_0^1 \\frac{\\ln(x)}{x} \\, dx$；\n（6）$\\int_0^1 \\ln(x) \\, dx$。",
+      "answerText": "（1）令 $u = \\ln(x)$，$du = \\frac{1}{x} \\ dx$，积分化为 $\\lim_{b \\to \\infty} \\int_1^{\\ln(b)} u \\, du = \\lim_{b \\to \\infty} \\left( \\frac{(\\ln(b))^2}{2} - \\frac{1}{2} \\right) = \\infty$，发散。\n（2）同法化为 $\\lim_{b \\to \\infty} \\left( \\ln(|\\ln(b)|) - \\ln(1) \\right) = \\infty$，发散。\n（3）化为 $\\lim_{b \\to \\infty} \\left( -\\frac{1}{\\ln(b)} + 1 \\right) = 1$，收敛于 $1$。\n（4）当 $p \\neq 1$ 时化为 $\\frac{1}{1-p} \\lim_{b \\to \\infty} \\left( (\\ln(b))^{1-p} - 1 \\right)$：若 $p \\lt 1$ 则发散；若 $p \\gt 1$ 则收敛于 $\\frac{1}{p-1}$。又 $p=1$ 时即（2），发散。故 $p \\leq 1$ 时发散，$p \\gt 1$ 时收敛于 $\\frac{1}{p-1}$。\n（5）瑕点在 $x = 0$。$\\lim_{a \\to 0^+} \\int_a^1 \\frac{\\ln(x)}{x} \\, dx = \\lim_{a \\to 0^+} \\left( -\\frac{(\\ln(a))^2}{2} \\right) = -\\infty$，发散。\n（6）瑕点在 $x=0$。分部积分后 $\\lim_{a \\to 0^+} \\int_a^1 \\ln(x) \\, dx = \\lim_{a \\to 0^+} \\left( -a\\ln(a) + a - 1 \\right) = -1$，收敛于 $-1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral",
+        "unbounded_function_integral"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §6.5 习题（Exercise 6.5.11）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.614",
+      "title": "用比较判敛法判断反常积分敛散性",
+      "questionText": "有些反常积分难以直接求出对应正常积分的极限，此时可与更简单的反常积分比较来判敛。例如：对一切 $x \\gt 0$，$1 + x^3 \\gt x^3$，故 $\\frac{1}{1+x^3} \\lt \\frac{1}{x^3}$，而 $\\int_1^\\infty \\frac{1}{x^3} \\, dx$ 收敛，从而 $\\int_1^\\infty \\frac{1}{1+x^3} \\, dx$ 收敛。仿照此法：\n（1）说明对一切 $x \\ge 1$ 有 $x^2 + x + 1 \\gt x^2$，进而通过与 $\\int_1^{\\infty} \\frac{1}{x^2} \\, dx$ 比较证明 $\\int_1^{\\infty} \\frac{1}{x^2 + x + 1} \\, dx$ 收敛；\n（2）已知对每个 $x \\gt 1$ 有 $\\ln(x) \\lt x$。说明对每个 $b \\gt 2$ 有 $\\int_2^b \\frac{1}{x} \\, dx \\lt \\int_2^b \\frac{1}{\\ln(x)} \\,dx$，并由此说明 $\\int_2^\\infty \\frac{1}{\\ln(x)} \\, dx$ 必发散；\n（3）说明对一切 $x \\gt 1$ 有 $\\sqrt{\\frac{x^4+1}{x^4}} \\gt 1$，进而判断 $\\int_1^{\\infty} \\frac{1}{x} \\cdot \\sqrt{\\frac{x^4+1}{x^4}} \\, dx$ 收敛还是发散。",
+      "answerText": "（1）因 $x \\ge 1$ 时 $x + 1 \\ge 1 \\gt 0$，两边加 $x^2$ 得 $$x^2 + x + 1 \\gt x^2$$ 取倒数（不等号反向）得 $\\frac{1}{x^2 + x + 1} \\lt \\frac{1}{x^2}$，从而对任意 $b \\gt 1$ 有 $\\int_1^b \\frac{1}{x^2 + x + 1} \\, dx \\lt \\int_1^b \\frac{1}{x^2} \\, dx$。令 $b \\to \\infty$，由 $\\int_1^{\\infty} \\frac{1}{x^2} \\, dx$ 收敛知 $\\int_1^{\\infty} \\frac{1}{x^2 + x + 1} \\, dx$ 收敛。\n（2）对每个 $x \\gt 1$，$\\ln(x) \\lt x$，取倒数得 $\\frac{1}{x} \\lt \\frac{1}{\\ln(x)}$，故对每个 $b \\gt 2$ 有 $\\int_2^b \\frac{1}{x} \\, dx \\lt \\int_2^b \\frac{1}{\\ln(x)} \\,dx$。令 $b \\to \\infty$，由 $\\int_2^{\\infty} \\frac{1}{x} \\, dx \\le \\int_2^{\\infty} \\frac{1}{\\ln(x)} \\,dx$ 且 $\\int_1^\\infty \\frac{1}{x} \\, dx$ 发散，知 $\\int_2^\\infty \\frac{1}{\\ln(x)} \\, dx$ 发散。\n（3）因对一切 $x$ 有 $x^4+1 \\gt x^4$，故 $\\frac{x^4+1}{x^4} \\gt 1$，开方得 $\\sqrt{\\frac{x^4+1}{x^4}} \\gt 1$。于是 $\\int_1^{\\infty} \\sqrt{\\frac{x^4+1}{x^4}} \\, dx \\ge \\int_1^{\\infty} 1 \\, dx$，而 $\\int_1^{\\infty} 1 \\, dx$ 发散，故 $$\\int_1^{\\infty} \\frac{1}{x} \\cdot \\sqrt{\\frac{x^4+1}{x^4}} \\, dx$$ 发散。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "improper_integral_definition",
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.5 习题（Exercise 6.5.12），题干中的引入段落为原书内容。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.615",
+      "title": "反常积分的判定与计算（瑕积分）",
+      "questionText": "判断下列定积分哪些是反常积分，哪些是正常积分：正常积分直接用微积分基本定理计算；反常积分则判断其收敛还是发散，若收敛求其精确值。\n（1）$\\int_0^1 \\frac{1}{x^{1/3}} \\, dx$；\n（2）$\\int_0^2 e^{-x} \\, dx$；\n（3）$\\int_1^4 \\frac{1}{\\sqrt{4-x}} \\, dx$；\n（4）$\\int_{-2}^2 \\frac{1}{x^2} \\, dx$；\n（5）$\\int_0^{\\pi/2} \\tan(x) \\, dx$。",
+      "answerText": "（1）被积函数在 $x=0$ 无定义，是反常积分（瑕点 $x=0$）。$\\lim_{a \\to 0^+} \\int_a^1 \\frac{1}{x^{1/3}}dx = \\lim_{a \\to 0^+} \\left( \\frac{3}{2} - \\frac{3}{2} a^{2/3} \\right) = \\frac{3}{2}$，收敛于 $\\frac{3}{2}$。\n（2）是正常积分：$\\int_0^2 e^{-x} dx = \\left. -e^{-x} \\right|_0^2 = 1 - e^{-2}$。\n（3）瑕点在 $x=4$：$\\lim_{b \\to 4^-}\\int_1^b \\frac{1}{\\sqrt{4-x}} dx = \\lim_{b \\to 4^-} \\left. -2\\sqrt{4-x} \\right|_1^b = 2\\sqrt{3}$，收敛于 $2\\sqrt{3}$。\n（4）瑕点 $x=0$ 在区间内部，须拆为 $\\int_{-2}^2 \\frac{1}{x^2} dx = \\int_{-2}^0 \\frac{1}{x^2} dx + \\int_{0}^2 \\frac{1}{x^2} dx$，其中 $\\int_{0}^2 \\frac{1}{x^2} dx = \\lim_{a \\to 0^+} \\left( -\\frac{1}{2} + \\frac{1}{a} \\right) = \\infty$ 发散，故原积分发散。\n（5）瑕点在 $x = \\frac{\\pi}{2}$：$\\lim_{b \\to \\frac{\\pi}{2}^-} \\int_0^b \\tan(x) dx = \\lim_{b \\to \\frac{\\pi}{2}^-} \\left( -\\ln(\\cos(b)) + \\ln(\\cos(0)) \\right) = \\infty$，发散。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "unbounded_function_integral",
+        "improper_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.5 活动（Activity 6.5.3）。原书解答（1）中积分下限漏写 $a$、（5）中极限方向误记为 $+$，均已修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§6.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.701",
+      "title": "验证函数是否为微分方程的解",
+      "questionText": "（1）考虑微分方程 $$\\frac{dy}{dt} = y - t$$ 判断下列函数是否为该方程的解：\n（i）$y(t) = t + 1 + 2e^t$；（ii）$y(t) = t + 1$；（iii）$y(t) = t + 2$。\n（2）称香蕉时，秤盘中香蕉的高度 $h$ 满足微分方程 $$\\frac{d^2h}{dt^2} = -kh$$ 其中 $k$ 为与秤内弹簧性质有关的常数（劲度系数）。放入香蕉后观察到 $h(t) = 4\\sin(3t)$，求 $k$ 的值。",
+      "answerText": "（1）（i）是解：$\\frac{dy}{dt} = 1 + 2e^t$，而 $y - t = ( t + 1 + 2e^t ) - t = 1 + 2e^t$，两者相等。（ii）是解：$\\frac{dy}{dt} = 1$，且 $y - t = 1$。（iii）不是解：$\\frac{dy}{dt} = 1$ 但 $y - t = 2$，不满足方程。\n（2）对 $h(t) = 4\\sin(3t)$ 有 $\\frac{d^2h}{dt^2} = -36\\sin(3t)$，代入方程得 $-36\\sin(3t) = -k \\cdot 4\\sin(3t)$，故 $k = 9$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation",
+        "second_order_homogeneous_linear"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.1 习题（Exercise 7.1.8）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.702",
+      "title": "猫鼠捕食模型的微分方程与平衡解",
+      "questionText": "设 $y(t)$ 为某农场老鼠的数量（以千只为单位），时间 $t$ 以年计。\n（1）老鼠种群的增长速度为老鼠数量的 20 倍，试写出相应的微分方程；\n（2）农场主带 $C$ 只猫进场。猫每年吃掉的老鼠数为 $M(y) = C\\frac{y}{2+y}$（千只/年），写出修改后的微分方程；\n（3）问至少需要多少只猫，才能使老鼠种群不会无限增长？",
+      "answerText": "（1）$$\\frac{dy}{dt} = 20y$$（2）猫使种群减少，故 $$\\frac{dy}{dt} = 20y - C\\frac{y}{2+y}$$（3）令 $\\frac{dy}{dt} = 0$：$0 = 20y - C\\frac{y}{2+y}$，即 $y(20y + (40-C)) = 0$。要存在正的平衡解，需 $40-C \\lt 0$，故至少需要 $41$ 只猫。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.2 习题（Exercise 7.2.9）。原书（c）问要求作 $M(y)$ 图像、（d）（e）问要求结合相线分析平衡解稳定性，因属作图/定性内容酌情精简，未改变数学内容。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.703",
+      "title": "放射性衰变与碳-14 测年",
+      "questionText": "放射性样品的质量按与其质量成正比的速率衰减。\n（1）以 $M(t)$ 表示质量，$k$ 为比例常数，写出相应的微分方程；\n（2）若初始质量为 $M_0$，求 $M(t)$ 的表达式；\n（3）已知碳-14 的半衰期为 5730 年，求碳-14 的 $k$ 值；\n（4）碳-14 样品衰减到原质量的四分之一需要多长时间？\n（5）对史前火坑中炭化木材的分析表明，其碳-14 含量仅为活树的 30%，试估计该火坑的年代。",
+      "answerText": "（1）$$\\frac{dM}{dt} = kM$$（2）分离变量解得 $$M(t) = M_0e^{kt}$$（3）由 $\\frac{1}{2}M_0 = M_0e^{5730k}$ 得 $k = \\frac{1}{5730}\\ln\\left(\\frac{1}{2}\\right) = -\\frac{\\ln(2)}{5730}$，故 $$M(t) = M_0e^{-\\frac{\\ln(2)}{5730}t} \\approx M_0e^{-0.000121t}$$（4）$t = \\frac{5730\\ln(4)}{\\ln(2)} \\approx 11460$ 年（即两个半衰期）。\n（5）解 $0.3M_0 = M_0e^{-\\frac{\\ln(2)}{5730}t}$ 得 $t = -\\frac{5730\\ln(0.3)}{\\ln(2)} \\approx 9952.8$ 年。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.4 习题（Exercise 7.4.8）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.704",
+      "title": "解初值问题 dy/dt = −t/y",
+      "questionText": "考虑初值问题 $$\\frac{dy}{dt} = -\\frac ty, \\ y(0) = 8$$（1）求初值问题的解；\n（2）解在哪些 $t$ 值处有定义？\n（3）在解有定义的最后一个时刻，$y$ 的值是多少？\n（4）结合微分方程本身说明：为什么不应期望存在取该 $y$ 值的解？",
+      "answerText": "（1）分离变量：$y \\frac{dy}{dt} = -t$，即 $\\int y \\, dy = -\\int t \\,dt$，得 $y^2 = C - t^2$。由 $y(0) = 8 > 0$ 取正根，$C = 64$，故解为 $$y = \\sqrt{64 - t^2}$$（2）$-8 \\le t \\le 8$。\n（3）最后有定义的时刻为 $t = 8$，此时 $y(8) = 0$。\n（4）微分方程右端 $-\\frac ty$ 在 $y = 0$ 处无定义，因此解实际上在 $y=0$ 处失去意义（对应方向场中该点处的竖直切线）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.4 习题（Exercise 7.4.9）。原书（a）要求作解的图像，此处改为求出解即可。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.705",
+      "title": "托里拆利定律与水箱漏水问题",
+      "questionText": "一柱形水箱底部有小孔漏水，水深 $h(t)$ 满足：高度下降的速率与水深的平方根成正比（托里拆利定律）。\n（1）以 $k$ 为比例常数写出微分方程；\n（2）设当水深为 100 英寸时，水面以每分钟 20 英寸的速率下降，求 $k$；\n（3）求解该初值问题（$h(0) = 100$）；\n（4）水漏完需要多长时间？\n（5）所得解对所有时刻 $t$ 都有效吗？说明理由。",
+      "answerText": "（1）$$\\frac{dh}{dt} = k \\sqrt{h}$$（2）由 $\\left.\\frac{dh}{dt}\\right|_{h=100} = -20$ 得 $-20 = k \\sqrt{100}$，故 $k = -2$。\n（3）解 $\\frac{dh}{dt} = -2 \\sqrt{h}$，$h(0) = 100$：分离变量得 $\\int h^{-1/2} \\, dh = \\int -2 \\, dt$，即 $2h^{1/2} = -2t + C$，$h = \\left( C - t \\right)^2$；由 $h(0)=100$ 得 $C=10$，故 $$h(t) = \\left(10 - t \\right)^2$$（图像为开口向上的抛物线，过 $(0,100)$，在 $(10,0)$ 处二重零点。）\n（4）$h(10) = 0$，即 10 分钟漏完。\n（5）不能。由问题的物理意义，解仅在 $0 \\lt t \\lt 10$ 内有效，$t=10$ 时水箱已空。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.4 习题（Exercise 7.4.10）。原书（b）问为定性比较 $k=-1$ 与 $k=-10$ 的水箱，未收录。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.706",
+      "title": "年金储蓄的微分方程模型",
+      "questionText": "某账户每年获得 5% 的利息，且每年年初存入 100 万美元。设 $A(t)$（单位：百万美元）为 $t$ 年后账户中的金额。\n（1）写出 $A(t)$ 满足的微分方程（金额增长来自两个因素：每年存入 100 万与 5% 的利息）；\n（2）若开户时账户金额为 0，求 25 年后账户金额；\n（3）另一种方案是一次性存入 1000 万美元存入同类账户，求 25 年后账户金额；\n（4）第一方案账户金额何时反超第二方案？",
+      "answerText": "（1）$$\\frac{dA}{dt} = 1 + 0.05A$$（2）解初值问题 $A(0) = 0$：由 $1 + 0.05A = 0.05(20 + A)$ 分离变量得 $A(t) = 20(e^{0.05t} - 1)$，故 $A(25) = 49.80686$（百万美元）。\n（3）$\\frac{dA}{dt} = 0.05A$，$A(0) = 10$，得 $A(t) = 10e^{0.05t}$，故 $A(25) = 34.90343$（百万美元）。\n（4）令 $20(e^{0.05t} - 1) = 10e^{0.05t}$，解得 $e^{0.05t} = 2$，即 $$t = 20 \\ln(2) \\approx 13.86 \\ \\text{年}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation",
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.5 习题（Exercise 7.5.6）。原书（d）问为开放性偏好问题，未收录。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.707",
+      "title": "跳伞者速度与收尾速度",
+      "questionText": "跳伞者下落时，重力使其向下速度以 $g\\approx 9.8$ m/s² 的速率增大，同时空气阻力使其速度以与速度成正比的速率减小。设 $v(t)$ 为 $t$ 时刻向下的速度。\n（1）以 $k$ 为比例常数写出 $v$ 满足的微分方程；\n（2）求平衡解，并判断其稳定性；\n（3）设初始速度为零，求 $v(t)$；\n（4）若收尾速度（极限速度）为 54 m/s，求该跳伞者的 $k$ 值；\n（5）速度达到收尾速度的 50% 需要多长时间？",
+      "answerText": "（1）$$\\frac{dv}{dt} = 9.8 - kv$$（2）令 $\\frac{dv}{dt} = 0$ 得平衡解 $v = \\frac{9.8}{k}$：当 $v \\lt \\frac{9.8}{k}$ 时 $\\frac{dv}{dt} \\gt 0$，当 $v \\gt \\frac{9.8}{k}$ 时 $\\frac{dv}{dt} \\lt 0$，故为稳定平衡。\n（3）分离变量解得 $$v(t) = \\frac{9.8 - 9.8e^{-kt}}{k}$$（4）由 $\\lim_{t \\to \\infty} v(t) = \\frac{9.8}{k} = 54$ 得 $k = 9.8/54 \\approx 0.181481$。\n（5）令 $v(t) = 0.5(54)$，化简得 $e^{-0.181481t} = 0.5$，故 $t = \\frac{\\ln(0.5)}{-0.181481} \\approx 3.1894$ 秒。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.5 习题（Exercise 7.5.7）。terminal velocity 译作『收尾速度（极限速度）』。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.708",
+      "title": "婴儿体重增长的可分离变量模型",
+      "questionText": "在生命的最初几年，婴儿体重增长的速率与其体重的倒数成正比。\n（1）写出相应的微分方程；\n（2）若婴儿出生时体重 8 磅，一个月后 9 磅，按此模型一岁时体重是多少？",
+      "answerText": "（1）$$\\frac{dw}{dt} = \\frac{k}{w}$$（2）分离变量得 $\\frac{1}{2}w^2 = kt + C$，即 $w(t) = \\sqrt{2kt + C_1}$。由 $w(0) = 8$ 得 $C_1 = 64$；由 $w(1) = 9$ 得 $81 = 2k + 64$，$k = 17/2$。故 $$w(t) = \\sqrt{17t+64}$$ 一岁（$t=12$ 个月）时 $w(12) = \\sqrt{268} \\approx 16.37$ 磅。（长期看该模型并不现实：体重将无界增长。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.5 习题（Exercise 7.5.8）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.709",
+      "title": "盐水混合问题",
+      "questionText": "一水箱容积 100 加仑。含盐 20 克/加仑的盐水以 3 加仑/分钟的速率注入水箱；同时水箱中溶液搅拌均匀，并以 3 加仑/分钟的速率抽出。设 $S(t)$ 为 $t$ 时刻水箱中的盐量（克）。\n（1）写出 $S$ 满足的微分方程（提示：注入带来 60 克/分钟的盐；因体积恒为 100 加仑，抽出带走的盐为 $\\frac{3S(t)}{100}$ 克/分钟）；\n（2）求平衡解并判断其稳定性；\n（3）设初始时水箱中无盐，求 $S(t)$；\n（4）$t$ 很大时 $S(t)$ 趋于多少？并说明这一结果为何可以仅由注入液的浓度预测。",
+      "answerText": "（1）$$\\frac{dS}{dt} = 60 - \\frac{3}{100} S$$（2）令 $60 - \\frac{3}{100} S = 0$ 得唯一平衡解 $S = 2000$：$\\frac{dS}{dt}$ 在 $S \\lt 2000$ 时为正、在 $S \\gt 2000$ 时为负，故为稳定平衡解。\n（3）由 $S(0) = 0$ 解初值问题：分离变量得 $\\ln|S-2000| = -\\frac{3}{100}t + C$，即 $S = 2000 + Ke^{-\\frac{3}{100}t}$；代入初始条件得 $K = -2000$，故 $$S(t) = 2000 - 2000e^{-\\frac{3}{100}t}$$（4）$t \\to \\infty$ 时 $e^{-\\frac{3}{100}t} \\to 0$，故 $S(t) \\to 2000$（克）。这与注入液浓度一致：当箱内浓度达到 20 克/加仑时，盐量为 $20 \\cdot 100 = 2000$ 克，也正是（2）中的稳定平衡解。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation",
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.5 习题（Exercise 7.5.9）。原书（a）（c）（d）问为逐项引导建立模型的过渡问题，已并入题干提示。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.710",
+      "title": "谣言传播的 Logistic 模型",
+      "questionText": "谣言在人群中的传播可用 Logistic 方程描述。设 $p(t)$ 为第 $t$ 天已听到谣言的人群比例，满足 $$\\frac{dp}{dt} = 0.2p(1-p)$$ 初始时十分之一的人听过谣言，即 $p(0) = 0.1$。\n（1）$t$ 很长以后 $p(t)$ 趋于多少？\n（2）求 $p(t)$ 的表达式；\n（3）$p$ 在何时刻变化最快？\n（4）多少天后 80% 的人听到谣言？",
+      "answerText": "（1）平衡解为 $p = 0$ 与 $p = 1$，其中 $p = 1$ 为环境容纳量（稳定平衡），故当 $p(0) \\gt 0$ 时 $p(t) \\to 1$（$t \\to \\infty$）。\n（2）由 Logistic 方程通解公式（$k=0.2$，$N=1$，$P_0=0.1$）得 $$p(t) = \\frac{1}{\\left(\\frac{1-0.1}{0.1}\\right) e^{-0.2t} + 1} = \\frac{1}{9e^{-0.2t} + 1}$$（3）$p$ 增长最快时 $p'$ 最大。由 $p' = 0.2p(1-p)$ 知其为 $p$ 的开口向下的二次函数，顶点在 $p = \\frac{1}{2}$。解 $0.5 = \\frac{1}{9e^{-0.2t} + 1}$ 得 $e^{-0.2t} = 1/9$，故 $t = -5 \\ln(1/9) \\approx 10.986$ 天。\n（4）解 $0.8 = \\frac{1}{9e^{-0.2t} + 1}$ 得 $e^{-0.2t} = 0.25/9$，故 $t = -5 \\ln(0.25/9) \\approx 17.19$ 天。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.6 习题（Exercise 7.6.5）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.711",
+      "title": "由观测数据建立细菌培养的 Logistic 方程",
+      "questionText": "设 $b(t)$ 为培养皿中细菌的数量（以千只为单位），$t$ 以天计。某天测得细菌为 6000 只（即 $b=6$）且个体增长率 $\\frac{db/dt}{b}$ 为 3；几天后测得细菌为 9000 只且个体增长率为 2。\n（1）假设个体增长率 $\\frac{db/dt}{b}$ 是 $b$ 的线性函数，利用两次观测求出该函数，并写出描述 $\\frac{db}{dt}$ 的 Logistic 方程；\n（2）细菌种群的环境容纳量是多少？\n（3）细菌数量在何值时增长最快？\n（4）若初始有 1000 只细菌，经过多长时间达到环境容纳量的 80%？",
+      "answerText": "（1）个体增长率函数过点 $(6000,3)$ 与 $(9000,2)$，其方程为 $y = 5 - \\frac{1}{3000}b$，故 $$\\frac{db}{dt} = b \\left( 5 - \\frac{1}{3000}b \\right) = \\frac{1}{3000} b(15000 - b)$$（2）环境容纳量为 $b = 15000$（即 15000 只，稳定平衡）。\n（3）$\\frac{db}{dt} = \\frac{1}{3000} b(15000 - b)$ 是关于 $b$ 的开口向下的二次函数，在两零点 $b=0$ 与 $b=15000$ 的中点即 $b = 7500$ 处最大。\n（4）由 $b(0) = 1000$，$N = 15000$，$k = \\frac{1}{3000}$ 得 $$b(t) = \\frac{15000}{\\left(\\frac{15000-1000}{1000}\\right) e^{-5t} + 1} = \\frac{15000}{14e^{-5t} + 1}$$ 令 $0.8 \\cdot 15 = \\frac{15000}{14e^{-5t} + 1}$，解得 $e^{-5t} = 1/70$，故 $t = -\\frac{1}{5} \\ln(1/70) \\approx 0.8497$ 天。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.6 习题（Exercise 7.6.6）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.712",
+      "title": "带捕捞的鱼类种群 Logistic 模型",
+      "questionText": "某种鱼类的种群由 Logistic 方程 $$\\frac{dP}{dt} = 0.1P(10 - P)$$ 控制，其中 $P$ 以千尾计，$t$ 以年计。\n（1）该种群的环境容纳量是多少？\n（2）设种群长期稳定在环境容纳量，此时人类开始每年捕捞 20% 的鱼。在方程中添加一项以反映捕捞；\n（3）新的环境容纳量是多少？\n（4）开始捕捞一年后鱼群数量是多少？\n（5）经过多长时间种群数量进入容纳量的 10% 范围之内？",
+      "answerText": "（1）容纳量为 10000 尾（$P=10$ 千尾）。\n（2）每年移除种群的 20%，即从增长率中减去 $0.2P$：$$\\frac{dP}{dt} = 0.1P(10 - P) - 0.2P$$（3）展开得 $\\frac{dP}{dt} = 0.8P - 0.1P^2 = 0.1P(8 - P)$，仍为 Logistic 方程，容纳量为 8000 尾。\n（4）由初始条件 $P(0) = 10$（超过新容纳量 8）：$$P(t) = \\frac{8}{\\frac{8-10}{10}e^{-0.1 \\cdot 8 t}+1} = \\frac{8}{-0.2e^{-0.8t}+1}$$ 故 $P(1) \\approx 8.7899$ 千尾。\n（5）因初始种群高于容纳量，需求 $P(t) = 1.1(8) = 8.8$：解 $8.8 = \\frac{8}{-0.2e^{-0.8t}+1}$ 得 $e^{-0.8t} = 5/11$，故 $t = -1.25 \\ln(5/11) \\approx 0.986$ 年。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.6 习题（Exercise 7.6.7）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§7.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.801",
+      "title": "多项式函数在 a=0 处的线性与二次逼近",
+      "questionText": "设 $f(x) = \\frac{1}{3}x^3 + \\frac{1}{4}x^2 - 2x - 1$，考虑 $f$ 在 $a = 0$ 附近的线性与二次逼近。\n（1）求 $f'(x)$ 与 $f''(x)$，并计算 $f(0)$、$f'(0)$、$f''(0)$；\n（2）求 $f$ 在 $a=0$ 处的切线逼近 $T_1(x)$（满足 $T_1(0) = f(0)$，$T_1'(0) = f'(0)$）；\n（3）设 $T_2(x) = c_0 + c_1 x + c_2 x^2$ 满足 $T_2(0) = f(0)$，$T_2'(0) = f'(0)$，$T_2''(0) = f''(0)$，求 $T_2(x)$。",
+      "answerText": "（1）$f'(x) = x^2 + \\frac{1}{2}x - 2$，$f''(x) = 2x + \\frac{1}{2}$；$f(0) = -1$，$f'(0) = -2$，$f''(0) = \\frac{1}{2}$。\n（2）$T_1(x) = f(0) + f'(0)(x-0) = -1 - 2x$。\n（3）由 $c_0 = -1$，$c_1 = -2$，$2c_2 = \\frac{1}{2}$ 得 $$T_2(x) = \\frac{1}{4}x^2 - 2x - 1$$ 二次逼近 $T_2(x)$ 比 $T_1(x)$ 更好，且在更宽的区间上逼近 $f(x)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.1 习题（Exercise 8.1.6）。原书为填空式交互题并要求作图比较，此处改为直接求解。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.802",
+      "title": "多项式函数的三次泰勒逼近",
+      "questionText": "仍设 $f(x) = \\frac{1}{3}x^3 + \\frac{1}{4}x^2 - 2x - 1$，在 $a = 0$ 处建立 $f$ 的三次（3 次）逼近 $T_3(x) = k_0 + k_1x + k_2x^2 + k_3x^3$，要求 $T_3(0) = f(0)$，$T_3'(0) = f'(0)$，$T_3''(0) = f''(0)$，$T_3'''(0) = f'''(0)$。\n（1）求 $T_3(x)$；\n（2）$T_3(x)$ 与 $f(x)$ 有何关系？由此推测：对任何本身是 6 次多项式的函数求 6 次逼近，结果如何？",
+      "answerText": "（1）$f'''(x) = 2$。由 $k_0 = -1$，$k_1 = -2$，$2k_2 = \\frac{1}{2}$，$6k_3 = 2$ 得 $$T_3(x) = \\frac{1}{3}x^3 + \\frac{1}{4}x^2 - 2x - 1$$（2）$T_3(x) = f(x)$，三次逼近与原函数完全相同；对 6 次多项式求 6 次逼近，结果就是该多项式本身（对 4 次逼近同理 $T_4(x) = T_3(x) = f(x)$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.1 习题（Exercise 8.1.7）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.803",
+      "title": "由函数在 0 处的各阶导数值构造泰勒多项式",
+      "questionText": "已知函数 $f$ 的如下信息：$$f(0) = 2, f'(0) = -3, f''(0) = -1, f'''(0) = 0, f^{(4)}(0) = -3$$\n（1）求 $f$ 在 $a = 0$ 处的 4 阶泰勒多项式 $T_4(x)$；\n（2）用 $T_4(x)$ 估计 $f(0.5)$；\n（3）写出泰勒多项式 $T_3(x)$、$T_2(x)$、$T_1(x)$。",
+      "answerText": "（1）由泰勒多项式系数 $c_k = \\frac{f^{k}(0)}{k!}$ 得 $$T_4(x) = 2 - 3x - \\frac{1}{2!}x^2 - \\frac{3}{4!}x^4$$（2）$$f(0.5) \\approx T_4(0.5) = 2 - 3 \\cdot 0.5 - \\frac{1}{2!}(0.5)^2 - \\frac{3}{4!}(0.5)^4 = 0.3671875$$（3）$$T_3(x) = 2 - 3x - \\frac{1}{2!}x^2 + 0x^3, \\quad T_2(x) = 2 - 3x - \\frac{1}{2!}x^2, \\quad T_1(x) = 2 - 3x$$ 其中 $T_3(x) = T_2(x)$ 是因为 $f'''(0) = 0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.2 习题（Exercise 8.2.7）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.804",
+      "title": "更换展开中心揭示二次函数的顶点",
+      "questionText": "设 $f(x) = \\frac{1}{2}x^2 - 2x + 5$，取中心 $a = 2$。\n（1）求 $f'(x)$、$f''(x)$ 及 $f(2)$、$f'(2)$、$f''(2)$，进而求 $f$ 在 $a = 2$ 处的 2 阶泰勒多项式 $T_2(x)$；\n（2）$T_2(x)$ 与 $f(x)$ 有何关系？$T_2(x)$ 的代数形式揭示了 $f(x)$ 的什么信息？\n（3）$f(x)$ 在 $a = 2$ 处的切线逼近是什么？这说明 $f$ 在 $x = 2$ 处有何特殊性质？",
+      "answerText": "（1）$f'(x) = x - 2$，$f''(x) = 1$；$f(2) = 3$，$f'(2) = 0$，$f''(2) = 1$。由 $c_k = \\frac{f^{k}(2)}{k!}$ 得 $$T_2(x) = 3 + 0(x-2) + \\frac{1}{2!}(x-2)^2$$（2）$f(x) = T_2(x)$；且 $T_2(x) = 3 + \\frac{1}{2}(x-2)^2$ 是顶点式，说明 $(2,3)$ 是二次函数 $f(x)$ 的顶点。\n（3）切线逼近为 $L(x) = T_1(x) = 3$，说明 $f$ 在 $x = 2$ 处有水平切线，对应 $f$ 在 $x = 2$ 处取全局最小值。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula",
+        "extrema"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.2 习题（Exercise 8.2.8）。原书（b）问要求作图，此处以结论代替。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.805",
+      "title": "sin x 在 x=π/2 处的 6 阶泰勒多项式",
+      "questionText": "已知 $\\sin(x)$ 与 $\\cos(x)$ 在 $a=0$ 处的泰勒逼近 $\\sin(x) \\approx x - \\frac{1}{3!}x^3 + \\frac{1}{5!}x^5 - \\frac{1}{7!}x^7$（7 阶）与 $\\cos(x) \\approx 1 - \\frac{1}{2!}x^2 + \\frac{1}{4!}x^4 - \\frac{1}{6!}x^6$（6 阶）。本题考察 $f(x) = \\sin(x)$ 在 $a = \\frac{\\pi}{2}$ 处的泰勒多项式。\n（1）求 $f(x) = \\sin(x)$ 在 $a = \\frac{\\pi}{2}$ 处的 6 阶泰勒多项式；\n（2）该结果与 $\\cos(x)$ 在 $a=0$ 处的 6 阶泰勒多项式有何联系？\n（3）利用恒等式 $\\sin(x) = \\cos(x - \\frac{\\pi}{2})$ 解释（2）。",
+      "answerText": "（1）$\\sin(x)$ 的前 6 阶导数在 $a = \\frac{\\pi}{2}$ 处的值依次为 $1, 0, -1, 0, 1, 0, -1$，故 $$T_6(x) = 1 - \\frac{1}{2!}\\left(x-\\frac{\\pi}{2}\\right)^2 + \\frac{1}{4!}\\left(x-\\frac{\\pi}{2}\\right)^4 - \\frac{1}{6!}\\left(x-\\frac{\\pi}{2}\\right)^6$$（2）它恰为 $\\cos(x)$ 在 $a=0$ 处的 6 阶泰勒多项式 $P_6(x) = 1 - \\frac{1}{2!}x^2 + \\frac{1}{4!}x^4 - \\frac{1}{6!}x^6$ 右移 $\\frac{\\pi}{2}$ 个单位（即 $P_6(x-\\frac{\\pi}{2})$）。\n（3）因为 $\\sin(x) = \\cos(x - \\frac{\\pi}{2})$，正弦函数就是余弦函数右移 $\\frac{\\pi}{2}$ 的结果，所以只要把正弦的泰勒多项式中心取在 $a = \\frac{\\pi}{2}$，两者就完全吻合。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.2 习题（Exercise 8.2.9）。原书答案将 $x-\\frac{\\pi}{2}$ 误写为 $x-\\frac{1}{2}$（多处 $\\pi$ 漏写反斜杠），已按题意修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.806",
+      "title": "两个不同中心的 ln 逼近估计 ln 1.5",
+      "questionText": "已知 $\\ln(1+x)$ 在 $a=0$ 处的 5 阶泰勒逼近为 $$\\ln(1+x) \\approx T_5(x) = 1x - \\frac{1}{2}x^2 + \\frac{1}{3}x^3 - \\frac{1}{4}x^4 + \\frac{1}{5}x^5$$ 而 $\\ln(x)$ 在 $a=1$ 处的 5 阶泰勒逼近为 $$\\ln(x) \\approx P_5(x) = 1(x-1) - \\frac{1}{2}(x-1)^2 + \\frac{1}{3}(x-1)^3 - \\frac{1}{4}(x-1)^4 + \\frac{1}{5}(x-1)^5$$\n（1）由 $f(0.5) = \\ln(1.5)$，用 $T_5(x)$ 估计 $\\ln(1.5)$；\n（2）由 $g(1.5) = \\ln(1.5)$，用 $P_5(x)$ 估计 $\\ln(1.5)$；\n（3）两个估计相同还是不同？为什么？",
+      "answerText": "（1）$$\\ln(1.5) = f(0.5) \\approx T_5(0.5) = 1(0.5) - \\frac{1}{2}(0.5)^2 + \\frac{1}{3}(0.5)^3 - \\frac{1}{4}(0.5)^4 + \\frac{1}{5}(0.5)^5 = 0.4072916\\overline{6}$$（2）$$\\ln(1.5) = g(1.5) \\approx P_5(1.5) = 1(1.5-1) - \\frac{1}{2}(1.5-1)^2 + \\frac{1}{3}(1.5-1)^3 - \\frac{1}{4}(1.5-1)^4 + \\frac{1}{5}(1.5-1)^5 = 0.4072916\\overline{6}$$（3）相同。因为 $f(x) = \\ln(1+x)$ 只是 $g(x) = \\ln(x)$ 左移 1 个单位（$f(x) = g(1+x)$），把两个泰勒多项式分别取在相应中心后，用的是同一套结构。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.2 习题（Exercise 8.2.10）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.807",
+      "title": "等比级数何时发散",
+      "questionText": "对无穷等比级数 $$S = a + ar + ar^2 + \\cdots + ar^{n-1} + \\cdots$$ 当 $|r| \\lt 1$ 时 $S = \\frac{a}{1-r}$。本题考察 $r = 1$、$r = -1$、$|r| \\gt 1$ 时级数为何发散。设 $S_n$ 为前 $n$ 项部分和。\n（1）$a=1$，$r=1$：写出 $S_n$ 的一般公式，并说明部分和数列为何不收敛；\n（2）$a=1$，$r=-1$：计算 $S_2, S_3, S_4, S_5$，说明部分和数列的变化规律及级数发散的原因；\n（3）$a=1$，$r=2$：写出 $S_n$ 的一般公式，并说明当 $n \\to \\infty$ 时部分和的行为及级数的敛散性。",
+      "answerText": "（1）$S_n = 1 + 1 + \\cdots + 1 = n$。数列 $1, 2, 3, 4, \\ldots, n, \\ldots$ 无界增长，部分和不趋于有限值，故无穷和 $S = 1 + 1 + \\cdots + 1 + \\cdots$ 发散。\n（2）$S_2 = 0$，$S_3 = 1$，$S_4 = 0$，$S_5 = 1$；一般地 $S_n$ 在 $n$ 为偶数时为 $0$、为奇数时为 $1$。部分和在 $0$ 与 $1$ 之间来回振荡，不趋于任何有限值，故级数发散。\n（3）$S_2 = 3$，$S_3 = 7$，$S_4 = 15$，一般地 $S_n = 2^n - 1$。部分和无界增长，故无穷等比级数 $1 + 2 + 4 + \\cdots + 2^{n-1} + \\cdots$ 发散。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "alternating_general_series",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "numeric_series_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §8.3 习题（Exercise 8.3.7）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.808",
+      "title": "弹跳小球与等比级数求和",
+      "questionText": "将一个球从高度 $h$ 落到硬地面上，每次弹起的高度为下落高度的 $\\frac{3}{4}$。设 $h_n$ 为第 $n$ 次弹起的高度，$h_0 = h$。\n（1）用 $h$ 表示 $h_1, h_2, h_3$ 及一般项 $h_n$；\n（2）写出球运动的总路程所对应的无穷级数，并求出该级数的值。",
+      "answerText": "（1）$$h_1 = \\left(\\frac{3}{4}\\right)h, \\quad h_2 = \\left(\\frac{3}{4}\\right)^2h, \\quad h_3 = \\left(\\frac{3}{4}\\right)^3h, \\quad h_n = \\left(\\frac{3}{4}\\right)^nh$$（2）总路程为 $$h+2[h_1+h_2+ \\cdots ] = h + 2\\left(\\frac{3}{4}\\right)h \\left[1 + \\left(\\frac{3}{4}\\right) + \\left(\\frac{3}{4}\\right)^2 + \\cdots \\right] = h + \\left(\\frac{3}{2}\\right)h \\sum_{n = 0}^{\\infty} \\left(\\frac{3}{4}\\right)^n = h + \\left(\\frac{3}{2}\\right)h (4) = 7h$$ 即无论初始高度如何，球弹跳无穷多次但只走过有限的路程 $7h$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "alternating_general_series",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "numeric_series_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §8.3 习题（Exercise 8.3.8）。原书（f）问另需按自由落体公式计算总时间，属补充推导，未收录。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.809",
+      "title": "线性增长与等比增长的比较",
+      "questionText": "某工作需 30 天完成，有两种付酬方案：方案一：每天 500 美元；方案二：第 1 天 1 美分，第 2 天 2 美分，第 3 天 4 美分，第 4 天 8 美分，以此类推，每天报酬翻倍。\n（1）方案一的总报酬是多少？\n（2）写出第 $n$ 天当天的报酬公式，以及前 $n$ 天总报酬的公式；\n（3）方案二 30 天的总报酬是多少？应选哪种方案？",
+      "answerText": "（1）$30 \\cdot 500 = 15000$ 美元。\n（2）第 $n$ 天的报酬为 $0.01\\left(2^{n-1}\\right)$ 美元，前 $n$ 天总报酬为 $0.01\\left(2^n-1\\right)$ 美元（等比数列求和）。\n（3）方案二 30 天总报酬为 $$0.01\\left(2^{30}-1\\right) = 10,737,418.23 \\text{ 美元}$$ 远超方案一，应选方案二。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "alternating_general_series",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "numeric_series_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §8.3 习题（Exercise 8.3.9）。原书答案（a）将 30×500 误写为 1500，已修正为 15000；原书（b）问要求填表，已并入（2）的通项公式。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.810",
+      "title": "在非零中心展开泰勒级数",
+      "questionText": "泰勒多项式与泰勒级数可以以任意值 $a$ 为中心展开。\n（1）设 $f(x) = \\cos(x)$，求 $f$ 在 $a = \\frac{\\pi}{2}$ 处直到 4 阶的泰勒多项式，进而写出 $f(x)$ 在 $a = \\frac{\\pi}{2}$ 处的泰勒级数，并说明结果为何不令人意外；\n（2）设 $f(x) = \\frac{1}{1+x} = (1+x)^{-1}$，求 $f$ 在 $a = 1$ 处直到 4 阶的泰勒多项式，进而写出 $f(x)$ 在 $a = 1$ 处的泰勒级数。",
+      "answerText": "（1）$f'\\left(\\frac{\\pi}{2}\\right) = -1$，$f''\\left(\\frac{\\pi}{2}\\right) = 0$，$f'''\\left(\\frac{\\pi}{2}\\right) = 1$，$f^{(4)}\\left(\\frac{\\pi}{2}\\right) = 0$，且 $f\\left(\\frac{\\pi}{2}\\right) = 0$，故 $$T_4(x) = 0 - 1 \\left(x - \\frac{\\pi}{2}\\right) + \\frac{0}{2!}\\left(x - \\frac{\\pi}{2}\\right)^2 + \\frac{1}{3!}\\left(x - \\frac{\\pi}{2}\\right)^3 + \\frac{0}{4!}\\left(x - \\frac{\\pi}{2}\\right)^4$$ 泰勒级数为 $$T(x) = 0 - 1 \\left(x - \\frac{\\pi}{2}\\right) + \\cdots + (-1)^{n+1} \\frac{1}{(2n+1)!}\\left(x - \\frac{\\pi}{2}\\right)^{2n+1} + \\cdots$$ 此结果并不意外：$f(x) = \\cos(x) = -\\sin\\left( x - \\frac{\\pi}{2} \\right)$，把 $\\sin(x)$ 在 $a=0$ 处的泰勒级数中的 $x$ 换成 $x - \\frac{\\pi}{2}$ 再整体变号即得。\n（2）$f(1) = \\frac{1}{2}$，$f'(1) = (-1) \\cdot \\frac{1}{2^2}$，$f''(1) = \\frac{2!}{2^3}$，$f'''(1) = (-1) \\cdot \\frac{3!}{2^4}$，$f^{(4)}(1) = \\frac{4!}{2^5}$，故 $$T_4(x) = \\frac{1}{2} - \\frac{1}{2^2}(x-1) + \\frac{1}{2^3}(x-1)^2 - \\frac{1}{2^4}(x-1)^3 + \\frac{1}{2^5}(x-1)^4$$ 泰勒级数为 $$T(x) = \\frac{1}{2} - \\frac{1}{2^2}(x-1) + \\frac{1}{2^3}(x-1)^2 - \\frac{1}{2^4}(x-1)^3 + \\cdots + \\frac{1}{2^{n+1}}(x-1)^{n} + \\cdots$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series"
+      ],
+      "methodIds": [
+        "standard_series_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.4 习题（Exercise 8.4.8）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.811",
+      "title": "利用已知泰勒级数求 sin(x²) 的泰勒多项式",
+      "questionText": "（1）直接计算 $\\sin(x^2)$ 的前四阶导数，求 $\\sin(x^2)$ 在 $a=0$ 处的 4 阶泰勒多项式；\n（2）已知 $\\sin(x)$ 在 0 处的泰勒级数为 $$T(x) = \\sum_{k=0}^{\\infty} (-1)^{k} \\frac{x^{2k+1}}{(2k+1)!}$$ 在该级数中用 $x^2$ 代替 $x$，写出所得级数的前几项，并与（1）比较；说明为什么这种代换得到的就是 $\\sin(x^2)$ 在 0 处的泰勒级数；\n（3）$\\sin(x^2)$ 的泰勒级数应在什么范围收敛？",
+      "answerText": "（1）$f'(x) = 2x\\cos(x^2)$，$f''(x) = -4x^2\\sin(x^2) + 2\\cos(x^2)$，$f'''(x) = -8x^3\\cos(x^2) - 12x\\sin(x^2)$，$f^{(4)}(x) = 16x^4\\sin(x^2) - 48x^2\\cos(x^2) - 12\\sin(x^2)$。各阶导数在 $a=0$ 处的值为 $f(0) = 0$，$f'(0) = 0$，$f''(0) = 2$，$f'''(0) = 0$，$f^{(4)}(0) = 0$，故 4 阶泰勒多项式 $$P_4(x) = \\frac{2}{2!}x^2 = x^2$$（2）$$g(x) = T(x^2) = x^2 - \\frac{1}{3!}x^6 + \\frac{1}{5!}x^{10} - \\cdots$$ 前 4 阶以内与（1）一致。因为 $\\sin(x) = x - \\frac{1}{3!}x^3 + \\frac{1}{5!}x^5 - \\cdots$ 对一切 $x$ 成立，将恒等式中的 $x$ 换成 $x^2$ 后仍为恒等式，故所得级数就是 $\\sin(x^2)$ 在 0 处的泰勒级数。\n（3）对一切实数 $x$ 收敛：$\\sin(x)$ 的泰勒级数对一切实数收敛，代换 $x \\mapsto x^2$ 不改变这一结论。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series"
+      ],
+      "methodIds": [
+        "standard_series_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.4 习题（Exercise 8.4.9）。原书解答（a）的导数表把 $f''(0)$ 误记为 0（实际为 2，与 $P_4(x)=x^2$ 一致），此处按正确值叙述。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.812",
+      "title": "菲涅尔积分函数的泰勒级数表示",
+      "questionText": "菲涅尔（Fresnel）积分函数定义为 $$C(x) = \\int_0^x \\cos(t^2) \\, dt, \\qquad S(x) = \\int_0^x \\sin(t^2) \\, dt$$ 它们在光学中有重要应用。\n（1）利用 $\\cos(x)$ 的泰勒级数求 $\\cos(t^2)$ 的泰勒级数，从而把 $C(x)$ 写成泰勒级数；\n（2）$C(x)$ 的泰勒级数对哪些 $x$ 收敛？为什么？\n（3）用（1）的结果把 $C(0.5)$ 估计到误差不超过 $0.001$；\n（4）同样利用 $\\sin(x)$ 的泰勒级数把 $S(x)$ 写成泰勒级数；\n（5）$S(x)$ 的泰勒级数对哪些 $x$ 收敛？",
+      "answerText": "（1）由 $\\cos(x) = 1 - \\frac{1}{2!}x^2 + \\frac{1}{4!}x^4 - \\frac{1}{6!}x^6 + \\cdots$ 得 $\\cos(t^2) = 1 - \\frac{1}{2!}t^4 + \\frac{1}{4!}t^8 - \\frac{1}{6!}t^{12} + \\cdots$，逐项积分：$$C(x) = x - \\frac{1}{5 \\cdot 2!}x^5 + \\frac{1}{9 \\cdot 4!}x^9 - \\frac{1}{13 \\cdot 6!}x^{13} + \\cdots$$（2）对一切实数 $x$ 收敛：$\\cos(x)$ 的泰勒级数对一切实数收敛，逐项积分不改变收敛范围。\n（3）取前两项：$$C(0.5) \\approx \\frac{1}{2} - \\frac{1}{5 \\cdot 2! \\cdot 2^5} = \\frac{159}{320} = 0.496875$$ 其误差不超过下一项 $\\frac{1}{9 \\cdot 4! \\cdot 2^9} = \\frac{1}{110592} \\approx 0.00000904$，满足要求。\n（4）同理由 $\\sin(x)$ 的泰勒级数逐项积分得 $$S(x) = \\frac{1}{3}x^3 - \\frac{1}{7 \\cdot 3!}x^7 + \\frac{1}{11 \\cdot 5!}x^{11} - \\cdots$$（5）对一切实数 $x$ 收敛，理由同（2）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [
+        "one_variable_integral"
+      ],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series",
+        "power_series_interval"
+      ],
+      "methodIds": [
+        "standard_series_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.5 习题（Exercise 8.5.7）。原书答案 C(x) 级数第 4 项误写 $t^{13}$、S(x) 级数第 2 项系数误写 $\\frac{7\\cdot 3!}{x^7}$，均已按解题过程修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.813",
+      "title": "由自身性质确定 e^x 的幂级数系数",
+      "questionText": "设 $e^x$ 可以展开为幂级数 $$e^x = a_0 + a_1 x + a_2 x^2 + a_3 x^3 + \\cdots + a_n x^n + \\cdots$$ 利用 $e^x$ 的核心性质 $\\frac{d}{dx}[e^x] = e^x$ 确定各系数。\n（1）令 $x = 0$，求 $a_0$；\n（2）对上式两边求导，比较常数项说明 $a_1 = a_0$，进而求 $a_1$；\n（3）比较一次项系数说明 $a_2 = \\frac{1}{2}a_1$，求 $a_2$；\n（4）继续同样推理求 $a_3, a_4, a_5$，并总结 $a_k$ 的一般规律。",
+      "answerText": "（1）令 $x = 0$ 得 $e^0 = a_0$，故 $a_0 = 1$。\n（2）两边求导（右端逐项求导）得 $$e^x = a_1 + 2a_2 x + 3a_3 x^2 + \\cdots + n a_n x^{n-1} + \\cdots$$ 比较原式与该式的常数项得 $a_0 = a_1$，故 $a_1 = 1$。\n（3）比较一次项系数 $a_1 x$ 与 $2a_2 x$ 得 $a_1 = 2a_2$，故 $a_2 = \\frac{1}{2}a_1 = \\frac{1}{2}$。\n（4）比较同类项系数得 $3a_3 = a_2$，$4a_4 = a_3$，$5a_5 = a_4$，故 $$a_3 = \\frac{1}{3}a_2 = \\frac{1}{3 \\cdot 2} = \\frac{1}{3!}, \\quad a_4 = \\frac{1}{4!}, \\quad a_5 = \\frac{1}{5!}$$ 一般地 $a_k = \\frac{1}{k!}$，这正是 $e^x$ 的泰勒级数系数。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series",
+        "power_series_sum"
+      ],
+      "methodIds": [
+        "standard_series_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.5 习题（Exercise 8.5.8）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.814",
+      "title": "利用泰勒级数求未定式极限",
+      "questionText": "利用泰勒级数求下列未定式极限：\n（1）求 $\\sin(2t)$ 的泰勒级数，并用它计算 $\\lim_{t \\to 0} \\frac{\\sin(2t)}{t}$；\n（2）写出 $f(x) = e^x - 1 - x$ 与 $g(x) = \\cos(2x)-1$ 的泰勒级数表示，并用它们计算 $\\lim_{x \\to 0} \\frac{e^x - 1 - x}{\\cos(2x)-1}$。",
+      "answerText": "（1）在 $\\sin(x) = x - \\frac{1}{3!}x^3 + \\frac{1}{5!}x^5 - \\cdots$ 中以 $2t$ 代 $x$ 得 $\\sin(2t) = 2t - \\frac{1}{3!}(2t)^3 + \\frac{1}{5!}(2t)^5 - \\cdots$，故 $$\\lim_{t \\to 0} \\frac{\\sin(2t)}{t} = \\lim_{t \\to 0} \\left( 2 - \\frac{8t^2}{3!} + \\frac{32t^4}{5!} - \\cdots \\right) = 2$$ 与洛必达法则的结果一致。\n（2）$f(x) = e^x - 1 - x = \\frac{1}{2!}x^2 + \\frac{1}{3!}x^3 + \\cdots$，$g(x) = \\cos(2x)-1 = -\\frac{1}{2!}(2x)^2 + \\frac{1}{4!}(2x)^4 - \\cdots = -2x^2 + \\frac{2}{3}x^4 - \\cdots$，故 $$\\lim_{x \\to 0} \\frac{e^x - 1 - x}{\\cos(2x)-1} = \\lim_{x \\to 0} \\frac{\\frac{1}{2}x^2 + \\frac{1}{6}x^3 + \\cdots}{-2x^2 + \\cdots} = \\frac{1/2}{-2} = -\\frac{1}{4}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [
+        "infinite_series"
+      ],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indeterminate_form",
+        "important_limits"
+      ],
+      "methodIds": [
+        "taylor_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.5 习题（Exercise 8.5.9）。原书该题答案与解答暂缺，本答案为项目自算（极限值 2 与 −1/4 均可由等价无穷小/洛必达验证）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.815",
+      "title": "用级数表示定积分并估算 π",
+      "questionText": "从两个角度考察定积分 $$\\int_0^1 \\frac{4}{1+x^2} \\, dx$$\n（1）先求 $\\frac{4}{1+x^2}$ 的泰勒级数，并用它把该积分表示为无穷级数；\n（2）观察（1）中的结果是交错级数。要把它估计到误差不超过 $0.01$，需要多少项？\n（3）利用 $\\frac{d}{dx}[\\arctan(x)] = \\frac{1}{1+x^2}$ 和微积分基本定理精确计算该积分；\n（4）（1）与（3）的结果有何联系？由此可以用交错级数估计哪个著名常数？",
+      "answerText": "（1）由 $\\frac{1}{1+x} = 1 - x + x^2 - x^3 + \\cdots$ 得 $\\frac{4}{1+x^2} = 4 - 4x^2 + 4x^4 - 4x^6 + \\cdots$，逐项积分：$$\\int_0^1 \\frac{4}{1+x^2} \\, dx = 4 - \\frac{4}{3} + \\frac{4}{5} - \\frac{4}{7} + \\cdots$$（2）由交错级数余项估计，需 $\\frac{4}{2n+1} \\lt 0.01$，即需 $n = 200$ 项。\n（3）$$\\int_0^1 \\frac{4}{1+x^2} \\, dx = \\left. 4 \\arctan(x) \\right|_0^1 = 4 \\cdot \\frac{\\pi}{4} = \\pi$$（4）两个表示相等，故 $$\\pi = 4 - \\frac{4}{3} + \\frac{4}{5} - \\frac{4}{7} + \\cdots$$ 可用该交错级数估计 $\\pi$；要使前两位数字准确需 200 项。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [
+        "one_variable_integral"
+      ],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series",
+        "alternating_series"
+      ],
+      "methodIds": [
+        "standard_series_expansion",
+        "leibniz_test"
+      ],
+      "notes": "译自 Active Calculus §8.6 习题（Exercise 8.6.8）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§8.6",
+        "license": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}
