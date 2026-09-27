@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "subject": {"id": "linear_algebra", "name": "线性代数", "description": "考研数学中的线性代数部分"},
+  "chapters": [],
+  "problem_types": [],
+  "knowledge_points": [],
+  "methods": []
+}

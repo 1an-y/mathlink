@@ -16,7 +16,7 @@ type View = "library" | "review" | "glossary" | "tags" | "add" | "detail";
 const emptyDraft = (): ProblemDraft => ({
   title: "", questionImages: [], answerImages: [], primaryChapterId: "",
   secondaryChapterIds: [], primaryProblemTypeId: "", secondaryProblemTypeIds: [],
-  knowledgePointIds: [], methodIds: [], notes: ""
+  knowledgePointIds: [], methodIds: [], notes: "", origin: "user"
 });
 
 const resultLabel: Record<AttemptResult, string> = { correct: "做对了", wrong: "做错了", unfinished: "未完成" };
