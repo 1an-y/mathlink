@@ -1,0 +1,1374 @@
+{
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "calculus",
+  "license": "CC BY-SA 4.0",
+  "description": "内置题库：Active Calculus Multivariable（Boelkins 等）多元/向量微积分材料翻译批次（多元微分、重积分、线面积分），CC BY-SA 4.0 授权翻译。",
+  "problems": [
+    {
+      "id": "bank.cal.ac3.1",
+      "title": "沿不同路径讨论二元函数极限的存在性",
+      "questionText": "设函数 $g(x,y)=\\dfrac{x^2y}{x^4+y^2}$，考察极限 $\\lim_{(x,y)\\to(0,0)}g(x,y)$ 是否存在。（1）分别求当 $(x,y)$ 沿 $x$ 轴、$y$ 轴趋于 $(0,0)$ 时 $g(x,y)$ 的极限；（2）求当 $(x,y)$ 沿直线 $y=mx$ 趋于 $(0,0)$ 时 $g(x,y)$ 的极限；（3）求当 $(x,y)$ 沿抛物线 $y=x^2$ 趋于 $(0,0)$ 时 $g(x,y)$ 的极限，并判断 $\\lim_{(x,y)\\to(0,0)}g(x,y)$ 是否存在。",
+      "answerText": "（1）沿 $x$ 轴有 $g(x,0)=0$，故 $\\lim_{(x,y)\\to(0,0)}g(x,0)=0$；沿 $y$ 轴有 $g(0,y)=0$，故极限也为 $0$。（2）沿直线 $y=mx$，有 $$g(x,mx)=\\frac{mx^3}{x^4+m^2x^2}=\\frac{mx}{x^2+m^2}$$ 当 $x\\to 0$ 时 $g(x,mx)\\to 0$，即沿任何直线 $y=mx$ 趋于 $(0,0)$ 时极限均为 $0$。（3）沿抛物线 $y=x^2$，有 $$g(x,x^2)=\\frac{x^4}{2x^4}=\\frac{1}{2}$$ 故 $\\lim_{x\\to 0}g(x,x^2)=\\frac{1}{2}\\neq 0$。由于 $g(x,y)$ 沿不同路径趋于 $(0,0)$ 时得到不同的极限值，故极限 $\\lim_{(x,y)\\to(0,0)}g(x,y)$ 不存在。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_existence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "multivariable_limit_continuity"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_limits 第 2 个 Activity（原题以表格数值引入，此处按其解答路径整编为 (1)-(3) 问）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.3 多元函数的极限",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.2",
+      "title": "利用极坐标求二元函数极限",
+      "questionText": "考虑极限 $\\lim_{(x,y)\\to(0,0)}\\dfrac{x^2y^2}{x^2+y^2}$。（1）将 $g(x,y)=\\dfrac{x^2y^2}{x^2+y^2}$ 化为极坐标形式；（2）求 $r\\to 0$ 时该表达式的极限，并由此说明原极限存在并求其值。",
+      "answerText": "（1）代入 $x=r\\cos\\theta,\\ y=r\\sin\\theta$，得 $$\\frac{x^2y^2}{x^2+y^2}=\\frac{r^4 (\\cos(\\theta)\\sin(\\theta))^2}{r^2}=r^2 (\\cos(\\theta)\\sin(\\theta))^2$$（2）由 $|(\\cos\\theta\\sin\\theta)^2|\\leq \\dfrac{1}{4}$，当 $r\\to 0$ 时 $r^2 (\\cos(\\theta)\\sin(\\theta))^2\\to 0$，且该极限与 $\\theta$ 无关，即与趋于原点的路径无关，故 $$\\lim_{(x,y)\\to(0,0)}\\frac{x^2y^2}{x^2+y^2}=\\lim_{r\\to 0}r^2 (\\cos(\\theta)\\sin(\\theta))^2=0$$ 与沿特殊路径只能否定极限存在不同，极坐标估计对一切路径一致成立，从而证明了极限存在且为 $0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_existence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "multivariable_limit_continuity"
+      ],
+      "methodIds": [
+        "variable_substitution"
+      ],
+      "notes": "译自 S_mv_deriv_limits 第 3 个 Activity；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.3 多元函数的极限",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.3",
+      "title": "计算多元函数的一阶偏导数",
+      "questionText": "求下列函数的一阶偏导数：（1）$f(x,y)=3x^3-2x^2y^5$，求 $f_x,\\ f_y$；（2）$f(x,y)=\\dfrac{xy^2}{x+1}$，求 $\\dfrac{\\partial f}{\\partial x},\\ \\dfrac{\\partial f}{\\partial y}$；（3）$g(r,s)=rs\\cos(r)$，求 $g_r,\\ g_s$；（4）$q(x,t,z)=\\dfrac{x2^tz^3}{1+x^2}$，求所有一阶偏导数。",
+      "answerText": "（1）$$\\frac{\\partial f}{\\partial x} = 9x^2 - 4y^5x, \\qquad \\frac{\\partial f}{\\partial y} = -10x^2y^4$$（2）$$\\frac{\\partial f}{\\partial x} = \\frac{(x + 1)y^2 - xy^2}{(x + 1)^2} = \\frac{y^2}{(x + 1)^2}, \\qquad \\frac{\\partial f}{\\partial y} = \\frac{2xy}{x + 1}$$（3）$$g_r(r,s) = -rs\\sin(r) + s\\cos(r), \\qquad g_s(r,s) = r\\cos(r)$$（4）$$q_x(x,t,z) = \\frac{(1+x^2)(2^tz^3)-(x2^tz^3)(2x)}{(1+x^2)^2}, \\quad q_t(x,t,z) = \\frac{1}{1+x^2}\\left(x2^t\\ln(2)z^3\\right), \\quad q_z(x,t,z) = \\frac{1}{1+x^2}\\left(3x2^tz^2\\right)$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_first_order 第 1 个 Activity；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.4 一阶偏导数",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.4",
+      "title": "声速模型的三元函数偏导数",
+      "questionText": "声波在海水中的传播速度 $C$ 是温度、盐度与深度的函数，可建模为 $$C = 1449.2+4.6T-0.055T^2+0.00029T^3 +(1.34-0.01T)(S-35)+0.016D$$ 其中 $C$ 的单位为米/秒，$T$ 为温度（摄氏度），$S$ 为盐度（克/升），$D$ 为距海面的深度（米）。（1）求偏导数 $C_T,\\ C_S,\\ C_D$；（2）求 $C_T,\\ C_S,\\ C_D$ 在 $T=10,\\ S=35,\\ D=100$ 处的值，并说明各偏导数的符号在此点反映了函数 $C$ 的何种性态。",
+      "answerText": "（1）$$\\begin{aligned}C_T &= 4.6-0.11T+0.00087T^2-0.01(S-35)\\\\ C_S &= 1.34-0.01T\\\\ C_D &= 0.016\\end{aligned}$$（2）在点 $(10,35,100)$ 处：$$C_T(10,35,100) = 3.587,\\qquad C_S(10,35,100) = 1.24,\\qquad C_D(10,35,100) = 0.016$$三个偏导数均为正：$C_T(10,35,100)>0$ 表示在盐度 $35$ 克/升、深度 $100$ 米保持不变的条件下，温度从 $10^{\\circ}C$ 增大时声速增大；$C_S>0$ 表示在温度 $10^{\\circ}C$、深度 $100$ 米不变的条件下，盐度增大时声速增大；$C_D>0$ 表示在温度、盐度不变的条件下，深度增大时声速增大。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_first_order 第 2 个 Activity（略去单位分析小问，保留计算与符号解释两问）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.4 一阶偏导数",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.5",
+      "title": "四元函数的二阶偏导数",
+      "questionText": "设 $h(x,y,z,t) = 9x^9z-xyz^9 + 9t$。（1）函数 $h$ 共有多少个二阶偏导数？说明理由；（2）求 $h_{xz}$ 与 $h_{zx}$，并指出所得结果说明了什么。",
+      "answerText": "（1）$h$ 是四个自变量的函数，故有四个一阶偏导数 $h_x,\\ h_y,\\ h_z,\\ h_t$，而每一个一阶偏导数又各有四个偏导数，所以 $h$ 共有 $4\\times 4=16$ 个二阶偏导数。（2）先求 $h_x$（把 $y,z,t$ 视为常数，对 $x$ 求导）：$$h_x (x, y, z, t) = 81x^8z - yz^9$$ 再对 $z$ 求偏导（把 $x,y,t$ 视为常数）：$$h_{xz} (x, y, z, t) = 81x^8 - 9yz^8$$ 类似地，先求 $h_z$（把 $x,y,t$ 视为常数）：$$h_z (x, y, z, t) = 9x^9 - 9xyz^8$$ 再对 $x$ 求偏导：$$h_{zx} (x, y, z, t) = 81x^8 - 9yz^8$$ 两个混合偏导数相等，这与混合偏导数连续时与求导次序无关的结论一致。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_second_order 第 1 个 Activity 的第 (b) 问（原 (a) 问列举的函数清单在原文中以图形列表呈现，故只取自足的 (b) 问）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.5 高阶偏导数",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.6",
+      "title": "方向导数的计算",
+      "questionText": "设 $f(x,y) = 3xy-x^2y^3$。（1）求 $f_x(x,y)$ 与 $f_y(x,y)$；（2）求 $f$ 在点 $(1,-1)$ 处沿向量 $\\vec{v} = \\langle 2, 3 \\rangle$ 方向的方向导数；（3）求 $f$ 在点 $(1,-1)$ 处沿向量 $\\vec{v} = \\langle 4, 6 \\rangle$ 方向的方向导数，并与 (2) 比较；（4）求 $f$ 在点 $(1,-1)$ 处沿向量 $\\vec{v} = \\langle -2, -3 \\rangle$ 方向的方向导数，并说明为什么该结果与 (2) 不同。",
+      "answerText": "（1）$$\\frac{\\partial f}{\\partial x} = 3y-2xy^3, \\qquad \\frac{\\partial f}{\\partial y} = 3x - 3x^2y^2$$（2）在点 $(1,-1)$ 处 $f_x(1,-1) = -1,\\ f_y(1,-1) = 0$，沿单位向量 $\\dfrac{1}{\\sqrt{13}}\\langle 2, 3 \\rangle$ 的方向导数为 $$D_{\\vec{v}}f(1,-1) = f_x(1,-1) \\left(\\frac{2}{\\sqrt{13}}\\right) + f_y(1,-1) \\left(\\frac{3}{\\sqrt{13}}\\right) = -\\frac{2}{\\sqrt{13}}$$（3）$\\langle 4,6\\rangle$ 与 $\\langle 2,3\\rangle$ 同向，单位方向向量相同，故方向导数仍为 $-\\dfrac{2}{\\sqrt{13}}$。（4）$\\langle -2,-3\\rangle$ 与 $\\langle 2,3\\rangle$ 反向，方向导数为 $$D_{\\vec{v}}f(1,-1) = f_x(1,-1) \\left(\\frac{-2}{\\sqrt{13}}\\right) + f_y(1,-1) \\left(\\frac{-3}{\\sqrt{13}}\\right) = \\frac{2}{\\sqrt{13}}$$ 两者绝对值相同、符号相反：方向取反时函数值的变化率变号。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "directional_derivative_gradient",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "directional_derivative_gradient"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_directional_deriv 第 1 个 Activity（原题含对 $D_{\u000bec{i}}f,D_{\u000bec{j}}f$ 的概念小问，已略）；原文第 (d) 问解答中单位向量误写为 $\\langle 4,63\\rangle$，此处按 $\\langle 4,6\\rangle$ 修正，数值结果不变。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.8 方向导数与梯度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.7",
+      "title": "梯度与增长率最大的方向",
+      "questionText": "设 $f(x,y)=xy-2y^2+\\dfrac{x^2}{2}+2y-x$，考察在点 $(1,1)$ 处的性态。（1）求 $\\nabla f$；（2）求 $\\nabla f(1,1)$；（3）对下列单位向量 $\\vec{u}$ 分别求 $D_{\\vec{u}} f (1,1)$：$\\vec{u}=\\langle -1,0\\rangle$；$\\vec{u}=\\langle \\frac{3}{5},-\\frac{4}{5} \\rangle$；$\\vec{u}=\\langle -\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}} \\rangle$；（4）$f$ 在点 $(1,1)$ 处沿什么方向增长最快？并求该方向上方向导数的值。",
+      "answerText": "（1）$\\nabla f =\\langle 2x-1,\\ -3y+2\\rangle$。（2）$\\nabla f (1,1)=\\langle 1,-1 \\rangle$。（3）依次为 $$D_{\\vec{u}} f (1,1) = -1,\\qquad D_{\\vec{u}} f (1,1) = \\frac{7}{5},\\qquad D_{\\vec{u}} f (1,1) = -\\sqrt{2}$$（4）方向导数在 $\\vec{u}$ 与梯度同向时取得最大值，故增长最快的方向为 $\\langle 1,-1\\rangle$ 的方向（单位化即 $\\frac{1}{\\sqrt{2}}\\langle 1,-1\\rangle$），该方向上方向导数的值为梯度模长 $$|\\nabla f(1,1)|=\\sqrt{1^2+(-1)^2}=\\sqrt{2}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "directional_derivative_gradient",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "directional_derivative_gradient"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_directional_deriv 第 3 个 Activity；原题第 (d) 问解答在原文中为空，最大增长方向与数值（√2）为项目自算并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.8 方向导数与梯度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.8",
+      "title": "方向导数取指定值的方向",
+      "questionText": "求所有使函数 $f(x,y) = ye^{-xy}$ 在点 $(0,2)$ 处的方向导数等于 $1$ 的方向。",
+      "answerText": "先求梯度：$f_x(x, y) = -y^2 e^{-xy}$，$f_y(x, y) = y\\left(-x e^{-xy}\\right) + e^{-xy}$，故 $$f_x(0, 2) = -(2)^2 e^{-(0)(2)} = -4, \\qquad f_y(0, 2) = 2\\left(-0 \\cdot e^{-(0)(2)}\\right) + e^{-(0)(2)} = 1$$设单位方向向量 $\\vec{u} = \\langle a, b \\rangle$，则 $$D_{\\vec{u}} f(0, 2) = \\nabla f(0,2) \\cdot \\vec{u} = -4a + b$$ 令 $-4a + b = 1$，又 $\\vec{u}$ 为单位向量即 $a^2 + b^2 = 1$。联立解得 $a=0,\\ b = 1$ 或 $a = -\\frac{8}{17},\\ b = -\\frac{15}{17}$。故所求方向为 $\\langle 0, 1 \\rangle$ 或 $\\langle -\\frac{8}{17}, -\\frac{15}{17} \\rangle$ 的任意正倍数方向。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "directional_derivative_gradient",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "directional_derivative_gradient"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_mv_DirectionalDerivatives.ptx；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.8 方向导数与梯度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.9",
+      "title": "由梯度求原函数（势函数）",
+      "questionText": "判断是否存在函数 $f$，使得 $$\\nabla f = \\left\\langle \\sin(yz),\\ xz\\cos(yz)+2y,\\ xy\\cos(yz)+\\frac{5}{z} \\right\\rangle$$ 若存在，求出 $f$；若不存在，请说明理由。",
+      "answerText": "设 $\\nabla f(x, y, z) = \\langle f_x(x, y, z), f_y(x, y, z), f_z(x, y, z) \\rangle$。若 $f_x (x, y, z) = \\sin(yz)$，对 $x$ 积分得 $f(x, y, z) = x \\sin(yz) + k_1(y, z)$，其中 $k_1(y, z)$ 只与 $y,z$ 有关；再由 $f_y(x, y, z) = xz\\cos(yz) + 2y$ 得 $f(x, y, z) = x \\sin(yz) + y^2 + k_2(x, z)$；最后由 $f_z (x, y, z) = xy \\cos(yz) + \\frac{5}{z}$ 得 $f(x, y, z) = x \\sin(yz) + 5 \\ln |z| + k_3(x, y)$。同时满足三式的函数为 $$f(x, y, z) = x \\sin(yz) + y^2 + 5 \\ln |z| + c$$ 其中 $c$ 为任意常数（$z\\neq 0$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "directional_derivative_gradient",
+        "conservative_field_potential"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_mv_DirectionalDerivatives.ptx（势函数问题）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.8 方向导数与梯度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.10",
+      "title": "多元复合函数的链式法则",
+      "questionText": "求下列指定的导数，并说明所用链式法则的形式：（1）$\\dfrac{df}{dt}$，其中 $f(x,y) = 2x^2y$，$x=\\cos(t)$，$y=\\ln(t)$；（2）$\\dfrac{\\partial f}{\\partial w}$，其中 $f(x,y) = 2x^2y$，$x=w+z^2$，$y=\\dfrac{2z+1}{w}$；（3）$\\dfrac{\\partial f}{\\partial v}$，其中 $f(x,y,z) = 2x^2y+z^3$，$x=u-v+2w$，$y=w2^v-u^3$，$z = u^2-v$。",
+      "answerText": "（1）由链式法则 $$\\frac{df}{dt} = \\frac{\\partial f}{\\partial x}\\frac{dx}{dt} + \\frac{\\partial f}{\\partial y}\\frac{dy}{dt} = (4xy)\\left(-\\sin(t)\\right) + (2x^2)\\left(\\frac{1}{t}\\right) = -4 \\cos(t) \\sin(t) \\ln(t) + \\frac{2\\cos^2(t)}{t}$$（2）由链式法则 $$\\frac{\\partial f}{\\partial w} = \\frac{\\partial f}{\\partial x} \\frac{\\partial x}{\\partial w}+ \\frac{\\partial f}{\\partial y} \\frac{\\partial y}{\\partial w} = \\left( 4xy \\right)\\left( 1 \\right) + \\left( 2x^2 \\right)\\left( -\\frac{2z+1}{w^2} \\right)$$ 代入 $x=w+z^2,\\ y=\\frac{2z+1}{w}$ 即得 $4(w+z^2)\\frac{2z+1}{w}-2(w+z^2)^2\\frac{2z+1}{w^2}$。（3）由链式法则 $$\\frac{\\partial f}{\\partial v} = \\frac{\\partial f}{\\partial x} \\frac{\\partial x}{\\partial v}+ \\frac{\\partial f}{\\partial y} \\frac{\\partial y}{\\partial v} + \\frac{\\partial f}{\\partial z} \\frac{\\partial z}{\\partial v} = \\left( 4xy \\right)\\left( -1 \\right) + \\left( 2x^2 \\right)\\left( w 2^v \\ln(2) \\right) + \\left( 3z^2 \\right)\\left( -1 \\right)$$ 代入 $x,y,z$ 得 $$\\frac{\\partial f}{\\partial v} = -4(u-v+2w)(w2^v-u^3) + 2(u-v+2w)^2 w2^v\\ln(2) - 3(u^2-v)^2$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "composite_implicit_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_function_chain_rule"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_mv_chainrule.ptx；原文 (2) 的最终式与 (3) 的末项有排版笔误（(3) 末项原文误作 $3(u-v+2w)^2$，按 $z=u^2-v$ 应为 $3(u^2-v)^2$），已修正并在正文中按链式法则逐步给出，公式内容与原文其余部分逐字一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.7 链式法则",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.11",
+      "title": "全微分用于误差与改变量估计",
+      "questionText": "（1）设某地块海拔高度为 $h$，已知 $h(3,1) = 4.35$，$h_x(3,1) = 0.27$，$h_y(3,1) = -0.19$，其中 $x,y$（英里）分别表示自基准点向东、向北的位置。GPS 显示当前位于点 $(3,1)$，但坐标精度只有 $0.2$ 英里，即 $dx = \\Delta x = 0.2$，$dy= \\Delta y = 0.2$。试用 $h$ 在 $(3,1)$ 处的线性化估计海拔的不确定度。（2）理想气体的压强、体积与温度满足 $P= P(T,V) = 8.31 \\dfrac{T}{V}$，其中 $P$ 以千帕、$V$ 以升、$T$ 以开尔文计。求 $V=12$ 升、$T=310\\,\\mathrm{K}$ 时的压强；并用 $P$ 在点 $(310,12)$ 处的线性化估计：当体积增大到 $12.3$ 升、温度降到 $305\\,\\mathrm{K}$ 时压强的改变量。",
+      "answerText": "（1）由线性化，误差近似为全微分 $$\\Delta h \\approx dh = h_x(3,1)\\,dx + h_y(3,1)\\,dy = 0.27(0.2) - 0.19(0.2) = 0.016$$ 即海拔不确定度约为 $0.016$。（2）首先 $P(310,12) = 214.675$（千帕）。求偏导数：$$P_T(T,V) = 8.31\\frac{1}{V}, \\qquad P_V(T,V) = -8.31\\frac{T}{V^2}$$ 故 $P_T(310,12) = 0.6925$，$P_V(310,12) \\approx -17.8896$。由 $dT = -5$，$dV = 0.3$，得 $$\\Delta P \\approx dP = P_T(310,12)\\,dT + P_V(310,12)\\,dV \\approx 0.6925(-5) - 17.8896(0.3) = -8.82938$$ 即压强约减少 $8.83$ 千帕。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "total_differential"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_linearization 第 1 个 Activity 的 (a)(b) 两问（原 (c) 问依赖表格数据，略去）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.6 线性化与全微分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.12",
+      "title": "切平面方程与线性近似",
+      "questionText": "设 $f(x,y) = 2x^2+3y^3$。（1）求曲面 $z=f(x,y)$ 在点 $(1,2)$ 处的切平面方程；（2）利用线性化近似计算 $f(1.1, 2.05)$ 与 $f(1.3,2.2)$；（3）将 (2) 中的近似值与精确值比较，指出哪个近似更精确，并说明原因。",
+      "answerText": "（1）$\\dfrac{\\partial f}{\\partial x} = 4x$，$\\dfrac{\\partial f}{\\partial y} = 9y^2$，故 $f_x(1,2) = 4$，$f_y(1,2) = 36$，又 $f(1, 2) = 2 + 24 = 26$。切平面方程为 $$z = 4(x-1) + 36(y-2) + 26$$（2）线性化为 $L(x ,y) = 4(x-1) + 36(y-2) + 26$，于是 $$f(1.1,2.05) \\approx L(1.1, 2.05) = 4(0.1) + 36(0.05) + 26 = 28.2$$ $$f(1.3,2.2) \\approx L(1.3, 2.2) = 4(0.3) + 36(0.2) + 26 = 34.4$$（3）精确值 $f(1.1, 2.05) = 2(1.1)^2 + 3(2.05)^3 = 28.265375$，误差约 $0.065375$；$f(1.3,2.2) = 2(1.3)^2 + 3(2.2)^3 = 35.324$，误差约 $0.924$。前者更精确，因为 $(1.1,2.05)$ 距切点 $(1,2)$ 更近，线性近似在切点附近更有效。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "geometric_applications_multivariable",
+        "total_differential"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_mv_Linearization.ptx 第 1 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.6 线性化与全微分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.13",
+      "title": "隐函数表示的曲面的切平面",
+      "questionText": "考虑曲面 $x^2-y^2+z^2=4$。（1）把该曲面视为某函数 $f(x,y,z)$ 的等值面，求曲面在点 $(-1,1,2)$ 处的一个法向量；（2）求曲面在点 $(-1,1,2)$ 处的切平面方程。",
+      "answerText": "（1）取 $f(x,y,z)=x^2-y^2+z^2$，曲面即等值面 $f=4$。梯度 $\\nabla f =\\langle 2x, -2y, 2z\\rangle$，在点 $(-1,1,2)$ 处的梯度向量 $\\langle -2, -2, 4 \\rangle$ 就是曲面在该点的一个法向量。（2）切平面方程为 $$(-2)(x+1)+(-2)(y-1)+(4)(z-2)=0$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "composite_implicit_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_function",
+        "geometric_applications_multivariable"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_mv_HD.ptx 第 2 题（原文 (b) 问点坐标误作 $(-1,1.2)$，按题面 (a) 问的 $(-1,1,2)$ 处理）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.9 二元函数的二阶泰勒公式与海森矩阵",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.14",
+      "title": "二元函数极值的判别",
+      "questionText": "求下列函数的所有驻点（临界点），并求判别式 $D = f_{xx}f_{yy}-f_{xy}^2$ 在各驻点处的值，用二元函数极值的充分条件判别其类型：（1）$f(x,y) = 3x^3+y^2-9x+4y$；（2）$f(x,y) = xy + \\dfrac{2}{x} + \\dfrac{4}{y}$；（3）$f(x,y) = x^3 + y^3 - 3xy$。",
+      "answerText": "（1）$\\nabla f = \\langle 9x^2-9, 2y+4 \\rangle$，由 $9x^2-9=0,\\ 2y+4=0$ 得驻点 $(1,-2)$ 与 $(-1,-2)$。二阶偏导数 $\\dfrac{\\partial^2 f}{\\partial x^2} = 18x,\\ \\dfrac{\\partial^2 f}{\\partial y^2} = 2,\\ \\dfrac{\\partial^2 f}{\\partial x \\partial y} = 0$。$$D(1,-2) = f_{xx}(1,-2)f_{yy}(1,-2) - \\left(f_{xy}(1,-2)\\right)^2 = (18)(2) - (0)^2 = 36 \\gt 0$$ 且 $f_{xx}(1,-2) \\gt 0$，故 $f$ 在 $(1,-2)$ 取极小值；$$D(-1,-2) = (-18)(2) - (0)^2 = -36 \\lt 0$$ 故 $(-1,-2)$ 为鞍点。（2）定义域为 $x\\neq 0,\\ y\\neq 0$。$\\nabla f = \\left\\langle y-\\frac{2}{x^2},\\ x-\\frac{4}{y^2} \\right\\rangle$。由 $y-\\frac{2}{x^2}=0$ 得 $y = \\frac{2}{x^2}$，代入第二式得 $x - \\frac{4}{\\left(\\frac{2}{x^2}\\right)^2} = x - x^4 = x(1-x^3) = 0$，$x=0$ 不在定义域内，故 $x=1$，$y=\\frac{2}{1^2}=2$，唯一驻点为 $(1,2)$。二阶偏导数 $\\dfrac{\\partial^2 f}{\\partial x^2} = \\frac{4}{x^3},\\ \\dfrac{\\partial^2 f}{\\partial y^2} = \\frac{8}{y^3},\\ \\dfrac{\\partial^2 f}{\\partial x \\partial y} = 1$，$$D(1,2) = (4)(1) - (1)^2 = 3 \\gt 0$$ 且 $f_{xx}(1,2) \\gt 0$，故 $f$ 在 $(1,2)$ 取极小值。（3）$\\nabla f = \\langle 3x^2-3y, 3y^2 - 3x \\rangle$，联立 $3x^2-3y=0,\\ 3y^2-3x=0$ 解得驻点 $(0, 0)$ 与 $(1, 1)$。二阶偏导数 $\\dfrac{\\partial^2 f}{\\partial x^2} = 6x,\\ \\dfrac{\\partial^2 f}{\\partial y^2} = 6y,\\ \\dfrac{\\partial^2 f}{\\partial x \\partial y} = -3$。$$D(0, 0) = (0)(0) - (-3)^2 = -9 \\lt 0$$ 故 $(0, 0)$ 为鞍点；$$D(1,1) = (6)(6) - (-3)^2 = 36 - 9 = 27 \\gt 0$$ 且 $f_{xx}(1,1) \\gt 0$，故 $(1, 1)$ 为极小值点。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multivariable_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_optimization 第 2 个 Activity；公式与原文一致（原文 (2) 问答术中 $1-x^3=1$ 为笔误，应为 $=0$ 解得 $x=1$，数值过程不受影响）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.10 多元函数的极值",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.15",
+      "title": "两种商品的定价使收入最大",
+      "questionText": "设两种商品的价格分别为 $p_1$ 与 $p_2$，其需求量 $q_1,\\ q_2$ 满足 $$q_1 = 150 - 2p_1 - p_2, \\qquad q_2 = 200 - p_1 - 3p_2$$ 销售者按需求量售出全部商品，收入为 $R = p_1q_1 + p_2q_2$，于是 $$R(p_1,p_2) = p_1(150 - 2p_1 - p_2) + p_2(200 - p_1 - 3p_2) = 150p_1 + 200p_2 - 2p_1p_2 -2p_1^2 - 3p_2^2$$（1）求收入函数 $R$ 的所有驻点；（2）用二元函数极值的充分条件判别驻点的类型；（3）销售者应如何定价 $p_1,\\ p_2$ 才能使收入最大？最大收入是多少？",
+      "answerText": "（1）$$R_{p_1}(p_1,p_2) = 150 - 2p_2 - 4p_1, \\qquad R_{p_2}(p_1,p_2) = 200 - 2p_1 - 6p_2$$ 令两者同时为零，消元解得 $p_2 = 25$，代回得 $p_1 = 25$，唯一驻点为 $(25, 25)$。（2）二阶偏导数 $R_{p_1p_1} = -4,\\ R_{p_1p_2} = -2,\\ R_{p_2p_2} = -6$，判别式 $$D = R_{p_1p_1}(25,25) R_{p_2p_2}(25,25) - R_{p_1p_2}(25,25)^2 = 24-4=20 \\gt 0$$ 且 $R_{p_1p_1}(25,25)\\lt 0$，故 $R$ 在驻点处取得极大值。（3）两种商品均定价 $25$ 元时收入最大，最大收入为 $R(25,25) = 4375$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multivariable_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mv_deriv_optimization 第 3 个 Activity（原题含图示与经济背景段落，题干数学内容未变）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.10 多元函数的极值",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.16",
+      "title": "用拉格朗日乘数法求直线上距定点最近的点",
+      "questionText": "用拉格朗日乘数法求直线 $x-2y=5$ 上与点 $(1,3)$ 距离最近的点。（1）写出度量 $(x,y)$ 到 $(1,3)$ 距离平方的目标函数 $f(x,y)$（距离平方的最值与距离的最值同点取得）；（2）写出约束条件 $g(x,y)=c$；（3）写出 $\\nabla f = \\lambda \\nabla g$ 与约束条件联立的方程组并求解；（4）说明所得点确为距离最小的点，并求最短距离。",
+      "answerText": "（1）距离平方为 $f(x,y) = (x-1)^2 + (y-3)^2$。（2）约束为 $g(x,y) = x-2y = 5$。（3）$\\nabla f = \\langle 2(x-1),\\ 2(y-3)\\rangle$，$\\nabla g = \\langle 1, -2 \\rangle$，由 $\\nabla f = \\lambda \\nabla g$ 与约束得方程组 $$2(x-1) = \\lambda, \\qquad 2(y-3) = -2\\lambda, \\qquad x-2y = 5$$ 把 $\\lambda = 2(x-1)$ 代入第二式得 $2(y-3) = -4(x-1)$，即 $4x+2y=10$；与 $x-2y=5$ 相加得 $5x = 15$，故 $x=3$，$y = -1$。（4）唯一驻点 $(3,-1)$ 对应的距离为 $\\sqrt{f(3,-1)} = \\sqrt{20}$。由于直线上存在离 $(1,3)$ 任意远的点，该唯一的极值必为最小值，故最近点为 $(3,-1)$，最短距离为 $\\sqrt{20}=2\\sqrt{5}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "conditional_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [
+        "lagrange_multiplier"
+      ],
+      "notes": "译自 exercises/ez-S_mv_Lagrange.ptx 第 2 题；原文解答中 $\\nabla f$ 的写法有排版笔误（分量为 $2(x-1),2(y-3)$），已按正确形式给出；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.11 条件极值与拉格朗日乘数法",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.17",
+      "title": "计算累次积分",
+      "questionText": "计算下列各累次积分：（1）$\\int_1^3 \\left( \\int_2^5 xy \\, dy \\right) \\, dx$；（2）$\\int_0^{\\pi/4} \\left( \\int_0^{\\pi/3} \\sin(x) \\cos(y) \\, dx \\right) \\, dy$；（3）$\\int_0^1 \\left( \\int_0^1 e^{-2x - 3y} \\, dy \\right) \\, dx$；（4）$\\iint_R \\sqrt{2x + 5y} \\, dA$，其中 $R = [0,2]\\times[0,3]$。",
+      "answerText": "（1）先对 $y$ 积分再对 $x$ 积分：$$\\int_1^3 \\left( \\int_2^5 xy \\, dy \\right) \\, dx = \\int_1^3 \\left( x\\frac{y^2}{2}\\right)\\mid_{y=2}^{5} \\, dx = \\int_1^3 \\frac{21}{2}x \\, dx = \\frac{21}{4}x^2 \\mid_{x=1}^3 = \\frac{21}{4}(8) = 42$$（2）先对 $x$ 积分再对 $y$ 积分：$$\\int_0^{\\pi/4} \\left( \\int_0^{\\pi/3} \\sin(x) \\cos(y) \\, dx \\right) \\, dy = \\int_0^{\\pi/4} \\left( -\\cos(x) \\cos(y) \\mid_0^{x=\\pi/3} \\right) \\, dy = \\int_0^{\\pi/4} \\left( 1-\\frac{1}{2}\\right) \\cos(y) \\, dy = \\frac{1}{2} \\sin(y) \\mid_{y=0}^{\\pi/4} = \\frac{\\sqrt{2}}{4}$$（3）$$\\int_0^1 \\left( \\int_0^1 e^{-2x - 3y} \\, dy \\right) \\, dx = \\int_0^1 \\left( -\\frac{1}{3}e^{-2x - 3y}\\mid_{y=0}^1 \\right) \\, dx = -\\frac{1}{3} \\int_0^{1} \\left( e^{-2x-3} - e^{-2x} \\right) \\, dx = \\frac{1}{6} \\left(e^{-2x-3} - e^{-2x}\\right) \\mid_{x=0}^{1} = \\frac{1}{6} \\left(e^{-5}-e^{-2} - e^{-3} + 1\\right)$$（4）先对 $y$ 积分再对 $x$ 积分：$$\\iint_R \\sqrt{2x + 5y} \\, dA = \\int_0^2 \\left( \\int_0^3 \\sqrt{2x+5y} \\, dy \\right) \\, dx = \\int_0^2 \\left( \\frac{2}{15}(2x+5y)^{3/2}\\mid_{y=0}^3 \\right) \\, dx$$ $$= \\frac{2}{15}\\int_0^2 \\left( (2x+15)^{3/2} - (2x)^{3/2} \\right) \\, dx = \\left(\\frac{2}{15}\\right)\\left(\\frac{1}{5}\\right) \\left( (2x+15)^{5/2} - (2x)^{5/2} \\right)\\mid_{x=0}^2 = \\frac{2}{75} \\left(19^{5/2} - 4^{5/2} - 15^{5/2}\\right)$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "rectangular_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_multi_ints_iterated_ints.ptx 第 1 题；原文 (2) 的中间式 $-\\frac{1}{2}-(-1)$ 即 $\\frac{1}{2}$，(3) 的答案原文误作 $\\frac{\\sqrt{1}}{6}$，按上下文应为 $\\frac{1}{6}$，已修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.1 累次积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.18",
+      "title": "矩形区域上的二重积分",
+      "questionText": "设 $f(x,y) = 25-x^2-y^2$ 在矩形区域 $R=\\{(x,y)\\mid -3\\leq x\\leq 3,\\ -4\\leq y\\leq 4\\}$ 上有定义。（1）把 $x$ 视为常数，利用微积分基本定理计算 $A(x) = \\int_{-4}^4 f(x,y) \\, dy$；（2）利用 (1) 的结果计算 $\\int_{-3}^3 A(x) \\, dx$；（3）写出 $\\iint_R f(x,y) \\, dA$ 的值，并说明该值在几何上的意义（$f$ 在 $R$ 上非负）。",
+      "answerText": "（1）把 $x$ 当作常数：$$A(x) = \\int_{-4}^4 25-x^2-y^2 \\, dy = \\left[ (25-x^2)y - \\frac{y^3}{3} \\right] \\mid_{-4}^4 = 8(25-x^2) - \\frac{128}{3} = \\frac{472}{3} - 8x^2$$（2）$$\\int_{-3}^3 A(x) \\, dx = \\int_{-3}^3 \\frac{472}{3} - 8x^2 \\, dx = \\left[ \\frac{472}{3}x - \\frac{8}{3}x^3 \\right] \\mid_{-3}^3 = 944 - 144 = 800$$（3）$$\\iint_R f(x,y) \\, dA = \\int_{-3}^3 \\int_{-4}^4 f(x,y) \\, dy \\, dx = 800$$ 由 $f(x,y) \\geq 0$ 于 $R$，此值即以曲面 $z=f(x,y)$ 为顶、以矩形 $R$ 为底的曲顶柱体的体积 $800$；又 $R$ 的面积为 $48$，故 $f$ 在 $R$ 上的平均值为 $\\frac{800}{48}=\\frac{50}{3}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region",
+        "rectangular_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_iterated_ints 第 1 个 Activity；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.1 累次积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.19",
+      "title": "两种积分次序计算二重积分",
+      "questionText": "设 $f(x,y) = x+y^2$，$R$ 为矩形区域 $0\\leq x\\leq 2,\\ 0\\leq y\\leq 3$。（1）先对 $x$ 后对 $y$ 计算二重积分 $\\iint_R f(x,y) \\, dA$；（2）改为先对 $y$ 后对 $x$ 的积分次序再计算一次，验证两种次序结果相同。",
+      "answerText": "（1）先 $x$ 后 $y$：$$\\iint_R f(x,y) \\, dA = \\int_{0}^{3} \\int_{0}^{2} x+y^2 \\, dx \\, dy = \\int_{0}^{3} \\left[ \\frac{x^2}{2} + xy^2 \\right] \\mid_{0}^{2} \\, dy = \\int_{0}^{3} \\left[ 2 + 2y^2 \\right] \\, dy = \\left[ 2y + \\frac{2}{3}y^3 \\right] \\mid_{0}^{3} = 24$$（2）先 $y$ 后 $x$：$$\\iint_R f(x,y) \\, dA = \\int_{0}^{2} \\int_{0}^{3} x+y^2 \\, dy \\, dx = \\int_{0}^{2} \\left[ xy + \\frac{y^3}{3} \\right] \\mid_{0}^{3} \\, dx = \\int_{0}^{2} \\left[ 3x + 9 \\right] \\, dx = \\left[ \\frac{3}{2}x^2 + 9x \\right] \\mid_{0}^{2} = 24$$ 两种积分次序所得结果相同，均为 $24$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "integration_order",
+        "rectangular_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_iterated_ints 第 2 个 Activity；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.1 累次积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.20",
+      "title": "三角形区域上的二重积分",
+      "questionText": "设 $D$ 为以 $(0,0)$、$(4,0)$、$(0,2)$ 为顶点的三角形区域，计算二重积分 $$\\iint_D \\frac{3}{4}(4-x-2y) \\, dA$$（1）将 $D$ 按 $X$ 型（先 $y$ 后 $x$）区域表示，写出相应的不等式；（2）把二重积分化为先 $y$ 后 $x$ 的累次积分（含正确的积分限）；（3）再把二重积分化为先 $x$ 后 $y$ 的累次积分并计算，验证两种次序所得的值相同。",
+      "answerText": "（1）斜边为连接 $(4,0)$ 与 $(0,2)$ 的直线 $y = 2-\\frac{1}{2}x$，故 $D$ 可表示为 $0 \\leq x \\leq 4,\\ 0 \\leq y \\leq 2-\\frac{1}{2}x$。（2）先 $y$ 后 $x$：$$\\iint_D \\left(\\frac{3}{4}\\right)(4-x-2y) \\, dy \\, dx = \\int_{0}^{4} \\int_{0}^{2-(1/2)x} \\left(\\frac{3}{4}\\right)(4-x-2y) \\, dy \\, dx$$（3）先 $x$ 后 $y$ 时，斜边写为 $x = 4-2y$，$D$ 为 $0 \\leq y \\leq 2,\\ 0 \\leq x \\leq 4-2y$：$$\\iint_D \\left(\\frac{3}{4}\\right)(4-x-2y) \\, dx \\, dy = \\int_{0}^{2} \\int_{0}^{4-2y} \\left(\\frac{3}{4}\\right)(4-x-2y) \\, dx \\, dy = \\frac{3}{4} \\int_{0}^{2} \\left[8-8y+2y^2 \\right] \\, dy = \\frac{3}{4} \\left[8y-4y^2+\\frac{2}{3}y^3 \\right] \\mid_{0}^{2} = \\frac{3}{4} \\left(\\frac{16}{3}\\right) = 4$$（先 $y$ 后 $x$ 的计算：$$\\frac{3}{4} \\int_{0}^{4} \\left[(4-x)y-y^2\\right] \\mid_{0}^{2-(1/2)x} \\, dx = \\frac{3}{4} \\int_{0}^{4} \\left[4-2x+\\frac{1}{4}x^2\\right] \\, dx = \\frac{3}{4} \\left[4x-x^2+\\frac{1}{12}x^3\\right] \\mid_{0}^{4} = \\frac{3}{4} \\left(\\frac{16}{3}\\right) = 4$$）两种次序均得 $4$；由于被积函数在 $D$ 上非负，该值即以 $f(x,y) = \\frac{3}{4}(4-x-2y)$ 为顶、以 $D$ 为底的立体体积。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_double_ints_general 第 1、2 个 Activity（原文两问的题干分别写 $(4-x-2y)$ 与解答用 $(\\frac{3}{4})(4-x-2y)$，按其解答取后者并合并为一题）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.3 一般区域上的二重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.21",
+      "title": "交换二次积分的次序",
+      "questionText": "考虑二次积分 $$\\int_{x=0}^{x=1} \\int_{y=x}^{y=\\sqrt{x}} (4x+10y) \\, dy \\, dx$$（1）画出对应二重积分的积分区域 $D$；（2）交换积分次序（化为先 $x$ 后 $y$），写出等价的二次积分；（3）选择较易的一种次序计算积分值；（4）写出一个定积分表示 $D$ 的面积 $A(D)$ 并求出其精确值，进而求 $f(x,y) = 4x + 10y$ 在 $D$ 上的平均值。",
+      "answerText": "（1）区域 $D$ 由 $y=x$ 与 $y=\\sqrt{x}$（即 $x=y^2$）及 $x=1$ 围成，$0\\leq x\\leq 1$。（2）$$\\iint_D (4x + 10y) \\, dA = \\int_{y=0}^{y=1} \\int_{x=y^2}^{x=y} (4x+10y) \\, dx \\, dy$$（3）先对 $x$ 积分：$4x+10y$ 的原函数为 $2x^2+10xy$，从 $y^2$ 到 $y$ 代入得 $12y^2-2y^4-10y^3$；再从 $0$ 到 $1$ 积分得 $$\\int_0^1 \\left(12y^2-2y^4-10y^3\\right) dy = 4-\\frac{2}{5}-\\frac{5}{2} = \\frac{11}{10}$$（4）$$A(D) = \\int_0^1 \\left(\\sqrt{x}-x\\right) dx = \\left[\\frac{2}{3}x^{3/2}-\\frac{x^2}{2}\\right]_0^1 = \\frac{1}{6}$$ 故平均值为 $$\\frac{1}{A(D)}\\iint_D f \\, dA = \\frac{1.1}{\\frac{1}{6}} = \\frac{33}{5} = 6.6$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "integration_order",
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_double_ints_general 第 4 个 Activity；公式与原文一致（原文平均值表述 '6.6 s' 末尾的 s 为排版赘字，且已把小数补充为精确值 $\\frac{33}{5}$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.3 一般区域上的二重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.22",
+      "title": "极坐标计算环形区域上的体积",
+      "questionText": "求立体 $V$ 的体积：$V$ 位于 $xy$ 平面上方、抛物面 $z=f(x,y) = 25-x^2-y^2$ 下方，且在圆柱面 $x^2+y^2 = 1$ 之外。（1）说明以 $xy$ 平面上怎样的区域 $R$ 为底、以 $f$ 为顶的曲顶柱体即为 $V$，并指出 $R$ 的形状；（2）用极坐标不等式描述 $R$，并说明为何用直角坐标描述 $R$ 会很困难；（3）用极坐标累次积分求 $V$ 的体积。",
+      "answerText": "（1）抛物面与 $xy$ 平面交于圆 $x^2+y^2 = 25$，故 $R$ 为位于圆 $x^2+y^2=25$ 之内、圆 $x^2+y^2=1$ 之外的圆环。（2）在极坐标下 $R$ 为 $1\\leq r\\leq 5,\\ 0\\leq \\theta\\leq 2\\pi$。$R$ 既不是 $X$ 型也不是 $Y$ 型区域，用直角坐标描述需把圆环拆成四个子区域（$-5\\leq x\\leq -1$，$1\\leq x\\leq 5$，以及 $-1\\leq x\\leq 1$ 上的上下两部分），边界函数需分段表示，非常繁琐。（3）$$\\iint_R (25-x^2-y^2)\\, dA = \\int_0^{2\\pi}\\int_1^5 (25-r^2)\\,r\\, dr\\, d\\theta = \\int_0^{2\\pi} \\left(\\frac{25}{2}r^2 - \\frac{1}{4}r^4\\right)\\Big|_{1}^{5}\\, d\\theta$$ $$= \\int_0^{2\\pi} \\left(\\frac{625}{2} -\\frac{625}{4} - \\frac{25}{2} + \\frac{1}{4}\\right)\\, d\\theta = 144\\cdot 2\\pi = 288\\pi$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "polar_coordinates",
+        "double_integral_region"
+      ],
+      "methodIds": [
+        "polar_coordinates"
+      ],
+      "notes": "译自 S_mult_ints_double_ints_polar 第 1 个 Activity；公式与原文一致（原文解答中第二行等号在抽取时丢失，此处补全为等式链）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.5 极坐标下的二重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.23",
+      "title": "极坐标求锥面与抛物面间的立体体积",
+      "questionText": "用极坐标求介于锥面 $z=f(x,y)=\\sqrt{x^2+y^2}$ 与抛物面 $z=g(x,y)=\\dfrac{1}{8}\\left(x^2+y^2\\right) + 2$ 之间的立体的体积。",
+      "answerText": "在极坐标下 $f(r,\\theta) = r$，$g(r,\\theta) = \\frac{r^2}{8} + 2$。联立两曲面方程求交线：$$r = \\frac{r^2}{8} + 2,\\quad 8r = r^2 + 16,\\quad 0 = r^2 -8r + 16,\\quad r = \\frac{8\\pm \\sqrt{8^2-4\\cdot 16}}{2} = 4$$ 故立体位于圆盘 $D:\\ 0\\leq r\\leq 4,\\ 0\\leq \\theta\\leq 2\\pi$ 的正上方，且 $g$ 为上边界曲面、$f$ 为下边界曲面。由 $g-f = \\frac{r^2}{8}+2-r = \\frac{(r-4)^2}{8}\\geq 0$，体积为 $$V=\\iint_D (g-f)\\, dA = \\int_0^{2\\pi}\\int_0^4 \\left(\\frac{r^2}{8}+2 - r\\right) r\\, dr\\, d\\theta = \\int_0^{2\\pi} \\left(\\frac{r^4}{32} + r^2 - \\frac{r^3}{3}\\right)\\Big|_{0}^{4}\\, d\\theta = \\int_0^{2\\pi} \\frac{8}{3}\\, d\\theta = \\frac{16\\pi}{3}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "polar_coordinates"
+      ],
+      "methodIds": [
+        "polar_coordinates"
+      ],
+      "notes": "译自 S_mult_ints_double_ints_polar 中独立活动题。注意：原文解答把 $g-f$ 误写为 $\\frac{r^2}{8}+2+r$ 且数值有误（原书答案 $\\frac{276}{3}\\pi$）。经复核：$\\int_0^4\\left(\\frac{r^3}{8}+2r-r^2\\right)dr=\\frac{8}{3}$，体积应为 $\\frac{16\\pi}{3}$；答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.5 极坐标下的二重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.24",
+      "title": "用二重积分求平面图形的面积",
+      "questionText": "求曲线 $y = 1-x^2$ 与 $y=x-1$ 所围成的有界区域 $D$ 的面积：（1）把区域 $D$ 的面积写成二重积分 $\\iint_D 1 \\, dA$，并将其化为累次积分（写出积分限的确定过程）；（2）计算该累次积分，求出 $D$ 的面积。",
+      "answerText": "（1）先对 $y$ 积分：$D$ 的上边界为 $y=1-x^2$、下边界为 $y=x-1$。两曲线的交点满足 $x^2+x-2 = (x-1)(x+2) = 0$，即 $x=-2$ 与 $x=1$。故 $$\\iint_D 1 \\, dA = \\int_{-2}^1 \\int_{x-1}^{1-x^2} 1 \\, dy \\, dx$$（2）$$\\iint_D 1 \\, dA = \\int_{-2}^1 \\left (y\\mid_{x-1}^{1-x^2} \\right ) \\, dx = \\int_{-2}^1 \\left ( (1-x^2) - (x-1) \\right ) \\, dx = \\int_{-2}^1 \\left(2-x-x^2\\right) \\, dx$$ $$= \\left[2x-\\frac{x^2}{2}-\\frac{x^3}{3}\\right]\\mid_{-2}^1 = \\frac{7}{6} - \\left(-\\frac{10}{3}\\right) = \\frac{9}{2}$$ 即 $D$ 的面积为 $\\dfrac{9}{2}$ 平方单位。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multiple_integral_application",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_double_ints_apps 第 1 个 Activity；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.4 二重积分的应用",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.25",
+      "title": "二元概率密度函数与二重积分",
+      "questionText": "某公司生产烟雾报警器，其两个组件分别来自两家供应商。设 $x$ 为密歇根供应商组件的寿命（年），$y$ 为俄亥俄供应商组件的寿命（年），联合概率密度函数为 $f(x,y) = e^{-x} e^{-y}$。（1）验证 $f$ 在区域 $D=\\{(x,y)\\mid x\\ge 0,\\ y\\ge 0\\}$ 上确实是概率密度函数，即 $\\int_0^{\\infty} \\int_0^{\\infty} f(x,y) \\, dy \\, dx = 1$；（2）设烟雾报警器仅在两个组件同时失效时才失效，求随机抽取的一个报警器在一年内失效的概率；（3）求随机抽取的一个报警器在第 3 年到第 7 年之间失效的概率；（4）若制造商认为其中一个组件更易失效，改设概率密度函数为 $f(x,y) = K e^{-x} e^{-2y}$，求常数 $K$。",
+      "answerText": "（1）$$\\int_0^{\\infty} \\int_0^{\\infty} e^{-x} e^{-y} \\, dy \\, dx = \\int_0^{\\infty} e^{-x} \\left( \\lim_{b \\to \\infty} \\int_0^{b} e^{-y} \\, dy \\right) \\, dx = \\int_0^{\\infty} e^{-x} \\left(\\lim_{b \\to \\infty} -e^{-y} \\mid_0^{b} \\right) \\, dx = \\int_0^{\\infty} e^{-x} (1) \\, dx = 1$$ 故 $f$ 是 $D$ 上的概率密度函数。（2）两个组件寿命都不超过 $1$ 年的概率为 $$\\int_0^1 \\int_0^1 e^{-x} e^{-y} \\, dy \\, dx = \\int_0^1 e^{-x} \\left(1-\\frac{1}{e}\\right) \\, dx = \\left(1-\\frac{1}{e}\\right) (-e^{-x})\\mid_{x=0}^1 = \\left(1-\\frac{1}{e}\\right)^2 \\approx 0.40$$ 即约 $40\\%$。（3）$$\\int_3^7 \\int_3^7 e^{-x} e^{-y} \\, dy \\, dx = \\int_3^7 e^{-x} \\left(\\frac{1}{e^3}-\\frac{1}{e^7}\\right) \\, dx = \\left(\\frac{1}{e^3}-\\frac{1}{e^7}\\right)^2 \\approx 0.0024$$ 即约 $0.24\\%$。（4）由 $\\int_0^{\\infty} \\int_0^{\\infty} Ke^{-x} e^{-2y} \\, dy \\, dx = K\\int_0^{\\infty} e^{-x} \\left(\\lim_{b \\to \\infty} -\\frac{1}{2}e^{-2y} \\mid_0^{b} \\right) \\, dx = \\frac{K}{2}$，令其等于 $1$ 得 $K = 2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multiple_integral_application",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_double_ints_apps 第 3 个 Activity（概率应用，题干背景文字有压缩，数学内容未变）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.4 二重积分的应用",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.26",
+      "title": "平面薄片的质量与质心",
+      "questionText": "设薄片占据第一象限内由 $x$ 轴、直线 $x = 1$ 与直线 $y = 2x$ 所围成的三角形区域 $D$，薄片在点 $(x, y)$ 处的面密度为 $\\delta(x, y) = 6x + 6y + 6$。（1）写出计算薄片总质量的累次积分；（2）计算该积分求出总质量；（3）写出表示质心坐标 $(\\bar{x}, \\bar{y})$ 的两个累次积分。",
+      "answerText": "（1）区域 $D$ 为 $0\\leq x\\leq 1,\\ 0\\leq y\\leq 2x$，质量 $M = \\iint_D \\delta(x,y) \\, dA$，先对 $y$ 后对 $x$：$$M = \\iint_D \\delta(x,y) \\, dA = \\int_0^1 \\int_0^{2x} (6x+6y+6) \\, dy \\, dx$$（2）$$M = \\int_0^1 \\left[6xy+3y^2+6y\\right]_{y=0}^{y=2x} dx = \\int_0^1 \\left(12x^2+12x^2+12x\\right) dx = \\int_0^1 \\left(24x^2+12x\\right) dx = 8+6 = 14$$（3）$\\bar{x}$ 坐标：$$\\bar{x} = \\frac{1}{14}\\iint_D x \\delta(x,y) \\, dA = \\frac{1}{14} \\int_0^1 \\int_0^{2x} x(6x+6y+6) \\, dy \\, dx$$ $\\bar{y}$ 坐标：$$\\bar{y} = \\frac{1}{14}\\iint_D y \\delta(x,y) \\, dA = \\frac{1}{14} \\int_0^1 \\int_0^{2x} y(6x+6y+6) \\, dy \\, dx$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multiple_integral_application",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_double_ints_apps 第 5 个 Activity（原题第 (b) 问直接给定质量为 14，此处 (2) 问补出计算并验证其为 14，答案为项目自算并验算）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.4 二重积分的应用",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.27",
+      "title": "一般变量代换计算二重积分",
+      "questionText": "设 $D'$ 为 $xy$ 平面上由直线 $y=0$、$x=0$ 与 $x+y=1$ 所围成的区域，用变量代换 $s = x+y$，$t = x-y$ 计算二重积分 $$\\iint_{D'} \\sqrt{x+y}(x-y)^2 \\, dA$$（1）说明该代换为何能将被积函数化简，并写出以 $s,t$ 表示的新被积函数；（2）从 $s = x+y$，$t = x-y$ 解出 $x,y$（即写出变换的标准形式）；（3）求出与 $xy$ 区域 $D'$ 对应的 $st$ 区域，并指出 $x+y=1$、$x=0$、$y=0$ 在 $st$ 坐标下对应的方程；（4）计算雅可比式，把原积分化为 $st$ 变量的累次积分并求值。",
+      "answerText": "（1）经代换后被积函数化为 $\\sqrt{s}\\,t^2$，变量分离，便于积分。（2）由 $s = x+y$，$t = x-y$ 解得 $$x = \\frac{1}{2}(s+t), \\qquad y = \\frac{1}{2}(s-t)$$（3）$x+y=1$ 对应 $s=1$；$x=0$ 即 $\\frac{1}{2}(s+t)=0$ 对应 $s+t = 0$；$y=0$ 即 $\\frac{1}{2}(s-t)=0$ 对应 $s-t = 0$。故 $st$ 区域为由 $s=1$、$s+t=0$、$s-t=0$ 围成的三角形（顶点 $(0,0)$、$(1,1)$、$(1,-1)$）。（4）雅可比式 $$\\left|\\frac{\\partial(x,y)}{\\partial(s,t)}\\right| = \\left|\\frac{\\partial x}{\\partial s} \\frac{\\partial y}{\\partial t} - \\frac{\\partial x}{\\partial t} \\frac{\\partial y}{\\partial s}\\right| = \\left| \\left(\\frac{1}{2}\\right)\\left(-\\frac{1}{2}\\right) - \\left(\\frac{1}{2}\\right)\\left(\\frac{1}{2}\\right)\\right| = \\frac{1}{2}$$ 于是 $$\\iint_D \\sqrt{x+y}(x-y)^2 \\, dA = \\iint_S \\sqrt{s}\\,t^2 \\left|\\frac{\\partial(x,y)}{\\partial(s,t)}\\right| \\, ds \\, dt = \\int_0^1 \\int_{-s}^{s} \\sqrt{s}\\,t^2\\, \\frac{1}{2} \\, dt \\, ds$$ $$= \\frac{1}{2} \\int_0^1 \\sqrt{s}\\, \\frac{t^3}{3} \\Big|_{-s}^{s} \\, ds = \\frac{1}{3} \\int_0^1 \\sqrt{s}\\,s^3 \\, ds = \\frac{1}{3} \\int_0^1 s^{7/2} \\, ds = \\frac{1}{3}\\cdot\\frac{2}{9} = \\frac{2}{27}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region"
+      ],
+      "methodIds": [
+        "variable_substitution"
+      ],
+      "notes": "译自 S_mult_ints_change_vars 第 2 个 Activity（原题含画图小问，已整编进 (3)）；公式与原文一致（原文末步写作 $\\frac{2}{27}s^{9/2}\\big|_0^1$，此处直接给出数值 $\\frac{2}{27}$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.8 重积分的变量代换",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.28",
+      "title": "长方体上的三重积分",
+      "questionText": "写出并计算函数 $f(x,y,z) = x-y+2z$ 在长方体 $B = [-2,3] \\times [1,4] \\times [0,2]$ 上的三重积分 $\\iiint_B f(x,y,z) \\, dV$。",
+      "answerText": "$$\\iiint_B f(x,y,z) \\, dV = \\int_{-2}^3 \\int_1^4 \\int_0^2 x-y+2z \\, dz \\, dy \\, dx = \\int_{-2}^3 \\int_1^4 \\left[ (x-y)z+z^2\\right] \\Big|_{0}^{2} \\, dy \\, dx$$ $$= \\int_{-2}^3 \\int_1^4 \\left(2(x-y)+4\\right) \\, dy \\, dx = \\int_{-2}^3 \\left[2xy-y^2+4y\\right] \\Big|_{1}^{4} \\, dx = \\int_{-2}^3 (6x-3) \\, dx = \\left[3x^2-3x\\right] \\Big|_{-2}^{3} = 0$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "triple_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "triple_integral_region",
+        "rectangular_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_mult_ints_triple_ints 独立活动题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.6 三重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.29",
+      "title": "四面体上三重积分的不同积分次序",
+      "questionText": "设 $\\Omega$ 为由三个坐标面与平面 $\\dfrac{x}{6}+\\dfrac{y}{3}+\\dfrac{z}{2}=1$（即 $x+2y+3z=6$）所围成的四面体，$f(x,y,z)=x+y+z$。（1）与 $\\iiint_{\\Omega} f \\, dV$ 相等的累次积分共有多少种不同的积分次序？说明理由；（2）按先 $z$、次 $x$、后 $y$ 的次序写出等价的累次积分；（3）按先 $y$、次 $z$、后 $x$ 的次序写出等价的累次积分；（4）按先 $x$、次 $y$、后 $z$ 的次序写出等价的累次积分。",
+      "answerText": "（1）$6$ 种。内层积分变量可在 $x,y,z$ 中任选（$3$ 种），中间层在剩下两个变量中任选（$2$ 种），外层唯一（$1$ 种），共 $3\\times 2\\times 1=6$ 种。（2）先对 $z$ 积分时 $z$ 的上限为平面 $z = \\frac{1}{3}(6-x-2y)$；四面体在 $xy$ 平面上的投影由坐标轴与直线 $x+2y=6$ 围成，即 $0 \\leq x \\leq 6-2y$，$0 \\leq y \\leq 3$。故 $$\\iiint_{\\Omega} f \\, dV = \\int_{0}^{3} \\int_{0}^{6-2y} \\int_{0}^{(1/3)(6-x-2y)} x+y+z \\, dz \\, dx \\, dy$$（3）先对 $y$ 积分时上限为 $y = \\frac{1}{2}(6-3z-x)$；在 $xz$ 平面上的投影由坐标轴与直线 $x+3z=6$ 围成，即 $0 \\leq z \\leq \\frac{1}{3}(6-x)$，$0 \\leq x \\leq 6$。故 $$\\iiint_{\\Omega} f \\, dV = \\int_{0}^{6} \\int_{0}^{1/3(6-x)} \\int_{0}^{\\frac{1}{2}(6-3z-x)} x+y+z \\, dy \\, dz \\, dx$$（4）先对 $x$ 积分时上限为 $x = 6-3z-2y$；在 $yz$ 平面上的投影由坐标轴与直线 $2y+3z=6$ 围成，即 $0 \\leq y \\leq \\frac{1}{2}(6-3z)$，$0 \\leq z \\leq 2$。故 $$\\iiint_{\\Omega} f \\, dV = \\int_{0}^{2} \\int_{0}^{1/2(6-3z)} \\int_{0}^{6-3z-2y} x+y+z \\, dx \\, dy \\, dz$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "triple_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "triple_integral_region",
+        "integration_order"
+      ],
+      "methodIds": [
+        "projection_method"
+      ],
+      "notes": "译自 S_mult_ints_triple_ints 第 3 个 Activity（原题以“例题中的四面体”为背景，其方程 $x+2y+3z=6$ 由解答的积分限反推得出，已在题干中显式给出）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.6 三重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.30",
+      "title": "矩形金属板的平均温度",
+      "questionText": "金属板位于 $xy$ 平面上的矩形区域 $R=[1,5]\\times[3,6]$，板上点 $(x,y)$ 处的温度为 $T(x,y)=100-4x^2-y^2$。（1）写出表示 $R$ 上方以 $T$ 为顶的立体体积的累次积分；（2）计算该累次积分；（3）求矩形 $R$ 的面积；（4）求 $T$ 在 $R$ 上的平均温度 $T_{\\mathrm{AVG}(R)}$ 的精确值。",
+      "answerText": "（1）$$\\iint_R T(x,y) \\, dA = \\int_1^5 \\left( \\int_3^6 100 - 4x^2-y^2 \\, dy \\right) \\, dx$$（2）先对 $y$ 后对 $x$：$$\\int_1^5 \\left( (100-4x^2)y - \\frac{y^3}{3} \\right)\\mid_3^6 \\, dx = \\int_1^5 \\left( 300-12x^2 - \\frac{189}{3} \\right) \\, dx = \\left( 300x-4x^3 - \\frac{189}{3}x \\right)\\mid_1^5 = 1200 - 496 - 252 = 452$$（3）$R$ 的面积为 $(4)(3) = 12$。（4）$$T_{\\operatorname{AVG}(R)} = \\frac{1}{\\operatorname{Area}(R)} \\iint_R T(x,y) \\, dA = \\frac{452}{12} = \\frac{113}{3}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multiple_integral_application",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region",
+        "rectangular_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_multi_ints_iterated_ints.ptx 第 2 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.1 累次积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.31",
+      "title": "两抛物线间区域上的二重积分与平均温度",
+      "questionText": "金属板上点 $(x,y)$ 处的温度为 $T(x,y) = 100-4x^2 - y^2$，考察位于抛物线 $x = y^2$ 与 $x = 3-2y^2$ 之间的有界区域 $D$。（1）用先 $x$ 后 $y$ 的次序（$dA = dx\\,dy$）写出 $\\iint_D T(x,y) \\, dA$ 的累次积分；（2）用先 $y$ 后 $x$ 的次序（$dA = dy\\,dx$）写出 $\\iint_D T(x,y) \\, dA$ 的累次积分；（3）计算 (1) 中的积分；（4）求 $D$ 的面积，进而求 $T$ 在 $D$ 上的平均温度 $T_{\\mathrm{AVG}(D)}$。",
+      "answerText": "（1）两抛物线的交点满足 $y^2 = 3-2y^2$，即 $y=\\pm 1$；对每个 $y$，$x$ 从 $y^2$ 到 $3-2y^2$：$$\\iint_D T(x,y) \\, dA = \\int_{y=-1}^{y=1} \\int_{x=y^2}^{x=3-2y^2} 100-4x^2 - y^2 \\, dx \\, dy$$（2）先 $y$ 后 $x$ 需拆成两个积分：$$\\int_{x=0}^{x=1} \\int_{y=-\\sqrt{x}}^{y=\\sqrt{x}} 100-4x^2 - y^2 \\, dy \\, dx + \\int_{x=1}^{x=3} \\int_{y=-\\frac{\\sqrt{3-x}}{2}}^{y=\\frac{\\sqrt{3-x}}{2}} 100-4x^2 - y^2 \\, dy \\, dx$$（3）$$\\iint_D T(x,y) \\, dA = \\int_{y=-1}^{y=1} \\left[(100-y^2)x - \\frac{4}{3}x^3\\right] \\Big|_{x=y^2}^{x=3-2y^2} \\, dy = \\int_{y=-1}^{y=1} \\left[264-231y^2-45y^4+12y^6\\right] \\, dy$$ $$= \\left[264y-77y^3-9y^5+\\frac{12}{7}y^7\\right] \\Big|_{y=-1}^{y=1} = \\frac{2516}{7}$$（4）$D$ 的面积为 $$\\int_{y=-1}^{y=1} \\left(3-2y^2 - y^2\\right) \\, dy = \\left(3y-y^3 \\right)\\Big|_{y=-1}^{y=1} = 4$$ 故平均温度 $$T_{\\operatorname{AVG}(D)}= \\frac{1}{\\operatorname{Area}(D)} \\iint_D T(x,y) \\, dA = \\frac{2516}{28} = \\frac{629}{7}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region",
+        "integration_order"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_multi_ints_double_ints_general.ptx 第 2 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.3 一般区域上的二重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.32",
+      "title": "对弧长的曲线积分计算",
+      "questionText": "计算第一类曲线积分（对弧长的曲线积分） $$\\int_C (y^2-2x) \\, ds$$ 其中 $C$ 为直线 $x=y$ 上满足 $-1 \\geq y \\geq 2$ 的一段路径。",
+      "answerText": "用 $\\vec{r}(t)=\\langle t,t \\rangle$（$t \\in[-1,2]$）参数化 $C$，则 $ds=\\sqrt{2}\\,dt$：$$\\int_C (y^2-2x) \\, ds = \\int_{-1}^2 (t^2-2t) \\sqrt{2} \\, dt = \\sqrt{2}\\left(t^3/3-t^2\\right) \\Big|_{-1}^{2} = \\sqrt{2}\\left(8/3-4-(-1/3 -1)\\right) = 0$$（第一类曲线积分与路径方向无关。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "line_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_Vector_ScalarLineIntegral.ptx 第 1 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.5 对弧长的曲线积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.33",
+      "title": "向量场沿螺旋线对坐标的曲线积分（做功）",
+      "questionText": "求向量场 $\\vec{F}(x,y,z) = 6x^2z\\,\\hat{\\imath} + 3y^2\\,\\hat{\\jmath} + x\\,\\vec{k}$ 沿螺旋线 $\\vec{r}(t) = \\langle 3\\cos(t),3\\sin(t),t\\rangle$ 把质点从点 $(3,0,0)$ 移动到点 $(3,0,6\\pi)$ 所做的功。",
+      "answerText": "螺旋线段为 $\\vec{r}(t)=\\langle 3\\cos(t), 3\\sin(t), t\\rangle$（$0\\leq t\\leq 6\\pi$），$\\vec{r}\\,'(t) = \\langle -3\\sin(t), 3 \\cos(t), 1 \\rangle$，沿曲线 $\\vec{F}(t) =\\langle 54t(\\cos(t))^2, 27(\\sin(t))^2,3 \\cos(t)\\rangle$，故所求功为 $$\\int_C \\vec{F} \\cdot d\\vec{r} =\\int_0^{6\\pi} \\left(-162t(\\cos(t))^2\\sin(t)+81(\\sin(t))^2 \\cos(t)+3\\cos(t)\\right) \\, dt = 324 \\pi$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "line_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_Vector_ParamLineIntegrals 第 2 个 Activity 的 (a) 问；公式与原文一致（原文 $\\vec{F}(t)$ 第二分量中的 $(s\\sin(t))^2$ 为排版笔误，按 $27(\\sin t)^2$ 处理）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.3 参数曲线上的第二类曲线积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.34",
+      "title": "第二类曲线积分的方向性",
+      "questionText": "设 $\\vec{F}=\\langle x^2,xy\\rangle$。（1）计算 $\\int_{C_1} \\vec{F}\\cdot d\\vec{r}$，其中 $C_1$ 为从 $(0,0)$ 到 $(2,2)$ 的线段；（2）计算 $\\int_{C_2} \\vec{F}\\cdot d\\vec{r}$，其中 $C_2$ 为从 $(2,2)$ 到 $(0,0)$ 的线段，并说明结果与 (1) 的关系说明了第二类曲线积分的什么性质。",
+      "answerText": "（1）线段 $C_1$ 可参数化为 $\\vec{r}(t) = \\langle t,t\\rangle$（$0\\leq t\\leq 2$），于是 $$\\vec{F} \\cdot d\\vec{r}=\\langle t^2,t^2\\rangle \\cdot \\langle 1,1\\rangle \\, dt = 2t^2\\, dt$$ 从而 $$\\int_{C_1} \\vec{F} \\cdot d\\vec{r}=\\int_0^2 2t^2 \\, dt = \\frac{16}{3}$$（2）$C_2$ 与 $C_1$ 方向相反，由方向反转变号性质 $$\\int_{C_2} \\vec{F} \\cdot d\\vec{r}= -\\int_{C_1} \\vec{F} \\cdot d\\vec{r}= -\\frac{16}{3}$$ 这说明第二类曲线积分依赖于曲线的定向：方向取反时积分值变号。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "orientation",
+        "line_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_Vector_ParamLineIntegrals.ptx 第 1 题；公式与原文一致（原文 (1) 解答中 $0\\leq t\\leq 2\\rangle$ 的多余符号为排版笔误）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.3 参数曲线上的第二类曲线积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.35",
+      "title": "沿圆周的第二类曲线积分",
+      "questionText": "设 $C_3$ 为以原点为圆心、半径为 $7$ 的圆周，取逆时针方向。分别计算下列对坐标的曲线积分 $\\int_{C_3} M\\, dx + N\\, dy$：（1）$\\langle M,N\\rangle = \\langle x,y \\rangle$；（2）$\\langle M,N\\rangle = \\langle -y,x \\rangle$；（3）$\\langle M,N\\rangle = \\langle 3,x \\rangle$。",
+      "answerText": "圆周的参数化为 $\\vec{r}(t) = \\langle 7\\cos(t),7\\sin(t) \\rangle$（$0\\leq t\\leq 2\\pi$）。（1）$$\\int_{C_3} M\\, dx+N\\, dy=\\int_0^{2\\pi} \\langle 7\\cos(t),7\\sin(t)\\rangle\\cdot \\langle-7\\sin(t),7\\cos(t)\\rangle \\, dt= 0$$（2）$$\\int_{C_3} M\\, dx+N\\, dy=\\int_0^{2\\pi} \\langle -7\\sin(t),7\\cos(t)\\rangle\\cdot \\langle-7\\sin(t),7\\cos(t)\\rangle \\, dt= \\int_0^{2\\pi} 49\\, dt = 98\\pi$$（3）$$\\int_{C_3} M\\, dx+N\\, dy=\\int_0^{2\\pi} \\langle3,7\\cos(t)\\rangle\\cdot \\langle-7\\sin(t),7\\cos(t)\\rangle \\, dt= \\int_0^{2\\pi} 49(\\cos(t))^2 \\, dt = 49\\pi$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "line_integral_definition",
+        "orientation"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_Vector_ParamLineIntegrals.ptx 第 3 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.3 参数曲线上的第二类曲线积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.36",
+      "title": "沿空间曲线做功的曲线积分",
+      "questionText": "设曲线 $C_4$ 为：沿曲面 $z=xy$ 上的路径 $y=x^3-x$，且 $x$ 从 $-1$ 变到 $2$。求向量场 $\\vec{F}=\\langle x,z,x+y\\rangle$ 沿 $C_4$ 所做的功。",
+      "answerText": "把曲线参数化为 $\\vec{r}(t) = \\langle t, t^3-t,\\ t(t^3-t)\\rangle$（$-1\\leq t \\leq 2$），其分量同时满足 $y=x^3-x$ 与 $z=xy$。于是 $\\vec{r}\\,'(t)=\\langle 1,3t^2-1,4t^3-2t\\rangle$，沿曲线 $\\vec{F}=\\langle t,\\ t(t^3-t),\\ t^3\\rangle$，故 $$\\int_{C_4} \\vec{F} \\cdot d\\vec{r} = \\int_{-1}^2 \\left( t+t(t^3-t)(3t^2-1)+t^3(4t^3-2t)\\right) \\, dt = \\frac{939}{10}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "line_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_Vector_ParamLineIntegrals.ptx 第 4 题；公式与原文一致（积分值 $939/10$ 已复核：被积函数化简为 $7t^6-6t^4+t^2+t$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.3 参数曲线上的第二类曲线积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.37",
+      "title": "沿不同路径的第二类曲线积分与路径无关性",
+      "questionText": "设 $\\vec{F}(x,y) = \\langle y^2,2xy+3\\rangle$。（1）设 $C_1$ 为曲线 $y=2x^3+3x^2-12x-15$ 上从 $(-2,5)$ 到 $(3,30)$ 的一段，计算 $\\int_{C_1}\\vec{F}\\cdot d\\vec{r}$；（2）设 $C_2$ 为从 $(-2,5)$ 到 $(3,30)$ 的线段，计算 $\\int_{C_2}\\vec{F}\\cdot d\\vec{r}$；（3）设 $C_3$ 为以原点为圆心、半径为 $3$ 的圆周，取逆时针方向，计算 $\\oint_{C_3} \\vec{F}\\cdot d\\vec{r}$；（4）综合以上结果，说明 $\\vec{F}$ 具有什么性质，并求出其势函数。",
+      "answerText": "（1）取 $\\vec{r}(t) = \\langle t, 2t^3+3t^2-12t-15 \\rangle$（$-2 \\leq t\\leq 3$），则 $$\\int_{C_1} \\vec{F}\\cdot d\\vec{r} =\\int_{-2}^3 \\left(28t^{6} + 72t^{5} - 195t^{4} - 528 t^{3} + 180 t^{2} + 738 t + 189\\right)\\, dt = 2825$$（2）$C_2$ 的参数化为 $\\vec{r}(t) =\\langle -2+5t,\\ 5+25t \\rangle$（$0 \\leq t\\leq 1$），则 $$\\int_{C_2} \\vec{F}\\cdot d\\vec{r} =\\int_{0}^1 \\langle (5+25t)^2,\\ 2(-2+5t)(5+25t)+3\\rangle \\cdot \\langle 5,25\\rangle \\,dt = 2825$$（3）$\\vec{r}(t) =\\langle 3\\cos(t),3\\sin(t) \\rangle$（$0 \\leq t\\leq 2\\pi$），则 $$\\oint_{C_3} \\vec{F}\\cdot d\\vec{r} =\\int_{0}^{2\\pi} \\langle 9(\\sin(t))^2,\\ 2\\cos(t)\\sin(t)+3 \\rangle \\cdot \\langle -3\\sin(t),3\\cos(t) \\rangle \\, dt = 0$$（4）沿连接相同两点的两条不同路径积分相等，且沿闭曲线积分为 $0$，故 $\\vec{F}$ 在全平面内与路径无关，是保守场。势函数满足 $f_x=y^2,\\ f_y=2xy+3$，由 $f=xy^2+g(y)$ 与 $g'(y)=3$ 得 $f(x,y)=xy^2+3y$，且 (1)(2) 的积分值即 $f(3,30)-f(-2,5)=2790-(-35)=2825$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "path_independence",
+        "conservative_field_potential"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_Vector_ParamLineIntegrals 第 3 个 Activity（原题 (d) 问画图小问略去，(4) 中势函数由项目补充验算：$f(3,30)=2700+90=2790$，$f(-2,5)=-50+15=-35$）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.3 参数曲线上的第二类曲线积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.38",
+      "title": "梯度场的曲线积分",
+      "questionText": "计算下列第二类曲线积分：（1）$\\int_C \\nabla f\\cdot d\\vec{r}$，其中 $f(x,y) = 3xy^2 - \\sin(x) + e^y$，$C$ 为单位圆的上半圆周，方向从 $(-1,0)$ 到 $(1,0)$；（2）$\\int_C \\nabla g\\cdot d\\vec{r}$，其中 $g(x,y,z) = xz^2 - 5y^3\\cos(z) + 6$，$C$ 为螺旋线 $\\vec{r}(t) = \\langle 5\\cos(t),5\\sin(t),3t\\rangle$ 上从 $(5,0,0)$ 到 $(0,5,9\\pi/2)$ 的一段；（3）$\\int_C \\nabla h\\cdot d\\vec{r}$，其中 $h(x,y,z) = 3y^2e^{y^3} - 5x\\sin(x^3z) + z^2$，$C$ 由从 $(0,0,0)$ 到 $(1,1,1)$ 的线段、从 $(1,1,1)$ 到 $(-1,3,-2)$ 的线段、再从 $(-1,3,-2)$ 到 $(0,0,10)$ 的线段依次连接而成。",
+      "answerText": "利用曲线积分基本定理 $\\int_C \\nabla f\\cdot d\\vec{r}=f(\\text{终点})-f(\\text{起点})$。（1）$f(-1,0)=-\\sin(-1)+1$，$f(1,0)=1-\\sin(1)$，故 $$\\int_C \\nabla f\\cdot d\\vec{r}=f(1,0)-f(-1,0)=\\left(1-\\sin(1)\\right)-\\left(-\\sin(-1)+1\\right)=-2\\sin(1)$$（2）$g(5,0,0)=0-0+6=6$，$g\\left(0,5,\\frac{9\\pi}{2}\\right)=0-0+6=6$，故 $$\\int_C \\nabla g\\cdot d\\vec{r}=(6)-(6)=0$$（3）$h(0,0,0)=0$，$h(0,0,10)=0-0+100=100$，故 $$\\int_C \\nabla h\\cdot d\\vec{r}=(100)-(0)=100$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "conservative_field_potential",
+        "path_independence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_Vector_FTCLI 第 1 个 Activity；注意：原文 (1) 的答案 $0$ 有误——原文把 $f(1,0)$ 误算为 $\\sin(1)+1$，按 $f(x,y)=3xy^2-\\sin x+e^y$ 应为 $f(1,0)=1-\\sin(1)$、$f(-1,0)=1+\\sin(1)$，积分应为 $-2\\sin(1)$；答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.4 线积分基本定理",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.39",
+      "title": "保守场的曲线积分",
+      "questionText": "计算下列第二类曲线积分：（1）$\\int_C \\vec{F}\\cdot d\\vec{r}$，其中 $\\vec{F}(x,y) = \\langle 2x,2y\\rangle$，$C$ 为从 $(1,2)$ 到 $(-1,0)$ 的线段；（2）$\\int_C \\vec{G}\\cdot d\\vec{r}$，其中 $\\vec{G}(x,y) = \\langle 4x^3-12y\\cos(xy),\\ 9y^2-12x\\cos(xy)\\rangle$，$C$ 为单位圆周上从 $(0,-1)$ 到 $(0,1)$ 的一段；（3）$\\int_C \\vec{H}\\cdot d\\vec{r}$，其中 $\\vec{H}(x,y,z) = \\langle H_1,H_2,H_3\\rangle$，$$H_1(x,y,z) = e^{z^2}+2xy^3z+\\cos(x)-y^3\\sin(x)$$ $$H_2(x,y,z) = 2ye^{y^2}+3x^2y^2z+3y^2z^2+3y^2\\cos(x)$$ $$H_3(x,y,z) = x^2y^3+2xze^{z^2}+2y^3z-4z^3$$ $C$ 为从 $(1,1,1)$ 到 $(3,0,3)$ 的线段、从 $(3,0,3)$ 到 $(1,5,-1)$ 的线段、再从 $(1,5,-1)$ 到 $(0,0,0)$ 的线段依次连接而成。",
+      "answerText": "（1）取 $f(x,y)=x^2+y^2$，则 $\\nabla f = \\vec{F}$。由线积分基本定理 $$\\int_C \\vec{F}\\cdot d\\vec{r} = f(1,2)-f(-1,0)=5-1=4$$（2）取 $g(x,y)=x^4-12\\sin(xy)+3y^3$，则 $\\nabla g = \\vec{G}$。由线积分基本定理 $$\\int_C \\vec{G}\\cdot d\\vec{r} = g(0,1)-g(0,-1)=3-(-3)=6$$（3）取 $h(x,y,z)=xe^{z^2}+x^2y^3z+\\sin(x)+y^3\\cos(x)+y^3z^2+e^{y^2}-z^4$，则 $\\nabla h = \\vec{H}$。由线积分基本定理 $$\\int_C \\vec{H}\\cdot d\\vec{r} = h(0,0,0)-h(1,1,1) =1-\\left(e+1+\\sin(1)+\\cos(1)+1+e-1\\right) =1-\\left(2e+1+\\sin(1)+\\cos(1)\\right)$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "conservative_field_potential",
+        "path_independence"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_Vector_FTCLI 第 3 个 Activity；公式与原文一致（(3) 的答案按原文解题过程 $1-(2e+1+\\sin(1)+\\cos(1))$ 给出，原答案行漏写 $+1$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.4 线积分基本定理",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.40",
+      "title": "恰当微分形式的曲线积分",
+      "questionText": "计算 $$\\int_C ye^z\\, dx +xe^z\\, dy+xye^z\\, dz$$ 其中 $C$ 由 $\\vec{r}(t) = \\langle t^2,t^3,t-1\\rangle$（$1\\leq t\\leq 2$）给出。",
+      "answerText": "被积表达式是梯度场（势函数 $f(x,y,z)=xye^z$）的恰当微分形式，曲线从点 $(1,1,0)$ 到点 $(4,8,1)$。由线积分基本定理 $$\\int_C ye^z\\, dx +xe^z\\, dy+xye^z\\, dz = f(4,8,1)-f(1,1,0)=32e-1$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "conservative_field_potential"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_Vector_FTCLI.ptx 第 3 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.4 线积分基本定理",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.41",
+      "title": "判别梯度场并计算曲线积分",
+      "questionText": "（1）判断线积分基本定理是否适用于 $\\vec{F}=\\langle \\sin(yz),\\ xz\\cos(yz)-z\\sin(y),\\ xy\\cos(yz)+\\cos(y)\\rangle$ 沿从 $(0,\\pi,3)$ 到 $(2,-1,2\\pi)$ 的线段的曲线积分；若适用，求出势函数并计算积分值。（2）计算 $\\int_C y^2\\, dx +2xy\\, dy$，其中 $C$ 为沿抛物线 $y=x^2$ 从 $(-1,1)$ 到 $(4,16)$ 的路径。",
+      "answerText": "（1）$\\vec{F}$ 是梯度场：势函数为 $f(x,y,z)=x\\sin(yz)+z\\cos(y)+C$。验证：$f_x=\\sin(yz)$，$f_y=xz\\cos(yz)-z\\sin(y)$，$f_z=xy\\cos(yz)+\\cos(y)$。故 $$\\int_C \\vec{F}\\cdot d\\vec{r}=f(2,-1,2\\pi)-f(0,\\pi,3)=\\left(0+2\\pi\\cos(-1)\\right)-\\left(0-3\\right)=2\\pi\\cos(-1)+3$$（2）被积表达式恰为 $d(xy^2)$，势函数 $f(x,y)=xy^2$，故 $$\\int_C y^2\\, dx +2xy\\, dy = f(4,16)-f(-1,1)=1024-(-1)=1025$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "conservative_field_potential",
+        "path_independence"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_Vector_FTCLI.ptx 第 1 题的 (b)(c) 两问（(a) 问对应场非梯度场，仅概念性判断，略去）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.4 线积分基本定理",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.42",
+      "title": "用格林公式求向量场沿曲线的环量",
+      "questionText": "用格林公式求下列向量场沿给定曲线的环量 $\\oint_C \\vec{F}\\cdot d\\vec{r}$：（1）$C_1$ 为以点 $(2,1)$ 为圆心、半径为 $3$ 的圆周（取逆时针方向），$\\vec{F} = \\langle y^2, 5x+2xy\\rangle$；（2）$C_2$ 为以 $(0,0)$、$(3,0)$、$(3,3)$ 为顶点的三角形边界（取逆时针方向），$\\vec{G} = \\langle y^2, 3xy\\rangle$。",
+      "answerText": "（1）$\\dfrac{\\partial F_2}{\\partial x} - \\dfrac{\\partial F_1}{\\partial y} = (5+2y)-2y = 5$，被积函数为常数 $5$，故环量等于 $5$ 乘以 $C_1$ 所围区域的面积：$$\\oint_{C_1} \\vec{F}\\cdot d\\vec{r} = 5\\cdot\\left(\\pi\\cdot 3^2\\right) = 45\\pi$$（2）$\\dfrac{\\partial G_2}{\\partial x} - \\dfrac{\\partial G_1}{\\partial y} = 3y-2y = y$，三角形内部可表示为 $0\\leq x\\leq 3,\\ 0\\leq y\\leq x$，由格林公式 $$\\oint_{C_2} \\vec{G}\\cdot d\\vec{r} = \\int_0^3\\!\\int_0^x y\\, dy\\, dx = \\int_0^3 \\frac{y^2}{2}\\mid_{y=0}^{y=x}\\, dx = \\int_0^3 \\frac{x^2}{2}\\, dx = \\frac{x^3}{6} \\mid_{x=0}^{x=3} = \\frac{27}{6}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "green_formula"
+      ],
+      "methodIds": [
+        "green_formula"
+      ],
+      "notes": "译自 S_Vector_GreensTheorem 第 1 个 Activity（原题要求同时用直接积分与格林公式验证，此处按格林公式给出，两条曲线合并为一题）；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.8 格林公式",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.43",
+      "title": "用格林公式把二重积分化为曲线积分求椭圆面积",
+      "questionText": "平面区域 $R$ 的面积可由 $A=\\iint_R 1\\, dA$ 计算，格林公式提供了把它化为曲线积分的途径。（1）求一个光滑向量场 $\\vec{F}=\\langle F_1,F_2\\rangle$，使其旋度密度 $\\dfrac{\\partial F_2}{\\partial x} - \\dfrac{\\partial F_1}{\\partial y}$ 处处等于 $1$；（2）对椭圆 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a,b>0$），利用参数化 $\\vec{r}(t) = \\langle a\\cos(t),b\\sin(t)\\rangle$（$0\\leq t\\leq 2\\pi$）与 (1) 中的向量场，通过计算曲线积分求椭圆的面积。",
+      "answerText": "（1）可取 $\\vec{F} =\\langle 0,x \\rangle$，此时 $\\dfrac{\\partial F_2}{\\partial x} - \\dfrac{\\partial F_1}{\\partial y} = 1-0 = 1$（任何满足该条件的场均可）。由格林公式 $$\\oint_C \\langle 0,x \\rangle \\cdot d\\vec{r} = \\iint_D 1 \\, dA$$（2）$$\\oint_0^{2\\pi} \\langle 0,a \\cos(t) \\rangle \\cdot \\langle -a\\sin(t),b \\cos(t) \\rangle \\, dt = ab \\int_0^{2\\pi} \\cos(t)^2 \\, dt = ab \\pi$$ 即椭圆面积为 $\\pi ab$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "green_formula",
+        "line_integral_definition"
+      ],
+      "methodIds": [
+        "green_formula"
+      ],
+      "notes": "译自 exercises/ez-S_Vector_Green.ptx 第 1 题（原题含“再找一个旋度密度为 1 的场”的开放性小问，略去）；公式与原文一致（原文答案行误作 $2ab$，其解答过程 $ab\\int_0^{2\\pi}\\cos^2 t\\, dt=ab\\pi$ 正确，按解答取 $ab\\pi$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.8 格林公式",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.44",
+      "title": "用高斯公式求闭曲面上的通量",
+      "questionText": "求向量场 $$\\vec{F} = \\left\\langle 3x^2+y^5,\\ 5+e^{z^3},\\ z\\right\\rangle$$ 通过立方体 $Q:\\ -2\\leq x\\leq 2,\\ -2\\leq y\\leq 2,\\ -2\\leq z\\leq 2$ 的整个边界面（取外侧）的通量。",
+      "answerText": "对 $\\vec{F} = \\langle 3x^2+y^5,\\ 5+e^{z^3},\\ z\\rangle$，散度为 $\\operatorname{div}(\\vec{F})=6x+1$。由高斯公式，通量等于如下三重积分：$$\\int_{-2}^2 \\int_{-2}^2 \\int_{-2}^2 (6x+1) \\, dx \\, dy \\, dz = 64$$（其中 $\\iiint_Q 6x\\, dV=0$ 由对称性，$\\iiint_Q 1\\, dV = 4^3=64$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "gauss_formula"
+      ],
+      "methodIds": [
+        "gauss_formula"
+      ],
+      "notes": "译自 S_Vector_DivTheorem 第 1 个 Activity 的 (a) 问；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.13 高斯公式（散度定理）",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.45",
+      "title": "高斯公式在四面体与半球面上的应用",
+      "questionText": "用高斯公式（散度定理）计算下列向量场通过给定曲面 $S$ 的通量：（1）$\\vec{F} = \\left\\langle 2x+3\\sin(yz),\\ -4y+e^{x^2} ,\\ 7z+\\arctan(y^5)\\right\\rangle$ 通过以 $(0,0,0)$、$(1,0,0)$、$(0,2,0)$、$(0,0,2)$ 为顶点的四面体 $S$ 的边界面（取外侧）；（2）$\\vec{F}=\\langle xy^2,\\ yz^2,\\ zx^2\\rangle$ 通过 $S$：以原点为球心、半径为 $3$ 且满足 $x\\geq 0$ 的半球面（提示：补上平面 $x=0$ 上的圆盘构成闭曲面）。",
+      "answerText": "（1）$\\vec{F}$ 的散度为 $2-4+7=5$。四面体体积为 $V=\\frac{1}{6}\\cdot 1\\cdot 2\\cdot 2=\\frac{2}{3}$，由高斯公式 $$\\iint_{\\partial S} \\vec{F}\\cdot d\\vec{S} = \\int^1_0 \\int_0^{2-2x} \\int_0^{2-2x-y} 5 \\, dz \\, dy \\, dx = 5\\cdot\\frac{2}{3} = \\frac{10}{3}$$（2）$\\vec{F}$ 的散度为 $y^2+z^2+x^2 = \\rho^2$。补上圆盘 $x=0$ 后构成闭曲面；当 $x=0$ 时 $\\vec{F}$ 的第一分量为 $xy^2=0$，故通过该圆盘的通量为 $0$。半球体上用球坐标（$\\rho\\in[0,3]$，$\\phi\\in[0,\\pi]$，$\\theta\\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$）计算：$$\\int^{\\frac{\\pi}{2}}_{-\\frac{\\pi}{2}} \\int_0^{\\pi} \\int_0^{3} \\rho^2 (\\rho^2 \\sin(\\phi)) \\, d\\rho \\, d\\phi \\, d\\theta = \\pi\\cdot 2\\cdot\\frac{243}{5} = \\frac{486\\pi}{5}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "gauss_formula"
+      ],
+      "methodIds": [
+        "gauss_formula",
+        "projection_method"
+      ],
+      "notes": "译自 exercises/ez-S_Vector_DivTheorem.ptx 第 4 题；公式与原文一致（(1) 原文三重积分限对应顶点 $(0,0,0),(1,0,0),(0,2,0),(0,0,2)$ 的四面体，数值 $\\frac{10}{3}$ 已复核）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.13 高斯公式（散度定理）",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.46",
+      "title": "用第一类曲面积分计算曲面面积",
+      "questionText": "（1）设光滑曲面由 $z = f(x,y)$ 给出，其参数化为 $\\vec{r}(s,t) = \\langle s, t, f(s,t) \\rangle$。证明：$f$ 的图像在定义域区域 $D$ 上方的曲面面积为 $$\\iint_D \\sqrt{\\left(f_x(x,y)\\right)^2 + \\left(f_y(x,y)\\right)^2 + 1} \\, dA$$（2）用该公式计算由 $f(x,y) = \\sqrt{4-x^2}$ 在矩形 $D = [-2,2] \\times [0,3]$ 上定义的曲面面积，并用圆柱侧面积公式验证结果。",
+      "answerText": "（1）直角坐标下的曲面 $z=f(x,y)$ 可视为以 $s,t$ 为参数的参数曲面：$x(s,t)=s$，$y(s,t)=t$，$z=f(s,t)$，即 $\\vec{r}(s,t) = \\langle s, t, f(s,t) \\rangle$。此时 $$\\vec{r}_s(s,t) = \\langle 1,0,f_s(s,t)\\rangle, \\qquad \\vec{r}_t(s,t) = \\langle 0,1,f_t(s,t)\\rangle$$ 于是 $$\\left| \\vec{r}_s \\times \\vec{r}_t \\right| = \\left| \\langle -f_s(s,t), -f_t(s,t), 1 \\rangle \\right| = \\sqrt{f_s(s,t)^2 + f_t(s,t)^2+1}$$ 代入曲面积分公式即得 $$\\iint_D \\sqrt{\\left(f_x(x,y)\\right)^2 + \\left(f_y(x,y)\\right)^2 + 1} \\, dA$$（2）$$\\int_{-2}^2 \\int_0^3 \\sqrt{\\left(-x(4-x^2)^{-1/2}\\right)^2 + 0^2 + 1} \\, dy \\, dx = \\int_{-2}^2 \\int_0^3 \\sqrt{\\frac{x^2}{4-x^2}+1} \\, dy \\, dx = \\int_{-2}^2 \\int_0^3 \\frac{2}{\\sqrt{4-x^2}} \\, dy \\, dx$$ $$= 6\\int_{-2}^2 \\frac{1}{\\sqrt{4-x^2}} \\, dx = 6 \\arcsin{\\frac{x}{2}}\\Big|_{-2}^{2} = 6\\left(\\arcsin(1)-\\arcsin(-1)\\right) = 6\\pi$$ 该曲面是半径为 $2$、长为 $3$ 的半圆柱面，由圆柱侧面积公式其面积为 $\\frac{1}{2}\\cdot 2\\pi\\cdot 2\\cdot 3 = 6\\pi$，两者一致。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "surface_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_Vector_param_surf 第 1 个 Activity 的 (a)(b)(c) 问；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.9 参数曲面与第一类曲面积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.47",
+      "title": "计算第一类曲面积分",
+      "questionText": "计算第一类曲面积分 $$\\iint_{S_3} x+z \\, dS$$ 其中 $S_3$ 为位于平面 $x=1$ 上、以 $(1,0,0)$ 为圆心、半径为 $1$ 的圆盘，并说明所得结果在几何上为何合理。",
+      "answerText": "曲面 $S_3$ 可参数化为 $\\vec{r}(s,t)=\\langle 1,s\\cos(t),s\\sin(t)\\rangle$，其中 $s \\in [0,1]$，$t \\in [0,2\\pi]$。计算 $$\\vec{r}_s = \\langle 0, \\cos(t), \\sin(t) \\rangle, \\qquad \\vec{r}_t = \\langle 0, -s\\sin(t), s\\cos(t) \\rangle$$ $$\\vec{r}_s \\times \\vec{r}_t = \\langle s (\\cos(t))^2+s (\\sin(t))^2,\\ 0,\\ 0 \\rangle = s \\langle 1, 0, 0 \\rangle$$ 故 $\\left|\\vec{r}_s \\times \\vec{r}_t\\right| = s$（$0\\leq s\\leq 1$，无需绝对值）。于是 $$\\iint_{S_3} x+z \\, dS = \\int_0^{2\\pi}\\int_0^{1} (1+s\\sin(t)) s \\, ds\\, dt = \\int_0^{2\\pi} \\int_0^{1} \\left(s+s^2\\sin(t)\\right) ds\\, dt = \\int_0^{2\\pi} \\left(\\frac{1}{2}+\\frac{1}{3}\\sin(t)\\right) dt = \\frac{1}{2} (2\\pi) + 0 = \\pi$$ 几何解释：在 $S_3$ 上 $x\\equiv 1$，而 $z$ 关于 $xy$ 平面对称、正负抵消，故积分值等于 $1$ 乘以圆盘面积 $\\pi$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "surface_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 S_Vector_Scalar_Surface_integral 第 3 个 Activity；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.11 第一类曲面积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.48",
+      "title": "用参数化求平面片的面积",
+      "questionText": "考虑平面 $z = f(x,y) = 24 - 2x - 3y$ 在区域 $D = [0,2]\\times[0,3]$ 上方生成的平面片。（1）写出该平面片的一个参数化 $\\vec{r}(s,t)$（含参数范围）；（2）利用曲面积分公式求该平面片的面积；（3）已知向量 $\\vec{u} = \\langle 2, 0, -4 \\rangle$ 与向量 $\\vec{v} = \\langle 0, 2, -9 \\rangle$ 张成的平行四边形即为该平面片，计算 $\\left| \\vec{u} \\times \\vec{v} \\right|$ 并与 (2) 比较。",
+      "answerText": "（1）令 $x(s,t) = s$，$y(s,t) = t$，则 $z(s,t) = 24-2s-3t$，即 $$\\vec{r}(s,t) = s \\hat{\\imath} + t \\hat{\\jmath} + (24-2s-3t) \\hat{k}, \\qquad 0\\leq s\\leq 2,\\ 0\\leq t\\leq 3$$（2）$\\vec{r}_s(s,t) = \\hat{\\imath} - 2 \\hat{k}$，$\\vec{r}_t(s,t) = \\hat{\\jmath} - 3 \\hat{k}$，$\\vec{r}_s \\times \\vec{r}_t = 2 \\hat{\\imath} + 3\\hat{\\jmath} + \\hat{k}$，故面积为 $$\\int_0^{3} \\int_0^{2} \\left| \\langle 2,3,1 \\rangle \\right| \\, dt \\, ds = \\sqrt{14} \\int_0^{3} \\int_0^{2} dt \\, ds = 6 \\sqrt{14}$$（3）$\\vec{u} \\times \\vec{v} = \\langle 12, 18, 6 \\rangle$，$\\left| \\vec{u} \\times \\vec{v} \\right| = \\sqrt{504} = 6 \\sqrt{14}$。平行四边形的面积即为平面片面积，与 (2) 的结果一致。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "surface_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 exercises/ez-S_vector_param_surf.ptx 第 3 题；公式与原文一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.9 参数曲面与第一类曲面积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.49",
+      "title": "用斯托克斯公式求向量场沿圆周的环量",
+      "questionText": "求向量场 $\\vec{G} = 3z^2 \\hat{\\imath} -(z^2 + 2x) \\hat{\\jmath} +zy \\hat{k}$ 沿 $xy$ 平面上以原点为圆心、半径为 $3$ 的圆周（取逆时针方向）的环量。",
+      "answerText": "先求旋度：$$\\operatorname{curl}(\\vec{G}) = \\langle z+2z,\\ 6z-0,\\ -2-0\\rangle = \\langle 3z,\\ 6z,\\ -2\\rangle$$ 取 $xy$ 平面上半径为 $3$ 的圆盘为曲面，单位法向量为 $\\hat{k}$（与逆时针方向按右手规则配合），故通量为 $$\\iint_{D} \\operatorname{curl}(\\vec{G})\\cdot \\hat{k} \\, dS = \\iint_{D} (-2)\\, dS = -2\\cdot 9\\pi = -18\\pi$$ 也可直接验证：圆周上 $\\vec{r}(t)=\\langle 3\\cos t,3\\sin t,0\\rangle$，$\\vec{G}=\\langle 0,-2x,0\\rangle$，$\\vec{G}\\cdot d\\vec{r}=-18(\\cos t)^2 dt$，$\\int_0^{2\\pi}-18(\\cos t)^2 dt=-18\\pi$。故环量为 $-18\\pi$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "stokes_formula",
+        "divergence_and_curl"
+      ],
+      "methodIds": [
+        "stokes_formula"
+      ],
+      "notes": "译自 S_Vector_StokesTheorem 第 2 个 Activity 的 (b) 问。注意：原书答案 $18\\pi$ 符号有误（原文旋度 $\\vec{k}$ 分量误算为 $2$），按 $\\operatorname{curl}\\,\\vec{G}$ 的 $\\vec{k}$ 分量 $=-2$ 及逆时针定向，环量应为 $-18\\pi$，已用直接参数化验算；答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.12 斯托克斯公式",
+        "license": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}
