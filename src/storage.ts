@@ -2,6 +2,15 @@ import type { Attempt, AttemptResult, Problem, ProblemDraft, TagKind, TaxonomyIt
 import { invoke } from "@tauri-apps/api/core";
 import { seedDefinitions, type DefinitionEntry } from "./definitions";
 import { getCustomTags } from "./taxonomy";
+import calculusBank from "../data/banks/calculus-bank-v1.json";
+import linearAlgebraBank from "../data/banks/linear-algebra-bank-v1.json";
+import probabilityBank from "../data/banks/probability-bank-v1.json";
+
+const builtinBankProblems: Problem[] = [
+  ...(calculusBank.problems as unknown as Problem[]),
+  ...(linearAlgebraBank.problems as unknown as Problem[]),
+  ...(probabilityBank.problems as unknown as Problem[]),
+];
 
 const legacyStorageKey = "mathlink.problems.v1";
 const storageKey = "mathlink.problems.v2";
@@ -59,6 +68,22 @@ function write(problems: Problem[]) {
 export async function listProblems(): Promise<Problem[]> {
   if (isTauri()) return invoke<Problem[]>("list_problems");
   return read().sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+}
+
+/// 启动时种子内置题库：按 id 幂等合并，已存在的跳过（保留做题记录），新版本追加的内置题自动补入。
+export async function seedBuiltinBanks(): Promise<ImportStats> {
+  if (isTauri()) {
+    try {
+      return await invoke<ImportStats>("bulk_import_problems", { problems: builtinBankProblems });
+    } catch (error) {
+      console.warn("内置题库种子导入失败", error);
+      return { imported: 0, skipped: 0 };
+    }
+  }
+  const existing = new Set(read().map((problem) => problem.id));
+  const fresh = builtinBankProblems.filter((problem) => !existing.has(problem.id));
+  if (fresh.length > 0) write([...fresh, ...read()]);
+  return { imported: fresh.length, skipped: builtinBankProblems.length - fresh.length };
 }
 
 export async function createProblem(draft: ProblemDraft): Promise<Problem> {

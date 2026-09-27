@@ -4,7 +4,7 @@ import {
   Library, Link2, Menu, Moon, Plus, RotateCcw, Save, Search, Sun, Tags, Upload, X, XCircle
 } from "lucide-react";
 import { addCustomTag, getTaxonomyFor, kindCollection, listSubjects } from "./taxonomy";
-import { addAttempt, createProblem, exportBackup, importBackup, listProblems } from "./storage";
+import { addAttempt, createProblem, exportBackup, importBackup, listProblems, seedBuiltinBanks } from "./storage";
 import { seedDefinitions, type DefinitionEntry } from "./definitions";
 import "katex/dist/katex.min.css";
 import type { AttemptResult, CustomTagInput, ExamId, Problem, ProblemDraft, ProblemSource, TagKind, Taxonomy, TaxonomyItem } from "./types";
@@ -84,7 +84,7 @@ export default function App() {
   const [yearFilter, setYearFilter] = useState("all");
 
   const reload = async () => setProblems(await listProblems());
-  useEffect(() => { void reload(); }, []);
+  useEffect(() => { void (async () => { await seedBuiltinBanks(); await reload(); })(); }, []);
   useEffect(() => { document.documentElement.dataset.theme = theme; localStorage.setItem("mathlink.theme", theme); }, [theme]);
   useEffect(() => { localStorage.setItem(subjectStorageKey, subjectId); }, [subjectId]);
   useEffect(() => { localStorage.setItem(examFilterStorageKey, examFilter); }, [examFilter]);
