@@ -1,0 +1,452 @@
+{
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 1987,
+ "paper": "math2",
+ "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1987-2.md",
+ "paperInfo": {
+  "year": 1987,
+  "paper": "math2",
+  "label": "数学二",
+  "sections": [
+   "一、填空题"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m2-1987.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m2-1987.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m2-1987.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m2-1987.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m2-1987.5",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 1,
+    "id": "bank.exam.m2-1987.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m2-1987.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 1,
+    "id": "bank.exam.m2-1987.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m2-1987.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 1,
+    "id": "bank.exam.m2-1987.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m2-1987.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m2-1987.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m2-1987.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   }
+  ],
+  "total": 13
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m2-1987.1",
+   "title": "1987 年数学二 第 1 题",
+   "questionText": "设 $y=\\ln\\left(1+ax\\right)$，其中 $a$ 为非零常数，则 $y^{\\prime}=$ ________，$y^{\\prime\\prime}=$ ________。",
+   "answerText": "$\\dfrac{a}{1+ax}$；$-\\dfrac{a^{2}}{\\left(1+ax\\right)^{2}}$\n\n**解析：**\n由 $y=\\ln\\left(1+ax\\right)$，得 $y^{\\prime}=\\dfrac{a}{1+ax}$，从而 $y^{\\prime\\prime}=-\\dfrac{a^{2}}{\\left(1+ax\\right)^{2}}$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.2",
+   "title": "1987 年数学二 第 2 题",
+   "questionText": "曲线 $y=\\arctan x$ 在横坐标为 $1$ 的点处的切线方程是 ________；法线方程是 ________。",
+   "answerText": "$y=\\dfrac{1}{2}x+\\dfrac{\\pi}{4}-\\dfrac{1}{2}$；$y=-2x+\\dfrac{\\pi}{4}+2$\n\n**解析：**\n当 $x=1$ 时，$y\\left(1\\right)=\\dfrac{\\pi}{4}$。又 $y^{\\prime}=\\dfrac{1}{1+x^{2}}$，故 $y^{\\prime}\\left(1\\right)=\\dfrac{1}{2}$。切线方程为 $y-\\dfrac{\\pi}{4}=\\dfrac{1}{2}\\left(x-1\\right)$，即 $y=\\dfrac{1}{2}x+\\dfrac{\\pi}{4}-\\dfrac{1}{2}$。法线斜率为 $-2$，故法线方程为 $y=-2x+\\dfrac{\\pi}{4}+2$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.3",
+   "title": "1987 年数学二 第 3 题",
+   "questionText": "积分中值定理的条件是 ________，结论是 ________。",
+   "answerText": "$f\\left(x\\right)$ 在 $\\left[a,b\\right]$ 上连续；在 $\\left[a,b\\right]$ 上至少存在一点 $\\xi$，使 $\\int_{a}^{b}f\\left(x\\right)\\mathrm{~d}x=f\\left(\\xi\\right)\\left(b-a\\right)$。\n\n**解析：**\n积分中值定理要求 $f\\left(x\\right)$ 在 $\\left[a,b\\right]$ 上连续，其结论为：至少存在一点 $\\xi\\in\\left[a,b\\right]$，使 $\\int_{a}^{b}f\\left(x\\right)\\mathrm{~d}x=f\\left(\\xi\\right)\\left(b-a\\right)$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.4",
+   "title": "1987 年数学二 第 4 题",
+   "questionText": "$\\lim_{n\\to \\infty}\\left(\\dfrac{n-2}{n+1}\\right)^{n}=$ ________。",
+   "answerText": "$e^{-3}$\n\n**解析：**\n因为 $\\left(\\dfrac{n-2}{n+1}\\right)^{n}=\\left(1-\\dfrac{3}{n+1}\\right)^{n}$，所以 $\\lim_{n\\to \\infty}\\left(\\dfrac{n-2}{n+1}\\right)^{n}=e^{-3}$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.5",
+   "title": "1987 年数学二 第 5 题",
+   "questionText": "$\\int f^{\\prime}\\left(x\\right)\\mathrm{~d}x=$ ________，$\\int_{a}^{b}f^{\\prime}\\left(2x\\right)\\mathrm{~d}x=$ ________。",
+   "answerText": "$f\\left(x\\right)+C$；$\\dfrac{f\\left(2b\\right)-f\\left(2a\\right)}{2}$\n\n**解析：**\n由原函数定义，$\\int f^{\\prime}\\left(x\\right)\\mathrm{~d}x=f\\left(x\\right)+C$。又 $\\int_{a}^{b}f^{\\prime}\\left(2x\\right)\\mathrm{~d}x=\\dfrac{1}{2}\\left.f\\left(2x\\right)\\right|_{a}^{b}=\\dfrac{f\\left(2b\\right)-f\\left(2a\\right)}{2}$。\n\n---\n\n## 二、计算题\n\n求极限\n\n$\\lim_{x\\to 0}\\left(\\dfrac{1}{x}-\\dfrac{1}{e^{x}-1}\\right)$。\n\n**解析：**\n\n通分得\n\n$\\dfrac{1}{x}-\\dfrac{1}{e^{x}-1}=\\dfrac{e^{x}-1-x}{x\\left(e^{x}-1\\right)}$。\n\n当 $x\\to 0$ 时，$e^{x}-1-x\\sim \\dfrac{x^{2}}{2}$，$x\\left(e^{x}-1\\right)\\sim x^{2}$，故\n\n$\\lim_{x\\to 0}\\left(\\dfrac{1}{x}-\\dfrac{1}{e^{x}-1}\\right)=\\dfrac{1}{2}$。\n\n---\n\n## 三、计算题\n\n设\n\n$\\left\\{\\begin{array}{l}x=5\\left(t-\\sin t\\right),\\\\y=5\\left(1-\\cos t\\right),\\end{array}\\right.$\n\n求 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}$，$\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}$。\n\n**解析：**\n\n由参数方程得\n\n$\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=5\\left(1-\\cos t\\right),\\quad \\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=5\\sin t$。\n\n所以\n\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\sin t}{1-\\cos t}$。\n\n再求导：\n\n$\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\dfrac{\\dfrac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\dfrac{\\sin t}{1-\\cos t}\\right)}{\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}}=-\\dfrac{1}{5\\left(1-\\cos t\\right)^{2}}$。\n\n---\n\n## 四、计算题\n\n计算定积分\n\n$\\int_{0}^{1}x\\arcsin x\\mathrm{~d}x$。\n\n**解析：**\n\n分部积分得\n\n$\\int_{0}^{1}x\\arcsin x\\mathrm{~d}x=\\left.\\dfrac{x^{2}}{2}\\arcsin x\\right|_{0}^{1}-\\dfrac{1}{2}\\int_{0}^{1}\\dfrac{x^{2}}{\\sqrt{1-x^{2}}}\\mathrm{~d}x$。\n\n令 $x=\\sin t$，则\n\n$\\int_{0}^{1}\\dfrac{x^{2}}{\\sqrt{1-x^{2}}}\\mathrm{~d}x=\\int_{0}^{\\frac{\\pi}{2}}\\sin^{2}t\\mathrm{~d}t=\\dfrac{\\pi}{4}$。\n\n因此\n\n$\\int_{0}^{1}x\\arcsin x\\mathrm{~d}x=\\dfrac{\\pi}{4}-\\dfrac{1}{2}\\cdot\\dfrac{\\pi}{4}=\\dfrac{\\pi}{8}$。\n\n---\n\n## 五、计算题\n\n设 $D$ 是由曲线 $y=\\sin x+1$ 与三条直线 $x=0$，$x=\\pi$，$y=0$ 围成的曲边梯形，求 $D$ 绕 $Ox$ 轴旋转一周所生成的旋转体的体积。\n\n**解析：**\n\n由旋转体体积公式，\n\n$V=\\pi\\int_{0}^{\\pi}\\left(\\sin x+1\\right)^{2}\\mathrm{~d}x$。\n\n于是\n\n$V=\\pi\\int_{0}^{\\pi}\\left(\\sin^{2}x+2\\sin x+1\\right)\\mathrm{~d}x=\\pi\\left(\\dfrac{\\pi}{2}+4+\\pi\\right)=\\dfrac{\\pi}{2}\\left(3\\pi+8\\right)$。\n\n---\n\n## 六、证明题",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 5
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.1",
+   "title": "1987 年数学二 第 1 题",
+   "questionText": "若 $f\\left(x\\right)$ 在 $\\left(a,b\\right)$ 内可导，且导数 $f^{\\prime}\\left(x\\right)$ 恒大于零，则 $f\\left(x\\right)$ 在 $\\left(a,b\\right)$ 内单调增加。\n**解析：**\n\n任取 $x_{1},x_{2}\\in\\left(a,b\\right)$，且 $x_{1}<x_{2}$。由拉格朗日中值定理，存在 $\\xi\\in\\left(x_{1},x_{2}\\right)$，使\n\n$f\\left(x_{2}\\right)-f\\left(x_{1}\\right)=f^{\\prime}\\left(\\xi\\right)\\left(x_{2}-x_{1}\\right)$。\n\n由于 $f^{\\prime}\\left(\\xi\\right)>0$，故 $f\\left(x_{2}\\right)>f\\left(x_{1}\\right)$，从而 $f\\left(x\\right)$ 在 $\\left(a,b\\right)$ 内单调增加。",
+   "answerText": "**解析：**\n任取 $x_{1},x_{2}\\in\\left(a,b\\right)$，且 $x_{1}<x_{2}$。由拉格朗日中值定理，存在 $\\xi\\in\\left(x_{1},x_{2}\\right)$，使\n\n$f\\left(x_{2}\\right)-f\\left(x_{1}\\right)=f^{\\prime}\\left(\\xi\\right)\\left(x_{2}-x_{1}\\right)$。\n\n由于 $f^{\\prime}\\left(\\xi\\right)>0$，故 $f\\left(x_{2}\\right)>f\\left(x_{1}\\right)$，从而 $f\\left(x\\right)$ 在 $\\left(a,b\\right)$ 内单调增加。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.2",
+   "title": "1987 年数学二 第 2 题",
+   "questionText": "若 $g\\left(x\\right)$ 在 $x=c$ 处二阶导数存在，且 $g^{\\prime}\\left(c\\right)=0$，$g^{\\prime\\prime}\\left(c\\right)<0$，则 $g\\left(c\\right)$ 为 $g\\left(x\\right)$ 的一个极大值。\n**解析：**\n\n由\n\n$g^{\\prime\\prime}\\left(c\\right)=\\lim_{x\\to c}\\dfrac{g^{\\prime}\\left(x\\right)-g^{\\prime}\\left(c\\right)}{x-c}=\\lim_{x\\to c}\\dfrac{g^{\\prime}\\left(x\\right)}{x-c}<0$，\n\n可知在 $c$ 的某邻域内，当 $x<c$ 时 $g^{\\prime}\\left(x\\right)>0$，当 $x>c$ 时 $g^{\\prime}\\left(x\\right)<0$。因此 $g\\left(x\\right)$ 在 $x=c$ 左侧递增、右侧递减，故 $g\\left(c\\right)$ 为极大值。\n\n---\n\n## 七、计算题\n\n计算不定积分\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}$，\n\n其中 $a,b$ 是不全为零的非负常数。\n\n**解析：**\n\n当 $a=0,b\\ne 0$ 时，\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}=\\dfrac{1}{b^{2}}\\tan x+C$。\n\n当 $a\\ne 0,b=0$ 时，\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}=-\\dfrac{1}{a^{2}}\\cot x+C$。\n\n当 $a\\ne 0,b\\ne 0$ 时，\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}=\\int\\dfrac{\\sec^{2}x\\mathrm{~d}x}{b^{2}+a^{2}\\tan^{2}x}=\\dfrac{1}{ab}\\arctan\\dfrac{a\\tan x}{b}+C$。\n\n---\n\n## 八、计算题",
+   "answerText": "**解析：**\n由\n\n$g^{\\prime\\prime}\\left(c\\right)=\\lim_{x\\to c}\\dfrac{g^{\\prime}\\left(x\\right)-g^{\\prime}\\left(c\\right)}{x-c}=\\lim_{x\\to c}\\dfrac{g^{\\prime}\\left(x\\right)}{x-c}<0$，\n\n可知在 $c$ 的某邻域内，当 $x<c$ 时 $g^{\\prime}\\left(x\\right)>0$，当 $x>c$ 时 $g^{\\prime}\\left(x\\right)<0$。因此 $g\\left(x\\right)$ 在 $x=c$ 左侧递增、右侧递减，故 $g\\left(c\\right)$ 为极大值。\n\n---\n\n## 七、计算题\n\n计算不定积分\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}$，\n\n其中 $a,b$ 是不全为零的非负常数。\n\n**解析：**\n\n当 $a=0,b\\ne 0$ 时，\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}=\\dfrac{1}{b^{2}}\\tan x+C$。\n\n当 $a\\ne 0,b=0$ 时，\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}=-\\dfrac{1}{a^{2}}\\cot x+C$。\n\n当 $a\\ne 0,b\\ne 0$ 时，\n\n$\\int\\dfrac{\\mathrm{d}x}{a^{2}\\sin^{2}x+b^{2}\\cos^{2}x}=\\int\\dfrac{\\sec^{2}x\\mathrm{~d}x}{b^{2}+a^{2}\\tan^{2}x}=\\dfrac{1}{ab}\\arctan\\dfrac{a\\tan x}{b}+C$。\n\n---\n\n## 八、计算题",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.1",
+   "title": "1987 年数学二 第 1 题",
+   "questionText": "求微分方程 $x\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=x-y$ 满足条件 $\\left.y\\right|_{x=\\sqrt{2}}=0$ 的特解。\n**解析：**\n\n原方程化为\n\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=1-\\dfrac{y}{x}$。\n\n令 $u=\\dfrac{y}{x}$，则 $y=ux$，代入得\n\n$u+x\\dfrac{\\mathrm{d}u}{\\mathrm{d}x}=1-u$，\n\n即\n\n$\\dfrac{\\mathrm{d}u}{1-2u}=\\dfrac{\\mathrm{d}x}{x}$。\n\n积分并代入条件 $\\left.y\\right|_{x=\\sqrt{2}}=0$，得\n\n$y=\\dfrac{x}{2}-\\dfrac{1}{x}$。",
+   "answerText": "**解析：**\n原方程化为\n\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=1-\\dfrac{y}{x}$。\n\n令 $u=\\dfrac{y}{x}$，则 $y=ux$，代入得\n\n$u+x\\dfrac{\\mathrm{d}u}{\\mathrm{d}x}=1-u$，\n\n即\n\n$\\dfrac{\\mathrm{d}u}{1-2u}=\\dfrac{\\mathrm{d}x}{x}$。\n\n积分并代入条件 $\\left.y\\right|_{x=\\sqrt{2}}=0$，得\n\n$y=\\dfrac{x}{2}-\\dfrac{1}{x}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.2",
+   "title": "1987 年数学二 第 2 题",
+   "questionText": "求微分方程 $y^{\\prime\\prime}+2y^{\\prime}+y=xe^{x}$ 的通解。\n**解析：**\n\n对应齐次方程的特征方程为 $\\lambda^{2}+2\\lambda+1=0$，即 $\\left(\\lambda+1\\right)^{2}=0$，故齐次方程通解为\n\n$y=\\left(C_{1}+C_{2}x\\right)e^{-x}$。\n\n设非齐次方程特解为 $y^{*}=\\left(ax+b\\right)e^{x}$，代入得 $a=\\dfrac{1}{4},b=-\\dfrac{1}{4}$。因此通解为\n\n$y=\\left(C_{1}+C_{2}x\\right)e^{-x}+\\dfrac{1}{4}\\left(x-1\\right)e^{x}$，\n\n其中 $C_{1},C_{2}$ 为任意常数。\n\n---\n\n## 九、选择题",
+   "answerText": "**解析：**\n对应齐次方程的特征方程为 $\\lambda^{2}+2\\lambda+1=0$，即 $\\left(\\lambda+1\\right)^{2}=0$，故齐次方程通解为\n\n$y=\\left(C_{1}+C_{2}x\\right)e^{-x}$。\n\n设非齐次方程特解为 $y^{*}=\\left(ax+b\\right)e^{x}$，代入得 $a=\\dfrac{1}{4},b=-\\dfrac{1}{4}$。因此通解为\n\n$y=\\left(C_{1}+C_{2}x\\right)e^{-x}+\\dfrac{1}{4}\\left(x-1\\right)e^{x}$，\n\n其中 $C_{1},C_{2}$ 为任意常数。\n\n---\n\n## 九、选择题",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.1",
+   "title": "1987 年数学二 第 1 题",
+   "questionText": "$f\\left(x\\right)=\\left|x\\sin x\\right|e^{\\cos x}\\left(-\\infty<x<+\\infty\\right)$ 是（ ）\nA. 有界函数。\nB. 单调函数。\nC. 周期函数。\nD. 偶函数。",
+   "answerText": "D\n\n**解析：**\n因为 $f\\left(-x\\right)=\\left|\\left(-x\\right)\\sin\\left(-x\\right)\\right|e^{\\cos\\left(-x\\right)}=\\left|x\\sin x\\right|e^{\\cos x}=f\\left(x\\right)$，所以 $f\\left(x\\right)$ 为偶函数，选 D。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.2",
+   "title": "1987 年数学二 第 2 题",
+   "questionText": "函数 $f\\left(x\\right)=x\\sin x$（ ）\nA. 当 $x\\to \\infty$ 时为无穷大。\nB. 在 $\\left(-\\infty,+\\infty\\right)$ 内有界。\nC. 在 $\\left(-\\infty,+\\infty\\right)$ 内无界。\nD. 当 $x\\to \\infty$ 时有有限极限。",
+   "answerText": "C\n\n**解析：**\n取 $x_{n}=2n\\pi+\\dfrac{\\pi}{2}$，则 $f\\left(x_{n}\\right)=x_{n}\\to +\\infty$；取 $y_{n}=2n\\pi$，则 $f\\left(y_{n}\\right)=0$。故 $f\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 内无界，选 C。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.3",
+   "title": "1987 年数学二 第 3 题",
+   "questionText": "设 $f\\left(x\\right)$ 在 $x=a$ 处可导，则\n$\\lim_{x\\to 0}\\dfrac{f\\left(a+x\\right)-f\\left(a-x\\right)}{x}$\n\n等于（ ）\n\nA. $f^{\\prime}\\left(a\\right)$。\nB. $2f^{\\prime}\\left(a\\right)$。\nC. $0$。\nD. $f^{\\prime}\\left(2a\\right)$。",
+   "answerText": "B\n\n**解析：**\n$\\lim_{x\\to 0}\\dfrac{f\\left(a+x\\right)-f\\left(a-x\\right)}{x}=\\lim_{x\\to 0}\\left[\\dfrac{f\\left(a+x\\right)-f\\left(a\\right)}{x}+\\dfrac{f\\left(a-x\\right)-f\\left(a\\right)}{-x}\\right]=2f^{\\prime}\\left(a\\right)$。\n\n故选 B。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-1987.4",
+   "title": "1987 年数学二 第 4 题",
+   "questionText": "设\n$I=t\\int_{0}^{\\frac{s}{t}}f\\left(tx\\right)\\mathrm{~d}x$，\n\n其中 $f\\left(x\\right)$ 连续，$s>0$，$t>0$，则 $I$ 的值（ ）\n\nA. 依赖于 $s,t$。\nB. 依赖于 $s,t,x$。\nC. 依赖于 $t,x$，不依赖于 $s$。\nD. 依赖于 $s$，不依赖于 $t$。",
+   "answerText": "D\n\n**解析：**\n令 $u=tx$，则 $\\mathrm{~d}u=t\\mathrm{~d}x$。于是 $I=t\\int_{0}^{\\frac{s}{t}}f\\left(tx\\right)\\mathrm{~d}x=\\int_{0}^{s}f\\left(u\\right)\\mathrm{~d}u$，所以 $I$ 依赖于 $s$，不依赖于 $t$，选 D。\n\n---\n\n## 十、计算题\n\n在第一象限内求曲线 $y=-x^{2}+1$ 上的一点，使该点处的切线与所给曲线及两坐标轴所围成的图形面积为最小，并求此最小面积。\n\n**解析：**\n\n设切点为 $M\\left(a,-a^{2}+1\\right)$，其中 $0<a<1$。切线方程为\n\n$y-\\left(-a^{2}+1\\right)=-2a\\left(x-a\\right)$，\n\n即\n\n$y=-2ax+a^{2}+1$。\n\n令 $y=0$，得 $x=\\dfrac{a^{2}+1}{2a}$；令 $x=0$，得 $y=a^{2}+1$。\n\n切线与两坐标轴围成三角形的面积为 $\\dfrac{\\left(a^{2}+1\\right)^{2}}{4a}$，曲线与两坐标轴围成的面积为 $\\int_{0}^{1}\\left(-x^{2}+1\\right)\\mathrm{~d}x=\\dfrac{2}{3}$。\n\n故所求面积为\n\n$S\\left(a\\right)=\\dfrac{\\left(a^{2}+1\\right)^{2}}{4a}-\\dfrac{2}{3}$。\n\n求导得\n\n$S^{\\prime}\\left(a\\right)=\\dfrac{\\left(a^{2}+1\\right)\\left(3a^{2}-1\\right)}{4a^{2}}$。\n\n令 $S^{\\prime}\\left(a\\right)=0$，得 $a=\\dfrac{\\sqrt{3}}{3}$。故面积最小时切点为\n\n$\\left(\\dfrac{\\sqrt{3}}{3},\\dfrac{2}{3}\\right)$。\n\n最小面积为\n\n$S_{\\min}=\\dfrac{4\\sqrt{3}}{9}-\\dfrac{2}{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1987,
+    "paper": "math2",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2001,
+ "paper": "math2",
+ "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2001-2.md",
+ "paperInfo": {
+  "year": 2001,
+  "paper": "math2",
+  "label": "数学二",
+  "sections": [
+   "一、填空题"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m2-2001.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m2-2001.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m2-2001.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m2-2001.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m2-2001.5",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 1,
+    "id": "bank.exam.m2-2001.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m2-2001.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m2-2001.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m2-2001.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m2-2001.5",
+    "subjectGuess": "calculus",
+    "objective": true
+   }
+  ],
+  "total": 10
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m2-2001.1",
+   "title": "2001 年数学二 第 1 题",
+   "questionText": "$\\lim_{x\\to 1}\\dfrac{\\sqrt{3-x}-\\sqrt{1+x}}{x^{2}+x-2}=$ ________。",
+   "answerText": "$-\\dfrac{\\sqrt{2}}{6}$\n\n**解析：**\n分母 $x^{2}+x-2=\\left(x+2\\right)\\left(x-1\\right)$，分子有理化得\n\n$\\dfrac{\\sqrt{3-x}-\\sqrt{1+x}}{x^{2}+x-2}=\\dfrac{2\\left(1-x\\right)}{\\left(x+2\\right)\\left(x-1\\right)\\left(\\sqrt{3-x}+\\sqrt{1+x}\\right)}=-\\dfrac{2}{\\left(x+2\\right)\\left(\\sqrt{3-x}+\\sqrt{1+x}\\right)}$。\n\n故原极限为 $-\\dfrac{2}{3\\cdot 2\\sqrt{2}}=-\\dfrac{\\sqrt{2}}{6}$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.2",
+   "title": "2001 年数学二 第 2 题",
+   "questionText": "设函数 $y=f\\left(x\\right)$ 由方程 $e^{2x+y}-\\cos\\left(xy\\right)=e-1$ 所确定，则曲线 $y=f\\left(x\\right)$ 在点 $\\left(0,1\\right)$ 处的法线方程为 ________。",
+   "answerText": "$x-2y+2=0$\n\n**解析：**\n两边对 $x$ 求导，得\n\n$e^{2x+y}\\left(2+y^{\\prime}\\right)+\\sin\\left(xy\\right)\\left(y+xy^{\\prime}\\right)=0$。\n\n代入 $x=0$，$y=1$，得 $y^{\\prime}\\left(0\\right)=-2$，故法线斜率为 $\\dfrac{1}{2}$。法线方程为 $y-1=\\dfrac{1}{2}x$，即 $x-2y+2=0$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.3",
+   "title": "2001 年数学二 第 3 题",
+   "questionText": "$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(x^{3}+\\sin^{2}x\\right)\\cos^{2}x\\mathrm{~d}x=$ ________。",
+   "answerText": "$\\dfrac{\\pi}{8}$\n\n**解析：**\n在对称区间上，$x^{3}\\cos^{2}x$ 为奇函数，积分为 $0$。于是\n\n$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(x^{3}+\\sin^{2}x\\right)\\cos^{2}x\\mathrm{~d}x=2\\int_{0}^{\\frac{\\pi}{2}}\\sin^{2}x\\cos^{2}x\\mathrm{~d}x$。\n\n又 $2\\sin^{2}x\\cos^{2}x=\\dfrac{1}{4}\\left(1-\\cos 4x\\right)$，故结果为 $\\dfrac{\\pi}{8}$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.4",
+   "title": "2001 年数学二 第 4 题",
+   "questionText": "过点 $\\left(\\dfrac{1}{2},0\\right)$ 且满足关系式 $y^{\\prime}\\arcsin x+\\dfrac{y}{\\sqrt{1-x^{2}}}=1$ 的曲线方程为 ________。",
+   "answerText": "$y\\arcsin x=x-\\dfrac{1}{2}$\n\n**解析：**\n因为 $\\left(y\\arcsin x\\right)^{\\prime}=y^{\\prime}\\arcsin x+\\dfrac{y}{\\sqrt{1-x^{2}}}$，所以原方程为 $\\left(y\\arcsin x\\right)^{\\prime}=1$。积分得 $y\\arcsin x=x+C$，代入 $\\left(\\dfrac{1}{2},0\\right)$ 得 $C=-\\dfrac{1}{2}$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.5",
+   "title": "2001 年数学二 第 5 题",
+   "questionText": "设方程\n$\\begin{bmatrix}1 & 1 & 1\\\\1 & 1 & 1\\\\1 & 1 & 2\\end{bmatrix}\\begin{bmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\end{bmatrix}=\\begin{bmatrix}a\\\\a\\\\-a\\end{bmatrix}$\n\n有无穷多个解，则 $a=$ ________。",
+   "answerText": "$-2$\n\n**解析：**\n方程组有无穷多个解，需满足系数矩阵与增广矩阵秩相等且小于未知量个数 $3$。对增广矩阵初等行变换可得最后一行与 $a+2$ 同因子，故必须有 $a=-2$。\n\n---\n\n## 二、选择题",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 5
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.1",
+   "title": "2001 年数学二 第 1 题",
+   "questionText": "设\n$f\\left(x\\right)=\\begin{cases}1, & x\\le 1,\\\\0, & x>1,\\end{cases}$\n\n则 $f\\left\\{f\\left[f\\left(x\\right)\\right]\\right\\}$ 等于（ ）\n\nA. $0$\nB. $1$\nC. $\\begin{cases}1, & x\\le 1,\\\\0, & x>1,\\end{cases}$\nD. $\\begin{cases}0, & x\\le 1,\\\\1, & x>1.\\end{cases}$",
+   "answerText": "B\n\n**解析：**\n任意 $x$ 下，$f\\left(x\\right)$ 只可能为 $0$ 或 $1$，且 $0\\le 1$、$1\\le 1$，所以 $f\\left[f\\left(x\\right)\\right]=1$，从而 $f\\left\\{f\\left[f\\left(x\\right)\\right]\\right\\}=f\\left(1\\right)=1$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.2",
+   "title": "2001 年数学二 第 2 题",
+   "questionText": "设当 $x\\to 0$ 时，$\\left(1-\\cos x\\right)\\ln\\left(1+x^{2}\\right)$ 是比 $x^{n}\\sin x$ 高阶的无穷小，$x^{n}\\sin x$ 是比 $e^{x^{2}}-1$ 高阶的无穷小，则正整数 $n$ 等于（ ）\nA. $1$\nB. $2$\nC. $3$\nD. $4$",
+   "answerText": "B\n\n**解析：**\n当 $x\\to 0$ 时，$\\left(1-\\cos x\\right)\\ln\\left(1+x^{2}\\right)\\sim \\dfrac{x^{4}}{2}$，$x^{n}\\sin x\\sim x^{n+1}$，$e^{x^{2}}-1\\sim x^{2}$。由题意得 $4>n+1$ 且 $n+1>2$，所以 $n=2$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.3",
+   "title": "2001 年数学二 第 3 题",
+   "questionText": "曲线 $y=\\left(x-1\\right)^{2}\\left(x-3\\right)^{2}$ 的拐点个数为（ ）\nA. $0$\nB. $1$\nC. $2$\nD. $3$",
+   "answerText": "C\n\n**解析：**\n由 $y^{\\prime}=4\\left(x-1\\right)\\left(x-2\\right)\\left(x-3\\right)$，得 $y^{\\prime\\prime}=4\\left(3x^{2}-12x+11\\right)$。方程 $y^{\\prime\\prime}=0$ 有两个不同实根，且二阶导数在两根处变号，故有两个拐点。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.4",
+   "title": "2001 年数学二 第 4 题",
+   "questionText": "已知函数 $f\\left(x\\right)$ 在区间 $\\left(1-\\delta,1+\\delta\\right)$ 内具有二阶导数，$f^{\\prime}\\left(x\\right)$ 严格单调减少，且 $f\\left(1\\right)=f^{\\prime}\\left(1\\right)=1$，则（ ）\nA. 在 $\\left(1-\\delta,1\\right)$ 和 $\\left(1,1+\\delta\\right)$ 内均有 $f\\left(x\\right)<x$。\nB. 在 $\\left(1-\\delta,1\\right)$ 和 $\\left(1,1+\\delta\\right)$ 内均有 $f\\left(x\\right)>x$。\nC. 在 $\\left(1-\\delta,1\\right)$ 内，$f\\left(x\\right)<x$；在 $\\left(1,1+\\delta\\right)$ 内，$f\\left(x\\right)>x$。\nD. 在 $\\left(1-\\delta,1\\right)$ 内，$f\\left(x\\right)>x$；在 $\\left(1,1+\\delta\\right)$ 内，$f\\left(x\\right)<x$。",
+   "answerText": "A\n\n**解析：**\n令 $F\\left(x\\right)=f\\left(x\\right)-x$，则 $F^{\\prime}\\left(x\\right)=f^{\\prime}\\left(x\\right)-f^{\\prime}\\left(1\\right)$。因 $f^{\\prime}\\left(x\\right)$ 严格单调减少，故 $F\\left(x\\right)$ 在 $x=1$ 处取极大值。又 $F\\left(1\\right)=0$，所以两侧均有 $F\\left(x\\right)<0$，即 $f\\left(x\\right)<x$。\n\n---",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  },
+  {
+   "id": "bank.exam.m2-2001.5",
+   "title": "2001 年数学二 第 5 题",
+   "questionText": "设函数 $f\\left(x\\right)$ 在定义域内可导，$y=f\\left(x\\right)$ 的图形如图所示（图示略），则导函数 $y=f^{\\prime}\\left(x\\right)$ 的图形为（ ）\nA. 图 A\nB. 图 B\nC. 图 C\nD. 图 D",
+   "answerText": "D\n\n**解析：**\n由原图可知，$y$ 轴左侧及 $y$ 轴右侧靠近 $y$ 轴处，曲线 $y=f\\left(x\\right)$ 均单调增加，故对应区间内 $f^{\\prime}\\left(x\\right)>0$。结合选项可排除 A、B、C，故选 D。\n\n---\n\n## 三、计算题\n\n求\n\n$\\int\\dfrac{\\mathrm{d}x}{\\left(2x^{2}+1\\right)\\sqrt{x^{2}+1}}$。\n\n**解析：**\n\n令 $x=\\tan u$，则 $\\mathrm{d}x=\\sec^{2}u\\mathrm{~d}u$，$\\sqrt{x^{2}+1}=\\sec u$。于是\n\n$\\int\\dfrac{\\mathrm{d}x}{\\left(2x^{2}+1\\right)\\sqrt{x^{2}+1}}=\\int\\dfrac{\\mathrm{d}\\left(\\sin u\\right)}{1+\\sin^{2}u}=\\arctan\\left(\\sin u\\right)+C$。\n\n又 $\\sin u=\\dfrac{x}{\\sqrt{1+x^{2}}}$，故\n\n$\\int\\dfrac{\\mathrm{d}x}{\\left(2x^{2}+1\\right)\\sqrt{x^{2}+1}}=\\arctan\\left(\\dfrac{x}{\\sqrt{1+x^{2}}}\\right)+C$。\n\n---\n\n## 四、计算题\n\n求极限\n\n$\\lim_{t\\to x}\\left(\\dfrac{\\sin t}{\\sin x}\\right)^{\\frac{x}{\\sin t-\\sin x}}$，\n\n记此极限为 $f\\left(x\\right)$，求函数 $f\\left(x\\right)$ 的间断点并指出其类型。\n\n**解析：**\n\n取对数，得\n\n$\\ln f\\left(x\\right)=\\lim_{t\\to x}\\dfrac{x}{\\sin t-\\sin x}\\ln\\left(\\dfrac{\\sin t}{\\sin x}\\right)$。\n\n由 $\\ln\\left(1+u\\right)\\sim u$ 可得 $\\ln f\\left(x\\right)=\\dfrac{x}{\\sin x}$，故\n\n$f\\left(x\\right)=e^{\\frac{x}{\\sin x}},\\quad x\\ne k\\pi$。\n\n当 $x\\to 0$ 时，$\\dfrac{x}{\\sin x}\\to 1$，故 $x=0$ 为可去间断点；当 $x=k\\pi\\left(k=\\pm 1,\\pm 2,\\cdots\\right)$ 时，函数为第二类间断点。\n\n---\n\n## 五、计算题\n\n设 $\\rho=\\rho\\left(x\\right)$ 是抛物线 $y=\\sqrt{x}$ 上任一点 $M\\left(x,y\\right)\\left(x\\ge 1\\right)$ 处的曲率半径，$s=s\\left(x\\right)$ 是该抛物线上介于点 $A\\left(1,1\\right)$ 与 $M$ 之间的弧长，计算\n\n$3\\rho\\dfrac{\\mathrm{d}^{2}\\rho}{\\mathrm{d}s^{2}}-\\left(\\dfrac{\\mathrm{d}\\rho}{\\mathrm{d}s}\\right)^{2}$\n\n的值。（在直角坐标系下曲率公式为 $K=\\dfrac{\\left|y^{\\prime\\prime}\\right|}{\\left(1+\\left(y^{\\prime}\\right)^{2}\\right)^{\\frac{3}{2}}}$。）\n\n**解析：**\n\n由 $y=\\sqrt{x}$，得 $y^{\\prime}=\\dfrac{1}{2\\sqrt{x}}$，$y^{\\prime\\prime}=-\\dfrac{1}{4x^{\\frac{3}{2}}}$。于是\n\n$\\rho=\\dfrac{1}{K}=\\dfrac{1}{2}\\left(4x+1\\right)^{\\frac{3}{2}},\\quad \\dfrac{\\mathrm{d}s}{\\mathrm{d}x}=\\sqrt{1+\\dfrac{1}{4x}}$。\n\n故\n\n$\\dfrac{\\mathrm{d}\\rho}{\\mathrm{d}s}=6\\sqrt{x},\\quad \\dfrac{\\mathrm{d}^{2}\\rho}{\\mathrm{d}s^{2}}=\\dfrac{6}{\\sqrt{1+4x}}$。\n\n代入得\n\n$3\\rho\\dfrac{\\mathrm{d}^{2}\\rho}{\\mathrm{d}s^{2}}-\\left(\\dfrac{\\mathrm{d}\\rho}{\\mathrm{d}s}\\right)^{2}=9$。\n\n---\n\n## 六、计算题\n\n设函数 $f\\left(x\\right)$ 在 $\\left[0,+\\infty\\right)$ 上可导，$f\\left(0\\right)=0$，且其反函数为 $g\\left(x\\right)$。若\n\n$\\int_{0}^{f\\left(x\\right)}g\\left(t\\right)\\mathrm{~d}t=x^{2}e^{x}$，\n\n求 $f\\left(x\\right)$。\n\n**解析：**\n\n由反函数性质，$g\\left(f\\left(x\\right)\\right)=x$。两边求导：\n\n$g\\left(f\\left(x\\right)\\right)f^{\\prime}\\left(x\\right)=2xe^{x}+x^{2}e^{x}$。\n\n因此 $xf^{\\prime}\\left(x\\right)=2xe^{x}+x^{2}e^{x}$，即 $f^{\\prime}\\left(x\\right)=2e^{x}+xe^{x}$。积分并由 $f\\left(0\\right)=0$ 得\n\n$f\\left(x\\right)=xe^{x}+e^{x}-1$。\n\n---\n\n## 七、计算题\n\n设函数 $f\\left(x\\right),g\\left(x\\right)$ 满足 $f^{\\prime}\\left(x\\right)=g\\left(x\\right)$，$g^{\\prime}\\left(x\\right)=2e^{x}-f\\left(x\\right)$，且 $f\\left(0\\right)=0$，$g\\left(0\\right)=2$，求\n\n$\\int_{0}^{\\pi}\\left[\\dfrac{g\\left(x\\right)}{1+x}-\\dfrac{f\\left(x\\right)}{\\left(1+x\\right)^{2}}\\right]\\mathrm{~d}x$。\n\n**解析：**\n\n由题意得 $f^{\\prime\\prime}\\left(x\\right)+f\\left(x\\right)=2e^{x}$。解得\n\n$f\\left(x\\right)=C_{1}\\cos x+C_{2}\\sin x+e^{x}$。\n\n由 $f\\left(0\\right)=0$，$f^{\\prime}\\left(0\\right)=g\\left(0\\right)=2$，得 $C_{1}=-1$，$C_{2}=1$，故 $f\\left(x\\right)=\\sin x-\\cos x+e^{x}$。\n\n又\n\n$\\left(\\dfrac{f\\left(x\\right)}{1+x}\\right)^{\\prime}=\\dfrac{g\\left(x\\right)}{1+x}-\\dfrac{f\\left(x\\right)}{\\left(1+x\\right)^{2}}$，\n\n所以原积分为\n\n$\\left.\\dfrac{f\\left(x\\right)}{1+x}\\right|_{0}^{\\pi}=\\dfrac{1+e^{\\pi}}{1+\\pi}$。\n\n---\n\n## 八、计算题\n\n设 $L$ 是一条平面曲线，其上任意一点 $P\\left(x,y\\right)\\left(x>0\\right)$ 到坐标原点的距离恒等于该点处的切线在 $y$ 轴上的截距，且 $L$ 经过点 $\\left(\\dfrac{1}{2},0\\right)$。\n\n1. 试求曲线 $L$ 的方程；\n2. 求 $L$ 位于第一象限部分的一条切线，使该切线与 $L$ 以及两坐标轴所围图形面积最小。\n\n**解析：**\n\n设切线方程为 $Y-y=y^{\\prime}\\left(X-x\\right)$。令 $X=0$，得切线在 $y$ 轴上的截距为 $y-xy^{\\prime}$。由题意，\n\n$y-xy^{\\prime}=\\sqrt{x^{2}+y^{2}}$。\n\n令 $y=ux$，可得 $xu^{\\prime}=-\\sqrt{1+u^{2}}$。分离变量并积分，得\n\n$u+\\sqrt{1+u^{2}}=\\dfrac{C}{x}$。\n\n代回 $u=\\dfrac{y}{x}$，得 $y+\\sqrt{x^{2}+y^{2}}=C$。由曲线过 $\\left(\\dfrac{1}{2},0\\right)$，得 $C=\\dfrac{1}{2}$，化简得\n\n$y=\\dfrac{1}{4}-x^{2}$。\n\n由 $y=\\dfrac{1}{4}-x^{2}$，得 $y^{\\prime}=-2x$。曲线在点 $P\\left(x,\\dfrac{1}{4}-x^{2}\\right)$ 处的切线为\n\n$Y-\\left(\\dfrac{1}{4}-x^{2}\\right)=-2x\\left(X-x\\right)$。\n\n该切线与两坐标轴围成三角形面积为\n\n$A\\left(x\\right)=\\dfrac{\\left(4x^{2}+1\\right)^{2}}{64x}$。\n\n求导得\n\n$A^{\\prime}\\left(x\\right)=\\dfrac{\\left(4x^{2}+1\\right)\\left(12x^{2}-1\\right)}{64x^{2}}$。\n\n令 $A^{\\prime}\\left(x\\right)=0$，得 $x=\\dfrac{\\sqrt{3}}{6}$。所求切线方程为\n\n$Y=-\\dfrac{\\sqrt{3}}{3}X+\\dfrac{1}{3}$。\n\n---\n\n## 九、应用题\n\n一个半球体状的雪堆，其体积融化的速率与半球面面积 $S$ 成正比，比例常数 $K>0$。假设在融化过程中雪堆始终保持半球体状，已知半径为 $r_{0}$ 的雪堆在开始融化的 $3$ 小时内，融化了其体积的 $\\dfrac{7}{8}$，问雪堆全部融化需要多少小时？\n\n**解析：**\n\n设 $t$ 时刻雪堆半径为 $r$。半球体积 $V=\\dfrac{2}{3}\\pi r^{3}$，半球面面积 $S=2\\pi r^{2}$。由题意，\n\n$\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=-KS$。\n\n又 $\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=2\\pi r^{2}\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}$，所以 $\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=-K$，即 $r=r_{0}-Kt$。\n\n开始 $3$ 小时内剩余体积为原来的 $\\dfrac{1}{8}$，故剩余半径为原来的 $\\dfrac{1}{2}$：\n\n$r_{0}-3K=\\dfrac{1}{2}r_{0}$，\n\n得 $K=\\dfrac{r_{0}}{6}$。当 $r=0$ 时，$t=6$。故雪堆全部融化需要 $6$ 小时。\n\n---\n\n## 十、证明题\n\n设 $f\\left(x\\right)$ 在区间 $\\left[-a,a\\right]\\left(a>0\\right)$ 上具有二阶连续导数，$f\\left(0\\right)=0$。\n\n1. 写出 $f\\left(x\\right)$ 的带拉格朗日余项的一阶麦克劳林公式；\n2. 证明在 $\\left[-a,a\\right]$ 上至少存在一点 $\\eta$，使\n\n$a^{3}f^{\\prime\\prime}\\left(\\eta\\right)=3\\int_{-a}^{a}f\\left(x\\right)\\mathrm{~d}x$。\n\n**解析：**\n\n带拉格朗日余项的一阶麦克劳林公式为\n\n$f\\left(x\\right)=f\\left(0\\right)+f^{\\prime}\\left(0\\right)x+\\dfrac{1}{2}f^{\\prime\\prime}\\left(\\xi\\right)x^{2}$，\n\n其中 $\\xi$ 位于 $0$ 与 $x$ 之间。因 $f\\left(0\\right)=0$，故\n\n$f\\left(x\\right)=f^{\\prime}\\left(0\\right)x+\\dfrac{1}{2}f^{\\prime\\prime}\\left(\\xi\\right)x^{2}$。\n\n两边在 $\\left[-a,a\\right]$ 上积分，奇函数项积分为 $0$。又 $f^{\\prime\\prime}\\left(x\\right)$ 连续，设其最小值、最大值分别为 $m,M$，则\n\n$\\dfrac{a^{3}}{3}m\\le \\int_{-a}^{a}f\\left(x\\right)\\mathrm{~d}x\\le \\dfrac{a^{3}}{3}M$。\n\n由连续函数介值定理，存在 $\\eta\\in\\left[-a,a\\right]$，使\n\n$f^{\\prime\\prime}\\left(\\eta\\right)=\\dfrac{3}{a^{3}}\\int_{-a}^{a}f\\left(x\\right)\\mathrm{~d}x$，\n\n即\n\n$a^{3}f^{\\prime\\prime}\\left(\\eta\\right)=3\\int_{-a}^{a}f\\left(x\\right)\\mathrm{~d}x$。\n\n---\n\n## 十一、计算题\n\n已知矩阵\n\n$\\boldsymbol{A}=\\begin{bmatrix}1 & 0 & 0\\\\1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix},\\quad \\boldsymbol{B}=\\begin{bmatrix}0 & 1 & 1\\\\1 & 0 & 1\\\\1 & 1 & 0\\end{bmatrix}$，\n\n且矩阵 $\\boldsymbol{X}$ 满足\n\n$\\boldsymbol{A}\\boldsymbol{X}\\boldsymbol{A}+\\boldsymbol{B}\\boldsymbol{X}\\boldsymbol{B}=\\boldsymbol{A}\\boldsymbol{X}\\boldsymbol{B}+\\boldsymbol{B}\\boldsymbol{X}\\boldsymbol{A}+\\boldsymbol{E}$，\n\n其中 $\\boldsymbol{E}$ 是 $3$ 阶单位阵，求 $\\boldsymbol{X}$。\n\n**解析：**\n\n原式整理得\n\n$\\left(\\boldsymbol{A}-\\boldsymbol{B}\\right)\\boldsymbol{X}\\left(\\boldsymbol{A}-\\boldsymbol{B}\\right)=\\boldsymbol{E}$。\n\n因此\n\n$\\boldsymbol{X}=\\left(\\boldsymbol{A}-\\boldsymbol{B}\\right)^{-2}$。\n\n又\n\n$\\boldsymbol{A}-\\boldsymbol{B}=\\begin{bmatrix}1 & -1 & -1\\\\0 & 1 & -1\\\\0 & 0 & 1\\end{bmatrix}$，\n\n且\n\n$\\left(\\boldsymbol{A}-\\boldsymbol{B}\\right)^{-1}=\\begin{bmatrix}1 & 1 & 2\\\\0 & 1 & 1\\\\0 & 0 & 1\\end{bmatrix}$。\n\n所以\n\n$\\boldsymbol{X}=\\left[\\left(\\boldsymbol{A}-\\boldsymbol{B}\\right)^{-1}\\right]^{2}=\\begin{bmatrix}1 & 2 & 5\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}$。\n\n---\n\n## 十二、计算题\n\n设 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 为线性方程组 $\\boldsymbol{A}\\boldsymbol{X}=\\boldsymbol{0}$ 的一个基础解系，\n\n$\\boldsymbol{\\beta}_{1}=t_{1}\\boldsymbol{\\alpha}_{1}+t_{2}\\boldsymbol{\\alpha}_{2},\\quad \\boldsymbol{\\beta}_{2}=t_{1}\\boldsymbol{\\alpha}_{2}+t_{2}\\boldsymbol{\\alpha}_{3}$，\n\n$\\boldsymbol{\\beta}_{3}=t_{1}\\boldsymbol{\\alpha}_{3}+t_{2}\\boldsymbol{\\alpha}_{4},\\quad \\boldsymbol{\\beta}_{4}=t_{1}\\boldsymbol{\\alpha}_{4}+t_{2}\\boldsymbol{\\alpha}_{1}$。\n\n试问实数 $t_{1},t_{2}$ 满足什么关系时，$\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3},\\boldsymbol{\\beta}_{4}$ 也为 $\\boldsymbol{A}\\boldsymbol{X}=\\boldsymbol{0}$ 的一个基础解系。\n\n**解析：**\n\n因为 $\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3},\\boldsymbol{\\beta}_{4}$ 均为 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 的线性组合，所以它们均为 $\\boldsymbol{A}\\boldsymbol{X}=\\boldsymbol{0}$ 的解。只需判定其线性无关。\n\n设 $k_{1}\\boldsymbol{\\beta}_{1}+k_{2}\\boldsymbol{\\beta}_{2}+k_{3}\\boldsymbol{\\beta}_{3}+k_{4}\\boldsymbol{\\beta}_{4}=\\boldsymbol{0}$，整理得系数方程组\n\n$\\begin{cases}t_{1}k_{1}+t_{2}k_{4}=0,\\\\t_{2}k_{1}+t_{1}k_{2}=0,\\\\t_{2}k_{2}+t_{1}k_{3}=0,\\\\t_{2}k_{3}+t_{1}k_{4}=0.\\end{cases}$\n\n其系数行列式为\n\n$\\begin{vmatrix}t_{1} & 0 & 0 & t_{2}\\\\t_{2} & t_{1} & 0 & 0\\\\0 & t_{2} & t_{1} & 0\\\\0 & 0 & t_{2} & t_{1}\\end{vmatrix}=t_{1}^{4}-t_{2}^{4}$。\n\n因此线性无关的充要条件为 $t_{1}^{4}-t_{2}^{4}\\ne 0$，即\n\n$t_{1}\\ne \\pm t_{2}$。\n\n故当且仅当 $t_{1}\\ne \\pm t_{2}$ 时，$\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3},\\boldsymbol{\\beta}_{4}$ 也为 $\\boldsymbol{A}\\boldsymbol{X}=\\boldsymbol{0}$ 的一个基础解系。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2001,
+    "paper": "math2",
+    "number": 5
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题"
+  }
+ ]
+}
