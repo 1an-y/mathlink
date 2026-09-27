@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, BookMarked, BookOpen, Check, ChevronRight, Clock3, Download, Edit3, ImagePlus,
-  Library, Link2, Menu, Moon, Plus, RotateCcw, Save, Search, Sun, Tags, X, XCircle
+  Library, Link2, Menu, Moon, Plus, RotateCcw, Save, Search, Sun, Tags, Upload, X, XCircle
 } from "lucide-react";
 import { addCustomTag, getTaxonomyFor, kindCollection, listSubjects } from "./taxonomy";
-import { addAttempt, createProblem, exportBackup, listProblems } from "./storage";
+import { addAttempt, createProblem, exportBackup, importBackup, listProblems } from "./storage";
 import { seedDefinitions, type DefinitionEntry } from "./definitions";
 import "katex/dist/katex.min.css";
 import type { AttemptResult, CustomTagInput, ExamId, Problem, ProblemDraft, ProblemSource, TagKind, Taxonomy, TaxonomyItem } from "./types";
@@ -135,7 +135,8 @@ export default function App() {
     <div className="app-shell">
       <Sidebar view={view} count={scopedProblems.length} subjects={subjects} subjectId={subjectId} onSubject={setSubjectId}
         examFilter={examFilter} onExam={setExamFilter} open={mobileNav} navigate={navigate} close={() => setMobileNav(false)}
-        theme={theme} toggleTheme={() => setTheme(theme === "light" ? "dark" : "light")} />
+        theme={theme} toggleTheme={() => setTheme(theme === "light" ? "dark" : "light")}
+        onImported={async () => { await reload(); refreshTaxonomy(); }} />
       <main className="main-area">
         <header className="mobile-header">
           <button className="icon-button" onClick={() => setMobileNav(true)} aria-label="打开导航"><Menu size={20} /></button>
@@ -156,12 +157,26 @@ export default function App() {
   );
 }
 
-function Sidebar({ view, count, subjects, subjectId, onSubject, examFilter, onExam, open, navigate, close, theme, toggleTheme }: {
+function Sidebar({ view, count, subjects, subjectId, onSubject, examFilter, onExam, open, navigate, close, theme, toggleTheme, onImported }: {
   view: View; count: number; subjects: TaxonomyItem[]; subjectId: string; onSubject: (id: string) => void;
   examFilter: ExamFilter; onExam: (exam: ExamFilter) => void; open: boolean; navigate: (v: View) => void;
-  close: () => void; theme: "light" | "dark"; toggleTheme: () => void;
+  close: () => void; theme: "light" | "dark"; toggleTheme: () => void; onImported: () => Promise<void>;
 }) {
   const [exporting, setExporting] = useState(false);
+  const [importing, setImporting] = useState(false);
+  const importInput = useRef<HTMLInputElement>(null);
+  const importFile = async (file: File) => {
+    setImporting(true);
+    try {
+      const stats = await importBackup(await file.text());
+      await onImported();
+      window.alert(`导入完成：新增 ${stats.imported} 题，跳过已存在 ${stats.skipped} 题`);
+    } catch (error) {
+      window.alert(`导入失败：${error instanceof Error ? error.message : String(error)}`);
+    } finally {
+      setImporting(false);
+    }
+  };
   const nav = [
     { id: "library" as View, label: "题库", icon: Library },
     { id: "review" as View, label: "复习", icon: RotateCcw },
@@ -207,8 +222,9 @@ function Sidebar({ view, count, subjects, subjectId, onSubject, examFilter, onEx
       <div className="sidebar-foot">
         <button onClick={toggleTheme}>{theme === "light" ? <Moon size={17} /> : <Sun size={17} />}切换为{theme === "light" ? "深色" : "浅色"}</button>
         <button onClick={() => void backup()} disabled={exporting}><Download size={17} />{exporting ? "正在导出…" : "导出完整备份"}</button>
-        {/* 预留接线点：storage.importBackup 由并行分支实现后，在上方导出按钮之后追加「导入备份」按钮，
-            读取文件文本调用 importBackup(json) 后 reload() 刷新题目与标签。 */}
+        <button onClick={() => importInput.current?.click()} disabled={importing || exporting}><Upload size={17} />{importing ? "正在导入…" : "导入备份 / 题库包"}</button>
+        <input ref={importInput} type="file" accept="application/json,.json" hidden
+          onChange={(event) => { const file = event.target.files?.[0]; if (file) void importFile(file); event.target.value = ""; }} />
       </div>
     </aside>
   </>;
