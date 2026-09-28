@@ -1525,6 +1525,462 @@
         "section": "§4.4",
         "license": "CC BY-SA 4.0"
       }
+    },
+    {
+      "id": "bank.cal.ac.1.16",
+      "title": "蹦极跳者的平均速度表达式与瞬时速度",
+      "questionText": "蹦极者于时刻 $t=0$ 从塔上跳下，其高度 $s$（英尺）与时间 $t$（秒）满足 $s(t) = 100\\cos(0.75t) \\cdot e^{-0.2t}+100$。（1）写出蹦极者在时间区间 $[1,1+h]$ 上平均速度的表达式；（2）求当 $h \\to 0$ 时（1）中平均速度表达式的极限的近似值（精确到 $0.001$），并说明该极限值的物理意义及其单位。",
+      "answerText": "（1）由平均速度公式 $$AV_{[1,1+h]} = \\frac{100\\cos(0.75(1+h)) \\cdot e^{-0.2(1+h)} - 100\\cos(0.75) \\cdot e^{-0.2}}{h}$$。（2）取 $h = 0.1, 0.01, 0.001, 0.0001$ 作数值计算，所得平均速度分别约为 $-54.5015$、$-53.9092$、$-53.8443$、$-53.8377$，故 $\\lim_{h \\to 0} AV_{[1, 1+h]} \\approx -53.837$。该值表示蹦极者在时刻 $t = 1$ 的瞬时速度约为 $-53.837$ 英尺/秒（负号表示高度正在减少，即正在下落），单位为英尺/秒。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.2 exercise 11. 原题 (b) 要求用计算技术估计极限值，此处保留数值答案（自算复核：$s'(1) = -53.8370\\ldots$）；原题 (c) 关于含义与单位的提问已并入第 (2) 问。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.17",
+      "title": "竖直上抛小球的瞬时速度与加速度",
+      "questionText": "一球被竖直上抛，其速度为 $v(t) = 16 - 32t$（$v$ 以英尺/秒计，$t$ 以秒计），球在空中的时间为从 $t = 0$ 到 $t = 2$。（1）球的速度在何时最大？求出该最大速度；（2）求 $v'(1)$ 的值并说明理由；（3）$v'(1)$ 的单位是什么？该值及相应单位刻画了球在时刻 $t = 1$ 的怎样的运动状态？",
+      "answerText": "（1）$v(t) = 16 - 32t$ 是斜率为 $-32$ 的线性函数，在 $[0,2]$ 上单调减少，故速度在左端点 $t = 0$ 处最大，最大速度为 $v(0) = 16$ 英尺/秒。（2）$v$ 是线性函数，其图象上任一点处切线的斜率都等于该直线的斜率，故 $v'(1) = -32$。（3）$v$ 以英尺/秒计、$t$ 以秒计，故 $v'(1)$ 的单位为英尺/秒每秒（即英尺/秒²）。$v'(1) = -32$ 表明在时刻 $t = 1$，球的速度正以每秒 $32$ 英尺/秒的速率减小；而 $v'(t)$ 的物理意义正是球的加速度——此处 $v'(t) = -32$ 为常数，与重力加速度为常数的事实相符。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §1.5 exercise 8. 原题 (d)（$v'(t)$ 的物理意义）已并入第 (3) 问作答。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.1.18",
+      "title": "汽车价值函数的平均变化率与导数估计",
+      "questionText": "某汽车的价值 $V$（美元）取决于已行驶的里程数 $m$（英里），函数关系为 $V = h(m)$。已知 $h(40000) = 15500$，$h(55000) = 13200$，$h(70000) = 11100$。（1）求 $h$ 在区间 $[40000,55000]$ 上的平均变化率，并指出其单位；（2）利用题中数据给出 $h'(55000)$ 的最佳估计，并说明该值的含义（包括单位）；（3）$h'(30000)$ 与 $h'(80000)$ 中哪个更大？为什么？",
+      "answerText": "（1）$$AV_{[40000,55000]} = \\frac{h(55000)- h(40000)}{55000-40000} = \\frac{13200-15500}{15000} = -\\frac{2300}{15000} \\approx -0.153$$，单位为美元/英里。即从 $40000$ 英里到 $55000$ 英里，汽车价值平均每行驶一英里下降约 $0.153$ 美元。（2）因 $40000$ 与 $70000$ 到 $55000$ 距离相等，采用中心差商作最佳估计：$$h'(55000) \\approx \\frac{h(70000) - h(40000)}{70000-40000} = \\frac{11100-15500}{30000} = -\\frac{4400}{30000} \\approx -0.147$$（美元/英里）。即当汽车行驶到 $55000$ 英里时，其价值正以约 $0.147$ 美元/英里的瞬时速率下降。（3）$h'(80000)$ 更大。由 (1)(2) 可见 $h'$ 随 $m$ 增大而增大（$-0.153 \\lt -0.147$）：贬值在里程较少时更快、随里程增加而减缓，但 $h'(m)$ 始终为负（价值持续下降），图象凹（向上凹）且趋于平缓，故 $h'(30000) \\lt h'(80000)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §1.5 exercise 9. 原题 (b) 的附加条件 $h(70000) = 11100$ 已移入题干；原题 (d)（$V = h(m)$ 与 $h'(m)$ 长期性态的讨论性小问）已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§1.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.14",
+      "title": "用导数定义探索 $a^x$ 的导数与数 $e$",
+      "questionText": "设 $f(x) = a^x$。本题的目的在于，在不预先使用 $\\frac{d}{dx}[a^x]$ 求导公式的情况下，探讨 $a$ 的取值如何影响 $f(x)$ 的导数。（1）利用导数的定义证明 $$\\begin{aligned}f'(x) = \\lim_{h \\to 0} \\frac{a^x \\cdot a^h - a^x}{h}\\end{aligned}$$ ，并说明为什么也有 $$\\begin{aligned}f'(x) = a^x \\cdot \\lim_{h \\to 0} \\frac{a^h - 1}{h}\\end{aligned}$$ ；（2）记 $L = \\lim_{h \\to 0} \\frac{a^h - 1}{h}$。利用 $h$ 的较小值估计 $a = 2$ 与 $a = 3$ 时的 $L$，并据此写出 $\\frac{d}{dx}[2^x]$ 与 $\\frac{d}{dx}[3^x]$；（3）通过在 $2$ 与 $3$ 之间试验不同的 $a$ 值，求使 $L = 1$ 的 $a$ 值，并说明此时 $f(x) = a^x$ 有何特殊性质。",
+      "answerText": "（1）由导数定义与指数运算法则 $a^{x+h} = a^x \\cdot a^h$，得 $f'(x) = \\lim_{h \\to 0} \\frac{a^{x+h} - a^x}{h} = \\lim_{h \\to 0} \\frac{a^x \\cdot a^h - a^x}{h}$；当该极限存在时，与 $h$ 无关的因子 $a^x$ 可由极限的运算法则提出极限号外，即得 $f'(x) = a^x \\cdot \\lim_{h \\to 0} \\frac{a^h - 1}{h}$。（2）数值估计（取 $h = 0.1, 0.01, 0.001, \\ldots$）得：$a = 2$ 时 $L \\approx 0.6931 = \\ln(2)$；$a = 3$ 时 $L \\approx 1.0986 = \\ln(3)$。事实上一般地有 $L = \\ln(a)$，故 $$\\frac{d}{dx}[2^x] = 2^x \\ln(2), \\qquad \\frac{d}{dx}[3^x] = 3^x \\ln(3)$$。（3）要使 $L = 1$，即 $\\lim_{h \\to 0} \\frac{a^h - 1}{h} = 1$，需 $\\ln(a) = 1$，故 $a = e \\approx 2.71828$（介于 $2$ 与 $3$ 之间）。此时 $f(x) = e^x$ 的导数就是它自身：$\\frac{d}{dx}[e^x] = e^x$，这是指数函数中独一无二的重要性质。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §2.1 exercise 11. 原题 (a)(b) 合并为第 (1) 问，(c)(d)(e) 重排为 (2)(3)，(f)（关于 $f(x) = e^x$ 的重要事实）并入第 (3) 问作答；$L = \\ln(a)$ 为原题引导学生自行发现的标准结论，答案中已明示。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.15",
+      "title": "投资组合价值的一阶与二阶变化率",
+      "questionText": "设 $V(t) = 24 \\cdot 1.07^t + 6 \\sin(t)$ 表示某人投资组合在第 $t$ 年的价值（单位：千美元），其中 $t = 0$ 对应 2010 年 1 月 1 日。（1）在 2012 年 1 月 1 日这一天，投资组合的价值正以怎样的瞬时速率变化？答案请带单位；（2）求 $V''(2)$ 的值，指出该量的单位，并说明它刻画了投资组合价值在此刻怎样的变化方式。",
+      "answerText": "（1）2012 年 1 月 1 日对应 $t = 2$。由和与常数倍法则及 $(1.07^t)' = 1.07^t \\ln(1.07)$，得 $V'(t) = 24 \\cdot 1.07^t \\cdot \\ln(1.07) + 6 \\cos(t)$，故 $$V'(2) = 24 \\cdot 1.07^2 \\cdot \\ln(1.07) + 6 \\cos(2) \\approx -0.63778$$（千美元/年）。即在 2012 年 1 月 1 日，组合价值正以约 $637.78$ 美元/年的速率减少。（2）$$V''(t) = 24 \\cdot 1.07^t \\cdot (\\ln(1.07))^2 - 6 \\sin(t)$$，故 $V''(2) = 24 \\cdot 1.07^2 \\cdot \\ln(1.07)^2 - 6 \\sin(2) \\approx -5.33$，单位为千美元/年²。这表明在 $t = 2$ 附近 $V'$ 正在减小：组合价值不仅正在减少，而且预计未来一年内 $V'$ 约再降低 $5.33$ 千美元/年，即价值在加速下降。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [
+        "higher_derivative"
+      ],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.2 exercise 4. 原题 (c)（作图比较 $A(t) = 24 \\cdot 1.07^t$ 与 $V$ 的性态并讨论 $6 \\sin(t)$ 项的影响）为讨论性小问，已删；数值答案 $V'(2) \\approx -0.63778$、$V''(2) \\approx -5.33$ 已自算复核。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.16",
+      "title": "已知 $t^t$ 与 $\\arccos(t)$ 导数的乘除组合求导",
+      "questionText": "设 $r(t) = t^t$ 与 $s(t) = \\arccos(t)$，已知 $r'(t) = t^t(\\ln(t) + 1)$ 与 $s'(t) = -\\frac{1}{\\sqrt{1-t^2}}$（不必追究这两个导数公式的来源），且只考虑 $0 \\lt t \\lt 1$。（1）设 $w(t) = t^t \\arccos(t)$，求 $w'(t)$；（2）求曲线 $y = w(t)$ 在点 $\\left(\\frac{1}{2}, w\\left(\\frac{1}{2}\\right)\\right)$ 处的切线方程；（3）设 $v(t) = \\frac{t^t}{\\arccos(t)}$，问 $v$ 在时刻 $t = \\frac{1}{2}$ 是单调增加还是单调减少？并说明理由。",
+      "answerText": "（1）由乘法法则，$$\\begin{aligned}w'(t) &= t^t\\left(\\ln t+1\\right)\\cdot\\left(\\arccos t\\right)+t^t\\cdot\\frac{-1}{\\sqrt{1-t^2}}\\end{aligned}$$，即 $w'(t) = t^t(\\ln(t) + 1)\\arccos(t) - \\frac{t^t}{\\sqrt{1-t^2}}$。（2）$w\\left(\\frac{1}{2}\\right) = \\left(\\frac{1}{2}\\right)^{1/2} \\arccos\\left(\\frac{1}{2}\\right) = \\frac{1}{\\sqrt{2}} \\cdot \\frac{\\pi}{3} = \\frac{\\pi}{3\\sqrt{2}}$；$$w'\\left(\\frac{1}{2}\\right) = \\frac{1}{\\sqrt{2}}\\left(1 - \\ln 2\\right) \\cdot \\frac{\\pi}{3} - \\frac{2}{\\sqrt{6}} = \\frac{\\pi(1 - \\ln 2)}{3\\sqrt{2}} - \\frac{2}{\\sqrt{6}} \\approx -0.589$$ 故切线方程为 $$L(t) = \\frac{\\pi}{3\\sqrt{2}} + \\left(\\frac{\\pi(1 - \\ln 2)}{3\\sqrt{2}} - \\frac{2}{\\sqrt{6}}\\right)\\left(t - \\frac{1}{2}\\right) \\approx 0.740 - 0.589\\left(t - 0.5\\right)$$。（3）由除法法则，$v'(t) = \\frac{t^t(\\ln t+1)\\arccos(t) + \\frac{t^t}{\\sqrt{1-t^2}}}{\\arccos^2(t)}$，故 $$v'\\left(\\frac{1}{2}\\right) = \\frac{\\frac{\\pi(1-\\ln 2)}{3\\sqrt{2}} + \\frac{2}{\\sqrt{6}}}{\\left(\\frac{\\pi}{3}\\right)^2} \\approx 0.952 \\gt 0$$ 因此 $v$ 在 $t = \\frac{1}{2}$ 处单调增加。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.3 exercise 13. taxonomy 无乘法/除法求导法则专有知识点，取最近似的 derivative_definition（沿用第一批惯例）。原书解答把 $w(\\frac{1}{2})$、$w'(\\frac{1}{2})$ 误写为 $w(2)$、$w'(2)$，已按正确数学更正；第 (2) 问的精确形式为自算（数值 $\\approx 0.740 - 0.589(t-0.5)$ 与原书答案一致，$v'(\\frac{1}{2}) \\approx 0.952$ 已复核）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.17",
+      "title": "玉米总产量的乘积法则与变化率",
+      "questionText": "某农场主逐年扩大玉米种植面积。设今年为 $t = 0$ 年，$A(t)$ 为第 $t$ 年他用于种植玉米的土地英亩数，$Y(t)$ 为第 $t$ 年的平均单产（单位：蒲式耳/英亩），$C(t)$ 为第 $t$ 年玉米的总产量（蒲式耳）。已知今年他用 $7000$ 英亩土地种植玉米，平均单产为 $170$ 蒲式耳/英亩；当前他计划以每年 $600$ 英亩的速率增加玉米种植面积，且预计当前平均单产正以每年 $8$ 蒲式耳/英亩的速率增加。（1）写出 $C(t)$ 用 $A(t)$ 与 $Y(t)$ 表示的公式，并求 $C(0)$，说明它度量的是什么；（2）用 $A(t)$、$A'(t)$、$Y(t)$、$Y'(t)$ 表示 $C'(t)$，并说明理由；（3）求 $C'(0)$ 的值，指出其单位并说明其含义；（4）据以上信息估计 $C(1)$ 的值。",
+      "answerText": "（1）总产量 = 面积 × 单产，故 $C(t) = A(t) \\cdot Y(t)$（蒲式耳）；$C(0) = A(0)Y(0) = 7000 \\times 170 = 1190000$ 蒲式耳，即农场主今年共产玉米 $1190000$ 蒲式耳。（2）由乘法法则，$$C'(t) = A(t)Y'(t) + A'(t)Y(t)$$。（3）由题设 $A(0) = 7000$，$Y(0) = 170$，$A'(0) = 600$，$Y'(0) = 8$，故 $$C'(0) = A(0)Y'(0) + A'(0)Y(0) = 7000 \\times 8 + 600 \\times 170 = 158000$$，单位为蒲式耳/年。它度量玉米总产量的（瞬时）增长速度：与今年相比，此后一年内总产量约增加 $158000$ 蒲式耳。（4）由线性近似（微分），$$C(1) \\approx C(0) + C'(0)(1-0) = 1190000 + 158000 = 1348000$$，即明年玉米总产量约为 $1348000$ 蒲式耳。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.3 exercise 14. 各小问重排为 (1)–(4)，数学内容不变。原书解答把 $C'(0)$ 的单位误写为 bushels per acre，已更正为蒲式耳/年。蒲式耳（bushel）、英亩（acre）为国内惯用音译单位。taxonomy 无乘法法则专有知识点，取最近似的 derivative_definition。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.3",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.18",
+      "title": "$x^3$ 与 $\\sin x$ 的两种复合及变化率比较",
+      "questionText": "设基本函数 $f(x) = x^3$ 与 $g(x) = \\sin(x)$。（1）设 $h(x) = f(g(x))$，求 $h$ 在 $x = \\frac{\\pi}{4}$ 处瞬时变化率的精确值；（2）在 $x = 0.25$ 处，$h(x) = f(g(x))$ 与 $r(x) = g(f(x))$ 哪个变化得最快？为什么？（3）$h$ 与 $r$ 中哪个函数的导数是周期函数？为什么？",
+      "answerText": "（1）$h(x) = (g(x))^3 = \\sin^3(x)$，由链式法则 $$\\begin{aligned}h'(x) = 3\\sin^2(x) \\cdot \\cos(x)\\end{aligned}$$ 故 $h'\\left( \\frac{\\pi}{4} \\right) = 3 \\left( \\frac{1}{\\sqrt{2}} \\right)^2 \\cdot \\frac{1}{\\sqrt{2}} = \\frac{3}{2\\sqrt{2}}$。（2）$r(x) = \\sin(x^3)$，$r'(x) = \\cos(x^3) \\cdot 3x^2$，故 $r'(0.25) = \\cos(0.25^3) \\cdot 3(0.25)^2 \\approx 0.1875$；而 $h'(0.25) = 3\\sin^2(0.25) \\cdot \\cos(0.25) \\approx 0.1779$。因 $r'(0.25) \\gt h'(0.25)$，故 $r$ 变化得最快。（3）$h'(x) = 3\\sin^2(x) \\cdot \\cos(x)$ 的各因子都是周期函数，故 $h'$ 是周期函数（周期为 $2\\pi$）；而 $r'(x) = \\cos(x^3) \\cdot 3x^2$ 中因子 $3x^2$ 随 $x$ 增大而无界增长，故 $r'$ 不是周期函数。因此 $h$ 的导数是周期函数。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.5 exercise 11.",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.19",
+      "title": "$x+\\sin x$ 的可逆性与反函数导数",
+      "questionText": "设 $h(x) = x + \\sin(x)$。（1）证明 $h$ 在全体实数上严格单调增加，从而 $h$ 必存在反函数 $h^{-1}$；（2）虽然方程 $y = x + \\sin(x)$ 看来无法用代数方法解出 $x$（即难以写出 $h^{-1}$ 的解析式），反函数的导数仍可求：观察点 $\\left(\\frac{\\pi}{2}, \\frac{\\pi}{2} + 1\\right)$ 在曲线 $y = h(x)$ 上，求 $\\left(h^{-1}\\right)'\\left(\\frac{\\pi}{2} + 1\\right)$ 的值。",
+      "answerText": "（1）$h'(x) = 1 + \\cos(x)$。因 $-1 \\le \\cos(x) \\le 1$，故 $h'(x) \\ge 0$，且 $h'(x) = 0$ 仅在 $x = (2k+1)\\pi$（$k$ 为整数）这样的孤立点成立，其余点处 $h'(x) \\gt 0$，因此 $h$ 在全体实数上严格单调增加；其图象与任一水平直线至多交于一点（通过水平线检验），故 $h$ 可逆。（2）由可导反函数的求导法则，$$\\left(h^{-1}\\right)'\\left(\\frac{\\pi}{2} + 1\\right) = \\frac{1}{h'\\left(\\frac{\\pi}{2} \\right)}$$ 而 $h'\\left(\\frac{\\pi}{2} \\right) = 1 + \\cos\\left(\\frac{\\pi}{2}\\right) = 1$，故 $\\left(h^{-1}\\right)'\\left(\\frac{\\pi}{2} + 1\\right) = \\frac{1}{1} = 1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "inverse_derivative",
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §2.6 exercise 10. 原题 (a) 的作图要求已删，改为直接证明严格单调性；原题 (b)（说明难以用代数方法写出 $h^{-1}$ 的解析式）已并入第 (2) 问题干作背景。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.2.20",
+      "title": "用隐函数求导法证明 $\\frac{d}{dx}[a^x]=a^x\\ln(a)$",
+      "questionText": "如果已知 $\\frac{d}{dx}[\\ln(x)] = \\frac{1}{x}$，那么借助隐函数求导法可以从另一个角度说明求导法则 $\\frac{d}{dx} [a^x] = a^x \\ln(a)$ 成立。设 $y = a^x$。（1）利用自然对数函数改写该方程，把 $x$ 用 $y$（以及常数 $a$）表示；（2）注意 $y$ 隐含地是 $x$ 的函数，对 (1) 中所得方程两边关于 $x$ 求导；（3）从 (2) 的方程中解出 $\\frac{dy}{dx}$，再利用 $y$ 的定义把 $\\frac{dy}{dx}$ 写成仅含 $x$ 的表达式。你得到了什么结论？",
+      "answerText": "（1）两边取自然对数：$\\ln(y) = \\ln(a^x) = x \\ln(a)$，故 $$\\begin{aligned}x = \\frac{\\ln(y)}{\\ln(a)}\\end{aligned}$$。（2）$\\ln(a)$ 关于 $x$ 是常数，把方程写成 $x = \\frac{1}{\\ln(a)} \\cdot \\ln(y)$ 后两边关于 $x$ 求导（$y$ 视为 $x$ 的函数），得 $$\\begin{aligned}1 = \\frac{1}{\\ln(a)} \\cdot \\frac{1}{y}\\frac{dy}{dx}\\end{aligned}$$。（3）解出 $\\frac{dy}{dx} = y \\ln(a)$。由 $y = a^x$ 得 $$\\begin{aligned}\\frac{dy}{dx} = a^x \\ln(a)\\end{aligned}$$ 即证得 $\\frac{d}{dx}[a^x] = a^x \\ln(a)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_derivative"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "Source: Active Calculus §2.7 exercise 14. 原题引导性叙述（This exercise leads you through...）已改写为考研式设问，(1)(2)(3) 与原题 (a)(b)(c) 一一对应。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§2.7",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.15",
+      "title": "由各阶导数值求 $\\frac{f}{g}$ 型极限",
+      "questionText": "设 $f$ 与 $g$ 是可导函数，且已知 $f(3) = g(3) = 0$，$f'(3) = g'(3) = 0$，$f''(3) = -2$，$g''(3) = 1$。设 $h(x) = \\frac{f(x)}{g(x)}$，求 $$\\begin{aligned}\\lim_{x \\to 3} h(x)\\end{aligned}$$ 。",
+      "answerText": "当 $x \\to 3$ 时 $f(x) \\to 0$、$g(x) \\to 0$，故 $\\frac{f(x)}{g(x)}$ 为 $\\frac{0}{0}$ 型未定式。由洛必达法则，$$\\begin{aligned}\\lim_{x \\to 3} \\frac{f(x)}{g(x)} = \\lim_{x \\to 3} \\frac{f'(x)}{g'(x)}\\end{aligned}$$ 又 $f'(3) = g'(3) = 0$，右端仍为 $\\frac{0}{0}$ 型未定式，可再次应用洛必达法则：$$\\begin{aligned}\\lim_{x \\to 3} \\frac{f(x)}{g(x)} = \\lim_{x \\to 3} \\frac{f''(x)}{g''(x)} = \\frac{f''(3)}{g''(3)} = \\frac{-2}{1}\\end{aligned}$$ 故 $\\lim_{x \\to 3} h(x) = -2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indeterminate_form",
+        "limit_operations"
+      ],
+      "methodIds": [
+        "lhopital_rule"
+      ],
+      "notes": "Source: Active Calculus §3.2 exercise 11. 原题要求在同一直角坐标系中画出 $f$、$g$ 在 $x = 3$ 附近的可能图象（作图部分已删），并给出支撑结论的解释。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.16",
+      "title": "函数间的支配关系（洛必达法则的比较）",
+      "questionText": "若函数 $f$ 与 $g$ 满足 $\\lim_{x \\to \\infty} f(x) = \\infty$，$\\lim_{x \\to \\infty} g(x) = \\infty$，且 $\\lim_{x \\to \\infty} \\frac{f(x)}{g(x)} = 0$，则称函数 $g$ 支配函数 $f$。（1）$\\ln(x)$ 与 $\\sqrt{x}$ 哪个支配另一个？证明你的结论；（2）$\\ln(x)$ 与 $\\sqrt[n]{x}$（$n$ 可以是任意正整数）哪个支配另一个？证明你的结论；（3）证明：$e^x$ 将支配任意多项式函数。",
+      "answerText": "（1）$\\sqrt{x}$ 支配 $\\ln(x)$。显然 $\\ln(x) \\to \\infty$ 且 $\\sqrt{x} \\to \\infty$。由洛必达法则与代数化简，$$\\begin{aligned}\\lim_{x \\to \\infty}\\frac{\\ln(x)}{\\sqrt{x}} = \\lim_{x \\to \\infty}\\frac{\\frac{1}{x}}{\\frac{1}{2x^{1/2}}} = \\lim_{x \\to \\infty}\\frac{2x^{1/2}}{x} = \\lim_{x \\to \\infty}\\frac{2}{x^{1/2}}\\end{aligned}$$ 故 $\\lim_{x \\to \\infty}\\frac{\\ln(x)}{\\sqrt{x}} = 0$，由定义即 $\\sqrt{x}$ 支配 $\\ln(x)$。（2）$\\sqrt[n]{x}$ 支配 $\\ln(x)$。同理，$$\\begin{aligned}\\lim_{x \\to \\infty}\\frac{\\ln(x)}{\\sqrt[n]{x}} = \\lim_{x \\to \\infty}\\frac{\\frac{1}{x}}{\\frac{1}{nx^{(n-1)/n}}} = \\lim_{x \\to \\infty}\\frac{nx^{(n-1)/n}}{x}\\end{aligned}$$ 由 $\\frac{x^{(n-1)/n}}{x} = x^{-1/n}$ 得 $$\\begin{aligned}\\lim_{x \\to \\infty}\\frac{\\ln(x)}{\\sqrt[n]{x}} = \\lim_{x \\to \\infty} \\frac{n}{x^{1/n}} = 0\\end{aligned}$$ 故对任意正整数 $n$，$\\sqrt[n]{x}$ 支配 $\\ln(x)$。（3）设 $p(x)$ 为任一 $n$ 次多项式。考虑 $\\lim_{x \\to \\infty} \\frac{p(x)}{e^x}$：反复应用洛必达法则，每求导一次分子的次数降一且仍为多项式，而分母恒为 $e^x$；$n$ 次之后分子化为常数，故该极限为 $0$。又 $p(x) \\to \\infty$、$e^x \\to \\infty$，由定义，$e^x$ 支配任意多项式函数。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indeterminate_form",
+        "limit_operations"
+      ],
+      "methodIds": [
+        "lhopital_rule"
+      ],
+      "notes": "Source: Active Calculus §3.2 exercise 14. 『dominates』为原题现场定义的概念，译作『支配』并在题干中保留定义。原题 (d)（证明 $x^n$ 支配 $\\ln(x)$）与 (2) 同型、(e)（举两个互不支配的非线性函数的例子）为开放型举例，均已删；原文题干中 dominates 一词重复系原文笔误，已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.17",
+      "title": "含参函数族 $p(x)=x^3-ax^2$ 的驻点与拐点",
+      "questionText": "考虑含一个参数的函数族 $p(x) = x^3-ax^2$，其中 $a \\gt 0$。（1）求 $p$ 的全部驻点；（2）计算 $p''$ 并求使 $p''(x) = 0$ 的全部 $x$ 值，据此列出 $p$ 的二阶导数符号表，指出 $p$ 的凹凸区间与拐点；（3）描述当 $a$ 变化时 $p$ 的驻点与拐点的位置如何变化，即若增大 $a$ 的值，驻点与拐点会发生什么？",
+      "answerText": "（1）视 $a$ 为常数，$p'(x) = 3x^2 - 2ax = x(3x - 2a)$，令 $p'(x) = 0$ 得驻点 $x = 0$ 与 $x = \\frac{2a}{3}$。（2）$p''(x) = 6x - 2a$，令 $p''(x) = 0$ 得 $x = \\frac{a}{3}$。$p''$ 是斜率为正的一次函数，故当 $x \\lt \\frac{a}{3}$ 时 $p''(x) \\lt 0$，当 $x \\gt \\frac{a}{3}$ 时 $p''(x) \\gt 0$：$p$ 在 $x \\lt \\frac{a}{3}$ 时凸（向上凸），在 $x \\gt \\frac{a}{3}$ 时凹（向上凹），$x = \\frac{a}{3}$ 是 $p$ 的唯一拐点。（3）$p$ 总有驻点 $x = 0$，其位置不随 $a$ 变化；另一驻点 $x = \\frac{2a}{3}$ 与拐点 $x = \\frac{a}{3}$ 都直接依赖于 $a$：随着 $a$ 增大，二者按比例随之向右移动。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema",
+        "concavity_inflection"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §3.4 exercise 6. 原题 (a)（利用 $p$ 是三阶多项式、有二重零点 $x = 0$ 与另一零点 $x = a$ 画典型成员的图象）为作图小问，已删。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.4",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.18",
+      "title": "由导数信息定位闭区间上的绝对最值",
+      "questionText": "下列各小题中的函数都在闭区间 $[a,b]$ 上连续。试指出每个函数在 $[a,b]$ 上绝对最大值与绝对最小值的位置；若依所给信息无法作出结论，也请指出。假设题中提到的驻点就是该函数在 $[a,b]$ 上的全部驻点，并分别说明理由。（1）对 $[a,b]$ 中所有 $x$ 都有 $f'(x) \\le 0$；（2）$g$ 在 $c$ 处有驻点且 $a \\lt c\\lt b$，$g'(x) \\gt 0$ 当 $x \\lt c$，$g'(x) \\lt 0$ 当 $x \\gt c$；（3）$h(a) = h(b)$ 且对 $[a,b]$ 中所有 $x$ 都有 $h''(x) \\lt 0$；（4）$p(a) \\gt 0$，$p(b) \\lt 0$，且对驻点 $c$（$a \\lt c \\lt b$）有 $p'(x) \\lt 0$ 当 $x \\lt c$，$p'(x) \\gt 0$ 当 $x \\gt c$。",
+      "answerText": "（1）绝对最大值在 $x = a$，绝对最小值在 $x = b$。因 $f'(x) \\le 0$ 说明 $f$ 在 $[a,b]$ 上不增（或为常数，或在部分区间上减少）。（2）绝对最大值在 $x = c$：$g$ 在 $(a,c)$ 上增、在 $(c,b)$ 上减。绝对最小值必在 $x = a$ 或 $x = b$ 处取得，但所给信息不足以确定是哪个端点（无从比较 $g$ 在 $(a,c)$ 上的增量与在 $(c,b)$ 上的减量的大小）。（3）绝对最小值在 $x = a$ 与 $x = b$ 处同时取得；绝对最大值在 $(a,b)$ 内部某处取得，但确切位置无法确定。因 $h''(x) \\lt 0$，$h$ 在 $[a,b]$ 上凸（向上凸），结合 $h(a) = h(b)$，其图象形如开口向下的抛物线弧。（4）绝对最小值在 $x = c$：$p$ 在 $(a,c)$ 上减、在 $(c,b)$ 上增，故 $p(c) \\lt p(b)$。又 $p(a) \\gt p(b)$，故绝对最大值在 $x = a$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema",
+        "monotonicity"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "Source: Active Calculus §3.5 exercise 9. 四个小问重排为 (1)–(4)，数学内容不变。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.5",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.3.19",
+      "title": "分隔成四个畜栏的矩形牧场最大面积",
+      "questionText": "某农场主想饲养牛、马、山羊和绵羊，希望围出一块矩形牧场供其吃草，但任何两种不同的动物不能在一起吃草。为使所需栅栏最少，她决定先围出一大块矩形区域，再在矩形内部添加三段与两条已有边平行的栅栏，把它分隔成四个大小相同的畜栏。她已购得 $7500$ 英尺栅栏（全部用完）。求四个畜栏中每个畜栏所能围出的最大面积。",
+      "answerText": "设大矩形的长为 $x$、宽为 $y$（英尺），三段内部栅栏平行于长为 $y$ 的边，则栅栏总长为 $2x + 5y$，于是约束为 $$2x + 5y = 7500$$ 四块畜栏大小相同，每个畜栏的面积为 $\\frac{xy}{4}$，故只需最大化总场地面积 $A = xy$。由约束解出 $x = 3750 - 2.5y$，代入得 $$A(y) = \\left(3750 - 2.5y\\right)y = 3750y - 2.5y^2 \\qquad (0 \\lt y \\lt 1500)$$ 令 $A'(y) = 3750 - 5y = 0$ 得唯一驻点 $y = 750$；又 $A''(y) = -5 \\lt 0$，故 $A$ 在 $y = 750$ 处取得最大值，此时 $x = 1875$，总场地面积为 $$A = 1875 \\times 750 = 1406250$$ 平方英尺，每个畜栏的最大面积为 $\\frac{1406250}{4} = 351562.5$ 平方英尺。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §3.6 exercise 10. 原书解答指出内部栅栏亦可平行于长为 $x$ 的边（约束 $5x + 2y = 7500$），由对称性最大面积相同；原题干为纯文字叙述、不含公式，解答中的记号为译文所设，数值答案 351562.5 平方英尺与原书一致。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§3.6",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac.4.11",
+      "title": "平均速度与速度函数的平均值",
+      "questionText": "在前面章节中，我们证明过：对沿直线运动的物体（位置函数为 $s(t)$），它在区间 $[a,b]$ 上的平均速度为 $$\\begin{aligned}AV_{[a,b]} = \\frac{s(b)-s(a)}{b-a}\\end{aligned}$$ 随后我们又得到：对沿直线运动的物体（速度函数为 $v(t)$），速度函数在 $[a,b]$ 上的平均值为 $$\\begin{aligned}\\displaystyle v_{\\operatorname{AVG} [a,b]} = \\frac{1}{b-a} \\int_a^b v(t) \\, dt\\end{aligned}$$ 问：区间 $[a,b]$ 上的平均速度与速度函数在 $[a,b]$ 上的平均值是不是同一回事？为什么？",
+      "answerText": "是，两者相同。原因在于 $v(t) = s'(t)$，由微积分基本定理，$\\int_a^b v(t) \\, dt = s(b) - s(a)$，于是 $$\\begin{aligned}\\displaystyle v_{\\operatorname{AVG} [a,b]} &= \\frac{1}{b-a} \\int_a^b v(t) \\, dt \\\\ &= \\frac{s(b)-s(a)}{b-a} \\\\ &= AV_{[a,b]}\\end{aligned}$$ 即平均速度既可理解为位移与时间之比，也可理解为速度函数值的（积分）平均值，两种解释完全一致。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "Source: Active Calculus §4.4 exercise 14. 原题两处 In Chapter 因 mbx 版交叉引用被剥离而缺章号，译文以『前面章节』『随后』带过；原书解答末行 $AV_{a,b}$ 系 $AV_{[a,b]}$ 之笔误，已更正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "section": "§4.4",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }
