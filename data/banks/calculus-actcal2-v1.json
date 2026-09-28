@@ -1457,6 +1457,622 @@
         "section": "§8.6",
         "license": "CC BY-SA 4.0"
       }
+    },
+    {
+      "id": "bank.cal.ac2.510",
+      "title": "爬升率数据表与爬升时间的累积",
+      "questionText": "某单引擎飞机以最快方式爬升时，其爬升率（英尺/分）随高度增加而减小（高海拔处空气稀薄）。下表给出了该飞机在各个高度 $h$（英尺）处的爬升率 $c(h)$（英尺/分）：\n高度 $h$（英尺）：0，1000，2000，3000，4000，5000，6000，7000，8000，9000，10000；\n爬升率 $c(h)$（英尺/分）：925，875，830，780，730，685，635，585，535，490，440。\n设新函数 $m(h)$ 表示飞机在高度 $h$ 处再爬升 1 英尺高度所需的时间（分钟）。\n（1）写出 $m(h)$ 与 $c(h)$ 的关系式，并求 $m(1000)$ 与 $m(9000)$；\n（2）用定积分表示飞机爬升到 10000 英尺高度所需的总时间 $M$，并说明该积分值的单位及其为何是分钟；\n（3）写出飞机爬升到 $h$ 英尺高度所需时间 $M(h)$ 的表达式（用变上限积分表示）；\n（4）用中点法（取所给数据能支持的最大等分子区间数）估计 $M(6000)$ 与 $M(10000)$。",
+      "answerText": "（1）$c(h)$ 的单位是英尺/分，$m(h)$ 的单位是分/英尺，两者互为倒数，故 $$m(h) = \\frac{1}{c(h)}$$ 于是 $m(1000) = \\frac{1}{875} \\approx 0.00114$（分/英尺），$m(9000) = \\frac{1}{490} \\approx 0.00204$（分/英尺）。\n（2）$$M = \\int_{0}^{10000} m(h) \\, dh$$ 因为 $m(h)$ 的单位是分/英尺，而黎曼和中的 $\\triangle h$ 的单位是英尺，乘积的单位为分钟，故该定积分值表示所需的总时间（分钟）。\n（3）$$M(h) = \\int_{0}^{h} m(t) \\, dt$$（因为 $h$ 是积分上限，需换用 $t$ 作积分变量。）\n（4）在 $[0,6000]$ 上取 3 个子区间，中点为 $h=1000,3000,5000$：$$\\int_{0}^{6000} m(h) \\, dh \\approx \\left( \\frac{1}{875} + \\frac{1}{780} + \\frac{1}{685} \\right) \\cdot 2000 \\approx 7.77$$ 即爬升到 6000 英尺约需 7.77 分钟；在 $[0,10000]$ 上取 5 个子区间：$$\\int_{0}^{10000} m(h) \\, dh \\approx \\left( \\frac{1}{875} + \\frac{1}{780} + \\frac{1}{685} + \\frac{1}{585} + \\frac{1}{490} \\right) \\cdot 2000 \\approx 15.27$$ 即爬升到 10000 英尺约需 15.27 分钟。（$m(h)$ 单调递减，中点法给出较好的估计。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §5.2 习题（Exercise 5.2.7）。原题（b）小问为解释原函数含义的文字叙述题，未单独收录；原题数据表改以文字行形式给出，数据未变。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§5.2"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.511",
+      "title": "小镇用电功率与日耗电量",
+      "questionText": "某镇居民用电的功率消耗率已按平均使用数据建模为 $$r(t) = 4 + \\sin(0.263t + 4.7) + \\cos(0.526t+9.4)$$ 其中 $t$ 表示从一个典型工作日午夜起经过的时间（小时），$r(t)$ 为 $t$ 时刻的功率消耗率（兆瓦）。已知 1 兆瓦时（MWh）等于 1 兆瓦功率持续 1 小时所消耗的能量。\n（1）不经计算，说明 $\\int_0^{24} r(t) \\, dt$ 的意义及其单位；\n（2）求该镇一个典型昼夜消耗的总能量（精确到小数点后 4 位）；\n（3）求该镇在 24 小时内的平均功率消耗率及其单位。",
+      "answerText": "（1）$\\int_0^{24} r(t) \\, dt$ 表示该镇 24 小时内消耗的总能量，单位为兆瓦时：$r(t)$ 的单位是兆瓦，黎曼和中 $r(t) \\cdot \\triangle t$ 的单位是兆瓦时，积分变化率即得总变化量。\n（2）$$\\int_0^{24} r(t) \\, dt = \\int_0^{24} \\left[ 4 + \\sin(0.263t + 4.7) + \\cos(0.526t+9.4) \\right] \\, dt$$ 分别用 $u = 0.263t + 4.7$（$du = 0.263 \\, dt$）与 $w = 0.526t + 9.4$（$dw = 0.526 \\, dt$）换元，得 $$\\int_0^{24} r(t) \\, dt = \\left. 4t -\\frac{1}{0.263} \\cos(0.263t + 4.7) + \\frac{1}{0.526} \\sin(0.526t + 9.4) \\right|_0^{24} \\approx 95.7809$$ 即一个典型昼夜约消耗 $95.7809$ 兆瓦时的电能。\n（3）24 小时内的平均功率消耗率为 $$r_{\\operatorname{AVG} [0,24]} = \\frac{1}{24-0} \\int_{0}^{24} r(t) \\, dt \\approx \\frac{1}{24} \\cdot 95.7809 = 3.99087$$ 单位为兆瓦。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_substitution",
+        "integral_mean_value"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §5.3 习题（Exercise 5.3.14）。原题（a）小问要求作图并解释模型合理性，属作图题，未收录；原书答案（d）将平均功率的单位误写作 megawatt-hours，按其解题过程应为兆瓦（megawatts），已修正。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§5.3"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.512",
+      "title": "定积分的数值近似与误差方向判断",
+      "questionText": "考虑定积分 $\\int_0^1 x \\tan(x) \\, dx$。\n（1）将 $[0,1]$ 四等分，分别用左端点法、右端点法、中点法、梯形法计算 $L_4$、$R_4$、$M_4$、$T_4$（保留 5 位小数），并按 $S_8 = \\frac{2M_4 + T_4}{3}$ 计算 $S_8$；\n（2）判断（1）中各近似值哪些是 $\\int_0^1 x \\tan(x) \\, dx$ 的不足近似、哪些是过剩近似，并说明理由。",
+      "answerText": "（1）将 $[0,1]$ 四等分，节点为 $0, 0.25, 0.5, 0.75, 1$：\n$L_4 = 0.25892$，$R_4 = 0.64827$，$M_4 = 0.41550$，$$T_4 = \\frac{L_4 + R_4}{2} = 0.45360$$ $$S_8 = \\frac{2M_4 + T_4}{3} = 0.42820$$\n（2）设 $f(x) = x\\tan(x)$，则 $f'(x) = \\tan(x) + x\\sec^2(x) > 0$，$f''(x) = 2\\sec^2(x) + 2x\\sec^2(x)\\tan(x) > 0$，故 $f$ 在 $[0,1]$ 上单调增且为凹（向上凹，$f''>0$）。于是：单调增 $\\Rightarrow$ $L_4$ 为不足近似、$R_4$ 为过剩近似；凹 $\\Rightarrow$ 中点法为不足近似、梯形法为过剩近似。即 $L_4$、$M_4$ 是不足近似，$R_4$、$T_4$ 是过剩近似。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §5.6 习题（Exercise 5.6.5）。原题（a）小问为解释该积分为何不能精确求解的文字题，未收录；原书答案（c）误将过剩近似中的 $T_4$ 写作 $M_4$（$M_4$ 与 $L_4$ 同为不足近似），已按单调性与凹性对应的误差方向修正。各近似值已用项目脚本数值验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§5.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.513",
+      "title": "由数值近似值反推函数的单调性与凹凸性",
+      "questionText": "设 $f(x)$ 在 $[3,6]$ 上连续，在 $[3,6]$ 上恒单调（恒增或恒减），且在整个区间 $[3,6]$ 上凹向不变。作为 $\\int_3^6 f(x) \\, dx$ 的近似值，已知（均将 $[3,6]$ 四等分）$$L_4 = 7.23, \\quad R_4 = 6.75, \\quad M_4 = 7.05$$ 其中 $L_4$、$R_4$、$M_4$ 分别为左端点、右端点、中点近似。\n（1）判断 $f$ 在 $[3,6]$ 上是增还是减，并说明理由；\n（2）判断 $f$ 在 $[3,6]$ 上是凹（向上凹，$f''>0$）还是凸（向上凸，$f''<0$），并说明理由；\n（3）在所给条件下，求 $\\int_3^6 f(x) \\, dx$ 的尽可能好的估计值。",
+      "answerText": "（1）因为 $L_4 = 7.23 \\gt 6.75 = R_4$，而函数恒单调时左端点法偏大、右端点法偏小当且仅当函数递减，故 $f$ 在 $[3,6]$ 上恒减。\n（2）$$T_4 = \\frac{L_4 + R_4}{2} = \\frac{7.23 + 6.75}{2} = 6.99$$ 于是 $$R_4 \\lt T_4 \\lt M_4 \\lt L_4$$ 由 $T_4 \\lt M_4$ 知梯形法偏低而中点法偏高，这恰是 $f''<0$（凸，向上凸）时的误差方向，且凹向不变，故 $$T_4 \\lt \\int_3^6 f(x) \\, dx \\lt M_4$$ 即 $f$ 在 $[3,6]$ 上是凸的（$f''<0$）。\n（3）用辛普森公式作最佳估计：$$\\int_3^6 f(x) \\, dx \\approx S_8 = \\frac{2M_4 + T_4}{3} = \\frac{2 \\cdot 7.05 + 6.99}{3} = 7.03$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §5.6 习题（Exercise 5.6.6）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§5.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.514",
+      "title": "大坝泄洪流量的数值积分估计",
+      "questionText": "水通过大坝的流量以立方英尺/秒（CFS）计。工程师开启闸门时记录的流量数据如下：\n时间 $t$（秒）：0，10，20，30，40，50，60；\n流量 $r(t)$（CFS）：2000，2100，2400，3000，3900，5100，6500。\n（1）写出表示 60 秒内通过大坝总水量（立方英尺）的定积分；\n（2）用所给数据、取数据能支持的最大 $n$ 计算中点近似 $M_n$，并判断它是该积分的不足近似还是过剩近似，说明理由；\n（3）取数据能支持的最大 $n$，用辛普森公式 $S_n$ 估计（1）中的积分；\n（4）计算 $\\frac{1}{60} S_n$ 与 $\\frac{2000+2100+2400+3000+3900+5100+6500}{7}$，说明两个值各估计什么量，哪个更精确。",
+      "answerText": "（1）$$\\int_0^{60} r(t) \\, dt$$\n（2）7 个数据点把 $[0,60]$ 分成 6 段，中点只能取到 $t=10,30,50$，故最大 $n=3$：$$M_3 = \\left[r(10) + r(30) + r(50)\\right] \\cdot 20 = (2100 + 3000 + 5100) \\cdot 20 = 204000$$ 由数据可见 $r(t)$ 在 $[0,60]$ 上递增且为凹（向上凹），故中点法偏低，即 $$\\int_0^{60} r(t) \\, dt \\gt M_3 = 204000$$\n（3）$$\\int_0^{60} r(t) \\, dt \\approx S_6 = \\frac{10}{3}\\left[2000 + 4\\cdot2100 + 2\\cdot2400 + 4\\cdot3000 + 2\\cdot3900 + 4\\cdot5100 + 6500\\right] = \\frac{619000}{3} \\approx 206333.33$$\n（4）$$\\frac{1}{60} S_6 \\approx 3438.89$$ $$\\frac{2000+2100+2400+3000+3900+5100+6500}{7} = \\frac{25000}{7} \\approx 3571.43$$ 两者都估计 $[0,60]$ 上通过大坝的平均流量（CFS）；前者由更精确的 $S_6$ 平均而来，是更精确的近似。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §5.6 习题（Exercise 5.6.7）。原题数据表改以文字行形式给出，数据未变；$M_3$、$S_6$ 的展开计算与数值均为项目验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§5.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.616",
+      "title": "参数 a 的选取使两抛物线间面积为定值",
+      "questionText": "设 $f(x) = 1-x^2$，$g(x) = ax^2 - a$，其中 $a$ 为未知的正实数。求 $a$ 的值，使得 $f$ 与 $g$ 之间所夹有限区域的面积等于 2。",
+      "answerText": "两条抛物线都经过点 $(-1,0)$ 与 $(1,0)$，故对一切 $a>0$ 它们的交点都是 $x=\\pm 1$；且在 $-1 \\lt x \\lt 1$ 上 $1 - x^2 \\gt ax^2 - a$，于是所求面积为 $$A = \\int_{-1}^{1} \\left( 1 - x^2 - (ax^2 - a) \\right) \\, dx = \\int_{-1}^{1} \\left( (1+a) - (1+a)x^2 \\right) \\, dx$$ 计算得 $$A = \\left. (1+a)x - \\frac{1+a}{3}x^3 \\right|_{-1}^{1} = 2(1+a) - \\frac{2(1+a)}{3} = \\frac{4(1+a)}{3}$$ 令 $A = 2$，即 $$2 = \\frac{4(1+a)}{3}$$ 解得 $$a = \\frac{1}{2}$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.1 习题（Exercise 6.1.11）。原题配图仅为示意（位于原书解答中），题干文字自足。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§6.1"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.617",
+      "title": "函数的平均值与平均线两侧面积相等",
+      "questionText": "设 $f(x) = 2-x^2$。连续函数 $f$ 在区间 $[a,b]$ 上的平均值定义为 $$\\frac{1}{b-a} \\int_a^b f(x) \\, dx$$\n（1）求 $f$ 在区间 $[0,\\sqrt{2}]$ 上的平均值，记为 $r$；\n（2）求 $y = f(x)$ 与 $y = r$ 在 $[0,\\sqrt{2}]$ 内交点的横坐标；\n（3）证明：在 $[0,\\sqrt{2}]$ 上，位于 $y = f(x)$ 之下、$y = r$ 之上的面积等于位于 $y = r$ 之下、$y = f(x)$ 之上的面积；\n（4）证明：对任意连续函数及其在任一区间上的平均值，上述结论都成立。",
+      "answerText": "（1）$$r = \\frac{1}{\\sqrt{2}} \\int_0^{\\sqrt{2}} 2-x^2 \\, dx = \\left. \\frac{1}{\\sqrt{2}}\\left(2x - \\frac{x^3}{3}\\right) \\right|_0^{\\sqrt{2}} = \\frac{1}{\\sqrt{2}}\\left( 2\\sqrt{2} - \\frac{(\\sqrt{2})^3}{3} \\right) = 2 - \\frac{2}{3} = \\frac{4}{3}$$\n（2）令 $2-x^2 = \\frac{4}{3}$，得 $x^2 = \\frac{2}{3}$，故交点横坐标为 $$x = \\frac{\\sqrt{6}}{3}$$（$0 \\lt x \\lt \\frac{\\sqrt{6}}{3}$ 时 $f$ 在直线 $y=r$ 上方，其余部分在下方。）\n（3）记 $A_1$ 为 $\\left[0, \\frac{\\sqrt{6}}{3}\\right]$ 上 $y=f(x)$ 与 $y=r$ 之间的面积，$A_2$ 为 $\\left[\\frac{\\sqrt{6}}{3}, \\sqrt{2}\\right]$ 上两线之间的面积，则 $$A_1 = \\int_0^{\\sqrt{6}/3} (2-x^2) - \\frac{4}{3} \\ dx = \\int_0^{\\sqrt{6}/3} \\frac{2}{3} - x^2  \\ dx = \\left. \\left( \\frac{2}{3}x - \\frac{x^3}{3} \\right) \\right|_0^{\\sqrt{6}/3} = \\frac{2\\sqrt{6}}{9} - \\frac{2\\sqrt{6}}{27} = \\frac{4 \\sqrt{6}}{27}$$ $$A_2 = \\int_{\\sqrt{6}/3}^{\\sqrt{2}} \\frac{4}{3} - (2-x^2) \\ dx = \\int_{\\sqrt{6}/3}^{\\sqrt{2}}  x^2 - \\frac{2}{3}  \\ dx = \\left. \\left(\\frac{x^3}{3} - \\frac{2}{3}x \\right) \\right|_{\\sqrt{6}/3}^{\\sqrt{2}} = \\frac{4 \\sqrt{6}}{27}$$ 故 $A_1 = A_2$。\n（4）设 $AV$ 为 $f$ 在 $[a,b]$ 上的平均值。由定义 $$AV(b-a) = \\int_a^b f(x) \\ dx$$ 它是以 $[a,b]$ 为底、$AV$ 为高的矩形面积。记 $R_1$ 为 $[a,b]$ 上位于 $y=f(x)$ 之下、$y=AV$ 之上的区域面积，$R_2$ 为位于 $y=AV$ 之下、$y=f(x)$ 之上的区域面积，则定积分等于矩形面积加上多出的部分再减去缺少的部分：$$\\int_a^b f(x) \\, dx = AV(b-a) + R_2 - R_1$$ 与 $AV(b-a) = \\int_a^b f(x) \\ dx$ 比较得 $R_2 - R_1 = 0$，即 $R_1 = R_2$，结论对任意连续函数成立。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [
+        "definite_integral"
+      ],
+      "knowledgePointIds": [
+        "integral_mean_value",
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.1 习题（Exercise 6.1.12）。原题（b）小问要求作草图，未单独收录；（4）为原题（d）的推广论证，属可客观作答的证明子问，予以保留。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§6.1"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.618",
+      "title": "两抛物线与 y 轴围成区域的面积与旋转体体积",
+      "questionText": "考虑由曲线 $y = 1+\\frac{1}{2}(x-2)^2$、$y=\\frac{1}{2}x^2$ 与直线 $x = 0$ 所围成的有限区域 $R$。\n（1）求 $R$ 的面积；\n（2）求 $R$ 绕直线 $y = -1$ 旋转一周所得旋转体的体积；\n（3）写出表示 $R$ 绕 $y$ 轴旋转所得旋转体体积的一个定积分表达式（不必求值）。",
+      "answerText": "（1）两曲线的交点：$1+\\frac{1}{2}(x-2)^2 = \\frac{1}{2}x^2$ 展开即 $3 - 2x = 0$，得 $x = 1.5$；又 $R$ 以 $x=0$（$y$ 轴）为左边界，两曲线在 $[0,1.5]$ 上的差为 $3-2x$，故 $$A = \\int_0^{1.5} 1+\\frac{1}{2}(x-2)^2 - \\frac{1}{2}x^2 \\ dx = \\int_0^{1.5} (3-2x) \\, dx = 2.25$$\n（2）绕 $y=-1$ 旋转用垫圈法：外半径为 $\\left(1+\\frac{1}{2}(x-2)^2\\right) - (-1) = 2+\\frac{1}{2}(x-2)^2$，内半径为 $\\frac{1}{2}x^2 - (-1) = 1+\\frac{1}{2}x^2$，故 $$V = \\int_0^{1.5} \\pi\\left[\\left(2+\\frac{1}{2}(x-2)^2\\right)^2 - \\left(1+\\frac{1}{2}x^2\\right)^2 \\right] \\ dx = \\frac{315}{32} \\pi$$\n（3）绕 $y$ 轴旋转时按 $y$ 分两段用垫圈法（两曲线在 $x=1.5$ 处相交，交点纵坐标为 $y=1.125$）：$$V = \\int_{0}^{1.125} \\pi \\left(\\sqrt{2y}\\right)^2 \\ dy + \\int_{1.125}^3 \\pi \\left(2 - \\sqrt{2(y-1)}\\right)^2 \\ dy$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §6.2 习题（Exercise 6.2.8）。原题（d）小问要求列出区域周长（弧长积分）的表达式，属仅列式子问，未收录；（2）（3）中的积分值已用项目脚本验算（$\\frac{315}{32}\\pi \\approx 30.93$）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§6.2"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.619",
+      "title": "两种密度细棒的质量、质心与叠加密度",
+      "questionText": "两根横截面积恒定的细棒，长度均为 10 cm，质量密度函数分别为 $\\rho(x) = \\frac{1}{1+x^2}$ 与 $p(x) = e^{-0.1x}$（$x$ 为距棒一端的距离，单位 cm；密度单位 g/cm）。\n（1）分别求两棒的质量；\n（2）分别求两棒的质心坐标；\n（3）另取一根长 10 cm 的细棒，其密度为 $f(x) = \\rho(x) + p(x)$：利用（1）（2）的结果直接写出新棒的质量与 $\\int_0^{10} xf(x) \\, dx$ 的值；并判断命题「新棒的质心是原来两棒质心的平均值」是否成立，说明理由。",
+      "answerText": "（1）$$M_1 = \\int_0^{10} \\frac{1}{1+x^2} \\, dx = \\left. \\arctan(x) \\right|_0^{10} = \\arctan(10) \\approx 1.47113$$ $$M_2 = \\int_0^{10} e^{-0.1x} \\, dx = \\left. -10e^{-0.1x} \\right|_0^{10} = 10 - 10e^{-1} \\approx 6.32121$$（单位 g。）\n（2）由公式 $$\\overline{x} = \\frac{\\int_0^{10} x \\rho(x) \\, dx}{\\int_0^{10} \\rho(x) \\, dx}$$ 而 $$\\int_0^{10} x \\frac{1}{1+x^2} \\, dx = \\frac{1}{2} \\ln(101) \\approx 2.30756$$ $$\\overline{x_1} = \\frac{\\arctan(10)}{\\frac{1}{2}\\ln(101)} \\approx 1.56857$$ 又 $$\\int_0^{10} x e^{-0.1x} \\, dx = 100-200e^{-1} \\approx 26.42411$$ $$\\overline{x_2} = \\frac{10 - 10e^{-1}}{100-200e^{-1}} \\approx 4.18023$$（单位 cm。）\n（3）由定积分的可加性：$$M = \\int_0^{10} \\rho(x) \\, dx + \\int_0^{10} p(x) \\, dx \\approx 1.47113 + 6.32121 = 7.79234$$（g） $$\\int_0^{10} x(\\rho(x) + p(x)) \\, dx = \\int_0^{10} x \\rho(x) \\, dx + \\int_0^{10} x p(x) \\, dx \\approx 2.30756 + 26.42411 = 28.73167$$ 命题不成立：新棒的质心为 $$\\overline{x} = \\frac{\\int_0^{10} x(\\rho(x) + p(x)) \\, dx}{\\int_0^{10} (\\rho(x) + p(x)) \\, dx} \\approx \\frac{2.30756 + 26.42411}{1.47113 + 6.32121} = 3.68717$$ 而两棒质心的平均值为 $$\\frac{\\overline{x_1} + \\overline{x_2}}{2} \\approx 2.8744$$ 两者不同。直观上，简单平均把两棒当作同等的贡献者，没有考虑两棒质量差异悬殊；质心应按质量加权平均。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [
+        "definite_integral"
+      ],
+      "knowledgePointIds": [
+        "definite_integral_substitution",
+        "fundamental_theorem_calculus"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §6.3 习题（Exercise 6.3.6）。原书答案中 $\\int_0^{10} x(\\rho(x) + p(x)) \\, dx$ 一式多写了一个右括号，系笔误，已径改；各数值已用项目脚本验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§6.3"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.620",
+      "title": "埋地圆柱水箱的抽水功与端面静水压力",
+      "questionText": "一个圆柱形水箱水平埋于地下，半径 3 英尺、长 10 英尺，箱内装满水（水的重量密度为 62.4 磅/英尺³），箱顶距地面 2 英尺。以地面为高度基准，竖直向下为正方向建立坐标：箱顶位于深度 $x=2$ 处，箱底位于深度 $x=8$ 处，端面圆为 $(x-5)^2 + y^2 = 3^2$。\n（1）写出将水箱内上半部分的水抽到位于地面上方 4.5 英尺处的卡车所需的功的定积分表达式，并计算其精确值与近似值（单位：英尺·磅）；\n（2）当水箱只剩一半水时，写出水箱一个端面所受静水总压力的定积分表达式，并计算其值（单位：磅）。",
+      "answerText": "（1）对深度 $x \\in [2,5]$ 处、厚 $\\triangle x$ 的薄水层，其体积约为 $10 \\cdot 2\\sqrt{9 - (x-5)^2} \\cdot \\triangle x$，抬升高度为 $x+4.5$，故 $$W = \\int_{2}^{5} 62.4 \\cdot 10 \\cdot 2\\sqrt{9 - (x-5)^2} \\, (x+4.5) \\, dx$$ 即 $$W = \\int_2^5 1248 (x+4.5) \\sqrt{9 - (x-5)^2} \\, dx$$ 令 $u = x-5$（$u$ 从 $-3$ 到 $0$）：$$W = 1248 \\int_{-3}^{0} (u+9.5)\\sqrt{9-u^2} \\, du = 1248\\left( -9 + 9.5 \\cdot \\frac{9\\pi}{4} \\right) = 1248\\left( \\frac{171\\pi}{8} - 9 \\right) = 1404(19\\pi - 8) \\approx 72573.1$$（英尺·磅。）\n（2）半满时水位于深度 $x \\in [5,8]$，深度 $x$ 处的水压强为 $62.4(x-5)$，端面上该处的窄条面积为 $2\\sqrt{9-(x-5)^2}\\,dx$，故 $$F = \\int_{5}^{8} 62.4 \\cdot (x-5) \\cdot 2\\sqrt{9-(x-5)^2} \\, dx$$ 令 $u = x-5$：$$F = 124.8 \\int_{0}^{3} u\\sqrt{9-u^2} \\, du = 124.8 \\cdot 9 = 1123.2$$（磅。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [
+        "definite_integral"
+      ],
+      "knowledgePointIds": [
+        "fundamental_theorem_calculus",
+        "definite_integral_substitution"
+      ],
+      "methodIds": [
+        "substitution"
+      ],
+      "notes": "译自 Active Calculus §6.4 习题（Exercise 6.4.7）。原题只要求列出积分表达式（set up, but do not evaluate），此处按考研习惯同时要求计算；原书答案给出 $W = 1404(19\\pi - 8)$ 但其数值 $\\approx 305179.3$ 与该精确式不符（精确式应为 $\\approx 72573.1$），系原书笔误，已按精确式修正；$W$、$F$ 数值均经项目脚本自算验算。原题配图仅示意坐标系（见原书解答），题干文字自足。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§6.4"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.713",
+      "title": "咖啡冷却的微分方程分析",
+      "questionText": "把一杯咖啡放在房间里，其温度 $T(t)$（华氏度）满足牛顿冷却定律型微分方程 $$\\frac{dT}{dt}= -\\frac1{15}T+5$$ 其中 $t$ 以分钟计。已知 $T(0)=105$。\n（1）求 $\\frac{dT}{dt}\\vert_{T=105}$ 的值，并用一两句话说明 $T(0)=105$ 与该值各表示什么；\n（2）$t=0$ 时咖啡温度在升还是在降？由此估计 $T(1)$；\n（3）对哪些 $T$ 值咖啡温度上升？对哪些 $T$ 值下降？房间温度是多少？\n（4）验证 $T(t) = 75 + 30e^{-t/15}$ 是满足初始条件 $T(0) = 105$ 的解，并说明当 $t$ 充分大时解的行为。",
+      "answerText": "（1）$$\\frac{dT}{dt}\\vert_{T=105} = -\\frac{1}{15}(105) + 5 = -7 + 5 = -2$$ $T(0)=105$ 表示刚放置时咖啡温度为 105 华氏度；$\\frac{dT}{dt}\\vert_{T=105} = -2$ 表示在此刻（$t=0$，$T=105$），咖啡温度正以每分钟 2 华氏度的速率下降。\n（2）由（1），$t=0$ 时温度下降；用一阶线性近似 $$T(1) \\approx 105 + (-2)(1) = 103$$（华氏度。）\n（3）$\\frac{dT}{dt}= -\\frac1{15}T+5 = -\\frac1{15}(T-75)$，故 $T \\lt 75$ 时 $\\frac{dT}{dt} \\gt 0$，温度上升；$T \\gt 75$ 时 $\\frac{dT}{dt} \\lt 0$，温度下降。房间温度即平衡温度 75 华氏度（$T=75$ 时 $\\frac{dT}{dt}=0$）。\n（4）$T(0) = 75 + 30e^0 = 75 + 30 = 105$，满足初始条件；又 $T'(t) = -30 \\cdot \\frac{1}{15} e^{-t/15} = -2e^{-t/15}$，而 $-\\frac1{15}T+5 = -\\frac1{15}(75 + 30e^{-t/15}) + 5 = -2e^{-t/15}$，两者相等，故 $T(t) = 75 + 30e^{-t/15}$ 是解。当 $t \\to \\infty$ 时 $e^{-t/15} \\to 0$，$T(t) \\to 75$，即咖啡温度趋于室温 75 华氏度。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.1 习题（Exercise 7.1.7）。原题（d）小问要求在给定坐标系上作 $\\frac{dT}{dt}$ 关于 $T$ 的图象，属作图题，未收录；其结论（$T<75$ 增、$T>75$ 减）已并入（3）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§7.1"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.714",
+      "title": "具有阈值的种群模型定性分析",
+      "questionText": "某物种种群数量 $P(t)$ 以百万计，其变化率由自治微分方程 $$\\frac{dP}{dt} = f(P)$$ 给出，其中 $f(P)$ 的图象是一条三次曲线：零点为 $P=0$、$P=1$、$P=3$，在 $0 \\lt P \\lt 1$ 上 $f(P) \\lt 0$，且在每个零点处变号（相邻零点之间不变号）。\n（1）对哪些 $P$ 值种群增加？对哪些 $P$ 值种群减少？\n（2）若 $P(0) = 3$，种群随时间将如何变化？\n（3）若初始种群满足 $0 \\lt P(0) \\lt 1$，充分长时间后种群如何？\n（4）若初始种群满足 $1 \\lt P(0) \\lt 3$，充分长时间后种群如何？\n（5）若初始种群满足 $P(0) \\gt 3$，充分长时间后种群如何？结合上述结果说明这一模型为何被称为「有阈值的增长」（growth with a threshold）。",
+      "answerText": "（1）由符号分析：$f(P) \\lt 0$ 于 $0 \\lt P \\lt 1$ 与 $3 \\lt P$（原书图示范围内即 $3 \\lt P \\lt 4$），$f(P) \\gt 0$ 于 $1 \\lt P \\lt 3$。故 $1 \\lt P \\lt 3$ 时种群增加；$0 \\lt P \\lt 1$ 及 $3 \\lt P$ 时种群减少。\n（2）$P = 3$ 是平衡解（$f(3)=0$），故 $P(0)=3$ 时种群保持不变。\n（3）此时 $\\frac{dP}{dt} \\lt 0$，种群持续减少而趋于 $P = 0$（始终为正），即种群将灭绝。\n（4）此时 $\\frac{dP}{dt} \\gt 0$，种群持续增加而趋于 $P = 3$（始终介于 1 与 3 之间）。\n（5）此时 $\\frac{dP}{dt} \\lt 0$，种群持续减少而趋于 $P = 3$（始终大于 3）。综上，$P=1$ 是不稳定平衡（阈值）、$P=3$ 是稳定平衡：初始种群低于阈值 1 时终将灭绝，达到或超过阈值时终将趋于 3（种群长期所能达到的最大水平），故名「有阈值的增长」。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "译自 Active Calculus §7.1 习题（Exercise 7.1.9）。原题 $f(P)$ 由图象给出，此处按原书对图象的描述（原图见原文）以文字等价陈述，数学内容不变。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§7.1"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.715",
+      "title": "常量配额捕捞下的鱼类种群模型",
+      "questionText": "湖中某种鱼的种群数量为 $P(t)$（以千尾计），$t$ 以月计，种群增长由微分方程 $$\\frac{dP}{dt} = f(P) = P(6-P)$$ 描述。\n（1）求平衡解并判断各自的稳定性，描述种群的长期行为；\n（2）若湖主允许每月捕捞 1 千尾，写出修改后的微分方程，求新的平衡解并判断稳定性；\n（3）在（2）的情形下，描述种群的长期行为；\n（4）若每月捕捞 $h$ 千尾，方程如何修改？平衡解如何表示？\n（5）每月最多捕捞多少千尾才能不使种群灭绝？按此最大速率捕捞时，种群的最终数量是多少？",
+      "answerText": "（1）令 $f(P) = P(6-P) = 0$ 得 $P=0$ 与 $P=6$。$P$ 略小于 0 时 $f(P) \\lt 0$、略大于 0 时 $f(P) \\gt 0$，解远离 $P=0$，故 $P=0$ 不稳定；$P$ 略小于 6 时 $f(P) \\gt 0$、略大于 6 时 $f(P) \\lt 0$，解向 $P=6$ 靠拢，故 $P=6$ 稳定。只要初始有鱼，种群长期趋于 6 千尾。\n（2）每月移除 1 千尾（注意 $P$ 以千尾计），故 $$\\frac{dP}{dt} = g(P) = P(6-P)-1$$ 令 $g(P)=0$ 即 $P^2-6P+1 = 0$，解得 $$P = \\frac{6+\\sqrt{32}}{2} \\approx 5.83 \\quad \\text{与} \\quad P = \\frac{6-\\sqrt{32}}{2} \\approx 0.172$$ 与（1）同样的分析可知 $P\\approx 0.172$ 不稳定，$P\\approx 5.83$ 稳定。\n（3）若 $P \\lt \\frac{6-\\sqrt{32}}{2}$，则 $g(P) \\lt 0$，种群将持续减少直至灭绝；若 $P \\gt \\frac{6-\\sqrt{32}}{2}$，则种群趋于稳定平衡值 $\\frac{6+\\sqrt{32}}{2}$ 千尾。\n（4）此时 $$\\frac{dP}{dt} = g(P) = P(6-P)-h$$ 平衡解满足 $P^2 - 6P + h = 0$，即 $$P = \\frac{6+\\sqrt{36-4h}}{2}, \\quad P = \\frac{6-\\sqrt{36-4h}}{2}$$\n（5）要存在正的稳定平衡，需 $36-4h \\ge 0$，即 $h \\le 9$：每月最多捕捞 9 千尾（9000 尾）。按此最大速率捕捞时两平衡解重合于 $P = 3$，只要初始种群不少于 3 千尾，种群最终将维持在 3 千尾（3000 尾）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [
+        "derivative_sign"
+      ],
+      "notes": "译自 Active Calculus §7.2 习题（Exercise 7.2.8）。原题（a）（b）要求先作 $f$、$g$ 关于 $P$ 的图象再判断，属作图子问，此处按方程直接做符号分析，结论不变。本题为常量配额捕捞（出现双平衡解与临界捕捞率），与已收录 bank.cal.ac2.712（Exercise 7.6.7，比例捕捞模型）模型不同，不重复。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§7.2"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.716",
+      "title": "欧拉法近似值的加速收敛改进",
+      "questionText": "用欧拉（Euler）法近似初值问题 $dy/dt = y$，$y(0)=1$ 的解在 $\\overline{t}=1$ 处的值 $y(1)$ 时，误差与步长 $\\Delta t$ 成正比：$$y(\\overline{t})-E_{\\Delta t} \\approx K\\Delta t$$ 其中 $E_{\\Delta t}$ 为步长 $\\Delta t$ 对应的欧拉近似值，$K$ 为比例常数。加速收敛的想法是把该比例关系当作严格等式 $$y(\\overline{t})-E_{\\Delta t} = K\\Delta t$$ 联立两个步长的结果解出 $y(\\overline{t})$ 与 $K$。\n（1）已知 $\\Delta t = 0.2$ 与 $\\Delta t = 0.1$ 时的欧拉近似值分别为 $E_{0.2} = 2.4883$ 与 $E_{0.1} = 2.5937$，即 $$y(1) - 2.4883 = 0.2K, \\qquad y(1) - 2.5937 = 0.1K$$ 解此线性方程组求改进后的 $y(1)$ 近似值（精确值为 $y(1) = e = 2.71828\\ldots$）；\n（2）再用 $E_{0.05} = 2.6533$ 与 $E_{0.025} = 2.6851$ 作同样处理求出另一改进近似值，并比较（1）（2）哪个更好，说明理由。",
+      "answerText": "（1）两式相减消去 $y(1)$：$-2.4883 - (-2.5937) = 0.2K - 0.1K$，即 $0.1054 = 0.1K$，故 $K = 1.054$。代回第一式：$$y(1) = 0.2(1.054) + 2.4883 = 2.6991$$\n（2）同理有方程组 $$y(1) - 2.6533 = 0.05K, \\qquad y(1) - 2.6851 = 0.025K$$ 解得 $K = 1.272$，$$y(1) = 0.05(1.272) + 2.6533 = 2.7169$$ 与精确值 $e = 2.71828\\ldots$ 相比，（2）的近似值 2.7169 比（1）的 2.6991 更好：因为（2）所用两个近似值本身来自更小的步长，误差比例系数所满足的关系在步长更小时更准确。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus §7.3 习题（Exercise 7.3.7）的（a）（b）两问。原题（c）小问需先用欧拉法自行计算两个近似值再外推，计算繁复且与（a）（b）方法重复，未收录。此方法即数值分析中的 Richardson 外推。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§7.3"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.717",
+      "title": "Gompertz 方程的平衡解与显式解",
+      "questionText": "Gompertz 方程是一类用于描述某些种群增长的模型。设 $P(t)$ 为某生物的种群数量，满足 $$\\frac{dP}{dt} = -P\\ln\\left(\\frac P3\\right) = -P(\\ln P - \\ln 3)$$\n（1）求该方程的平衡解并判断其稳定性；\n（2）设 $P(0) = 1$，求 $P(t)$，并说明充分长时间后种群的行为；\n（3）设 $P(0) = 6$，求 $P(t)$，并说明充分长时间后种群的行为。",
+      "answerText": "（1）令 $\\frac{dP}{dt} = 0$：由 $\\ln(1) = 0$ 知唯一平衡解为 $P = 3$（$P=0$ 处方程无定义）。当 $0 \\lt P \\lt 3$ 时 $\\ln\\left(\\frac P3\\right) \\lt 0$，$\\frac{dP}{dt} \\gt 0$，解递增；当 $P \\gt 3$ 时 $\\frac{dP}{dt} \\lt 0$，解递减：两侧解都趋于 $P=3$，故 $P = 3$ 是稳定平衡解。\n（2）分离变量：$$\\frac{1}{P\\ln\\left(\\frac P3\\right)}\\frac{dP}{dt} = -1$$ 令 $u = \\ln (P/3)$（则 $du = \\frac{1}{P} \\, dP$），得 $$\\int \\frac{du}{u} = - \\int 1 \\, dt \\implies \\ln |u| = -t + C$$ 于是 $u = Ke^{-t}$，即 $$P = 3e^{Ke^{-t}}$$ 由 $P(0) = 1$ 得 $3e^{K} = 1$，$e^K = \\frac13$，故 $$P(t) = 3e^{\\ln \\left(\\frac{1}{3} \\right) e^{-t}}$$ 当 $t \\to \\infty$ 时 $e^{-t} \\to 0$，$P(t) \\to 3$：种群从 1 递增趋于 3。\n（3）由 $P(0) = 6$ 得 $3e^{K} = 6$，$e^K = 2$，故 $$P(t) = 3e^{\\ln \\left( 2 \\right) e^{-t}}$$ 当 $t \\to \\infty$ 时 $P(t) \\to 3$：种群从 6 递减趋于 3。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [
+        "variable_substitution"
+      ],
+      "notes": "译自 Active Calculus §7.4 习题（Exercise 7.4.11）。原题（a）（e）两小问要求画斜率场并对照验证，属作图题，未收录；原书解答配图说明中称 $P(0)=1$ 的解「递减」，与其斜率场描述（$0<P<3$ 时斜率为正）矛盾，按方程正确结论应为递增趋于 3。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§7.4"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.816",
+      "title": "幂级数的收敛域与和函数（中心在 1）",
+      "questionText": "考虑幂级数 $$T(x) = \\sum_{k = 1}^{\\infty} \\frac{1}{k \\cdot 2^k}(x-1)^k = \\frac{1}{1 \\cdot 2}(x-1) + \\frac{1}{2 \\cdot 4}(x-1)^2 + \\frac{1}{3 \\cdot 8}(x-1)^3 + \\cdots$$\n（1）记 $r_n(x)$ 为级数第 $n+1$ 项与第 $n$ 项之比，求 $r_n(x)$ 的最简表达式，并求 $r(x) = \\lim_{n \\to \\infty} r_n(x)$；\n（2）求该级数的收敛半径与收敛域；\n（3）证明：当 $|x-1| \\lt 2$ 时 $T(x) = \\ln(2) - \\ln(3-x)$，并求 $T(2)$ 的精确值。",
+      "answerText": "（1）$$r_n(x) = \\frac{ \\frac{1}{ (n+1) \\cdot 2^{n+1} } (x-1)^{n+1} }{ \\frac{1}{n \\cdot 2^n} (x-1)^n } = \\frac{n}{n+1} \\cdot \\frac{1}{2} \\cdot (x-1)$$ 故 $$r(x) = \\lim_{n \\to \\infty} r_n(x) = \\frac{1}{2} \\cdot (x-1)$$\n（2）$|r(x)| \\lt 1$ 即 $\\left|\\frac{1}{2} \\cdot (x-1)\\right| \\lt 1$，即 $|x - 1| \\lt 2$，故收敛半径 $R=2$，开区间为 $-1 \\lt x \\lt 3$。再查端点：$x = -1$ 时级数为 $\\sum_{k=1}^{\\infty} \\frac{(-1)^k}{k}$，由交错级数判别（Leibniz）收敛；$x = 3$ 时级数为调和级数 $\\sum_{k=1}^{\\infty} \\frac{1}{k}$，发散。故收敛域为 $$[-1, 3)$$\n（3）在 $|x-1| \\lt 2$ 时 $\\left| \\frac{x-1}{2} \\right| \\lt 1$，利用 $-\\ln(1-u) = \\sum_{k=1}^{\\infty} \\frac{u^k}{k}$（$|u| \\lt 1$）取 $u = \\frac{x-1}{2}$：$$\\ln(2) - \\ln(3-x) = -\\ln\\left(1 - \\frac{x-1}{2}\\right) = \\sum_{k=1}^{\\infty} \\frac{1}{k}\\left(\\frac{x-1}{2}\\right)^k = \\sum_{k=1}^{\\infty} \\frac{1}{k \\cdot 2^k}(x-1)^k = T(x)$$ 令 $x = 2$：$T(2) = \\ln(2) - \\ln(1) = \\ln(2)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "power_series_radius_domain",
+      "secondaryProblemTypeIds": [
+        "power_series_sum"
+      ],
+      "knowledgePointIds": [
+        "power_series_radius",
+        "power_series_interval",
+        "power_series_sum"
+      ],
+      "methodIds": [
+        "ratio_root_test",
+        "standard_series_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.4 活动（Activity 8.4.1）。原题第（4）问要求作图比较 $T_{10}$ 与 $f(x)=\\ln(2)-\\ln(3-x)$，属作图题，未收录；端点收敛性讨论为按国内收敛域要求补充的标准论证（原书仅用比值法得开区间）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§8.4"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.817",
+      "title": "用交错级数估计 sin 1 的值",
+      "questionText": "利用 $\\sin(x) = x - \\frac{1}{3!}x^3 + \\frac{1}{5!}x^5 - \\cdots$，不借助计算设备估计 $\\sin(1)$ 的值，使误差不超过 $0.0001$，并说明所依据的误差估计定理与所需截断的项数。",
+      "answerText": "$x=1$ 时得交错级数 $$\\sin(1) = 1 - \\frac{1}{3!} + \\frac{1}{5!} - \\frac{1}{7!} + \\cdots$$ 其通项绝对值 $\\frac{1}{(2m-1)!}$ 单调递减趋于 0，由交错级数估计定理，截断误差不超过首个舍去项。因 $\\frac{1}{7!} \\approx 0.000198 \\gt 0.0001$，不能止于第三项，需取到 $-\\frac{1}{7!}$：$$\\sin(1) \\approx 1 - \\frac{1}{3!} + \\frac{1}{5!} - \\frac{1}{7!} = \\frac{4241}{5040} \\approx 0.8414682539682539\\ldots$$ 此时误差不超过下一项 $\\frac{1}{9!} \\approx 0.00000276 \\lt 0.0001$。（与真值 $\\sin(1) = 0.84147098\\ldots$ 一致。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series",
+        "alternating_series"
+      ],
+      "methodIds": [
+        "standard_series_expansion",
+        "leibniz_test"
+      ],
+      "notes": "译自 Active Calculus §8.6 活动（Activity 8.6.1）第（1）问。原书解答把 $\\sin(x)$ 展开式的第 3、4 项误写作 $\\frac{1}{5!}x^7$、$\\frac{1}{7!}x^9$，系笔误，此处按正确展开式（$\\frac{1}{5!}x^5$、$\\frac{1}{7!}x^7$）陈述。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§8.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.818",
+      "title": "用级数估计定积分并控制误差",
+      "questionText": "已知 $\\int_0^1 e^{-x^2} \\, dx$ 可表示为级数 $$\\int_0^1 e^{-x^2} \\, dx = 1 - \\frac{1}{3} + \\frac{1}{2! \\cdot 5} - \\frac{1}{3! \\cdot 7} + \\cdots + \\frac{(-1)^n}{n! \\cdot (2n+1)} + \\cdots$$ 利用该级数估计 $\\int_0^1 e^{-x^2} \\, dx$，使误差不超过 $0.0001$，写出所取的部分和及其近似值，并说明误差依据。",
+      "answerText": "该级数为交错级数，通项绝对值 $\\frac{1}{n! \\cdot (2n+1)}$ 单调递减趋于 0，由交错级数估计定理，用部分和近似时误差不超过首个舍去项。由 $\\frac{1}{6! \\cdot 13} = \\frac{1}{9360} \\approx 0.000107 \\gt 0.0001$，需再取一项（其下一项 $\\frac{1}{7! \\cdot 15} \\approx 0.0000132 \\lt 0.0001$），即取到 $n=6$：$$\\int_0^1 e^{-x^2} \\, dx \\approx 1 - \\frac{1}{3} + \\frac{1}{2! \\cdot 5} - \\frac{1}{3! \\cdot 7} + \\frac{1}{4! \\cdot 9} - \\frac{1}{5! \\cdot 11} + \\frac{1}{6! \\cdot 13} = \\frac{1614779}{2162160} \\approx 0.746836$$（真值 $\\int_0^1 e^{-x^2} \\, dx \\approx 0.746824$，实际误差约 $1.2 \\times 10^{-5}$，满足要求。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series",
+        "alternating_series"
+      ],
+      "methodIds": [
+        "standard_series_expansion",
+        "leibniz_test"
+      ],
+      "notes": "译自 Active Calculus §8.6 活动（Activity 8.6.1）第（2）问。原书解答把下一项误写作 $\\frac{1}{756600}$（应为 $\\frac{1}{75600}$，因 $7!\\cdot 15 = 75600$），此处已径改；真值与实际误差为项目自算验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§8.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.819",
+      "title": "用 10 次泰勒多项式估计 e² 并给出误差界",
+      "questionText": "用 $f(x) = e^x$ 在 $a = 0$ 处的 10 次泰勒多项式估计 $e^2$。\n（1）写出 $T_{10}(2)$ 的求和表达式并计算其值（保留 6 位小数）；\n（2）用拉格朗日误差界估计 $\\left| e^2 - T_{10}(2) \\right|$ 的上界（提示：在 $[0,2]$ 上 $\\left| f^{(11)}(x) \\right| \\le 9$），并与实际误差比较。",
+      "answerText": "（1）$$T_{10}(2) = \\sum_{k=0}^{10} \\frac{2^k}{k!} \\approx 7.388995$$\n（2）$f(x) = e^x$ 的各阶导数均为 $e^x$，在 $[0,2]$ 上最大值为 $e^2 \\lt 3^2$，故可取 $M = 3^2$。由拉格朗日误差界 $$\\left| f(2) - T_{10}(2) \\right| \\leq 3^2 \\cdot \\frac{|2-0|^{11}}{(11)!} = \\frac{3^2 \\cdot 2^{11}}{(11)!} \\approx 0.000461760462$$ 即 $T_{10}(2)$ 与 $e^2$ 的误差不超过约 $0.000462$。实际误差为 $|e^2 - T_{10}(2)| \\approx |7.389056 - 7.388995| \\approx 0.000061$，远小于该上界。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.6 活动（Activity 8.6.2）第（1）问。$T_{10}(2)$、$e^2$ 与实际误差的数值均经项目脚本自算验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§8.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.820",
+      "title": "估计 cos 1 所需的泰勒多项式次数",
+      "questionText": "用 $f(x) = \\cos(x)$ 在 $a = 0$ 处的 $n$ 次泰勒多项式估计 $\\cos(1)$，要求精度达到 $0.00000001$。\n（1）由拉格朗日误差界确定所需的最小次数 $n$；\n（2）写出该泰勒多项式并计算 $\\cos(1)$ 的近似值。",
+      "answerText": "（1）$\\cos(x)$ 的各阶导数是 $\\pm\\sin(x)$ 或 $\\pm\\cos(x)$，绝对值处处不超过 1，故取 $M = 1$，误差满足 $$\\left| \\cos(1) - T_n(1) \\right| \\leq 1 \\cdot \\frac{|1-0|^{n+1}}{(n+1)!} = \\frac{1}{(n+1)!}$$ 令 $\\frac{1}{(n+1)!} \\leq 0.00000001 = 10^{-8}$：由 $\\frac{1}{11!} \\approx 2.505 \\cdot 10^{-8} \\gt 10^{-8}$ 与 $\\frac{1}{12!} \\approx 2.088 \\cdot 10^{-9} \\lt 10^{-8}$，得 $n + 1 = 12$，即最小次数 $n = 11$。\n（2）$$T_{11}(x) = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\cdots - \\frac{x^{10}}{10!}$$ $$\\cos(1) \\approx T_{11}(1) = 1 - \\frac{1^2}{2!} + \\frac{1^4}{4!} - \\cdots - \\frac{1^{10}}{10!} \\approx 0.5403023$$（真值 $\\cos(1) = 0.54030230586814 \\cdots$，误差约 $2 \\times 10^{-9}$，确实达到了所要求的精度。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_series"
+      ],
+      "methodIds": [
+        "taylor_formula"
+      ],
+      "notes": "译自 Active Calculus §8.6 活动（Activity 8.6.2）第（2）问。数值经项目脚本自算验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§8.6"
+      }
+    },
+    {
+      "id": "bank.cal.ac2.821",
+      "title": "用幂级数法解一阶线性微分方程",
+      "questionText": "用幂级数法解初值问题 $$y' = y + 2x + x^2, \\qquad y(0) = 3$$\n（1）设 $y = \\sum_{k=0}^{\\infty} a_k x^k$，求系数的递推关系，并写出幂级数解的前四个非零项；\n（2）求该初值问题的闭式解 $y(x)$，并把其泰勒展开与（1）的幂级数对照验证。",
+      "answerText": "（1）$y' = \\sum_{k=0}^{\\infty} (k+1)a_{k+1} x^k$，代入方程并比较 $x^k$ 的系数：$$a_0 = y(0) = 3; \\qquad (k+1)a_{k+1} = a_k \\ (k \\ne 1, 2), \\quad 2a_2 = a_1 + 2, \\quad 3a_3 = a_2 + 1$$ 逐个计算：$a_1 = a_0 = 3$；$2a_2 = 3 + 2 = 5 \\Rightarrow a_2 = \\frac{5}{2}$；$3a_3 = \\frac{5}{2} + 1 = \\frac{7}{2} \\Rightarrow a_3 = \\frac{7}{6}$；$4a_4 = \\frac{7}{6} \\Rightarrow a_4 = \\frac{7}{24}$。故 $$y = 3 + 3x + \\frac{5}{2}x^2 + \\frac{7}{6}x^3 + \\frac{7}{24}x^4 + \\cdots$$（前四个非零项为 $3 + 3x + \\frac{5}{2}x^2 + \\frac{7}{6}x^3$。）\n（2）方程即 $y' - y = 2x + x^2$，为一阶线性方程。设特解 $y_p = Ax^2 + Bx + C$，代入比较系数得 $A = -1$，$B = C = -4$，即 $y_p = -x^2 - 4x - 4$；齐次方程解为 $Ce^x$。故通解 $y = Ce^x - x^2 - 4x - 4$，由 $y(0) = 3$ 得 $C = 7$：$$y = 7e^x - x^2 - 4x - 4$$ 其泰勒展开 $7\\left(1 + x + \\frac{x^2}{2} + \\frac{x^3}{6} + \\frac{x^4}{24} + \\cdots\\right) - x^2 - 4x - 4 = 3 + 3x + \\left(\\frac{7}{2} - 1\\right)x^2 + \\frac{7}{6}x^3 + \\frac{7}{24}x^4 + \\cdots$，与（1）完全一致。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [
+        "differential_equation"
+      ],
+      "primaryProblemTypeId": "function_series_expansion",
+      "secondaryProblemTypeIds": [
+        "first_order_differential_equation"
+      ],
+      "knowledgePointIds": [
+        "taylor_series",
+        "first_order_linear_equation"
+      ],
+      "methodIds": [
+        "standard_series_expansion"
+      ],
+      "notes": "译自 Active Calculus §8.7 活动（Activity 8.7.1）第（3）问。原书该活动三问的解答均暂缺，幂级数系数与闭式解 $y = 7e^x - x^2 - 4x - 4$ 为项目自算并已代入方程与初始条件验证；（2）中闭式解的求法为按考研习惯补充。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus (Boelkins)",
+        "license": "CC BY-SA 4.0",
+        "section": "§8.7"
+      }
     }
   ]
 }
