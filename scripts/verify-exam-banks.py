@@ -24,10 +24,14 @@ def check_paper(bank: dict) -> list[str]:
         issues.append(f"题数 {n} != 标准 22/23")
     if year and year < 2004 and n < 10:
         issues.append(f"题数过少 {n}")
-    nums = [p.get("number") for p in problems]
+    nums_raw = [p.get("number") for p in problems]
+    missing_num = [i for i, v in enumerate(nums_raw) if not isinstance(v, int)]
+    if missing_num:
+        issues.append(f"题号字段缺失（第 {','.join(str(i + 1) + ' 题' for i in missing_num[:5])}...）")
+    nums = [v for v in nums_raw if isinstance(v, int)]
     if nums != sorted(nums) or (nums and nums[0] != 1):
         issues.append(f"题号非升序或不从 1 开始: {nums[:8]}...")
-    if nums and nums != list(range(1, len(nums) + 1)):
+    if nums and nums != list(range(nums[0], nums[0] + len(nums))):
         gaps = [i for i in range(nums[0], nums[-1] + 1) if i not in nums]
         if gaps:
             issues.append(f"题号缺号: {gaps}")
