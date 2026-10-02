@@ -309,7 +309,7 @@
    "number": 6,
    "title": "2005 年数学二 第 6 题",
    "questionText": "设 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 均为 3 维列向量，记矩阵 $\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，\n$\\boldsymbol{B}=\\left(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}+4\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{1}+3\\boldsymbol{\\alpha}_{2}+9\\boldsymbol{\\alpha}_{3}\\right)$。\n\n如果 $\\left|\\boldsymbol{A}\\right|=1$，那么 $\\left|\\boldsymbol{B}\\right|=$ ________。",
-   "answerText": "$2$\n\n**解析：**\n因为\n\n$\\boldsymbol{B}=\\boldsymbol{A}\\left(\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & 3\\\\ 1 & 4 & 9\\end{matrix}\\right)$，\n\n所以 $\\left|\\boldsymbol{B}\\right|=\\left|\\boldsymbol{A}\\right|\\left|\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & 3\\\\ 1 & 4 & 9\\end{matrix}\\right|=1\\cdot 2=2$。\n\n---\n\n## 二、选择题",
+   "answerText": "$2$\n\n**解析：**\n因为\n\n$\\boldsymbol{B}=\\boldsymbol{A}\\left(\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & 3\\\\ 1 & 4 & 9\\end{matrix}\\right)$，\n\n所以 $\\left|\\boldsymbol{B}\\right|=\\left|\\boldsymbol{A}\\right|\\left|\\begin{matrix}1 & 1 & 1\\\\ 1 & 2 & 3\\\\ 1 & 4 & 9\\end{matrix}\\right|=1\\cdot 2=2$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
@@ -360,7 +360,7 @@
     "number": 7
    },
    "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-2005.8",
@@ -390,7 +390,7 @@
     "number": 8
    },
    "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-2005.9",
@@ -551,7 +551,7 @@
    "number": 14,
    "title": "2005 年数学二 第 14 题",
    "questionText": "设 $\\boldsymbol{A}$ 为 $n\\left(n\\geq 2\\right)$ 阶可逆矩阵，交换 $\\boldsymbol{A}$ 的第 1 行与第 2 行得矩阵 $\\boldsymbol{B}$，$\\boldsymbol{A}^{*},\\boldsymbol{B}^{*}$ 分别为 $\\boldsymbol{A},\\boldsymbol{B}$ 的伴随矩阵，则（ ）\n（A）交换 $\\boldsymbol{A}^{*}$ 的第 1 列与第 2 列得 $\\boldsymbol{B}^{*}$.\n（B）交换 $\\boldsymbol{A}^{*}$ 的第 1 行与第 2 行得 $\\boldsymbol{B}^{*}$.\n（C）交换 $\\boldsymbol{A}^{*}$ 的第 1 列与第 2 列得 $-\\boldsymbol{B}^{*}$.\n（D）交换 $\\boldsymbol{A}^{*}$ 的第 1 行与第 2 行得 $-\\boldsymbol{B}^{*}$.",
-   "answerText": "C\n\n**解析：**\n设 $\\boldsymbol{E}_{12}$ 为交换第 1 行与第 2 行的初等矩阵，则 $\\boldsymbol{B}=\\boldsymbol{E}_{12}\\boldsymbol{A}$。由 $\\boldsymbol{B}^{*}=\\left|\\boldsymbol{B}\\right|\\boldsymbol{B}^{-1}$，且 $\\left|\\boldsymbol{B}\\right|=-\\left|\\boldsymbol{A}\\right|$，$\\boldsymbol{B}^{-1}=\\boldsymbol{A}^{-1}\\boldsymbol{E}_{12}$，得 $\\boldsymbol{B}^{*}=-\\boldsymbol{A}^{*}\\boldsymbol{E}_{12}$。故交换 $\\boldsymbol{A}^{*}$ 的第 1 列与第 2 列得 $-\\boldsymbol{B}^{*}$。\n\n---\n\n## 三、解答题",
+   "answerText": "C\n\n**解析：**\n设 $\\boldsymbol{E}_{12}$ 为交换第 1 行与第 2 行的初等矩阵，则 $\\boldsymbol{B}=\\boldsymbol{E}_{12}\\boldsymbol{A}$。由 $\\boldsymbol{B}^{*}=\\left|\\boldsymbol{B}\\right|\\boldsymbol{B}^{-1}$，且 $\\left|\\boldsymbol{B}\\right|=-\\left|\\boldsymbol{A}\\right|$，$\\boldsymbol{B}^{-1}=\\boldsymbol{A}^{-1}\\boldsymbol{E}_{12}$，得 $\\boldsymbol{B}^{*}=-\\boldsymbol{A}^{*}\\boldsymbol{E}_{12}$。故交换 $\\boldsymbol{A}^{*}$ 的第 1 列与第 2 列得 $-\\boldsymbol{B}^{*}$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -559,8 +559,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.adjoint_matrix",
     "la.knowledge.inverse_matrix",
+    "la.knowledge.adjoint_matrix",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],
@@ -610,7 +610,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、选择题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2005.16",
@@ -716,13 +716,13 @@
    "answerText": "**解析：**\n（Ⅰ）令 $F\\left(x\\right)=f\\left(x\\right)+x-1$，则 $F\\left(0\\right)=-1<0$，$F\\left(1\\right)=1>0$。由介值定理，存在 $\\xi\\in\\left(0,1\\right)$，使 $F\\left(\\xi\\right)=0$，即 $f\\left(\\xi\\right)=1-\\xi$。\n\n（Ⅱ）在 $\\left[0,\\xi\\right]$ 与 $\\left[\\xi,1\\right]$ 上分别用拉格朗日中值定理，存在 $\\eta\\in\\left(0,\\xi\\right)$，$\\zeta\\in\\left(\\xi,1\\right)$，使\n\n$f^{\\prime}\\left(\\eta\\right)=\\frac{1-\\xi}{\\xi},\\quad f^{\\prime}\\left(\\zeta\\right)=\\frac{\\xi}{1-\\xi}$。\n\n故 $f^{\\prime}\\left(\\eta\\right)f^{\\prime}\\left(\\zeta\\right)=1$。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
     "differentiability_continuity",
+    "multivariable_limit_continuity",
     "power_series_sum"
    ],
    "methodIds": [],

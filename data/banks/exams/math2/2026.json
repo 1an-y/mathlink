@@ -426,7 +426,7 @@
    "number": 10,
    "title": "2026 年数学二 第 10 题",
    "questionText": "设三阶矩阵 $\\boldsymbol A,\\boldsymbol B$ 满足\n$$\n\\boldsymbol A\\boldsymbol B+\\boldsymbol B\\boldsymbol A=\\boldsymbol A^2+\\boldsymbol B^2,\n$$\n且 $\\boldsymbol A\\ne \\boldsymbol B$，则下列结论错误的是\n\n- A. $(\\boldsymbol A-\\boldsymbol B)^3=\\boldsymbol O$\n- B. $\\boldsymbol A-\\boldsymbol B$ 只有零特征值\n- C. $\\boldsymbol A,\\boldsymbol B$ 不能都是对角矩阵\n- D. $\\boldsymbol A-\\boldsymbol B$ 只有一个线性无关的特征向量",
-   "answerText": "D\n\n**解析：**\n原式化为\n$$\n\\boldsymbol A(\\boldsymbol B-\\boldsymbol A)+\\boldsymbol B(\\boldsymbol A-\\boldsymbol B)=\\boldsymbol O,\n$$\n即\n$$\n(\\boldsymbol A-\\boldsymbol B)(\\boldsymbol B-\\boldsymbol A)=\\boldsymbol O,\n$$\n从而\n$$\n(\\boldsymbol A-\\boldsymbol B)^2=\\boldsymbol O.\n$$\n因此：\n\n- **A 对：** 平方为零，立方当然也为零.\n- **B 对：** 若 $\\lambda$ 是 $\\boldsymbol A-\\boldsymbol B$ 的特征值，则 $\\lambda^2=0$，故 $\\lambda=0$.\n- **C 对：** 若二者都为对角矩阵，则差仍为对角矩阵；对角矩阵平方为零只能是零矩阵，这与 $\\boldsymbol A\\ne\\boldsymbol B$ 矛盾.\n- **D 错：** 例如\n  $$\n  \\begin{pmatrix}\n  0&1&0\\\\\n  0&0&0\\\\\n  0&0&0\n  \\end{pmatrix}^2=\\boldsymbol O,\n  $$\n  但其对应零特征值可有两个线性无关特征向量.\n\n故选 **D**.\n\n---\n\n## 二、填空题\n\n`11~16` 小题，每小题 `5` 分，共 `30` 分.",
+   "answerText": "D\n\n**解析：**\n原式化为\n$$\n\\boldsymbol A(\\boldsymbol B-\\boldsymbol A)+\\boldsymbol B(\\boldsymbol A-\\boldsymbol B)=\\boldsymbol O,\n$$\n即\n$$\n(\\boldsymbol A-\\boldsymbol B)(\\boldsymbol B-\\boldsymbol A)=\\boldsymbol O,\n$$\n从而\n$$\n(\\boldsymbol A-\\boldsymbol B)^2=\\boldsymbol O.\n$$\n因此：\n\n- **A 对：** 平方为零，立方当然也为零.\n- **B 对：** 若 $\\lambda$ 是 $\\boldsymbol A-\\boldsymbol B$ 的特征值，则 $\\lambda^2=0$，故 $\\lambda=0$.\n- **C 对：** 若二者都为对角矩阵，则差仍为对角矩阵；对角矩阵平方为零只能是零矩阵，这与 $\\boldsymbol A\\ne\\boldsymbol B$ 矛盾.\n- **D 错：** 例如\n  $$\n  \\begin{pmatrix}\n  0&1&0\\\\\n  0&0&0\\\\\n  0&0&0\n  \\end{pmatrix}^2=\\boldsymbol O,\n  $$\n  但其对应零特征值可有两个线性无关特征向量.\n\n故选 **D**.\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
@@ -600,7 +600,7 @@
    "number": 16,
    "title": "2026 年数学二 第 16 题",
    "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n1&b&-1\\\\\na+2&3&-3a\n\\end{pmatrix}.\n$$\n若二次型\n$$\n\\boldsymbol x^T(\\boldsymbol A\\boldsymbol A^T)\\boldsymbol x\n$$\n的规范形为 $y_1^2$，则 $a+b=$ ________.",
-   "answerText": "$2$\n\n**解析：**\n规范形只有一项，说明\n$$\nr(\\boldsymbol A\\boldsymbol A^T)=1.\n$$\n故\n$$\nr(\\boldsymbol A)=1,\n$$\n即两行成比例.于是\n$$\n\\frac{1}{a+2}=\\frac{b}{3}=\\frac{1}{3a}.\n$$\n由\n$$\na+2=3a,\\qquad 3=(a+2)b\n$$\n得\n$$\na=1,\\qquad b=1.\n$$\n故\n$$\na+b=2.\n$$\n\n---\n\n## 三、解答题\n\n`17~22` 小题，共 `70` 分.解答应写出必要的文字说明、证明过程或演算步骤.",
+   "answerText": "$2$\n\n**解析：**\n规范形只有一项，说明\n$$\nr(\\boldsymbol A\\boldsymbol A^T)=1.\n$$\n故\n$$\nr(\\boldsymbol A)=1,\n$$\n即两行成比例.于是\n$$\n\\frac{1}{a+2}=\\frac{b}{3}=\\frac{1}{3a}.\n$$\n由\n$$\na+2=3a,\\qquad 3=(a+2)b\n$$\n得\n$$\na=1,\\qquad b=1.\n$$\n故\n$$\na+b=2.\n$$\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -621,7 +621,7 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题"
+   "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2026.17",

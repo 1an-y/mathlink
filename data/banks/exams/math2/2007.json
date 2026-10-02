@@ -433,14 +433,14 @@
     "number": 9
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "一、选择题"
   },
   {
    "id": "bank.exam.m2-2007.10",
    "number": 10,
    "title": "2007 年数学二 第 10 题",
    "questionText": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}2 & -1 & -1\\\\ -1 & 2 & -1\\\\ -1 & -1 & 2\\end{matrix}\\right)$，$\\boldsymbol{B}=\\left(\\begin{matrix}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 0\\end{matrix}\\right)$，则 $\\boldsymbol{A}$ 与 $\\boldsymbol{B}$（ ）\nA. 合同，且相似\nB. 合同，但不相似\nC. 不合同，但相似\nD. 既不合同，也不相似",
-   "answerText": "B\n\n**解析：**\n$\\boldsymbol{A}$ 的特征值为 $3,3,0$，$\\boldsymbol{B}$ 的特征值为 $1,1,0$，故二者不相似。但 $\\boldsymbol{A},\\boldsymbol{B}$ 均为实对称矩阵，且正惯性指数均为 $2$，负惯性指数均为 $0$，故二者合同。\n\n---\n\n## 二、填空题",
+   "answerText": "B\n\n**解析：**\n$\\boldsymbol{A}$ 的特征值为 $3,3,0$，$\\boldsymbol{B}$ 的特征值为 $1,1,0$，故二者不相似。但 $\\boldsymbol{A},\\boldsymbol{B}$ 均为实对称矩阵，且正惯性指数均为 $2$，负惯性指数均为 $0$，故二者合同。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -461,7 +461,7 @@
     "number": 10
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "一、选择题"
   },
   {
    "id": "bank.exam.m2-2007.11",
@@ -617,7 +617,7 @@
    "number": 16,
    "title": "2007 年数学二 第 16 题",
    "questionText": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}0 & 1 & 0 & 0\\\\ 0 & 0 & 1 & 0\\\\ 0 & 0 & 0 & 1\\\\ 0 & 0 & 0 & 0\\end{matrix}\\right)$，则 $\\boldsymbol{A}^{3}$ 的秩为 ________。",
-   "answerText": "$1$\n\n**解析：**\n直接计算得 $\\boldsymbol{A}^{3}=\\left(\\begin{matrix}0 & 0 & 0 & 1\\\\ 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0\\end{matrix}\\right)$，故 $\\operatorname{rank}\\left(\\boldsymbol{A}^{3}\\right)=1$。\n\n---\n\n## 三、解答题",
+   "answerText": "$1$\n\n**解析：**\n直接计算得 $\\boldsymbol{A}^{3}=\\left(\\begin{matrix}0 & 0 & 0 & 1\\\\ 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0\\end{matrix}\\right)$，故 $\\operatorname{rank}\\left(\\boldsymbol{A}^{3}\\right)=1$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -638,7 +638,7 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题"
+   "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2007.17",

@@ -379,7 +379,7 @@
    "number": 8,
    "title": "2015 年数学二 第 8 题",
    "questionText": "设二次型 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{P}\\boldsymbol{y}$ 下的标准形为 $2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$，其中 $\\boldsymbol{P}=\\left(\\boldsymbol{e}_{1},\\boldsymbol{e}_{2},\\boldsymbol{e}_{3}\\right)$，若 $\\boldsymbol{Q}=\\left(\\boldsymbol{e}_{1},-\\boldsymbol{e}_{3},\\boldsymbol{e}_{2}\\right)$，则 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{Q}\\boldsymbol{y}$ 下的标准形为（ ）\n（A）$2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$\n\n（B）$2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$\n\n（C）$2y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n（D）$2y_{1}^{2}+y_{2}^{2}+y_{3}^{2}$",
-   "answerText": "（A）\n\n**解析：**\n由题知\n\n$\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}2&0&0\\\\0&1&0\\\\0&0&-1\\end{matrix}\\right)$。\n\n又 $\\boldsymbol{Q}=\\boldsymbol{P}\\boldsymbol{C}$，其中\n\n$\\boldsymbol{C}=\\left(\\begin{matrix}1&0&0\\\\0&0&1\\\\0&-1&0\\end{matrix}\\right)$。\n\n所以\n\n$\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\boldsymbol{C}^{T}\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}\\boldsymbol{C}=\\left(\\begin{matrix}2&0&0\\\\0&-1&0\\\\0&0&1\\end{matrix}\\right)$，\n\n标准形为 $2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$。\n\n---\n\n## 二、填空题\n\n9～14 小题，每小题 4 分，共 24 分。\n\n---",
+   "answerText": "（A）\n\n**解析：**\n由题知\n\n$\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}2&0&0\\\\0&1&0\\\\0&0&-1\\end{matrix}\\right)$。\n\n又 $\\boldsymbol{Q}=\\boldsymbol{P}\\boldsymbol{C}$，其中\n\n$\\boldsymbol{C}=\\left(\\begin{matrix}1&0&0\\\\0&0&1\\\\0&-1&0\\end{matrix}\\right)$。\n\n所以\n\n$\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\boldsymbol{C}^{T}\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}\\boldsymbol{C}=\\left(\\begin{matrix}2&0&0\\\\0&-1&0\\\\0&0&1\\end{matrix}\\right)$，\n\n标准形为 $2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
@@ -558,7 +558,7 @@
    "number": 14,
    "title": "2015 年数学二 第 14 题",
    "questionText": "若 $3$ 阶矩阵 $\\boldsymbol{A}$ 的特征值为 $2,-2,1$，$\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{A}+\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 为 $3$ 阶单位阵，则行列式 $\\left|\\boldsymbol{B}\\right|=$",
-   "answerText": "$21$\n\n**解析：**\n若 $\\lambda$ 为 $\\boldsymbol{A}$ 的特征值，则 $\\lambda^{2}-\\lambda+1$ 为 $\\boldsymbol{B}$ 的特征值。\n\n对应 $2,-2,1$，得 $\\boldsymbol{B}$ 的特征值为 $3,7,1$，故\n\n$\\left|\\boldsymbol{B}\\right|=3\\times 7\\times 1=21$。\n\n---\n\n## 三、解答题\n\n15～23 小题，共 94 分。\n\n---",
+   "answerText": "$21$\n\n**解析：**\n若 $\\lambda$ 为 $\\boldsymbol{A}$ 的特征值，则 $\\lambda^{2}-\\lambda+1$ 为 $\\boldsymbol{B}$ 的特征值。\n\n对应 $2,-2,1$，得 $\\boldsymbol{B}$ 的特征值为 $3,7,1$，故\n\n$\\left|\\boldsymbol{B}\\right|=3\\times 7\\times 1=21$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.determinants",
@@ -615,7 +615,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2015.16",
@@ -835,8 +835,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.real_symmetric_properties",
     "la.knowledge.inverse_matrix",
+    "la.knowledge.real_symmetric_properties",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],

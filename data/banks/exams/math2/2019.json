@@ -314,13 +314,13 @@
    "answerText": "A\n\n**解析：**\n由极限为 $0$ 可推出\n\n$$\nf(a)=g(a),\\qquad f'(a)=g'(a),\\qquad f''(a)=g''(a),\n$$\n\n因此两曲线相切且曲率相等。反之，曲率相等不一定能推出上述极限为 $0$，故选 A。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
     "differentiability_continuity",
+    "multivariable_limit_continuity",
     "curvature"
    ],
    "methodIds": [],
@@ -375,7 +375,7 @@
    "number": 8,
    "title": "2019 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol{A}$ 是 $3$ 阶实对称矩阵，$\\boldsymbol{E}$ 是 $3$ 阶单位矩阵。若\n$$\n\\boldsymbol{A}^{2}+\\boldsymbol{A}=2\\boldsymbol{E},\\qquad |\\boldsymbol{A}|=4,\n$$\n\n则二次型 $\\boldsymbol{X}^{T}\\boldsymbol{A}\\boldsymbol{X}$ 的规范形为\n\n- A. $y_{1}^{2}+y_{2}^{2}+y_{3}^{2}$\n- B. $y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$\n- C. $y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n- D. $-y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$",
-   "answerText": "C\n\n**解析：**\n特征值满足\n\n$$\n\\lambda^2+\\lambda=2,\n$$\n\n故 $\\lambda=1$ 或 $\\lambda=-2$。又 $|\\boldsymbol{A}|=4$，三个特征值乘积为 $4$，所以特征值为\n\n$$\n1,-2,-2.\n$$\n\n正负惯性指数分别为 $1,2$，规范形为\n\n$$\ny_1^2-y_2^2-y_3^2.\n$$\n\n---\n\n## 二、填空题",
+   "answerText": "C\n\n**解析：**\n特征值满足\n\n$$\n\\lambda^2+\\lambda=2,\n$$\n\n故 $\\lambda=1$ 或 $\\lambda=-2$。又 $|\\boldsymbol{A}|=4$，三个特征值乘积为 $4$，所以特征值为\n\n$$\n1,-2,-2.\n$$\n\n正负惯性指数分别为 $1,2$，规范形为\n\n$$\ny_1^2-y_2^2-y_3^2.\n$$\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
@@ -557,7 +557,7 @@
    "number": 14,
    "title": "2019 年数学二 第 14 题",
    "questionText": "已知矩阵\n$$\n\\boldsymbol{A}=\n\\begin{pmatrix}\n1&-1&0&0\\\\\n-2&1&-1&1\\\\\n3&-2&2&-1\\\\\n0&0&3&4\n\\end{pmatrix},\n$$\n\n$A_{ij}$ 表示 $\\boldsymbol{A}$ 中 $(i,j)$ 元的代数余子式，则\n\n$$\nA_{11}-A_{12}=\n$$",
-   "answerText": "$-4$\n\n**解析：**\n按第一行展开可得\n\n$$\nA_{11}-A_{12}=|\\boldsymbol{A}|=-4.\n$$\n\n---\n\n## 三、解答题",
+   "answerText": "$-4$\n\n**解析：**\n按第一行展开可得\n\n$$\nA_{11}-A_{12}=|\\boldsymbol{A}|=-4.\n$$\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.determinants",
@@ -612,7 +612,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2019.16",

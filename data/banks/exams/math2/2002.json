@@ -12,7 +12,8 @@
   "paper": "math2",
   "label": "数学二",
   "sections": [
-   "一、填空题"
+   "一、填空题",
+   "二、选择题"
   ],
   "problemsOrder": [
    {
@@ -46,32 +47,32 @@
     "objective": true
    },
    {
-    "number": 1,
-    "id": "bank.exam.m2-2002.1",
+    "number": 6,
+    "id": "bank.exam.m2-2002.6",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 2,
-    "id": "bank.exam.m2-2002.2",
+    "number": 7,
+    "id": "bank.exam.m2-2002.7",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m2-2002.8",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m2-2002.9",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 3,
-    "id": "bank.exam.m2-2002.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2002.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2002.5",
+    "number": 10,
+    "id": "bank.exam.m2-2002.10",
     "subjectGuess": "calculus",
     "objective": true
    }
@@ -202,7 +203,7 @@
    "number": 5,
    "title": "2002 年数学二 第 5 题",
    "questionText": "矩阵\n$\\begin{bmatrix}0 & -2 & -2\\\\-2 & 2 & 2\\\\2 & 2 & 2\\end{bmatrix}$\n\n的非零特征值是 ________。",
-   "answerText": "$4$\n\n**解析：**\n记该矩阵为 $\\boldsymbol{A}$。计算得 $\\left|\\lambda\\boldsymbol{E}-\\boldsymbol{A}\\right|=\\lambda^{2}\\left(\\lambda-4\\right)$，所以特征值为 $0,0,4$，非零特征值为 $4$。\n\n---\n\n## 二、选择题",
+   "answerText": "$4$\n\n**解析：**\n记该矩阵为 $\\boldsymbol{A}$。计算得 $\\left|\\lambda\\boldsymbol{E}-\\boldsymbol{A}\\right|=\\lambda^{2}\\left(\\lambda-4\\right)$，所以特征值为 $0,0,4$，非零特征值为 $4$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -226,9 +227,9 @@
    "section": "一、填空题"
   },
   {
-   "id": "bank.exam.m2-2002.1",
-   "number": 1,
-   "title": "2002 年数学二 第 1 题",
+   "id": "bank.exam.m2-2002.6",
+   "number": 6,
+   "title": "2002 年数学二 第 6 题",
    "questionText": "设函数 $f\\left(u\\right)$ 可导，$y=f\\left(x^{2}\\right)$。当自变量 $x$ 在 $x=-1$ 处取得增量 $\\Delta x=-0.1$ 时，相应的函数增量 $\\Delta y$ 的线性主部为 $0.1$，则 $f^{\\prime}\\left(1\\right)=$（ ）\nA. $-1$\nB. $0.1$\nC. $1$\nD. $0.5$",
    "answerText": "D\n\n**解析：**\n由 $y=f\\left(x^{2}\\right)$，得 $y^{\\prime}=2x f^{\\prime}\\left(x^{2}\\right)$。线性主部为 $y^{\\prime}\\left(-1\\right)\\Delta x=0.2f^{\\prime}\\left(1\\right)$，由题意 $0.2f^{\\prime}\\left(1\\right)=0.1$，故 $f^{\\prime}\\left(1\\right)=0.5$，选 D。\n\n---",
    "questionImages": [],
@@ -251,29 +252,26 @@
     "kind": "exam",
     "year": 2002,
     "paper": "math2",
-    "number": 1
+    "number": 6
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-2002.2",
-   "number": 2,
-   "title": "2002 年数学二 第 2 题",
+   "id": "bank.exam.m2-2002.7",
+   "number": 7,
+   "title": "2002 年数学二 第 7 题",
    "questionText": "设函数 $f\\left(x\\right)$ 连续，则下列函数中，必为偶函数的是（ ）\nA. $\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t$\nB. $\\int_{0}^{x}f\\left(t^{2}\\right)\\mathrm{~d}t$\nC. $\\int_{0}^{x}t\\left[f\\left(t\\right)-f\\left(-t\\right)\\right]\\mathrm{~d}t$\nD. $\\int_{0}^{x}t\\left[f\\left(t\\right)+f\\left(-t\\right)\\right]\\mathrm{~d}t$",
    "answerText": "D\n\n**解析：**\n设 $F\\left(x\\right)=\\int_{0}^{x}t\\left[f\\left(t\\right)+f\\left(-t\\right)\\right]\\mathrm{~d}t$。令 $t=-u$，可得 $F\\left(-x\\right)=F\\left(x\\right)$，故 D 为偶函数。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -282,28 +280,26 @@
     "kind": "exam",
     "year": 2002,
     "paper": "math2",
-    "number": 2
+    "number": 7
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-2002.3",
-   "number": 3,
-   "title": "2002 年数学二 第 3 题",
+   "id": "bank.exam.m2-2002.8",
+   "number": 8,
+   "title": "2002 年数学二 第 8 题",
    "questionText": "设 $y=y\\left(x\\right)$ 是二阶常系数微分方程 $y^{\\prime\\prime}+py^{\\prime}+qy=e^{3x}$ 满足初始条件 $y\\left(0\\right)=y^{\\prime}\\left(0\\right)=0$ 的特解，则当 $x\\to 0$ 时，函数 $\\dfrac{\\ln\\left(1+x^{2}\\right)}{y\\left(x\\right)}$ 的极限（ ）\nA. 不存在\nB. 等于 $1$\nC. 等于 $2$\nD. 等于 $3$",
    "answerText": "C\n\n**解析：**\n由方程和初始条件得 $y^{\\prime\\prime}\\left(0\\right)=1$。因此 $y\\left(x\\right)=\\dfrac{1}{2}x^{2}+o\\left(x^{2}\\right)$，而 $\\ln\\left(1+x^{2}\\right)\\sim x^{2}$，故极限为 $2$，选 C。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -312,15 +308,15 @@
     "kind": "exam",
     "year": 2002,
     "paper": "math2",
-    "number": 3
+    "number": 8
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-2002.4",
-   "number": 4,
-   "title": "2002 年数学二 第 4 题",
+   "id": "bank.exam.m2-2002.9",
+   "number": 9,
+   "title": "2002 年数学二 第 9 题",
    "questionText": "设函数 $y=f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内有界且可导，则（ ）\nA. 当 $\\lim_{x\\to +\\infty}f\\left(x\\right)=0$ 时，必有 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=0$。\nB. 当 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)$ 存在时，必有 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=0$。\nC. 当 $\\lim_{x\\to 0^{+}}f\\left(x\\right)=0$ 时，必有 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)=0$。\nD. 当 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)$ 存在时，必有 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)=0$。",
    "answerText": "B\n\n**解析：**\n设 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=A$。若 $A>0$ 或 $A<0$，由拉格朗日中值定理均可推出 $f\\left(x\\right)$ 无界，与题设矛盾。因此 $A=0$，选 B。\n\n---",
    "questionImages": [],
@@ -343,17 +339,17 @@
     "kind": "exam",
     "year": 2002,
     "paper": "math2",
-    "number": 4
+    "number": 9
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-2002.5",
-   "number": 5,
-   "title": "2002 年数学二 第 5 题",
+   "id": "bank.exam.m2-2002.10",
+   "number": 10,
+   "title": "2002 年数学二 第 10 题",
    "questionText": "设向量组 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关，向量 $\\boldsymbol{\\beta}_{1}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示，而向量 $\\boldsymbol{\\beta}_{2}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示，则对于任意常数 $k$，必有（ ）\nA. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性无关。\nB. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性相关。\nC. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\beta}_{1}+k\\boldsymbol{\\beta}_{2}$ 线性无关。\nD. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\beta}_{1}+k\\boldsymbol{\\beta}_{2}$ 线性相关。",
-   "answerText": "A\n\n**解析：**\n若 A 中向量组线性相关，则 $k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示。又 $\\boldsymbol{\\beta}_{1}$ 可由它们线性表示，从而 $\\boldsymbol{\\beta}_{2}$ 也可由它们线性表示，矛盾。故选 A。\n\n---\n\n## 三、计算题\n\n已知曲线的极坐标方程是 $r=1-\\cos\\theta$，求该曲线上对应于 $\\theta=\\dfrac{\\pi}{6}$ 处的切线与法线的直角坐标方程。\n\n**解析：**\n\n由 $x=r\\cos\\theta$，$y=r\\sin\\theta$，得\n\n$x=\\left(1-\\cos\\theta\\right)\\cos\\theta,\\quad y=\\left(1-\\cos\\theta\\right)\\sin\\theta$。\n\n当 $\\theta=\\dfrac{\\pi}{6}$ 时，点的坐标为 $\\left(\\dfrac{\\sqrt{3}}{2}-\\dfrac{3}{4},\\dfrac{1}{2}-\\dfrac{\\sqrt{3}}{4}\\right)$。又\n\n$\\dfrac{y_{\\theta}^{\\prime}}{x_{\\theta}^{\\prime}}=\\dfrac{\\cos\\theta+\\sin^{2}\\theta-\\cos^{2}\\theta}{-\\sin\\theta+2\\cos\\theta\\sin\\theta}$，\n\n代入 $\\theta=\\dfrac{\\pi}{6}$ 得切线斜率为 $1$。故切线方程为\n\n$x-y-\\dfrac{3\\sqrt{3}}{4}+\\dfrac{5}{4}=0$。\n\n法线斜率为 $-1$，故法线方程为\n\n$x+y-\\dfrac{\\sqrt{3}}{4}+\\dfrac{1}{4}=0$。\n\n---\n\n## 四、计算题\n\n设\n\n$f\\left(x\\right)=\\begin{cases}2x+\\dfrac{3}{2}x^{2}, & -1\\le x<0,\\\\\\dfrac{x e^{x}}{\\left(e^{x}+1\\right)^{2}}, & 0\\le x\\le 1,\\end{cases}$\n\n求函数 $F\\left(x\\right)=\\int_{-1}^{x}f\\left(t\\right)\\mathrm{~d}t$ 的表达式。\n\n**解析：**\n\n当 $-1\\le x<0$ 时，\n\n$F\\left(x\\right)=\\int_{-1}^{x}\\left(2t+\\dfrac{3}{2}t^{2}\\right)\\mathrm{~d}t=\\dfrac{1}{2}x^{3}+x^{2}-\\dfrac{1}{2}$。\n\n当 $0\\le x\\le 1$ 时，\n\n$F\\left(x\\right)=-\\dfrac{1}{2}+\\int_{0}^{x}\\dfrac{t e^{t}}{\\left(e^{t}+1\\right)^{2}}\\mathrm{~d}t=-\\dfrac{1}{2}-\\dfrac{x}{e^{x}+1}+\\ln\\left(1+e^{x}\\right)-\\ln 2$。\n\n所以\n\n$F\\left(x\\right)=\\begin{cases}\\dfrac{1}{2}x^{3}+x^{2}-\\dfrac{1}{2}, & -1\\le x<0,\\\\-\\dfrac{1}{2}-\\dfrac{x}{e^{x}+1}+\\ln\\left(1+e^{x}\\right)-\\ln 2, & 0\\le x\\le 1.\\end{cases}$\n\n---\n\n## 五、计算题\n\n已知函数 $f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内可导，$f\\left(x\\right)>0$，$\\lim_{x\\to +\\infty}f\\left(x\\right)=1$，且满足\n\n$\\lim_{h\\to 0}\\left(\\dfrac{f\\left(x+hx\\right)}{f\\left(x\\right)}\\right)^{\\frac{1}{h}}=e^{\\frac{1}{x}}$，\n\n求 $f\\left(x\\right)$。\n\n**解析：**\n\n两边取对数，得\n\n$\\lim_{h\\to 0}\\dfrac{\\ln f\\left(x+hx\\right)-\\ln f\\left(x\\right)}{h}=\\dfrac{1}{x}$。\n\n左端为 $x\\left(\\ln f\\left(x\\right)\\right)^{\\prime}$，故 $\\left(\\ln f\\left(x\\right)\\right)^{\\prime}=\\dfrac{1}{x^{2}}$。积分得 $\\ln f\\left(x\\right)=-\\dfrac{1}{x}+C$，即 $f\\left(x\\right)=C_{1}e^{-\\frac{1}{x}}$。\n\n由 $\\lim_{x\\to +\\infty}f\\left(x\\right)=1$，得 $C_{1}=1$，所以\n\n$f\\left(x\\right)=e^{-\\frac{1}{x}}$。\n\n---\n\n## 六、计算题\n\n求微分方程 $x\\mathrm{d}y+\\left(x-2y\\right)\\mathrm{d}x=0$ 的一个解 $y=y\\left(x\\right)$，使得由曲线 $y=y\\left(x\\right)$，直线 $x=1$、$x=2$ 以及 $x$ 轴所围成的平面图形绕 $x$ 轴旋转一周的旋转体体积最小。\n\n**解析：**\n\n原方程化为 $y^{\\prime}-\\dfrac{2}{x}y=-1$，解得 $y=x+Cx^{2}$。\n\n旋转体体积为\n\n$V=\\pi\\int_{1}^{2}\\left(x+Cx^{2}\\right)^{2}\\mathrm{~d}x=\\pi\\left(\\dfrac{31}{5}C^{2}+\\dfrac{15}{2}C+\\dfrac{7}{3}\\right)$。\n\n令 $V^{\\prime}\\left(C\\right)=0$，得 $C=-\\dfrac{75}{124}$。又 $V^{\\prime\\prime}\\left(C\\right)>0$，故体积最小。所求曲线为\n\n$y=x-\\dfrac{75}{124}x^{2}$。\n\n---\n\n## 七、应用题\n\n某闸门的形状与大小如图所示（图示略），其中直线 $l$ 为对称轴，闸门的上部为矩形 $ABCD$，下部由二次抛物线与线段 $AB$ 所围成。图中矩形宽为 $2\\ \\mathrm{m}$，下部抛物线顶点到线段 $AB$ 的距离为 $1\\ \\mathrm{m}$。当水面与闸门的上端相平时，欲使闸门矩形部分承受的水压力与闸门下部承受的水压力之比为 $5:4$，闸门矩形部分的高 $h$ 应为多少 $\\mathrm{m}$？\n\n**解析：**\n\n建立坐标系，使下部抛物线为 $y=x^{2}$，$-1\\le x\\le 1$，线段 $AB$ 位于 $y=1$ 处。\n\n矩形部分所受水压力为\n\n$P_{1}=2\\rho g\\int_{1}^{1+h}\\left(1+h-y\\right)\\mathrm{~d}y=\\rho g h^{2}$。\n\n抛物线部分所受水压力为\n\n$P_{2}=2\\rho g\\int_{0}^{1}\\sqrt{y}\\left(1+h-y\\right)\\mathrm{~d}y=\\rho g\\left(\\dfrac{4}{3}h+\\dfrac{8}{15}\\right)$。\n\n由 $P_{1}:P_{2}=5:4$，得 $\\dfrac{h^{2}}{\\frac{4}{3}h+\\frac{8}{15}}=\\dfrac{5}{4}$。解得 $h=2$ 或 $h=-\\dfrac{1}{3}$，舍去负值，故\n\n$h=2\\ \\mathrm{m}$。\n\n---\n\n## 八、证明题\n\n设 $0<x_{1}<3$，$x_{n+1}=\\sqrt{x_{n}\\left(3-x_{n}\\right)}\\left(n=1,2,\\cdots\\right)$，证明数列 $\\left\\{x_{n}\\right\\}$ 的极限存在，并求此极限。\n\n**解析：**\n\n由 $0<x_{1}<3$，得 $x_{n}>0$。又\n\n$x_{n+1}=\\sqrt{x_{n}\\left(3-x_{n}\\right)}\\le \\dfrac{x_{n}+3-x_{n}}{2}=\\dfrac{3}{2}$，\n\n所以 $0<x_{n}\\le \\dfrac{3}{2}\\left(n\\ge 2\\right)$。\n\n并且\n\n$x_{n+1}-x_{n}=\\dfrac{x_{n}\\left(3-2x_{n}\\right)}{\\sqrt{x_{n}\\left(3-x_{n}\\right)}+x_{n}}\\ge 0$，\n\n故从 $n=2$ 起，$\\left\\{x_{n}\\right\\}$ 单调递增且有上界，极限存在。设极限为 $a$，则\n\n$a=\\sqrt{a\\left(3-a\\right)}$，\n\n解得 $a=0$ 或 $a=\\dfrac{3}{2}$。由 $x_{n}>0$ 且单调递增，知 $a\\ne 0$，故\n\n$\\lim_{n\\to\\infty}x_{n}=\\dfrac{3}{2}$。\n\n---\n\n## 九、证明题\n\n设 $0<a<b$，证明不等式\n\n$\\dfrac{2a}{a^{2}+b^{2}}<\\dfrac{\\ln b-\\ln a}{b-a}<\\dfrac{1}{\\sqrt{ab}}$。\n\n**解析：**\n\n由拉格朗日中值定理，存在 $\\xi\\in\\left(a,b\\right)$，使\n\n$\\dfrac{\\ln b-\\ln a}{b-a}=\\dfrac{1}{\\xi}$。\n\n因 $a<\\xi<b$，所以 $\\dfrac{1}{\\xi}>\\dfrac{1}{b}>\\dfrac{2a}{a^{2}+b^{2}}$，左边不等式成立。\n\n再令\n\n$\\psi\\left(x\\right)=\\ln x-\\ln a-\\dfrac{x-a}{\\sqrt{ax}}$。\n\n则 $\\psi\\left(a\\right)=0$，且\n\n$\\psi^{\\prime}\\left(x\\right)=-\\dfrac{\\left(\\sqrt{x}-\\sqrt{a}\\right)^{2}}{2\\sqrt{a}x^{\\frac{3}{2}}}<0\\quad \\left(x>a\\right)$。\n\n故 $\\psi\\left(b\\right)<0$，即 $\\ln b-\\ln a<\\dfrac{b-a}{\\sqrt{ab}}$，从而右边不等式成立。\n\n---\n\n## 十、证明题\n\n设函数 $f\\left(x\\right)$ 在 $x=0$ 的某邻域内具有二阶连续导数，且 $f\\left(0\\right)\\ne 0$，$f^{\\prime}\\left(0\\right)\\ne 0$，$f^{\\prime\\prime}\\left(0\\right)\\ne 0$。证明：存在惟一的一组实数 $\\lambda_{1},\\lambda_{2},\\lambda_{3}$，使得当 $h\\to 0$ 时，\n\n$\\lambda_{1}f\\left(h\\right)+\\lambda_{2}f\\left(2h\\right)+\\lambda_{3}f\\left(3h\\right)-f\\left(0\\right)$\n\n是比 $h^{2}$ 高阶的无穷小。\n\n**解析：**\n\n将 $f\\left(h\\right),f\\left(2h\\right),f\\left(3h\\right)$ 在 $0$ 处展开到二阶。要使表达式为 $o\\left(h^{2}\\right)$，需满足\n\n$\\begin{cases}\\lambda_{1}+\\lambda_{2}+\\lambda_{3}=1,\\\\\\lambda_{1}+2\\lambda_{2}+3\\lambda_{3}=0,\\\\\\lambda_{1}+4\\lambda_{2}+9\\lambda_{3}=0.\\end{cases}$\n\n其系数行列式\n\n$\\begin{vmatrix}1 & 1 & 1\\\\1 & 2 & 3\\\\1 & 4 & 9\\end{vmatrix}=2\\ne 0$，\n\n故存在唯一解。解得 $\\lambda_{1}=3$，$\\lambda_{2}=-3$，$\\lambda_{3}=1$，证毕。\n\n---\n\n## 十一、计算题\n\n已知 $\\boldsymbol{A},\\boldsymbol{B}$ 为 $3$ 阶矩阵，且满足\n\n$2\\boldsymbol{A}^{-1}\\boldsymbol{B}=\\boldsymbol{B}-4\\boldsymbol{E}$，\n\n其中 $\\boldsymbol{E}$ 是 $3$ 阶单位矩阵。\n\n1. 证明：矩阵 $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆；\n2. 若\n\n$\\boldsymbol{B}=\\begin{bmatrix}1 & -2 & 0\\\\1 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix}$，\n\n求矩阵 $\\boldsymbol{A}$。\n\n**解析：**\n\n由 $2\\boldsymbol{A}^{-1}\\boldsymbol{B}=\\boldsymbol{B}-4\\boldsymbol{E}$，左乘 $\\boldsymbol{A}$ 得 $2\\boldsymbol{B}=\\boldsymbol{A}\\boldsymbol{B}-4\\boldsymbol{A}$，即\n\n$\\left(\\boldsymbol{A}-2\\boldsymbol{E}\\right)\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)=8\\boldsymbol{E}$。\n\n故 $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆，且\n\n$\\left(\\boldsymbol{A}-2\\boldsymbol{E}\\right)^{-1}=\\dfrac{1}{8}\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)$。\n\n于是\n\n$\\boldsymbol{A}=8\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)^{-1}+2\\boldsymbol{E}$。\n\n由\n\n$\\boldsymbol{B}-4\\boldsymbol{E}=\\begin{bmatrix}-3 & -2 & 0\\\\1 & -2 & 0\\\\0 & 0 & -2\\end{bmatrix}$，\n\n可得\n\n$\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)^{-1}=\\begin{bmatrix}-\\dfrac{1}{4} & \\dfrac{1}{4} & 0\\\\-\\dfrac{1}{8} & -\\dfrac{3}{8} & 0\\\\0 & 0 & -\\dfrac{1}{2}\\end{bmatrix}$。\n\n因此\n\n$\\boldsymbol{A}=\\begin{bmatrix}0 & 2 & 0\\\\-1 & -1 & 0\\\\0 & 0 & -2\\end{bmatrix}$。\n\n---\n\n## 十二、计算题\n\n已知 $4$ 阶方阵 $\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}\\right)$，$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 均为 $4$ 维列向量，其中 $\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性无关，$\\boldsymbol{\\alpha}_{1}=2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}$。如果 $\\boldsymbol{\\beta}=\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}$，求线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{\\beta}$ 的通解。\n\n**解析：**\n\n设 $\\boldsymbol{x}=\\begin{bmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\\\x_{4}\\end{bmatrix}$。由 $\\boldsymbol{\\alpha}_{1}=2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}$，方程 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{\\beta}$ 可化为\n\n$\\left(2x_{1}+x_{2}\\right)\\boldsymbol{\\alpha}_{2}+\\left(-x_{1}+x_{3}\\right)\\boldsymbol{\\alpha}_{3}+x_{4}\\boldsymbol{\\alpha}_{4}=3\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{4}$。\n\n由于 $\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性无关，故\n\n$\\begin{cases}2x_{1}+x_{2}=3,\\\\-x_{1}+x_{3}=0,\\\\x_{4}=1.\\end{cases}$\n\n令 $x_{1}=k$，则 $x_{2}=3-2k$，$x_{3}=k$，$x_{4}=1$。因此通解为\n\n$\\boldsymbol{x}=\\begin{bmatrix}0\\\\3\\\\0\\\\1\\end{bmatrix}+k\\begin{bmatrix}1\\\\-2\\\\1\\\\0\\end{bmatrix}$，\n\n其中 $k$ 为任意常数。",
+   "answerText": "A\n\n**解析：**\n若 A 中向量组线性相关，则 $k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示。又 $\\boldsymbol{\\beta}_{1}$ 可由它们线性表示，从而 $\\boldsymbol{\\beta}_{2}$ 也可由它们线性表示，矛盾。故选 A。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
@@ -373,10 +369,10 @@
     "kind": "exam",
     "year": 2002,
     "paper": "math2",
-    "number": 5
+    "number": 10
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   }
  ]
 }

@@ -12,7 +12,10 @@
   "paper": "math2",
   "label": "数学二",
   "sections": [
-   "一、填空题"
+   "一、填空题",
+   "二、选择题",
+   "三、计算题",
+   "五、函数综合讨论"
   ],
   "problemsOrder": [
    {
@@ -46,88 +49,88 @@
     "objective": true
    },
    {
-    "number": 1,
-    "id": "bank.exam.m2-1994.1",
+    "number": 6,
+    "id": "bank.exam.m2-1994.6",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 2,
-    "id": "bank.exam.m2-1994.2",
+    "number": 7,
+    "id": "bank.exam.m2-1994.7",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m2-1994.8",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m2-1994.9",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 3,
-    "id": "bank.exam.m2-1994.3",
+    "number": 10,
+    "id": "bank.exam.m2-1994.10",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 4,
-    "id": "bank.exam.m2-1994.4",
+    "number": 11,
+    "id": "bank.exam.m2-1994.11",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 5,
-    "id": "bank.exam.m2-1994.5",
+    "number": 12,
+    "id": "bank.exam.m2-1994.12",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 1,
-    "id": "bank.exam.m2-1994.1",
+    "number": 13,
+    "id": "bank.exam.m2-1994.13",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 2,
-    "id": "bank.exam.m2-1994.2",
-    "subjectGuess": "calculus",
+    "number": 14,
+    "id": "bank.exam.m2-1994.14",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
-    "number": 3,
-    "id": "bank.exam.m2-1994.3",
+    "number": 15,
+    "id": "bank.exam.m2-1994.15",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
-    "number": 4,
-    "id": "bank.exam.m2-1994.4",
+    "number": 16,
+    "id": "bank.exam.m2-1994.16",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
-    "number": 5,
-    "id": "bank.exam.m2-1994.5",
+    "number": 17,
+    "id": "bank.exam.m2-1994.17",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
-    "number": 1,
-    "id": "bank.exam.m2-1994.1",
+    "number": 18,
+    "id": "bank.exam.m2-1994.18",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
-    "number": 2,
-    "id": "bank.exam.m2-1994.2",
+    "number": 19,
+    "id": "bank.exam.m2-1994.19",
     "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-1994.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-1994.4",
-    "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    }
   ],
   "total": 19
@@ -259,7 +262,7 @@
    "number": 5,
    "title": "1994 年数学二 第 5 题",
    "questionText": "微分方程\n**题目：** 微分方程 $y\\mathrm{d}x+\\left(x^{2}-4x\\right)\\mathrm{d}y=0$ 的通解为 ______。",
-   "answerText": "$\\left(x-4\\right)y^{4}=Cx$，其中 $C$ 为任意常数。\n\n**解析：**\n分离变量得 $\\frac{\\mathrm{d}y}{y}+\\frac{\\mathrm{d}x}{x^{2}-4x}=0$。积分得 $\\ln y+\\frac{1}{4}\\ln \\left|\\frac{x-4}{x}\\right|=\\ln C$，故通解为 $\\left(x-4\\right)y^{4}=Cx$。\n\n---\n\n## 二、选择题",
+   "answerText": "$\\left(x-4\\right)y^{4}=Cx$，其中 $C$ 为任意常数。\n\n**解析：**\n分离变量得 $\\frac{\\mathrm{d}y}{y}+\\frac{\\mathrm{d}x}{x^{2}-4x}=0$。积分得 $\\ln y+\\frac{1}{4}\\ln \\left|\\frac{x-4}{x}\\right|=\\ln C$，故通解为 $\\left(x-4\\right)y^{4}=Cx$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
@@ -283,9 +286,9 @@
    "section": "一、填空题"
   },
   {
-   "id": "bank.exam.m2-1994.1",
-   "number": 1,
-   "title": "1994 年数学二 第 1 题",
+   "id": "bank.exam.m2-1994.6",
+   "number": 6,
+   "title": "1994 年数学二 第 6 题",
    "questionText": "极限与待定系数\n**题目：** 设 $\\lim_{x \\to 0}\\frac{\\ln \\left(1+x\\right)-\\left(ax+bx^{2}\\right)}{x^{2}}=2$，则（ ）\n\nA. $a=1,b=-\\frac{5}{2}$。\nB. $a=0,b=-2$。\nC. $a=0,b=-\\frac{5}{2}$。\nD. $a=1,b=-2$。",
    "answerText": "A。\n\n**解析：**\n由 $\\ln \\left(1+x\\right)=x-\\frac{x^{2}}{2}+o\\left(x^{2}\\right)$，得 $\\ln \\left(1+x\\right)-\\left(ax+bx^{2}\\right)=\\left(1-a\\right)x-\\left(b+\\frac{1}{2}\\right)x^{2}+o\\left(x^{2}\\right)$。故 $1-a=0$，$-\\left(b+\\frac{1}{2}\\right)=2$，即 $a=1,b=-\\frac{5}{2}$。\n\n---",
    "questionImages": [],
@@ -305,26 +308,26 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 1
+    "number": 6
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1994.2",
-   "number": 2,
-   "title": "1994 年数学二 第 2 题",
+   "id": "bank.exam.m2-1994.7",
+   "number": 7,
+   "title": "1994 年数学二 第 7 题",
    "questionText": "左右导数\n**题目：** 设 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{2}{3}x^{3}, & x\\le 1,\\\\x^{2}, & x>1,\\end{array}\\right.$ 则 $f\\left(x\\right)$ 在点 $x=1$ 处的（ ）\n\nA. 左、右导数都存在。\nB. 左导数存在，但右导数不存在。\nC. 左导数不存在，但右导数存在。\nD. 左、右导数都不存在。",
    "answerText": "B。\n\n**解析：**\n$f\\left(1\\right)=\\frac{2}{3}$。左导数为 $\\lim_{x \\to 1^{-}}\\frac{\\frac{2}{3}x^{3}-\\frac{2}{3}}{x-1}=2$；右导数为 $\\lim_{x \\to 1^{+}}\\frac{x^{2}-\\frac{2}{3}}{x-1}=+\\infty$，不存在。故选 B。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -333,28 +336,26 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 2
+    "number": 7
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1994.3",
-   "number": 3,
-   "title": "1994 年数学二 第 3 题",
+   "id": "bank.exam.m2-1994.8",
+   "number": 8,
+   "title": "1994 年数学二 第 8 题",
    "questionText": "极值判定\n**题目：** 设 $y=f\\left(x\\right)$ 是满足微分方程 $y^{\\prime\\prime}+y^{\\prime}-e^{\\sin x}=0$ 的解，且 $f^{\\prime}\\left(x_{0}\\right)=0$，则 $f\\left(x\\right)$ 在（ ）\n\nA. $x_{0}$ 的某个邻域内单调增加。\nB. $x_{0}$ 的某个邻域内单调减少。\nC. $x_{0}$ 处取得极小值。\nD. $x_{0}$ 处取得极大值。",
    "answerText": "C。\n\n**解析：**\n由方程得 $f^{\\prime\\prime}\\left(x_{0}\\right)=e^{\\sin x_{0}}>0$，又 $f^{\\prime}\\left(x_{0}\\right)=0$，所以 $f\\left(x\\right)$ 在 $x_{0}$ 处取得极小值。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "extrema"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -363,15 +364,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 3
+    "number": 8
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1994.4",
-   "number": 4,
-   "title": "1994 年数学二 第 4 题",
+   "id": "bank.exam.m2-1994.9",
+   "number": 9,
+   "title": "1994 年数学二 第 9 题",
    "questionText": "渐近线\n**题目：** 曲线 $y=e^{\\frac{1}{x}}\\arctan \\frac{x^{2}+x+1}{\\left(x-1\\right)\\left(x+2\\right)}$ 的渐近线有（ ）\n\nA. $1$ 条。\nB. $2$ 条。\nC. $3$ 条。\nD. $4$ 条。",
    "answerText": "B。\n\n**解析：**\n$\\lim_{x \\to +\\infty}y=\\frac{\\pi}{4}$，故 $y=\\frac{\\pi}{4}$ 为水平渐近线；$x=1$ 与 $x=-2$ 处极限有限，不是铅直渐近线；而 $\\lim_{x \\to 0^{+}}y=-\\infty$，故 $x=0$ 为铅直渐近线。因此共有 $2$ 条渐近线。\n\n---",
    "questionImages": [],
@@ -393,17 +394,17 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 4
+    "number": 9
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1994.5",
-   "number": 5,
-   "title": "1994 年数学二 第 5 题",
+   "id": "bank.exam.m2-1994.10",
+   "number": 10,
+   "title": "1994 年数学二 第 10 题",
    "questionText": "定积分大小比较\n**题目：** 设 $M=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\sin x\\cos^{4}x\\mathrm{~d}x$，$N=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(\\sin^{3}x+\\cos^{4}x\\right)\\mathrm{~d}x$，$P=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(x^{2}\\sin^{3}x-\\cos^{4}x\\right)\\mathrm{~d}x$，则有（ ）\n\nA. $N<P<M$。\nB. $M<P<N$。\nC. $N<M<P$。\nD. $P<M<N$。",
-   "answerText": "D。\n\n**解析：**\n由奇偶性得 $M=0$，$N=2\\int_{0}^{\\frac{\\pi}{2}}\\cos^{4}x\\mathrm{~d}x=\\frac{3\\pi}{8}$，$P=-2\\int_{0}^{\\frac{\\pi}{2}}\\cos^{4}x\\mathrm{~d}x=-\\frac{3\\pi}{8}$，故 $P<M<N$。\n\n---\n\n## 三、计算题",
+   "answerText": "D。\n\n**解析：**\n由奇偶性得 $M=0$，$N=2\\int_{0}^{\\frac{\\pi}{2}}\\cos^{4}x\\mathrm{~d}x=\\frac{3\\pi}{8}$，$P=-2\\int_{0}^{\\frac{\\pi}{2}}\\cos^{4}x\\mathrm{~d}x=-\\frac{3\\pi}{8}$，故 $P<M<N$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -423,15 +424,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 5
+    "number": 10
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1994.1",
-   "number": 1,
-   "title": "1994 年数学二 第 1 题",
+   "id": "bank.exam.m2-1994.11",
+   "number": 11,
+   "title": "1994 年数学二 第 11 题",
    "questionText": "隐函数二阶导数\n**题目：** 设 $y=f\\left(x+y\\right)$，其中 $f$ 具有二阶导数，且其一阶导数不等于 $1$，求 $\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}$。\n\n**解析：** 两边对 $x$ 求导，得 $y^{\\prime}=f^{\\prime}\\left(x+y\\right)\\left(1+y^{\\prime}\\right)$，即 $y^{\\prime}=\\frac{f^{\\prime}\\left(x+y\\right)}{1-f^{\\prime}\\left(x+y\\right)}$。再求导整理得 $\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\frac{f^{\\prime\\prime}\\left(x+y\\right)}{\\left[1-f^{\\prime}\\left(x+y\\right)\\right]^{3}}$。\n\n---",
    "answerText": "**解析：**\n两边对 $x$ 求导，得 $y^{\\prime}=f^{\\prime}\\left(x+y\\right)\\left(1+y^{\\prime}\\right)$，即 $y^{\\prime}=\\frac{f^{\\prime}\\left(x+y\\right)}{1-f^{\\prime}\\left(x+y\\right)}$。再求导整理得 $\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\frac{f^{\\prime\\prime}\\left(x+y\\right)}{\\left[1-f^{\\prime}\\left(x+y\\right)\\right]^{3}}$。\n\n---",
    "questionImages": [],
@@ -453,15 +454,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 1
+    "number": 11
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "三、计算题"
   },
   {
-   "id": "bank.exam.m2-1994.2",
-   "number": 2,
-   "title": "1994 年数学二 第 2 题",
+   "id": "bank.exam.m2-1994.12",
+   "number": 12,
+   "title": "1994 年数学二 第 12 题",
    "questionText": "定积分\n**题目：** 计算 $\\int_{0}^{1}x\\left(1-x^{4}\\right)^{\\frac{3}{2}}\\mathrm{~d}x$。\n\n**解析：** 令 $u=x^{2}$，再令 $u=\\sin t$，则 $\\int_{0}^{1}x\\left(1-x^{4}\\right)^{\\frac{3}{2}}\\mathrm{~d}x=\\frac{1}{2}\\int_{0}^{1}\\left(1-u^{2}\\right)^{\\frac{3}{2}}\\mathrm{~d}u=\\frac{1}{2}\\int_{0}^{\\frac{\\pi}{2}}\\cos^{4}t\\mathrm{~d}t=\\frac{3\\pi}{32}$。\n\n---",
    "answerText": "**解析：**\n令 $u=x^{2}$，再令 $u=\\sin t$，则 $\\int_{0}^{1}x\\left(1-x^{4}\\right)^{\\frac{3}{2}}\\mathrm{~d}x=\\frac{1}{2}\\int_{0}^{1}\\left(1-u^{2}\\right)^{\\frac{3}{2}}\\mathrm{~d}u=\\frac{1}{2}\\int_{0}^{\\frac{\\pi}{2}}\\cos^{4}t\\mathrm{~d}t=\\frac{3\\pi}{32}$。\n\n---",
    "questionImages": [],
@@ -481,15 +482,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 2
+    "number": 12
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "三、计算题"
   },
   {
-   "id": "bank.exam.m2-1994.3",
-   "number": 3,
-   "title": "1994 年数学二 第 3 题",
+   "id": "bank.exam.m2-1994.13",
+   "number": 13,
+   "title": "1994 年数学二 第 13 题",
    "questionText": "极限\n**题目：** 计算 $\\lim_{n \\to \\infty}\\tan^{n}\\left(\\frac{\\pi}{4}+\\frac{2}{n}\\right)$。\n\n**解析：** $\\tan \\left(\\frac{\\pi}{4}+\\frac{2}{n}\\right)=\\frac{1+\\tan \\frac{2}{n}}{1-\\tan \\frac{2}{n}}$，故 $\\lim_{n \\to \\infty}\\tan^{n}\\left(\\frac{\\pi}{4}+\\frac{2}{n}\\right)=\\lim_{n \\to \\infty}\\left(\\frac{1+\\tan \\frac{2}{n}}{1-\\tan \\frac{2}{n}}\\right)^{n}=e^{4}$。\n\n---",
    "answerText": "**解析：**\n$\\tan \\left(\\frac{\\pi}{4}+\\frac{2}{n}\\right)=\\frac{1+\\tan \\frac{2}{n}}{1-\\tan \\frac{2}{n}}$，故 $\\lim_{n \\to \\infty}\\tan^{n}\\left(\\frac{\\pi}{4}+\\frac{2}{n}\\right)=\\lim_{n \\to \\infty}\\left(\\frac{1+\\tan \\frac{2}{n}}{1-\\tan \\frac{2}{n}}\\right)^{n}=e^{4}$。\n\n---",
    "questionImages": [],
@@ -509,26 +510,26 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 3
+    "number": 13
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "三、计算题"
   },
   {
-   "id": "bank.exam.m2-1994.4",
-   "number": 4,
-   "title": "1994 年数学二 第 4 题",
+   "id": "bank.exam.m2-1994.14",
+   "number": 14,
+   "title": "1994 年数学二 第 14 题",
    "questionText": "不定积分\n**题目：** 计算 $\\int \\frac{\\mathrm{d}x}{\\sin 2x+2\\sin x}$。\n\n**解析：** 原式 $=\\int \\frac{\\mathrm{d}x}{2\\sin x\\left(\\cos x+1\\right)}$。令 $u=\\cos x$，则原式 $=-\\frac{1}{2}\\int \\frac{\\mathrm{d}u}{\\left(1-u\\right)\\left(1+u\\right)^{2}}=\\frac{1}{8}\\left[\\ln \\left|1-\\cos x\\right|-\\ln \\left|1+\\cos x\\right|+\\frac{2}{1+\\cos x}\\right]+C$。\n\n---",
    "answerText": "**解析：**\n原式 $=\\int \\frac{\\mathrm{d}x}{2\\sin x\\left(\\cos x+1\\right)}$。令 $u=\\cos x$，则原式 $=-\\frac{1}{2}\\int \\frac{\\mathrm{d}u}{\\left(1-u\\right)\\left(1+u\\right)^{2}}=\\frac{1}{8}\\left[\\ln \\left|1-\\cos x\\right|-\\ln \\left|1+\\cos x\\right|+\\frac{2}{1+\\cos x}\\right]+C$。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -537,27 +538,25 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 4
+    "number": 14
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "三、计算题"
   },
   {
-   "id": "bank.exam.m2-1994.5",
-   "number": 5,
-   "title": "1994 年数学二 第 5 题",
-   "questionText": "面积比证明\n**题目：** 如图，设曲线方程为 $y=x^{2}+\\frac{1}{2}$，梯形 $OABC$ 的面积为 $D$，曲边梯形 $OABC$ 的面积为 $D_{1}$，点 $A$ 的坐标为 $\\left(a,0\\right)$，$a>0$。证明：$\\frac{D}{D_{1}}<\\frac{3}{2}$。\n\n**解析：** 点 $B$ 的坐标为 $\\left(a,a^{2}+\\frac{1}{2}\\right)$，所以 $D=\\frac{\\left(a^{2}+1\\right)a}{2}$。又 $D_{1}=\\int_{0}^{a}\\left(x^{2}+\\frac{1}{2}\\right)\\mathrm{~d}x=\\frac{1}{3}a^{3}+\\frac{1}{2}a$。于是 $\\frac{D}{D_{1}}=\\frac{3}{2}\\cdot\\frac{a^{2}+1}{a^{2}+\\frac{3}{2}}<\\frac{3}{2}$。\n\n---\n\n## 四、方程解的个数\n\n**题目：** 设当 $x>0$ 时，方程 $kx+\\frac{1}{x^{2}}=1$ 有且仅有一个解，求 $k$ 的取值范围。\n\n**解析：** 令 $f\\left(x\\right)=kx+\\frac{1}{x^{2}}-1$，则 $f^{\\prime}\\left(x\\right)=k-\\frac{2}{x^{3}}$。当 $k\\le 0$ 时，$f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内单调递减，且 $\\lim_{x \\to 0^{+}}f\\left(x\\right)=+\\infty$，$\\lim_{x \\to +\\infty}f\\left(x\\right)<0$，故有唯一解。当 $k>0$ 时，唯一解需满足最小值为 $0$，即 $x=\\sqrt[3]{\\frac{2}{k}}$ 时 $f\\left(x\\right)=0$，解得 $k=\\frac{2\\sqrt{3}}{9}$。故 $k\\le 0$ 或 $k=\\frac{2\\sqrt{3}}{9}$。\n\n---\n\n## 五、函数综合讨论\n\n**题目：** 设 $y=\\frac{x^{3}+4}{x^{2}}$。\n\n（1）求函数的增减区间及极值；\n（2）求函数图形的凹凸区间及拐点；\n（3）求其渐近线；\n（4）作出其图形。",
-   "answerText": "**解析：**\n点 $B$ 的坐标为 $\\left(a,a^{2}+\\frac{1}{2}\\right)$，所以 $D=\\frac{\\left(a^{2}+1\\right)a}{2}$。又 $D_{1}=\\int_{0}^{a}\\left(x^{2}+\\frac{1}{2}\\right)\\mathrm{~d}x=\\frac{1}{3}a^{3}+\\frac{1}{2}a$。于是 $\\frac{D}{D_{1}}=\\frac{3}{2}\\cdot\\frac{a^{2}+1}{a^{2}+\\frac{3}{2}}<\\frac{3}{2}$。\n\n---\n\n## 四、方程解的个数\n\n**题目：** 设当 $x>0$ 时，方程 $kx+\\frac{1}{x^{2}}=1$ 有且仅有一个解，求 $k$ 的取值范围。\n\n**解析：** 令 $f\\left(x\\right)=kx+\\frac{1}{x^{2}}-1$，则 $f^{\\prime}\\left(x\\right)=k-\\frac{2}{x^{3}}$。当 $k\\le 0$ 时，$f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内单调递减，且 $\\lim_{x \\to 0^{+}}f\\left(x\\right)=+\\infty$，$\\lim_{x \\to +\\infty}f\\left(x\\right)<0$，故有唯一解。当 $k>0$ 时，唯一解需满足最小值为 $0$，即 $x=\\sqrt[3]{\\frac{2}{k}}$ 时 $f\\left(x\\right)=0$，解得 $k=\\frac{2\\sqrt{3}}{9}$。故 $k\\le 0$ 或 $k=\\frac{2\\sqrt{3}}{9}$。\n\n---\n\n## 五、函数综合讨论\n\n**题目：** 设 $y=\\frac{x^{3}+4}{x^{2}}$。\n\n（1）求函数的增减区间及极值；\n（2）求函数图形的凹凸区间及拐点；\n（3）求其渐近线；\n（4）作出其图形。",
+   "id": "bank.exam.m2-1994.15",
+   "number": 15,
+   "title": "1994 年数学二 第 15 题",
+   "questionText": "面积比证明\n**题目：** 如图，设曲线方程为 $y=x^{2}+\\frac{1}{2}$，梯形 $OABC$ 的面积为 $D$，曲边梯形 $OABC$ 的面积为 $D_{1}$，点 $A$ 的坐标为 $\\left(a,0\\right)$，$a>0$。证明：$\\frac{D}{D_{1}}<\\frac{3}{2}$。\n\n**解析：** 点 $B$ 的坐标为 $\\left(a,a^{2}+\\frac{1}{2}\\right)$，所以 $D=\\frac{\\left(a^{2}+1\\right)a}{2}$。又 $D_{1}=\\int_{0}^{a}\\left(x^{2}+\\frac{1}{2}\\right)\\mathrm{~d}x=\\frac{1}{3}a^{3}+\\frac{1}{2}a$。于是 $\\frac{D}{D_{1}}=\\frac{3}{2}\\cdot\\frac{a^{2}+1}{a^{2}+\\frac{3}{2}}<\\frac{3}{2}$。\n\n---",
+   "answerText": "**解析：**\n点 $B$ 的坐标为 $\\left(a,a^{2}+\\frac{1}{2}\\right)$，所以 $D=\\frac{\\left(a^{2}+1\\right)a}{2}$。又 $D_{1}=\\int_{0}^{a}\\left(x^{2}+\\frac{1}{2}\\right)\\mathrm{~d}x=\\frac{1}{3}a^{3}+\\frac{1}{2}a$。于是 $\\frac{D}{D_{1}}=\\frac{3}{2}\\cdot\\frac{a^{2}+1}{a^{2}+\\frac{3}{2}}<\\frac{3}{2}$。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "asymptote",
-    "extrema",
-    "concavity_inflection"
+    "area_volume_arc"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
@@ -569,15 +568,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 5
+    "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "三、计算题"
   },
   {
-   "id": "bank.exam.m2-1994.1",
-   "number": 1,
-   "title": "1994 年数学二 第 1 题",
+   "id": "bank.exam.m2-1994.16",
+   "number": 16,
+   "title": "1994 年数学二 第 16 题",
    "questionText": "增减区间及极值\n**解析：** 定义域为 $\\left(-\\infty,0\\right)\\cup\\left(0,+\\infty\\right)$，且 $y^{\\prime}=1-\\frac{8}{x^{3}}$。由 $y^{\\prime}=0$ 得 $x=2$。故函数在 $\\left(-\\infty,0\\right)$ 与 $\\left(2,+\\infty\\right)$ 内单调增加，在 $\\left(0,2\\right)$ 内单调减少；当 $x=2$ 时取得极小值，极小值为 $3$。",
    "answerText": "**解析：**\n定义域为 $\\left(-\\infty,0\\right)\\cup\\left(0,+\\infty\\right)$，且 $y^{\\prime}=1-\\frac{8}{x^{3}}$。由 $y^{\\prime}=0$ 得 $x=2$。故函数在 $\\left(-\\infty,0\\right)$ 与 $\\left(2,+\\infty\\right)$ 内单调增加，在 $\\left(0,2\\right)$ 内单调减少；当 $x=2$ 时取得极小值，极小值为 $3$。",
    "questionImages": [],
@@ -601,15 +600,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 1
+    "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "五、函数综合讨论"
   },
   {
-   "id": "bank.exam.m2-1994.2",
-   "number": 2,
-   "title": "1994 年数学二 第 2 题",
+   "id": "bank.exam.m2-1994.17",
+   "number": 17,
+   "title": "1994 年数学二 第 17 题",
    "questionText": "凹凸区间及拐点\n**解析：** $y^{\\prime\\prime}=\\frac{24}{x^{4}}>0$，故函数图形在 $\\left(-\\infty,0\\right)$ 与 $\\left(0,+\\infty\\right)$ 内均为凹区间，无拐点。",
    "answerText": "**解析：**\n$y^{\\prime\\prime}=\\frac{24}{x^{4}}>0$，故函数图形在 $\\left(-\\infty,0\\right)$ 与 $\\left(0,+\\infty\\right)$ 内均为凹区间，无拐点。",
    "questionImages": [],
@@ -633,15 +632,15 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 2
+    "number": 17
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "五、函数综合讨论"
   },
   {
-   "id": "bank.exam.m2-1994.3",
-   "number": 3,
-   "title": "1994 年数学二 第 3 题",
+   "id": "bank.exam.m2-1994.18",
+   "number": 18,
+   "title": "1994 年数学二 第 18 题",
    "questionText": "渐近线\n**解析：** 因为 $\\lim_{x \\to 0}\\frac{x^{3}+4}{x^{2}}=+\\infty$，所以 $x=0$ 为铅直渐近线。又 $a=\\lim_{x \\to \\infty}\\frac{y}{x}=1$，$b=\\lim_{x \\to \\infty}\\left(y-x\\right)=0$，故 $y=x$ 为斜渐近线。",
    "answerText": "**解析：**\n因为 $\\lim_{x \\to 0}\\frac{x^{3}+4}{x^{2}}=+\\infty$，所以 $x=0$ 为铅直渐近线。又 $a=\\lim_{x \\to \\infty}\\frac{y}{x}=1$，$b=\\lim_{x \\to \\infty}\\left(y-x\\right)=0$，故 $y=x$ 为斜渐近线。",
    "questionImages": [],
@@ -663,17 +662,17 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 3
+    "number": 18
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "五、函数综合讨论"
   },
   {
-   "id": "bank.exam.m2-1994.4",
-   "number": 4,
-   "title": "1994 年数学二 第 4 题",
-   "questionText": "图形\n**解析：** 根据上述单调性、凹凸性及渐近线描出图形，图示略。\n\n---\n\n## 六、二阶常系数线性微分方程\n\n**题目：** 求微分方程 $y^{\\prime\\prime}+a^{2}y=\\sin x$ 的通解，其中常数 $a>0$。\n\n**解析：** 当 $a\\ne 1$ 时，齐次方程的通解为 $C_{1}\\cos ax+C_{2}\\sin ax$，设特解为 $A\\cos x+B\\sin x$，代入得 $A=0$，$B=\\frac{1}{a^{2}-1}$，故通解为 $y=C_{1}\\cos ax+C_{2}\\sin ax+\\frac{1}{a^{2}-1}\\sin x$。\n\n当 $a=1$ 时，齐次方程的通解为 $C_{1}\\cos x+C_{2}\\sin x$，设特解为 $x\\left(A\\cos x+B\\sin x\\right)$，代入得 $A=-\\frac{1}{2}$，$B=0$，故通解为 $y=C_{1}\\cos x+C_{2}\\sin x-\\frac{1}{2}x\\cos x$。\n\n---\n\n## 七、积分不等式证明\n\n**题目：** 设 $f\\left(x\\right)$ 在 $\\left[0,1\\right]$ 上连续且递减，证明：当 $0<\\lambda<1$ 时，$\\int_{0}^{\\lambda}f\\left(x\\right)\\mathrm{~d}x\\ge \\lambda\\int_{0}^{1}f\\left(x\\right)\\mathrm{~d}x$。\n\n**解析：** 令 $x=\\lambda t$，则 $\\int_{0}^{\\lambda}f\\left(x\\right)\\mathrm{~d}x=\\lambda\\int_{0}^{1}f\\left(\\lambda t\\right)\\mathrm{~d}t$。因为 $0<\\lambda<1$，所以 $\\lambda t<t$；又 $f\\left(x\\right)$ 递减，故 $f\\left(\\lambda t\\right)\\ge f\\left(t\\right)$。因此 $\\int_{0}^{\\lambda}f\\left(x\\right)\\mathrm{~d}x\\ge \\lambda\\int_{0}^{1}f\\left(x\\right)\\mathrm{~d}x$。\n\n---\n\n## 八、旋转体体积\n\n**题目：** 求曲线 $y=3-\\left|x^{2}-1\\right|$ 与 $x$ 轴围成的封闭图形绕直线 $y=3$ 旋转所得的旋转体体积。\n\n**解析：** 由对称性，只需计算右半部分。曲线在 $\\left[0,1\\right]$ 上为 $y=x^{2}+2$，在 $\\left[1,2\\right]$ 上为 $y=4-x^{2}$。因此 $V=2\\pi\\int_{0}^{2}\\left(8+2x^{2}-x^{4}\\right)\\mathrm{~d}x=2\\pi\\left(8x+\\frac{2}{3}x^{3}-\\frac{1}{5}x^{5}\\right)\\left|_{0}^{2}\\right.=\\frac{448\\pi}{15}$。",
-   "answerText": "**解析：**\n根据上述单调性、凹凸性及渐近线描出图形，图示略。\n\n---\n\n## 六、二阶常系数线性微分方程\n\n**题目：** 求微分方程 $y^{\\prime\\prime}+a^{2}y=\\sin x$ 的通解，其中常数 $a>0$。\n\n**解析：** 当 $a\\ne 1$ 时，齐次方程的通解为 $C_{1}\\cos ax+C_{2}\\sin ax$，设特解为 $A\\cos x+B\\sin x$，代入得 $A=0$，$B=\\frac{1}{a^{2}-1}$，故通解为 $y=C_{1}\\cos ax+C_{2}\\sin ax+\\frac{1}{a^{2}-1}\\sin x$。\n\n当 $a=1$ 时，齐次方程的通解为 $C_{1}\\cos x+C_{2}\\sin x$，设特解为 $x\\left(A\\cos x+B\\sin x\\right)$，代入得 $A=-\\frac{1}{2}$，$B=0$，故通解为 $y=C_{1}\\cos x+C_{2}\\sin x-\\frac{1}{2}x\\cos x$。\n\n---\n\n## 七、积分不等式证明\n\n**题目：** 设 $f\\left(x\\right)$ 在 $\\left[0,1\\right]$ 上连续且递减，证明：当 $0<\\lambda<1$ 时，$\\int_{0}^{\\lambda}f\\left(x\\right)\\mathrm{~d}x\\ge \\lambda\\int_{0}^{1}f\\left(x\\right)\\mathrm{~d}x$。\n\n**解析：** 令 $x=\\lambda t$，则 $\\int_{0}^{\\lambda}f\\left(x\\right)\\mathrm{~d}x=\\lambda\\int_{0}^{1}f\\left(\\lambda t\\right)\\mathrm{~d}t$。因为 $0<\\lambda<1$，所以 $\\lambda t<t$；又 $f\\left(x\\right)$ 递减，故 $f\\left(\\lambda t\\right)\\ge f\\left(t\\right)$。因此 $\\int_{0}^{\\lambda}f\\left(x\\right)\\mathrm{~d}x\\ge \\lambda\\int_{0}^{1}f\\left(x\\right)\\mathrm{~d}x$。\n\n---\n\n## 八、旋转体体积\n\n**题目：** 求曲线 $y=3-\\left|x^{2}-1\\right|$ 与 $x$ 轴围成的封闭图形绕直线 $y=3$ 旋转所得的旋转体体积。\n\n**解析：** 由对称性，只需计算右半部分。曲线在 $\\left[0,1\\right]$ 上为 $y=x^{2}+2$，在 $\\left[1,2\\right]$ 上为 $y=4-x^{2}$。因此 $V=2\\pi\\int_{0}^{2}\\left(8+2x^{2}-x^{4}\\right)\\mathrm{~d}x=2\\pi\\left(8x+\\frac{2}{3}x^{3}-\\frac{1}{5}x^{5}\\right)\\left|_{0}^{2}\\right.=\\frac{448\\pi}{15}$。",
+   "id": "bank.exam.m2-1994.19",
+   "number": 19,
+   "title": "1994 年数学二 第 19 题",
+   "questionText": "图形\n**解析：** 根据上述单调性、凹凸性及渐近线描出图形，图示略。\n\n---",
+   "answerText": "**解析：**\n根据上述单调性、凹凸性及渐近线描出图形，图示略。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -685,9 +684,7 @@
     "concavity_inflection",
     "asymptote"
    ],
-   "methodIds": [
-    "symmetry_periodicity"
-   ],
+   "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
@@ -697,10 +694,10 @@
     "kind": "exam",
     "year": 1994,
     "paper": "math2",
-    "number": 4
+    "number": 19
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "五、函数综合讨论"
   }
  ]
 }

@@ -378,7 +378,7 @@
    "number": 8,
    "title": "2016 年数学二 第 8 题",
    "questionText": "设二次型\n$$\nf(x_1,x_2,x_3)=a(x_1^2+x_2^2+x_3^2)+2x_1x_2+2x_2x_3+2x_1x_3\n$$\n\n的正、负惯性指数分别为 $1,2$，则：\n\n- （A）$a>1$。\n- （B）$a<-2$。\n- （C）$-2<a<1$。\n- （D）$a=1$ 与 $a=-2$。",
-   "answerText": "（C）\n\n**解析：**\n对应矩阵为\n\n$$\n\\boldsymbol{A}=\n\\begin{pmatrix}\na&1&1\\\\\n1&a&1\\\\\n1&1&a\n\\end{pmatrix}.\n$$\n\n其特征值为 $a+2,a-1,a-1$。正、负惯性指数为 $1,2$，故 $a+2>0$ 且 $a-1<0$，即 $-2<a<1$，故选 C。\n\n---\n\n## 二、填空题",
+   "answerText": "（C）\n\n**解析：**\n对应矩阵为\n\n$$\n\\boldsymbol{A}=\n\\begin{pmatrix}\na&1&1\\\\\n1&a&1\\\\\n1&1&a\n\\end{pmatrix}.\n$$\n\n其特征值为 $a+2,a-1,a-1$。正、负惯性指数为 $1,2$，故 $a+2>0$ 且 $a-1<0$，即 $-2<a<1$，故选 C。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
@@ -553,7 +553,7 @@
    "number": 14,
    "title": "2016 年数学二 第 14 题",
    "questionText": "设矩阵\n$$\n\\begin{pmatrix}\na&-1&-1\\\\\n-1&a&-1\\\\\n-1&-1&a\n\\end{pmatrix}\n$$\n\n与\n\n$$\n\\begin{pmatrix}\n1&1&0\\\\\n0&-1&1\\\\\n1&0&1\n\\end{pmatrix}\n$$\n\n等价，则 $a=$ ________。",
-   "answerText": "$2$\n\n**解析：**\n第二个矩阵的秩为 $2$。第一个矩阵的行列式为\n\n$$\n(a+1)^2(a-2).\n$$\n\n当 $a=-1$ 时秩为 $1$；当 $a=2$ 时秩为 $2$。故 $a=2$。\n\n---\n\n## 三、解答题",
+   "answerText": "$2$\n\n**解析：**\n第二个矩阵的秩为 $2$。第一个矩阵的行列式为\n\n$$\n(a+1)^2(a-2).\n$$\n\n当 $a=-1$ 时秩为 $1$；当 $a=2$ 时秩为 $2$。故 $a=2$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -606,7 +606,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2016.16",

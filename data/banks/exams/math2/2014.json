@@ -375,7 +375,7 @@
    "number": 8,
    "title": "2014 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 是三维向量，则对任意的常数 $k,l$，向量 $\\boldsymbol{\\alpha}_{1}+k\\boldsymbol{\\alpha}_{3}$，$\\boldsymbol{\\alpha}_{2}+l\\boldsymbol{\\alpha}_{3}$ 线性无关是向量 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关的（ ）\n（A）必要而非充分条件\n\n（B）充分而非必要条件\n\n（C）充分必要条件\n\n（D）非充分非必要条件",
-   "answerText": "（A）\n\n**解析：**\n若 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关，则 $\\left(\\boldsymbol{\\alpha}_{1}+k\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{2}+l\\boldsymbol{\\alpha}_{3}\\right)=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)\\left(\\begin{matrix}1&0\\\\\\ 0&1\\\\\\ k&l\\end{matrix}\\right)$，右侧第二个矩阵秩为 $2$，故两向量线性无关。\n\n反之不成立。例如 $\\boldsymbol{\\alpha}_{1}=\\left(\\begin{matrix}1\\\\\\ 0\\\\\\ 0\\end{matrix}\\right)$，$\\boldsymbol{\\alpha}_{2}=\\left(\\begin{matrix}0\\\\\\ 1\\\\\\ 0\\end{matrix}\\right)$，$\\boldsymbol{\\alpha}_{3}=\\left(\\begin{matrix}0\\\\\\ 0\\\\\\ 0\\end{matrix}\\right)$ 时，两向量仍线性无关，但三向量线性相关。\n\n---\n\n## 二、填空题\n\n本题共 6 小题，每小题 4 分，满分 24 分。\n\n---",
+   "answerText": "（A）\n\n**解析：**\n若 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关，则 $\\left(\\boldsymbol{\\alpha}_{1}+k\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{2}+l\\boldsymbol{\\alpha}_{3}\\right)=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)\\left(\\begin{matrix}1&0\\\\\\ 0&1\\\\\\ k&l\\end{matrix}\\right)$，右侧第二个矩阵秩为 $2$，故两向量线性无关。\n\n反之不成立。例如 $\\boldsymbol{\\alpha}_{1}=\\left(\\begin{matrix}1\\\\\\ 0\\\\\\ 0\\end{matrix}\\right)$，$\\boldsymbol{\\alpha}_{2}=\\left(\\begin{matrix}0\\\\\\ 1\\\\\\ 0\\end{matrix}\\right)$，$\\boldsymbol{\\alpha}_{3}=\\left(\\begin{matrix}0\\\\\\ 0\\\\\\ 0\\end{matrix}\\right)$ 时，两向量仍线性无关，但三向量线性相关。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -555,7 +555,7 @@
    "number": 14,
    "title": "2014 年数学二 第 14 题",
    "questionText": "设二次型 $f\\left(x_{1},x_{2},x_{3}\\right)=x_{1}^{2}-x_{2}^{2}+2ax_{1}x_{3}+4x_{2}x_{3}$ 的负惯性指数是 $1$，则 $a$ 的取值范围是________。",
-   "answerText": "$\\left[-2,2\\right]$\n\n**解析：**\n配方得 $f\\left(x_{1},x_{2},x_{3}\\right)=\\left(x_{1}+ax_{3}\\right)^{2}-\\left(x_{2}-2x_{3}\\right)^{2}+\\left(4-a^{2}\\right)x_{3}^{2}$。\n\n负惯性指数为 $1$，需 $4-a^{2}\\geq 0$，故 $a\\in \\left[-2,2\\right]$。\n\n---\n\n## 三、解答题\n\n---",
+   "answerText": "$\\left[-2,2\\right]$\n\n**解析：**\n配方得 $f\\left(x_{1},x_{2},x_{3}\\right)=\\left(x_{1}+ax_{3}\\right)^{2}-\\left(x_{2}-2x_{3}\\right)^{2}+\\left(4-a^{2}\\right)x_{3}^{2}$。\n\n负惯性指数为 $1$，需 $4-a^{2}\\geq 0$，故 $a\\in \\left[-2,2\\right]$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
@@ -608,7 +608,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2014.16",

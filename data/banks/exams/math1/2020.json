@@ -175,14 +175,14 @@
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "infinite_series",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
+    "power_series_sum",
     "differentiability_continuity",
-    "vector_linear_operation",
-    "vector_perpendicular_parallel"
+    "vector_linear_operation"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
@@ -460,8 +460,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.real_symmetric_properties",
     "la.knowledge.inverse_matrix",
+    "la.knowledge.real_symmetric_properties",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],

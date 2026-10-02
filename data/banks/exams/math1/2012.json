@@ -227,13 +227,13 @@
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
     "differentiability_continuity",
+    "multivariable_limit_continuity",
     "power_series_sum"
    ],
    "methodIds": [],

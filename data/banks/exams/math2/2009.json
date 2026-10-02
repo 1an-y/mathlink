@@ -384,7 +384,7 @@
    "number": 8,
    "title": "2009 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol{A},\\boldsymbol{P}$ 均为 3 阶矩阵，$\\boldsymbol{P}^{T}$ 为 $\\boldsymbol{P}$ 的转置矩阵，且\n$\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$。\n\n若 $\\boldsymbol{P}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，$\\boldsymbol{Q}=\\left(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，则 $\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}$ 为（ ）\n\n- （A）$\\left(\\begin{matrix}2 & 1 & 0\\\\ 1 & 1 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$.\n- （B）$\\left(\\begin{matrix}1 & 1 & 0\\\\ 1 & 2 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$.\n- （C）$\\left(\\begin{matrix}2 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$.\n- （D）$\\left(\\begin{matrix}1 & 0 & 0\\\\ 0 & 2 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$.",
-   "answerText": "A\n\n**解析：**\n由 $\\boldsymbol{Q}=\\boldsymbol{P}\\boldsymbol{E}$，其中 $\\boldsymbol{E}=\\left(\\begin{matrix}1 & 0 & 0\\\\ 1 & 1 & 0\\\\ 0 & 0 & 1\\end{matrix}\\right)$，得 $\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\boldsymbol{E}^{T}\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}\\boldsymbol{E}$。代入计算得 $\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\left(\\begin{matrix}2 & 1 & 0\\\\ 1 & 1 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$。\n\n---\n\n## 二、填空题",
+   "answerText": "A\n\n**解析：**\n由 $\\boldsymbol{Q}=\\boldsymbol{P}\\boldsymbol{E}$，其中 $\\boldsymbol{E}=\\left(\\begin{matrix}1 & 0 & 0\\\\ 1 & 1 & 0\\\\ 0 & 0 & 1\\end{matrix}\\right)$，得 $\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\boldsymbol{E}^{T}\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}\\boldsymbol{E}$。代入计算得 $\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\left(\\begin{matrix}2 & 1 & 0\\\\ 1 & 1 & 0\\\\ 0 & 0 & 2\\end{matrix}\\right)$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -560,7 +560,7 @@
    "number": 14,
    "title": "2009 年数学二 第 14 题",
    "questionText": "设 $\\boldsymbol{\\alpha},\\boldsymbol{\\beta}$ 为 3 维列向量，$\\boldsymbol{\\beta}^{T}$ 为 $\\boldsymbol{\\beta}$ 的转置，若矩阵 $\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}$ 相似于 $\\left(\\begin{matrix}2 & 0 & 0\\\\ 0 & 0 & 0\\\\ 0 & 0 & 0\\end{matrix}\\right)$，则 $\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}=$ ________。",
-   "answerText": "$2$\n\n**解析：**\n相似矩阵特征值相同，故 $\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}$ 的特征值为 $2,0,0$。又 $\\operatorname{tr}\\left(\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}\\right)=\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}$，所以 $\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}=2$。\n\n---\n\n## 三、解答题",
+   "answerText": "$2$\n\n**解析：**\n相似矩阵特征值相同，故 $\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}$ 的特征值为 $2,0,0$。又 $\\operatorname{tr}\\left(\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}\\right)=\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}$，所以 $\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}=2$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -613,7 +613,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2009.16",

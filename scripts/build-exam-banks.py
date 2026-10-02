@@ -61,32 +61,50 @@ def clean(text: str) -> str:
 
 
 def parse_m2(path: Path) -> dict:
-    """数二刷题版：## 节 / ### N / **答案：** / **解析：**"""
+    """数二刷题版：按大题节扫描 + 连续编号过滤（小问 ### 1/2 并入所属大题）。"""
     raw = clean(path.read_text(encoding="utf-8"))
     year = int(re.search(r"(\d{4})-2\.md", path.name).group(1))
-    # 大题节
-    sections = re.findall(r"^##\s*([一二三四五六七八九十]、[^\n]*)", raw, re.M)
-    # 分题：### N
+    sec_iter = list(re.finditer(r"^##\s*[一二三四五六七八九十]、\s*[^\n]*", raw, re.M))
     marker = re.compile(r"^###\s+(?:(\d{1,2})[.、、]?|[(（](\d{1,2})[)）]|第\s*(\d{1,2})\s*题)\s*[^\n]*$", re.M)
-    matches = list(marker.finditer(raw))
     problems = []
-    for mi, m in enumerate(matches):
-        number = int(next(g for g in m.groups() if g))
-        start = m.end()
-        end = matches[mi + 1].start() if mi + 1 < len(matches) else len(raw)
-        inline = re.sub(r"^#{2,4}\s*", "", m.group(0))
-        inline = re.sub(r"^(\d{1,2})[.、、]?\s*|^[(（]\d{1,2}[)）]\s*|^第\s*\d{1,2}\s*题\s*", "", inline).strip()
-        body = ((inline + "\n") if inline else "") + raw[start:end].strip()
-        ans_m = re.search(r"\*\*答案[：:]\*\*\s*(.+?)(?:\n|$)", body)
-        exp_m = re.search(r"\*\*解析[：:]\*\*\s*\n?(.*?)(?:\n###\s|\Z)", body, re.S)
-        answer = ans_m.group(1).strip() if ans_m else ""
-        explanation = exp_m.group(1).strip() if exp_m else ""
-        question = re.split(r"\*\*答案[：:]\*\*", body)[0].strip()
-        problems.append({
-            "number": number, "question": question,
-            "answer": answer, "explanation": explanation,
-            "section": guess_section(sections, number, year),
-        })
+    offset = 0
+    for si, sec in enumerate(sec_iter):
+        sec_start = sec.end()
+        sec_end = sec_iter[si + 1].start() if si + 1 < len(sec_iter) else len(raw)
+        body = raw[sec_start:sec_end]
+        matches = list(marker.finditer(body))
+        if not matches:
+            continue
+        ns = [int(next(g for g in m.groups() if g)) for m in matches]
+        local = min(ns) == 1
+        expect = 1 if local else ns[0]
+        chain = []
+        for m, n in zip(matches, ns):
+            if n == expect:
+                chain.append((m, n))
+                expect += 1
+        base = offset if local else 0
+        for mi, (m, n) in enumerate(chain):
+            start = m.end()
+            end = chain[mi + 1][0].start() if mi + 1 < len(chain) else sec_end - sec_start
+            inline = re.sub(r"^#{2,4}\s*", "", m.group(0))
+            inline = re.sub(r"^(\d{1,2})[.、、]?\s*|^[(（]\d{1,2}[)）]\s*|^第\s*\d{1,2}\s*题\s*", "", inline).strip()
+            chunk = ((inline + "\n") if inline else "") + body[start:end].strip()
+            global_number = base + n
+            ans_m = re.search(r"\*\*答案[：:]\*\*\s*(.+?)(?:\n|$)", chunk)
+            exp_m = re.search(r"\*\*解析[：:]\*\*\s*\n?(.*?)(?:\Z)", chunk, re.S)
+            answer = ans_m.group(1).strip() if ans_m else ""
+            explanation = exp_m.group(1).strip() if exp_m else ""
+            question = re.split(r"\*\*答案[：:]\*\*", chunk)[0].strip()
+            problems.append({
+                "number": global_number, "question": question,
+                "answer": answer, "explanation": explanation,
+                "section": sec.group(0).lstrip("# ").strip(),
+            })
+        if local:
+            offset += len(chain)
+        else:
+            offset = max(offset, max(n for _, n in chain))
     return {"year": year, "paper": "math2", "problems": problems}
 
 

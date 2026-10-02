@@ -311,7 +311,7 @@
    "number": 6,
    "title": "2006 年数学二 第 6 题",
    "questionText": "设 $\\boldsymbol{A}=\\left(\\begin{matrix}2 & 1\\\\ -1 & 2\\end{matrix}\\right)$，$\\boldsymbol{E}$ 为 2 阶单位矩阵，矩阵 $\\boldsymbol{B}$ 满足 $\\boldsymbol{B}\\boldsymbol{A}=\\boldsymbol{B}+2\\boldsymbol{E}$，则 $\\left|\\boldsymbol{B}\\right|=$ ________。",
-   "answerText": "$2$\n\n**解析：**\n由 $\\boldsymbol{B}\\boldsymbol{A}=\\boldsymbol{B}+2\\boldsymbol{E}$，得 $\\boldsymbol{B}\\left(\\boldsymbol{A}-\\boldsymbol{E}\\right)=2\\boldsymbol{E}$。两边取行列式：\n\n$\\left|\\boldsymbol{B}\\right|\\left|\\boldsymbol{A}-\\boldsymbol{E}\\right|=\\left|2\\boldsymbol{E}\\right|=4$。\n\n又 $\\left|\\boldsymbol{A}-\\boldsymbol{E}\\right|=\\left|\\begin{matrix}1 & 1\\\\ -1 & 1\\end{matrix}\\right|=2$，故 $\\left|\\boldsymbol{B}\\right|=2$。\n\n---\n\n## 二、选择题",
+   "answerText": "$2$\n\n**解析：**\n由 $\\boldsymbol{B}\\boldsymbol{A}=\\boldsymbol{B}+2\\boldsymbol{E}$，得 $\\boldsymbol{B}\\left(\\boldsymbol{A}-\\boldsymbol{E}\\right)=2\\boldsymbol{E}$。两边取行列式：\n\n$\\left|\\boldsymbol{B}\\right|\\left|\\boldsymbol{A}-\\boldsymbol{E}\\right|=\\left|2\\boldsymbol{E}\\right|=4$。\n\n又 $\\left|\\boldsymbol{A}-\\boldsymbol{E}\\right|=\\left|\\begin{matrix}1 & 1\\\\ -1 & 1\\end{matrix}\\right|=2$，故 $\\left|\\boldsymbol{B}\\right|=2$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -360,7 +360,7 @@
     "number": 7
    },
    "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-2006.8",
@@ -388,7 +388,7 @@
     "number": 8
    },
    "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-2006.9",
@@ -548,7 +548,7 @@
    "number": 14,
    "title": "2006 年数学二 第 14 题",
    "questionText": "设 $\\boldsymbol{A}$ 为 3 阶矩阵，将 $\\boldsymbol{A}$ 的第 2 行加到第 1 行得 $\\boldsymbol{B}$，再将 $\\boldsymbol{B}$ 的第 1 列的 $-1$ 倍加到第 2 列得 $\\boldsymbol{C}$。记 $\\boldsymbol{P}=\\left(\\begin{matrix}1 & 1 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 1\\end{matrix}\\right)$，则（ ）\n（A）$\\boldsymbol{C}=\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$\n（B）$\\boldsymbol{C}=\\boldsymbol{P}\\boldsymbol{A}\\boldsymbol{P}^{-1}$\n（C）$\\boldsymbol{C}=\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}$\n（D）$\\boldsymbol{C}=\\boldsymbol{P}\\boldsymbol{A}\\boldsymbol{P}^{T}$",
-   "answerText": "B\n\n**解析：**\n左乘 $\\boldsymbol{P}$ 表示将第 2 行加到第 1 行，故 $\\boldsymbol{B}=\\boldsymbol{P}\\boldsymbol{A}$；再将第 1 列的 $-1$ 倍加到第 2 列，相当于右乘 $\\boldsymbol{P}^{-1}$。因此 $\\boldsymbol{C}=\\boldsymbol{P}\\boldsymbol{A}\\boldsymbol{P}^{-1}$。\n\n---\n\n## 三、解答题",
+   "answerText": "B\n\n**解析：**\n左乘 $\\boldsymbol{P}$ 表示将第 2 行加到第 1 行，故 $\\boldsymbol{B}=\\boldsymbol{P}\\boldsymbol{A}$；再将第 1 列的 $-1$ 倍加到第 2 列，相当于右乘 $\\boldsymbol{P}^{-1}$。因此 $\\boldsymbol{C}=\\boldsymbol{P}\\boldsymbol{A}\\boldsymbol{P}^{-1}$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -602,7 +602,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、选择题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2006.16",

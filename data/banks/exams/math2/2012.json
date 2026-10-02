@@ -371,7 +371,7 @@
    "number": 8,
    "title": "2012 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，$\\boldsymbol{P}$ 为 $3$ 阶可逆矩阵，且 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}1&0&0 \\\\ 0&1&0 \\\\ 0&0&2\\end{matrix}\\right)$，$\\boldsymbol{P}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，$\\boldsymbol{Q}=\\left(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，则 $\\boldsymbol{Q}^{-1}\\boldsymbol{A}\\boldsymbol{Q}=$（ ）\n（A）$\\left(\\begin{matrix}1&0&0 \\\\ 0&2&0 \\\\ 0&0&1\\end{matrix}\\right)$\n（B）$\\left(\\begin{matrix}1&0&0 \\\\ 0&1&0 \\\\ 0&0&2\\end{matrix}\\right)$\n（C）$\\left(\\begin{matrix}2&0&0 \\\\ 0&1&0 \\\\ 0&0&2\\end{matrix}\\right)$\n（D）$\\left(\\begin{matrix}2&0&0 \\\\ 0&2&0 \\\\ 0&0&1\\end{matrix}\\right)$",
-   "answerText": "（B）\n\n**解析：**\n$\\boldsymbol{Q}=\\boldsymbol{P}\\left(\\begin{matrix}1&0&0\\\\1&1&0\\\\0&0&1\\end{matrix}\\right)$。\n\n所以\n\n$\\boldsymbol{Q}^{-1}\\boldsymbol{A}\\boldsymbol{Q}=\\left(\\begin{matrix}1&0&0\\\\-1&1&0\\\\0&0&1\\end{matrix}\\right)\\left(\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}\\right)\\left(\\begin{matrix}1&0&0\\\\1&1&0\\\\0&0&1\\end{matrix}\\right)=\\left(\\begin{matrix}1&0&0\\\\0&1&0\\\\0&0&2\\end{matrix}\\right)$。\n\n故选（B）。\n\n---\n\n## 二、填空题\n\n9～14 小题，每小题 4 分，共 24 分。请将答案写在答题纸指定位置上。\n\n---",
+   "answerText": "（B）\n\n**解析：**\n$\\boldsymbol{Q}=\\boldsymbol{P}\\left(\\begin{matrix}1&0&0\\\\1&1&0\\\\0&0&1\\end{matrix}\\right)$。\n\n所以\n\n$\\boldsymbol{Q}^{-1}\\boldsymbol{A}\\boldsymbol{Q}=\\left(\\begin{matrix}1&0&0\\\\-1&1&0\\\\0&0&1\\end{matrix}\\right)\\left(\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}\\right)\\left(\\begin{matrix}1&0&0\\\\1&1&0\\\\0&0&1\\end{matrix}\\right)=\\left(\\begin{matrix}1&0&0\\\\0&1&0\\\\0&0&2\\end{matrix}\\right)$。\n\n故选（B）。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -549,7 +549,7 @@
    "number": 14,
    "title": "2012 年数学二 第 14 题",
    "questionText": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，$\\left|\\boldsymbol{A}\\right|=3$，$\\boldsymbol{A}^{*}$ 为 $\\boldsymbol{A}$ 的伴随矩阵，若交换 $\\boldsymbol{A}$ 的第一行与第二行得到矩阵 $\\boldsymbol{B}$，则 $\\left|\\boldsymbol{B}\\boldsymbol{A}^{*}\\right|=$ ________。",
-   "answerText": "$-27$\n\n**解析：**\n$\\boldsymbol{B}=\\boldsymbol{E}_{12}\\boldsymbol{A}$，故\n\n$\\boldsymbol{B}\\boldsymbol{A}^{*}=\\boldsymbol{E}_{12}\\boldsymbol{A}\\boldsymbol{A}^{*}=3\\boldsymbol{E}_{12}$。\n\n因此\n\n$\\left|\\boldsymbol{B}\\boldsymbol{A}^{*}\\right|=\\left|3\\boldsymbol{E}_{12}\\right|=3^{3}\\left|\\boldsymbol{E}_{12}\\right|=-27$。\n\n---\n\n## 三、解答题\n\n15～23 小题，共 94 分。解答应写出文字说明、证明过程或演算步骤。\n\n---",
+   "answerText": "$-27$\n\n**解析：**\n$\\boldsymbol{B}=\\boldsymbol{E}_{12}\\boldsymbol{A}$，故\n\n$\\boldsymbol{B}\\boldsymbol{A}^{*}=\\boldsymbol{E}_{12}\\boldsymbol{A}\\boldsymbol{A}^{*}=3\\boldsymbol{E}_{12}$。\n\n因此\n\n$\\left|\\boldsymbol{B}\\boldsymbol{A}^{*}\\right|=\\left|3\\boldsymbol{E}_{12}\\right|=3^{3}\\left|\\boldsymbol{E}_{12}\\right|=-27$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -604,7 +604,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2012.16",
@@ -833,8 +833,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.real_symmetric_properties",
     "la.knowledge.eigen_concept",
+    "la.knowledge.real_symmetric_properties",
     "la.knowledge.standard_form"
    ],
    "methodIds": [],

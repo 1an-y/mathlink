@@ -374,7 +374,7 @@
    "number": 8,
    "title": "2008 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol{A}=\\left(\\begin{matrix}1 & 2\\\\ 2 & 1\\end{matrix}\\right)$，则在实数域上与 $\\boldsymbol{A}$ 合同的矩阵为（ ）\n（A）$\\left(\\begin{matrix}-2 & 1\\\\ 1 & -2\\end{matrix}\\right)$.\n（B）$\\left(\\begin{matrix}2 & -1\\\\ -1 & 2\\end{matrix}\\right)$.\n（C）$\\left(\\begin{matrix}2 & 1\\\\ 1 & 2\\end{matrix}\\right)$.\n（D）$\\left(\\begin{matrix}1 & -2\\\\ -2 & 1\\end{matrix}\\right)$.",
-   "answerText": "D\n\n**解析：**\n记 $\\boldsymbol{D}=\\left(\\begin{matrix}1 & -2\\\\ -2 & 1\\end{matrix}\\right)$。有\n\n$\\left|\\lambda\\boldsymbol{E}-\\boldsymbol{A}\\right|=\\lambda^{2}-2\\lambda-3,\\quad \\left|\\lambda\\boldsymbol{E}-\\boldsymbol{D}\\right|=\\lambda^{2}-2\\lambda-3$。\n\n故 $\\boldsymbol{A}$ 与 $\\boldsymbol{D}$ 有相同特征值。二者均为实对称矩阵，因此相似；实对称矩阵相似必合同，故选 D。\n\n---\n\n## 二、填空题",
+   "answerText": "D\n\n**解析：**\n记 $\\boldsymbol{D}=\\left(\\begin{matrix}1 & -2\\\\ -2 & 1\\end{matrix}\\right)$。有\n\n$\\left|\\lambda\\boldsymbol{E}-\\boldsymbol{A}\\right|=\\lambda^{2}-2\\lambda-3,\\quad \\left|\\lambda\\boldsymbol{E}-\\boldsymbol{D}\\right|=\\lambda^{2}-2\\lambda-3$。\n\n故 $\\boldsymbol{A}$ 与 $\\boldsymbol{D}$ 有相同特征值。二者均为实对称矩阵，因此相似；实对称矩阵相似必合同，故选 D。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -551,7 +551,7 @@
    "number": 14,
    "title": "2008 年数学二 第 14 题",
    "questionText": "矩阵 $\\boldsymbol{A}$ 的特征值是 $\\lambda,2,3$，其中 $\\lambda$ 未知，且 $\\left|2\\boldsymbol{A}\\right|=-48$，则 $\\lambda=$ ________。",
-   "answerText": "$-1$\n\n**解析：**\n因为 $\\left|\\boldsymbol{A}\\right|=6\\lambda$，且 $\\boldsymbol{A}$ 为 3 阶矩阵，所以\n\n$\\left|2\\boldsymbol{A}\\right|=2^{3}\\left|\\boldsymbol{A}\\right|=48\\lambda$。\n\n由 $\\left|2\\boldsymbol{A}\\right|=-48$，得 $\\lambda=-1$。\n\n---\n\n## 三、解答题",
+   "answerText": "$-1$\n\n**解析：**\n因为 $\\left|\\boldsymbol{A}\\right|=6\\lambda$，且 $\\boldsymbol{A}$ 为 3 阶矩阵，所以\n\n$\\left|2\\boldsymbol{A}\\right|=2^{3}\\left|\\boldsymbol{A}\\right|=48\\lambda$。\n\n由 $\\left|2\\boldsymbol{A}\\right|=-48$，得 $\\lambda=-1$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
@@ -603,7 +603,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2008.16",

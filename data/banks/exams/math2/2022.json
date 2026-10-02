@@ -372,8 +372,8 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.invertibility_criteria",
-    "la.knowledge.orthogonal_matrix",
-    "la.knowledge.inverse_matrix"
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.orthogonal_matrix"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
@@ -423,7 +423,7 @@
    "number": 10,
    "title": "2022 年数学二 第 10 题",
    "questionText": "设\n$\\boldsymbol{a}_{1} = \\left( \\begin{array}{c} \\lambda \\\\ 1 \\\\ 1 \\end{array} \\right),\\quad \\boldsymbol{a}_{2} = \\left( \\begin{array}{c} 1 \\\\ \\lambda \\\\ 1 \\end{array} \\right),\\quad \\boldsymbol{a}_{3} = \\left( \\begin{array}{c} 1 \\\\ 1 \\\\ \\lambda \\end{array} \\right),\\quad \\boldsymbol{a}_{4} = \\left( \\begin{array}{c} 1 \\\\ \\lambda \\\\ \\lambda^{2} \\end{array} \\right)$\n\n若 $\\boldsymbol{a}_{1}, \\boldsymbol{a}_{2}, \\boldsymbol{a}_{3}$ 与 $\\boldsymbol{a}_{1}, \\boldsymbol{a}_{2}, \\boldsymbol{a}_{4}$ 等价，则 $\\lambda$ 的取值范围是 $\\left( \\ \\right)$\n\n- **A.** $\\left\\{ 0,1 \\right\\}$\n- **B.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -2 \\right\\}$\n- **C.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -1,\\ \\lambda \\ne -2 \\right\\}$\n- **D.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -1 \\right\\}$\n\n**解析：** 两组向量等价当且仅当秩相同.计算得\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{3})=(\\lambda-1)^2(\\lambda+2),\n$$\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{4})=(\\lambda-1)^2(\\lambda+1)^2.\n$$\n\n除 $\\lambda=-1,-2$ 外，两组秩相同；其中 $\\lambda=1$ 时两组秩同为 1，仍等价.故 $\\lambda\\ne-1,-2$.",
-   "answerText": "$\\mathrm{C}$\n\n**解析：**\n两组向量等价当且仅当秩相同.计算得\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{3})=(\\lambda-1)^2(\\lambda+2),\n$$\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{4})=(\\lambda-1)^2(\\lambda+1)^2.\n$$\n\n除 $\\lambda=-1,-2$ 外，两组秩相同；其中 $\\lambda=1$ 时两组秩同为 1，仍等价.故 $\\lambda\\ne-1,-2$.\n\n**答案：** $\\mathrm{C}$\n\n---\n\n## 二、填空题",
+   "answerText": "$\\mathrm{C}$\n\n**解析：**\n两组向量等价当且仅当秩相同.计算得\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{3})=(\\lambda-1)^2(\\lambda+2),\n$$\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{4})=(\\lambda-1)^2(\\lambda+1)^2.\n$$\n\n除 $\\lambda=-1,-2$ 外，两组秩相同；其中 $\\lambda=1$ 时两组秩同为 1，仍等价.故 $\\lambda\\ne-1,-2$.\n\n**答案：** $\\mathrm{C}$\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
@@ -601,7 +601,7 @@
    "number": 16,
    "title": "2022 年数学二 第 16 题",
    "questionText": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，交换 $\\boldsymbol{A}$ 的第 $2$ 行和第 $3$ 行，再将第 $2$ 列的 $-1$ 倍加到第 $1$ 列，得到矩阵\n$\\left( \\begin{array}{ccc} -2 & 1 & -1 \\\\ 1 & -1 & 0 \\\\ -1 & 0 & 0 \\end{array} \\right)$\n\n则 $\\operatorname{tr}\\left( \\boldsymbol{A}^{-1} \\right) = \\underline{\\hspace{4em}}$\n\n**解析：** 记题设所得矩阵为 $B$，则 $B=P_1AP_2$，故\n\n$$\nA^{-1}=P_2B^{-1}P_1.\n$$\n\n计算可得\n\n$$\nA^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n$$\n\n因此 $\\operatorname{tr}(A^{-1})=-1$.",
-   "answerText": "$-1$\n\n**解析：**\n记题设所得矩阵为 $B$，则 $B=P_1AP_2$，故\n\n$$\nA^{-1}=P_2B^{-1}P_1.\n$$\n\n计算可得\n\n$$\nA^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n$$\n\n因此 $\\operatorname{tr}(A^{-1})=-1$.\n\n**答案：** $-1$\n\n---\n\n## 三、解答题",
+   "answerText": "$-1$\n\n**解析：**\n记题设所得矩阵为 $B$，则 $B=P_1AP_2$，故\n\n$$\nA^{-1}=P_2B^{-1}P_1.\n$$\n\n计算可得\n\n$$\nA^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n$$\n\n因此 $\\operatorname{tr}(A^{-1})=-1$.\n\n**答案：** $-1$\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -622,7 +622,7 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题"
+   "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2022.17",

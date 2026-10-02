@@ -371,7 +371,7 @@
    "number": 8,
    "title": "2018 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol A,\\boldsymbol B$ 为 $n$ 阶矩阵，记 $r(\\boldsymbol X)$ 为矩阵 $\\boldsymbol X$ 的秩，$(\\boldsymbol X,\\boldsymbol Y)$ 表示分块矩阵，则 $\\left(\\ \\right)$\n（A）$r(\\boldsymbol A,\\boldsymbol A\\boldsymbol B)=r(\\boldsymbol A)$\n\n（B）$r(\\boldsymbol A,\\boldsymbol B\\boldsymbol A)=r(\\boldsymbol A)$\n\n（C）$r(\\boldsymbol A,\\boldsymbol B)=\\max\\{r(\\boldsymbol A),r(\\boldsymbol B)\\}$\n\n（D）$r(\\boldsymbol A,\\boldsymbol B)=r(\\boldsymbol A^T,\\boldsymbol B^T)$\n\n>",
-   "answerText": "A\n\n**解析：**\n因\n\n$$\n(\\boldsymbol A,\\boldsymbol A\\boldsymbol B)\n=\n\\boldsymbol A(\\boldsymbol E,\\boldsymbol B),\n$$\n\n且 $r(\\boldsymbol E,\\boldsymbol B)=n$，所以\n\n$$\nr(\\boldsymbol A,\\boldsymbol A\\boldsymbol B)=r(\\boldsymbol A).\n$$\n\nB、C、D 均可由简单反例排除，故选 A。\n\n---\n\n## 二、填空题",
+   "answerText": "A\n\n**解析：**\n因\n\n$$\n(\\boldsymbol A,\\boldsymbol A\\boldsymbol B)\n=\n\\boldsymbol A(\\boldsymbol E,\\boldsymbol B),\n$$\n\n且 $r(\\boldsymbol E,\\boldsymbol B)=n$，所以\n\n$$\nr(\\boldsymbol A,\\boldsymbol A\\boldsymbol B)=r(\\boldsymbol A).\n$$\n\nB、C、D 均可由简单反例排除，故选 A。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -549,7 +549,7 @@
    "number": 14,
    "title": "2018 年数学二 第 14 题",
    "questionText": "设 $\\boldsymbol A$ 为 $3$ 阶矩阵，$\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3$ 为线性无关的向量组。若\n$$\n\\boldsymbol A\\boldsymbol\\alpha_1=2\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n$$\n\\boldsymbol A\\boldsymbol\\alpha_2=\\boldsymbol\\alpha_2+2\\boldsymbol\\alpha_3,\n\\qquad\n\\boldsymbol A\\boldsymbol\\alpha_3=-\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n则 $|\\boldsymbol A|=\\underline{\\qquad}$\n\n>",
-   "answerText": "$2$\n\n**解析：**\n令\n\n$$\nP=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3).\n$$\n\n由题意，\n\n$$\nAP=P\n\\begin{pmatrix}\n2&0&0\\\\\n1&1&-1\\\\\n1&2&1\n\\end{pmatrix},\n$$\n\n故\n\n$$\n|A|=\n\\begin{vmatrix}\n2&0&0\\\\\n1&1&-1\\\\\n1&2&1\n\\end{vmatrix}\n=2.\n$$\n\n---\n\n## 三、解答题",
+   "answerText": "$2$\n\n**解析：**\n令\n\n$$\nP=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3).\n$$\n\n由题意，\n\n$$\nAP=P\n\\begin{pmatrix}\n2&0&0\\\\\n1&1&-1\\\\\n1&2&1\n\\end{pmatrix},\n$$\n\n故\n\n$$\n|A|=\n\\begin{vmatrix}\n2&0&0\\\\\n1&1&-1\\\\\n1&2&1\n\\end{vmatrix}\n=2.\n$$\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.vectors",
@@ -604,7 +604,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2018.16",
@@ -830,8 +830,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.matrix_product_determinant",
     "la.knowledge.inverse_matrix",
+    "la.knowledge.matrix_product_determinant",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],

@@ -426,7 +426,7 @@
    "number": 10,
    "title": "2025 年数学二 第 10 题",
    "questionText": "设 3 阶矩阵 $\\boldsymbol{A}$，$\\boldsymbol{B}$ 满足 $r\\left( \\boldsymbol{A}\\boldsymbol{B} \\right) = r\\left( \\boldsymbol{B}\\boldsymbol{A} \\right) + 1$，则\n- A. 方程组 $\\left( \\boldsymbol{A} + \\boldsymbol{B} \\right)\\boldsymbol{x} = 0$ 只有零解.\n\n- B. 方程组 $\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 均只有零解.\n\n- C. 方程组 $\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 没有公共非零解.\n\n- D. 方程组 $\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{x} = 0$ 有公共非零解.",
-   "answerText": "D\n\n**解析：**\n取\n$\\boldsymbol{A} = \\begin{pmatrix} 1 & 1 & 1 \\\\ -1 & -1 & -1 \\\\ 0 & 0 & 0 \\end{pmatrix}$，\n$\\boldsymbol{B} = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{pmatrix}$.\n\n则\n$\\boldsymbol{A}\\boldsymbol{B} = \\begin{pmatrix} 3 & 3 & 3 \\\\ -3 & -3 & -3 \\\\ 0 & 0 & 0 \\end{pmatrix}$，\n$\\boldsymbol{B}\\boldsymbol{A} = \\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$.\n\n故 $r\\left( \\boldsymbol{A}\\boldsymbol{B} \\right) = 1$，$r\\left( \\boldsymbol{B}\\boldsymbol{A} \\right) = 0$，满足题设.\n\n而\n$\\left( \\boldsymbol{A} + \\boldsymbol{B} \\right)\\boldsymbol{x} = 0$ 有非零解，故 A 错；\n$\\boldsymbol{A}\\boldsymbol{x} = 0$ 与 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 都有非零解，故 B 错；\n且这两个方程组有公共非零解，故 C 错.\n\n因此选 D.\n\n\n---\n\n## 二、填空题\n\n第 11～16 小题，每小题 5 分，共 30 分。",
+   "answerText": "D\n\n**解析：**\n取\n$\\boldsymbol{A} = \\begin{pmatrix} 1 & 1 & 1 \\\\ -1 & -1 & -1 \\\\ 0 & 0 & 0 \\end{pmatrix}$，\n$\\boldsymbol{B} = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{pmatrix}$.\n\n则\n$\\boldsymbol{A}\\boldsymbol{B} = \\begin{pmatrix} 3 & 3 & 3 \\\\ -3 & -3 & -3 \\\\ 0 & 0 & 0 \\end{pmatrix}$，\n$\\boldsymbol{B}\\boldsymbol{A} = \\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$.\n\n故 $r\\left( \\boldsymbol{A}\\boldsymbol{B} \\right) = 1$，$r\\left( \\boldsymbol{B}\\boldsymbol{A} \\right) = 0$，满足题设.\n\n而\n$\\left( \\boldsymbol{A} + \\boldsymbol{B} \\right)\\boldsymbol{x} = 0$ 有非零解，故 A 错；\n$\\boldsymbol{A}\\boldsymbol{x} = 0$ 与 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 都有非零解，故 B 错；\n且这两个方程组有公共非零解，故 C 错.\n\n因此选 D.\n\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -596,7 +596,7 @@
    "number": 16,
    "title": "2025 年数学二 第 16 题",
    "questionText": "设矩阵 $\\boldsymbol{A} = \\left( \\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}, \\boldsymbol{\\alpha}_{4} \\right)$.若 $\\boldsymbol{\\alpha}_{1}$，$\\boldsymbol{\\alpha}_{2}$，$\\boldsymbol{\\alpha}_{3}$ 线性无关，且 $\\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} = \\boldsymbol{\\alpha}_{3} + \\boldsymbol{\\alpha}_{4}$，则方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{\\alpha}_{1} + 4\\boldsymbol{\\alpha}_{4}$ 的通解为 ________.",
-   "answerText": "$\\boldsymbol{x} = k \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 4 \\end{pmatrix}$\n\n**解析：**\n由 $\\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} = \\boldsymbol{\\alpha}_{3} + \\boldsymbol{\\alpha}_{4}$ 得\n$\\boldsymbol{\\alpha}_{4} = \\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} - \\boldsymbol{\\alpha}_{3}$.\n\n故\n$r\\left( \\boldsymbol{A} \\right) = r\\left( \\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3} \\right) = 3$.\n\n于是齐次方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{0}$ 的基础解系只有一个线性无关向量，且\n$\\left( 1, 1, -1, -1 \\right)^{\\mathrm{T}}$ 是其一个解.\n\n又\n$\\left( 1, 0, 0, 4 \\right)^{\\mathrm{T}}$ 是方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{\\alpha}_{1} + 4\\boldsymbol{\\alpha}_{4}$ 的一个特解.\n\n故通解为\n$\\boldsymbol{x} = k \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 4 \\end{pmatrix}$.\n\n---\n\n## 三、解答题\n\n第 17～22 小题，共 70 分。解答应写出必要的文字说明、证明过程或演算步骤。",
+   "answerText": "$\\boldsymbol{x} = k \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 4 \\end{pmatrix}$\n\n**解析：**\n由 $\\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} = \\boldsymbol{\\alpha}_{3} + \\boldsymbol{\\alpha}_{4}$ 得\n$\\boldsymbol{\\alpha}_{4} = \\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} - \\boldsymbol{\\alpha}_{3}$.\n\n故\n$r\\left( \\boldsymbol{A} \\right) = r\\left( \\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3} \\right) = 3$.\n\n于是齐次方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{0}$ 的基础解系只有一个线性无关向量，且\n$\\left( 1, 1, -1, -1 \\right)^{\\mathrm{T}}$ 是其一个解.\n\n又\n$\\left( 1, 0, 0, 4 \\right)^{\\mathrm{T}}$ 是方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{\\alpha}_{1} + 4\\boldsymbol{\\alpha}_{4}$ 的一个特解.\n\n故通解为\n$\\boldsymbol{x} = k \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 4 \\end{pmatrix}$.\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
@@ -617,7 +617,7 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题"
+   "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2025.17",
@@ -657,13 +657,13 @@
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
     "differentiability_continuity",
+    "multivariable_limit_continuity",
     "power_series_sum"
    ],
    "methodIds": [],

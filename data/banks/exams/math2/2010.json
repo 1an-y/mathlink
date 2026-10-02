@@ -370,7 +370,7 @@
    "number": 8,
    "title": "2010 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol{A}$ 为 4 阶实对称矩阵，且 $\\boldsymbol{A}^{2} + \\boldsymbol{A} = \\boldsymbol{O}$，若 $\\boldsymbol{A}$ 的秩为 3，则 $\\boldsymbol{A}$ 相似于（ ）\n（A）$\\begin{pmatrix}1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0\\end{pmatrix}$.\n（B）$\\begin{pmatrix}1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & 0\\end{pmatrix}$.\n（C）$\\begin{pmatrix}1 & 0 & 0 & 0 \\\\ 0 & -1 & 0 & 0 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & 0\\end{pmatrix}$.\n（D）$\\begin{pmatrix}-1 & 0 & 0 & 0 \\\\ 0 & -1 & 0 & 0 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 0 & 0 & 0\\end{pmatrix}$.",
-   "answerText": "（D）\n\n**解析：**\n设 $\\lambda$ 为 $\\boldsymbol{A}$ 的特征值，由 $\\boldsymbol{A}^{2} + \\boldsymbol{A} = \\boldsymbol{O}$ 得 $\\lambda^{2} + \\lambda = 0$，故 $\\lambda = 0$ 或 $-1$。又 $\\boldsymbol{A}$ 为实对称矩阵，可相似对角化，且 $r \\left(\\boldsymbol{A}\\right) = 3$，所以其对角形中有三个 $-1$ 和一个 $0$。\n\n---\n\n## 二、填空题",
+   "answerText": "（D）\n\n**解析：**\n设 $\\lambda$ 为 $\\boldsymbol{A}$ 的特征值，由 $\\boldsymbol{A}^{2} + \\boldsymbol{A} = \\boldsymbol{O}$ 得 $\\lambda^{2} + \\lambda = 0$，故 $\\lambda = 0$ 或 $-1$。又 $\\boldsymbol{A}$ 为实对称矩阵，可相似对角化，且 $r \\left(\\boldsymbol{A}\\right) = 3$，所以其对角形中有三个 $-1$ 和一个 $0$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
@@ -548,7 +548,7 @@
    "number": 14,
    "title": "2010 年数学二 第 14 题",
    "questionText": "设 $\\boldsymbol{A}, \\boldsymbol{B}$ 为 3 阶矩阵，且 $\\left|\\boldsymbol{A}\\right| = 3, \\left|\\boldsymbol{B}\\right| = 2, \\left|\\boldsymbol{A}^{-1} + \\boldsymbol{B}\\right| = 2$，则 $\\left|\\boldsymbol{A} + \\boldsymbol{B}^{-1}\\right| = \\underline{\\qquad\\qquad}$.",
-   "answerText": "$3$\n\n**解析：**\n因为 $\\boldsymbol{A} + \\boldsymbol{B}^{-1} = \\boldsymbol{A}\\left(\\boldsymbol{A}^{-1} + \\boldsymbol{B}\\right)\\boldsymbol{B}^{-1}$，所以 $\\left|\\boldsymbol{A} + \\boldsymbol{B}^{-1}\\right| = \\left|\\boldsymbol{A}\\right|\\left|\\boldsymbol{A}^{-1} + \\boldsymbol{B}\\right|\\left|\\boldsymbol{B}^{-1}\\right| = 3 \\times 2 \\times \\frac{1}{2} = 3$。\n\n---\n\n## 三、解答题",
+   "answerText": "$3$\n\n**解析：**\n因为 $\\boldsymbol{A} + \\boldsymbol{B}^{-1} = \\boldsymbol{A}\\left(\\boldsymbol{A}^{-1} + \\boldsymbol{B}\\right)\\boldsymbol{B}^{-1}$，所以 $\\left|\\boldsymbol{A} + \\boldsymbol{B}^{-1}\\right| = \\left|\\boldsymbol{A}\\right|\\left|\\boldsymbol{A}^{-1} + \\boldsymbol{B}\\right|\\left|\\boldsymbol{B}^{-1}\\right| = 3 \\times 2 \\times \\frac{1}{2} = 3$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -603,7 +603,7 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "二、填空题"
+   "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2010.16",

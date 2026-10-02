@@ -12,7 +12,8 @@
   "paper": "math2",
   "label": "数学二",
   "sections": [
-   "一、填空题"
+   "一、填空题",
+   "二、选择题"
   ],
   "problemsOrder": [
    {
@@ -46,32 +47,32 @@
     "objective": true
    },
    {
-    "number": 1,
-    "id": "bank.exam.m2-1999.1",
+    "number": 6,
+    "id": "bank.exam.m2-1999.6",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 2,
-    "id": "bank.exam.m2-1999.2",
+    "number": 7,
+    "id": "bank.exam.m2-1999.7",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m2-1999.8",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m2-1999.9",
     "subjectGuess": "calculus",
     "objective": true
    },
    {
-    "number": 3,
-    "id": "bank.exam.m2-1999.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-1999.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-1999.5",
+    "number": 10,
+    "id": "bank.exam.m2-1999.10",
     "subjectGuess": "calculus",
     "objective": true
    }
@@ -202,7 +203,7 @@
    "number": 5,
    "title": "1999 年数学二 第 5 题",
    "questionText": "微分方程 $y^{\\prime\\prime}-4y=e^{2x}$ 的通解为 ________。",
-   "answerText": "$y=C_{1}e^{-2x}+\\left(C_{2}+\\dfrac{1}{4}x\\right)e^{2x}$，其中 $C_{1},C_{2}$ 为任意常数。\n\n**解析：**\n齐次方程 $y^{\\prime\\prime}-4y=0$ 的特征根为 $\\lambda_{1}=2,\\lambda_{2}=-2$。又非齐次项为 $e^{2x}$，设特解 $y^{*}=Axe^{2x}$，代入得 $A=\\dfrac{1}{4}$。故通解为\n\n$y=C_{1}e^{-2x}+\\left(C_{2}+\\dfrac{1}{4}x\\right)e^{2x}$。\n\n---\n\n## 二、选择题",
+   "answerText": "$y=C_{1}e^{-2x}+\\left(C_{2}+\\dfrac{1}{4}x\\right)e^{2x}$，其中 $C_{1},C_{2}$ 为任意常数。\n\n**解析：**\n齐次方程 $y^{\\prime\\prime}-4y=0$ 的特征根为 $\\lambda_{1}=2,\\lambda_{2}=-2$。又非齐次项为 $e^{2x}$，设特解 $y^{*}=Axe^{2x}$，代入得 $A=\\dfrac{1}{4}$。故通解为\n\n$y=C_{1}e^{-2x}+\\left(C_{2}+\\dfrac{1}{4}x\\right)e^{2x}$。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
@@ -226,20 +227,20 @@
    "section": "一、填空题"
   },
   {
-   "id": "bank.exam.m2-1999.1",
-   "number": 1,
-   "title": "1999 年数学二 第 1 题",
+   "id": "bank.exam.m2-1999.6",
+   "number": 6,
+   "title": "1999 年数学二 第 6 题",
    "questionText": "设\n$f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\dfrac{1-\\cos x}{\\sqrt{x}}, & x>0,\\\\x^{2}g\\left(x\\right), & x\\le 0,\\end{array}\\right.$\n\n其中 $g\\left(x\\right)$ 是有界函数，则 $f\\left(x\\right)$ 在 $x=0$ 处（ ）\n\nA. 极限不存在。\nB. 极限存在，但不连续。\nC. 连续，但不可导。\nD. 可导。",
    "answerText": "D\n\n**解析：**\n因 $g\\left(x\\right)$ 有界，$\\lim_{x\\to 0^{-}}x^{2}g\\left(x\\right)=0$；又 $\\lim_{x\\to 0^{+}}\\dfrac{1-\\cos x}{\\sqrt{x}}=0$，故 $f\\left(x\\right)$ 在 $x=0$ 处连续。\n\n又\n\n$f_{+}^{\\prime}\\left(0\\right)=\\lim_{x\\to 0^{+}}\\dfrac{1-\\cos x}{x\\sqrt{x}}=0,\\quad f_{-}^{\\prime}\\left(0\\right)=\\lim_{x\\to 0^{-}}xg\\left(x\\right)=0$。\n\n所以 $f^{\\prime}\\left(0\\right)$ 存在，选 D。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
     "differentiability_continuity",
+    "multivariable_limit_continuity",
     "power_series_sum"
    ],
    "methodIds": [],
@@ -252,29 +253,26 @@
     "kind": "exam",
     "year": 1999,
     "paper": "math2",
-    "number": 1
+    "number": 6
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1999.2",
-   "number": 2,
-   "title": "1999 年数学二 第 2 题",
+   "id": "bank.exam.m2-1999.7",
+   "number": 7,
+   "title": "1999 年数学二 第 7 题",
    "questionText": "设\n$\\alpha\\left(x\\right)=\\int_{0}^{x}\\sin^{5}t\\mathrm{~d}t,\\quad \\beta\\left(x\\right)=\\dfrac{1}{5}\\int_{0}^{x}\\dfrac{t^{5}}{1+\\sin t}\\mathrm{~d}t$，\n\n则当 $x\\to 0$ 时，$\\alpha\\left(x\\right)$ 是 $\\beta\\left(x\\right)$ 的（ ）\n\nA. 高阶无穷小。\nB. 低阶无穷小。\nC. 同阶但不等价的无穷小。\nD. 等价无穷小。",
    "answerText": "C\n\n**解析：**\n由洛必达法则，\n\n$\\lim_{x\\to 0}\\dfrac{\\alpha\\left(x\\right)}{\\beta\\left(x\\right)}=\\lim_{x\\to 0}\\dfrac{\\sin^{5}x}{\\frac{1}{5}\\cdot \\frac{x^{5}}{1+\\sin x}}=5$。\n\n极限为有限非零常数但不等于 $1$，故二者同阶但不等价，选 C。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "equivalent_infinitesimal",
-    "infinite_and_infinitesimal"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -283,29 +281,26 @@
     "kind": "exam",
     "year": 1999,
     "paper": "math2",
-    "number": 2
+    "number": 7
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1999.3",
-   "number": 3,
-   "title": "1999 年数学二 第 3 题",
+   "id": "bank.exam.m2-1999.8",
+   "number": 8,
+   "title": "1999 年数学二 第 8 题",
    "questionText": "设 $f\\left(x\\right)$ 是连续函数，$F\\left(x\\right)$ 是 $f\\left(x\\right)$ 的原函数，则（ ）\nA. 当 $f\\left(x\\right)$ 是奇函数时，$F\\left(x\\right)$ 必是偶函数。\nB. 当 $f\\left(x\\right)$ 是偶函数时，$F\\left(x\\right)$ 必是奇函数。\nC. 当 $f\\left(x\\right)$ 是周期函数时，$F\\left(x\\right)$ 必是周期函数。\nD. 当 $f\\left(x\\right)$ 是单调增函数时，$F\\left(x\\right)$ 必是单调增函数。",
    "answerText": "A\n\n**解析：**\n原函数可写为 $F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t+C$。若 $f\\left(x\\right)$ 为奇函数，则\n\n$F\\left(-x\\right)=\\int_{0}^{-x}f\\left(t\\right)\\mathrm{~d}t+C=\\int_{0}^{x}f\\left(u\\right)\\mathrm{~d}u+C=F\\left(x\\right)$。\n\n所以 $F\\left(x\\right)$ 为偶函数，选 A。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -314,15 +309,15 @@
     "kind": "exam",
     "year": 1999,
     "paper": "math2",
-    "number": 3
+    "number": 8
    },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1999.4",
-   "number": 4,
-   "title": "1999 年数学二 第 4 题",
+   "id": "bank.exam.m2-1999.9",
+   "number": 9,
+   "title": "1999 年数学二 第 9 题",
    "questionText": "“对任意给定的 $\\varepsilon\\in\\left(0,1\\right)$，总存在正整数 $N$，当 $n\\ge N$ 时，恒有 $\\left|x_{n}-a\\right|\\le 2\\varepsilon$”是数列 $\\left\\{x_{n}\\right\\}$ 收敛于 $a$ 的（ ）\nA. 充分条件但非必要条件。\nB. 必要条件但非充分条件。\nC. 充分必要条件。\nD. 既非充分条件又非必要条件。",
    "answerText": "C\n\n**解析：**\n该条件与数列极限定义等价。因为 $\\varepsilon\\in\\left(0,1\\right)$ 仍可任意小，且 $\\left|x_{n}-a\\right|\\le 2\\varepsilon$ 仍能保证 $\\left|x_{n}-a\\right|$ 任意小，所以是充分必要条件，选 C。\n\n---",
    "questionImages": [],
@@ -342,17 +337,17 @@
     "kind": "exam",
     "year": 1999,
     "paper": "math2",
-    "number": 4
+    "number": 9
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   },
   {
-   "id": "bank.exam.m2-1999.5",
-   "number": 5,
-   "title": "1999 年数学二 第 5 题",
+   "id": "bank.exam.m2-1999.10",
+   "number": 10,
+   "title": "1999 年数学二 第 10 题",
    "questionText": "记行列式\n$\\begin{vmatrix}x-2 & x-1 & x-2 & x-3\\\\2x-2 & 2x-1 & 2x-2 & 2x-3\\\\3x-3 & 3x-2 & 4x-5 & 3x-5\\\\4x & 4x-3 & 5x-7 & 4x-3\\end{vmatrix}$\n\n为 $f\\left(x\\right)$，则方程 $f\\left(x\\right)=0$ 的根的个数为（ ）\n\nA. $1$。\nB. $2$。\nC. $3$。\nD. $4$。",
-   "answerText": "B\n\n**解析：**\n利用行列式性质化简可得 $f\\left(x\\right)=5x\\left(x-1\\right)$。故方程 $f\\left(x\\right)=0$ 有两个根 $x=0,x=1$，选 B。\n\n---\n\n## 三、计算题\n\n求\n\n$\\lim_{x\\to 0}\\dfrac{\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}}{x\\ln\\left(1+x\\right)-x^{2}}$。\n\n**解析：**\n\n分子有理化，得\n\n$\\dfrac{\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}}{x\\ln\\left(1+x\\right)-x^{2}}=\\dfrac{\\tan x-\\sin x}{\\left[x\\ln\\left(1+x\\right)-x^{2}\\right]\\left(\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}\\right)}$。\n\n当 $x\\to 0$ 时，$\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}\\to 2$，且 $\\tan x-\\sin x\\sim \\dfrac{x^{3}}{2}$，$x\\ln\\left(1+x\\right)-x^{2}\\sim -\\dfrac{x^{3}}{2}$。故原极限为\n\n$-\\dfrac{1}{2}$。\n\n---\n\n## 四、计算题\n\n计算\n\n$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x$。\n\n**解析：**\n\n分部积分：\n\n$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x=\\int_{1}^{+\\infty}\\arctan x\\,\\mathrm{d}\\left(-\\dfrac{1}{x}\\right)$\n\n$=-\\left.\\dfrac{\\arctan x}{x}\\right|_{1}^{+\\infty}+\\int_{1}^{+\\infty}\\dfrac{1}{x\\left(1+x^{2}\\right)}\\mathrm{~d}x$。\n\n又\n\n$\\int_{1}^{+\\infty}\\dfrac{1}{x\\left(1+x^{2}\\right)}\\mathrm{~d}x=\\left.\\ln\\dfrac{x}{\\sqrt{1+x^{2}}}\\right|_{1}^{+\\infty}=\\dfrac{1}{2}\\ln 2$。\n\n故\n\n$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x=\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\ln 2$。\n\n---\n\n## 五、计算题\n\n求初值问题\n\n$\\left\\{\\begin{array}{l}\\left(y+\\sqrt{x^{2}+y^{2}}\\right)\\mathrm{d}x-x\\mathrm{d}y=0,\\quad x>0,\\\\\\left.y\\right|_{x=1}=0\\end{array}\\right.$\n\n的解。\n\n**解析：**\n\n原方程化为\n\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{y+\\sqrt{x^{2}+y^{2}}}{x}$。\n\n令 $u=\\dfrac{y}{x}$，则 $y=ux$，代入得 $x\\dfrac{\\mathrm{d}u}{\\mathrm{d}x}=\\sqrt{1+u^{2}}$。分离变量并积分：\n\n$\\int\\dfrac{\\mathrm{d}u}{\\sqrt{1+u^{2}}}=\\int\\dfrac{\\mathrm{d}x}{x}$，\n\n得 $\\ln\\left(u+\\sqrt{1+u^{2}}\\right)=\\ln\\left(Cx\\right)$，即 $u+\\sqrt{1+u^{2}}=Cx$。由 $\\left.y\\right|_{x=1}=0$，得 $C=1$。代回并化简，得\n\n$y=\\dfrac{1}{2}x^{2}-\\dfrac{1}{2},\\quad x>0$。\n\n---\n\n## 六、应用题\n\n为清除井底的污泥，用缆绳将抓斗放入井底，抓起污泥后提出井口（图示略）。已知井深 $30\\ \\mathrm{m}$，抓斗自重 $400\\ \\mathrm{N}$，缆绳每米重 $50\\ \\mathrm{N}$，抓斗抓起的污泥重 $2000\\ \\mathrm{N}$，提升速度为 $3\\ \\mathrm{m/s}$，在提升过程中，污泥以 $20\\ \\mathrm{N/s}$ 的速度从抓斗缝隙中漏掉。现将抓起污泥的抓斗提升至井口，问克服重力需作多少焦耳的功？\n\n**解析：**\n\n设抓斗上升距离为 $x$。此时需克服的力为\n\n$f\\left(x\\right)=400+50\\left(30-x\\right)+\\left(2000-\\dfrac{20}{3}x\\right)=3900-\\dfrac{170}{3}x$。\n\n故总功为\n\n$W=\\int_{0}^{30}\\left(3900-\\dfrac{170}{3}x\\right)\\mathrm{~d}x=\\left.3900x-\\dfrac{85}{3}x^{2}\\right|_{0}^{30}=91500\\ \\mathrm{J}$。\n\n---\n\n## 七、计算题\n\n已知函数\n\n$y=\\dfrac{x^{3}}{\\left(x-1\\right)^{2}}$，\n\n求：\n\n1. 函数的增减区间及极值；\n2. 函数图形的凹凸区间及拐点；\n3. 函数图形的渐近线。\n\n**解析：**\n\n定义域为 $\\left(-\\infty,1\\right)\\cup\\left(1,+\\infty\\right)$。求导得\n\n$y^{\\prime}=\\dfrac{x^{2}\\left(x-3\\right)}{\\left(x-1\\right)^{3}},\\quad y^{\\prime\\prime}=\\dfrac{6x}{\\left(x-1\\right)^{4}}$。\n\n由 $y^{\\prime}$ 的符号可知，函数在 $\\left(-\\infty,1\\right)$ 与 $\\left(3,+\\infty\\right)$ 上单调增加，在 $\\left(1,3\\right)$ 上单调减少；当 $x=3$ 时取极小值 $y\\left(3\\right)=\\dfrac{27}{4}$。\n\n由 $y^{\\prime\\prime}$ 的符号可知，函数在 $\\left(-\\infty,0\\right)$ 内为凸，在 $\\left(0,1\\right)$ 与 $\\left(1,+\\infty\\right)$ 内为凹，拐点为 $\\left(0,0\\right)$。\n\n又 $\\lim_{x\\to 1}\\dfrac{x^{3}}{\\left(x-1\\right)^{2}}=+\\infty$，故 $x=1$ 是铅直渐近线；并且 $\\lim_{x\\to \\infty}\\dfrac{y}{x}=1$，$\\lim_{x\\to \\infty}\\left(y-x\\right)=2$，故斜渐近线为 $y=x+2$。\n\n---\n\n## 八、证明题\n\n设函数 $f\\left(x\\right)$ 在闭区间 $\\left[-1,1\\right]$ 上具有三阶连续导数，且 $f\\left(-1\\right)=0$，$f\\left(1\\right)=1$，$f^{\\prime}\\left(0\\right)=0$。证明：在开区间 $\\left(-1,1\\right)$ 内至少存在一点 $\\xi$，使 $f^{\\prime\\prime\\prime}\\left(\\xi\\right)=3$。\n\n**解析：**\n\n由带拉格朗日余项的麦克劳林公式，\n\n$f\\left(x\\right)=f\\left(0\\right)+f^{\\prime}\\left(0\\right)x+\\dfrac{1}{2}f^{\\prime\\prime}\\left(0\\right)x^{2}+\\dfrac{1}{6}f^{\\prime\\prime\\prime}\\left(\\eta\\right)x^{3}$，\n\n其中 $\\eta$ 介于 $0$ 与 $x$ 之间。\n\n分别取 $x=-1$ 与 $x=1$，并利用 $f^{\\prime}\\left(0\\right)=0$，得\n\n$f\\left(-1\\right)=f\\left(0\\right)+\\dfrac{1}{2}f^{\\prime\\prime}\\left(0\\right)-\\dfrac{1}{6}f^{\\prime\\prime\\prime}\\left(\\eta_{1}\\right)=0$，\n\n$f\\left(1\\right)=f\\left(0\\right)+\\dfrac{1}{2}f^{\\prime\\prime}\\left(0\\right)+\\dfrac{1}{6}f^{\\prime\\prime\\prime}\\left(\\eta_{2}\\right)=1$。\n\n两式相减，得 $f^{\\prime\\prime\\prime}\\left(\\eta_{1}\\right)+f^{\\prime\\prime\\prime}\\left(\\eta_{2}\\right)=6$。由 $f^{\\prime\\prime\\prime}\\left(x\\right)$ 连续，存在 $\\xi\\in\\left(-1,1\\right)$，使\n\n$f^{\\prime\\prime\\prime}\\left(\\xi\\right)=\\dfrac{f^{\\prime\\prime\\prime}\\left(\\eta_{1}\\right)+f^{\\prime\\prime\\prime}\\left(\\eta_{2}\\right)}{2}=3$。\n\n---\n\n## 九、计算题\n\n设函数 $y=y\\left(x\\right)\\left(x\\ge 0\\right)$ 二阶可导，且 $y^{\\prime}\\left(x\\right)>0$，$y\\left(0\\right)=1$。过曲线 $y=y\\left(x\\right)$ 上任意一点 $P\\left(x,y\\right)$ 作该曲线的切线及 $x$ 轴的垂线，上述两直线与 $x$ 轴所围成的三角形面积记为 $S_{1}$；区间 $\\left[0,x\\right]$ 上以 $y=y\\left(x\\right)$ 为曲边的曲边梯形面积记为 $S_{2}$，并设 $2S_{1}-S_{2}$ 恒为 $1$，求此曲线 $y=y\\left(x\\right)$ 的方程。\n\n**解析：**\n\n切线方程为 $Y-y=y^{\\prime}\\left(X-x\\right)$，其与 $x$ 轴交点为 $\\left(x-\\dfrac{y}{y^{\\prime}},0\\right)$，故\n\n$S_{1}=\\dfrac{y^{2}}{2y^{\\prime}},\\quad S_{2}=\\int_{0}^{x}y\\left(t\\right)\\mathrm{~d}t$。\n\n由 $2S_{1}-S_{2}=1$，得\n\n$\\dfrac{y^{2}}{y^{\\prime}}-\\int_{0}^{x}y\\left(t\\right)\\mathrm{~d}t=1$。\n\n两边对 $x$ 求导并化简：\n\n$yy^{\\prime\\prime}=\\left(y^{\\prime}\\right)^{2}$。\n\n令 $p=y^{\\prime}$，则 $y^{\\prime\\prime}=p\\dfrac{\\mathrm{d}p}{\\mathrm{d}y}$，于是 $\\dfrac{\\mathrm{d}p}{p}=\\dfrac{\\mathrm{d}y}{y}$，得 $p=C_{1}y$。因此 $y=C_{2}e^{C_{1}x}$。\n\n由 $y\\left(0\\right)=1$ 与原条件可得 $C_{2}=1,C_{1}=1$，故曲线方程为\n\n$y=e^{x}$。\n\n---\n\n## 十、证明题\n\n设 $f\\left(x\\right)$ 是区间 $\\left[0,+\\infty\\right)$ 上单调减少且非负的连续函数，\n\n$a_{n}=\\sum_{k=1}^{n}f\\left(k\\right)-\\int_{1}^{n}f\\left(x\\right)\\mathrm{~d}x,\\quad n=1,2,\\cdots$。\n\n证明数列 $\\left\\{a_{n}\\right\\}$ 的极限存在。\n\n**解析：**\n\n由\n\n$\\int_{1}^{n}f\\left(x\\right)\\mathrm{~d}x=\\sum_{k=1}^{n-1}\\int_{k}^{k+1}f\\left(x\\right)\\mathrm{~d}x$，\n\n得\n\n$a_{n}=\\sum_{k=1}^{n-1}\\left[f\\left(k\\right)-\\int_{k}^{k+1}f\\left(x\\right)\\mathrm{~d}x\\right]+f\\left(n\\right)$。\n\n因 $f\\left(x\\right)$ 单调减少且非负，所以 $a_{n}\\ge 0$。又\n\n$a_{n+1}-a_{n}=f\\left(n+1\\right)-\\int_{n}^{n+1}f\\left(x\\right)\\mathrm{~d}x=\\int_{n}^{n+1}\\left[f\\left(n+1\\right)-f\\left(x\\right)\\right]\\mathrm{~d}x\\le 0$。\n\n故 $\\left\\{a_{n}\\right\\}$ 单调减少且有下界，因此极限存在。\n\n---\n\n## 十一、计算题\n\n设矩阵\n\n$\\boldsymbol{A}=\\begin{bmatrix}1 & 1 & -1\\\\-1 & 1 & 1\\\\1 & -1 & 1\\end{bmatrix}$，\n\n矩阵 $\\boldsymbol{X}$ 满足\n\n$\\boldsymbol{A}^{*}\\boldsymbol{X}=\\boldsymbol{A}^{-1}+2\\boldsymbol{X}$，\n\n其中 $\\boldsymbol{A}^{*}$ 是 $\\boldsymbol{A}$ 的伴随矩阵，求矩阵 $\\boldsymbol{X}$。\n\n**解析：**\n\n两端左乘 $\\boldsymbol{A}$，得\n\n$\\boldsymbol{A}\\boldsymbol{A}^{*}\\boldsymbol{X}=\\boldsymbol{A}\\boldsymbol{A}^{-1}+2\\boldsymbol{A}\\boldsymbol{X}$。\n\n因 $\\boldsymbol{A}\\boldsymbol{A}^{*}=\\left|\\boldsymbol{A}\\right|\\boldsymbol{E}$，且 $\\left|\\boldsymbol{A}\\right|=4$，所以\n\n$4\\boldsymbol{X}=\\boldsymbol{E}+2\\boldsymbol{A}\\boldsymbol{X}$，\n\n即\n\n$2\\left(2\\boldsymbol{E}-\\boldsymbol{A}\\right)\\boldsymbol{X}=\\boldsymbol{E}$。\n\n因此\n\n$\\boldsymbol{X}=\\dfrac{1}{2}\\left(2\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-1}=\\dfrac{1}{4}\\begin{bmatrix}1 & 1 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{bmatrix}$。\n\n---\n\n## 十二、计算题\n\n设向量组\n\n$\\boldsymbol{\\alpha}_{1}=\\left(1,1,1,3\\right)^{T}$，\n\n$\\boldsymbol{\\alpha}_{2}=\\left(-1,-3,5,1\\right)^{T}$，\n\n$\\boldsymbol{\\alpha}_{3}=\\left(3,2,-1,p+2\\right)^{T}$，\n\n$\\boldsymbol{\\alpha}_{4}=\\left(-2,-6,10,p\\right)^{T}$。\n\n1. $p$ 为何值时，该向量组线性无关？并在此时将向量 $\\boldsymbol{\\alpha}=\\left(4,1,6,10\\right)^{T}$ 用 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性表出；\n2. $p$ 为何值时，该向量组线性相关？并在此时求出它的秩和一个极大线性无关组。\n\n**解析：**\n\n对增广矩阵 $\\left[\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4},\\boldsymbol{\\alpha}\\right]$ 作初等行变换，可化为\n\n$\\begin{bmatrix}1 & -1 & 3 & -2 & 4\\\\0 & -2 & -1 & -4 & -3\\\\0 & 0 & 1 & 0 & 1\\\\0 & 0 & 0 & p-2 & 1-p\\end{bmatrix}$。\n\n当 $p\\ne 2$ 时，$r\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}\\right)=4$，故向量组线性无关。此时方程组有唯一解：\n\n$x_{1}=\\dfrac{p-3}{p-2},\\quad x_{2}=\\dfrac{p-4}{p-2},\\quad x_{3}=1,\\quad x_{4}=\\dfrac{p-1}{p-2}$。\n\n所以\n\n$\\boldsymbol{\\alpha}=\\dfrac{p-3}{p-2}\\boldsymbol{\\alpha}_{1}+\\dfrac{p-4}{p-2}\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\dfrac{p-1}{p-2}\\boldsymbol{\\alpha}_{4}$。\n\n当 $p=2$ 时，向量组线性相关，且 $r\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}\\right)=3$。此时一个极大线性无关组可取为\n\n$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$，\n\n也可取\n\n$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$。",
+   "answerText": "B\n\n**解析：**\n利用行列式性质化简可得 $f\\left(x\\right)=5x\\left(x-1\\right)$。故方程 $f\\left(x\\right)=0$ 有两个根 $x=0,x=1$，选 B。\n\n---",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -370,10 +365,10 @@
     "kind": "exam",
     "year": 1999,
     "paper": "math2",
-    "number": 5
+    "number": 10
    },
    "subjectGuess": "calculus",
-   "section": "一、填空题"
+   "section": "二、选择题"
   }
  ]
 }
