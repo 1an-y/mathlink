@@ -656,7 +656,7 @@
    "id": "bank.exam.m2-2011.17",
    "number": 17,
    "title": "2011 年数学二 第 17 题",
-   "questionText": "设函数 $z=f\\left(xy,yg\\left(x\\right)\\right)$，其中函数 $f$ 具有二阶连续偏导数，函数 $g\\left(x\\right)$ 可导且在 $x=1$ 处取得极值 $g\\left(1\\right)=1$，求 $\\left.\\frac{\\partial^{2}z}{\\partial x\\partial y}\\right|_{\\substack{x=1\\\\\\y=1}}$。",
+   "questionText": "设函数 $z=f\\left(xy,yg\\left(x\\right)\\right)$，其中函数 $f$ 具有二阶连续偏导数，函数 $g\\left(x\\right)$ 可导且在 $x=1$ 处取得极值 $g\\left(1\\right)=1$，求 $\\left.\\frac{\\partial^{2}z}{\\partial x\\partial y}\\right|_{\\substack{x=1\\\\y=1}}$。",
    "answerText": "答案：$f'_{1}(1,1)+f''_{11}(1,1)+f''_{12}(1,1)$。\n\n**解析：** 由 $g$ 在 $x=1$ 取极值得 $g'(1)=0$。记 $u=xy$，$v=yg(x)$，则\n$$\n\\frac{\\partial z}{\\partial y}=xf'_{1}+g(x)f'_{2}.\n$$\n再对 $x$ 求导：\n$$\n\\frac{\\partial^{2}z}{\\partial x\\partial y}\n=f'_{1}+x\\left(yf''_{11}+g'(x)f''_{12}\\right)+g'(x)\\left(yf''_{21}+g'(x)f''_{22}\\right).\n$$\n代入 $x=1,\\ y=1,\\ g(1)=1,\\ g'(1)=0$：\n$$\n\\left.\\frac{\\partial^{2}z}{\\partial x\\partial y}\\right|_{\\substack{x=1\\\\y=1}}\n=f'_{1}(1,1)+f''_{11}(1,1)+f''_{12}(1,1).\n$$",
    "questionImages": [],
    "answerImages": [],

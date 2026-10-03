@@ -340,7 +340,7 @@
     "prob.knowledge.functions_of_random_variables"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；审计标记：此处公式渲染失败待人工核对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
