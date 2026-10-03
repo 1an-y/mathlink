@@ -526,8 +526,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.cofactor",
     "la.knowledge.matrix_product_determinant",
+    "la.knowledge.cofactor",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],

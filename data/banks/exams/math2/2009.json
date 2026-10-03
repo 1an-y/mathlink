@@ -297,8 +297,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "extrema",
     "curvature",
+    "extrema",
     "power_series_sum"
    ],
    "methodIds": [],

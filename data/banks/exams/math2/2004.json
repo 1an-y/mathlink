@@ -819,9 +819,9 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.eigen_concept",
     "la.knowledge.orthogonal_diagonalization",
-    "la.knowledge.matrix_rank"
+    "la.knowledge.matrix_rank",
+    "la.knowledge.linear_correlation"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",

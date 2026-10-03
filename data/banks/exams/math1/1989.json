@@ -434,13 +434,13 @@
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
     "multivariable_limit_continuity",
+    "differentiability_continuity",
     "continuity_partial_differentiability"
    ],
    "methodIds": [],

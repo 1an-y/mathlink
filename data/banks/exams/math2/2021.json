@@ -192,13 +192,13 @@
    "answerText": "D\n\n**解析：**\n有\n$$\n\\lim_{x\\to 0}\\frac{e^x-1}{x}=1=f(0),\n$$\n故在 $x=0$ 处连续。又\n$$\nf'(0)=\\lim_{x\\to 0}\\frac{f(x)-f(0)}{x}\n=\\lim_{x\\to 0}\\frac{e^x-1-x}{x^2}\n=\\frac12\\ne 0.\n$$\n\n**答案：** D\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
     "multivariable_limit_continuity",
+    "differentiability_continuity",
     "power_series_sum"
    ],
    "methodIds": [],

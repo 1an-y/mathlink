@@ -314,13 +314,13 @@
    "answerText": "A\n\n**解析：**\n由极限为 $0$ 可推出\n\n$$\nf(a)=g(a),\\qquad f'(a)=g'(a),\\qquad f''(a)=g''(a),\n$$\n\n因此两曲线相切且曲率相等。反之，曲率相等不一定能推出上述极限为 $0$，故选 A。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
     "multivariable_limit_continuity",
+    "differentiability_continuity",
     "curvature"
    ],
    "methodIds": [],

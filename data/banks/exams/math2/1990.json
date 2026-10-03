@@ -386,8 +386,8 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "discontinuity",
-    "differentiability_continuity",
-    "multivariable_limit_continuity"
+    "multivariable_limit_continuity",
+    "differentiability_continuity"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",

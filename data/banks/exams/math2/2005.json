@@ -559,8 +559,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
     "la.knowledge.adjoint_matrix",
+    "la.knowledge.inverse_matrix",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],
@@ -716,13 +716,13 @@
    "answerText": "**解析：**\n（Ⅰ）令 $F\\left(x\\right)=f\\left(x\\right)+x-1$，则 $F\\left(0\\right)=-1<0$，$F\\left(1\\right)=1>0$。由介值定理，存在 $\\xi\\in\\left(0,1\\right)$，使 $F\\left(\\xi\\right)=0$，即 $f\\left(\\xi\\right)=1-\\xi$。\n\n（Ⅱ）在 $\\left[0,\\xi\\right]$ 与 $\\left[\\xi,1\\right]$ 上分别用拉格朗日中值定理，存在 $\\eta\\in\\left(0,\\xi\\right)$，$\\zeta\\in\\left(\\xi,1\\right)$，使\n\n$f^{\\prime}\\left(\\eta\\right)=\\frac{1-\\xi}{\\xi},\\quad f^{\\prime}\\left(\\zeta\\right)=\\frac{\\xi}{1-\\xi}$。\n\n故 $f^{\\prime}\\left(\\eta\\right)f^{\\prime}\\left(\\zeta\\right)=1$。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
     "multivariable_limit_continuity",
+    "differentiability_continuity",
     "power_series_sum"
    ],
    "methodIds": [],

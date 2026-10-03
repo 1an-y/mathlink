@@ -647,13 +647,13 @@
    "answerText": "**解析：**\n由 $g\\left(x\\right)$ 在 $x=1$ 处取极值，得 $g^{\\prime}\\left(1\\right)=0$。\n\n对 $z=f\\left(xy,yg\\left(x\\right)\\right)$ 求偏导并代入 $x=1,y=1,g\\left(1\\right)=1,g^{\\prime}\\left(1\\right)=0$，得\n\n$\\left.\\frac{\\partial^{2}z}{\\partial x\\partial y}\\right|_{\\substack{x=1\\\\y=1}}=f_{1}^{\\prime}\\left(1,1\\right)+f_{11}^{\\prime\\prime}\\left(1,1\\right)+f_{12}^{\\prime\\prime}\\left(1,1\\right)$。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
     "multivariable_limit_continuity",
+    "differentiability_continuity",
     "extrema"
    ],
    "methodIds": [],

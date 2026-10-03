@@ -350,8 +350,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
     "la.knowledge.adjoint_matrix",
+    "la.knowledge.inverse_matrix",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],
