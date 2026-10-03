@@ -1,767 +1,767 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 2002,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": true,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2002-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 2002,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、填空题",
-   "二、选择题",
-   "三、计算题",
-   "四、计算题",
-   "五、计算题",
-   "六、计算题",
-   "七、应用题",
-   "八、证明题",
-   "九、证明题",
-   "十、证明题",
-   "十一、计算题",
-   "十二、计算题"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-2002.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-2002.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-2002.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2002.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2002.5",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-2002.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-2002.7",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-2002.8",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-2002.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-2002.10",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-2002.11",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-2002.12",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-2002.13",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-2002.14",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-2002.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-2002.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-2002.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-2002.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-2002.19",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-2002.20",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   }
-  ],
-  "total": 20
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-2002.1",
-   "number": 1,
-   "title": "2002 年数学二 第 1 题",
-   "questionText": "设函数\n\n$f\\left(x\\right)=\\begin{cases}\\dfrac{1-e^{\\tan x}}{\\arcsin\\dfrac{x}{2}}, & x>0,\\\\a e^{2x}, & x\\le 0,\\end{cases}$\n\n在 $x=0$ 处连续，则 $a=$ ________。",
-   "answerText": "$-2$\n\n**解析：**\n$x\\to0^{+}$：$1-e^{\\tan x}\\sim-\\tan x\\sim-x$，$\\arcsin\\dfrac{x}{2}\\sim\\dfrac{x}{2}$，右极限为 $-2=f\\left(0\\right)$，故 $a=-2$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "continuity_and_discontinuity",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "equivalent_infinitesimal",
-    "continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2002-2.md",
+  "paperInfo": {
     "year": 2002,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+    "label": "数学二",
+    "sections": [
+      "一、填空题",
+      "二、选择题",
+      "三、计算题",
+      "四、计算题",
+      "五、计算题",
+      "六、计算题",
+      "七、应用题",
+      "八、证明题",
+      "九、证明题",
+      "十、证明题",
+      "十一、计算题",
+      "十二、计算题"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-2002.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-2002.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-2002.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-2002.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-2002.5",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-2002.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-2002.7",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-2002.8",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-2002.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-2002.10",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-2002.11",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-2002.12",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-2002.13",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-2002.14",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-2002.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-2002.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-2002.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-2002.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-2002.19",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-2002.20",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      }
+    ],
+    "total": 20
   },
-  {
-   "id": "bank.exam.m2-2002.2",
-   "number": 2,
-   "title": "2002 年数学二 第 2 题",
-   "questionText": "位于曲线 $y=x e^{-x}\\left(0\\le x<+\\infty\\right)$ 下方，$x$ 轴上方的无界图形的面积是 ________。",
-   "answerText": "$1$\n\n**解析：**\n$S=\\int_{0}^{+\\infty}xe^{-x}\\,\\mathrm{d}x=\\left[-xe^{-x}\\right]_{0}^{+\\infty}+\\int_{0}^{+\\infty}e^{-x}\\,\\mathrm{d}x=1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "improper_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_interval_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2002.3",
-   "number": 3,
-   "title": "2002 年数学二 第 3 题",
-   "questionText": "微分方程 $yy^{\\prime\\prime}+\\left(y^{\\prime}\\right)^{2}=0$ 满足初始条件 $y\\left(0\\right)=1$，$y^{\\prime}\\left(0\\right)=\\dfrac{1}{2}$ 的特解是 ________。",
-   "answerText": "$y=\\sqrt{x+1}$\n\n**解析：**\n方程左端为 $\\left(yy^{\\prime}\\right)^{\\prime}$，故 $yy^{\\prime}=\\dfrac{1}{2}$（由初值定出），即 $\\left(y^{2}\\right)^{\\prime}=1$，积分并用 $y\\left(0\\right)=1$ 得 $y^{2}=x+1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "first_order_differential_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "reducible_higher_order_equation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2002.4",
-   "number": 4,
-   "title": "2002 年数学二 第 4 题",
-   "questionText": "$\\lim_{n\\to \\infty}\\dfrac{1}{n}\\left[\\sqrt{1+\\cos\\dfrac{\\pi}{n}}+\\sqrt{1+\\cos\\dfrac{2\\pi}{n}}+\\cdots+\\sqrt{1+\\cos\\dfrac{n\\pi}{n}}\\right]=$ ________。",
-   "answerText": "$\\dfrac{2\\sqrt{2}}{\\pi}$\n\n**解析：**\n和式是 $\\sqrt{1+\\cos x}$ 在 $\\left[0,\\pi\\right]$ 上的积分和（每个小区间长 $\\dfrac{\\pi}{n}$、$\\dfrac{1}{n}$ 归一），极限为 $\\dfrac{1}{\\pi}\\int_{0}^{\\pi}\\sqrt{1+\\cos x}\\,\\mathrm{d}x$，用半角公式去根号后积分得 $\\dfrac{2\\sqrt{2}}{\\pi}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "definite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2002.5",
-   "number": 5,
-   "title": "2002 年数学二 第 5 题",
-   "questionText": "矩阵\n\n$\\begin{bmatrix}0 & -2 & -2\\\\-2 & 2 & 2\\\\2 & 2 & 2\\end{bmatrix}$\n\n的非零特征值是 ________。",
-   "answerText": "$4$\n\n**解析：**\n直接展开 $\\left|\\lambda\\boldsymbol{E}-\\boldsymbol{A}\\right|$ 或按行消元，得特征多项式 $\\lambda^{2}\\left(\\lambda-4\\right)$，非零特征值为 $4$（迹为 $4$、行列式为 $0$ 与之相容）。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.eigen_concept",
-    "la.knowledge.eigen_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.eigenvalue_computation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2002.6",
-   "number": 6,
-   "title": "2002 年数学二 第 6 题",
-   "questionText": "设函数 $f\\left(u\\right)$ 可导，$y=f\\left(x^{2}\\right)$。当自变量 $x$ 在 $x=-1$ 处取得增量 $\\Delta x=-0.1$ 时，相应的函数增量 $\\Delta y$ 的线性主部为 $0.1$，则 $f^{\\prime}\\left(1\\right)=$（ ）\n\nA. $-1$\nB. $0.1$\nC. $1$\nD. $0.5$",
-   "answerText": "D\n\n**解析：**\n线性主部即微分：$\\mathrm{d}y=y^{\\prime}\\left(-1\\right)\\Delta x=2\\left(-1\\right)f^{\\prime}\\left(1\\right)\\left(-0.1\\right)=0.2f^{\\prime}\\left(1\\right)=0.1$，故 $f^{\\prime}\\left(1\\right)=0.5$。选 D。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "composite_derivative",
-    "differentiability_continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2002.7",
-   "number": 7,
-   "title": "2002 年数学二 第 7 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 连续，则下列函数中，必为偶函数的是（ ）\n\nA. $\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t$\nB. $\\int_{0}^{x}f\\left(t^{2}\\right)\\mathrm{~d}t$\nC. $\\int_{0}^{x}t\\left[f\\left(t\\right)-f\\left(-t\\right)\\right]\\mathrm{~d}t$\nD. $\\int_{0}^{x}t\\left[f\\left(t\\right)+f\\left(-t\\right)\\right]\\mathrm{~d}t$",
-   "answerText": "D\n\n**解析：**\n被积函数 $t\\left[f\\left(t\\right)+f\\left(-t\\right)\\right]$ 为奇函数，其变上限积分必为偶函数。选 D。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_defined_function",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "variable_upper_integral",
-    "function_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2002.8",
-   "number": 8,
-   "title": "2002 年数学二 第 8 题",
-   "questionText": "设 $y=y\\left(x\\right)$ 是二阶常系数微分方程 $y^{\\prime\\prime}+py^{\\prime}+qy=e^{3x}$ 满足初始条件 $y\\left(0\\right)=y^{\\prime}\\left(0\\right)=0$ 的特解，则当 $x\\to 0$ 时，函数 $\\dfrac{\\ln\\left(1+x^{2}\\right)}{y\\left(x\\right)}$ 的极限（ ）\n\nA. 不存在\nB. 等于 $1$\nC. 等于 $2$\nD. 等于 $3$",
-   "answerText": "C\n\n**解析：**\n令 $x=0$：$y^{\\prime\\prime}\\left(0\\right)=1$，故 $y\\left(x\\right)=\\dfrac{x^{2}}{2}+o\\left(x^{2}\\right)$，与 $\\ln\\left(1+x^{2}\\right)\\sim x^{2}$ 相除得极限 $2$。选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "second_order_nonhomogeneous_linear",
-    "taylor_formula"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2002.9",
-   "number": 9,
-   "title": "2002 年数学二 第 9 题",
-   "questionText": "设函数 $y=f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内有界且可导，则（ ）\n\nA. 当 $\\lim_{x\\to +\\infty}f\\left(x\\right)=0$ 时，必有 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=0$。\nB. 当 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)$ 存在时，必有 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=0$。\nC. 当 $\\lim_{x\\to 0^{+}}f\\left(x\\right)=0$ 时，必有 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)=0$。\nD. 当 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)$ 存在时，必有 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)=0$。",
-   "answerText": "B\n\n**解析：**\n若 $\\lim_{x\\to+\\infty}f^{\\prime}\\left(x\\right)=A\\ne0$，不妨 $A>0$，则在充分远处 $f^{\\prime}>\\dfrac{A}{2}$，由拉格朗日中值定理 $f$ 无界，矛盾；$A<0$ 同理。故 $A=0$。选 B。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "mean_value_theorem",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "mean_value_theorem"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2002.10",
-   "number": 10,
-   "title": "2002 年数学二 第 10 题",
-   "questionText": "设向量组 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关，向量 $\\boldsymbol{\\beta}_{1}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示，而向量 $\\boldsymbol{\\beta}_{2}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示，则对于任意常数 $k$，必有（ ）\n\nA. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性无关。\nB. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性相关。\nC. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\beta}_{1}+k\\boldsymbol{\\beta}_{2}$ 线性无关。\nD. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\beta}_{1}+k\\boldsymbol{\\beta}_{2}$ 线性相关。",
-   "answerText": "A\n\n**解析：**\n若 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性相关，则 $k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 可由前三者表示；结合 $\\boldsymbol{\\beta}_{1}$ 可表示，得 $\\boldsymbol{\\beta}_{2}$ 可表示，矛盾（$k=0$ 时直接矛盾）。故必线性无关。选 A。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.linear_representation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.linear_correlation",
-    "la.knowledge.linear_combination"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2002.11",
-   "number": 11,
-   "title": "2002 年数学二 第 11 题",
-   "questionText": "已知曲线的极坐标方程是 $r=1-\\cos\\theta$，求该曲线上对应于 $\\theta=\\dfrac{\\pi}{6}$ 处的切线与法线的直角坐标方程。",
-   "answerText": "切线：$y=x+\\dfrac{5}{4}-\\dfrac{3\\sqrt{3}}{4}$；法线：$y=-x+\\dfrac{\\sqrt{3}}{4}-\\dfrac{1}{4}$\n\n**解析：**\n参数求导：$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\sin^{2}\\theta+r\\cos\\theta}{\\sin\\theta\\cos\\theta-r\\sin\\theta}$，代入 $\\theta=\\dfrac{\\pi}{6}$（$r=1-\\dfrac{\\sqrt{3}}{2}$）得切线斜率 $1$，法线斜率 $-1$。切点直角坐标为 $\\left(\\dfrac{\\sqrt{3}}{2}-\\dfrac{3}{4},\\ \\dfrac{1}{2}-\\dfrac{\\sqrt{3}}{4}\\right)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "parametric_derivative"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2002.12",
-   "number": 12,
-   "title": "2002 年数学二 第 12 题",
-   "questionText": "设\n\n$f\\left(x\\right)=\\begin{cases}2x+\\dfrac{3}{2}x^{2}, & -1\\le x<0,\\\\\\dfrac{xe^{x}}{\\left(e^{x}+1\\right)^{2}}, & 0\\le x\\le1,\\end{cases}$\n\n求函数 $F\\left(x\\right)=\\int_{-1}^{x}f\\left(t\\right)\\mathrm{~d}t$ 的表达式。",
-   "answerText": "$F\\left(x\\right)=\\begin{cases}x^{2}+\\dfrac{x^{3}}{2}-\\dfrac{1}{2}, & -1\\le x<0,\\\\[1mm]x-\\ln\\left(e^{x}+1\\right)+\\ln2-\\dfrac{x}{e^{x}+1}-\\dfrac{1}{2}, & 0\\le x\\le1.\\end{cases}$\n\n**解析：**\n$-1\\le x<0$ 段直接积分；$0\\le x\\le1$ 段加上 $\\int_{-1}^{0}f=-\\dfrac{1}{2}$，并用分部积分 $\\int_{0}^{x}\\dfrac{te^{t}}{\\left(e^{t}+1\\right)^{2}}\\mathrm{~d}t=-\\dfrac{x}{e^{x}+1}+\\int_{0}^{x}\\dfrac{\\mathrm{d}t}{e^{t}+1}$，其中 $\\int\\dfrac{\\mathrm{d}t}{e^{t}+1}=t-\\ln\\left(e^{t}+1\\right)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_defined_function",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "piecewise_integral",
-    "variable_upper_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "四、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2002.13",
-   "number": 13,
-   "title": "2002 年数学二 第 13 题",
-   "questionText": "已知函数 $f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内可导，$f\\left(x\\right)>0$，$\\lim_{x\\to+\\infty}f\\left(x\\right)=1$，且满足\n\n$\\lim_{h\\to0}\\left(\\dfrac{f\\left(x+hx\\right)}{f\\left(x\\right)}\\right)^{\\frac{1}{h}}=e^{\\frac{1}{x}}$，\n\n求 $f\\left(x\\right)$。",
-   "answerText": "$f\\left(x\\right)=e^{-\\frac{1}{x}}$（$x>0$）\n\n**解析：**\n取对数后化为导数定义：$\\lim\\dfrac{\\ln f\\left(x+hx\\right)-\\ln f\\left(x\\right)}{h}=\\dfrac{xf^{\\prime}\\left(x\\right)}{f\\left(x\\right)}=\\dfrac{1}{x}$，分离变量 $\\dfrac{f^{\\prime}}{f}=\\dfrac{1}{x^{2}}$，积分得 $f=Ce^{-\\frac{1}{x}}$，由无穷远处极限定 $C=1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "important_limits",
-    "separable_equation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "五、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2002.14",
-   "number": 14,
-   "title": "2002 年数学二 第 14 题",
-   "questionText": "求微分方程 $x\\,\\mathrm{d}y+\\left(x-2y\\right)\\mathrm{~d}x=0$ 的一个解 $y=y\\left(x\\right)$，使得由曲线 $y=y\\left(x\\right)$，直线 $x=1$、$x=2$ 以及 $x$ 轴所围成的平面图形绕 $x$ 轴旋转一周的旋转体体积最小。",
-   "answerText": "$y=x-\\dfrac{3}{31}x^{2}$\n\n**解析：**\n化为一阶线性方程 $y^{\\prime}-\\dfrac{2}{x}y=-1$，通解 $y=x+Cx^{2}$。$V=\\pi\\int_{1}^{2}\\left(x+Cx^{2}\\right)^{2}\\mathrm{~d}x=\\pi\\left(\\dfrac{7}{3}+6C+31C^{2}\\right)$，关于 $C$ 的二次函数在 $C=-\\dfrac{3}{31}$ 处取最小。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "first_order_differential_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "first_order_linear_equation",
-    "extrema"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "calculus",
-   "section": "六、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2002.15",
-   "number": 15,
-   "title": "2002 年数学二 第 15 题",
-   "questionText": "某闸门的形状与大小如图所示（图示略），其中直线 $l$ 为对称轴，闸门的上部为矩形 $ABCD$，下部由二次抛物线与线段 $AB$ 所围成。图中矩形宽为 $2\\ \\mathrm{m}$，下部抛物线顶点到线段 $AB$ 的距离为 $1\\ \\mathrm{m}$。当水面与闸门的上端相平时，欲使闸门矩形部分承受的水压力与闸门下部承受的水压力之比为 $5:4$，闸门矩形部分的高 $h$ 应为多少 $\\mathrm{m}$？",
-   "answerText": "$h=2\\ \\mathrm{m}$\n\n**解析：**\n矩形部分水压力 $P_{1}=\\int_{0}^{h}2\\rho gy\\,\\mathrm{d}y=\\rho gh^{2}$。下部抛物线（顶点在下，距 $AB$ 为 $1$）在深度 $y$ 处的宽度为 $2\\sqrt{1-y}$，$P_{2}=\\int_{0}^{1}2\\rho g\\left(h+y\\right)\\sqrt{1-y}\\,\\mathrm{d}y=\\dfrac{\\rho g\\left(20h+8\\right)}{15}$。由 $P_{1}:P_{2}=5:4$ 得 $3h^{2}-5h-2=0$，取正根 $h=2$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "physical_applications_of_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "七、应用题"
-  },
-  {
-   "id": "bank.exam.m2-2002.16",
-   "number": 16,
-   "title": "2002 年数学二 第 16 题",
-   "questionText": "设 $0<x_{1}<3$，$x_{n+1}=\\sqrt{x_{n}\\left(3-x_{n}\\right)}\\left(n=1,2,\\cdots\\right)$，证明数列 $\\left\\{x_{n}\\right\\}$ 的极限存在，并求此极限。",
-   "answerText": "（证明见解析）\n\n**解析：**\n由均值不等式 $x_{n+1}\\le\\dfrac{x_{n}+\\left(3-x_{n}\\right)}{2}=\\dfrac{3}{2}$ 且 $x_{n+1}>0$，故 $n\\ge2$ 时 $0<x_{n}\\le\\dfrac{3}{2}$；在此范围内 $x_{n+1}\\ge x_{n}$（等价于 $x_{n}\\le\\dfrac{3}{2}$），故单调增有上界，极限存在。设极限为 $L$，取极限得 $L^{2}=L\\left(3-L\\right)$，舍去 $L=0$ 得 $L=\\dfrac{3}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "limit_existence",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "closed_interval_continuity",
-    "monotonicity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "八、证明题"
-  },
-  {
-   "id": "bank.exam.m2-2002.17",
-   "number": 17,
-   "title": "2002 年数学二 第 17 题",
-   "questionText": "设 $0<a<b$，证明不等式\n\n$\\dfrac{2a}{a^{2}+b^{2}}<\\dfrac{\\ln b-\\ln a}{b-a}<\\dfrac{1}{\\sqrt{ab}}$。",
-   "answerText": "（证明见解析）\n\n**解析：**\n令 $t=\\sqrt{\\dfrac{b}{a}}>1$。右端化为 $t-\\dfrac{1}{t}>2\\ln t$：$h\\left(t\\right)=t-\\dfrac{1}{t}-2\\ln t$ 满足 $h\\left(1\\right)=0$，$h^{\\prime}=\\dfrac{\\left(t-1\\right)^{2}}{t^{2}}>0$。左端化为 $\\left(1+t^{4}\\right)\\ln t>t^{2}-1$：$q\\left(t\\right)=\\left(1+t^{4}\\right)\\ln t-\\left(t^{2}-1\\right)$ 满足 $q\\left(1\\right)=0$ 且 $q^{\\prime\\prime\\prime}=24t\\ln t+26t+\\dfrac{2}{t^{3}}>0$，逐阶推回即得 $q>0$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "inequality_proof",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "monotonicity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "九、证明题"
-  },
-  {
-   "id": "bank.exam.m2-2002.18",
-   "number": 18,
-   "title": "2002 年数学二 第 18 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 在 $x=0$ 的某邻域内具有二阶连续导数，且 $f\\left(0\\right)\\ne0$，$f^{\\prime}\\left(0\\right)\\ne0$，$f^{\\prime\\prime}\\left(0\\right)\\ne0$。证明：存在惟一的一组实数 $\\lambda_{1},\\lambda_{2},\\lambda_{3}$，使得当 $h\\to0$ 时，\n\n$\\lambda_{1}f\\left(h\\right)+\\lambda_{2}f\\left(2h\\right)+\\lambda_{3}f\\left(3h\\right)-f\\left(0\\right)$\n\n是比 $h^{2}$ 高阶的无穷小。",
-   "answerText": "（证明见解析）\n\n**解析：**\n由泰勒公式 $f\\left(kh\\right)=f\\left(0\\right)+khf^{\\prime}\\left(0\\right)+\\dfrac{k^{2}h^{2}}{2}f^{\\prime\\prime}\\left(0\\right)+o\\left(h^{2}\\right)$，条件等价于线性方程组 $\\lambda_{1}+\\lambda_{2}+\\lambda_{3}=1$，$\\lambda_{1}+2\\lambda_{2}+3\\lambda_{3}=0$，$\\lambda_{1}+4\\lambda_{2}+9\\lambda_{3}=0$。其系数行列式为 $\\left(2-1\\right)\\left(3-1\\right)\\left(3-2\\right)\\ne0$，故解存在且唯一：$\\lambda_{1}=3$，$\\lambda_{2}=-3$，$\\lambda_{3}=1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "limit_proof",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "taylor_formula"
-   ],
-   "methodIds": [],
-   "notes": "已校对；审计修复：原打标 taylor_formula 不存在，已改为 limit_proof",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "十、证明题"
-  },
-  {
-   "id": "bank.exam.m2-2002.19",
-   "number": 19,
-   "title": "2002 年数学二 第 19 题",
-   "questionText": "已知 $\\boldsymbol{A},\\boldsymbol{B}$ 为 $3$ 阶矩阵，且满足\n\n$2\\boldsymbol{A}^{-1}\\boldsymbol{B}=\\boldsymbol{B}-4\\boldsymbol{E}$，\n\n其中 $\\boldsymbol{E}$ 是 $3$ 阶单位矩阵。\n\n1. 证明：矩阵 $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆；\n2. 若\n\n$\\boldsymbol{B}=\\begin{bmatrix}1 & -2 & 0\\\\1 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix}$，\n\n求矩阵 $\\boldsymbol{A}$。",
-   "answerText": "1. $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆（证明见解析）；2. $\\boldsymbol{A}=\\begin{bmatrix}0 & 2 & 0\\\\-1 & -1 & 0\\\\0 & 0 & -2\\end{bmatrix}$\n\n**解析：**\n1. 原式左乘 $\\boldsymbol{A}$ 并移项得 $\\boldsymbol{A}\\boldsymbol{B}-4\\boldsymbol{A}-2\\boldsymbol{B}=\\boldsymbol{0}$，凑出 $\\left(\\boldsymbol{A}-2\\boldsymbol{E}\\right)\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)=8\\boldsymbol{E}$，故 $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆且其逆为 $\\dfrac{1}{8}\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)$。2. $\\boldsymbol{A}=2\\boldsymbol{E}+8\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)^{-1}$，对 $\\boldsymbol{B}-4\\boldsymbol{E}$ 求逆（分块或伴随法）后代入。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.invertibility_criteria"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十一、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2002.20",
-   "number": 20,
-   "title": "2002 年数学二 第 20 题",
-   "questionText": "已知 $4$ 阶方阵 $\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}\\right)$，$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 均为 $4$ 维列向量，其中 $\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性无关，$\\boldsymbol{\\alpha}_{1}=2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}$。如果 $\\boldsymbol{\\beta}=\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}$，求线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{\\beta}$ 的通解。",
-   "answerText": "$\\boldsymbol{x}=\\left(1,1,1,1\\right)^{T}+k\\left(1,-2,1,0\\right)^{T}$（$k$ 为任意常数）\n\n**解析：**\n把 $\\boldsymbol{\\beta}$ 写成列向量的组合即得一个特解 $\\left(1,1,1,1\\right)^{T}$。齐次情形：由 $\\boldsymbol{\\alpha}_{1}-2\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}=\\boldsymbol{0}$ 得基础解系 $\\left(1,-2,1,0\\right)^{T}$；又 $\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性无关说明秩为 $3$，基础解系含一个向量。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.general_solution",
-    "la.knowledge.basic_solution_system",
-    "la.knowledge.solution_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2002,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十二、计算题"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-2002.1",
+      "number": 1,
+      "title": "2002 年数学二 第 1 题",
+      "questionText": "设函数\n\n$f\\left(x\\right)=\\begin{cases}\\dfrac{1-e^{\\tan x}}{\\arcsin\\dfrac{x}{2}}, & x>0,\\\\a e^{2x}, & x\\le 0,\\end{cases}$\n\n在 $x=0$ 处连续，则 $a=$ ________。",
+      "answerText": "$-2$\n\n**解析：**\n$x\\to0^{+}$：$1-e^{\\tan x}\\sim-\\tan x\\sim-x$，$\\arcsin\\dfrac{x}{2}\\sim\\dfrac{x}{2}$，右极限为 $-2=f\\left(0\\right)$，故 $a=-2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "continuity_and_discontinuity",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal",
+        "continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2002.2",
+      "number": 2,
+      "title": "2002 年数学二 第 2 题",
+      "questionText": "位于曲线 $y=x e^{-x}\\left(0\\le x<+\\infty\\right)$ 下方，$x$ 轴上方的无界图形的面积是 ________。",
+      "answerText": "$1$\n\n**解析：**\n$S=\\int_{0}^{+\\infty}xe^{-x}\\,\\mathrm{d}x=\\left[-xe^{-x}\\right]_{0}^{+\\infty}+\\int_{0}^{+\\infty}e^{-x}\\,\\mathrm{d}x=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2002.3",
+      "number": 3,
+      "title": "2002 年数学二 第 3 题",
+      "questionText": "微分方程 $yy^{\\prime\\prime}+\\left(y^{\\prime}\\right)^{2}=0$ 满足初始条件 $y\\left(0\\right)=1$，$y^{\\prime}\\left(0\\right)=\\dfrac{1}{2}$ 的特解是 ________。",
+      "answerText": "$y=\\sqrt{x+1}$\n\n**解析：**\n方程左端为 $\\left(yy^{\\prime}\\right)^{\\prime}$，故 $yy^{\\prime}=\\dfrac{1}{2}$（由初值定出），即 $\\left(y^{2}\\right)^{\\prime}=1$，积分并用 $y\\left(0\\right)=1$ 得 $y^{2}=x+1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "reducible_higher_order_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2002.4",
+      "number": 4,
+      "title": "2002 年数学二 第 4 题",
+      "questionText": "$\\lim_{n\\to \\infty}\\dfrac{1}{n}\\left[\\sqrt{1+\\cos\\dfrac{\\pi}{n}}+\\sqrt{1+\\cos\\dfrac{2\\pi}{n}}+\\cdots+\\sqrt{1+\\cos\\dfrac{n\\pi}{n}}\\right]=$ ________。",
+      "answerText": "$\\dfrac{2\\sqrt{2}}{\\pi}$\n\n**解析：**\n和式是 $\\sqrt{1+\\cos x}$ 在 $\\left[0,\\pi\\right]$ 上的积分和（每个小区间长 $\\dfrac{\\pi}{n}$、$\\dfrac{1}{n}$ 归一），极限为 $\\dfrac{1}{\\pi}\\int_{0}^{\\pi}\\sqrt{1+\\cos x}\\,\\mathrm{d}x$，用半角公式去根号后积分得 $\\dfrac{2\\sqrt{2}}{\\pi}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2002.5",
+      "number": 5,
+      "title": "2002 年数学二 第 5 题",
+      "questionText": "矩阵\n\n$\\begin{bmatrix}0 & -2 & -2\\\\-2 & 2 & 2\\\\2 & 2 & 2\\end{bmatrix}$\n\n的非零特征值是 ________。",
+      "answerText": "$4$\n\n**解析：**\n直接展开 $\\left|\\lambda\\boldsymbol{E}-\\boldsymbol{A}\\right|$ 或按行消元，得特征多项式 $\\lambda^{2}\\left(\\lambda-4\\right)$，非零特征值为 $4$（迹为 $4$、行列式为 $0$ 与之相容）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept",
+        "la.knowledge.eigen_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.eigenvalue_computation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2002.6",
+      "number": 6,
+      "title": "2002 年数学二 第 6 题",
+      "questionText": "设函数 $f\\left(u\\right)$ 可导，$y=f\\left(x^{2}\\right)$。当自变量 $x$ 在 $x=-1$ 处取得增量 $\\Delta x=-0.1$ 时，相应的函数增量 $\\Delta y$ 的线性主部为 $0.1$，则 $f^{\\prime}\\left(1\\right)=$（ ）\n\nA. $-1$\nB. $0.1$\nC. $1$\nD. $0.5$",
+      "answerText": "D\n\n**解析：**\n线性主部即微分：$\\mathrm{d}y=y^{\\prime}\\left(-1\\right)\\Delta x=2\\left(-1\\right)f^{\\prime}\\left(1\\right)\\left(-0.1\\right)=0.2f^{\\prime}\\left(1\\right)=0.1$，故 $f^{\\prime}\\left(1\\right)=0.5$。选 D。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative",
+        "differentiability_continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2002.7",
+      "number": 7,
+      "title": "2002 年数学二 第 7 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 连续，则下列函数中，必为偶函数的是（ ）\n\nA. $\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t$\nB. $\\int_{0}^{x}f\\left(t^{2}\\right)\\mathrm{~d}t$\nC. $\\int_{0}^{x}t\\left[f\\left(t\\right)-f\\left(-t\\right)\\right]\\mathrm{~d}t$\nD. $\\int_{0}^{x}t\\left[f\\left(t\\right)+f\\left(-t\\right)\\right]\\mathrm{~d}t$",
+      "answerText": "D\n\n**解析：**\n被积函数 $t\\left[f\\left(t\\right)+f\\left(-t\\right)\\right]$ 为奇函数，其变上限积分必为偶函数。选 D。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "function_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2002.8",
+      "number": 8,
+      "title": "2002 年数学二 第 8 题",
+      "questionText": "设 $y=y\\left(x\\right)$ 是二阶常系数微分方程 $y^{\\prime\\prime}+py^{\\prime}+qy=e^{3x}$ 满足初始条件 $y\\left(0\\right)=y^{\\prime}\\left(0\\right)=0$ 的特解，则当 $x\\to 0$ 时，函数 $\\dfrac{\\ln\\left(1+x^{2}\\right)}{y\\left(x\\right)}$ 的极限（ ）\n\nA. 不存在\nB. 等于 $1$\nC. 等于 $2$\nD. 等于 $3$",
+      "answerText": "C\n\n**解析：**\n令 $x=0$：$y^{\\prime\\prime}\\left(0\\right)=1$，故 $y\\left(x\\right)=\\dfrac{x^{2}}{2}+o\\left(x^{2}\\right)$，与 $\\ln\\left(1+x^{2}\\right)\\sim x^{2}$ 相除得极限 $2$。选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "second_order_nonhomogeneous_linear",
+        "taylor_formula"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2002.9",
+      "number": 9,
+      "title": "2002 年数学二 第 9 题",
+      "questionText": "设函数 $y=f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内有界且可导，则（ ）\n\nA. 当 $\\lim_{x\\to +\\infty}f\\left(x\\right)=0$ 时，必有 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=0$。\nB. 当 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)$ 存在时，必有 $\\lim_{x\\to +\\infty}f^{\\prime}\\left(x\\right)=0$。\nC. 当 $\\lim_{x\\to 0^{+}}f\\left(x\\right)=0$ 时，必有 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)=0$。\nD. 当 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)$ 存在时，必有 $\\lim_{x\\to 0^{+}}f^{\\prime}\\left(x\\right)=0$。",
+      "answerText": "B\n\n**解析：**\n若 $\\lim_{x\\to+\\infty}f^{\\prime}\\left(x\\right)=A\\ne0$，不妨 $A>0$，则在充分远处 $f^{\\prime}>\\dfrac{A}{2}$，由拉格朗日中值定理 $f$ 无界，矛盾；$A<0$ 同理。故 $A=0$。选 B。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "mean_value_theorem",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "mean_value_theorem"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2002.10",
+      "number": 10,
+      "title": "2002 年数学二 第 10 题",
+      "questionText": "设向量组 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关，向量 $\\boldsymbol{\\beta}_{1}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示，而向量 $\\boldsymbol{\\beta}_{2}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示，则对于任意常数 $k$，必有（ ）\n\nA. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性无关。\nB. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性相关。\nC. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\beta}_{1}+k\\boldsymbol{\\beta}_{2}$ 线性无关。\nD. $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\beta}_{1}+k\\boldsymbol{\\beta}_{2}$ 线性相关。",
+      "answerText": "A\n\n**解析：**\n若 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 线性相关，则 $k\\boldsymbol{\\beta}_{1}+\\boldsymbol{\\beta}_{2}$ 可由前三者表示；结合 $\\boldsymbol{\\beta}_{1}$ 可表示，得 $\\boldsymbol{\\beta}_{2}$ 可表示，矛盾（$k=0$ 时直接矛盾）。故必线性无关。选 A。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.linear_representation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.linear_correlation",
+        "la.knowledge.linear_combination"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2002.11",
+      "number": 11,
+      "title": "2002 年数学二 第 11 题",
+      "questionText": "已知曲线的极坐标方程是 $r=1-\\cos\\theta$，求该曲线上对应于 $\\theta=\\dfrac{\\pi}{6}$ 处的切线与法线的直角坐标方程。",
+      "answerText": "切线：$y=x+\\dfrac{5}{4}-\\dfrac{3\\sqrt{3}}{4}$；法线：$y=-x+\\dfrac{\\sqrt{3}}{4}-\\dfrac{1}{4}$\n\n**解析：**\n参数求导：$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\sin^{2}\\theta+r\\cos\\theta}{\\sin\\theta\\cos\\theta-r\\sin\\theta}$，代入 $\\theta=\\dfrac{\\pi}{6}$（$r=1-\\dfrac{\\sqrt{3}}{2}$）得切线斜率 $1$，法线斜率 $-1$。切点直角坐标为 $\\left(\\dfrac{\\sqrt{3}}{2}-\\dfrac{3}{4},\\ \\dfrac{1}{2}-\\dfrac{\\sqrt{3}}{4}\\right)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "parametric_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2002.12",
+      "number": 12,
+      "title": "2002 年数学二 第 12 题",
+      "questionText": "设\n\n$f\\left(x\\right)=\\begin{cases}2x+\\dfrac{3}{2}x^{2}, & -1\\le x<0,\\\\\\dfrac{xe^{x}}{\\left(e^{x}+1\\right)^{2}}, & 0\\le x\\le1,\\end{cases}$\n\n求函数 $F\\left(x\\right)=\\int_{-1}^{x}f\\left(t\\right)\\mathrm{~d}t$ 的表达式。",
+      "answerText": "$F\\left(x\\right)=\\begin{cases}x^{2}+\\dfrac{x^{3}}{2}-\\dfrac{1}{2}, & -1\\le x<0,\\\\[1mm]x-\\ln\\left(e^{x}+1\\right)+\\ln2-\\dfrac{x}{e^{x}+1}-\\dfrac{1}{2}, & 0\\le x\\le1.\\end{cases}$\n\n**解析：**\n$-1\\le x<0$ 段直接积分；$0\\le x\\le1$ 段加上 $\\int_{-1}^{0}f=-\\dfrac{1}{2}$，并用分部积分 $\\int_{0}^{x}\\dfrac{te^{t}}{\\left(e^{t}+1\\right)^{2}}\\mathrm{~d}t=-\\dfrac{x}{e^{x}+1}+\\int_{0}^{x}\\dfrac{\\mathrm{d}t}{e^{t}+1}$，其中 $\\int\\dfrac{\\mathrm{d}t}{e^{t}+1}=t-\\ln\\left(e^{t}+1\\right)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "piecewise_integral",
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "四、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2002.13",
+      "number": 13,
+      "title": "2002 年数学二 第 13 题",
+      "questionText": "已知函数 $f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内可导，$f\\left(x\\right)>0$，$\\lim_{x\\to+\\infty}f\\left(x\\right)=1$，且满足\n\n$\\lim_{h\\to0}\\left(\\dfrac{f\\left(x+hx\\right)}{f\\left(x\\right)}\\right)^{\\frac{1}{h}}=e^{\\frac{1}{x}}$，\n\n求 $f\\left(x\\right)$。",
+      "answerText": "$f\\left(x\\right)=e^{-\\frac{1}{x}}$（$x>0$）\n\n**解析：**\n取对数后化为导数定义：$\\lim\\dfrac{\\ln f\\left(x+hx\\right)-\\ln f\\left(x\\right)}{h}=\\dfrac{xf^{\\prime}\\left(x\\right)}{f\\left(x\\right)}=\\dfrac{1}{x}$，分离变量 $\\dfrac{f^{\\prime}}{f}=\\dfrac{1}{x^{2}}$，积分得 $f=Ce^{-\\frac{1}{x}}$，由无穷远处极限定 $C=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "important_limits",
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "五、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2002.14",
+      "number": 14,
+      "title": "2002 年数学二 第 14 题",
+      "questionText": "求微分方程 $x\\,\\mathrm{d}y+\\left(x-2y\\right)\\mathrm{~d}x=0$ 的一个解 $y=y\\left(x\\right)$，使得由曲线 $y=y\\left(x\\right)$，直线 $x=1$、$x=2$ 以及 $x$ 轴所围成的平面图形绕 $x$ 轴旋转一周的旋转体体积最小。",
+      "answerText": "$y=x-\\dfrac{3}{31}x^{2}$\n\n**解析：**\n化为一阶线性方程 $y^{\\prime}-\\dfrac{2}{x}y=-1$，通解 $y=x+Cx^{2}$。$V=\\pi\\int_{1}^{2}\\left(x+Cx^{2}\\right)^{2}\\mathrm{~d}x=\\pi\\left(\\dfrac{7}{3}+6C+31C^{2}\\right)$，关于 $C$ 的二次函数在 $C=-\\dfrac{3}{31}$ 处取最小。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation",
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "六、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2002.15",
+      "number": 15,
+      "title": "2002 年数学二 第 15 题",
+      "questionText": "某闸门的形状与大小如图所示（图示略），其中直线 $l$ 为对称轴，闸门的上部为矩形 $ABCD$，下部由二次抛物线与线段 $AB$ 所围成。图中矩形宽为 $2\\ \\mathrm{m}$，下部抛物线顶点到线段 $AB$ 的距离为 $1\\ \\mathrm{m}$。当水面与闸门的上端相平时，欲使闸门矩形部分承受的水压力与闸门下部承受的水压力之比为 $5:4$，闸门矩形部分的高 $h$ 应为多少 $\\mathrm{m}$？",
+      "answerText": "$h=2\\ \\mathrm{m}$\n\n**解析：**\n矩形部分水压力 $P_{1}=\\int_{0}^{h}2\\rho gy\\,\\mathrm{d}y=\\rho gh^{2}$。下部抛物线（顶点在下，距 $AB$ 为 $1$）在深度 $y$ 处的宽度为 $2\\sqrt{1-y}$，$P_{2}=\\int_{0}^{1}2\\rho g\\left(h+y\\right)\\sqrt{1-y}\\,\\mathrm{d}y=\\dfrac{\\rho g\\left(20h+8\\right)}{15}$。由 $P_{1}:P_{2}=5:4$ 得 $3h^{2}-5h-2=0$，取正根 $h=2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "七、应用题"
+    },
+    {
+      "id": "bank.exam.m2-2002.16",
+      "number": 16,
+      "title": "2002 年数学二 第 16 题",
+      "questionText": "设 $0<x_{1}<3$，$x_{n+1}=\\sqrt{x_{n}\\left(3-x_{n}\\right)}\\left(n=1,2,\\cdots\\right)$，证明数列 $\\left\\{x_{n}\\right\\}$ 的极限存在，并求此极限。",
+      "answerText": "（证明见解析）\n\n**解析：**\n由均值不等式 $x_{n+1}\\le\\dfrac{x_{n}+\\left(3-x_{n}\\right)}{2}=\\dfrac{3}{2}$ 且 $x_{n+1}>0$，故 $n\\ge2$ 时 $0<x_{n}\\le\\dfrac{3}{2}$；在此范围内 $x_{n+1}\\ge x_{n}$（等价于 $x_{n}\\le\\dfrac{3}{2}$），故单调增有上界，极限存在。设极限为 $L$，取极限得 $L^{2}=L\\left(3-L\\right)$，舍去 $L=0$ 得 $L=\\dfrac{3}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_existence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "closed_interval_continuity",
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "calculus",
+      "section": "八、证明题"
+    },
+    {
+      "id": "bank.exam.m2-2002.17",
+      "number": 17,
+      "title": "2002 年数学二 第 17 题",
+      "questionText": "设 $0<a<b$，证明不等式\n\n$\\dfrac{2a}{a^{2}+b^{2}}<\\dfrac{\\ln b-\\ln a}{b-a}<\\dfrac{1}{\\sqrt{ab}}$。",
+      "answerText": "（证明见解析）\n\n**解析：**\n令 $t=\\sqrt{\\dfrac{b}{a}}>1$。右端化为 $t-\\dfrac{1}{t}>2\\ln t$：$h\\left(t\\right)=t-\\dfrac{1}{t}-2\\ln t$ 满足 $h\\left(1\\right)=0$，$h^{\\prime}=\\dfrac{\\left(t-1\\right)^{2}}{t^{2}}>0$。左端化为 $\\left(1+t^{4}\\right)\\ln t>t^{2}-1$：$q\\left(t\\right)=\\left(1+t^{4}\\right)\\ln t-\\left(t^{2}-1\\right)$ 满足 $q\\left(1\\right)=0$ 且 $q^{\\prime\\prime\\prime}=24t\\ln t+26t+\\dfrac{2}{t^{3}}>0$，逐阶推回即得 $q>0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "inequality_proof",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "九、证明题"
+    },
+    {
+      "id": "bank.exam.m2-2002.18",
+      "number": 18,
+      "title": "2002 年数学二 第 18 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 在 $x=0$ 的某邻域内具有二阶连续导数，且 $f\\left(0\\right)\\ne0$，$f^{\\prime}\\left(0\\right)\\ne0$，$f^{\\prime\\prime}\\left(0\\right)\\ne0$。证明：存在惟一的一组实数 $\\lambda_{1},\\lambda_{2},\\lambda_{3}$，使得当 $h\\to0$ 时，\n\n$\\lambda_{1}f\\left(h\\right)+\\lambda_{2}f\\left(2h\\right)+\\lambda_{3}f\\left(3h\\right)-f\\left(0\\right)$\n\n是比 $h^{2}$ 高阶的无穷小。",
+      "answerText": "（证明见解析）\n\n**解析：**\n由泰勒公式 $f\\left(kh\\right)=f\\left(0\\right)+khf^{\\prime}\\left(0\\right)+\\dfrac{k^{2}h^{2}}{2}f^{\\prime\\prime}\\left(0\\right)+o\\left(h^{2}\\right)$，条件等价于线性方程组 $\\lambda_{1}+\\lambda_{2}+\\lambda_{3}=1$，$\\lambda_{1}+2\\lambda_{2}+3\\lambda_{3}=0$，$\\lambda_{1}+4\\lambda_{2}+9\\lambda_{3}=0$。其系数行列式为 $\\left(2-1\\right)\\left(3-1\\right)\\left(3-2\\right)\\ne0$，故解存在且唯一：$\\lambda_{1}=3$，$\\lambda_{2}=-3$，$\\lambda_{3}=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_proof",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [],
+      "notes": "已校对；审计修复：原打标 taylor_formula 不存在，已改为 limit_proof",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "十、证明题"
+    },
+    {
+      "id": "bank.exam.m2-2002.19",
+      "number": 19,
+      "title": "2002 年数学二 第 19 题",
+      "questionText": "已知 $\\boldsymbol{A},\\boldsymbol{B}$ 为 $3$ 阶矩阵，且满足\n\n$2\\boldsymbol{A}^{-1}\\boldsymbol{B}=\\boldsymbol{B}-4\\boldsymbol{E}$，\n\n其中 $\\boldsymbol{E}$ 是 $3$ 阶单位矩阵。\n\n1. 证明：矩阵 $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆；\n2. 若\n\n$\\boldsymbol{B}=\\begin{bmatrix}1 & -2 & 0\\\\1 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix}$，\n\n求矩阵 $\\boldsymbol{A}$。",
+      "answerText": "1. $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆（证明见解析）；2. $\\boldsymbol{A}=\\begin{bmatrix}0 & 2 & 0\\\\-1 & -1 & 0\\\\0 & 0 & -2\\end{bmatrix}$\n\n**解析：**\n1. 原式左乘 $\\boldsymbol{A}$ 并移项得 $\\boldsymbol{A}\\boldsymbol{B}-4\\boldsymbol{A}-2\\boldsymbol{B}=\\boldsymbol{0}$，凑出 $\\left(\\boldsymbol{A}-2\\boldsymbol{E}\\right)\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)=8\\boldsymbol{E}$，故 $\\boldsymbol{A}-2\\boldsymbol{E}$ 可逆且其逆为 $\\dfrac{1}{8}\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)$。2. $\\boldsymbol{A}=2\\boldsymbol{E}+8\\left(\\boldsymbol{B}-4\\boldsymbol{E}\\right)^{-1}$，对 $\\boldsymbol{B}-4\\boldsymbol{E}$ 求逆（分块或伴随法）后代入。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.inverse_matrix",
+        "la.knowledge.invertibility_criteria"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十一、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2002.20",
+      "number": 20,
+      "title": "2002 年数学二 第 20 题",
+      "questionText": "已知 $4$ 阶方阵 $\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}\\right)$，$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 均为 $4$ 维列向量，其中 $\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性无关，$\\boldsymbol{\\alpha}_{1}=2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}$。如果 $\\boldsymbol{\\beta}=\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}$，求线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{\\beta}$ 的通解。",
+      "answerText": "$\\boldsymbol{x}=\\left(1,1,1,1\\right)^{T}+k\\left(1,-2,1,0\\right)^{T}$（$k$ 为任意常数）\n\n**解析：**\n把 $\\boldsymbol{\\beta}$ 写成列向量的组合即得一个特解 $\\left(1,1,1,1\\right)^{T}$。齐次情形：由 $\\boldsymbol{\\alpha}_{1}-2\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}=\\boldsymbol{0}$ 得基础解系 $\\left(1,-2,1,0\\right)^{T}$；又 $\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性无关说明秩为 $3$，基础解系含一个向量。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.general_solution",
+        "la.knowledge.basic_solution_system",
+        "la.knowledge.solution_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2002,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十二、计算题"
+    }
+  ]
 }

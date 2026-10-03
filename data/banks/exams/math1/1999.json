@@ -1,854 +1,854 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 1999,
- "paper": "math1",
- "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
- "verified": true,
- "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1999年考研数学(一)真题.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 1999,
   "paper": "math1",
-  "label": "数学一",
-  "sections": [
-   "一、填空题（本题共5小题，每小题3分，满分15分）",
-   "二、选择题（本题共5小题，每小题3分，满分15分）",
-   "三、（本题满分5分）",
-   "四、（本题满分5分）",
-   "五、（本题满分6分）",
-   "六、（本题满分6分）",
-   "七、（本题满分6分）",
-   "八、（本题满分7分）",
-   "九、（本题满分7分，含2小题）",
-   "十、（本题满分8分）",
-   "十一、（本题满分6分）",
-   "十二、（本题满分8分）",
-   "十三、（本题满分6分，含2小题）"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m1-1999.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m1-1999.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m1-1999.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m1-1999.4",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m1-1999.5",
-    "subjectGuess": "probability_statistics",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m1-1999.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m1-1999.7",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m1-1999.8",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m1-1999.9",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m1-1999.10",
-    "subjectGuess": "probability_statistics",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m1-1999.11",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m1-1999.12",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m1-1999.13",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m1-1999.14",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m1-1999.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m1-1999.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m1-1999.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m1-1999.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m1-1999.19",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m1-1999.20",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m1-1999.21",
-    "subjectGuess": "probability_statistics",
-    "objective": false
-   },
-   {
-    "number": 22,
-    "id": "bank.exam.m1-1999.22",
-    "subjectGuess": "probability_statistics",
-    "objective": false
-   },
-   {
-    "number": 23,
-    "id": "bank.exam.m1-1999.23",
-    "subjectGuess": "probability_statistics",
-    "objective": false
-   }
-  ],
-  "total": 14
- },
- "problems": [
-  {
-   "id": "bank.exam.m1-1999.1",
-   "number": 1,
-   "title": "1999 年数学一 第 1 题",
-   "questionText": "$\\lim_{x\\to 0}\\left(\\frac{1}{x^2} -\\frac{1}{x\\tan x}\\right) = \\underline{\\quad}$",
-   "answerText": "答案：$\\dfrac{1}{3}$\n\n**解析：**\n通分后 $\\dfrac{1}{x^{2}}-\\dfrac{1}{x\\tan x}=\\dfrac{\\tan x-x}{x^{2}\\tan x}$，分母 $\\sim x^{3}$。由洛必达法则 $\\displaystyle\\lim_{x\\to 0}\\frac{\\tan x-x}{x^{3}}=\\lim_{x\\to 0}\\frac{\\sec^{2}x-1}{3x^{2}}=\\lim_{x\\to 0}\\frac{\\tan^{2}x}{3x^{2}}=\\frac{1}{3}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1999年考研数学(一)真题.md",
+  "paperInfo": {
     "year": 1999,
     "paper": "math1",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+    "label": "数学一",
+    "sections": [
+      "一、填空题（本题共5小题，每小题3分，满分15分）",
+      "二、选择题（本题共5小题，每小题3分，满分15分）",
+      "三、（本题满分5分）",
+      "四、（本题满分5分）",
+      "五、（本题满分6分）",
+      "六、（本题满分6分）",
+      "七、（本题满分6分）",
+      "八、（本题满分7分）",
+      "九、（本题满分7分，含2小题）",
+      "十、（本题满分8分）",
+      "十一、（本题满分6分）",
+      "十二、（本题满分8分）",
+      "十三、（本题满分6分，含2小题）"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m1-1999.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m1-1999.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m1-1999.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m1-1999.4",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m1-1999.5",
+        "subjectGuess": "probability_statistics",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m1-1999.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m1-1999.7",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m1-1999.8",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m1-1999.9",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m1-1999.10",
+        "subjectGuess": "probability_statistics",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m1-1999.11",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m1-1999.12",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m1-1999.13",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m1-1999.14",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m1-1999.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m1-1999.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m1-1999.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m1-1999.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m1-1999.19",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m1-1999.20",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m1-1999.21",
+        "subjectGuess": "probability_statistics",
+        "objective": false
+      },
+      {
+        "number": 22,
+        "id": "bank.exam.m1-1999.22",
+        "subjectGuess": "probability_statistics",
+        "objective": false
+      },
+      {
+        "number": 23,
+        "id": "bank.exam.m1-1999.23",
+        "subjectGuess": "probability_statistics",
+        "objective": false
+      }
+    ],
+    "total": 14
   },
-  {
-   "id": "bank.exam.m1-1999.2",
-   "number": 2,
-   "title": "1999 年数学一 第 2 题",
-   "questionText": "$\\frac{\\mathrm{d}}{\\mathrm{d}x}\\int_{0}^{x}\\sin (x - t)^{2}\\mathrm{d}t = \\underline{\\quad}$",
-   "answerText": "答案：$\\sin x^{2}$\n\n**解析：**\n被积函数含 $x$，先换元 $u=x-t$：$\\displaystyle\\int_{0}^{x}\\sin(x-t)^{2}\\,\\mathrm{d}t=\\int_{0}^{x}\\sin u^{2}\\,\\mathrm{d}u$。再对变上限求导得 $\\sin x^{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_defined_function",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "variable_upper_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：integral_defined_function、variable_upper_integral，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.3",
-   "number": 3,
-   "title": "1999 年数学一 第 3 题",
-   "questionText": "$y^{\\prime\\prime}-4y=\\mathrm{e}^{2x}$ 的通解为 $y=\\underline{\\quad}$",
-   "answerText": "答案：$C_{1}\\mathrm{e}^{-2x}+C_{2}\\mathrm{e}^{2x}+\\dfrac{1}{4}x\\mathrm{e}^{2x}$\n\n**解析：**\n特征根 $\\lambda=\\pm 2$，齐次通解 $C_{1}\\mathrm{e}^{-2x}+C_{2}\\mathrm{e}^{2x}$。$\\lambda=2$ 为单根，设特解 $y_{0}=axe^{2x}$，代入得 $4a=1$，即 $a=\\dfrac{1}{4}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.4",
-   "number": 4,
-   "title": "1999 年数学一 第 4 题",
-   "questionText": "设 $n$ 阶矩阵 $\\mathbf{A}$ 的元素全为 1，则 $\\mathbf{A}$ 的 $n$ 个特征值是 $\\underline{\\quad}$",
-   "answerText": "答案：$\\lambda_{1}=\\lambda_{2}=\\dots=\\lambda_{n-1}=0$，$\\lambda_{n}=n$\n\n**解析：**\n$r(\\mathbf{A})=1$ 说明 $\\mathbf{A}$ 有 $n-1$ 重零特征值；又 $\\operatorname{tr}\\mathbf{A}=n$ 等于特征值之和，故非零特征值为 $n$。（或直接计算 $|\\lambda\\mathbf{E}-\\mathbf{A}|=\\lambda^{n-1}(\\lambda-n)$。）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.eigen_concept"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.eigenvalue_computation、la.knowledge.eigen_concept，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 4
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.5",
-   "number": 5,
-   "title": "1999 年数学一 第 5 题",
-   "questionText": "设两两相互独立的三事件 $A, B$ 和 $C$ 满足条件：$ABC=\\varnothing$，$P(A)=P(B)=P(C)<\\dfrac{1}{2}$，且已知 $P(A\\cup B\\cup C)=\\dfrac{9}{16}$，则 $P(A)=\\underline{\\quad}$ .",
-   "answerText": "答案：$\\dfrac{1}{4}$\n\n**解析：**\n记 $P(A)=p$。由两两独立性及 $ABC=\\varnothing$：$P(A\\cup B\\cup C)=3p-3p^{2}=\\dfrac{9}{16}$，即 $p^{2}-p+\\dfrac{3}{16}=0$，解得 $p=\\dfrac{1}{4}$ 或 $\\dfrac{3}{4}$；由 $p<\\dfrac{1}{2}$ 取 $p=\\dfrac{1}{4}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.event_independence_judgment",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.event_independence"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.event_independence_judgment、prob.knowledge.event_independence，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 5
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.6",
-   "number": 6,
-   "title": "1999 年数学一 第 6 题",
-   "questionText": "设 $f(x)$ 是连续函数， $F(x)$ 是 $f(x)$ 的原函数，则( )\n\n(A) 当 $f(x)$ 是奇函数时, $F(x)$ 必是偶函数.\n(B) 当 $f(x)$ 是偶函数时, $F(x)$ 必是奇函数.\n（C）当 $f(x)$ 是周期函数时， $F(x)$ 必是周期函数\n（D）当 $f(x)$ 是单调增函数时， $F(x)$ 必是单调增函数",
-   "answerText": "答案：A\n\n**解析：**\n取 $F(x)=\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$。$f$ 为奇函数时 $F(-x)=\\int_{0}^{-x}f(t)\\,\\mathrm{d}t\\overset{t=-u}{=}\\int_{0}^{x}f(u)\\,\\mathrm{d}u=F(x)$，故 $F$ 必为偶函数，选 A。其余选项都可举出反例（如 $f\\equiv 1$ 的原函数 $x+C$ 未必是奇函数、不是周期函数；$f(x)=x$ 单调增而 $F=\\frac{x^{2}}{2}+C$ 不单调增当 $x<0$）。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_properties",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "function_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_properties、function_properties，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.7",
-   "number": 7,
-   "title": "1999 年数学一 第 7 题",
-   "questionText": "设 $f(x) = \\begin{cases} \\frac{1 - \\cos x}{\\sqrt{x}}, & x > 0, \\\\ x^2 g(x), & x \\leqslant 0, \\end{cases}$ 其中 $g(x)$ 是有界函数, 则 $f(x)$ 在 $x = 0$ 处 ( )\n\n(A) 极限不存在.\n\n（B）极限存在，但不连续\n\n(C) 连续, 但不可导.\n\n(D) 可导.",
-   "answerText": "答案：D\n\n**解析：**\n$f_{+}^{\\prime}(0)=\\lim_{x\\to 0^{+}}\\dfrac{1-\\cos x}{x\\sqrt{x}}=\\lim_{x\\to 0^{+}}\\dfrac{x^{2}/2}{x\\sqrt{x}}=0$；$f_{-}^{\\prime}(0)=\\lim_{x\\to 0^{-}}\\dfrac{x^{2}g(x)}{x}=\\lim_{x\\to 0^{-}}xg(x)=0$（$g$ 有界）。两侧导数相等，$f$ 在 $x=0$ 可导且 $f^{\\prime}(0)=0$（从而也连续）。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 7
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.8",
-   "number": 8,
-   "title": "1999 年数学一 第 8 题",
-   "questionText": "设 $f(x) = \\begin{cases} x, & 0 \\leqslant x \\leqslant \\frac{1}{2}, \\\\ 2 - 2x, & \\frac{1}{2} < x < 1, \\end{cases} \\quad S(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} a_n \\cos n\\pi x, -\\infty < x < +\\infty$ , 其中 $a_n = 2\\int_0^1 f(x) \\cos n\\pi x \\, \\mathrm{d}x, (n = 0,1,2,\\dots)$ , 则 $S\\left(-\\frac{5}{2}\\right)$ 等于（ ）\n\n(A) $\\frac{1}{2}$ .\n\n(B) $-\\frac{1}{2}$ .\n\n(C) $\\frac{3}{4}$ .\n\n(D) $-\\frac{3}{4}$ .",
-   "answerText": "答案：C\n\n**解析：**\n$S(x)$ 是对 $f$ 作偶延拓与周期延拓后的傅里叶级数和函数，周期为 2 且为偶函数，故 $S\\left(-\\dfrac{5}{2}\\right)=S\\left(\\dfrac{1}{2}\\right)$。$x=\\dfrac{1}{2}$ 是 $f$ 的间断点，级数收敛于 $\\dfrac{f(\\frac{1}{2}^{-})+f(\\frac{1}{2}^{+})}{2}=\\dfrac{\\frac{1}{2}+1}{2}=\\dfrac{3}{4}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "fourier_series",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "fourier_series_coefficients"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：fourier_series、fourier_series_coefficients，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 8
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.9",
-   "number": 9,
-   "title": "1999 年数学一 第 9 题",
-   "questionText": "设 $\\mathbf{A}$ 是 $m \\times n$ 矩阵, $\\mathbf{B}$ 是 $n \\times m$ 矩阵, 则( )\n\n(A) 当 $m > n$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| \\neq 0$ .\n(B) 当 $m > n$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| = 0$ .\n(C) 当 $n > m$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| \\neq 0$ .\n(D) 当 $n > m$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| = 0$ .",
-   "answerText": "答案：B\n\n**解析：**\n$r(\\mathbf{AB})\\le\\min\\{r(\\mathbf{A}),r(\\mathbf{B})\\}\\le n$。当 $m>n$ 时 $r(\\mathbf{AB})<m$，$m$ 阶方阵 $\\mathbf{AB}$ 降秩，故 $|\\mathbf{AB}|=0$ 必成立；其余选项均不能必然成立。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 9
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.10",
-   "number": 10,
-   "title": "1999 年数学一 第 10 题",
-   "questionText": "设两个相互独立的随机变量 $X$ 和 $Y$ 分别服从正态分布 $N(0,1)$ 和 $N(1,1)$ , 则( )\n\n$\\left(\\mathrm{A}\\right)P\\{X + Y\\leqslant 0\\} = \\frac{1}{2}.$\n\n(B) $P\\{X + Y \\leqslant 1\\} = \\frac{1}{2}$ .\n\n(C) $P\\{X - Y \\leqslant 0\\} = \\frac{1}{2}$ .\n\n(D) $P\\{X - Y \\leqslant 1\\} = \\frac{1}{2}$ .",
-   "answerText": "答案：B\n\n**解析：**\n由独立性，$X+Y\\sim N(1,2)$，正态分布关于均值 $\\mu=1$ 对称，故 $P\\{X+Y\\le 1\\}=\\dfrac{1}{2}$；而 $X-Y\\sim N(-1,2)$，$P\\{X-Y\\le 0\\}=\\Phi\\left(\\dfrac{1}{\\sqrt 2}\\right)\\neq\\dfrac{1}{2}$，A、C、D 均不成立。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.normal_distribution"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation、prob.knowledge.normal_distribution，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 10
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.11",
-   "number": 11,
-   "title": "1999 年数学一 第 11 题",
-   "questionText": "设 $y=y(x),\\ z=z(x)$ 是由方程 $z=xf(x+y)$ 和 $F(x, y, z)=0$ 所确定的函数，其中 $f$ 和 $F$ 分别具有一阶连续导数和一阶连续偏导数，求 $\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}$ .",
-   "answerText": "答案：$\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=\\dfrac{\\left(f+xf^{\\prime}\\right)F_{y}^{\\prime}-xf^{\\prime}F_{x}^{\\prime}}{F_{y}^{\\prime}+xf^{\\prime}F_{z}^{\\prime}}$（其中 $F_{y}^{\\prime}+xf^{\\prime}F_{z}^{\\prime}\\neq 0$）\n\n**解析：**\n两个方程都对 $x$ 求导：$\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=f+x\\left(1+\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right)f^{\\prime}$，$F_{x}^{\\prime}+F_{y}^{\\prime}\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}+F_{z}^{\\prime}\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=0$。这是关于 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}$ 与 $\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}$ 的线性方程组，消去 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}$ 即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "implicit_derivative",
-    "implicit_function"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：derivative_calculation、implicit_derivative、implicit_function，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "三、（本题满分5分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.12",
-   "number": 12,
-   "title": "1999 年数学一 第 12 题",
-   "questionText": "求 $I=\\displaystyle\\int_{L}\\left[\\mathrm{e}^{x}\\sin y-b(x+y)\\right]\\mathrm{d}x+\\left(\\mathrm{e}^{x}\\cos y-ax\\right)\\mathrm{d}y$，其中 $a,b$ 为正的常数，$L$ 为从点 $A(2a,0)$ 沿曲线 $y=\\sqrt{2ax-x^{2}}$ 到点 $O(0,0)$ 的弧.",
-   "answerText": "答案：$I=\\left(\\dfrac{\\pi}{2}+2\\right)a^{2}b-\\dfrac{\\pi}{2}a^{3}$\n\n**解析：**\n补上有向线段 $\\overline{OA}$（$y=0$，$x$ 从 0 到 $2a$）使 $L+\\overline{OA}$ 构成正向闭路，围成半径为 $a$ 的上半圆盘 $D$。$\\dfrac{\\partial Q}{\\partial x}-\\dfrac{\\partial P}{\\partial y}=(\\mathrm{e}^{x}\\cos y-a)-(\\mathrm{e}^{x}\\cos y-b)=b-a$，故 $\\displaystyle\\oint_{L+\\overline{OA}}=\\iint_{D}(b-a)\\,\\mathrm{d}x\\mathrm{d}y=(b-a)\\frac{\\pi a^{2}}{2}$。又 $\\displaystyle\\int_{\\overline{OA}}=\\int_{0}^{2a}(-bx)\\,\\mathrm{d}x=-2a^{2}b$。于是 $I=\\oint-\\int_{\\overline{OA}}=(b-a)\\frac{\\pi a^{2}}{2}+2a^{2}b$，化简即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "line_integral_second_kind",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "四、（本题满分5分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.13",
-   "number": 13,
-   "title": "1999 年数学一 第 13 题",
-   "questionText": "设函数 $y(x)\\ (x\\geqslant 0)$ 二阶可导且 $y^{\\prime}(x)>0$，$y(0)=1$. 过曲线 $y=y(x)$ 上任意一点 $P(x,y)$ 作该曲线的切线及 $x$ 轴的垂线，上述两直线与 $x$ 轴所围成的三角形的面积记为 $S_{1}$，区间 $[0,x]$ 上以 $y=y(x)$ 为曲边的曲边梯形面积记为 $S_{2}$，并设 $2S_{1}-S_{2}$ 恒为 1，求此曲线 $y=y(x)$ 的方程.",
-   "answerText": "答案：$y=\\mathrm{e}^{x}$\n\n**解析：**\n切线与 $x$ 轴交于 $\\left(x-\\dfrac{y}{y^{\\prime}},0\\right)$，故 $S_{1}=\\dfrac{y^{2}}{2y^{\\prime}}$，$S_{2}=\\displaystyle\\int_{0}^{x}y(t)\\,\\mathrm{d}t$。由 $2S_{1}-S_{2}=1$ 得 $\\dfrac{y^{2}}{y^{\\prime}}-\\displaystyle\\int_{0}^{x}y(t)\\,\\mathrm{d}t=1$；取 $x=0$ 得 $y^{\\prime}(0)=1$。两边求导得 $yy^{\\prime\\prime}=y^{\\prime 2}$，即 $\\left(\\dfrac{y^{\\prime}}{y}\\right)^{\\prime}=0$，故 $\\dfrac{y^{\\prime}}{y}=C_{1}$；由 $y(0)=1,\\ y^{\\prime}(0)=1$ 得 $C_{1}=1$，解 $y^{\\prime}-y=0$ 并用 $y(0)=1$ 得 $y=\\mathrm{e}^{x}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：area_volume_arc，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "五、（本题满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.14",
-   "number": 14,
-   "title": "1999 年数学一 第 14 题",
-   "questionText": "试证：当 $x>0$ 时，$(x^{2}-1)\\ln x\\geqslant(x-1)^{2}$.",
-   "answerText": "答案：证明见解析\n\n**解析：**\n令 $f(x)=(x^{2}-1)\\ln x-(x-1)^{2}$，则 $f(1)=0$。逐阶求导：$f^{\\prime}(x)=2x\\ln x-x-\\dfrac{1}{x}+2$，$f^{\\prime}(1)=0$；$f^{\\prime\\prime}(x)=2\\ln x+1+\\dfrac{1}{x^{2}}$，$f^{\\prime\\prime}(1)=2$；$f^{\\prime\\prime\\prime}(x)=\\dfrac{2(x^{2}-1)}{x^{3}}$，在 $(0,1)$ 内为负、$(1,+\\infty)$ 内为正，故 $f^{\\prime\\prime}$ 在 $x=1$ 取最小值 2，即 $f^{\\prime\\prime}(x)>0$。于是 $f^{\\prime}$ 严格递增且 $f^{\\prime}(1)=0$，得 $f^{\\prime}$ 在 $(0,1)$ 为负、$(1,+\\infty)$ 为正，$x=1$ 是 $f$ 的最小值点，故 $x>0$ 时 $f(x)\\ge f(1)=0$，证毕。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 14
-   },
-   "subjectGuess": "calculus",
-   "section": "六、（本题满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.15",
-   "number": 15,
-   "title": "1999 年数学一 第 15 题",
-   "questionText": "为清除井底的污泥，用缆绳将抓斗放入井底，抓起污泥后提出井口. 已知井深 $30\\,\\mathrm{m}$，抓斗自重 $400\\,\\mathrm{N}$，缆绳每米重 $50\\,\\mathrm{N}$，抓斗抓起的污泥重 $2000\\,\\mathrm{N}$，提升速度为 $3\\,\\mathrm{m/s}$，在提升过程中，污泥以 $20\\,\\mathrm{N/s}$ 的速率从抓斗缝隙中漏掉. 现将抓起污泥的抓斗提升至井口，问克服重力需作多少焦耳的功？\\n\\n（说明：① $1\\mathrm{N}\\times 1\\mathrm{m}=1\\mathrm{J}$；$\\mathrm{m}, \\mathrm{N}, \\mathrm{s}, \\mathrm{J}$ 分别表示米、牛顿、秒、焦耳。② 抓斗的高度及位于井口上方的缆绳长度忽略不计。）",
-   "answerText": "答案：$91500\\,\\mathrm{J}$\n\n**解析：**\n分三部分计算：抓斗自重做功 $W_{1}=400\\times 30=12000\\,\\mathrm{J}$。缆绳：提升到 $x$ 米时井中缆绳长 $30-x$，$\\mathrm{d}W_{2}=50(30-x)\\,\\mathrm{d}x$，$W_{2}=50\\displaystyle\\int_{0}^{30}(30-x)\\,\\mathrm{d}x=22500\\,\\mathrm{J}$。污泥：提升时间 $t$ 秒后剩 $(2000-20t)$ 牛，$W_{3}=3\\displaystyle\\int_{0}^{10}(2000-20t)\\,\\mathrm{d}t=57000\\,\\mathrm{J}$（全程需 $30/3=10$ 秒）。合计 $W=12000+22500+57000=91500\\,\\mathrm{J}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "七、（本题满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.16",
-   "number": 16,
-   "title": "1999 年数学一 第 16 题",
-   "questionText": "设 $S$ 为椭球面 $\\dfrac{x^{2}}{2}+\\dfrac{y^{2}}{2}+z^{2}=1$ 的上半部分，点 $P(x,y,z)\\in S$，$\\pi$ 为 $S$ 在点 $P$ 处的切平面，$\\rho(x,y,z)$ 为点 $O(0,0,0)$ 到平面 $\\pi$ 的距离，求 $\\displaystyle\\iint_{S}\\frac{z}{\\rho(x,y,z)}\\,\\mathrm{d}S.$",
-   "answerText": "答案：$\\dfrac{3\\pi}{2}$\n\n**解析：**\n椭球面在 $P$ 处的切平面为 $\\dfrac{x}{2}X+\\dfrac{y}{2}Y+zZ=1$，故 $\\rho=\\dfrac{1}{\\sqrt{\\frac{x^{2}}{4}+\\frac{y^{2}}{4}+z^{2}}}$。在 $S$ 上 $z=\\sqrt{1-\\frac{x^{2}+y^{2}}{2}}$，于是 $z\\sqrt{\\frac{x^{2}}{4}+\\frac{y^{2}}{4}+z^{2}}=\\dfrac{z}{2}\\sqrt{4-x^{2}-y^{2}}$，而 $\\mathrm{d}S=\\dfrac{\\sqrt{4-x^{2}-y^{2}}}{2z}\\,\\mathrm{d}x\\mathrm{d}y$，两者相乘恰为 $\\dfrac{4-x^{2}-y^{2}}{4}\\,\\mathrm{d}x\\mathrm{d}y$。故原积分 $=\\dfrac{1}{4}\\displaystyle\\iint_{x^{2}+y^{2}\\le 2}(4-r^{2})\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\frac{1}{4}\\cdot 2\\pi\\left(2r^{2}-\\frac{r^{4}}{4}\\right)\\Big|_{0}^{\\sqrt{2}}=\\frac{3\\pi}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "geometric_applications_multivariable",
-    "plane_line_position_relation",
-    "prob.knowledge.correlation_coefficient",
-    "quadric_surface_equations"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：geometric_applications_multivariable、plane_line_position_relation、prob.knowledge.correlation_coefficient、quadric_surface_equations，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "八、（本题满分7分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.17",
-   "number": 17,
-   "title": "1999 年数学一 第 17 题",
-   "questionText": "设 $a_{n}=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\,\\mathrm{d}x$.\n\n（1）求 $\\sum_{n=1}^{\\infty} \\dfrac{1}{n} (a_n + a_{n+2})$ 的值；",
-   "answerText": "答案：$1$\n\n**解析：**\n$a_{n}+a_{n+2}=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\left(1+\\tan^{2}x\\right)\\mathrm{d}x=\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\,\\mathrm{d}(\\tan x)=\\frac{1}{n+1}$。故所求级数为 $\\sum\\dfrac{1}{n(n+1)}$，部分和 $S_{n}=1-\\dfrac{1}{n+1}\\to 1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "九、（本题满分7分，含2小题）"
-  },
-  {
-   "id": "bank.exam.m1-1999.18",
-   "number": 18,
-   "title": "1999 年数学一 第 18 题",
-   "questionText": "设 $a_{n}=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\,\\mathrm{d}x$.\n\n（2）试证：对任意的常数 $\\lambda > 0$，级数 $\\sum_{n=1}^{\\infty} \\dfrac{a_n}{n^{\\lambda}}$ 收敛.",
-   "answerText": "答案：证明见解析\n\n**解析：**\n令 $t=\\tan x$，则 $a_{n}=\\displaystyle\\int_{0}^{1}\\frac{t^{n}}{1+t^{2}}\\,\\mathrm{d}t\\le\\int_{0}^{1}t^{n}\\,\\mathrm{d}t=\\frac{1}{n+1}\\le\\frac{1}{n}$。于是 $0\\le\\dfrac{a_{n}}{n^{\\lambda}}\\le\\dfrac{1}{n^{\\lambda+1}}$，而 $p$-级数 $\\sum\\dfrac{1}{n^{\\lambda+1}}$（$\\lambda+1>1$）收敛，由比较判别法知原级数收敛。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "九、（本题满分7分，含2小题）"
-  },
-  {
-   "id": "bank.exam.m1-1999.19",
-   "number": 19,
-   "title": "1999 年数学一 第 19 题",
-   "questionText": "设矩阵 $\\mathbf{A}=\\begin{pmatrix} a & -1 & c \\\\ 5 & b & 3 \\\\ 1-c & 0 & -a \\end{pmatrix}$，其行列式 $|\\mathbf{A}|=-1$，又 $\\mathbf{A}$ 的伴随矩阵 $\\mathbf{A}^{*}$ 有一个特征值 $\\lambda_{0}$，属于 $\\lambda_{0}$ 的一个特征向量为 $\\boldsymbol{\\alpha}=(-1,-1,1)^{\\mathrm{T}}$，求 $a, b, c$ 和 $\\lambda_{0}$ 的值.",
-   "answerText": "答案：$a=2,\\ b=-3,\\ c=2,\\ \\lambda_{0}=1$\n\n**解析：**\n设 $\\mathbf{A}\\boldsymbol{\\alpha}=\\mu\\boldsymbol{\\alpha}$，比较三个分量得 $-a+1+c=-\\mu$，$-b-2=-\\mu$，$c-1-a=\\mu$。前两式相减（或与第三式联立）得 $a=c$，$\\mu=-1$，$b=-3$。代入 $|\\mathbf{A}|=-1$：$\\mathbf{A}=\\begin{pmatrix}a&-1&a\\\\5&-3&3\\\\1-a&0&-a\\end{pmatrix}$，展开得 $|\\mathbf{A}|=a-3=-1$，故 $a=2,\\ c=2$。最后 $\\mathbf{A}^{*}\\boldsymbol{\\alpha}=|\\mathbf{A}|\\mathbf{A}^{-1}\\boldsymbol{\\alpha}=\\dfrac{|\\mathbf{A}|}{\\mu}\\boldsymbol{\\alpha}$，即 $\\lambda_{0}=\\dfrac{-1}{-1}=1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.eigen_concept"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.eigenvalue_computation、la.knowledge.eigen_concept，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 19
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十、（本题满分8分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.20",
-   "number": 20,
-   "title": "1999 年数学一 第 20 题",
-   "questionText": "设 $\\mathbf{A}$ 为 $m$ 阶实对称矩阵且正定，$\\mathbf{B}$ 为 $m\\times n$ 实矩阵，$\\mathbf{B}^{\\mathrm{T}}$ 为 $\\mathbf{B}$ 的转置矩阵，试证：$\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}$ 为正定矩阵的充分必要条件是 $\\mathbf{B}$ 的秩 $r(\\mathbf{B})=n$.",
-   "answerText": "答案：证明见解析\n\n**解析：**\n显然 $\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}$ 是 $n$ 阶实对称矩阵。必要性：若它正定，则对任意 $\\boldsymbol{X}\\neq\\boldsymbol{0}$，$(\\mathbf{B}\\boldsymbol{X})^{\\mathrm{T}}\\mathbf{A}(\\mathbf{B}\\boldsymbol{X})>0$，由 $\\mathbf{A}$ 正定得 $\\mathbf{B}\\boldsymbol{X}\\neq\\boldsymbol{0}$，即 $\\mathbf{B}\\boldsymbol{X}=\\boldsymbol{0}$ 只有零解，故 $r(\\mathbf{B})=n$。充分性：若 $r(\\mathbf{B})=n$，则对任意 $\\boldsymbol{X}\\neq\\boldsymbol{0}$ 有 $\\mathbf{B}\\boldsymbol{X}=\\boldsymbol{Y}\\neq\\boldsymbol{0}$，从而 $\\boldsymbol{X}^{\\mathrm{T}}\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}\\boldsymbol{X}=\\boldsymbol{Y}^{\\mathrm{T}}\\mathbf{A}\\boldsymbol{Y}>0$，即 $\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}$ 正定。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.positive_definiteness",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.positive_definite_concept",
-    "la.knowledge.positive_definite_criteria",
-    "la.knowledge.symmetric_matrix"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.positive_definiteness、la.knowledge.positive_definite_concept、la.knowledge.positive_definite_criteria、la.knowledge.symmetric_matrix，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 20
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十一、（本题满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.21",
-   "number": 21,
-   "title": "1999 年数学一 第 21 题",
-   "questionText": "设随机变量 $X$ 与 $Y$ 相互独立，下表列出了二维随机变量 $(X,Y)$ 的联合分布律及关于 $X$ 和关于 $Y$ 的边缘分布律中的部分数值，试将其余数值填入表中的空白处.\\n\\n| X\\\\Y | $y_{1}$ | $y_{2}$ | $y_{3}$ | $P\\{X=x_{i}\\}=p_{i\\cdot}$ |\\n| --- | --- | --- | --- | --- |\\n| $x_{1}$ |  | $1/8$ |  |  |\\n| $x_{2}$ | $1/8$ |  |  |  |\\n| $P\\{Y=y_{j}\\}=p_{\\cdot j}$ | $1/6$ |  |  | 1 |",
-   "answerText": "答案：$p_{11}=\\dfrac{1}{24}$，$p_{13}=\\dfrac{1}{12}$，$p_{22}=\\dfrac{3}{8}$，$p_{23}=\\dfrac{1}{4}$；边缘：$p_{1\\cdot}=\\dfrac{1}{4}$，$p_{2\\cdot}=\\dfrac{3}{4}$，$p_{\\cdot 2}=\\dfrac{1}{2}$，$p_{\\cdot 3}=\\dfrac{1}{3}$\n\n**解析：**\n由 $p_{11}+\\dfrac{1}{8}=\\dfrac{1}{6}$ 得 $p_{11}=\\dfrac{1}{24}$。由独立性 $p_{11}=p_{1\\cdot}\\,p_{\\cdot 1}$ 得 $p_{1\\cdot}=\\dfrac{1/24}{1/6}=\\dfrac{1}{4}$，进而 $p_{13}=\\dfrac{1}{4}-\\dfrac{1}{24}-\\dfrac{1}{8}=\\dfrac{1}{12}$。由 $p_{12}=p_{1\\cdot}p_{\\cdot 2}$ 得 $p_{\\cdot 2}=\\dfrac{1/8}{1/4}=\\dfrac{1}{2}$，于是 $p_{22}=\\dfrac{1}{2}-\\dfrac{1}{8}=\\dfrac{3}{8}$。再由列和得 $p_{\\cdot 3}=1-\\dfrac{1}{6}-\\dfrac{1}{2}=\\dfrac{1}{3}$，$p_{23}=\\dfrac{1}{3}-\\dfrac{1}{12}=\\dfrac{1}{4}$，最后 $p_{2\\cdot}=1-\\dfrac{1}{4}=\\dfrac{3}{4}$（各行、列均验证独立性成立）。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.block_matrix",
-    "prob.knowledge.conditional_distribution",
-    "prob.knowledge.joint_discrete_distribution",
-    "prob.knowledge.marginal_distribution"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.conditional_distribution、prob.knowledge.joint_discrete_distribution、prob.knowledge.marginal_distribution，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 21
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十二、（本题满分8分）"
-  },
-  {
-   "id": "bank.exam.m1-1999.22",
-   "number": 22,
-   "title": "1999 年数学一 第 22 题",
-   "questionText": "设总体 $X$ 的概率密度为 $f(x)=\\begin{cases}\\dfrac{6x}{\\theta^{3}}(\\theta-x), & 0<x<\\theta, \\\\ 0, & \\text{其他},\\end{cases}$，$X_{1}, X_{2}, \\dots, X_{n}$ 是取自总体 $X$ 的简单随机样本.\n\n（1）求 $\\theta$ 的矩估计量 $\\hat{\\theta}$；",
-   "answerText": "答案：$\\hat{\\theta}=2\\overline{X}$\n\n**解析：**\n$E(X)=\\displaystyle\\int_{0}^{\\theta}x\\cdot\\frac{6x}{\\theta^{3}}(\\theta-x)\\,\\mathrm{d}x=\\frac{6}{\\theta^{3}}\\left(\\frac{\\theta^{4}}{3}-\\frac{\\theta^{4}}{4}\\right)=\\frac{\\theta}{2}$。令 $E(X)=\\overline{X}$，解得 $\\hat{\\theta}=2\\overline{X}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.moment_estimation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.moment_estimation_method"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.moment_estimation、prob.knowledge.moment_estimation_method，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 22
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十三、（本题满分6分，含2小题）"
-  },
-  {
-   "id": "bank.exam.m1-1999.23",
-   "number": 23,
-   "title": "1999 年数学一 第 23 题",
-   "questionText": "设总体 $X$ 的概率密度为 $f(x)=\\begin{cases}\\dfrac{6x}{\\theta^{3}}(\\theta-x), & 0<x<\\theta, \\\\ 0, & \\text{其他},\\end{cases}$，$X_{1}, X_{2}, \\dots, X_{n}$ 是取自总体 $X$ 的简单随机样本.\n\n（2）求 $\\hat{\\theta}$ 的方差 $D(\\hat{\\theta})$ .",
-   "answerText": "答案：$D(\\hat{\\theta})=\\dfrac{\\theta^{2}}{5n}$\n\n**解析：**\n$E(X^{2})=\\displaystyle\\int_{0}^{\\theta}\\frac{6x^{3}}{\\theta^{3}}(\\theta-x)\\,\\mathrm{d}x=\\frac{3\\theta^{2}}{10}$，故 $D(X)=\\dfrac{3\\theta^{2}}{10}-\\dfrac{\\theta^{2}}{4}=\\dfrac{\\theta^{2}}{20}$。由样本的独立同分布性，$D(\\hat{\\theta})=D(2\\overline{X})=\\dfrac{4}{n}D(X)=\\dfrac{\\theta^{2}}{5n}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.variance_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.variance"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.variance_calculation、prob.knowledge.variance，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math1",
-    "number": 23
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十三、（本题满分6分，含2小题）"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m1-1999.1",
+      "number": 1,
+      "title": "1999 年数学一 第 1 题",
+      "questionText": "$\\lim_{x\\to 0}\\left(\\frac{1}{x^2} -\\frac{1}{x\\tan x}\\right) = \\underline{\\quad}$",
+      "answerText": "答案：$\\dfrac{1}{3}$\n\n**解析：**\n通分后 $\\dfrac{1}{x^{2}}-\\dfrac{1}{x\\tan x}=\\dfrac{\\tan x-x}{x^{2}\\tan x}$，分母 $\\sim x^{3}$。由洛必达法则 $\\displaystyle\\lim_{x\\to 0}\\frac{\\tan x-x}{x^{3}}=\\lim_{x\\to 0}\\frac{\\sec^{2}x-1}{3x^{2}}=\\lim_{x\\to 0}\\frac{\\tan^{2}x}{3x^{2}}=\\frac{1}{3}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.2",
+      "number": 2,
+      "title": "1999 年数学一 第 2 题",
+      "questionText": "$\\frac{\\mathrm{d}}{\\mathrm{d}x}\\int_{0}^{x}\\sin (x - t)^{2}\\mathrm{d}t = \\underline{\\quad}$",
+      "answerText": "答案：$\\sin x^{2}$\n\n**解析：**\n被积函数含 $x$，先换元 $u=x-t$：$\\displaystyle\\int_{0}^{x}\\sin(x-t)^{2}\\,\\mathrm{d}t=\\int_{0}^{x}\\sin u^{2}\\,\\mathrm{d}u$。再对变上限求导得 $\\sin x^{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：integral_defined_function、variable_upper_integral，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.3",
+      "number": 3,
+      "title": "1999 年数学一 第 3 题",
+      "questionText": "$y^{\\prime\\prime}-4y=\\mathrm{e}^{2x}$ 的通解为 $y=\\underline{\\quad}$",
+      "answerText": "答案：$C_{1}\\mathrm{e}^{-2x}+C_{2}\\mathrm{e}^{2x}+\\dfrac{1}{4}x\\mathrm{e}^{2x}$\n\n**解析：**\n特征根 $\\lambda=\\pm 2$，齐次通解 $C_{1}\\mathrm{e}^{-2x}+C_{2}\\mathrm{e}^{2x}$。$\\lambda=2$ 为单根，设特解 $y_{0}=axe^{2x}$，代入得 $4a=1$，即 $a=\\dfrac{1}{4}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.4",
+      "number": 4,
+      "title": "1999 年数学一 第 4 题",
+      "questionText": "设 $n$ 阶矩阵 $\\mathbf{A}$ 的元素全为 1，则 $\\mathbf{A}$ 的 $n$ 个特征值是 $\\underline{\\quad}$",
+      "answerText": "答案：$\\lambda_{1}=\\lambda_{2}=\\dots=\\lambda_{n-1}=0$，$\\lambda_{n}=n$\n\n**解析：**\n$r(\\mathbf{A})=1$ 说明 $\\mathbf{A}$ 有 $n-1$ 重零特征值；又 $\\operatorname{tr}\\mathbf{A}=n$ 等于特征值之和，故非零特征值为 $n$。（或直接计算 $|\\lambda\\mathbf{E}-\\mathbf{A}|=\\lambda^{n-1}(\\lambda-n)$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.eigenvalue_computation、la.knowledge.eigen_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 4
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.5",
+      "number": 5,
+      "title": "1999 年数学一 第 5 题",
+      "questionText": "设两两相互独立的三事件 $A, B$ 和 $C$ 满足条件：$ABC=\\varnothing$，$P(A)=P(B)=P(C)<\\dfrac{1}{2}$，且已知 $P(A\\cup B\\cup C)=\\dfrac{9}{16}$，则 $P(A)=\\underline{\\quad}$ .",
+      "answerText": "答案：$\\dfrac{1}{4}$\n\n**解析：**\n记 $P(A)=p$。由两两独立性及 $ABC=\\varnothing$：$P(A\\cup B\\cup C)=3p-3p^{2}=\\dfrac{9}{16}$，即 $p^{2}-p+\\dfrac{3}{16}=0$，解得 $p=\\dfrac{1}{4}$ 或 $\\dfrac{3}{4}$；由 $p<\\dfrac{1}{2}$ 取 $p=\\dfrac{1}{4}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.event_independence_judgment",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.event_independence"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.event_independence_judgment、prob.knowledge.event_independence，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_events",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 5
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.6",
+      "number": 6,
+      "title": "1999 年数学一 第 6 题",
+      "questionText": "设 $f(x)$ 是连续函数， $F(x)$ 是 $f(x)$ 的原函数，则( )\n\n(A) 当 $f(x)$ 是奇函数时, $F(x)$ 必是偶函数.\n(B) 当 $f(x)$ 是偶函数时, $F(x)$ 必是奇函数.\n（C）当 $f(x)$ 是周期函数时， $F(x)$ 必是周期函数\n（D）当 $f(x)$ 是单调增函数时， $F(x)$ 必是单调增函数",
+      "answerText": "答案：A\n\n**解析：**\n取 $F(x)=\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$。$f$ 为奇函数时 $F(-x)=\\int_{0}^{-x}f(t)\\,\\mathrm{d}t\\overset{t=-u}{=}\\int_{0}^{x}f(u)\\,\\mathrm{d}u=F(x)$，故 $F$ 必为偶函数，选 A。其余选项都可举出反例（如 $f\\equiv 1$ 的原函数 $x+C$ 未必是奇函数、不是周期函数；$f(x)=x$ 单调增而 $F=\\frac{x^{2}}{2}+C$ 不单调增当 $x<0$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_properties",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "function_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：function_properties、function_properties，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.7",
+      "number": 7,
+      "title": "1999 年数学一 第 7 题",
+      "questionText": "设 $f(x) = \\begin{cases} \\frac{1 - \\cos x}{\\sqrt{x}}, & x > 0, \\\\ x^2 g(x), & x \\leqslant 0, \\end{cases}$ 其中 $g(x)$ 是有界函数, 则 $f(x)$ 在 $x = 0$ 处 ( )\n\n(A) 极限不存在.\n\n（B）极限存在，但不连续\n\n(C) 连续, 但不可导.\n\n(D) 可导.",
+      "answerText": "答案：D\n\n**解析：**\n$f_{+}^{\\prime}(0)=\\lim_{x\\to 0^{+}}\\dfrac{1-\\cos x}{x\\sqrt{x}}=\\lim_{x\\to 0^{+}}\\dfrac{x^{2}/2}{x\\sqrt{x}}=0$；$f_{-}^{\\prime}(0)=\\lim_{x\\to 0^{-}}\\dfrac{x^{2}g(x)}{x}=\\lim_{x\\to 0^{-}}xg(x)=0$（$g$ 有界）。两侧导数相等，$f$ 在 $x=0$ 可导且 $f^{\\prime}(0)=0$（从而也连续）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 7
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.8",
+      "number": 8,
+      "title": "1999 年数学一 第 8 题",
+      "questionText": "设 $f(x) = \\begin{cases} x, & 0 \\leqslant x \\leqslant \\frac{1}{2}, \\\\ 2 - 2x, & \\frac{1}{2} < x < 1, \\end{cases} \\quad S(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} a_n \\cos n\\pi x, -\\infty < x < +\\infty$ , 其中 $a_n = 2\\int_0^1 f(x) \\cos n\\pi x \\, \\mathrm{d}x, (n = 0,1,2,\\dots)$ , 则 $S\\left(-\\frac{5}{2}\\right)$ 等于（ ）\n\n(A) $\\frac{1}{2}$ .\n\n(B) $-\\frac{1}{2}$ .\n\n(C) $\\frac{3}{4}$ .\n\n(D) $-\\frac{3}{4}$ .",
+      "answerText": "答案：C\n\n**解析：**\n$S(x)$ 是对 $f$ 作偶延拓与周期延拓后的傅里叶级数和函数，周期为 2 且为偶函数，故 $S\\left(-\\dfrac{5}{2}\\right)=S\\left(\\dfrac{1}{2}\\right)$。$x=\\dfrac{1}{2}$ 是 $f$ 的间断点，级数收敛于 $\\dfrac{f(\\frac{1}{2}^{-})+f(\\frac{1}{2}^{+})}{2}=\\dfrac{\\frac{1}{2}+1}{2}=\\dfrac{3}{4}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "fourier_series",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fourier_series_coefficients"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：fourier_series、fourier_series_coefficients，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 8
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.9",
+      "number": 9,
+      "title": "1999 年数学一 第 9 题",
+      "questionText": "设 $\\mathbf{A}$ 是 $m \\times n$ 矩阵, $\\mathbf{B}$ 是 $n \\times m$ 矩阵, 则( )\n\n(A) 当 $m > n$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| \\neq 0$ .\n(B) 当 $m > n$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| = 0$ .\n(C) 当 $n > m$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| \\neq 0$ .\n(D) 当 $n > m$ 时, 必有行列式 $|\\mathbf{A}\\mathbf{B}| = 0$ .",
+      "answerText": "答案：B\n\n**解析：**\n$r(\\mathbf{AB})\\le\\min\\{r(\\mathbf{A}),r(\\mathbf{B})\\}\\le n$。当 $m>n$ 时 $r(\\mathbf{AB})<m$，$m$ 阶方阵 $\\mathbf{AB}$ 降秩，故 $|\\mathbf{AB}|=0$ 必成立；其余选项均不能必然成立。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 9
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.10",
+      "number": 10,
+      "title": "1999 年数学一 第 10 题",
+      "questionText": "设两个相互独立的随机变量 $X$ 和 $Y$ 分别服从正态分布 $N(0,1)$ 和 $N(1,1)$ , 则( )\n\n$\\left(\\mathrm{A}\\right)P\\{X + Y\\leqslant 0\\} = \\frac{1}{2}.$\n\n(B) $P\\{X + Y \\leqslant 1\\} = \\frac{1}{2}$ .\n\n(C) $P\\{X - Y \\leqslant 0\\} = \\frac{1}{2}$ .\n\n(D) $P\\{X - Y \\leqslant 1\\} = \\frac{1}{2}$ .",
+      "answerText": "答案：B\n\n**解析：**\n由独立性，$X+Y\\sim N(1,2)$，正态分布关于均值 $\\mu=1$ 对称，故 $P\\{X+Y\\le 1\\}=\\dfrac{1}{2}$；而 $X-Y\\sim N(-1,2)$，$P\\{X-Y\\le 0\\}=\\Phi\\left(\\dfrac{1}{\\sqrt 2}\\right)\\neq\\dfrac{1}{2}$，A、C、D 均不成立。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.normal_distribution"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation、prob.knowledge.normal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 10
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.11",
+      "number": 11,
+      "title": "1999 年数学一 第 11 题",
+      "questionText": "设 $y=y(x),\\ z=z(x)$ 是由方程 $z=xf(x+y)$ 和 $F(x, y, z)=0$ 所确定的函数，其中 $f$ 和 $F$ 分别具有一阶连续导数和一阶连续偏导数，求 $\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}$ .",
+      "answerText": "答案：$\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=\\dfrac{\\left(f+xf^{\\prime}\\right)F_{y}^{\\prime}-xf^{\\prime}F_{x}^{\\prime}}{F_{y}^{\\prime}+xf^{\\prime}F_{z}^{\\prime}}$（其中 $F_{y}^{\\prime}+xf^{\\prime}F_{z}^{\\prime}\\neq 0$）\n\n**解析：**\n两个方程都对 $x$ 求导：$\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=f+x\\left(1+\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right)f^{\\prime}$，$F_{x}^{\\prime}+F_{y}^{\\prime}\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}+F_{z}^{\\prime}\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=0$。这是关于 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}$ 与 $\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}$ 的线性方程组，消去 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}$ 即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_derivative",
+        "implicit_function"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：derivative_calculation、implicit_derivative、implicit_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "三、（本题满分5分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.12",
+      "number": 12,
+      "title": "1999 年数学一 第 12 题",
+      "questionText": "求 $I=\\displaystyle\\int_{L}\\left[\\mathrm{e}^{x}\\sin y-b(x+y)\\right]\\mathrm{d}x+\\left(\\mathrm{e}^{x}\\cos y-ax\\right)\\mathrm{d}y$，其中 $a,b$ 为正的常数，$L$ 为从点 $A(2a,0)$ 沿曲线 $y=\\sqrt{2ax-x^{2}}$ 到点 $O(0,0)$ 的弧.",
+      "answerText": "答案：$I=\\left(\\dfrac{\\pi}{2}+2\\right)a^{2}b-\\dfrac{\\pi}{2}a^{3}$\n\n**解析：**\n补上有向线段 $\\overline{OA}$（$y=0$，$x$ 从 0 到 $2a$）使 $L+\\overline{OA}$ 构成正向闭路，围成半径为 $a$ 的上半圆盘 $D$。$\\dfrac{\\partial Q}{\\partial x}-\\dfrac{\\partial P}{\\partial y}=(\\mathrm{e}^{x}\\cos y-a)-(\\mathrm{e}^{x}\\cos y-b)=b-a$，故 $\\displaystyle\\oint_{L+\\overline{OA}}=\\iint_{D}(b-a)\\,\\mathrm{d}x\\mathrm{d}y=(b-a)\\frac{\\pi a^{2}}{2}$。又 $\\displaystyle\\int_{\\overline{OA}}=\\int_{0}^{2a}(-bx)\\,\\mathrm{d}x=-2a^{2}b$。于是 $I=\\oint-\\int_{\\overline{OA}}=(b-a)\\frac{\\pi a^{2}}{2}+2a^{2}b$，化简即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "四、（本题满分5分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.13",
+      "number": 13,
+      "title": "1999 年数学一 第 13 题",
+      "questionText": "设函数 $y(x)\\ (x\\geqslant 0)$ 二阶可导且 $y^{\\prime}(x)>0$，$y(0)=1$. 过曲线 $y=y(x)$ 上任意一点 $P(x,y)$ 作该曲线的切线及 $x$ 轴的垂线，上述两直线与 $x$ 轴所围成的三角形的面积记为 $S_{1}$，区间 $[0,x]$ 上以 $y=y(x)$ 为曲边的曲边梯形面积记为 $S_{2}$，并设 $2S_{1}-S_{2}$ 恒为 1，求此曲线 $y=y(x)$ 的方程.",
+      "answerText": "答案：$y=\\mathrm{e}^{x}$\n\n**解析：**\n切线与 $x$ 轴交于 $\\left(x-\\dfrac{y}{y^{\\prime}},0\\right)$，故 $S_{1}=\\dfrac{y^{2}}{2y^{\\prime}}$，$S_{2}=\\displaystyle\\int_{0}^{x}y(t)\\,\\mathrm{d}t$。由 $2S_{1}-S_{2}=1$ 得 $\\dfrac{y^{2}}{y^{\\prime}}-\\displaystyle\\int_{0}^{x}y(t)\\,\\mathrm{d}t=1$；取 $x=0$ 得 $y^{\\prime}(0)=1$。两边求导得 $yy^{\\prime\\prime}=y^{\\prime 2}$，即 $\\left(\\dfrac{y^{\\prime}}{y}\\right)^{\\prime}=0$，故 $\\dfrac{y^{\\prime}}{y}=C_{1}$；由 $y(0)=1,\\ y^{\\prime}(0)=1$ 得 $C_{1}=1$，解 $y^{\\prime}-y=0$ 并用 $y(0)=1$ 得 $y=\\mathrm{e}^{x}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：area_volume_arc，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_integral",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "五、（本题满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.14",
+      "number": 14,
+      "title": "1999 年数学一 第 14 题",
+      "questionText": "试证：当 $x>0$ 时，$(x^{2}-1)\\ln x\\geqslant(x-1)^{2}$.",
+      "answerText": "答案：证明见解析\n\n**解析：**\n令 $f(x)=(x^{2}-1)\\ln x-(x-1)^{2}$，则 $f(1)=0$。逐阶求导：$f^{\\prime}(x)=2x\\ln x-x-\\dfrac{1}{x}+2$，$f^{\\prime}(1)=0$；$f^{\\prime\\prime}(x)=2\\ln x+1+\\dfrac{1}{x^{2}}$，$f^{\\prime\\prime}(1)=2$；$f^{\\prime\\prime\\prime}(x)=\\dfrac{2(x^{2}-1)}{x^{3}}$，在 $(0,1)$ 内为负、$(1,+\\infty)$ 内为正，故 $f^{\\prime\\prime}$ 在 $x=1$ 取最小值 2，即 $f^{\\prime\\prime}(x)>0$。于是 $f^{\\prime}$ 严格递增且 $f^{\\prime}(1)=0$，得 $f^{\\prime}$ 在 $(0,1)$ 为负、$(1,+\\infty)$ 为正，$x=1$ 是 $f$ 的最小值点，故 $x>0$ 时 $f(x)\\ge f(1)=0$，证毕。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "六、（本题满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.15",
+      "number": 15,
+      "title": "1999 年数学一 第 15 题",
+      "questionText": "为清除井底的污泥，用缆绳将抓斗放入井底，抓起污泥后提出井口. 已知井深 $30\\,\\mathrm{m}$，抓斗自重 $400\\,\\mathrm{N}$，缆绳每米重 $50\\,\\mathrm{N}$，抓斗抓起的污泥重 $2000\\,\\mathrm{N}$，提升速度为 $3\\,\\mathrm{m/s}$，在提升过程中，污泥以 $20\\,\\mathrm{N/s}$ 的速率从抓斗缝隙中漏掉. 现将抓起污泥的抓斗提升至井口，问克服重力需作多少焦耳的功？\\n\\n（说明：① $1\\mathrm{N}\\times 1\\mathrm{m}=1\\mathrm{J}$；$\\mathrm{m}, \\mathrm{N}, \\mathrm{s}, \\mathrm{J}$ 分别表示米、牛顿、秒、焦耳。② 抓斗的高度及位于井口上方的缆绳长度忽略不计。）",
+      "answerText": "答案：$91500\\,\\mathrm{J}$\n\n**解析：**\n分三部分计算：抓斗自重做功 $W_{1}=400\\times 30=12000\\,\\mathrm{J}$。缆绳：提升到 $x$ 米时井中缆绳长 $30-x$，$\\mathrm{d}W_{2}=50(30-x)\\,\\mathrm{d}x$，$W_{2}=50\\displaystyle\\int_{0}^{30}(30-x)\\,\\mathrm{d}x=22500\\,\\mathrm{J}$。污泥：提升时间 $t$ 秒后剩 $(2000-20t)$ 牛，$W_{3}=3\\displaystyle\\int_{0}^{10}(2000-20t)\\,\\mathrm{d}t=57000\\,\\mathrm{J}$（全程需 $30/3=10$ 秒）。合计 $W=12000+22500+57000=91500\\,\\mathrm{J}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "七、（本题满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.16",
+      "number": 16,
+      "title": "1999 年数学一 第 16 题",
+      "questionText": "设 $S$ 为椭球面 $\\dfrac{x^{2}}{2}+\\dfrac{y^{2}}{2}+z^{2}=1$ 的上半部分，点 $P(x,y,z)\\in S$，$\\pi$ 为 $S$ 在点 $P$ 处的切平面，$\\rho(x,y,z)$ 为点 $O(0,0,0)$ 到平面 $\\pi$ 的距离，求 $\\displaystyle\\iint_{S}\\frac{z}{\\rho(x,y,z)}\\,\\mathrm{d}S.$",
+      "answerText": "答案：$\\dfrac{3\\pi}{2}$\n\n**解析：**\n椭球面在 $P$ 处的切平面为 $\\dfrac{x}{2}X+\\dfrac{y}{2}Y+zZ=1$，故 $\\rho=\\dfrac{1}{\\sqrt{\\frac{x^{2}}{4}+\\frac{y^{2}}{4}+z^{2}}}$。在 $S$ 上 $z=\\sqrt{1-\\frac{x^{2}+y^{2}}{2}}$，于是 $z\\sqrt{\\frac{x^{2}}{4}+\\frac{y^{2}}{4}+z^{2}}=\\dfrac{z}{2}\\sqrt{4-x^{2}-y^{2}}$，而 $\\mathrm{d}S=\\dfrac{\\sqrt{4-x^{2}-y^{2}}}{2z}\\,\\mathrm{d}x\\mathrm{d}y$，两者相乘恰为 $\\dfrac{4-x^{2}-y^{2}}{4}\\,\\mathrm{d}x\\mathrm{d}y$。故原积分 $=\\dfrac{1}{4}\\displaystyle\\iint_{x^{2}+y^{2}\\le 2}(4-r^{2})\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\frac{1}{4}\\cdot 2\\pi\\left(2r^{2}-\\frac{r^{4}}{4}\\right)\\Big|_{0}^{\\sqrt{2}}=\\frac{3\\pi}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "geometric_applications_multivariable",
+        "plane_line_position_relation",
+        "prob.knowledge.correlation_coefficient",
+        "quadric_surface_equations"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：geometric_applications_multivariable、plane_line_position_relation、prob.knowledge.correlation_coefficient、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 vector_algebra_and_space_analytic_geometry",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 16
+      },
+      "subjectGuess": "calculus",
+      "section": "八、（本题满分7分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.17",
+      "number": 17,
+      "title": "1999 年数学一 第 17 题",
+      "questionText": "设 $a_{n}=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\,\\mathrm{d}x$.\n\n（1）求 $\\sum_{n=1}^{\\infty} \\dfrac{1}{n} (a_n + a_{n+2})$ 的值；",
+      "answerText": "答案：$1$\n\n**解析：**\n$a_{n}+a_{n+2}=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\left(1+\\tan^{2}x\\right)\\mathrm{d}x=\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\,\\mathrm{d}(\\tan x)=\\frac{1}{n+1}$。故所求级数为 $\\sum\\dfrac{1}{n(n+1)}$，部分和 $S_{n}=1-\\dfrac{1}{n+1}\\to 1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "九、（本题满分7分，含2小题）"
+    },
+    {
+      "id": "bank.exam.m1-1999.18",
+      "number": 18,
+      "title": "1999 年数学一 第 18 题",
+      "questionText": "设 $a_{n}=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\tan^{n}x\\,\\mathrm{d}x$.\n\n（2）试证：对任意的常数 $\\lambda > 0$，级数 $\\sum_{n=1}^{\\infty} \\dfrac{a_n}{n^{\\lambda}}$ 收敛.",
+      "answerText": "答案：证明见解析\n\n**解析：**\n令 $t=\\tan x$，则 $a_{n}=\\displaystyle\\int_{0}^{1}\\frac{t^{n}}{1+t^{2}}\\,\\mathrm{d}t\\le\\int_{0}^{1}t^{n}\\,\\mathrm{d}t=\\frac{1}{n+1}\\le\\frac{1}{n}$。于是 $0\\le\\dfrac{a_{n}}{n^{\\lambda}}\\le\\dfrac{1}{n^{\\lambda+1}}$，而 $p$-级数 $\\sum\\dfrac{1}{n^{\\lambda+1}}$（$\\lambda+1>1$）收敛，由比较判别法知原级数收敛。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "九、（本题满分7分，含2小题）"
+    },
+    {
+      "id": "bank.exam.m1-1999.19",
+      "number": 19,
+      "title": "1999 年数学一 第 19 题",
+      "questionText": "设矩阵 $\\mathbf{A}=\\begin{pmatrix} a & -1 & c \\\\ 5 & b & 3 \\\\ 1-c & 0 & -a \\end{pmatrix}$，其行列式 $|\\mathbf{A}|=-1$，又 $\\mathbf{A}$ 的伴随矩阵 $\\mathbf{A}^{*}$ 有一个特征值 $\\lambda_{0}$，属于 $\\lambda_{0}$ 的一个特征向量为 $\\boldsymbol{\\alpha}=(-1,-1,1)^{\\mathrm{T}}$，求 $a, b, c$ 和 $\\lambda_{0}$ 的值.",
+      "answerText": "答案：$a=2,\\ b=-3,\\ c=2,\\ \\lambda_{0}=1$\n\n**解析：**\n设 $\\mathbf{A}\\boldsymbol{\\alpha}=\\mu\\boldsymbol{\\alpha}$，比较三个分量得 $-a+1+c=-\\mu$，$-b-2=-\\mu$，$c-1-a=\\mu$。前两式相减（或与第三式联立）得 $a=c$，$\\mu=-1$，$b=-3$。代入 $|\\mathbf{A}|=-1$：$\\mathbf{A}=\\begin{pmatrix}a&-1&a\\\\5&-3&3\\\\1-a&0&-a\\end{pmatrix}$，展开得 $|\\mathbf{A}|=a-3=-1$，故 $a=2,\\ c=2$。最后 $\\mathbf{A}^{*}\\boldsymbol{\\alpha}=|\\mathbf{A}|\\mathbf{A}^{-1}\\boldsymbol{\\alpha}=\\dfrac{|\\mathbf{A}|}{\\mu}\\boldsymbol{\\alpha}$，即 $\\lambda_{0}=\\dfrac{-1}{-1}=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.eigenvalue_computation、la.knowledge.eigen_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 19
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十、（本题满分8分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.20",
+      "number": 20,
+      "title": "1999 年数学一 第 20 题",
+      "questionText": "设 $\\mathbf{A}$ 为 $m$ 阶实对称矩阵且正定，$\\mathbf{B}$ 为 $m\\times n$ 实矩阵，$\\mathbf{B}^{\\mathrm{T}}$ 为 $\\mathbf{B}$ 的转置矩阵，试证：$\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}$ 为正定矩阵的充分必要条件是 $\\mathbf{B}$ 的秩 $r(\\mathbf{B})=n$.",
+      "answerText": "答案：证明见解析\n\n**解析：**\n显然 $\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}$ 是 $n$ 阶实对称矩阵。必要性：若它正定，则对任意 $\\boldsymbol{X}\\neq\\boldsymbol{0}$，$(\\mathbf{B}\\boldsymbol{X})^{\\mathrm{T}}\\mathbf{A}(\\mathbf{B}\\boldsymbol{X})>0$，由 $\\mathbf{A}$ 正定得 $\\mathbf{B}\\boldsymbol{X}\\neq\\boldsymbol{0}$，即 $\\mathbf{B}\\boldsymbol{X}=\\boldsymbol{0}$ 只有零解，故 $r(\\mathbf{B})=n$。充分性：若 $r(\\mathbf{B})=n$，则对任意 $\\boldsymbol{X}\\neq\\boldsymbol{0}$ 有 $\\mathbf{B}\\boldsymbol{X}=\\boldsymbol{Y}\\neq\\boldsymbol{0}$，从而 $\\boldsymbol{X}^{\\mathrm{T}}\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}\\boldsymbol{X}=\\boldsymbol{Y}^{\\mathrm{T}}\\mathbf{A}\\boldsymbol{Y}>0$，即 $\\mathbf{B}^{\\mathrm{T}}\\mathbf{A}\\mathbf{B}$ 正定。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.quadratic_forms",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.positive_definiteness",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.positive_definite_concept",
+        "la.knowledge.positive_definite_criteria",
+        "la.knowledge.symmetric_matrix"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.positive_definiteness、la.knowledge.positive_definite_concept、la.knowledge.positive_definite_criteria、la.knowledge.symmetric_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 20
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十一、（本题满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.21",
+      "number": 21,
+      "title": "1999 年数学一 第 21 题",
+      "questionText": "设随机变量 $X$ 与 $Y$ 相互独立，下表列出了二维随机变量 $(X,Y)$ 的联合分布律及关于 $X$ 和关于 $Y$ 的边缘分布律中的部分数值，试将其余数值填入表中的空白处.\\n\\n| X\\\\Y | $y_{1}$ | $y_{2}$ | $y_{3}$ | $P\\{X=x_{i}\\}=p_{i\\cdot}$ |\\n| --- | --- | --- | --- | --- |\\n| $x_{1}$ |  | $1/8$ |  |  |\\n| $x_{2}$ | $1/8$ |  |  |  |\\n| $P\\{Y=y_{j}\\}=p_{\\cdot j}$ | $1/6$ |  |  | 1 |",
+      "answerText": "答案：$p_{11}=\\dfrac{1}{24}$，$p_{13}=\\dfrac{1}{12}$，$p_{22}=\\dfrac{3}{8}$，$p_{23}=\\dfrac{1}{4}$；边缘：$p_{1\\cdot}=\\dfrac{1}{4}$，$p_{2\\cdot}=\\dfrac{3}{4}$，$p_{\\cdot 2}=\\dfrac{1}{2}$，$p_{\\cdot 3}=\\dfrac{1}{3}$\n\n**解析：**\n由 $p_{11}+\\dfrac{1}{8}=\\dfrac{1}{6}$ 得 $p_{11}=\\dfrac{1}{24}$。由独立性 $p_{11}=p_{1\\cdot}\\,p_{\\cdot 1}$ 得 $p_{1\\cdot}=\\dfrac{1/24}{1/6}=\\dfrac{1}{4}$，进而 $p_{13}=\\dfrac{1}{4}-\\dfrac{1}{24}-\\dfrac{1}{8}=\\dfrac{1}{12}$。由 $p_{12}=p_{1\\cdot}p_{\\cdot 2}$ 得 $p_{\\cdot 2}=\\dfrac{1/8}{1/4}=\\dfrac{1}{2}$，于是 $p_{22}=\\dfrac{1}{2}-\\dfrac{1}{8}=\\dfrac{3}{8}$。再由列和得 $p_{\\cdot 3}=1-\\dfrac{1}{6}-\\dfrac{1}{2}=\\dfrac{1}{3}$，$p_{23}=\\dfrac{1}{3}-\\dfrac{1}{12}=\\dfrac{1}{4}$，最后 $p_{2\\cdot}=1-\\dfrac{1}{4}=\\dfrac{3}{4}$（各行、列均验证独立性成立）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.multidimensional_random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.block_matrix",
+        "prob.knowledge.conditional_distribution",
+        "prob.knowledge.joint_discrete_distribution",
+        "prob.knowledge.marginal_distribution"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.conditional_distribution、prob.knowledge.joint_discrete_distribution、prob.knowledge.marginal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 21
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十二、（本题满分8分）"
+    },
+    {
+      "id": "bank.exam.m1-1999.22",
+      "number": 22,
+      "title": "1999 年数学一 第 22 题",
+      "questionText": "设总体 $X$ 的概率密度为 $f(x)=\\begin{cases}\\dfrac{6x}{\\theta^{3}}(\\theta-x), & 0<x<\\theta, \\\\ 0, & \\text{其他},\\end{cases}$，$X_{1}, X_{2}, \\dots, X_{n}$ 是取自总体 $X$ 的简单随机样本.\n\n（1）求 $\\theta$ 的矩估计量 $\\hat{\\theta}$；",
+      "answerText": "答案：$\\hat{\\theta}=2\\overline{X}$\n\n**解析：**\n$E(X)=\\displaystyle\\int_{0}^{\\theta}x\\cdot\\frac{6x}{\\theta^{3}}(\\theta-x)\\,\\mathrm{d}x=\\frac{6}{\\theta^{3}}\\left(\\frac{\\theta^{4}}{3}-\\frac{\\theta^{4}}{4}\\right)=\\frac{\\theta}{2}$。令 $E(X)=\\overline{X}$，解得 $\\hat{\\theta}=2\\overline{X}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.parameter_estimation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.moment_estimation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.moment_estimation_method"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.moment_estimation、prob.knowledge.moment_estimation_method，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.parameter_estimation",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 22
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十三、（本题满分6分，含2小题）"
+    },
+    {
+      "id": "bank.exam.m1-1999.23",
+      "number": 23,
+      "title": "1999 年数学一 第 23 题",
+      "questionText": "设总体 $X$ 的概率密度为 $f(x)=\\begin{cases}\\dfrac{6x}{\\theta^{3}}(\\theta-x), & 0<x<\\theta, \\\\ 0, & \\text{其他},\\end{cases}$，$X_{1}, X_{2}, \\dots, X_{n}$ 是取自总体 $X$ 的简单随机样本.\n\n（2）求 $\\hat{\\theta}$ 的方差 $D(\\hat{\\theta})$ .",
+      "answerText": "答案：$D(\\hat{\\theta})=\\dfrac{\\theta^{2}}{5n}$\n\n**解析：**\n$E(X^{2})=\\displaystyle\\int_{0}^{\\theta}\\frac{6x^{3}}{\\theta^{3}}(\\theta-x)\\,\\mathrm{d}x=\\frac{3\\theta^{2}}{10}$，故 $D(X)=\\dfrac{3\\theta^{2}}{10}-\\dfrac{\\theta^{2}}{4}=\\dfrac{\\theta^{2}}{20}$。由样本的独立同分布性，$D(\\hat{\\theta})=D(2\\overline{X})=\\dfrac{4}{n}D(X)=\\dfrac{\\theta^{2}}{5n}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.variance"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.variance_calculation、prob.knowledge.variance，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math1",
+        "number": 23
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十三、（本题满分6分，含2小题）"
+    }
+  ]
 }

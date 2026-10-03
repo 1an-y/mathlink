@@ -1,803 +1,803 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 2000,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": true,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2000-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 2000,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、填空题",
-   "二、选择题",
-   "三、计算题",
-   "四、计算题",
-   "五、计算题",
-   "六、计算题",
-   "七、应用题",
-   "八、证明题",
-   "九、计算题",
-   "十、计算题",
-   "十一、计算题",
-   "十二、计算题",
-   "十三、计算题"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-2000.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-2000.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-2000.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2000.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2000.5",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-2000.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-2000.7",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-2000.8",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-2000.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-2000.10",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-2000.11",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-2000.12",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-2000.13",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-2000.14",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-2000.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-2000.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-2000.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-2000.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-2000.19",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-2000.20",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m2-2000.21",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   }
-  ],
-  "total": 21
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-2000.1",
-   "number": 1,
-   "title": "2000 年数学二 第 1 题",
-   "questionText": "$\\lim_{x\\to 0}\\dfrac{\\arctan x-x}{\\ln\\left(1+2x^{3}\\right)}=$ ________。",
-   "answerText": "$-\\dfrac{1}{6}$\n\n**解析：**\n$\\arctan x=x-\\dfrac{x^{3}}{3}+o\\left(x^{3}\\right)$，$\\ln\\left(1+2x^{3}\\right)\\sim2x^{3}$，故极限为 $\\dfrac{-x^{3}/3}{2x^{3}}=-\\dfrac{1}{6}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "taylor_formula"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2000-2.md",
+  "paperInfo": {
     "year": 2000,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+    "label": "数学二",
+    "sections": [
+      "一、填空题",
+      "二、选择题",
+      "三、计算题",
+      "四、计算题",
+      "五、计算题",
+      "六、计算题",
+      "七、应用题",
+      "八、证明题",
+      "九、计算题",
+      "十、计算题",
+      "十一、计算题",
+      "十二、计算题",
+      "十三、计算题"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-2000.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-2000.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-2000.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-2000.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-2000.5",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-2000.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-2000.7",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-2000.8",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-2000.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-2000.10",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-2000.11",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-2000.12",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-2000.13",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-2000.14",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-2000.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-2000.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-2000.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-2000.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-2000.19",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-2000.20",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m2-2000.21",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      }
+    ],
+    "total": 21
   },
-  {
-   "id": "bank.exam.m2-2000.2",
-   "number": 2,
-   "title": "2000 年数学二 第 2 题",
-   "questionText": "设函数 $y=y\\left(x\\right)$ 由方程 $2^{xy}=x+y$ 所确定，则 $\\left.\\mathrm{d}y\\right|_{x=0}=$ ________。",
-   "answerText": "$\\left(\\ln 2-1\\right)\\mathrm{~d}x$\n\n**解析：**\n$x=0$ 时 $y=1$。两边微分：$2^{xy}\\ln2\\left(x\\,\\mathrm{d}y+y\\,\\mathrm{d}x\\right)=\\mathrm{d}x+\\mathrm{d}y$，代入 $\\left(0,1\\right)$ 得 $\\ln2\\,\\mathrm{d}x=\\mathrm{d}x+\\mathrm{d}y$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "implicit_derivative"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2000.3",
-   "number": 3,
-   "title": "2000 年数学二 第 3 题",
-   "questionText": "$\\int_{2}^{+\\infty}\\dfrac{\\mathrm{d}x}{\\left(x+7\\right)\\sqrt{x-2}}=$ ________。",
-   "answerText": "$\\dfrac{\\pi}{3}$\n\n**解析：**\n令 $t=\\sqrt{x-2}$，积分化为 $\\int_{0}^{+\\infty}\\dfrac{2\\,\\mathrm{d}t}{t^{2}+9}=\\dfrac{2}{3}\\cdot\\dfrac{\\pi}{2}=\\dfrac{\\pi}{3}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "improper_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_interval_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2000.4",
-   "number": 4,
-   "title": "2000 年数学二 第 4 题",
-   "questionText": "曲线 $y=\\left(2x-1\\right)e^{\\frac{1}{x}}$ 的斜渐近线方程为 ________。",
-   "answerText": "$y=2x+1$\n\n**解析：**\n$k=\\lim_{x\\to\\infty}\\dfrac{y}{x}=\\lim\\left(2-\\dfrac{1}{x}\\right)e^{\\frac{1}{x}}=2$；$b=\\lim_{x\\to\\infty}\\left(y-2x\\right)=\\lim\\left(2x-1\\right)\\left(e^{\\frac{1}{x}}-1\\right)-1$。由 $e^{\\frac{1}{x}}-1\\sim\\dfrac{1}{x}$ 得第一项趋于 $2$，故 $b=1$，斜渐近线为 $y=2x+1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "asymptote"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2000.5",
-   "number": 5,
-   "title": "2000 年数学二 第 5 题",
-   "questionText": "设\n\n$\\boldsymbol{A}=\\begin{bmatrix}1 & 0 & 0 & 0\\\\-2 & 3 & 0 & 0\\\\0 & -4 & 5 & 0\\\\0 & 0 & -6 & 7\\end{bmatrix}$，\n\n$\\boldsymbol{E}$ 为 $4$ 阶单位矩阵，且 $\\boldsymbol{B}=\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)$，则 $\\left(\\boldsymbol{E}+\\boldsymbol{B}\\right)^{-1}=$ ________。",
-   "answerText": "$\\begin{bmatrix}1 & 0 & 0 & 0\\\\-1 & 2 & 0 & 0\\\\0 & -2 & 3 & 0\\\\0 & 0 & -3 & 4\\end{bmatrix}$\n\n**解析：**\n由 $\\boldsymbol{B}=\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)$ 得 $\\boldsymbol{E}+\\boldsymbol{B}=\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}\\left[\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)+\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)\\right]=2\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}$，故 $\\left(\\boldsymbol{E}+\\boldsymbol{B}\\right)^{-1}=\\dfrac{\\boldsymbol{E}+\\boldsymbol{A}}{2}$，代入即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.matrix_operations"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2000.6",
-   "number": 6,
-   "title": "2000 年数学二 第 6 题",
-   "questionText": "设函数 $f\\left(x\\right)=\\dfrac{x}{a+e^{bx}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内连续，且 $\\lim_{x\\to -\\infty}f\\left(x\\right)=0$，则常数 $a,b$ 满足（ ）\n\nA. $a<0,b<0$\nB. $a>0,b>0$\nC. $a\\le 0,b>0$\nD. $a\\ge 0,b<0$",
-   "answerText": "D\n\n**解析：**\n连续性要求分母无零点：$a<0$ 时 $a+e^{bx}$ 必有零点，故 $a\\ge0$；$\\lim_{x\\to-\\infty}f=0$ 要求 $x\\to-\\infty$ 时分母趋于无穷，即 $b<0$。选 D。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "parameter_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "continuity",
-    "infinite_and_infinitesimal"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2000.7",
-   "number": 7,
-   "title": "2000 年数学二 第 7 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 满足关系式 $f^{\\prime\\prime}\\left(x\\right)+\\left[f^{\\prime}\\left(x\\right)\\right]^{2}=x$，且 $f^{\\prime}\\left(0\\right)=0$，则（ ）\n\nA. $f\\left(0\\right)$ 是 $f\\left(x\\right)$ 的极大值。\nB. $f\\left(0\\right)$ 是 $f\\left(x\\right)$ 的极小值。\nC. 点 $\\left(0,f\\left(0\\right)\\right)$ 是曲线 $y=f\\left(x\\right)$ 的拐点。\nD. $f\\left(0\\right)$ 不是 $f\\left(x\\right)$ 的极值，点 $\\left(0,f\\left(0\\right)\\right)$ 也不是曲线 $y=f\\left(x\\right)$ 的拐点。",
-   "answerText": "C\n\n**解析：**\n代入 $x=0$ 得 $f^{\\prime\\prime}\\left(0\\right)=0$；对恒等式求导并代 $x=0$ 得 $f^{\\prime\\prime\\prime}\\left(0\\right)=1\\ne0$，于是 $f^{\\prime\\prime}$ 在 $x=0$ 附近单侧变号，$\\left(0,f\\left(0\\right)\\right)$ 为拐点。选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "concavity_inflection",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "concavity_inflection"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2000.8",
-   "number": 8,
-   "title": "2000 年数学二 第 8 题",
-   "questionText": "设 $f\\left(x\\right),g\\left(x\\right)$ 是大于零的可导函数，且 $f^{\\prime}\\left(x\\right)g\\left(x\\right)-f\\left(x\\right)g^{\\prime}\\left(x\\right)<0$，则当 $a<x<b$ 时，有（ ）\n\nA. $f\\left(x\\right)g\\left(b\\right)>f\\left(b\\right)g\\left(x\\right)$\nB. $f\\left(x\\right)g\\left(a\\right)>f\\left(a\\right)g\\left(x\\right)$\nC. $f\\left(x\\right)g\\left(x\\right)>f\\left(b\\right)g\\left(b\\right)$\nD. $f\\left(x\\right)g\\left(x\\right)>f\\left(a\\right)g\\left(a\\right)$",
-   "answerText": "A\n\n**解析：**\n令 $F=\\dfrac{f}{g}$，则 $F^{\\prime}=\\dfrac{f^{\\prime}g-fg^{\\prime}}{g^{2}}<0$，$F$ 在 $\\left[a,b\\right]$ 上严格减，故 $F\\left(x\\right)>F\\left(b\\right)$，即 $f\\left(x\\right)g\\left(b\\right)>f\\left(b\\right)g\\left(x\\right)$。选 A。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "monotonicity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2000.9",
-   "number": 9,
-   "title": "2000 年数学二 第 9 题",
-   "questionText": "若 $\\lim_{x\\to 0}\\dfrac{\\sin 6x+xf\\left(x\\right)}{x^{3}}=0$，则 $\\lim_{x\\to 0}\\dfrac{6+f\\left(x\\right)}{x^{2}}$ 为（ ）\n\nA. $0$\nB. $6$\nC. $36$\nD. $\\infty$",
-   "answerText": "C\n\n**解析：**\n由条件 $\\sin6x+xf\\left(x\\right)=o\\left(x^{3}\\right)$，用 $\\sin6x=6x-36x^{3}+o\\left(x^{3}\\right)$ 得 $x\\left(6+f\\left(x\\right)\\right)=36x^{3}+o\\left(x^{3}\\right)$，故 $\\lim\\dfrac{6+f\\left(x\\right)}{x^{2}}=36$。选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "taylor_formula",
-    "infinite_and_infinitesimal"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2000.10",
-   "number": 10,
-   "title": "2000 年数学二 第 10 题",
-   "questionText": "具有特解 $y_{1}=e^{-x},y_{2}=xe^{-x},y_{3}=e^{x}$ 的 $3$ 阶常系数齐次线性微分方程是（ ）\n\nA. $y^{\\prime\\prime\\prime}-y^{\\prime\\prime}-y^{\\prime}+y=0$\nB. $y^{\\prime\\prime\\prime}+y^{\\prime\\prime}-y^{\\prime}-y=0$\nC. $y^{\\prime\\prime\\prime}-6y^{\\prime\\prime}+11y^{\\prime}-6y=0$\nD. $y^{\\prime\\prime\\prime}-2y^{\\prime\\prime}-y^{\\prime}+2y=0$",
-   "answerText": "B\n\n**解析：**\n$e^{-x}$ 与 $xe^{-x}$ 并存说明 $r=-1$ 为二重特征根，$e^{x}$ 说明 $r=1$ 为单根，特征方程 $\\left(r+1\\right)^{2}\\left(r-1\\right)=r^{3}+r^{2}-r-1=0$。选 B。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "characteristic_equation",
-    "second_order_homogeneous_linear"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2000.11",
-   "number": 11,
-   "title": "2000 年数学二 第 11 题",
-   "questionText": "设 $\\dfrac{\\ln\\left(1+x\\right)}{x}=f\\left(\\ln x\\right)$，计算 $\\int f\\left(x\\right)\\mathrm{~d}x$。",
-   "answerText": "$-e^{-x}\\ln\\left(1+e^{x}\\right)+x-\\ln\\left(1+e^{x}\\right)+C$（$C$ 为任意常数）\n\n**解析：**\n令 $x=e^{t}$ 得 $f\\left(t\\right)=e^{-t}\\ln\\left(1+e^{t}\\right)$。于是 $\\int f\\left(x\\right)\\mathrm{~d}x=\\int e^{-x}\\ln\\left(1+e^{x}\\right)\\mathrm{~d}x$，分部积分（$u=\\ln\\left(1+e^{x}\\right)$，$\\mathrm{d}v=e^{-x}\\mathrm{~d}x$）后剩余 $\\int\\dfrac{\\mathrm{d}x}{1+e^{x}}=x-\\ln\\left(1+e^{x}\\right)$，整理即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "indefinite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "inverse_composite_function"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.12",
-   "number": 12,
-   "title": "2000 年数学二 第 12 题",
-   "questionText": "设 $xOy$ 平面上有正方形 $D=\\left\\{\\left(x,y\\right)\\mid 0\\le x\\le1,0\\le y\\le1\\right\\}$ 及直线 $l:\\ x+y=t\\ \\left(t\\ge0\\right)$。若 $S\\left(t\\right)$ 表示正方形 $D$ 位于直线 $l$ 左下方部分的面积，试求 $\\int_{0}^{x}S\\left(t\\right)\\mathrm{~d}t\\ \\left(x\\ge0\\right)$。",
-   "answerText": "$\\int_{0}^{x}S\\left(t\\right)\\mathrm{~d}t=\\begin{cases}\\dfrac{x^{3}}{6}, & 0\\le x\\le1,\\\\[1mm]x-1+\\dfrac{\\left(2-x\\right)^{3}}{6}, & 1<x\\le2,\\\\[1mm]x-1, & x>2.\\end{cases}$\n\n**解析：**\n先写 $S\\left(t\\right)$：$0\\le t\\le1$ 时为等腰直角三角形面积 $\\dfrac{t^{2}}{2}$；$1<t\\le2$ 时为 $1-\\dfrac{\\left(2-t\\right)^{2}}{2}$；$t>2$ 时为 $1$。再分段积分，注意各段衔接处连续。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_application_geometry",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "piecewise_integral",
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "四、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.13",
-   "number": 13,
-   "title": "2000 年数学二 第 13 题",
-   "questionText": "求函数 $f\\left(x\\right)=x^{2}\\ln\\left(1+x\\right)$ 在 $x=0$ 处的 $n$ 阶导数 $f^{\\left(n\\right)}\\left(0\\right)\\left(n\\ge 3\\right)$。",
-   "answerText": "$f^{\\left(n\\right)}\\left(0\\right)=\\dfrac{\\left(-1\\right)^{n-1}n!}{n-2}$（$n\\ge3$）\n\n**解析：**\n用 $\\ln\\left(1+x\\right)$ 的麦克劳林展开：$x^{2}\\ln\\left(1+x\\right)=\\sum_{k=1}^{\\infty}\\dfrac{\\left(-1\\right)^{k-1}x^{k+2}}{k}$，$x^{n}$ 项系数为 $\\dfrac{\\left(-1\\right)^{n-3}}{n-2}$，乘 $n!$ 即得（$\\left(-1\\right)^{n-3}=\\left(-1\\right)^{n-1}$）。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "higher_derivative",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "taylor_formula"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "五、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.14",
-   "number": 14,
-   "title": "2000 年数学二 第 14 题",
-   "questionText": "设函数 $S\\left(x\\right)=\\int_{0}^{x}\\left|\\cos t\\right|\\mathrm{~d}t$。\n\n1. 当 $n$ 为正整数，且 $n\\pi\\le x\\le\\left(n+1\\right)\\pi$ 时，证明 $2n\\le S\\left(x\\right)<2\\left(n+1\\right)$；\n2. 求 $\\lim_{x\\to+\\infty}\\dfrac{S\\left(x\\right)}{x}$。",
-   "answerText": "（1）（证明见解析）；（2）$\\dfrac{2}{\\pi}$\n\n**解析：**\n1. $\\left|\\cos t\\right|$ 以 $\\pi$ 为周期且每个周期上积分为 $2$，故 $S\\left(n\\pi\\right)=2n$；再由 $S$ 单调不减且 $S\\left(\\left(n+1\\right)\\pi\\right)=2\\left(n+1\\right)$ 即得。2. 对 $n\\pi\\le x<\\left(n+1\\right)\\pi$ 用夹逼：$\\dfrac{2n}{\\left(n+1\\right)\\pi}\\le\\dfrac{S\\left(x\\right)}{x}\\le\\dfrac{2\\left(n+1\\right)}{n\\pi}$，两端趋于 $\\dfrac{2}{\\pi}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "definite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "piecewise_integral",
-    "definite_integral_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "calculus",
-   "section": "六、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.15",
-   "number": 15,
-   "title": "2000 年数学二 第 15 题",
-   "questionText": "某湖泊的水量为 $V$，每年排入湖泊内含污染物 $A$ 的污水量为 $\\dfrac{V}{6}$，流入湖泊内不含 $A$ 的水量为 $\\dfrac{V}{6}$，流出湖泊的水量为 $\\dfrac{V}{3}$。已知 $1999$ 年底湖中 $A$ 的含量为 $5m_{0}$，超过国家规定指标。为了治理污染，从 $2000$ 年初起，限定排入湖泊中含 $A$ 污水的浓度不超过 $\\dfrac{m_{0}}{V}$。问至多需要经过多少年，湖泊中污染物 $A$ 的含量降至 $m_{0}$ 以内？（注：设湖水中 $A$ 的浓度是均匀的。）",
-   "answerText": "$6\\ln 3$ 年（约 $6.6$ 年）\n\n**解析：**\n设 $t$ 年初湖中 $A$ 的总量为 $m\\left(t\\right)$，则一年内流入带出净变化满足微分方程 $\\dfrac{\\mathrm{d}m}{\\mathrm{d}t}=\\dfrac{m_{0}}{6}-\\dfrac{m}{3}$，且 $m\\left(0\\right)=5m_{0}$。解得 $m\\left(t\\right)=\\dfrac{m_{0}}{2}+\\dfrac{9m_{0}}{2}e^{-t/3}$。令 $m\\left(t\\right)\\le m_{0}$ 得 $e^{-t/3}\\le\\dfrac{1}{9}$，即 $t\\ge6\\ln3$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "first_order_differential_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "first_order_linear_equation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "七、应用题"
-  },
-  {
-   "id": "bank.exam.m2-2000.16",
-   "number": 16,
-   "title": "2000 年数学二 第 16 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 在 $\\left[0,\\pi\\right]$ 上连续，且\n\n$\\int_{0}^{\\pi}f\\left(x\\right)\\mathrm{~d}x=0,\\quad \\int_{0}^{\\pi}f\\left(x\\right)\\cos x\\mathrm{~d}x=0$，\n\n试证明：在 $\\left(0,\\pi\\right)$ 内至少存在两个不同的点 $\\xi_{1},\\xi_{2}$，使 $f\\left(\\xi_{1}\\right)=f\\left(\\xi_{2}\\right)=0$。",
-   "answerText": "（证明见解析）\n\n**解析：**\n令 $F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t$，则 $F\\left(0\\right)=F\\left(\\pi\\right)=0$，且分部积分结合第二条件得 $\\int_{0}^{\\pi}F\\left(x\\right)\\sin x\\,\\mathrm{d}x=0$。若 $F$ 恒非负或恒非正且不恒为零，该积分严格异号，矛盾；故 $F$ 在内部既取正值又取负值。于是 $F$ 的最大值点 $\\xi_{1}$ 与最小值点 $\\xi_{2}$ 都是内点且不同，由极值必要条件 $f\\left(\\xi_{1}\\right)=F^{\\prime}\\left(\\xi_{1}\\right)=0$，$f\\left(\\xi_{2}\\right)=0$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_equality_inequality",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_properties",
-    "integral_mean_value"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "八、证明题"
-  },
-  {
-   "id": "bank.exam.m2-2000.17",
-   "number": 17,
-   "title": "2000 年数学二 第 17 题",
-   "questionText": "已知 $f\\left(x\\right)$ 是周期为 $5$ 的连续函数，它在 $x=0$ 的某个邻域内满足关系式\n\n$f\\left(1+\\sin x\\right)-3f\\left(1-\\sin x\\right)=8x+\\alpha\\left(x\\right)$，\n\n其中 $\\alpha\\left(x\\right)$ 是当 $x\\to0$ 时比 $x$ 高阶的无穷小，且 $f\\left(x\\right)$ 在 $x=1$ 处可导，求曲线 $y=f\\left(x\\right)$ 在点 $\\left(6,f\\left(6\\right)\\right)$ 处的切线方程。",
-   "answerText": "$y=2x-12$\n\n**解析：**\n令 $x\\to0$ 得 $f\\left(1\\right)=0$；再把关系式两边除以 $x$ 取极限，用 $f^{\\prime}\\left(1\\right)$ 的定义（注意 $\\sin x/x\\to1$）得 $4f^{\\prime}\\left(1\\right)=8$，即 $f^{\\prime}\\left(1\\right)=2$。由周期性 $f\\left(6\\right)=f\\left(1\\right)=0$，$f^{\\prime}\\left(6\\right)=f^{\\prime}\\left(1\\right)=2$，切线为 $y=2\\left(x-6\\right)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "derivative_definition",
-    "function_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "九、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.18",
-   "number": 18,
-   "title": "2000 年数学二 第 18 题",
-   "questionText": "设曲线 $y=ax^{2}\\ \\left(a>0,\\ x\\ge0\\right)$ 与 $y=1-x^{2}$ 交于点 $A$，过坐标原点 $O$ 和点 $A$ 的直线与曲线 $y=ax^{2}$ 围成一平面图形。问 $a$ 为何值时，该图形绕 $x$ 轴旋转一周所得的旋转体体积最大？最大体积是多少？",
-   "answerText": "$a=4$，最大体积 $V=\\dfrac{32\\pi}{375\\sqrt{5}}=\\dfrac{32\\sqrt{5}\\pi}{1875}$\n\n**解析：**\n交点 $A$ 的横坐标 $x_{A}=\\dfrac{1}{\\sqrt{1+a}}$，直线 $OA$ 的斜率为 $\\dfrac{a}{\\sqrt{1+a}}$。用旋转体体积公式（直线与抛物线之差平方积分）：$V=\\dfrac{2\\pi a^{2}}{15\\left(1+a\\right)^{5/2}}$。对 $a$ 求导令为零得 $a=4$，代回得最大体积。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_application_geometry",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc",
-    "extrema"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "十、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.19",
-   "number": 19,
-   "title": "2000 年数学二 第 19 题",
-   "questionText": "函数 $f\\left(x\\right)$ 在 $\\left[0,+\\infty\\right)$ 上可导，$f\\left(0\\right)=1$，且满足等式\n\n$f^{\\prime}\\left(x\\right)+f\\left(x\\right)-\\dfrac{1}{x+1}\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t=0$。\n\n1. 求导数 $f^{\\prime}\\left(x\\right)$；\n2. 证明：当 $x\\ge0$ 时，成立不等式 $e^{-x}\\le f\\left(x\\right)\\le1$。",
-   "answerText": "1. $f^{\\prime}\\left(x\\right)=-\\dfrac{e^{-x}}{x+1}$；2.（证明见解析）\n\n**解析：**\n1. 两边乘 $\\left(x+1\\right)$ 后再求导，消去积分项得 $\\left(x+1\\right)f^{\\prime\\prime}+\\left(x+2\\right)f^{\\prime}=0$；令 $g=f^{\\prime}$ 分离变量得 $g=\\dfrac{C}{\\left(x+1\\right)e^{x}}$，由原式取 $x=0$ 得 $f^{\\prime}\\left(0\\right)=-1$，即 $C=-1$。2. $\\left(e^{x}f\\right)^{\\prime}=e^{x}\\left(f+f^{\\prime}\\right)=\\dfrac{e^{x}}{x+1}\\int_{0}^{x}f\\,\\mathrm{d}t\\ge0$（因 $f>0$），故 $e^{x}f\\ge f\\left(0\\right)=1$；又 $f^{\\prime}<0$ 知 $f$ 单调减，$f\\left(x\\right)\\le f\\left(0\\right)=1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "first_order_differential_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "first_order_linear_equation",
-    "variable_upper_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "calculus",
-   "section": "十一、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.20",
-   "number": 20,
-   "title": "2000 年数学二 第 20 题",
-   "questionText": "设 $\\boldsymbol{\\alpha}=\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}$，$\\boldsymbol{\\beta}=\\begin{bmatrix}1\\\\\\dfrac{1}{2}\\\\0\\end{bmatrix}$，$\\boldsymbol{\\gamma}=\\begin{bmatrix}0\\\\0\\\\8\\end{bmatrix}$，$\\boldsymbol{A}=\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}$，$\\boldsymbol{B}=\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}$，其中 $\\boldsymbol{\\beta}^{T}$ 是 $\\boldsymbol{\\beta}$ 的转置。求解方程\n\n$2\\boldsymbol{B}^{2}\\boldsymbol{A}^{2}\\boldsymbol{x}=\\boldsymbol{A}^{4}\\boldsymbol{x}+\\boldsymbol{B}^{4}\\boldsymbol{x}+\\boldsymbol{\\gamma}$。",
-   "answerText": "$\\boldsymbol{x}=k\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}+\\begin{bmatrix}0\\\\0\\\\-\\dfrac{1}{2}\\end{bmatrix}$（$k$ 为任意常数）\n\n**解析：**\n$\\boldsymbol{B}=\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}=2$（数），$\\boldsymbol{A}^{2}=\\boldsymbol{\\alpha}\\left(\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}\\right)\\boldsymbol{\\beta}^{T}=2\\boldsymbol{A}$，于是 $\\boldsymbol{A}^{4}=8\\boldsymbol{A}$，$\\boldsymbol{B}^{2}=4$，$\\boldsymbol{B}^{4}=16$。方程化为 $8\\boldsymbol{A}\\boldsymbol{x}=16\\boldsymbol{x}+\\boldsymbol{\\gamma}$，即 $\\left(\\boldsymbol{A}-2\\boldsymbol{E}\\right)\\boldsymbol{x}=\\dfrac{\\boldsymbol{\\gamma}}{8}=\\left(0,0,1\\right)^{T}$。系数矩阵秩为 $2$，求特解并加齐次通解：通解基础解系为 $\\left(1,2,1\\right)^{T}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.matrix_operations",
-    "la.knowledge.general_solution"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十二、计算题"
-  },
-  {
-   "id": "bank.exam.m2-2000.21",
-   "number": 21,
-   "title": "2000 年数学二 第 21 题",
-   "questionText": "已知向量组\n\n$\\boldsymbol{\\beta}_{1}=\\begin{bmatrix}0\\\\1\\\\-1\\end{bmatrix}$，$\\boldsymbol{\\beta}_{2}=\\begin{bmatrix}a\\\\2\\\\1\\end{bmatrix}$，$\\boldsymbol{\\beta}_{3}=\\begin{bmatrix}b\\\\1\\\\0\\end{bmatrix}$\n\n与向量组\n\n$\\boldsymbol{\\alpha}_{1}=\\begin{bmatrix}1\\\\2\\\\-3\\end{bmatrix}$，$\\boldsymbol{\\alpha}_{2}=\\begin{bmatrix}3\\\\0\\\\1\\end{bmatrix}$，$\\boldsymbol{\\alpha}_{3}=\\begin{bmatrix}9\\\\6\\\\-7\\end{bmatrix}$\n\n具有相同的秩，且 $\\boldsymbol{\\beta}_{3}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表出，求 $a,b$ 的值。",
-   "answerText": "$b=5$，$a=15$\n\n**解析：**\n先由 $\\boldsymbol{\\alpha}_{3}=3\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}$ 知 $\\boldsymbol{\\alpha}$ 组秩为 $2$。$\\boldsymbol{\\beta}$ 组秩为 $2$ 要求 $\\det\\left[\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3}\\right]=0$，计算得 $a=3b$。再把 $\\boldsymbol{\\beta}_{3}$ 用 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2}$ 表出：解得表出系数 $\\dfrac{1}{2}$ 与 $\\dfrac{3}{2}$，故 $b=\\dfrac{1}{2}+\\dfrac{9}{2}=5$，从而 $a=15$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.linear_representation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.vector_group_rank",
-    "la.knowledge.linear_combination"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2000,
-    "paper": "math2",
-    "number": 21
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十三、计算题"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-2000.1",
+      "number": 1,
+      "title": "2000 年数学二 第 1 题",
+      "questionText": "$\\lim_{x\\to 0}\\dfrac{\\arctan x-x}{\\ln\\left(1+2x^{3}\\right)}=$ ________。",
+      "answerText": "$-\\dfrac{1}{6}$\n\n**解析：**\n$\\arctan x=x-\\dfrac{x^{3}}{3}+o\\left(x^{3}\\right)$，$\\ln\\left(1+2x^{3}\\right)\\sim2x^{3}$，故极限为 $\\dfrac{-x^{3}/3}{2x^{3}}=-\\dfrac{1}{6}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2000.2",
+      "number": 2,
+      "title": "2000 年数学二 第 2 题",
+      "questionText": "设函数 $y=y\\left(x\\right)$ 由方程 $2^{xy}=x+y$ 所确定，则 $\\left.\\mathrm{d}y\\right|_{x=0}=$ ________。",
+      "answerText": "$\\left(\\ln 2-1\\right)\\mathrm{~d}x$\n\n**解析：**\n$x=0$ 时 $y=1$。两边微分：$2^{xy}\\ln2\\left(x\\,\\mathrm{d}y+y\\,\\mathrm{d}x\\right)=\\mathrm{d}x+\\mathrm{d}y$，代入 $\\left(0,1\\right)$ 得 $\\ln2\\,\\mathrm{d}x=\\mathrm{d}x+\\mathrm{d}y$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2000.3",
+      "number": 3,
+      "title": "2000 年数学二 第 3 题",
+      "questionText": "$\\int_{2}^{+\\infty}\\dfrac{\\mathrm{d}x}{\\left(x+7\\right)\\sqrt{x-2}}=$ ________。",
+      "answerText": "$\\dfrac{\\pi}{3}$\n\n**解析：**\n令 $t=\\sqrt{x-2}$，积分化为 $\\int_{0}^{+\\infty}\\dfrac{2\\,\\mathrm{d}t}{t^{2}+9}=\\dfrac{2}{3}\\cdot\\dfrac{\\pi}{2}=\\dfrac{\\pi}{3}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2000.4",
+      "number": 4,
+      "title": "2000 年数学二 第 4 题",
+      "questionText": "曲线 $y=\\left(2x-1\\right)e^{\\frac{1}{x}}$ 的斜渐近线方程为 ________。",
+      "answerText": "$y=2x+1$\n\n**解析：**\n$k=\\lim_{x\\to\\infty}\\dfrac{y}{x}=\\lim\\left(2-\\dfrac{1}{x}\\right)e^{\\frac{1}{x}}=2$；$b=\\lim_{x\\to\\infty}\\left(y-2x\\right)=\\lim\\left(2x-1\\right)\\left(e^{\\frac{1}{x}}-1\\right)-1$。由 $e^{\\frac{1}{x}}-1\\sim\\dfrac{1}{x}$ 得第一项趋于 $2$，故 $b=1$，斜渐近线为 $y=2x+1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "asymptote"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2000.5",
+      "number": 5,
+      "title": "2000 年数学二 第 5 题",
+      "questionText": "设\n\n$\\boldsymbol{A}=\\begin{bmatrix}1 & 0 & 0 & 0\\\\-2 & 3 & 0 & 0\\\\0 & -4 & 5 & 0\\\\0 & 0 & -6 & 7\\end{bmatrix}$，\n\n$\\boldsymbol{E}$ 为 $4$ 阶单位矩阵，且 $\\boldsymbol{B}=\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)$，则 $\\left(\\boldsymbol{E}+\\boldsymbol{B}\\right)^{-1}=$ ________。",
+      "answerText": "$\\begin{bmatrix}1 & 0 & 0 & 0\\\\-1 & 2 & 0 & 0\\\\0 & -2 & 3 & 0\\\\0 & 0 & -3 & 4\\end{bmatrix}$\n\n**解析：**\n由 $\\boldsymbol{B}=\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)$ 得 $\\boldsymbol{E}+\\boldsymbol{B}=\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}\\left[\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)+\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)\\right]=2\\left(\\boldsymbol{E}+\\boldsymbol{A}\\right)^{-1}$，故 $\\left(\\boldsymbol{E}+\\boldsymbol{B}\\right)^{-1}=\\dfrac{\\boldsymbol{E}+\\boldsymbol{A}}{2}$，代入即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.inverse_matrix",
+        "la.knowledge.matrix_operations"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2000.6",
+      "number": 6,
+      "title": "2000 年数学二 第 6 题",
+      "questionText": "设函数 $f\\left(x\\right)=\\dfrac{x}{a+e^{bx}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内连续，且 $\\lim_{x\\to -\\infty}f\\left(x\\right)=0$，则常数 $a,b$ 满足（ ）\n\nA. $a<0,b<0$\nB. $a>0,b>0$\nC. $a\\le 0,b>0$\nD. $a\\ge 0,b<0$",
+      "answerText": "D\n\n**解析：**\n连续性要求分母无零点：$a<0$ 时 $a+e^{bx}$ 必有零点，故 $a\\ge0$；$\\lim_{x\\to-\\infty}f=0$ 要求 $x\\to-\\infty$ 时分母趋于无穷，即 $b<0$。选 D。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "parameter_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "continuity",
+        "infinite_and_infinitesimal"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2000.7",
+      "number": 7,
+      "title": "2000 年数学二 第 7 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 满足关系式 $f^{\\prime\\prime}\\left(x\\right)+\\left[f^{\\prime}\\left(x\\right)\\right]^{2}=x$，且 $f^{\\prime}\\left(0\\right)=0$，则（ ）\n\nA. $f\\left(0\\right)$ 是 $f\\left(x\\right)$ 的极大值。\nB. $f\\left(0\\right)$ 是 $f\\left(x\\right)$ 的极小值。\nC. 点 $\\left(0,f\\left(0\\right)\\right)$ 是曲线 $y=f\\left(x\\right)$ 的拐点。\nD. $f\\left(0\\right)$ 不是 $f\\left(x\\right)$ 的极值，点 $\\left(0,f\\left(0\\right)\\right)$ 也不是曲线 $y=f\\left(x\\right)$ 的拐点。",
+      "answerText": "C\n\n**解析：**\n代入 $x=0$ 得 $f^{\\prime\\prime}\\left(0\\right)=0$；对恒等式求导并代 $x=0$ 得 $f^{\\prime\\prime\\prime}\\left(0\\right)=1\\ne0$，于是 $f^{\\prime\\prime}$ 在 $x=0$ 附近单侧变号，$\\left(0,f\\left(0\\right)\\right)$ 为拐点。选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "concavity_inflection",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "concavity_inflection"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2000.8",
+      "number": 8,
+      "title": "2000 年数学二 第 8 题",
+      "questionText": "设 $f\\left(x\\right),g\\left(x\\right)$ 是大于零的可导函数，且 $f^{\\prime}\\left(x\\right)g\\left(x\\right)-f\\left(x\\right)g^{\\prime}\\left(x\\right)<0$，则当 $a<x<b$ 时，有（ ）\n\nA. $f\\left(x\\right)g\\left(b\\right)>f\\left(b\\right)g\\left(x\\right)$\nB. $f\\left(x\\right)g\\left(a\\right)>f\\left(a\\right)g\\left(x\\right)$\nC. $f\\left(x\\right)g\\left(x\\right)>f\\left(b\\right)g\\left(b\\right)$\nD. $f\\left(x\\right)g\\left(x\\right)>f\\left(a\\right)g\\left(a\\right)$",
+      "answerText": "A\n\n**解析：**\n令 $F=\\dfrac{f}{g}$，则 $F^{\\prime}=\\dfrac{f^{\\prime}g-fg^{\\prime}}{g^{2}}<0$，$F$ 在 $\\left[a,b\\right]$ 上严格减，故 $F\\left(x\\right)>F\\left(b\\right)$，即 $f\\left(x\\right)g\\left(b\\right)>f\\left(b\\right)g\\left(x\\right)$。选 A。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2000.9",
+      "number": 9,
+      "title": "2000 年数学二 第 9 题",
+      "questionText": "若 $\\lim_{x\\to 0}\\dfrac{\\sin 6x+xf\\left(x\\right)}{x^{3}}=0$，则 $\\lim_{x\\to 0}\\dfrac{6+f\\left(x\\right)}{x^{2}}$ 为（ ）\n\nA. $0$\nB. $6$\nC. $36$\nD. $\\infty$",
+      "answerText": "C\n\n**解析：**\n由条件 $\\sin6x+xf\\left(x\\right)=o\\left(x^{3}\\right)$，用 $\\sin6x=6x-36x^{3}+o\\left(x^{3}\\right)$ 得 $x\\left(6+f\\left(x\\right)\\right)=36x^{3}+o\\left(x^{3}\\right)$，故 $\\lim\\dfrac{6+f\\left(x\\right)}{x^{2}}=36$。选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula",
+        "infinite_and_infinitesimal"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2000.10",
+      "number": 10,
+      "title": "2000 年数学二 第 10 题",
+      "questionText": "具有特解 $y_{1}=e^{-x},y_{2}=xe^{-x},y_{3}=e^{x}$ 的 $3$ 阶常系数齐次线性微分方程是（ ）\n\nA. $y^{\\prime\\prime\\prime}-y^{\\prime\\prime}-y^{\\prime}+y=0$\nB. $y^{\\prime\\prime\\prime}+y^{\\prime\\prime}-y^{\\prime}-y=0$\nC. $y^{\\prime\\prime\\prime}-6y^{\\prime\\prime}+11y^{\\prime}-6y=0$\nD. $y^{\\prime\\prime\\prime}-2y^{\\prime\\prime}-y^{\\prime}+2y=0$",
+      "answerText": "B\n\n**解析：**\n$e^{-x}$ 与 $xe^{-x}$ 并存说明 $r=-1$ 为二重特征根，$e^{x}$ 说明 $r=1$ 为单根，特征方程 $\\left(r+1\\right)^{2}\\left(r-1\\right)=r^{3}+r^{2}-r-1=0$。选 B。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "characteristic_equation",
+        "second_order_homogeneous_linear"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2000.11",
+      "number": 11,
+      "title": "2000 年数学二 第 11 题",
+      "questionText": "设 $\\dfrac{\\ln\\left(1+x\\right)}{x}=f\\left(\\ln x\\right)$，计算 $\\int f\\left(x\\right)\\mathrm{~d}x$。",
+      "answerText": "$-e^{-x}\\ln\\left(1+e^{x}\\right)+x-\\ln\\left(1+e^{x}\\right)+C$（$C$ 为任意常数）\n\n**解析：**\n令 $x=e^{t}$ 得 $f\\left(t\\right)=e^{-t}\\ln\\left(1+e^{t}\\right)$。于是 $\\int f\\left(x\\right)\\mathrm{~d}x=\\int e^{-x}\\ln\\left(1+e^{x}\\right)\\mathrm{~d}x$，分部积分（$u=\\ln\\left(1+e^{x}\\right)$，$\\mathrm{d}v=e^{-x}\\mathrm{~d}x$）后剩余 $\\int\\dfrac{\\mathrm{d}x}{1+e^{x}}=x-\\ln\\left(1+e^{x}\\right)$，整理即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "inverse_composite_function"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.12",
+      "number": 12,
+      "title": "2000 年数学二 第 12 题",
+      "questionText": "设 $xOy$ 平面上有正方形 $D=\\left\\{\\left(x,y\\right)\\mid 0\\le x\\le1,0\\le y\\le1\\right\\}$ 及直线 $l:\\ x+y=t\\ \\left(t\\ge0\\right)$。若 $S\\left(t\\right)$ 表示正方形 $D$ 位于直线 $l$ 左下方部分的面积，试求 $\\int_{0}^{x}S\\left(t\\right)\\mathrm{~d}t\\ \\left(x\\ge0\\right)$。",
+      "answerText": "$\\int_{0}^{x}S\\left(t\\right)\\mathrm{~d}t=\\begin{cases}\\dfrac{x^{3}}{6}, & 0\\le x\\le1,\\\\[1mm]x-1+\\dfrac{\\left(2-x\\right)^{3}}{6}, & 1<x\\le2,\\\\[1mm]x-1, & x>2.\\end{cases}$\n\n**解析：**\n先写 $S\\left(t\\right)$：$0\\le t\\le1$ 时为等腰直角三角形面积 $\\dfrac{t^{2}}{2}$；$1<t\\le2$ 时为 $1-\\dfrac{\\left(2-t\\right)^{2}}{2}$；$t>2$ 时为 $1$。再分段积分，注意各段衔接处连续。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "piecewise_integral",
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "四、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.13",
+      "number": 13,
+      "title": "2000 年数学二 第 13 题",
+      "questionText": "求函数 $f\\left(x\\right)=x^{2}\\ln\\left(1+x\\right)$ 在 $x=0$ 处的 $n$ 阶导数 $f^{\\left(n\\right)}\\left(0\\right)\\left(n\\ge 3\\right)$。",
+      "answerText": "$f^{\\left(n\\right)}\\left(0\\right)=\\dfrac{\\left(-1\\right)^{n-1}n!}{n-2}$（$n\\ge3$）\n\n**解析：**\n用 $\\ln\\left(1+x\\right)$ 的麦克劳林展开：$x^{2}\\ln\\left(1+x\\right)=\\sum_{k=1}^{\\infty}\\dfrac{\\left(-1\\right)^{k-1}x^{k+2}}{k}$，$x^{n}$ 项系数为 $\\dfrac{\\left(-1\\right)^{n-3}}{n-2}$，乘 $n!$ 即得（$\\left(-1\\right)^{n-3}=\\left(-1\\right)^{n-1}$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "higher_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "五、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.14",
+      "number": 14,
+      "title": "2000 年数学二 第 14 题",
+      "questionText": "设函数 $S\\left(x\\right)=\\int_{0}^{x}\\left|\\cos t\\right|\\mathrm{~d}t$。\n\n1. 当 $n$ 为正整数，且 $n\\pi\\le x\\le\\left(n+1\\right)\\pi$ 时，证明 $2n\\le S\\left(x\\right)<2\\left(n+1\\right)$；\n2. 求 $\\lim_{x\\to+\\infty}\\dfrac{S\\left(x\\right)}{x}$。",
+      "answerText": "（1）（证明见解析）；（2）$\\dfrac{2}{\\pi}$\n\n**解析：**\n1. $\\left|\\cos t\\right|$ 以 $\\pi$ 为周期且每个周期上积分为 $2$，故 $S\\left(n\\pi\\right)=2n$；再由 $S$ 单调不减且 $S\\left(\\left(n+1\\right)\\pi\\right)=2\\left(n+1\\right)$ 即得。2. 对 $n\\pi\\le x<\\left(n+1\\right)\\pi$ 用夹逼：$\\dfrac{2n}{\\left(n+1\\right)\\pi}\\le\\dfrac{S\\left(x\\right)}{x}\\le\\dfrac{2\\left(n+1\\right)}{n\\pi}$，两端趋于 $\\dfrac{2}{\\pi}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "piecewise_integral",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "六、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.15",
+      "number": 15,
+      "title": "2000 年数学二 第 15 题",
+      "questionText": "某湖泊的水量为 $V$，每年排入湖泊内含污染物 $A$ 的污水量为 $\\dfrac{V}{6}$，流入湖泊内不含 $A$ 的水量为 $\\dfrac{V}{6}$，流出湖泊的水量为 $\\dfrac{V}{3}$。已知 $1999$ 年底湖中 $A$ 的含量为 $5m_{0}$，超过国家规定指标。为了治理污染，从 $2000$ 年初起，限定排入湖泊中含 $A$ 污水的浓度不超过 $\\dfrac{m_{0}}{V}$。问至多需要经过多少年，湖泊中污染物 $A$ 的含量降至 $m_{0}$ 以内？（注：设湖水中 $A$ 的浓度是均匀的。）",
+      "answerText": "$6\\ln 3$ 年（约 $6.6$ 年）\n\n**解析：**\n设 $t$ 年初湖中 $A$ 的总量为 $m\\left(t\\right)$，则一年内流入带出净变化满足微分方程 $\\dfrac{\\mathrm{d}m}{\\mathrm{d}t}=\\dfrac{m_{0}}{6}-\\dfrac{m}{3}$，且 $m\\left(0\\right)=5m_{0}$。解得 $m\\left(t\\right)=\\dfrac{m_{0}}{2}+\\dfrac{9m_{0}}{2}e^{-t/3}$。令 $m\\left(t\\right)\\le m_{0}$ 得 $e^{-t/3}\\le\\dfrac{1}{9}$，即 $t\\ge6\\ln3$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "七、应用题"
+    },
+    {
+      "id": "bank.exam.m2-2000.16",
+      "number": 16,
+      "title": "2000 年数学二 第 16 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 在 $\\left[0,\\pi\\right]$ 上连续，且\n\n$\\int_{0}^{\\pi}f\\left(x\\right)\\mathrm{~d}x=0,\\quad \\int_{0}^{\\pi}f\\left(x\\right)\\cos x\\mathrm{~d}x=0$，\n\n试证明：在 $\\left(0,\\pi\\right)$ 内至少存在两个不同的点 $\\xi_{1},\\xi_{2}$，使 $f\\left(\\xi_{1}\\right)=f\\left(\\xi_{2}\\right)=0$。",
+      "answerText": "（证明见解析）\n\n**解析：**\n令 $F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t$，则 $F\\left(0\\right)=F\\left(\\pi\\right)=0$，且分部积分结合第二条件得 $\\int_{0}^{\\pi}F\\left(x\\right)\\sin x\\,\\mathrm{d}x=0$。若 $F$ 恒非负或恒非正且不恒为零，该积分严格异号，矛盾；故 $F$ 在内部既取正值又取负值。于是 $F$ 的最大值点 $\\xi_{1}$ 与最小值点 $\\xi_{2}$ 都是内点且不同，由极值必要条件 $f\\left(\\xi_{1}\\right)=F^{\\prime}\\left(\\xi_{1}\\right)=0$，$f\\left(\\xi_{2}\\right)=0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_equality_inequality",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties",
+        "integral_mean_value"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "calculus",
+      "section": "八、证明题"
+    },
+    {
+      "id": "bank.exam.m2-2000.17",
+      "number": 17,
+      "title": "2000 年数学二 第 17 题",
+      "questionText": "已知 $f\\left(x\\right)$ 是周期为 $5$ 的连续函数，它在 $x=0$ 的某个邻域内满足关系式\n\n$f\\left(1+\\sin x\\right)-3f\\left(1-\\sin x\\right)=8x+\\alpha\\left(x\\right)$，\n\n其中 $\\alpha\\left(x\\right)$ 是当 $x\\to0$ 时比 $x$ 高阶的无穷小，且 $f\\left(x\\right)$ 在 $x=1$ 处可导，求曲线 $y=f\\left(x\\right)$ 在点 $\\left(6,f\\left(6\\right)\\right)$ 处的切线方程。",
+      "answerText": "$y=2x-12$\n\n**解析：**\n令 $x\\to0$ 得 $f\\left(1\\right)=0$；再把关系式两边除以 $x$ 取极限，用 $f^{\\prime}\\left(1\\right)$ 的定义（注意 $\\sin x/x\\to1$）得 $4f^{\\prime}\\left(1\\right)=8$，即 $f^{\\prime}\\left(1\\right)=2$。由周期性 $f\\left(6\\right)=f\\left(1\\right)=0$，$f^{\\prime}\\left(6\\right)=f^{\\prime}\\left(1\\right)=2$，切线为 $y=2\\left(x-6\\right)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "function_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "九、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.18",
+      "number": 18,
+      "title": "2000 年数学二 第 18 题",
+      "questionText": "设曲线 $y=ax^{2}\\ \\left(a>0,\\ x\\ge0\\right)$ 与 $y=1-x^{2}$ 交于点 $A$，过坐标原点 $O$ 和点 $A$ 的直线与曲线 $y=ax^{2}$ 围成一平面图形。问 $a$ 为何值时，该图形绕 $x$ 轴旋转一周所得的旋转体体积最大？最大体积是多少？",
+      "answerText": "$a=4$，最大体积 $V=\\dfrac{32\\pi}{375\\sqrt{5}}=\\dfrac{32\\sqrt{5}\\pi}{1875}$\n\n**解析：**\n交点 $A$ 的横坐标 $x_{A}=\\dfrac{1}{\\sqrt{1+a}}$，直线 $OA$ 的斜率为 $\\dfrac{a}{\\sqrt{1+a}}$。用旋转体体积公式（直线与抛物线之差平方积分）：$V=\\dfrac{2\\pi a^{2}}{15\\left(1+a\\right)^{5/2}}$。对 $a$ 求导令为零得 $a=4$，代回得最大体积。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc",
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "十、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.19",
+      "number": 19,
+      "title": "2000 年数学二 第 19 题",
+      "questionText": "函数 $f\\left(x\\right)$ 在 $\\left[0,+\\infty\\right)$ 上可导，$f\\left(0\\right)=1$，且满足等式\n\n$f^{\\prime}\\left(x\\right)+f\\left(x\\right)-\\dfrac{1}{x+1}\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t=0$。\n\n1. 求导数 $f^{\\prime}\\left(x\\right)$；\n2. 证明：当 $x\\ge0$ 时，成立不等式 $e^{-x}\\le f\\left(x\\right)\\le1$。",
+      "answerText": "1. $f^{\\prime}\\left(x\\right)=-\\dfrac{e^{-x}}{x+1}$；2.（证明见解析）\n\n**解析：**\n1. 两边乘 $\\left(x+1\\right)$ 后再求导，消去积分项得 $\\left(x+1\\right)f^{\\prime\\prime}+\\left(x+2\\right)f^{\\prime}=0$；令 $g=f^{\\prime}$ 分离变量得 $g=\\dfrac{C}{\\left(x+1\\right)e^{x}}$，由原式取 $x=0$ 得 $f^{\\prime}\\left(0\\right)=-1$，即 $C=-1$。2. $\\left(e^{x}f\\right)^{\\prime}=e^{x}\\left(f+f^{\\prime}\\right)=\\dfrac{e^{x}}{x+1}\\int_{0}^{x}f\\,\\mathrm{d}t\\ge0$（因 $f>0$），故 $e^{x}f\\ge f\\left(0\\right)=1$；又 $f^{\\prime}<0$ 知 $f$ 单调减，$f\\left(x\\right)\\le f\\left(0\\right)=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation",
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "calculus",
+      "section": "十一、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.20",
+      "number": 20,
+      "title": "2000 年数学二 第 20 题",
+      "questionText": "设 $\\boldsymbol{\\alpha}=\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}$，$\\boldsymbol{\\beta}=\\begin{bmatrix}1\\\\\\dfrac{1}{2}\\\\0\\end{bmatrix}$，$\\boldsymbol{\\gamma}=\\begin{bmatrix}0\\\\0\\\\8\\end{bmatrix}$，$\\boldsymbol{A}=\\boldsymbol{\\alpha}\\boldsymbol{\\beta}^{T}$，$\\boldsymbol{B}=\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}$，其中 $\\boldsymbol{\\beta}^{T}$ 是 $\\boldsymbol{\\beta}$ 的转置。求解方程\n\n$2\\boldsymbol{B}^{2}\\boldsymbol{A}^{2}\\boldsymbol{x}=\\boldsymbol{A}^{4}\\boldsymbol{x}+\\boldsymbol{B}^{4}\\boldsymbol{x}+\\boldsymbol{\\gamma}$。",
+      "answerText": "$\\boldsymbol{x}=k\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}+\\begin{bmatrix}0\\\\0\\\\-\\dfrac{1}{2}\\end{bmatrix}$（$k$ 为任意常数）\n\n**解析：**\n$\\boldsymbol{B}=\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}=2$（数），$\\boldsymbol{A}^{2}=\\boldsymbol{\\alpha}\\left(\\boldsymbol{\\beta}^{T}\\boldsymbol{\\alpha}\\right)\\boldsymbol{\\beta}^{T}=2\\boldsymbol{A}$，于是 $\\boldsymbol{A}^{4}=8\\boldsymbol{A}$，$\\boldsymbol{B}^{2}=4$，$\\boldsymbol{B}^{4}=16$。方程化为 $8\\boldsymbol{A}\\boldsymbol{x}=16\\boldsymbol{x}+\\boldsymbol{\\gamma}$，即 $\\left(\\boldsymbol{A}-2\\boldsymbol{E}\\right)\\boldsymbol{x}=\\dfrac{\\boldsymbol{\\gamma}}{8}=\\left(0,0,1\\right)^{T}$。系数矩阵秩为 $2$，求特解并加齐次通解：通解基础解系为 $\\left(1,2,1\\right)^{T}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.matrix_operations",
+        "la.knowledge.general_solution"
+      ],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十二、计算题"
+    },
+    {
+      "id": "bank.exam.m2-2000.21",
+      "number": 21,
+      "title": "2000 年数学二 第 21 题",
+      "questionText": "已知向量组\n\n$\\boldsymbol{\\beta}_{1}=\\begin{bmatrix}0\\\\1\\\\-1\\end{bmatrix}$，$\\boldsymbol{\\beta}_{2}=\\begin{bmatrix}a\\\\2\\\\1\\end{bmatrix}$，$\\boldsymbol{\\beta}_{3}=\\begin{bmatrix}b\\\\1\\\\0\\end{bmatrix}$\n\n与向量组\n\n$\\boldsymbol{\\alpha}_{1}=\\begin{bmatrix}1\\\\2\\\\-3\\end{bmatrix}$，$\\boldsymbol{\\alpha}_{2}=\\begin{bmatrix}3\\\\0\\\\1\\end{bmatrix}$，$\\boldsymbol{\\alpha}_{3}=\\begin{bmatrix}9\\\\6\\\\-7\\end{bmatrix}$\n\n具有相同的秩，且 $\\boldsymbol{\\beta}_{3}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表出，求 $a,b$ 的值。",
+      "answerText": "$b=5$，$a=15$\n\n**解析：**\n先由 $\\boldsymbol{\\alpha}_{3}=3\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}$ 知 $\\boldsymbol{\\alpha}$ 组秩为 $2$。$\\boldsymbol{\\beta}$ 组秩为 $2$ 要求 $\\det\\left[\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3}\\right]=0$，计算得 $a=3b$。再把 $\\boldsymbol{\\beta}_{3}$ 用 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2}$ 表出：解得表出系数 $\\dfrac{1}{2}$ 与 $\\dfrac{3}{2}$，故 $b=\\dfrac{1}{2}+\\dfrac{9}{2}=5$，从而 $a=15$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.linear_representation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.vector_group_rank",
+        "la.knowledge.linear_combination"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2000,
+        "paper": "math2",
+        "number": 21
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十三、计算题"
+    }
+  ]
 }

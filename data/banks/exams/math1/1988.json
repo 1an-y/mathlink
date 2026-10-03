@@ -1,847 +1,847 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 1988,
- "paper": "math1",
- "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
- "verified": true,
- "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1988年考研数学(一)真题.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 1988,
   "paper": "math1",
-  "label": "数学一",
-  "sections": [
-   "一、（本题共3小题，每小题5分，满分15分）",
-   "二、填空题（本题共4小题，每小题3分，满分12分）",
-   "三、选择题（本题共5小题，每小题3分，满分15分）",
-   "四、（本题满分6分）",
-   "五、（本题满分8分）",
-   "六、（本题满分9分）",
-   "七、（本题满分6分）",
-   "八、（本题满分8分，含2小题）",
-   "九、（本题满分9分）",
-   "十、填空题（本题共3小题，每小题2分，满分6分）",
-   "十一、（本题满分6分）"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m1-1988.1",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m1-1988.2",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m1-1988.3",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m1-1988.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m1-1988.5",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m1-1988.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m1-1988.7",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m1-1988.8",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m1-1988.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m1-1988.10",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m1-1988.11",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m1-1988.12",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m1-1988.13",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m1-1988.14",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m1-1988.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m1-1988.16",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m1-1988.17",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m1-1988.18",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m1-1988.19",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m1-1988.20",
-    "subjectGuess": "probability_statistics",
-    "objective": true
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m1-1988.21",
-    "subjectGuess": "probability_statistics",
-    "objective": true
-   },
-   {
-    "number": 22,
-    "id": "bank.exam.m1-1988.22",
-    "subjectGuess": "probability_statistics",
-    "objective": true
-   },
-   {
-    "number": 23,
-    "id": "bank.exam.m1-1988.23",
-    "subjectGuess": "probability_statistics",
-    "objective": false
-   }
-  ],
-  "total": 17
- },
- "problems": [
-  {
-   "id": "bank.exam.m1-1988.1",
-   "number": 1,
-   "title": "1988 年数学一 第 1 题",
-   "questionText": "求幂级数 $\\sum_{n = 1}^{\\infty}\\frac{(x - 3)^n}{n\\cdot 3^n}$ 的收敛域.",
-   "answerText": "答案：收敛域为 $[0,6)$\n\n**解析：**\n$\\lim_{n\\to\\infty}\\left|\\dfrac{a_{n+1}}{a_n}\\right|=\\lim_{n\\to\\infty}\\dfrac{n\\cdot 3^{n}}{(n+1)\\cdot 3^{n+1}}=\\dfrac{1}{3}$，收敛半径 $R=3$。端点处：$x=0$ 时级数为 $\\sum\\dfrac{(-1)^{n}}{n}$，收敛；$x=6$ 时为 $\\sum\\dfrac{1}{n}$，发散。故收敛域为 $[0,6)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "power_series_radius_domain",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：power_series_radius_domain，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1988年考研数学(一)真题.md",
+  "paperInfo": {
     "year": 1988,
     "paper": "math1",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、（本题共3小题，每小题5分，满分15分）"
+    "label": "数学一",
+    "sections": [
+      "一、（本题共3小题，每小题5分，满分15分）",
+      "二、填空题（本题共4小题，每小题3分，满分12分）",
+      "三、选择题（本题共5小题，每小题3分，满分15分）",
+      "四、（本题满分6分）",
+      "五、（本题满分8分）",
+      "六、（本题满分9分）",
+      "七、（本题满分6分）",
+      "八、（本题满分8分，含2小题）",
+      "九、（本题满分9分）",
+      "十、填空题（本题共3小题，每小题2分，满分6分）",
+      "十一、（本题满分6分）"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m1-1988.1",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m1-1988.2",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m1-1988.3",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m1-1988.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m1-1988.5",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m1-1988.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m1-1988.7",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m1-1988.8",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m1-1988.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m1-1988.10",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m1-1988.11",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m1-1988.12",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m1-1988.13",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m1-1988.14",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m1-1988.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m1-1988.16",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m1-1988.17",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m1-1988.18",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m1-1988.19",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m1-1988.20",
+        "subjectGuess": "probability_statistics",
+        "objective": true
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m1-1988.21",
+        "subjectGuess": "probability_statistics",
+        "objective": true
+      },
+      {
+        "number": 22,
+        "id": "bank.exam.m1-1988.22",
+        "subjectGuess": "probability_statistics",
+        "objective": true
+      },
+      {
+        "number": 23,
+        "id": "bank.exam.m1-1988.23",
+        "subjectGuess": "probability_statistics",
+        "objective": false
+      }
+    ],
+    "total": 17
   },
-  {
-   "id": "bank.exam.m1-1988.2",
-   "number": 2,
-   "title": "1988 年数学一 第 2 题",
-   "questionText": "已知 $f(x) = \\mathrm{e}^{x^2}, f[\\varphi(x)] = 1 - x$ ，且 $\\varphi(x) \\geqslant 0$ ，求 $\\varphi(x)$ ，并写出其定义域.",
-   "answerText": "答案：$\\varphi(x)=\\sqrt{\\ln(1-x)}$，定义域为 $(-\\infty,0]$\n\n**解析：**\n由 $f[\\varphi(x)]=\\mathrm{e}^{\\varphi^{2}(x)}=1-x$ 得 $\\varphi^{2}(x)=\\ln(1-x)$。结合 $\\varphi(x)\\ge 0$ 得 $\\varphi(x)=\\sqrt{\\ln(1-x)}$。要求 $\\ln(1-x)\\ge 0$ 即 $1-x\\ge 1$，故定义域为 $(-\\infty,0]$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_properties",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "function_domain_range",
-    "surface_integral_definition"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_properties，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、（本题共3小题，每小题5分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.3",
-   "number": 3,
-   "title": "1988 年数学一 第 3 题",
-   "questionText": "设 $S$ 为曲面 $x^{2} + y^{2} + z^{2} = 1$ 的外侧，计算曲面积分 $I = \\iint_{S} x^{3} \\, \\mathrm{d}y \\, \\mathrm{d}z + y^{3} \\, \\mathrm{d}z \\, \\mathrm{d}x + z^{3} \\, \\mathrm{d}x \\, \\mathrm{d}y.$",
-   "answerText": "答案：$\\dfrac{12\\pi}{5}$\n\n**解析：**\n由高斯公式，$I=3\\iiint_{\\Omega}(x^{2}+y^{2}+z^{2})\\,\\mathrm{d}v$，其中 $\\Omega$ 为单位球。用球坐标：$I=3\\displaystyle\\int_{0}^{2\\pi}\\mathrm{d}\\theta\\int_{0}^{\\pi}\\sin\\varphi\\,\\mathrm{d}\\varphi\\int_{0}^{1}r^{4}\\,\\mathrm{d}r=3\\cdot 2\\pi\\cdot 2\\cdot\\dfrac{1}{5}=\\dfrac{12\\pi}{5}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "curve_surface_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "surface_integral_second_kind",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "surface_integral_definition",
-    "area_volume_arc",
-    "geometric_applications_multivariable"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、（本题共3小题，每小题5分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.4",
-   "number": 4,
-   "title": "1988 年数学一 第 4 题",
-   "questionText": "设 $f(t)=\\lim_{x\\to\\infty}t\\left(1+\\dfrac{1}{x}\\right)^{2tx}$，则 $f^{\\prime}(t)=\\underline{\\quad}$",
-   "answerText": "答案：$(1+2t)\\mathrm{e}^{2t}$\n\n**解析：**\n由重要极限，$\\left(1+\\dfrac{1}{x}\\right)^{2tx}=\\left[\\left(1+\\dfrac{1}{x}\\right)^{x}\\right]^{2t}\\to\\mathrm{e}^{2t}$，故 $f(t)=t\\mathrm{e}^{2t}$，$f^{\\prime}(t)=\\mathrm{e}^{2t}+2t\\mathrm{e}^{2t}=(1+2t)\\mathrm{e}^{2t}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.5",
-   "number": 5,
-   "title": "1988 年数学一 第 5 题",
-   "questionText": "设 $f(x)$ 是周期为2的周期函数，它在区间 $(-1,1]$ 上的表达式为 $f(x) = \\left\\{ \\begin{array}{ll}2, & -1\\leqslant x\\leqslant 0,\\\\ x^3, & 0 <   x <   1, \\end{array} \\right.$ 则 $f(x)$ 的傅里叶级数在 $x = 1$ 处收敛于",
-   "answerText": "答案：$\\dfrac{3}{2}$\n\n**解析：**\n$x=1$ 是 $f$ 的间断点（周期延拓后 $x=1$ 与 $x=-1$ 相同）。由狄利克雷收敛定理，傅里叶级数在 $x=1$ 处收敛于 $\\dfrac{f(1^{-})+f(-1^{+})}{2}=\\dfrac{1+2}{2}=\\dfrac{3}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "fourier_series",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "fourier_series_coefficients"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：fourier_series、fourier_series_coefficients，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 5
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.6",
-   "number": 6,
-   "title": "1988 年数学一 第 6 题",
-   "questionText": "设 $f(x)$ 是连续函数，且 $\\int_0^{x^3 -1}f(t)\\mathrm{d}t = x$ ，则 $f(7) = \\underline{\\quad}$",
-   "answerText": "答案：$\\dfrac{1}{12}$\n\n**解析：**\n对 $\\displaystyle\\int_{0}^{x^{3}-1}f(t)\\,\\mathrm{d}t=x$ 两边求导得 $3x^{2}f(x^{3}-1)=1$。取 $x=2$：$12\\,f(7)=1$，故 $f(7)=\\dfrac{1}{12}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.7",
-   "number": 7,
-   "title": "1988 年数学一 第 7 题",
-   "questionText": "设4阶矩阵 $A = (\\alpha, \\gamma_2, \\gamma_3, \\gamma_4), B = (\\beta, \\gamma_2, \\gamma_3, \\gamma_4)$ ，其中 $\\alpha, \\beta, \\gamma_2, \\gamma_3, \\gamma_4$ 都是4维列向量，且 $|\\mathbf{A}| = 4, |\\mathbf{B}| = 1$ ，则 $|\\mathbf{A} + \\mathbf{B}| =$ ______.",
-   "answerText": "答案：$40$\n\n**解析：**\n$\\mathbf{A}+\\mathbf{B}=(\\boldsymbol{\\alpha}+\\boldsymbol{\\beta},\\,2\\boldsymbol{\\gamma}_{2},\\,2\\boldsymbol{\\gamma}_{3},\\,2\\boldsymbol{\\gamma}_{4})$，提出公因子 $2^{3}=8$ 后按第一列拆分：$|\\mathbf{A}+\\mathbf{B}|=8\\left(|\\boldsymbol{\\alpha},\\boldsymbol{\\gamma}_{2},\\boldsymbol{\\gamma}_{3},\\boldsymbol{\\gamma}_{4}|+|\\boldsymbol{\\beta},\\boldsymbol{\\gamma}_{2},\\boldsymbol{\\gamma}_{3},\\boldsymbol{\\gamma}_{4}|\\right)=8(|\\mathbf{A}|+|\\mathbf{B}|)=8\\times 5=40$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "prob.chapter.numerical_characteristics",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 7
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.8",
-   "number": 8,
-   "title": "1988 年数学一 第 8 题",
-   "questionText": "若函数 $y = f(x)$ 可导，且 $f^{\\prime}(x_0) = \\frac{1}{2}$ ，则当 $\\Delta x \\to 0$ 时，函数 $f(x)$ 在 $x = x_0$ 处的微分 $\\mathrm{dy}$ 是（ ）.\n\n（A）与 $\\Delta x$ 等价的无穷小\n\n（B）与 $\\Delta x$ 同阶的无穷小\n\n（C）比 $\\Delta x$ 低阶的无穷小\n\n（D）比 $\\Delta x$ 高阶的无穷小",
-   "answerText": "答案：B\n\n**解析：**\n$f$ 在 $x_{0}$ 处可导必可微，故 $\\mathrm{d}y=f^{\\prime}(x_{0})\\,\\Delta x=\\dfrac{1}{2}\\Delta x$，于是 $\\dfrac{\\mathrm{d}y}{\\Delta x}\\to\\dfrac{1}{2}\\neq 1$，$\\mathrm{d}y$ 是与 $\\Delta x$ 同阶但不等价的无穷小。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinitesimal_order"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：derivative_calculation、infinitesimal_order，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 8
-   },
-   "subjectGuess": "calculus",
-   "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.9",
-   "number": 9,
-   "title": "1988 年数学一 第 9 题",
-   "questionText": "设 $y = f(x)$ 是微分方程 $y'' - 2y' + 4y = 0$ 的一个解，若 $f(x_0) > 0$ 且 $f'(x_0) = 0$ ，则函数 $f(x)$ 在 $x = x_0$ 处（ ）.\n\n（A）取得极大值\n\n（B）取得极小值\n\n（C）某邻域内单调增加\n\n(D) 某邻域内单调减少",
-   "answerText": "答案：A\n\n**解析：**\n把 $x_{0}$ 代入方程：$f^{\\prime\\prime}(x_{0})-2f^{\\prime}(x_{0})+4f(x_{0})=0$，即 $f^{\\prime\\prime}(x_{0})=-4f(x_{0})<0$。又 $f^{\\prime}(x_{0})=0$，由极值的第二充分条件知 $x_{0}$ 为极大值点。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.10",
-   "number": 10,
-   "title": "1988 年数学一 第 10 题",
-   "questionText": "设空间区域 $\\Omega_{1}: x^{2} + y^{2} + z^{2} \\leqslant R^{2} (z \\geqslant 0)$ ; $\\Omega_{2}: x^{2} + y^{2} + z^{2} \\leqslant R^{2} (x \\geqslant 0, y \\geqslant 0, z \\geqslant 0)$ , 则（ ）.\n\n(A) $\\iiint_{\\Omega_1} x \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} x \\, \\mathrm{d}v$\n\n(B) $\\iiint_{\\Omega_1} y \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} y \\, \\mathrm{d}v$\n\n(C) $\\iiint_{\\Omega_1} z \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} z \\, \\mathrm{d}v$\n\n(D) $\\iiint_{\\Omega_1} xyz \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} xyz \\, \\mathrm{d}v$",
-   "answerText": "答案：C\n\n**解析：**\n$\\Omega_{1}$ 关于平面 $x=0$ 与 $y=0$ 对称，故 $\\displaystyle\\iiint_{\\Omega_{1}}x\\,\\mathrm{d}v=\\iiint_{\\Omega_{1}}y\\,\\mathrm{d}v=0$，(A)(B) 左边为零而右边为正，排除；又 $\\Omega_{1}$ 均匀地分成四个卦限部分，被积函数 $z$ 关于 $x,y$ 为偶函数，$\\displaystyle\\iiint_{\\Omega_{1}}z\\,\\mathrm{d}v=4\\iiint_{\\Omega_{2}}z\\,\\mathrm{d}v$ 成立，(D) 同 (A)(B) 排除。故选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multiple_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "triple_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 10
-   },
-   "subjectGuess": "calculus",
-   "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.11",
-   "number": 11,
-   "title": "1988 年数学一 第 11 题",
-   "questionText": "若级数 $\\sum_{n=0}^{\\infty} a_n (x - 1)^n$ 在 $x = -1$ 处收敛, 则该级数在 $x = 2$ 处（ ）.\n\n（A）条件收敛\n\n（B）绝对收敛\n\n（C）发散\n\n（D）收敛性不确定",
-   "answerText": "答案：B\n\n**解析：**\n级数在 $x=-1$ 处收敛，故收敛半径 $R\\ge|-1-1|=2$。而 $x=2$ 满足 $|2-1|=1<R$，落在收敛区间内部，故级数在 $x=2$ 处绝对收敛。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "alternating_general_series",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "absolute_conditional_convergence"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.12",
-   "number": 12,
-   "title": "1988 年数学一 第 12 题",
-   "questionText": "$n$ 维向量组 $\\alpha_{1},\\alpha_{2},\\dots ,\\alpha_{s}(3\\leqslant s\\leqslant n)$ 线性无关的充分必要条件是（ ）.\n\n（A）有一组不全为零的数 $k_{1}, k_{2}, \\dots, k_{s}$ ，使得 $k_{1} \\alpha_{1} + k_{2} \\alpha_{2} + \\dots + k_{s} \\alpha_{s} \\neq 0$\n(B) $\\alpha_{1}, \\alpha_{2}, \\dots, \\alpha_{s}$ 中任意两个向量都线性无关\n(C) $\\pmb{\\alpha}_{1}, \\pmb{\\alpha}_{2}, \\dots, \\pmb{\\alpha}_{s}$ 中存在一个向量，它不可由其余向量线性表示\n(D) $\\pmb{\\alpha}_{1}, \\pmb{\\alpha}_{2}, \\dots, \\pmb{\\alpha}_{s}$ 中任意一个向量都不可由其余向量线性表示",
-   "answerText": "答案：D\n\n**解析：**\n向量组线性相关的充要条件是其中至少有一个向量可由其余向量线性表示；取其逆否命题即得：$\\boldsymbol{\\alpha}_{1},\\dots,\\boldsymbol{\\alpha}_{s}$ 线性无关 $\\iff$ 其中任意一个向量都不能由其余向量线性表示。其余选项均只是必要或更弱的条件（例如：任两个线性无关推不出整组无关）。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "vector_linear_operation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 12
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.13",
-   "number": 13,
-   "title": "1988 年数学一 第 13 题",
-   "questionText": "设 $u=yf\\left(\\dfrac{x}{y}\\right)+xg\\left(\\dfrac{y}{x}\\right)$，其中 $f, g$ 具有二阶连续导数，求 $x\\dfrac{\\partial^{2}u}{\\partial x^{2}}+y\\dfrac{\\partial^{2}u}{\\partial x\\partial y}$ .",
-   "answerText": "答案：$0$\n\n**解析：**\n先求 $\\dfrac{\\partial u}{\\partial x}=f^{\\prime}\\left(\\dfrac{x}{y}\\right)+g\\left(\\dfrac{y}{x}\\right)-\\dfrac{y}{x}g^{\\prime}\\left(\\dfrac{y}{x}\\right)$。再求两次导数：$\\dfrac{\\partial^{2}u}{\\partial x^{2}}=\\dfrac{1}{y}f^{\\prime\\prime}\\left(\\dfrac{x}{y}\\right)+\\dfrac{y^{2}}{x^{3}}g^{\\prime\\prime}\\left(\\dfrac{y}{x}\\right)$，$\\dfrac{\\partial^{2}u}{\\partial x\\partial y}=-\\dfrac{x}{y^{2}}f^{\\prime\\prime}\\left(\\dfrac{x}{y}\\right)-\\dfrac{y}{x^{2}}g^{\\prime\\prime}\\left(\\dfrac{y}{x}\\right)$。代入组合式，两项恰好相互抵消，结果为 $0$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "四、（本题满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.14",
-   "number": 14,
-   "title": "1988 年数学一 第 14 题",
-   "questionText": "设函数 $y=y(x)$ 满足微分方程 $y^{\\prime\\prime}-3y^{\\prime}+2y=2\\mathrm{e}^{x}$，且其图形在点 $(0,1)$ 处的切线与曲线 $y=x^{2}-x+1$ 在该点的切线重合，求函数 $y=y(x)$.",
-   "answerText": "答案：$y=(1-2x)\\mathrm{e}^{x}$\n\n**解析：**\n特征根 $\\lambda_{1,2}=1,2$，齐次通解 $C_{1}\\mathrm{e}^{x}+C_{2}\\mathrm{e}^{2x}$。因 $\\lambda=1$ 是单根，设特解 $y_{0}=ax\\mathrm{e}^{x}$，代入方程得 $a=-2$。初始条件：过点 $(0,1)$ 给 $C_{1}+C_{2}=1$；切线斜率为 $(2x-1)|_{x=0}=-1$，而 $y^{\\prime}(0)=C_{1}+2C_{2}-2=-1$，即 $C_{1}+2C_{2}=1$。解得 $C_{1}=1,\\ C_{2}=0$，故 $y=(1-2x)\\mathrm{e}^{x}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 14
-   },
-   "subjectGuess": "calculus",
-   "section": "五、（本题满分8分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.15",
-   "number": 15,
-   "title": "1988 年数学一 第 15 题",
-   "questionText": "设位于点 $(0,1)$ 的质点 $A$ 对质点 $M$ 的引力大小为 $\\dfrac{k}{r^{2}}$（$k>0$ 为常数，$r$ 为 $A$ 与 $M$ 之间的距离），质点 $M$ 沿曲线 $y=\\sqrt{2x-x^{2}}$ 从点 $B(2,0)$ 运动到点 $O(0,0)$，求此运动过程中质点 $A$ 对质点 $M$ 的引力所做的功.",
-   "answerText": "答案：$k\\left(1-\\dfrac{1}{\\sqrt{5}}\\right)$\n\n**解析：**\n设 $M(x,y)$，则引力方向沿 $\\overrightarrow{MA}=(-x,\\,1-y)$，故 $\\boldsymbol{F}=\\dfrac{k}{\\left[x^{2}+(1-y)^{2}\\right]^{3/2}}(-x,\\,1-y)$，功 $W=k\\displaystyle\\int_{L}\\frac{-x\\,\\mathrm{d}x+(1-y)\\,\\mathrm{d}y}{\\left[x^{2}+(1-y)^{2}\\right]^{3/2}}$。可验证 $\\dfrac{\\partial Q}{\\partial x}=\\dfrac{\\partial P}{\\partial y}$（除点 $A$ 外），积分与路径无关。取沿 $x$ 轴的有向线段 $\\overline{BO}$ 代替弧：$W=k\\displaystyle\\int_{2}^{0}\\frac{-x\\,\\mathrm{d}x}{(x^{2}+1)^{3/2}}=k\\left[\\frac{1}{\\sqrt{x^{2}+1}}\\right]_{2}^{0}=k\\left(1-\\frac{1}{\\sqrt{5}}\\right)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "integral_physical_applications",
-    "plane_line_position_relation"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：integral_physical_applications、plane_line_position_relation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "六、（本题满分9分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.16",
-   "number": 16,
-   "title": "1988 年数学一 第 16 题",
-   "questionText": "已知 $\\mathbf{AP}=\\mathbf{PB}$，其中 $\\mathbf{B}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$，$\\mathbf{P}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ 2 & 1 & 1 \\end{pmatrix}$，求 $\\mathbf{A}$ 及 $\\mathbf{A}^{5}$.",
-   "answerText": "答案：$\\mathbf{A}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 0 & 0 \\\\ 6 & -1 & -1 \\end{pmatrix}$，$\\mathbf{A}^{5}=\\mathbf{A}$\n\n**解析：**\n$\\mathbf{P}$ 可逆，求出 $\\mathbf{P}^{-1}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ -4 & 1 & 1 \\end{pmatrix}$，于是 $\\mathbf{A}=\\mathbf{P}\\mathbf{B}\\mathbf{P}^{-1}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 0 & 0 \\\\ 6 & -1 & -1 \\end{pmatrix}$。又 $\\mathbf{B}^{2}=\\mathbf{B}$，故 $\\mathbf{B}^{5}=\\mathbf{B}$，从而 $\\mathbf{A}^{5}=\\mathbf{P}\\mathbf{B}^{5}\\mathbf{P}^{-1}=\\mathbf{P}\\mathbf{B}\\mathbf{P}^{-1}=\\mathbf{A}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.matrix_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.matrix_equation，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 16
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "七、（本题满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.17",
-   "number": 17,
-   "title": "1988 年数学一 第 17 题",
-   "questionText": "已知矩阵 $\\mathbf{A}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 1 & x \\end{pmatrix}$ 与 $\\mathbf{B}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & y & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$ 相似.\\n\\n（1）求 $x, y$；",
-   "answerText": "答案：$x=0,\\ y=1$\n\n**解析：**\n相似矩阵有相同的迹与行列式：$\\operatorname{tr}\\mathbf{A}=\\operatorname{tr}\\mathbf{B}$ 给出 $2+x=1+y$；$|\\mathbf{A}|=|\\mathbf{B}|$ 给出 $-2=-2y$。解得 $y=1,\\ x=0$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.similarity_judgment",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.similarity_concept"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.similarity_judgment、la.knowledge.similarity_concept，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 17
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "八、（本题满分8分，含2小题）"
-  },
-  {
-   "id": "bank.exam.m1-1988.18",
-   "number": 18,
-   "title": "1988 年数学一 第 18 题",
-   "questionText": "已知矩阵 $\\mathbf{A}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 1 & x \\end{pmatrix}$ 与 $\\mathbf{B}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & y & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$ 相似.\\n\\n（2）求一个满足 $P^{-1}AP=B$ 的可逆矩阵 $P$ .",
-   "answerText": "答案：$P=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & -1 \\\\ 0 & 1 & 1 \\end{pmatrix}$\n\n**解析：**\n由（1）知特征值为 $\\lambda_{1}=2,\\ \\lambda_{2}=1,\\ \\lambda_{3}=-1$。分别解 $(\\lambda_{i}\\mathbf{E}-\\mathbf{A})\\boldsymbol{x}=\\boldsymbol{0}$ 得特征向量 $\\boldsymbol{\\alpha}_{1}=(1,0,0)^{\\mathrm{T}}$，$\\boldsymbol{\\alpha}_{2}=(0,1,1)^{\\mathrm{T}}$，$\\boldsymbol{\\alpha}_{3}=(0,-1,1)^{\\mathrm{T}}$。以它们为列即得 $P$，此时 $P^{-1}AP=\\operatorname{diag}(2,1,-1)=B$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "prob.chapter.numerical_characteristics",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 18
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "八、（本题满分8分，含2小题）"
-  },
-  {
-   "id": "bank.exam.m1-1988.19",
-   "number": 19,
-   "title": "1988 年数学一 第 19 题",
-   "questionText": "设函数 $f(x)$ 在区间 $[a,b]$ 上连续，且在 $(a,b)$ 内 $f^{\\prime}(x)>0$。证明：在 $(a,b)$ 内存在唯一的 $\\xi$，使曲线 $y=f(x)$ 与两直线 $y=f(\\xi),\\ x=a$ 所围成的平面图形的面积 $S_{1}$ 是曲线 $y=f(x)$ 与两直线 $y=f(\\xi),\\ x=b$ 所围成平面图形面积 $S_{2}$ 的 3 倍.",
-   "answerText": "答案：证明见解析\n\n**解析：**\n由 $f^{\\prime}>0$ 知 $f$ 严格递增，对任意 $x\\in(a,b)$，$S_{1}(x)=\\displaystyle\\int_{a}^{x}[f(x)-f(t)]\\,\\mathrm{d}t$，$S_{2}(x)=\\displaystyle\\int_{x}^{b}[f(t)-f(x)]\\,\\mathrm{d}t$。令 $\\varphi(x)=S_{1}(x)-3S_{2}(x)$，则 $\\varphi(a)=-3\\displaystyle\\int_{a}^{b}[f(t)-f(a)]\\,\\mathrm{d}t<0$，$\\varphi(b)=\\displaystyle\\int_{a}^{b}[f(b)-f(t)]\\,\\mathrm{d}t>0$，由零点定理存在 $\\xi\\in(a,b)$ 使 $\\varphi(\\xi)=0$，即 $S_{1}=3S_{2}$。又 $\\varphi^{\\prime}(x)=f^{\\prime}(x)\\left[(x-a)+3(b-x)\\right]>0$，$\\varphi$ 严格递增，故 $\\xi$ 唯一。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 19
-   },
-   "subjectGuess": "calculus",
-   "section": "九、（本题满分9分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.20",
-   "number": 20,
-   "title": "1988 年数学一 第 20 题",
-   "questionText": "设三次独立重复试验中，事件 $A$ 出现的概率相等，若已知 $A$ 至少出现一次的概率为 $\\frac{19}{27}$ ，则事件 $A$ 在一次试验中出现的概率为 ______.",
-   "answerText": "答案：$\\dfrac{1}{3}$\n\n**解析：**\n设一次试验中 $A$ 发生的概率为 $p$，三次中发生次数 $X\\sim B(3,p)$。由 $P\\{X\\ge 1\\}=\\dfrac{19}{27}$ 得 $P\\{X=0\\}=(1-p)^{3}=\\dfrac{8}{27}$，故 $1-p=\\dfrac{2}{3}$，$p=\\dfrac{1}{3}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.bernoulli_trials",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.independent_repeated_trials"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.bernoulli_trials、prob.knowledge.independent_repeated_trials，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 20
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.21",
-   "number": 21,
-   "title": "1988 年数学一 第 21 题",
-   "questionText": "在区间 $(0,1)$ 中随机地取两个数，则事件“两数之和小于 $\\dfrac{6}{5}$”的概率为 $\\underline{\\quad}$",
-   "answerText": "答案：$\\dfrac{17}{25}$\n\n**解析：**\n设两数为 $X,Y$，则 $(X,Y)$ 在正方形 $\\{(x,y):0<x<1,\\ 0<y<1\\}$ 上均匀分布。所求概率为 $1-P\\{X+Y\\ge 6/5\\}$，而 $\\{x+y>6/5\\}$ 在正方形内截得一个直角边长为 $\\dfrac{4}{5}$ 的等腰直角三角形，其面积 $\\dfrac{1}{2}\\cdot\\left(\\dfrac{4}{5}\\right)^{2}=\\dfrac{8}{25}$，故所求概率为 $1-\\dfrac{8}{25}=\\dfrac{17}{25}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.geometric_probability",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.geometric_probability"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.geometric_probability、prob.knowledge.geometric_probability，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 21
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.22",
-   "number": 22,
-   "title": "1988 年数学一 第 22 题",
-   "questionText": "设随机变量 $X$ 服从均值为 10，均方差为 0.02 的正态分布，已知 $\\Phi(x)=\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{-\\infty}^{x}\\mathrm{e}^{-\\frac{u^{2}}{2}}\\mathrm{d}u$，$\\Phi(2.5)=0.9938$，则 $X$ 落在区间 $(9.95,\\ 10.05)$ 内的概率为 $\\underline{\\quad}$",
-   "answerText": "答案：$0.9876$\n\n**解析：**\n标准化：$\\dfrac{X-10}{0.02}\\sim N(0,1)$。$P\\{9.95<X<10.05\\}=P\\left\\{\\left|\\dfrac{X-10}{0.02}\\right|<2.5\\right\\}=2\\Phi(2.5)-1=2\\times 0.9938-1=0.9876$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 22
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
-  },
-  {
-   "id": "bank.exam.m1-1988.23",
-   "number": 23,
-   "title": "1988 年数学一 第 23 题",
-   "questionText": "设随机变量 $X$ 的概率密度函数为 $f_{X}(x)=\\dfrac{1}{\\pi(1+x^{2})}$，求随机变量 $Y=1-\\sqrt[3]{X}$ 的概率密度函数 $f_{Y}(y)$.",
-   "answerText": "答案：$f_{Y}(y)=\\dfrac{3(1-y)^{2}}{\\pi\\left[1+(1-y)^{6}\\right]}\\quad(-\\infty<y<+\\infty)$\n\n**解析：**\n$F_{Y}(y)=P\\{1-\\sqrt[3]{X}\\le y\\}=P\\{X\\ge(1-y)^{3}\\}=1-F_{X}\\left((1-y)^{3}\\right)$。两边对 $y$ 求导：$f_{Y}(y)=-f_{X}\\left((1-y)^{3}\\right)\\cdot 3(1-y)^{2}\\cdot(-1)=\\dfrac{3(1-y)^{2}}{\\pi\\left[1+(1-y)^{6}\\right]}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.continuous_density",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.continuous_density"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：prob.type.continuous_density、prob.knowledge.continuous_density，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1988,
-    "paper": "math1",
-    "number": 23
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "十一、（本题满分6分）"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m1-1988.1",
+      "number": 1,
+      "title": "1988 年数学一 第 1 题",
+      "questionText": "求幂级数 $\\sum_{n = 1}^{\\infty}\\frac{(x - 3)^n}{n\\cdot 3^n}$ 的收敛域.",
+      "answerText": "答案：收敛域为 $[0,6)$\n\n**解析：**\n$\\lim_{n\\to\\infty}\\left|\\dfrac{a_{n+1}}{a_n}\\right|=\\lim_{n\\to\\infty}\\dfrac{n\\cdot 3^{n}}{(n+1)\\cdot 3^{n+1}}=\\dfrac{1}{3}$，收敛半径 $R=3$。端点处：$x=0$ 时级数为 $\\sum\\dfrac{(-1)^{n}}{n}$，收敛；$x=6$ 时为 $\\sum\\dfrac{1}{n}$，发散。故收敛域为 $[0,6)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "power_series_radius_domain",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "power_series_sum"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：power_series_radius_domain，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、（本题共3小题，每小题5分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.2",
+      "number": 2,
+      "title": "1988 年数学一 第 2 题",
+      "questionText": "已知 $f(x) = \\mathrm{e}^{x^2}, f[\\varphi(x)] = 1 - x$ ，且 $\\varphi(x) \\geqslant 0$ ，求 $\\varphi(x)$ ，并写出其定义域.",
+      "answerText": "答案：$\\varphi(x)=\\sqrt{\\ln(1-x)}$，定义域为 $(-\\infty,0]$\n\n**解析：**\n由 $f[\\varphi(x)]=\\mathrm{e}^{\\varphi^{2}(x)}=1-x$ 得 $\\varphi^{2}(x)=\\ln(1-x)$。结合 $\\varphi(x)\\ge 0$ 得 $\\varphi(x)=\\sqrt{\\ln(1-x)}$。要求 $\\ln(1-x)\\ge 0$ 即 $1-x\\ge 1$，故定义域为 $(-\\infty,0]$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_properties",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "function_domain_range",
+        "surface_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：function_properties，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、（本题共3小题，每小题5分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.3",
+      "number": 3,
+      "title": "1988 年数学一 第 3 题",
+      "questionText": "设 $S$ 为曲面 $x^{2} + y^{2} + z^{2} = 1$ 的外侧，计算曲面积分 $I = \\iint_{S} x^{3} \\, \\mathrm{d}y \\, \\mathrm{d}z + y^{3} \\, \\mathrm{d}z \\, \\mathrm{d}x + z^{3} \\, \\mathrm{d}x \\, \\mathrm{d}y.$",
+      "answerText": "答案：$\\dfrac{12\\pi}{5}$\n\n**解析：**\n由高斯公式，$I=3\\iiint_{\\Omega}(x^{2}+y^{2}+z^{2})\\,\\mathrm{d}v$，其中 $\\Omega$ 为单位球。用球坐标：$I=3\\displaystyle\\int_{0}^{2\\pi}\\mathrm{d}\\theta\\int_{0}^{\\pi}\\sin\\varphi\\,\\mathrm{d}\\varphi\\int_{0}^{1}r^{4}\\,\\mathrm{d}r=3\\cdot 2\\pi\\cdot 2\\cdot\\dfrac{1}{5}=\\dfrac{12\\pi}{5}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_second_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "surface_integral_definition",
+        "area_volume_arc",
+        "geometric_applications_multivariable"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、（本题共3小题，每小题5分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.4",
+      "number": 4,
+      "title": "1988 年数学一 第 4 题",
+      "questionText": "设 $f(t)=\\lim_{x\\to\\infty}t\\left(1+\\dfrac{1}{x}\\right)^{2tx}$，则 $f^{\\prime}(t)=\\underline{\\quad}$",
+      "answerText": "答案：$(1+2t)\\mathrm{e}^{2t}$\n\n**解析：**\n由重要极限，$\\left(1+\\dfrac{1}{x}\\right)^{2tx}=\\left[\\left(1+\\dfrac{1}{x}\\right)^{x}\\right]^{2t}\\to\\mathrm{e}^{2t}$，故 $f(t)=t\\mathrm{e}^{2t}$，$f^{\\prime}(t)=\\mathrm{e}^{2t}+2t\\mathrm{e}^{2t}=(1+2t)\\mathrm{e}^{2t}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.5",
+      "number": 5,
+      "title": "1988 年数学一 第 5 题",
+      "questionText": "设 $f(x)$ 是周期为2的周期函数，它在区间 $(-1,1]$ 上的表达式为 $f(x) = \\left\\{ \\begin{array}{ll}2, & -1\\leqslant x\\leqslant 0,\\\\ x^3, & 0 <   x <   1, \\end{array} \\right.$ 则 $f(x)$ 的傅里叶级数在 $x = 1$ 处收敛于",
+      "answerText": "答案：$\\dfrac{3}{2}$\n\n**解析：**\n$x=1$ 是 $f$ 的间断点（周期延拓后 $x=1$ 与 $x=-1$ 相同）。由狄利克雷收敛定理，傅里叶级数在 $x=1$ 处收敛于 $\\dfrac{f(1^{-})+f(-1^{+})}{2}=\\dfrac{1+2}{2}=\\dfrac{3}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "fourier_series",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "fourier_series_coefficients"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：fourier_series、fourier_series_coefficients，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 5
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.6",
+      "number": 6,
+      "title": "1988 年数学一 第 6 题",
+      "questionText": "设 $f(x)$ 是连续函数，且 $\\int_0^{x^3 -1}f(t)\\mathrm{d}t = x$ ，则 $f(7) = \\underline{\\quad}$",
+      "answerText": "答案：$\\dfrac{1}{12}$\n\n**解析：**\n对 $\\displaystyle\\int_{0}^{x^{3}-1}f(t)\\,\\mathrm{d}t=x$ 两边求导得 $3x^{2}f(x^{3}-1)=1$。取 $x=2$：$12\\,f(7)=1$，故 $f(7)=\\dfrac{1}{12}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.7",
+      "number": 7,
+      "title": "1988 年数学一 第 7 题",
+      "questionText": "设4阶矩阵 $A = (\\alpha, \\gamma_2, \\gamma_3, \\gamma_4), B = (\\beta, \\gamma_2, \\gamma_3, \\gamma_4)$ ，其中 $\\alpha, \\beta, \\gamma_2, \\gamma_3, \\gamma_4$ 都是4维列向量，且 $|\\mathbf{A}| = 4, |\\mathbf{B}| = 1$ ，则 $|\\mathbf{A} + \\mathbf{B}| =$ ______.",
+      "answerText": "答案：$40$\n\n**解析：**\n$\\mathbf{A}+\\mathbf{B}=(\\boldsymbol{\\alpha}+\\boldsymbol{\\beta},\\,2\\boldsymbol{\\gamma}_{2},\\,2\\boldsymbol{\\gamma}_{3},\\,2\\boldsymbol{\\gamma}_{4})$，提出公因子 $2^{3}=8$ 后按第一列拆分：$|\\mathbf{A}+\\mathbf{B}|=8\\left(|\\boldsymbol{\\alpha},\\boldsymbol{\\gamma}_{2},\\boldsymbol{\\gamma}_{3},\\boldsymbol{\\gamma}_{4}|+|\\boldsymbol{\\beta},\\boldsymbol{\\gamma}_{2},\\boldsymbol{\\gamma}_{3},\\boldsymbol{\\gamma}_{4}|\\right)=8(|\\mathbf{A}|+|\\mathbf{B}|)=8\\times 5=40$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 7
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、填空题（本题共4小题，每小题3分，满分12分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.8",
+      "number": 8,
+      "title": "1988 年数学一 第 8 题",
+      "questionText": "若函数 $y = f(x)$ 可导，且 $f^{\\prime}(x_0) = \\frac{1}{2}$ ，则当 $\\Delta x \\to 0$ 时，函数 $f(x)$ 在 $x = x_0$ 处的微分 $\\mathrm{dy}$ 是（ ）.\n\n（A）与 $\\Delta x$ 等价的无穷小\n\n（B）与 $\\Delta x$ 同阶的无穷小\n\n（C）比 $\\Delta x$ 低阶的无穷小\n\n（D）比 $\\Delta x$ 高阶的无穷小",
+      "answerText": "答案：B\n\n**解析：**\n$f$ 在 $x_{0}$ 处可导必可微，故 $\\mathrm{d}y=f^{\\prime}(x_{0})\\,\\Delta x=\\dfrac{1}{2}\\Delta x$，于是 $\\dfrac{\\mathrm{d}y}{\\Delta x}\\to\\dfrac{1}{2}\\neq 1$，$\\mathrm{d}y$ 是与 $\\Delta x$ 同阶但不等价的无穷小。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinitesimal_order"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：derivative_calculation、infinitesimal_order，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 8
+      },
+      "subjectGuess": "calculus",
+      "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.9",
+      "number": 9,
+      "title": "1988 年数学一 第 9 题",
+      "questionText": "设 $y = f(x)$ 是微分方程 $y'' - 2y' + 4y = 0$ 的一个解，若 $f(x_0) > 0$ 且 $f'(x_0) = 0$ ，则函数 $f(x)$ 在 $x = x_0$ 处（ ）.\n\n（A）取得极大值\n\n（B）取得极小值\n\n（C）某邻域内单调增加\n\n(D) 某邻域内单调减少",
+      "answerText": "答案：A\n\n**解析：**\n把 $x_{0}$ 代入方程：$f^{\\prime\\prime}(x_{0})-2f^{\\prime}(x_{0})+4f(x_{0})=0$，即 $f^{\\prime\\prime}(x_{0})=-4f(x_{0})<0$。又 $f^{\\prime}(x_{0})=0$，由极值的第二充分条件知 $x_{0}$ 为极大值点。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "power_series_sum"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.10",
+      "number": 10,
+      "title": "1988 年数学一 第 10 题",
+      "questionText": "设空间区域 $\\Omega_{1}: x^{2} + y^{2} + z^{2} \\leqslant R^{2} (z \\geqslant 0)$ ; $\\Omega_{2}: x^{2} + y^{2} + z^{2} \\leqslant R^{2} (x \\geqslant 0, y \\geqslant 0, z \\geqslant 0)$ , 则（ ）.\n\n(A) $\\iiint_{\\Omega_1} x \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} x \\, \\mathrm{d}v$\n\n(B) $\\iiint_{\\Omega_1} y \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} y \\, \\mathrm{d}v$\n\n(C) $\\iiint_{\\Omega_1} z \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} z \\, \\mathrm{d}v$\n\n(D) $\\iiint_{\\Omega_1} xyz \\, \\mathrm{d}v = 4 \\iiint_{\\Omega_2} xyz \\, \\mathrm{d}v$",
+      "answerText": "答案：C\n\n**解析：**\n$\\Omega_{1}$ 关于平面 $x=0$ 与 $y=0$ 对称，故 $\\displaystyle\\iiint_{\\Omega_{1}}x\\,\\mathrm{d}v=\\iiint_{\\Omega_{1}}y\\,\\mathrm{d}v=0$，(A)(B) 左边为零而右边为正，排除；又 $\\Omega_{1}$ 均匀地分成四个卦限部分，被积函数 $z$ 关于 $x,y$ 为偶函数，$\\displaystyle\\iiint_{\\Omega_{1}}z\\,\\mathrm{d}v=4\\iiint_{\\Omega_{2}}z\\,\\mathrm{d}v$ 成立，(D) 同 (A)(B) 排除。故选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "triple_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：triple_integral，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 10
+      },
+      "subjectGuess": "calculus",
+      "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.11",
+      "number": 11,
+      "title": "1988 年数学一 第 11 题",
+      "questionText": "若级数 $\\sum_{n=0}^{\\infty} a_n (x - 1)^n$ 在 $x = -1$ 处收敛, 则该级数在 $x = 2$ 处（ ）.\n\n（A）条件收敛\n\n（B）绝对收敛\n\n（C）发散\n\n（D）收敛性不确定",
+      "answerText": "答案：B\n\n**解析：**\n级数在 $x=-1$ 处收敛，故收敛半径 $R\\ge|-1-1|=2$。而 $x=2$ 满足 $|2-1|=1<R$，落在收敛区间内部，故级数在 $x=2$ 处绝对收敛。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "alternating_general_series",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "absolute_conditional_convergence"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.12",
+      "number": 12,
+      "title": "1988 年数学一 第 12 题",
+      "questionText": "$n$ 维向量组 $\\alpha_{1},\\alpha_{2},\\dots ,\\alpha_{s}(3\\leqslant s\\leqslant n)$ 线性无关的充分必要条件是（ ）.\n\n（A）有一组不全为零的数 $k_{1}, k_{2}, \\dots, k_{s}$ ，使得 $k_{1} \\alpha_{1} + k_{2} \\alpha_{2} + \\dots + k_{s} \\alpha_{s} \\neq 0$\n(B) $\\alpha_{1}, \\alpha_{2}, \\dots, \\alpha_{s}$ 中任意两个向量都线性无关\n(C) $\\pmb{\\alpha}_{1}, \\pmb{\\alpha}_{2}, \\dots, \\pmb{\\alpha}_{s}$ 中存在一个向量，它不可由其余向量线性表示\n(D) $\\pmb{\\alpha}_{1}, \\pmb{\\alpha}_{2}, \\dots, \\pmb{\\alpha}_{s}$ 中任意一个向量都不可由其余向量线性表示",
+      "answerText": "答案：D\n\n**解析：**\n向量组线性相关的充要条件是其中至少有一个向量可由其余向量线性表示；取其逆否命题即得：$\\boldsymbol{\\alpha}_{1},\\dots,\\boldsymbol{\\alpha}_{s}$ 线性无关 $\\iff$ 其中任意一个向量都不能由其余向量线性表示。其余选项均只是必要或更弱的条件（例如：任两个线性无关推不出整组无关）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "vector_linear_operation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 12
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、选择题（本题共5小题，每小题3分，满分15分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.13",
+      "number": 13,
+      "title": "1988 年数学一 第 13 题",
+      "questionText": "设 $u=yf\\left(\\dfrac{x}{y}\\right)+xg\\left(\\dfrac{y}{x}\\right)$，其中 $f, g$ 具有二阶连续导数，求 $x\\dfrac{\\partial^{2}u}{\\partial x^{2}}+y\\dfrac{\\partial^{2}u}{\\partial x\\partial y}$ .",
+      "answerText": "答案：$0$\n\n**解析：**\n先求 $\\dfrac{\\partial u}{\\partial x}=f^{\\prime}\\left(\\dfrac{x}{y}\\right)+g\\left(\\dfrac{y}{x}\\right)-\\dfrac{y}{x}g^{\\prime}\\left(\\dfrac{y}{x}\\right)$。再求两次导数：$\\dfrac{\\partial^{2}u}{\\partial x^{2}}=\\dfrac{1}{y}f^{\\prime\\prime}\\left(\\dfrac{x}{y}\\right)+\\dfrac{y^{2}}{x^{3}}g^{\\prime\\prime}\\left(\\dfrac{y}{x}\\right)$，$\\dfrac{\\partial^{2}u}{\\partial x\\partial y}=-\\dfrac{x}{y^{2}}f^{\\prime\\prime}\\left(\\dfrac{x}{y}\\right)-\\dfrac{y}{x^{2}}g^{\\prime\\prime}\\left(\\dfrac{y}{x}\\right)$。代入组合式，两项恰好相互抵消，结果为 $0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "四、（本题满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.14",
+      "number": 14,
+      "title": "1988 年数学一 第 14 题",
+      "questionText": "设函数 $y=y(x)$ 满足微分方程 $y^{\\prime\\prime}-3y^{\\prime}+2y=2\\mathrm{e}^{x}$，且其图形在点 $(0,1)$ 处的切线与曲线 $y=x^{2}-x+1$ 在该点的切线重合，求函数 $y=y(x)$.",
+      "answerText": "答案：$y=(1-2x)\\mathrm{e}^{x}$\n\n**解析：**\n特征根 $\\lambda_{1,2}=1,2$，齐次通解 $C_{1}\\mathrm{e}^{x}+C_{2}\\mathrm{e}^{2x}$。因 $\\lambda=1$ 是单根，设特解 $y_{0}=ax\\mathrm{e}^{x}$，代入方程得 $a=-2$。初始条件：过点 $(0,1)$ 给 $C_{1}+C_{2}=1$；切线斜率为 $(2x-1)|_{x=0}=-1$，而 $y^{\\prime}(0)=C_{1}+2C_{2}-2=-1$，即 $C_{1}+2C_{2}=1$。解得 $C_{1}=1,\\ C_{2}=0$，故 $y=(1-2x)\\mathrm{e}^{x}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "五、（本题满分8分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.15",
+      "number": 15,
+      "title": "1988 年数学一 第 15 题",
+      "questionText": "设位于点 $(0,1)$ 的质点 $A$ 对质点 $M$ 的引力大小为 $\\dfrac{k}{r^{2}}$（$k>0$ 为常数，$r$ 为 $A$ 与 $M$ 之间的距离），质点 $M$ 沿曲线 $y=\\sqrt{2x-x^{2}}$ 从点 $B(2,0)$ 运动到点 $O(0,0)$，求此运动过程中质点 $A$ 对质点 $M$ 的引力所做的功.",
+      "answerText": "答案：$k\\left(1-\\dfrac{1}{\\sqrt{5}}\\right)$\n\n**解析：**\n设 $M(x,y)$，则引力方向沿 $\\overrightarrow{MA}=(-x,\\,1-y)$，故 $\\boldsymbol{F}=\\dfrac{k}{\\left[x^{2}+(1-y)^{2}\\right]^{3/2}}(-x,\\,1-y)$，功 $W=k\\displaystyle\\int_{L}\\frac{-x\\,\\mathrm{d}x+(1-y)\\,\\mathrm{d}y}{\\left[x^{2}+(1-y)^{2}\\right]^{3/2}}$。可验证 $\\dfrac{\\partial Q}{\\partial x}=\\dfrac{\\partial P}{\\partial y}$（除点 $A$ 外），积分与路径无关。取沿 $x$ 轴的有向线段 $\\overline{BO}$ 代替弧：$W=k\\displaystyle\\int_{2}^{0}\\frac{-x\\,\\mathrm{d}x}{(x^{2}+1)^{3/2}}=k\\left[\\frac{1}{\\sqrt{x^{2}+1}}\\right]_{2}^{0}=k\\left(1-\\frac{1}{\\sqrt{5}}\\right)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "integral_physical_applications",
+        "plane_line_position_relation"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：integral_physical_applications、plane_line_position_relation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_integral",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "六、（本题满分9分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.16",
+      "number": 16,
+      "title": "1988 年数学一 第 16 题",
+      "questionText": "已知 $\\mathbf{AP}=\\mathbf{PB}$，其中 $\\mathbf{B}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$，$\\mathbf{P}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ 2 & 1 & 1 \\end{pmatrix}$，求 $\\mathbf{A}$ 及 $\\mathbf{A}^{5}$.",
+      "answerText": "答案：$\\mathbf{A}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 0 & 0 \\\\ 6 & -1 & -1 \\end{pmatrix}$，$\\mathbf{A}^{5}=\\mathbf{A}$\n\n**解析：**\n$\\mathbf{P}$ 可逆，求出 $\\mathbf{P}^{-1}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ -4 & 1 & 1 \\end{pmatrix}$，于是 $\\mathbf{A}=\\mathbf{P}\\mathbf{B}\\mathbf{P}^{-1}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 0 & 0 \\\\ 6 & -1 & -1 \\end{pmatrix}$。又 $\\mathbf{B}^{2}=\\mathbf{B}$，故 $\\mathbf{B}^{5}=\\mathbf{B}$，从而 $\\mathbf{A}^{5}=\\mathbf{P}\\mathbf{B}^{5}\\mathbf{P}^{-1}=\\mathbf{P}\\mathbf{B}\\mathbf{P}^{-1}=\\mathbf{A}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.matrix_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.matrix_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 16
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "七、（本题满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.17",
+      "number": 17,
+      "title": "1988 年数学一 第 17 题",
+      "questionText": "已知矩阵 $\\mathbf{A}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 1 & x \\end{pmatrix}$ 与 $\\mathbf{B}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & y & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$ 相似.\\n\\n（1）求 $x, y$；",
+      "answerText": "答案：$x=0,\\ y=1$\n\n**解析：**\n相似矩阵有相同的迹与行列式：$\\operatorname{tr}\\mathbf{A}=\\operatorname{tr}\\mathbf{B}$ 给出 $2+x=1+y$；$|\\mathbf{A}|=|\\mathbf{B}|$ 给出 $-2=-2y$。解得 $y=1,\\ x=0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.similarity_judgment",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.similarity_concept"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.similarity_judgment、la.knowledge.similarity_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 17
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "八、（本题满分8分，含2小题）"
+    },
+    {
+      "id": "bank.exam.m1-1988.18",
+      "number": 18,
+      "title": "1988 年数学一 第 18 题",
+      "questionText": "已知矩阵 $\\mathbf{A}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 1 & x \\end{pmatrix}$ 与 $\\mathbf{B}=\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & y & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$ 相似.\\n\\n（2）求一个满足 $P^{-1}AP=B$ 的可逆矩阵 $P$ .",
+      "answerText": "答案：$P=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & -1 \\\\ 0 & 1 & 1 \\end{pmatrix}$\n\n**解析：**\n由（1）知特征值为 $\\lambda_{1}=2,\\ \\lambda_{2}=1,\\ \\lambda_{3}=-1$。分别解 $(\\lambda_{i}\\mathbf{E}-\\mathbf{A})\\boldsymbol{x}=\\boldsymbol{0}$ 得特征向量 $\\boldsymbol{\\alpha}_{1}=(1,0,0)^{\\mathrm{T}}$，$\\boldsymbol{\\alpha}_{2}=(0,1,1)^{\\mathrm{T}}$，$\\boldsymbol{\\alpha}_{3}=(0,-1,1)^{\\mathrm{T}}$。以它们为列即得 $P$，此时 $P^{-1}AP=\\operatorname{diag}(2,1,-1)=B$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 18
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "八、（本题满分8分，含2小题）"
+    },
+    {
+      "id": "bank.exam.m1-1988.19",
+      "number": 19,
+      "title": "1988 年数学一 第 19 题",
+      "questionText": "设函数 $f(x)$ 在区间 $[a,b]$ 上连续，且在 $(a,b)$ 内 $f^{\\prime}(x)>0$。证明：在 $(a,b)$ 内存在唯一的 $\\xi$，使曲线 $y=f(x)$ 与两直线 $y=f(\\xi),\\ x=a$ 所围成的平面图形的面积 $S_{1}$ 是曲线 $y=f(x)$ 与两直线 $y=f(\\xi),\\ x=b$ 所围成平面图形面积 $S_{2}$ 的 3 倍.",
+      "answerText": "答案：证明见解析\n\n**解析：**\n由 $f^{\\prime}>0$ 知 $f$ 严格递增，对任意 $x\\in(a,b)$，$S_{1}(x)=\\displaystyle\\int_{a}^{x}[f(x)-f(t)]\\,\\mathrm{d}t$，$S_{2}(x)=\\displaystyle\\int_{x}^{b}[f(t)-f(x)]\\,\\mathrm{d}t$。令 $\\varphi(x)=S_{1}(x)-3S_{2}(x)$，则 $\\varphi(a)=-3\\displaystyle\\int_{a}^{b}[f(t)-f(a)]\\,\\mathrm{d}t<0$，$\\varphi(b)=\\displaystyle\\int_{a}^{b}[f(b)-f(t)]\\,\\mathrm{d}t>0$，由零点定理存在 $\\xi\\in(a,b)$ 使 $\\varphi(\\xi)=0$，即 $S_{1}=3S_{2}$。又 $\\varphi^{\\prime}(x)=f^{\\prime}(x)\\left[(x-a)+3(b-x)\\right]>0$，$\\varphi$ 严格递增，故 $\\xi$ 唯一。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 19
+      },
+      "subjectGuess": "calculus",
+      "section": "九、（本题满分9分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.20",
+      "number": 20,
+      "title": "1988 年数学一 第 20 题",
+      "questionText": "设三次独立重复试验中，事件 $A$ 出现的概率相等，若已知 $A$ 至少出现一次的概率为 $\\frac{19}{27}$ ，则事件 $A$ 在一次试验中出现的概率为 ______.",
+      "answerText": "答案：$\\dfrac{1}{3}$\n\n**解析：**\n设一次试验中 $A$ 发生的概率为 $p$，三次中发生次数 $X\\sim B(3,p)$。由 $P\\{X\\ge 1\\}=\\dfrac{19}{27}$ 得 $P\\{X=0\\}=(1-p)^{3}=\\dfrac{8}{27}$，故 $1-p=\\dfrac{2}{3}$，$p=\\dfrac{1}{3}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.bernoulli_trials",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.independent_repeated_trials"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.bernoulli_trials、prob.knowledge.independent_repeated_trials，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_events",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 20
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.21",
+      "number": 21,
+      "title": "1988 年数学一 第 21 题",
+      "questionText": "在区间 $(0,1)$ 中随机地取两个数，则事件“两数之和小于 $\\dfrac{6}{5}$”的概率为 $\\underline{\\quad}$",
+      "answerText": "答案：$\\dfrac{17}{25}$\n\n**解析：**\n设两数为 $X,Y$，则 $(X,Y)$ 在正方形 $\\{(x,y):0<x<1,\\ 0<y<1\\}$ 上均匀分布。所求概率为 $1-P\\{X+Y\\ge 6/5\\}$，而 $\\{x+y>6/5\\}$ 在正方形内截得一个直角边长为 $\\dfrac{4}{5}$ 的等腰直角三角形，其面积 $\\dfrac{1}{2}\\cdot\\left(\\dfrac{4}{5}\\right)^{2}=\\dfrac{8}{25}$，故所求概率为 $1-\\dfrac{8}{25}=\\dfrac{17}{25}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.geometric_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.geometric_probability"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.geometric_probability、prob.knowledge.geometric_probability，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_events",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 21
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.22",
+      "number": 22,
+      "title": "1988 年数学一 第 22 题",
+      "questionText": "设随机变量 $X$ 服从均值为 10，均方差为 0.02 的正态分布，已知 $\\Phi(x)=\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{-\\infty}^{x}\\mathrm{e}^{-\\frac{u^{2}}{2}}\\mathrm{d}u$，$\\Phi(2.5)=0.9938$，则 $X$ 落在区间 $(9.95,\\ 10.05)$ 内的概率为 $\\underline{\\quad}$",
+      "answerText": "答案：$0.9876$\n\n**解析：**\n标准化：$\\dfrac{X-10}{0.02}\\sim N(0,1)$。$P\\{9.95<X<10.05\\}=P\\left\\{\\left|\\dfrac{X-10}{0.02}\\right|<2.5\\right\\}=2\\Phi(2.5)-1=2\\times 0.9938-1=0.9876$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "power_series_sum"
+      ],
+      "methodIds": [],
+      "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 22
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+    },
+    {
+      "id": "bank.exam.m1-1988.23",
+      "number": 23,
+      "title": "1988 年数学一 第 23 题",
+      "questionText": "设随机变量 $X$ 的概率密度函数为 $f_{X}(x)=\\dfrac{1}{\\pi(1+x^{2})}$，求随机变量 $Y=1-\\sqrt[3]{X}$ 的概率密度函数 $f_{Y}(y)$.",
+      "answerText": "答案：$f_{Y}(y)=\\dfrac{3(1-y)^{2}}{\\pi\\left[1+(1-y)^{6}\\right]}\\quad(-\\infty<y<+\\infty)$\n\n**解析：**\n$F_{Y}(y)=P\\{1-\\sqrt[3]{X}\\le y\\}=P\\{X\\ge(1-y)^{3}\\}=1-F_{X}\\left((1-y)^{3}\\right)$。两边对 $y$ 求导：$f_{Y}(y)=-f_{X}\\left((1-y)^{3}\\right)\\cdot 3(1-y)^{2}\\cdot(-1)=\\dfrac{3(1-y)^{2}}{\\pi\\left[1+(1-y)^{6}\\right]}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.continuous_density",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.continuous_density"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：prob.type.continuous_density、prob.knowledge.continuous_density，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1988,
+        "paper": "math1",
+        "number": 23
+      },
+      "subjectGuess": "probability_statistics",
+      "section": "十一、（本题满分6分）"
+    }
+  ]
 }

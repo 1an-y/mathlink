@@ -1,353 +1,207 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 2020,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2020-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 2020,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、试题",
-   "二、参考答案速查",
-   "三、简明解析"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-2020.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-2020.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-2020.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2020.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2020.5",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-2020.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-2020.7",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-2020.8",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-2020.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   }
-  ],
-  "total": 9
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-2020.1",
-   "number": 1,
-   "title": "2020 年数学二 第 1 题",
-   "questionText": "选择题\n#### （1）\n\n当 $x \\to 0^{+}$ 时，下列无穷小量中阶最高的是\n- (A) $\\int_{0}^{x}{\\left( e^{t^{2}} - 1 \\right) \\mathrm{~d} t}$\n- (B) $\\int_{0}^{x}{\\ln \\left( 1 + \\sqrt{t^{3}} \\right) \\mathrm{~d} t}$\n- (C) $\\int_{0}^{\\sin x}{\\sin t^{2} \\mathrm{~d} t}$\n- (D) $\\int_{0}^{1-\\cos x}{\\sqrt{\\sin^{3} t} \\mathrm{~d} t}$\n\n#### （2）\n\n函数 $f\\left( x \\right) = \\dfrac{e^{\\frac{1}{x-1}} \\ln \\left| 1+x \\right|}{\\left( e^{x} - 1 \\right)\\left( x-2 \\right)}$ 的第二类间断点的个数为\n- (A) $1$ 个\n- (B) $2$ 个\n- (C) $3$ 个\n- (D) $4$ 个\n\n#### （3）\n\n$\\int_{0}^{1}{\\dfrac{\\arcsin \\sqrt{x}}{\\sqrt{x\\left( 1-x \\right)}} \\mathrm{~d} x} =$\n- (A) $\\dfrac{\\pi^{2}}{4}$\n- (B) $\\dfrac{\\pi^{2}}{8}$\n- (C) $\\dfrac{\\pi}{4}$\n- (D) $\\dfrac{\\pi}{8}$\n\n#### （4）\n\n已知函数 $f\\left( x \\right) = x^{2} \\ln \\left( 1-x \\right)$，当 $n \\geq 3$ 时，$f^{\\left( n \\right)}\\left( 0 \\right) =$\n- (A) $-\\dfrac{n!}{n-2}$\n- (B) $\\dfrac{n!}{n-2}$\n- (C) $-\\dfrac{\\left( n-2 \\right)!}{n}$\n- (D) $\\dfrac{\\left( n-2 \\right)!}{n}$\n\n#### （5）\n\n关于函数\n$$\nf(x,y)=\n\\begin{cases}\nxy, & xy\\ne 0,\\\\\nx, & y=0,\\\\\ny, & x=0,\n\\end{cases}\n$$\n给出下列结论：\n\n1. $\\left.\\dfrac{\\partial f}{\\partial x}\\right|_{(0,0)}=1$\n2. $\\left.\\dfrac{\\partial^2 f}{\\partial x\\partial y}\\right|_{(0,0)}=1$\n3. $\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)=0$\n4. $\\lim\\limits_{y\\to0}\\lim\\limits_{x\\to0}f(x,y)=0$\n\n其中正确的个数为\n\n- (A) $4$\n- (B) $3$\n- (C) $2$\n- (D) $1$\n\n#### （6）\n\n设函数 $f\\left( x \\right)$ 在区间 $\\left[ -2,2 \\right]$ 上可导，且 $f^{\\prime}\\left( x \\right) > f\\left( x \\right) > 0$，则\n- (A) $\\dfrac{f\\left( -2 \\right)}{f\\left( -1 \\right)} > 1$\n- (B) $\\dfrac{f\\left( 0 \\right)}{f\\left( -1 \\right)} > e$\n- (C) $\\dfrac{f\\left( 1 \\right)}{f\\left( -1 \\right)} < e^{2}$\n- (D) $\\dfrac{f\\left( 2 \\right)}{f\\left( -1 \\right)} < e^{3}$\n\n#### （7）\n\n设 4 阶矩阵 $\\boldsymbol{A}=(a_{ij})$ 不可逆，$a_{12}$ 的代数余子式 $A_{12}\\ne 0$。记 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\boldsymbol{\\alpha}_3,\\boldsymbol{\\alpha}_4$ 为矩阵 $\\boldsymbol{A}$ 的列向量，$\\boldsymbol{A}^*$ 为 $\\boldsymbol{A}$ 的伴随矩阵，则方程组\n$$\n\\boldsymbol{A}^*\\boldsymbol{x}=0\n$$\n的通解为\n\n- (A) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2+k_3\\boldsymbol{\\alpha}_3$\n- (B) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2+k_3\\boldsymbol{\\alpha}_4$\n- (C) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4$\n- (D) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_2+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4$\n\n其中 $k_1,k_2,k_3$ 为任意常数。\n\n#### （8）\n\n设 $\\boldsymbol{A}$ 为 3 阶矩阵，$\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2$ 为 $\\boldsymbol{A}$ 的属于特征值 $1$ 的线性无关特征向量，$\\boldsymbol{\\alpha}_3$ 为 $\\boldsymbol{A}$ 的属于特征值 $-1$ 的特征向量。则满足\n$$\n\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\n\\begin{pmatrix}\n1&0&0\\\\\n0&-1&0\\\\\n0&0&1\n\\end{pmatrix}\n$$\n的可逆矩阵 $\\boldsymbol{P}$ 可为\n\n- (A) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3\\right)$\n- (B) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2,\\ \\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3\\right)$\n- (C) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_3,\\ -\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2\\right)$\n- (D) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2\\right)$",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_and_infinitesimal",
-    "discontinuity",
-    "differentiability_continuity"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+  "verified": false,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2020-2.md",
+  "paperInfo": {
     "year": 2020,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、试题"
+    "label": "数学二",
+    "sections": [
+      "一、试题",
+      "二、参考答案速查",
+      "三、简明解析"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-2020.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-2020.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-2020.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-2020.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-2020.5",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-2020.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-2020.7",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-2020.8",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-2020.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      }
+    ],
+    "total": 9
   },
-  {
-   "id": "bank.exam.m2-2020.2",
-   "number": 2,
-   "title": "2020 年数学二 第 2 题",
-   "questionText": "填空题\n#### （9）\n\n设\n$$\n\\begin{cases}\nx=\\sqrt{t^2+1},\\\\\ny=\\ln\\!\\left(t+\\sqrt{t^2+1}\\right),\n\\end{cases}\n$$\n则 $\\left.\\dfrac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=1}=$\n\n#### （10）\n\n$\\int_{0}^{1}{\\mathrm{d} y \\int_{\\sqrt{y}}^{1}{\\sqrt{x^{3}+1} \\mathrm{~d} x}} =$\n\n#### （11）\n\n设 $z = \\arctan \\left[ xy + \\sin \\left( x+y \\right) \\right]$，则 $\\left. \\mathrm{d} z \\right|_{\\left( 0,\\pi \\right)} =$\n\n#### （12）\n\n斜边长为 $2a$ 的等腰直角三角形平板铅直地沉没在水中，且斜边与水面相齐。记重力加速度为 $g$，水的密度为 $\\rho$，则该平板一侧所受的水压力为\n\n#### （13）\n\n设 $y = y\\left( x \\right)$ 满足 $y^{\\prime\\prime} + 2y^{\\prime} + y = 0$，且 $y\\left( 0 \\right) = 0$，$y^{\\prime}\\left( 0 \\right) = 1$，则 $\\int_{0}^{+\\infty}{y\\left( x \\right) \\mathrm{~d} x} =$\n\n#### （14）\n\n行列式\n$$\n\\begin{vmatrix}\na&0&-1&1\\\\\n0&a&1&-1\\\\\n-1&1&a&0\\\\\n1&-1&0&a\n\\end{vmatrix}\n=\n$$",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "physical_applications_of_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_interval_integral",
-    "integral_physical_applications",
-    "parametric_derivative"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：physical_applications_of_integral、infinite_interval_integral、integral_physical_applications、parametric_derivative，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、试题"
-  },
-  {
-   "id": "bank.exam.m2-2020.3",
-   "number": 3,
-   "title": "2020 年数学二 第 3 题",
-   "questionText": "解答题\n#### （15）\n\n求曲线 $y = \\dfrac{x^{1+x}}{\\left( 1+x \\right)^{x}} \\left( x>0 \\right)$ 的斜渐近线方程。\n\n#### （16）\n\n已知函数 $f\\left( x \\right)$ 连续且 $\\lim\\limits_{x\\to 0}{\\dfrac{f\\left( x \\right)}{x}} = 1$，$g\\left( x \\right)=\\int_{0}^{1}{f\\left( xt \\right) \\mathrm{~d} t}$，求 $g^{\\prime}\\left( x \\right)$，并证明 $g^{\\prime}\\left( x \\right)$ 在 $x=0$ 处连续。\n\n#### （17）\n\n求函数 $f\\left( x,y \\right)=x^{3}+8y^{3}-xy$ 的极值。\n\n#### （18）\n\n设函数 $f\\left( x \\right)$ 的定义域为 $\\left( 0,+\\infty \\right)$ 且满足\n$$\n2f\\left( x \\right)+x^{2}f\\left( \\dfrac{1}{x} \\right)=\\dfrac{x^{2}+2x}{\\sqrt{1+x^{2}}}\n$$\n求 $f\\left( x \\right)$，并求曲线 $y=f\\left( x \\right)$，$y=\\dfrac{1}{2}$，$y=\\dfrac{\\sqrt{3}}{2}$ 及 $y$ 轴所围图形绕 $x$ 轴旋转所成旋转体的体积。\n\n#### （19）\n\n设平面区域 $D$ 由直线 $x=1$，$x=2$，$y=x$ 与 $x$ 轴围成。计算\n$$\n\\iint_{D}{\\dfrac{\\sqrt{x^{2}+y^{2}}}{x} \\mathrm{~d} x \\mathrm{~d} y}\n$$\n\n#### （20）\n\n设函数 $f\\left( x \\right)=\\int_{1}^{x}{e^{t^{2}} \\mathrm{~d} t}$。\n\n1. 证明：存在 $\\xi \\in \\left( 1,2 \\right)$，使得 $f\\left( \\xi \\right)=\\left( 2-\\xi \\right)e^{\\xi^{2}}$；\n2. 证明：存在 $\\eta \\in \\left( 1,2 \\right)$，使得 $f\\left( 2 \\right)=\\ln 2 \\cdot \\eta e^{\\eta^{2}}$。\n\n#### （21）\n\n设函数 $f\\left( x \\right)$ 可导，且 $f^{\\prime}\\left( x \\right)>0$，曲线 $y=f\\left( x \\right)\\left( x\\geq 0 \\right)$ 经过坐标原点 $O$。$M$ 为其上任意一点，点 $M$ 处的切线与 $x$ 轴交于点 $T$，又 $MP$ 垂直 $x$ 轴于点 $P$。已知由曲线 $y=f\\left( x \\right)$、直线 $MP$ 以及 $x$ 轴所围图形的面积与 $\\triangle MTP$ 的面积之比恒为 $3:2$，求满足上述条件的曲线方程。\n\n#### （22）\n\n设二次型\n$$\nf(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3\n$$\n经过可逆线性变换\n$$\n\\begin{pmatrix}\nx_1\\\\\nx_2\\\\\nx_3\n\\end{pmatrix}\n=\n\\boldsymbol{P}\n\\begin{pmatrix}\ny_1\\\\\ny_2\\\\\ny_3\n\\end{pmatrix}\n$$\n化为二次型\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n\n1. 求 $a$ 的值；\n2. 求可逆矩阵 $\\boldsymbol{P}$。\n\n#### （23）\n\n设 $\\boldsymbol{A}$ 为 2 阶矩阵，$\\boldsymbol{P}=(\\boldsymbol{\\alpha},\\boldsymbol{A}\\boldsymbol{\\alpha})$，其中 $\\boldsymbol{\\alpha}$ 是非零向量且不是 $\\boldsymbol{A}$ 的特征向量。\n\n1. 证明 $\\boldsymbol{P}$ 为可逆矩阵；\n2. 若 $\\boldsymbol{A}^2\\boldsymbol{\\alpha}+\\boldsymbol{A}\\boldsymbol{\\alpha}-6\\boldsymbol{\\alpha}=0$，求 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$，并判断 $\\boldsymbol{A}$ 是否相似于对角矩阵。\n\n---",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "function_domain_range",
-    "asymptote",
-    "multivariable_limit_continuity"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、试题"
-  },
-  {
-   "id": "bank.exam.m2-2020.4",
-   "number": 4,
-   "title": "2020 年数学二 第 4 题",
-   "questionText": "选择题\n- （1）D\n- （2）C\n- （3）A\n- （4）A\n- （5）B\n- （6）B\n- （7）C\n- （8）D",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "二、参考答案速查"
-  },
-  {
-   "id": "bank.exam.m2-2020.5",
-   "number": 5,
-   "title": "2020 年数学二 第 5 题",
-   "questionText": "填空题\n- （9）$-\\sqrt{2}$\n- （10）$\\dfrac{2}{9}(2\\sqrt{2}-1)$\n- （11）$(\\pi-1)\\mathrm{d}x-\\mathrm{d}y$\n- （12）$\\dfrac{1}{3}\\rho g a^3$\n- （13）$1$\n- （14）$a^2(a^2-4)$",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.covariance_correlation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.correlation_coefficient"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：prob.type.covariance_correlation、prob.knowledge.correlation_coefficient，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "calculus",
-   "section": "二、参考答案速查"
-  },
-  {
-   "id": "bank.exam.m2-2020.6",
-   "number": 6,
-   "title": "2020 年数学二 第 6 题",
-   "questionText": "解答题结论\n- （15）斜渐近线：$y=\\dfrac{1}{e}x+\\dfrac{1}{2e}$\n- （16）$g'(x)=\\begin{cases}\\dfrac{x f(x)-\\int_0^x f(u)\\,\\mathrm{d}u}{x^2}, & x\\ne0,\\\\[6pt]\\dfrac12, & x=0\\end{cases}$，且在 $x=0$ 处连续\n- （17）极小值点为 $\\left(\\dfrac16,\\dfrac1{12}\\right)$，极小值为 $-\\dfrac1{216}$\n- （18）$f(x)=\\dfrac{x}{\\sqrt{1+x^2}}$，旋转体体积为 $\\dfrac{\\pi^2}{6}$\n- （19）$\\dfrac34\\sqrt2+\\dfrac34\\ln(\\sqrt2+1)$\n- （20）两问结论均成立\n- （21）曲线方程为 $y=Cx^3$，其中 $C>0$\n- （22）$a=-\\dfrac12$，可取 $\\boldsymbol{P}=\\begin{pmatrix}2&1&\\dfrac{2}{\\sqrt3}\\\\[4pt]1&0&\\dfrac{4}{\\sqrt3}\\\\[4pt]1&0&0\\end{pmatrix}$\n- （23）$\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}$，且 $\\boldsymbol{A}$ 相似于对角矩阵 $\\begin{pmatrix}2&0\\\\0&-3\\end{pmatrix}$\n\n---",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "monotonicity_extrema",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "asymptote",
-    "multivariable_limit_continuity",
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：monotonicity_extrema，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、参考答案速查"
-  },
-  {
-   "id": "bank.exam.m2-2020.7",
-   "number": 7,
-   "title": "2020 年数学二 第 7 题",
-   "questionText": "选择题\n#### （1）",
-   "answerText": "D\n\n**解析：**\n比较各项的等价无穷小：\n- (A) $\\int_0^x (e^{t^2}-1)\\,\\mathrm{d}t \\sim \\int_0^x t^2\\,\\mathrm{d}t = \\dfrac{x^3}{3}$\n- (B) $\\int_0^x \\ln(1+t^{3/2})\\,\\mathrm{d}t \\sim \\int_0^x t^{3/2}\\,\\mathrm{d}t = \\dfrac{2}{5}x^{5/2}$\n- (C) $\\int_0^{\\sin x}\\sin t^2\\,\\mathrm{d}t \\sim \\int_0^x t^2\\,\\mathrm{d}t = \\dfrac{x^3}{3}$\n- (D) $\\int_0^{1-\\cos x}\\sqrt{\\sin^3 t}\\,\\mathrm{d}t \\sim \\int_0^{x^2/2} t^{3/2}\\,\\mathrm{d}t \\asymp x^5$\n\n阶数最高的是 D。\n\n#### （2）\n\n**答案：** C\n\n**解析：** 间断点来自 $x=-1,0,1,2$。\n- $x=-1$：$\\ln|1+x| \\to -\\infty$，为第二类间断点；\n- $x=0$：$\\displaystyle \\lim_{x\\to0}\\frac{e^{1/(x-1)}\\ln(1+x)}{(e^x-1)(x-2)}=-\\frac1{2e}$，为可去间断点；\n- $x=1$：$e^{1/(x-1)}$ 发散，为第二类间断点；\n- $x=2$：分母 $x-2=0$，极限发散，为第二类间断点。\n\n故第二类间断点共有 3 个。\n\n#### （3）\n\n**答案：** A\n\n**解析：** 令 $u=\\arcsin\\sqrt{x}$，则 $\\mathrm{d}u=\\dfrac{1}{2\\sqrt{x(1-x)}}\\,\\mathrm{d}x$。原式化为\n$$\n2\\int_0^1 \\arcsin\\sqrt{x}\\,\\mathrm{d}(\\arcsin\\sqrt{x})\n=\\left.(\\arcsin\\sqrt{x})^2\\right|_0^1\n=\\left(\\frac{\\pi}{2}\\right)^2\n=\\frac{\\pi^2}{4}.\n$$\n\n#### （4）\n\n**答案：** A\n\n**解析：** 由\n$$\n\\ln(1-x)=-\\left(x+\\frac{x^2}{2}+\\frac{x^3}{3}+\\cdots\\right),\n$$\n得\n$$\nf(x)=x^2\\ln(1-x)\n=-\\left(x^3+\\frac{x^4}{2}+\\cdots+\\frac{x^n}{n-2}+\\cdots\\right).\n$$\n故 $x^n$ 的系数为 $-\\dfrac{1}{n-2}$，于是\n$$\nf^{(n)}(0)=n!\\left(-\\frac1{n-2}\\right)=-\\frac{n!}{n-2}\\qquad(n\\ge3).\n$$\n\n#### （5）\n\n**答案：** B\n\n**解析：**\n- ①：$f(x,0)=x$，故 $\\displaystyle \\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,0)}=\\lim_{x\\to0}\\frac{x-0}{x}=1$，正确；\n- ②：当 $y\\ne0$ 时，$\\displaystyle \\frac{f(x,y)-f(0,y)}{x}=\\frac{xy-y}{x}$ 极限不存在，所以 $\\left.\\dfrac{\\partial^2f}{\\partial x\\partial y}\\right|_{(0,0)}$ 不存在，错误；\n- ③：无论沿坐标轴还是 $xy\\ne0$ 的路径，$f(x,y)\\to0$，正确；\n- ④：先令 $x\\to0$，有 $f(x,y)\\to0$，再令 $y\\to0$ 仍得 $0$，正确。\n\n故正确的是 ①③④，共 3 个。\n\n#### （6）\n\n**答案：** B\n\n**解析：** 由 $f'(x)>f(x)>0$ 得\n$$\n\\left(e^{-x}f(x)\\right)'=e^{-x}(f'(x)-f(x))>0.\n$$\n故 $e^{-x}f(x)$ 单调递增。取 $x=0,-1$，有\n$$\ne^{0}f(0)>e^{1}f(-1),\n$$\n即\n$$\n\\frac{f(0)}{f(-1)}>e.\n$$\n故选 B。\n\n#### （7）\n\n**答案：** C\n\n**解析：** 因 $A_{12}\\ne0$，说明删去第 1 行第 2 列后得到的 3 阶子式不为 0，于是第 $1,3,4$ 列线性无关。又因 $A$ 不可逆，$\\operatorname{rank}(A)=3$，故 $\\ker(A^*)$ 的通解由这 3 个线性无关列向量张成，即\n$$\n\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4.\n$$\n\n#### （8）\n\n**答案：** D\n\n**解析：** 若 $P^{-1}AP=\\operatorname{diag}(1,-1,1)$，则 $P$ 的三列必须依次对应特征值 $1,-1,1$ 的特征向量。\n- $\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2$ 仍是特征值 $1$ 的特征向量；\n- $-\\boldsymbol{\\alpha}_3$ 是特征值 $-1$ 的特征向量；\n- $\\boldsymbol{\\alpha}_2$ 是特征值 $1$ 的特征向量。\n\n且三者线性无关，所以 D 正确。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、简明解析"
-  },
-  {
-   "id": "bank.exam.m2-2020.8",
-   "number": 8,
-   "title": "2020 年数学二 第 8 题",
-   "questionText": "填空题\n#### （9）",
-   "answerText": "$-\\sqrt{2}$\n\n**解析：**\n由参数方程\n$$\nx=\\sqrt{t^2+1},\\qquad y=\\ln\\!\\left(t+\\sqrt{t^2+1}\\right),\n$$\n得\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{y'(t)}{x'(t)}\n=\\frac{1/\\sqrt{1+t^2}}{t/\\sqrt{1+t^2}}\n=\\frac1t.\n$$\n于是\n$$\n\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\n=\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac1t\\right)\\Big/\\frac{\\mathrm{d}x}{\\mathrm{d}t}\n=\\frac{-1/t^2}{t/\\sqrt{1+t^2}}\n=-\\frac{\\sqrt{1+t^2}}{t^3}.\n$$\n代入 $t=1$ 得 $-\\sqrt2$。\n\n#### （10）\n\n**答案：** $\\dfrac{2}{9}(2\\sqrt{2}-1)$\n\n**解析：** 交换积分次序：\n$$\n\\int_0^1\\mathrm{d}y\\int_{\\sqrt y}^1\\sqrt{x^3+1}\\,\\mathrm{d}x\n=\\int_0^1\\mathrm{d}x\\int_0^{x^2}\\sqrt{x^3+1}\\,\\mathrm{d}y\n=\\int_0^1 x^2\\sqrt{x^3+1}\\,\\mathrm{d}x.\n$$\n令 $u=x^3+1$，则 $\\mathrm{d}u=3x^2\\,\\mathrm{d}x$，故原式为\n$$\n\\frac13\\int_1^2 u^{1/2}\\,\\mathrm{d}u\n=\\frac{2}{9}\\left[u^{3/2}\\right]_1^2\n=\\frac{2}{9}(2\\sqrt2-1).\n$$\n\n#### （11）\n\n**答案：** $(\\pi-1)\\mathrm{d}x-\\mathrm{d}y$\n\n**解析：** 设 $u=xy+\\sin(x+y)$，则 $z=\\arctan u$，故\n$$\n\\mathrm{d}z=\\frac{1}{1+u^2}\\,\\mathrm{d}u.\n$$\n在 $(0,\\pi)$ 处，$u=0$，且\n$$\nu_x=y+\\cos(x+y)\\Big|_{(0,\\pi)}=\\pi-1,\\qquad\nu_y=x+\\cos(x+y)\\Big|_{(0,\\pi)}=-1.\n$$\n所以\n$$\n\\left.\\mathrm{d}z\\right|_{(0,\\pi)}=(\\pi-1)\\mathrm{d}x-\\mathrm{d}y.\n$$\n\n#### （12）\n\n**答案：** $\\dfrac{1}{3}\\rho g a^3$\n\n**解析：** 取深度为 $y$ 的水平条，压强为 $\\rho gy$，宽度为 $2(a-y)$，故微元力\n$$\n\\mathrm{d}F=\\rho gy\\cdot 2(a-y)\\,\\mathrm{d}y.\n$$\n于是\n$$\nF=2\\rho g\\int_0^a (a-y)y\\,\\mathrm{d}y\n=2\\rho g\\left[\\frac{ay^2}{2}-\\frac{y^3}{3}\\right]_0^a\n=\\frac13\\rho ga^3.\n$$\n\n#### （13）\n\n**答案：** $1$\n\n**解析：** 方程 $y''+2y'+y=0$ 的通解为\n$$\ny=(C_1+C_2x)e^{-x}.\n$$\n由 $y(0)=0,\\ y'(0)=1$ 得 $C_1=0,\\ C_2=1$，故 $y=xe^{-x}$。因此\n$$\n\\int_0^{+\\infty}y(x)\\,\\mathrm{d}x\n=\\int_0^{+\\infty}xe^{-x}\\,\\mathrm{d}x\n=1.\n$$\n\n#### （14）\n\n**答案：** $a^2(a^2-4)$\n\n**解析：** 通过初等变换可将原行列式化为\n$$\n\\begin{vmatrix}\na&0&-1&1\\\\\n0&a&1&-1\\\\\n-1&1&a&0\\\\\n1&-1&0&a\n\\end{vmatrix}\n\\sim\n\\begin{vmatrix}\na&0&0&0\\\\\n0&a&2&-1\\\\\n-1&2&a&0\\\\\n0&0&0&a\n\\end{vmatrix}.\n$$\n故其值为\n$$\na^2\n\\begin{vmatrix}\na&2\\\\\n2&a\n\\end{vmatrix}\n=a^2(a^2-4).\n$$",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、简明解析"
-  },
-  {
-   "id": "bank.exam.m2-2020.9",
-   "number": 9,
-   "title": "2020 年数学二 第 9 题",
-   "questionText": "解答题\n#### （15）\n\n**解析：** 设\n$$\ny=\\frac{x^{1+x}}{(1+x)^x}=x\\left(1+\\frac1x\\right)^{-x}.\n$$\n当 $x\\to+\\infty$ 时，\n$$\n-x\\ln\\left(1+\\frac1x\\right)=-1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right),\n$$\n故\n$$\ny=\\frac{x}{e}\\exp\\!\\left(\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}\\left(1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}+\\frac{1}{2e}+o(1).\n$$\n所以斜渐近线为\n$$\ny=\\frac{1}{e}x+\\frac{1}{2e}.\n$$\n\n#### （16）\n\n**解析：** 对 $x\\ne0$，令 $u=xt$，则\n$$\ng(x)=\\int_0^1 f(xt)\\,\\mathrm{d}t=\\frac{1}{x}\\int_0^x f(u)\\,\\mathrm{d}u.\n$$\n因此\n$$\ng'(x)=\\frac{x f(x)-\\int_0^x f(u)\\,\\mathrm{d}u}{x^2}\\qquad(x\\ne0).\n$$\n又因 $\\displaystyle \\lim_{x\\to0}\\frac{f(x)}x=1$ 且 $f$ 连续，所以 $f(0)=0$。于是\n$$\ng'(0)=\\lim_{x\\to0}\\frac{g(x)-g(0)}{x}\n=\\lim_{x\\to0}\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\n=\\frac12.\n$$\n再看连续性：\n$$\n\\lim_{x\\to0}g'(x)\n=\\lim_{x\\to0}\\left(\\frac{f(x)}x-\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\\right)\n=1-\\frac12=\\frac12=g'(0).\n$$\n故 $g'(x)$ 在 $x=0$ 处连续。\n\n#### （17）\n\n**解析：** 由\n$$\nf_x=3x^2-y,\\qquad f_y=24y^2-x\n$$\n得驻点满足\n$$\n3x^2=y,\\qquad 24y^2=x.\n$$\n解得驻点 $(0,0)$ 与 $\\left(\\dfrac16,\\dfrac1{12}\\right)$。\n\n二阶偏导为\n$$\nf_{xx}=6x,\\qquad f_{xy}=-1,\\qquad f_{yy}=48y.\n$$\n判别式\n$$\n\\Delta=f_{xx}f_{yy}-f_{xy}^2=288xy-1.\n$$\n- 在 $(0,0)$ 处，$\\Delta=-1<0$，不是极值点；\n- 在 $\\left(\\dfrac16,\\dfrac1{12}\\right)$ 处，$\\Delta=3>0$ 且 $f_{xx}=1>0$，为极小值点。\n\n极小值为\n$$\nf\\left(\\frac16,\\frac1{12}\\right)=-\\frac1{216}.\n$$\n\n#### （18）\n\n**解析：** 原式为\n$$\n2f(x)+x^2f\\!\\left(\\frac1x\\right)=\\frac{x^2+2x}{\\sqrt{1+x^2}}.\n$$\n把 $x$ 换成 $\\dfrac1x$，再乘以 $x^2$，得\n$$\nf(x)+2x^2f\\!\\left(\\frac1x\\right)=\\frac{x+2x^2}{\\sqrt{1+x^2}}.\n$$\n联立两式解得\n$$\nf(x)=\\frac{x}{\\sqrt{1+x^2}}.\n$$\n\n由 $y=\\dfrac{x}{\\sqrt{1+x^2}}$ 得\n$$\nx=\\frac{y}{\\sqrt{1-y^2}}.\n$$\n所围平面图形绕 $x$ 轴旋转，用壳层法：\n$$\nV=2\\pi\\int_{1/2}^{\\sqrt3/2} y\\cdot \\frac{y}{\\sqrt{1-y^2}}\\,\\mathrm{d}y\n=2\\pi\\int_{1/2}^{\\sqrt3/2}\\frac{y^2}{\\sqrt{1-y^2}}\\,\\mathrm{d}y.\n$$\n令 $y=\\sin t$，则\n$$\nV=2\\pi\\int_{\\pi/6}^{\\pi/3}\\sin^2 t\\,\\mathrm{d}t\n=\\pi\\int_{\\pi/6}^{\\pi/3}(1-\\cos2t)\\,\\mathrm{d}t\n=\\frac{\\pi^2}{6}.\n$$\n\n#### （19）\n\n**解析：** 区域 $D$ 由 $x=1,\\ x=2,\\ y=0,\\ y=x$ 围成，改用极坐标：\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta,\\qquad 0\\le \\theta\\le \\frac{\\pi}{4},\n$$\n且\n$$\n\\sec\\theta \\le r \\le 2\\sec\\theta.\n$$\n原积分化为\n$$\n\\int_0^{\\pi/4}\\int_{\\sec\\theta}^{2\\sec\\theta}\n\\frac{r}{r\\cos\\theta}\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta\n=\\frac32\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta.\n$$\n而\n$$\n\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta\n=\\frac{\\sqrt2}{2}+\\frac12\\ln(\\sqrt2+1).\n$$\n故原积分为\n$$\n\\frac34\\sqrt2+\\frac34\\ln(\\sqrt2+1).\n$$\n\n#### （20）\n\n**解析：**\n\n**(1)** 令\n$$\nF(x)=f(x)+(x-2)e^{x^2}.\n$$\n则\n$$\nF(1)= -e<0,\\qquad F(2)=f(2)>0.\n$$\n由连续函数零点定理，存在 $\\xi\\in(1,2)$，使 $F(\\xi)=0$，即\n$$\nf(\\xi)=(2-\\xi)e^{\\xi^2}.\n$$\n\n**(2)** 取 $g(x)=\\ln x$，对 $f(x)$ 与 $g(x)$ 在 $[1,2]$ 上用柯西中值定理，存在 $\\eta\\in(1,2)$，使\n$$\n\\frac{f(2)-f(1)}{\\ln2-\\ln1}\n=\\frac{f'(\\eta)}{(\\ln x)'|_{x=\\eta}}\n=\\frac{e^{\\eta^2}}{1/\\eta}.\n$$\n由于 $f(1)=0$，得\n$$\nf(2)=\\ln2\\cdot \\eta e^{\\eta^2}.\n$$\n\n#### （21）\n\n**解析：** 设曲线上点 $M(x,y)$，则切线在 $x$ 轴上的截距点为\n$$\nT\\left(x-\\frac{y}{y'},\\,0\\right).\n$$\n故\n$$\nS_{\\triangle MTP}=\\frac12\\cdot \\frac{y}{y'}\\cdot y=\\frac{y^2}{2y'}.\n$$\n题设给出\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t : \\frac{y^2}{2y'} = 3:2,\n$$\n即\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t=\\frac34\\cdot \\frac{y^2}{y'}.\n$$\n两边对 $x$ 求导，化简得\n$$\n3yy''-2(y')^2=0.\n$$\n令 $p=y'$，并把 $y''$ 写成 $p\\,\\dfrac{\\mathrm{d}p}{\\mathrm{d}y}$，则\n$$\n3y\\frac{\\mathrm{d}p}{\\mathrm{d}y}-2p=0.\n$$\n解得\n$$\np=C_1 y^{2/3},\n$$\n即\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=C_1 y^{2/3}.\n$$\n分离变量积分：\n$$\n3y^{1/3}=C_1x+C_2.\n$$\n又曲线过原点，故 $C_2=0$，于是\n$$\ny=Cx^3.\n$$\n由 $f'(x)>0$ 知 $C>0$。\n\n#### （22）\n\n**解析：**\n\n**(1)** 二次型 $f$ 的矩阵为\n$$\nA=\\begin{pmatrix}\n1&a&a\\\\\na&1&a\\\\\na&a&1\n\\end{pmatrix}.\n$$\n其特征值为\n$$\n1-a,\\quad 1-a,\\quad 1+2a.\n$$\n而\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2=(y_1+y_2)^2+4y_3^2\n$$\n有两个正惯性指数、一个零惯性指数。故应有\n$$\n1-a>0,\\qquad 1+2a=0,\n$$\n从而\n$$\na=-\\frac12.\n$$\n\n**(2)** 当 $a=-\\dfrac12$ 时，\n$$\nf=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3\n=\\left(x_1-\\frac{x_2+x_3}{2}\\right)^2+\\frac34(x_2-x_3)^2.\n$$\n令\n$$\n\\begin{cases}\nz_1=x_1-\\dfrac{x_2+x_3}{2},\\\\[4pt]\nz_2=\\dfrac{\\sqrt3}{2}(x_2-x_3),\\\\[4pt]\nz_3=x_3,\n\\end{cases}\n$$\n则 $f=z_1^2+z_2^2$。再取\n$$\n\\begin{cases}\nz_1=y_1+y_2,\\\\\nz_2=2y_3,\\\\\nz_3=y_1,\n\\end{cases}\n$$\n即可化为\n$$\ng=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n故可取\n$$\nP=\n\\begin{pmatrix}\n2 & 1 & \\dfrac{2}{\\sqrt3}\\\\[4pt]\n1 & 0 & \\dfrac{4}{\\sqrt3}\\\\[4pt]\n1 & 0 & 0\n\\end{pmatrix}.\n$$\n\n#### （23）\n\n**解析：**\n\n**(1)** 若 $P=(\\alpha,A\\alpha)$ 不可逆，则 $\\alpha$ 与 $A\\alpha$ 线性相关，即 $A\\alpha=k\\alpha$，这说明 $\\alpha$ 是 $A$ 的特征向量，与题意矛盾。所以 $P$ 可逆。\n\n**(2)** 由\n$$\nA^2\\alpha+A\\alpha-6\\alpha=0\n$$\n得\n$$\nA^2\\alpha=6\\alpha-A\\alpha.\n$$\n于是\n$$\nAP=A(\\alpha,A\\alpha)=(A\\alpha,A^2\\alpha)=(A\\alpha,6\\alpha-A\\alpha)\n=P\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n故\n$$\nP^{-1}AP=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n其特征多项式为\n$$\n\\lambda^2+\\lambda-6=(\\lambda-2)(\\lambda+3),\n$$\n有两个不同特征值 $2,-3$，因此 $A$ 相似于对角矩阵\n$$\n\\begin{pmatrix}\n2&0\\\\\n0&-3\n\\end{pmatrix}.\n$$",
-   "answerText": "**解析：**\n设\n$$\ny=\\frac{x^{1+x}}{(1+x)^x}=x\\left(1+\\frac1x\\right)^{-x}.\n$$\n当 $x\\to+\\infty$ 时，\n$$\n-x\\ln\\left(1+\\frac1x\\right)=-1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right),\n$$\n故\n$$\ny=\\frac{x}{e}\\exp\\!\\left(\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}\\left(1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}+\\frac{1}{2e}+o(1).\n$$\n所以斜渐近线为\n$$\ny=\\frac{1}{e}x+\\frac{1}{2e}.\n$$\n\n#### （16）\n\n**解析：** 对 $x\\ne0$，令 $u=xt$，则\n$$\ng(x)=\\int_0^1 f(xt)\\,\\mathrm{d}t=\\frac{1}{x}\\int_0^x f(u)\\,\\mathrm{d}u.\n$$\n因此\n$$\ng'(x)=\\frac{x f(x)-\\int_0^x f(u)\\,\\mathrm{d}u}{x^2}\\qquad(x\\ne0).\n$$\n又因 $\\displaystyle \\lim_{x\\to0}\\frac{f(x)}x=1$ 且 $f$ 连续，所以 $f(0)=0$。于是\n$$\ng'(0)=\\lim_{x\\to0}\\frac{g(x)-g(0)}{x}\n=\\lim_{x\\to0}\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\n=\\frac12.\n$$\n再看连续性：\n$$\n\\lim_{x\\to0}g'(x)\n=\\lim_{x\\to0}\\left(\\frac{f(x)}x-\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\\right)\n=1-\\frac12=\\frac12=g'(0).\n$$\n故 $g'(x)$ 在 $x=0$ 处连续。\n\n#### （17）\n\n**解析：** 由\n$$\nf_x=3x^2-y,\\qquad f_y=24y^2-x\n$$\n得驻点满足\n$$\n3x^2=y,\\qquad 24y^2=x.\n$$\n解得驻点 $(0,0)$ 与 $\\left(\\dfrac16,\\dfrac1{12}\\right)$。\n\n二阶偏导为\n$$\nf_{xx}=6x,\\qquad f_{xy}=-1,\\qquad f_{yy}=48y.\n$$\n判别式\n$$\n\\Delta=f_{xx}f_{yy}-f_{xy}^2=288xy-1.\n$$\n- 在 $(0,0)$ 处，$\\Delta=-1<0$，不是极值点；\n- 在 $\\left(\\dfrac16,\\dfrac1{12}\\right)$ 处，$\\Delta=3>0$ 且 $f_{xx}=1>0$，为极小值点。\n\n极小值为\n$$\nf\\left(\\frac16,\\frac1{12}\\right)=-\\frac1{216}.\n$$\n\n#### （18）\n\n**解析：** 原式为\n$$\n2f(x)+x^2f\\!\\left(\\frac1x\\right)=\\frac{x^2+2x}{\\sqrt{1+x^2}}.\n$$\n把 $x$ 换成 $\\dfrac1x$，再乘以 $x^2$，得\n$$\nf(x)+2x^2f\\!\\left(\\frac1x\\right)=\\frac{x+2x^2}{\\sqrt{1+x^2}}.\n$$\n联立两式解得\n$$\nf(x)=\\frac{x}{\\sqrt{1+x^2}}.\n$$\n\n由 $y=\\dfrac{x}{\\sqrt{1+x^2}}$ 得\n$$\nx=\\frac{y}{\\sqrt{1-y^2}}.\n$$\n所围平面图形绕 $x$ 轴旋转，用壳层法：\n$$\nV=2\\pi\\int_{1/2}^{\\sqrt3/2} y\\cdot \\frac{y}{\\sqrt{1-y^2}}\\,\\mathrm{d}y\n=2\\pi\\int_{1/2}^{\\sqrt3/2}\\frac{y^2}{\\sqrt{1-y^2}}\\,\\mathrm{d}y.\n$$\n令 $y=\\sin t$，则\n$$\nV=2\\pi\\int_{\\pi/6}^{\\pi/3}\\sin^2 t\\,\\mathrm{d}t\n=\\pi\\int_{\\pi/6}^{\\pi/3}(1-\\cos2t)\\,\\mathrm{d}t\n=\\frac{\\pi^2}{6}.\n$$\n\n#### （19）\n\n**解析：** 区域 $D$ 由 $x=1,\\ x=2,\\ y=0,\\ y=x$ 围成，改用极坐标：\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta,\\qquad 0\\le \\theta\\le \\frac{\\pi}{4},\n$$\n且\n$$\n\\sec\\theta \\le r \\le 2\\sec\\theta.\n$$\n原积分化为\n$$\n\\int_0^{\\pi/4}\\int_{\\sec\\theta}^{2\\sec\\theta}\n\\frac{r}{r\\cos\\theta}\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta\n=\\frac32\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta.\n$$\n而\n$$\n\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta\n=\\frac{\\sqrt2}{2}+\\frac12\\ln(\\sqrt2+1).\n$$\n故原积分为\n$$\n\\frac34\\sqrt2+\\frac34\\ln(\\sqrt2+1).\n$$\n\n#### （20）\n\n**解析：**\n\n**(1)** 令\n$$\nF(x)=f(x)+(x-2)e^{x^2}.\n$$\n则\n$$\nF(1)= -e<0,\\qquad F(2)=f(2)>0.\n$$\n由连续函数零点定理，存在 $\\xi\\in(1,2)$，使 $F(\\xi)=0$，即\n$$\nf(\\xi)=(2-\\xi)e^{\\xi^2}.\n$$\n\n**(2)** 取 $g(x)=\\ln x$，对 $f(x)$ 与 $g(x)$ 在 $[1,2]$ 上用柯西中值定理，存在 $\\eta\\in(1,2)$，使\n$$\n\\frac{f(2)-f(1)}{\\ln2-\\ln1}\n=\\frac{f'(\\eta)}{(\\ln x)'|_{x=\\eta}}\n=\\frac{e^{\\eta^2}}{1/\\eta}.\n$$\n由于 $f(1)=0$，得\n$$\nf(2)=\\ln2\\cdot \\eta e^{\\eta^2}.\n$$\n\n#### （21）\n\n**解析：** 设曲线上点 $M(x,y)$，则切线在 $x$ 轴上的截距点为\n$$\nT\\left(x-\\frac{y}{y'},\\,0\\right).\n$$\n故\n$$\nS_{\\triangle MTP}=\\frac12\\cdot \\frac{y}{y'}\\cdot y=\\frac{y^2}{2y'}.\n$$\n题设给出\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t : \\frac{y^2}{2y'} = 3:2,\n$$\n即\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t=\\frac34\\cdot \\frac{y^2}{y'}.\n$$\n两边对 $x$ 求导，化简得\n$$\n3yy''-2(y')^2=0.\n$$\n令 $p=y'$，并把 $y''$ 写成 $p\\,\\dfrac{\\mathrm{d}p}{\\mathrm{d}y}$，则\n$$\n3y\\frac{\\mathrm{d}p}{\\mathrm{d}y}-2p=0.\n$$\n解得\n$$\np=C_1 y^{2/3},\n$$\n即\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=C_1 y^{2/3}.\n$$\n分离变量积分：\n$$\n3y^{1/3}=C_1x+C_2.\n$$\n又曲线过原点，故 $C_2=0$，于是\n$$\ny=Cx^3.\n$$\n由 $f'(x)>0$ 知 $C>0$。\n\n#### （22）\n\n**解析：**\n\n**(1)** 二次型 $f$ 的矩阵为\n$$\nA=\\begin{pmatrix}\n1&a&a\\\\\na&1&a\\\\\na&a&1\n\\end{pmatrix}.\n$$\n其特征值为\n$$\n1-a,\\quad 1-a,\\quad 1+2a.\n$$\n而\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2=(y_1+y_2)^2+4y_3^2\n$$\n有两个正惯性指数、一个零惯性指数。故应有\n$$\n1-a>0,\\qquad 1+2a=0,\n$$\n从而\n$$\na=-\\frac12.\n$$\n\n**(2)** 当 $a=-\\dfrac12$ 时，\n$$\nf=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3\n=\\left(x_1-\\frac{x_2+x_3}{2}\\right)^2+\\frac34(x_2-x_3)^2.\n$$\n令\n$$\n\\begin{cases}\nz_1=x_1-\\dfrac{x_2+x_3}{2},\\\\[4pt]\nz_2=\\dfrac{\\sqrt3}{2}(x_2-x_3),\\\\[4pt]\nz_3=x_3,\n\\end{cases}\n$$\n则 $f=z_1^2+z_2^2$。再取\n$$\n\\begin{cases}\nz_1=y_1+y_2,\\\\\nz_2=2y_3,\\\\\nz_3=y_1,\n\\end{cases}\n$$\n即可化为\n$$\ng=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n故可取\n$$\nP=\n\\begin{pmatrix}\n2 & 1 & \\dfrac{2}{\\sqrt3}\\\\[4pt]\n1 & 0 & \\dfrac{4}{\\sqrt3}\\\\[4pt]\n1 & 0 & 0\n\\end{pmatrix}.\n$$\n\n#### （23）\n\n**解析：**\n\n**(1)** 若 $P=(\\alpha,A\\alpha)$ 不可逆，则 $\\alpha$ 与 $A\\alpha$ 线性相关，即 $A\\alpha=k\\alpha$，这说明 $\\alpha$ 是 $A$ 的特征向量，与题意矛盾。所以 $P$ 可逆。\n\n**(2)** 由\n$$\nA^2\\alpha+A\\alpha-6\\alpha=0\n$$\n得\n$$\nA^2\\alpha=6\\alpha-A\\alpha.\n$$\n于是\n$$\nAP=A(\\alpha,A\\alpha)=(A\\alpha,A^2\\alpha)=(A\\alpha,6\\alpha-A\\alpha)\n=P\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n故\n$$\nP^{-1}AP=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n其特征多项式为\n$$\n\\lambda^2+\\lambda-6=(\\lambda-2)(\\lambda+3),\n$$\n有两个不同特征值 $2,-3$，因此 $A$ 相似于对角矩阵\n$$\n\\begin{pmatrix}\n2&0\\\\\n0&-3\n\\end{pmatrix}.\n$$",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "continuity",
-    "asymptote",
-    "polar_coordinates"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "三、简明解析"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-2020.1",
+      "number": 1,
+      "title": "2020 年数学二 第 1 题",
+      "questionText": "选择题\n#### （1）\n\n当 $x \\to 0^{+}$ 时，下列无穷小量中阶最高的是\n- (A) $\\int_{0}^{x}{\\left( e^{t^{2}} - 1 \\right) \\mathrm{~d} t}$\n- (B) $\\int_{0}^{x}{\\ln \\left( 1 + \\sqrt{t^{3}} \\right) \\mathrm{~d} t}$\n- (C) $\\int_{0}^{\\sin x}{\\sin t^{2} \\mathrm{~d} t}$\n- (D) $\\int_{0}^{1-\\cos x}{\\sqrt{\\sin^{3} t} \\mathrm{~d} t}$\n\n#### （2）\n\n函数 $f\\left( x \\right) = \\dfrac{e^{\\frac{1}{x-1}} \\ln \\left| 1+x \\right|}{\\left( e^{x} - 1 \\right)\\left( x-2 \\right)}$ 的第二类间断点的个数为\n- (A) $1$ 个\n- (B) $2$ 个\n- (C) $3$ 个\n- (D) $4$ 个\n\n#### （3）\n\n$\\int_{0}^{1}{\\dfrac{\\arcsin \\sqrt{x}}{\\sqrt{x\\left( 1-x \\right)}} \\mathrm{~d} x} =$\n- (A) $\\dfrac{\\pi^{2}}{4}$\n- (B) $\\dfrac{\\pi^{2}}{8}$\n- (C) $\\dfrac{\\pi}{4}$\n- (D) $\\dfrac{\\pi}{8}$\n\n#### （4）\n\n已知函数 $f\\left( x \\right) = x^{2} \\ln \\left( 1-x \\right)$，当 $n \\geq 3$ 时，$f^{\\left( n \\right)}\\left( 0 \\right) =$\n- (A) $-\\dfrac{n!}{n-2}$\n- (B) $\\dfrac{n!}{n-2}$\n- (C) $-\\dfrac{\\left( n-2 \\right)!}{n}$\n- (D) $\\dfrac{\\left( n-2 \\right)!}{n}$\n\n#### （5）\n\n关于函数\n$$\nf(x,y)=\n\\begin{cases}\nxy, & xy\\ne 0,\\\\\nx, & y=0,\\\\\ny, & x=0,\n\\end{cases}\n$$\n给出下列结论：\n\n1. $\\left.\\dfrac{\\partial f}{\\partial x}\\right|_{(0,0)}=1$\n2. $\\left.\\dfrac{\\partial^2 f}{\\partial x\\partial y}\\right|_{(0,0)}=1$\n3. $\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)=0$\n4. $\\lim\\limits_{y\\to0}\\lim\\limits_{x\\to0}f(x,y)=0$\n\n其中正确的个数为\n\n- (A) $4$\n- (B) $3$\n- (C) $2$\n- (D) $1$\n\n#### （6）\n\n设函数 $f\\left( x \\right)$ 在区间 $\\left[ -2,2 \\right]$ 上可导，且 $f^{\\prime}\\left( x \\right) > f\\left( x \\right) > 0$，则\n- (A) $\\dfrac{f\\left( -2 \\right)}{f\\left( -1 \\right)} > 1$\n- (B) $\\dfrac{f\\left( 0 \\right)}{f\\left( -1 \\right)} > e$\n- (C) $\\dfrac{f\\left( 1 \\right)}{f\\left( -1 \\right)} < e^{2}$\n- (D) $\\dfrac{f\\left( 2 \\right)}{f\\left( -1 \\right)} < e^{3}$\n\n#### （7）\n\n设 4 阶矩阵 $\\boldsymbol{A}=(a_{ij})$ 不可逆，$a_{12}$ 的代数余子式 $A_{12}\\ne 0$。记 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\boldsymbol{\\alpha}_3,\\boldsymbol{\\alpha}_4$ 为矩阵 $\\boldsymbol{A}$ 的列向量，$\\boldsymbol{A}^*$ 为 $\\boldsymbol{A}$ 的伴随矩阵，则方程组\n$$\n\\boldsymbol{A}^*\\boldsymbol{x}=0\n$$\n的通解为\n\n- (A) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2+k_3\\boldsymbol{\\alpha}_3$\n- (B) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2+k_3\\boldsymbol{\\alpha}_4$\n- (C) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4$\n- (D) $\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_2+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4$\n\n其中 $k_1,k_2,k_3$ 为任意常数。\n\n#### （8）\n\n设 $\\boldsymbol{A}$ 为 3 阶矩阵，$\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2$ 为 $\\boldsymbol{A}$ 的属于特征值 $1$ 的线性无关特征向量，$\\boldsymbol{\\alpha}_3$ 为 $\\boldsymbol{A}$ 的属于特征值 $-1$ 的特征向量。则满足\n$$\n\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\n\\begin{pmatrix}\n1&0&0\\\\\n0&-1&0\\\\\n0&0&1\n\\end{pmatrix}\n$$\n的可逆矩阵 $\\boldsymbol{P}$ 可为\n\n- (A) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3\\right)$\n- (B) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2,\\ \\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3\\right)$\n- (C) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_3,\\ -\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2\\right)$\n- (D) $\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2\\right)$",
+      "answerText": "（答案待校对补充）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_and_infinitesimal",
+        "discontinuity",
+        "differentiability_continuity"
+      ],
+      "methodIds": [],
+      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2020,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、试题"
+    },
+    {
+      "id": "bank.exam.m2-2020.2",
+      "number": 2,
+      "title": "2020 年数学二 第 2 题",
+      "questionText": "填空题\n#### （9）\n\n设\n$$\n\\begin{cases}\nx=\\sqrt{t^2+1},\\\\\ny=\\ln\\!\\left(t+\\sqrt{t^2+1}\\right),\n\\end{cases}\n$$\n则 $\\left.\\dfrac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=1}=$\n\n#### （10）\n\n$\\int_{0}^{1}{\\mathrm{d} y \\int_{\\sqrt{y}}^{1}{\\sqrt{x^{3}+1} \\mathrm{~d} x}} =$\n\n#### （11）\n\n设 $z = \\arctan \\left[ xy + \\sin \\left( x+y \\right) \\right]$，则 $\\left. \\mathrm{d} z \\right|_{\\left( 0,\\pi \\right)} =$\n\n#### （12）\n\n斜边长为 $2a$ 的等腰直角三角形平板铅直地沉没在水中，且斜边与水面相齐。记重力加速度为 $g$，水的密度为 $\\rho$，则该平板一侧所受的水压力为\n\n#### （13）\n\n设 $y = y\\left( x \\right)$ 满足 $y^{\\prime\\prime} + 2y^{\\prime} + y = 0$，且 $y\\left( 0 \\right) = 0$，$y^{\\prime}\\left( 0 \\right) = 1$，则 $\\int_{0}^{+\\infty}{y\\left( x \\right) \\mathrm{~d} x} =$\n\n#### （14）\n\n行列式\n$$\n\\begin{vmatrix}\na&0&-1&1\\\\\n0&a&1&-1\\\\\n-1&1&a&0\\\\\n1&-1&0&a\n\\end{vmatrix}\n=\n$$",
+      "answerText": "（答案待校对补充）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral",
+        "integral_physical_applications",
+        "parametric_derivative"
+      ],
+      "methodIds": [],
+      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：physical_applications_of_integral、infinite_interval_integral、integral_physical_applications、parametric_derivative，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2020,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、试题"
+    },
+    {
+      "id": "bank.exam.m2-2020.3",
+      "number": 3,
+      "title": "2020 年数学二 第 3 题",
+      "questionText": "解答题\n#### （15）\n\n求曲线 $y = \\dfrac{x^{1+x}}{\\left( 1+x \\right)^{x}} \\left( x>0 \\right)$ 的斜渐近线方程。\n\n#### （16）\n\n已知函数 $f\\left( x \\right)$ 连续且 $\\lim\\limits_{x\\to 0}{\\dfrac{f\\left( x \\right)}{x}} = 1$，$g\\left( x \\right)=\\int_{0}^{1}{f\\left( xt \\right) \\mathrm{~d} t}$，求 $g^{\\prime}\\left( x \\right)$，并证明 $g^{\\prime}\\left( x \\right)$ 在 $x=0$ 处连续。\n\n#### （17）\n\n求函数 $f\\left( x,y \\right)=x^{3}+8y^{3}-xy$ 的极值。\n\n#### （18）\n\n设函数 $f\\left( x \\right)$ 的定义域为 $\\left( 0,+\\infty \\right)$ 且满足\n$$\n2f\\left( x \\right)+x^{2}f\\left( \\dfrac{1}{x} \\right)=\\dfrac{x^{2}+2x}{\\sqrt{1+x^{2}}}\n$$\n求 $f\\left( x \\right)$，并求曲线 $y=f\\left( x \\right)$，$y=\\dfrac{1}{2}$，$y=\\dfrac{\\sqrt{3}}{2}$ 及 $y$ 轴所围图形绕 $x$ 轴旋转所成旋转体的体积。\n\n#### （19）\n\n设平面区域 $D$ 由直线 $x=1$，$x=2$，$y=x$ 与 $x$ 轴围成。计算\n$$\n\\iint_{D}{\\dfrac{\\sqrt{x^{2}+y^{2}}}{x} \\mathrm{~d} x \\mathrm{~d} y}\n$$\n\n#### （20）\n\n设函数 $f\\left( x \\right)=\\int_{1}^{x}{e^{t^{2}} \\mathrm{~d} t}$。\n\n1. 证明：存在 $\\xi \\in \\left( 1,2 \\right)$，使得 $f\\left( \\xi \\right)=\\left( 2-\\xi \\right)e^{\\xi^{2}}$；\n2. 证明：存在 $\\eta \\in \\left( 1,2 \\right)$，使得 $f\\left( 2 \\right)=\\ln 2 \\cdot \\eta e^{\\eta^{2}}$。\n\n#### （21）\n\n设函数 $f\\left( x \\right)$ 可导，且 $f^{\\prime}\\left( x \\right)>0$，曲线 $y=f\\left( x \\right)\\left( x\\geq 0 \\right)$ 经过坐标原点 $O$。$M$ 为其上任意一点，点 $M$ 处的切线与 $x$ 轴交于点 $T$，又 $MP$ 垂直 $x$ 轴于点 $P$。已知由曲线 $y=f\\left( x \\right)$、直线 $MP$ 以及 $x$ 轴所围图形的面积与 $\\triangle MTP$ 的面积之比恒为 $3:2$，求满足上述条件的曲线方程。\n\n#### （22）\n\n设二次型\n$$\nf(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3\n$$\n经过可逆线性变换\n$$\n\\begin{pmatrix}\nx_1\\\\\nx_2\\\\\nx_3\n\\end{pmatrix}\n=\n\\boldsymbol{P}\n\\begin{pmatrix}\ny_1\\\\\ny_2\\\\\ny_3\n\\end{pmatrix}\n$$\n化为二次型\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n\n1. 求 $a$ 的值；\n2. 求可逆矩阵 $\\boldsymbol{P}$。\n\n#### （23）\n\n设 $\\boldsymbol{A}$ 为 2 阶矩阵，$\\boldsymbol{P}=(\\boldsymbol{\\alpha},\\boldsymbol{A}\\boldsymbol{\\alpha})$，其中 $\\boldsymbol{\\alpha}$ 是非零向量且不是 $\\boldsymbol{A}$ 的特征向量。\n\n1. 证明 $\\boldsymbol{P}$ 为可逆矩阵；\n2. 若 $\\boldsymbol{A}^2\\boldsymbol{\\alpha}+\\boldsymbol{A}\\boldsymbol{\\alpha}-6\\boldsymbol{\\alpha}=0$，求 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$，并判断 $\\boldsymbol{A}$ 是否相似于对角矩阵。\n\n---",
+      "answerText": "（答案待校对补充）\n\n解答题结论\n- （15）斜渐近线：$y=\\dfrac{1}{e}x+\\dfrac{1}{2e}$\n- （16）$g'(x)=\\begin{cases}\\dfrac{x f(x)-\\int_0^x f(u)\\,\\mathrm{d}u}{x^2}, & x\\ne0,\\\\[6pt]\\dfrac12, & x=0\\end{cases}$，且在 $x=0$ 处连续\n- （17）极小值点为 $\\left(\\dfrac16,\\dfrac1{12}\\right)$，极小值为 $-\\dfrac1{216}$\n- （18）$f(x)=\\dfrac{x}{\\sqrt{1+x^2}}$，旋转体体积为 $\\dfrac{\\pi^2}{6}$\n- （19）$\\dfrac34\\sqrt2+\\dfrac34\\ln(\\sqrt2+1)$\n- （20）两问结论均成立\n- （21）曲线方程为 $y=Cx^3$，其中 $C>0$\n- （22）$a=-\\dfrac12$，可取 $\\boldsymbol{P}=\\begin{pmatrix}2&1&\\dfrac{2}{\\sqrt3}\\\\[4pt]1&0&\\dfrac{4}{\\sqrt3}\\\\[4pt]1&0&0\\end{pmatrix}$\n- （23）$\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}$，且 $\\boldsymbol{A}$ 相似于对角矩阵 $\\begin{pmatrix}2&0\\\\0&-3\\end{pmatrix}$\n\n---",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "function_domain_range",
+        "asymptote",
+        "multivariable_limit_continuity"
+      ],
+      "methodIds": [],
+      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；审计修复：原卷 m2-2020.6 为本题的结论列表（无题面占位），已并入本题解答",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2020,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、试题"
+    },
+    {
+      "id": "bank.exam.m2-2020.9",
+      "number": 9,
+      "title": "2020 年数学二 第 9 题",
+      "questionText": "解答题\n#### （15）\n\n**解析：** 设\n$$\ny=\\frac{x^{1+x}}{(1+x)^x}=x\\left(1+\\frac1x\\right)^{-x}.\n$$\n当 $x\\to+\\infty$ 时，\n$$\n-x\\ln\\left(1+\\frac1x\\right)=-1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right),\n$$\n故\n$$\ny=\\frac{x}{e}\\exp\\!\\left(\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}\\left(1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}+\\frac{1}{2e}+o(1).\n$$\n所以斜渐近线为\n$$\ny=\\frac{1}{e}x+\\frac{1}{2e}.\n$$\n\n#### （16）\n\n**解析：** 对 $x\\ne0$，令 $u=xt$，则\n$$\ng(x)=\\int_0^1 f(xt)\\,\\mathrm{d}t=\\frac{1}{x}\\int_0^x f(u)\\,\\mathrm{d}u.\n$$\n因此\n$$\ng'(x)=\\frac{x f(x)-\\int_0^x f(u)\\,\\mathrm{d}u}{x^2}\\qquad(x\\ne0).\n$$\n又因 $\\displaystyle \\lim_{x\\to0}\\frac{f(x)}x=1$ 且 $f$ 连续，所以 $f(0)=0$。于是\n$$\ng'(0)=\\lim_{x\\to0}\\frac{g(x)-g(0)}{x}\n=\\lim_{x\\to0}\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\n=\\frac12.\n$$\n再看连续性：\n$$\n\\lim_{x\\to0}g'(x)\n=\\lim_{x\\to0}\\left(\\frac{f(x)}x-\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\\right)\n=1-\\frac12=\\frac12=g'(0).\n$$\n故 $g'(x)$ 在 $x=0$ 处连续。\n\n#### （17）\n\n**解析：** 由\n$$\nf_x=3x^2-y,\\qquad f_y=24y^2-x\n$$\n得驻点满足\n$$\n3x^2=y,\\qquad 24y^2=x.\n$$\n解得驻点 $(0,0)$ 与 $\\left(\\dfrac16,\\dfrac1{12}\\right)$。\n\n二阶偏导为\n$$\nf_{xx}=6x,\\qquad f_{xy}=-1,\\qquad f_{yy}=48y.\n$$\n判别式\n$$\n\\Delta=f_{xx}f_{yy}-f_{xy}^2=288xy-1.\n$$\n- 在 $(0,0)$ 处，$\\Delta=-1<0$，不是极值点；\n- 在 $\\left(\\dfrac16,\\dfrac1{12}\\right)$ 处，$\\Delta=3>0$ 且 $f_{xx}=1>0$，为极小值点。\n\n极小值为\n$$\nf\\left(\\frac16,\\frac1{12}\\right)=-\\frac1{216}.\n$$\n\n#### （18）\n\n**解析：** 原式为\n$$\n2f(x)+x^2f\\!\\left(\\frac1x\\right)=\\frac{x^2+2x}{\\sqrt{1+x^2}}.\n$$\n把 $x$ 换成 $\\dfrac1x$，再乘以 $x^2$，得\n$$\nf(x)+2x^2f\\!\\left(\\frac1x\\right)=\\frac{x+2x^2}{\\sqrt{1+x^2}}.\n$$\n联立两式解得\n$$\nf(x)=\\frac{x}{\\sqrt{1+x^2}}.\n$$\n\n由 $y=\\dfrac{x}{\\sqrt{1+x^2}}$ 得\n$$\nx=\\frac{y}{\\sqrt{1-y^2}}.\n$$\n所围平面图形绕 $x$ 轴旋转，用壳层法：\n$$\nV=2\\pi\\int_{1/2}^{\\sqrt3/2} y\\cdot \\frac{y}{\\sqrt{1-y^2}}\\,\\mathrm{d}y\n=2\\pi\\int_{1/2}^{\\sqrt3/2}\\frac{y^2}{\\sqrt{1-y^2}}\\,\\mathrm{d}y.\n$$\n令 $y=\\sin t$，则\n$$\nV=2\\pi\\int_{\\pi/6}^{\\pi/3}\\sin^2 t\\,\\mathrm{d}t\n=\\pi\\int_{\\pi/6}^{\\pi/3}(1-\\cos2t)\\,\\mathrm{d}t\n=\\frac{\\pi^2}{6}.\n$$\n\n#### （19）\n\n**解析：** 区域 $D$ 由 $x=1,\\ x=2,\\ y=0,\\ y=x$ 围成，改用极坐标：\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta,\\qquad 0\\le \\theta\\le \\frac{\\pi}{4},\n$$\n且\n$$\n\\sec\\theta \\le r \\le 2\\sec\\theta.\n$$\n原积分化为\n$$\n\\int_0^{\\pi/4}\\int_{\\sec\\theta}^{2\\sec\\theta}\n\\frac{r}{r\\cos\\theta}\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta\n=\\frac32\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta.\n$$\n而\n$$\n\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta\n=\\frac{\\sqrt2}{2}+\\frac12\\ln(\\sqrt2+1).\n$$\n故原积分为\n$$\n\\frac34\\sqrt2+\\frac34\\ln(\\sqrt2+1).\n$$\n\n#### （20）\n\n**解析：**\n\n**(1)** 令\n$$\nF(x)=f(x)+(x-2)e^{x^2}.\n$$\n则\n$$\nF(1)= -e<0,\\qquad F(2)=f(2)>0.\n$$\n由连续函数零点定理，存在 $\\xi\\in(1,2)$，使 $F(\\xi)=0$，即\n$$\nf(\\xi)=(2-\\xi)e^{\\xi^2}.\n$$\n\n**(2)** 取 $g(x)=\\ln x$，对 $f(x)$ 与 $g(x)$ 在 $[1,2]$ 上用柯西中值定理，存在 $\\eta\\in(1,2)$，使\n$$\n\\frac{f(2)-f(1)}{\\ln2-\\ln1}\n=\\frac{f'(\\eta)}{(\\ln x)'|_{x=\\eta}}\n=\\frac{e^{\\eta^2}}{1/\\eta}.\n$$\n由于 $f(1)=0$，得\n$$\nf(2)=\\ln2\\cdot \\eta e^{\\eta^2}.\n$$\n\n#### （21）\n\n**解析：** 设曲线上点 $M(x,y)$，则切线在 $x$ 轴上的截距点为\n$$\nT\\left(x-\\frac{y}{y'},\\,0\\right).\n$$\n故\n$$\nS_{\\triangle MTP}=\\frac12\\cdot \\frac{y}{y'}\\cdot y=\\frac{y^2}{2y'}.\n$$\n题设给出\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t : \\frac{y^2}{2y'} = 3:2,\n$$\n即\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t=\\frac34\\cdot \\frac{y^2}{y'}.\n$$\n两边对 $x$ 求导，化简得\n$$\n3yy''-2(y')^2=0.\n$$\n令 $p=y'$，并把 $y''$ 写成 $p\\,\\dfrac{\\mathrm{d}p}{\\mathrm{d}y}$，则\n$$\n3y\\frac{\\mathrm{d}p}{\\mathrm{d}y}-2p=0.\n$$\n解得\n$$\np=C_1 y^{2/3},\n$$\n即\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=C_1 y^{2/3}.\n$$\n分离变量积分：\n$$\n3y^{1/3}=C_1x+C_2.\n$$\n又曲线过原点，故 $C_2=0$，于是\n$$\ny=Cx^3.\n$$\n由 $f'(x)>0$ 知 $C>0$。\n\n#### （22）\n\n**解析：**\n\n**(1)** 二次型 $f$ 的矩阵为\n$$\nA=\\begin{pmatrix}\n1&a&a\\\\\na&1&a\\\\\na&a&1\n\\end{pmatrix}.\n$$\n其特征值为\n$$\n1-a,\\quad 1-a,\\quad 1+2a.\n$$\n而\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2=(y_1+y_2)^2+4y_3^2\n$$\n有两个正惯性指数、一个零惯性指数。故应有\n$$\n1-a>0,\\qquad 1+2a=0,\n$$\n从而\n$$\na=-\\frac12.\n$$\n\n**(2)** 当 $a=-\\dfrac12$ 时，\n$$\nf=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3\n=\\left(x_1-\\frac{x_2+x_3}{2}\\right)^2+\\frac34(x_2-x_3)^2.\n$$\n令\n$$\n\\begin{cases}\nz_1=x_1-\\dfrac{x_2+x_3}{2},\\\\[4pt]\nz_2=\\dfrac{\\sqrt3}{2}(x_2-x_3),\\\\[4pt]\nz_3=x_3,\n\\end{cases}\n$$\n则 $f=z_1^2+z_2^2$。再取\n$$\n\\begin{cases}\nz_1=y_1+y_2,\\\\\nz_2=2y_3,\\\\\nz_3=y_1,\n\\end{cases}\n$$\n即可化为\n$$\ng=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n故可取\n$$\nP=\n\\begin{pmatrix}\n2 & 1 & \\dfrac{2}{\\sqrt3}\\\\[4pt]\n1 & 0 & \\dfrac{4}{\\sqrt3}\\\\[4pt]\n1 & 0 & 0\n\\end{pmatrix}.\n$$\n\n#### （23）\n\n**解析：**\n\n**(1)** 若 $P=(\\alpha,A\\alpha)$ 不可逆，则 $\\alpha$ 与 $A\\alpha$ 线性相关，即 $A\\alpha=k\\alpha$，这说明 $\\alpha$ 是 $A$ 的特征向量，与题意矛盾。所以 $P$ 可逆。\n\n**(2)** 由\n$$\nA^2\\alpha+A\\alpha-6\\alpha=0\n$$\n得\n$$\nA^2\\alpha=6\\alpha-A\\alpha.\n$$\n于是\n$$\nAP=A(\\alpha,A\\alpha)=(A\\alpha,A^2\\alpha)=(A\\alpha,6\\alpha-A\\alpha)\n=P\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n故\n$$\nP^{-1}AP=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n其特征多项式为\n$$\n\\lambda^2+\\lambda-6=(\\lambda-2)(\\lambda+3),\n$$\n有两个不同特征值 $2,-3$，因此 $A$ 相似于对角矩阵\n$$\n\\begin{pmatrix}\n2&0\\\\\n0&-3\n\\end{pmatrix}.\n$$",
+      "answerText": "**解析：**\n设\n$$\ny=\\frac{x^{1+x}}{(1+x)^x}=x\\left(1+\\frac1x\\right)^{-x}.\n$$\n当 $x\\to+\\infty$ 时，\n$$\n-x\\ln\\left(1+\\frac1x\\right)=-1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right),\n$$\n故\n$$\ny=\\frac{x}{e}\\exp\\!\\left(\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}\\left(1+\\frac{1}{2x}+o\\!\\left(\\frac1x\\right)\\right)\n=\\frac{x}{e}+\\frac{1}{2e}+o(1).\n$$\n所以斜渐近线为\n$$\ny=\\frac{1}{e}x+\\frac{1}{2e}.\n$$\n\n#### （16）\n\n**解析：** 对 $x\\ne0$，令 $u=xt$，则\n$$\ng(x)=\\int_0^1 f(xt)\\,\\mathrm{d}t=\\frac{1}{x}\\int_0^x f(u)\\,\\mathrm{d}u.\n$$\n因此\n$$\ng'(x)=\\frac{x f(x)-\\int_0^x f(u)\\,\\mathrm{d}u}{x^2}\\qquad(x\\ne0).\n$$\n又因 $\\displaystyle \\lim_{x\\to0}\\frac{f(x)}x=1$ 且 $f$ 连续，所以 $f(0)=0$。于是\n$$\ng'(0)=\\lim_{x\\to0}\\frac{g(x)-g(0)}{x}\n=\\lim_{x\\to0}\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\n=\\frac12.\n$$\n再看连续性：\n$$\n\\lim_{x\\to0}g'(x)\n=\\lim_{x\\to0}\\left(\\frac{f(x)}x-\\frac{1}{x^2}\\int_0^x f(u)\\,\\mathrm{d}u\\right)\n=1-\\frac12=\\frac12=g'(0).\n$$\n故 $g'(x)$ 在 $x=0$ 处连续。\n\n#### （17）\n\n**解析：** 由\n$$\nf_x=3x^2-y,\\qquad f_y=24y^2-x\n$$\n得驻点满足\n$$\n3x^2=y,\\qquad 24y^2=x.\n$$\n解得驻点 $(0,0)$ 与 $\\left(\\dfrac16,\\dfrac1{12}\\right)$。\n\n二阶偏导为\n$$\nf_{xx}=6x,\\qquad f_{xy}=-1,\\qquad f_{yy}=48y.\n$$\n判别式\n$$\n\\Delta=f_{xx}f_{yy}-f_{xy}^2=288xy-1.\n$$\n- 在 $(0,0)$ 处，$\\Delta=-1<0$，不是极值点；\n- 在 $\\left(\\dfrac16,\\dfrac1{12}\\right)$ 处，$\\Delta=3>0$ 且 $f_{xx}=1>0$，为极小值点。\n\n极小值为\n$$\nf\\left(\\frac16,\\frac1{12}\\right)=-\\frac1{216}.\n$$\n\n#### （18）\n\n**解析：** 原式为\n$$\n2f(x)+x^2f\\!\\left(\\frac1x\\right)=\\frac{x^2+2x}{\\sqrt{1+x^2}}.\n$$\n把 $x$ 换成 $\\dfrac1x$，再乘以 $x^2$，得\n$$\nf(x)+2x^2f\\!\\left(\\frac1x\\right)=\\frac{x+2x^2}{\\sqrt{1+x^2}}.\n$$\n联立两式解得\n$$\nf(x)=\\frac{x}{\\sqrt{1+x^2}}.\n$$\n\n由 $y=\\dfrac{x}{\\sqrt{1+x^2}}$ 得\n$$\nx=\\frac{y}{\\sqrt{1-y^2}}.\n$$\n所围平面图形绕 $x$ 轴旋转，用壳层法：\n$$\nV=2\\pi\\int_{1/2}^{\\sqrt3/2} y\\cdot \\frac{y}{\\sqrt{1-y^2}}\\,\\mathrm{d}y\n=2\\pi\\int_{1/2}^{\\sqrt3/2}\\frac{y^2}{\\sqrt{1-y^2}}\\,\\mathrm{d}y.\n$$\n令 $y=\\sin t$，则\n$$\nV=2\\pi\\int_{\\pi/6}^{\\pi/3}\\sin^2 t\\,\\mathrm{d}t\n=\\pi\\int_{\\pi/6}^{\\pi/3}(1-\\cos2t)\\,\\mathrm{d}t\n=\\frac{\\pi^2}{6}.\n$$\n\n#### （19）\n\n**解析：** 区域 $D$ 由 $x=1,\\ x=2,\\ y=0,\\ y=x$ 围成，改用极坐标：\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta,\\qquad 0\\le \\theta\\le \\frac{\\pi}{4},\n$$\n且\n$$\n\\sec\\theta \\le r \\le 2\\sec\\theta.\n$$\n原积分化为\n$$\n\\int_0^{\\pi/4}\\int_{\\sec\\theta}^{2\\sec\\theta}\n\\frac{r}{r\\cos\\theta}\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta\n=\\frac32\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta.\n$$\n而\n$$\n\\int_0^{\\pi/4}\\sec^3\\theta\\,\\mathrm{d}\\theta\n=\\frac{\\sqrt2}{2}+\\frac12\\ln(\\sqrt2+1).\n$$\n故原积分为\n$$\n\\frac34\\sqrt2+\\frac34\\ln(\\sqrt2+1).\n$$\n\n#### （20）\n\n**解析：**\n\n**(1)** 令\n$$\nF(x)=f(x)+(x-2)e^{x^2}.\n$$\n则\n$$\nF(1)= -e<0,\\qquad F(2)=f(2)>0.\n$$\n由连续函数零点定理，存在 $\\xi\\in(1,2)$，使 $F(\\xi)=0$，即\n$$\nf(\\xi)=(2-\\xi)e^{\\xi^2}.\n$$\n\n**(2)** 取 $g(x)=\\ln x$，对 $f(x)$ 与 $g(x)$ 在 $[1,2]$ 上用柯西中值定理，存在 $\\eta\\in(1,2)$，使\n$$\n\\frac{f(2)-f(1)}{\\ln2-\\ln1}\n=\\frac{f'(\\eta)}{(\\ln x)'|_{x=\\eta}}\n=\\frac{e^{\\eta^2}}{1/\\eta}.\n$$\n由于 $f(1)=0$，得\n$$\nf(2)=\\ln2\\cdot \\eta e^{\\eta^2}.\n$$\n\n#### （21）\n\n**解析：** 设曲线上点 $M(x,y)$，则切线在 $x$ 轴上的截距点为\n$$\nT\\left(x-\\frac{y}{y'},\\,0\\right).\n$$\n故\n$$\nS_{\\triangle MTP}=\\frac12\\cdot \\frac{y}{y'}\\cdot y=\\frac{y^2}{2y'}.\n$$\n题设给出\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t : \\frac{y^2}{2y'} = 3:2,\n$$\n即\n$$\n\\int_0^x y(t)\\,\\mathrm{d}t=\\frac34\\cdot \\frac{y^2}{y'}.\n$$\n两边对 $x$ 求导，化简得\n$$\n3yy''-2(y')^2=0.\n$$\n令 $p=y'$，并把 $y''$ 写成 $p\\,\\dfrac{\\mathrm{d}p}{\\mathrm{d}y}$，则\n$$\n3y\\frac{\\mathrm{d}p}{\\mathrm{d}y}-2p=0.\n$$\n解得\n$$\np=C_1 y^{2/3},\n$$\n即\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=C_1 y^{2/3}.\n$$\n分离变量积分：\n$$\n3y^{1/3}=C_1x+C_2.\n$$\n又曲线过原点，故 $C_2=0$，于是\n$$\ny=Cx^3.\n$$\n由 $f'(x)>0$ 知 $C>0$。\n\n#### （22）\n\n**解析：**\n\n**(1)** 二次型 $f$ 的矩阵为\n$$\nA=\\begin{pmatrix}\n1&a&a\\\\\na&1&a\\\\\na&a&1\n\\end{pmatrix}.\n$$\n其特征值为\n$$\n1-a,\\quad 1-a,\\quad 1+2a.\n$$\n而\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2=(y_1+y_2)^2+4y_3^2\n$$\n有两个正惯性指数、一个零惯性指数。故应有\n$$\n1-a>0,\\qquad 1+2a=0,\n$$\n从而\n$$\na=-\\frac12.\n$$\n\n**(2)** 当 $a=-\\dfrac12$ 时，\n$$\nf=x_1^2+x_2^2+x_3^2-x_1x_2-x_1x_3-x_2x_3\n=\\left(x_1-\\frac{x_2+x_3}{2}\\right)^2+\\frac34(x_2-x_3)^2.\n$$\n令\n$$\n\\begin{cases}\nz_1=x_1-\\dfrac{x_2+x_3}{2},\\\\[4pt]\nz_2=\\dfrac{\\sqrt3}{2}(x_2-x_3),\\\\[4pt]\nz_3=x_3,\n\\end{cases}\n$$\n则 $f=z_1^2+z_2^2$。再取\n$$\n\\begin{cases}\nz_1=y_1+y_2,\\\\\nz_2=2y_3,\\\\\nz_3=y_1,\n\\end{cases}\n$$\n即可化为\n$$\ng=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n故可取\n$$\nP=\n\\begin{pmatrix}\n2 & 1 & \\dfrac{2}{\\sqrt3}\\\\[4pt]\n1 & 0 & \\dfrac{4}{\\sqrt3}\\\\[4pt]\n1 & 0 & 0\n\\end{pmatrix}.\n$$\n\n#### （23）\n\n**解析：**\n\n**(1)** 若 $P=(\\alpha,A\\alpha)$ 不可逆，则 $\\alpha$ 与 $A\\alpha$ 线性相关，即 $A\\alpha=k\\alpha$，这说明 $\\alpha$ 是 $A$ 的特征向量，与题意矛盾。所以 $P$ 可逆。\n\n**(2)** 由\n$$\nA^2\\alpha+A\\alpha-6\\alpha=0\n$$\n得\n$$\nA^2\\alpha=6\\alpha-A\\alpha.\n$$\n于是\n$$\nAP=A(\\alpha,A\\alpha)=(A\\alpha,A^2\\alpha)=(A\\alpha,6\\alpha-A\\alpha)\n=P\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n故\n$$\nP^{-1}AP=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}.\n$$\n其特征多项式为\n$$\n\\lambda^2+\\lambda-6=(\\lambda-2)(\\lambda+3),\n$$\n有两个不同特征值 $2,-3$，因此 $A$ 相似于对角矩阵\n$$\n\\begin{pmatrix}\n2&0\\\\\n0&-3\n\\end{pmatrix}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "continuity",
+        "asymptote",
+        "polar_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2020,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "三、简明解析"
+    }
+  ]
 }

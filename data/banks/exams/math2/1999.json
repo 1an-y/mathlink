@@ -1,764 +1,764 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 1999,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": true,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1999-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 1999,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、填空题",
-   "二、选择题",
-   "三、计算题",
-   "四、计算题",
-   "五、计算题",
-   "六、应用题",
-   "七、计算题",
-   "八、证明题",
-   "九、计算题",
-   "十、证明题",
-   "十一、计算题",
-   "十二、计算题"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-1999.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-1999.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-1999.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-1999.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-1999.5",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-1999.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-1999.7",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-1999.8",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-1999.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-1999.10",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-1999.11",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-1999.12",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-1999.13",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-1999.14",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-1999.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-1999.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-1999.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-1999.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-1999.19",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-1999.20",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   }
-  ],
-  "total": 20
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-1999.1",
-   "number": 1,
-   "title": "1999 年数学二 第 1 题",
-   "questionText": "曲线\n\n$\\left\\{\\begin{array}{l}x=e^{t}\\sin 2t,\\\\y=e^{t}\\cos t\\end{array}\\right.$\n\n在点 $\\left(0,1\\right)$ 处的法线方程为 ________。",
-   "answerText": "$2x+y-1=0$\n\n**解析：**\n点 $\\left(0,1\\right)$ 对应 $t=0$；$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\bigg|_{t=0}=\\dfrac{e^{t}\\left(\\cos t-\\sin t\\right)}{e^{t}\\left(\\sin 2t+2\\cos 2t\\right)}\\bigg|_{t=0}=\\dfrac{1}{2}$，法线斜率为 $-2$，由点斜式得 $2x+y-1=0$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "parametric_derivative"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1999-2.md",
+  "paperInfo": {
     "year": 1999,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+    "label": "数学二",
+    "sections": [
+      "一、填空题",
+      "二、选择题",
+      "三、计算题",
+      "四、计算题",
+      "五、计算题",
+      "六、应用题",
+      "七、计算题",
+      "八、证明题",
+      "九、计算题",
+      "十、证明题",
+      "十一、计算题",
+      "十二、计算题"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-1999.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-1999.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-1999.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-1999.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-1999.5",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-1999.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-1999.7",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-1999.8",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-1999.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-1999.10",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-1999.11",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-1999.12",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-1999.13",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-1999.14",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-1999.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-1999.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-1999.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-1999.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-1999.19",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-1999.20",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      }
+    ],
+    "total": 20
   },
-  {
-   "id": "bank.exam.m2-1999.2",
-   "number": 2,
-   "title": "1999 年数学二 第 2 题",
-   "questionText": "设函数 $y=y\\left(x\\right)$ 由方程 $\\ln\\left(x^{2}+y\\right)=x^{3}+y\\sin x$ 确定，则 $\\left.\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0}=$ ________。",
-   "answerText": "$1$\n\n**解析：**\n$x=0$ 时由方程得 $y=1$。两边求导：$\\dfrac{2x+y^{\\prime}}{x^{2}+y}=3x^{2}+y^{\\prime}\\sin x+y\\cos x$，代入 $\\left(0,1\\right)$ 得 $y^{\\prime}=1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "implicit_derivative"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1999.3",
-   "number": 3,
-   "title": "1999 年数学二 第 3 题",
-   "questionText": "$\\int\\dfrac{x+5}{x^{2}-6x+13}\\mathrm{~d}x=$ ________。",
-   "answerText": "$\\dfrac{1}{2}\\ln\\left(x^{2}-6x+13\\right)+4\\arctan\\dfrac{x-3}{2}+C$（$C$ 为任意常数）\n\n**解析：**\n把分子写成 $\\left(x-3\\right)+8$：前一部分凑成分母导数积出对数，后一部分配方 $\\left(x-3\\right)^{2}+4$ 积出反正切。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "indefinite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1999.4",
-   "number": 4,
-   "title": "1999 年数学二 第 4 题",
-   "questionText": "函数 $y=\\dfrac{x^{2}}{\\sqrt{1-x^{2}}}$ 在区间 $\\left[\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right]$ 上的平均值为 ________。",
-   "answerText": "$\\dfrac{\\left(\\sqrt{3}+1\\right)\\pi}{12}$\n\n**解析：**\n平均值 $\\overline{y}=\\dfrac{1}{\\frac{\\sqrt{3}}{2}-\\frac{1}{2}}\\int_{\\frac{1}{2}}^{\\frac{\\sqrt{3}}{2}}\\dfrac{x^{2}}{\\sqrt{1-x^{2}}}\\mathrm{~d}x$。令 $x=\\sin t$，积分化为 $\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}}\\sin^{2}t\\,\\mathrm{d}t=\\dfrac{\\pi}{12}$，而区间长度之倒数为 $\\sqrt{3}+1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "definite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_substitution"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1999.5",
-   "number": 5,
-   "title": "1999 年数学二 第 5 题",
-   "questionText": "微分方程 $y^{\\prime\\prime}-4y=e^{2x}$ 的通解为 ________。",
-   "answerText": "$y=C_{1}e^{-2x}+\\left(C_{2}+\\dfrac{x}{4}\\right)e^{2x}$（$C_{1},C_{2}$ 为任意常数）\n\n**解析：**\n特征根 $\\pm2$；自由项 $e^{2x}$ 对应单特征根，设 $y^{*}=Axe^{2x}$，代入得 $A=\\dfrac{1}{4}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "second_order_nonhomogeneous_linear"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1999.6",
-   "number": 6,
-   "title": "1999 年数学二 第 6 题",
-   "questionText": "设\n\n$f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\dfrac{1-\\cos x}{\\sqrt{x}}, & x>0,\\\\x^{2}g\\left(x\\right), & x\\le 0,\\end{array}\\right.$\n\n其中 $g\\left(x\\right)$ 是有界函数，则 $f\\left(x\\right)$ 在 $x=0$ 处（ ）\n\nA. 极限不存在。\nB. 极限存在，但不连续。\nC. 连续，但不可导。\nD. 可导。",
-   "answerText": "D\n\n**解析：**\n$x\\to0^{-}$ 时 $\\left|x^{2}g\\left(x\\right)\\right|\\le x^{2}\\to0$；$x\\to0^{+}$ 时 $1-\\cos x\\sim\\dfrac{x^{2}}{2}$，除以 $\\sqrt{x}$ 趋于 $0$，故连续。左右导数：$f_{-}^{\\prime}\\left(0\\right)=\\lim xg\\left(x\\right)=0$，$f_{+}^{\\prime}\\left(0\\right)=\\lim\\dfrac{1-\\cos x}{x\\sqrt{x}}=0$，相等，故可导。选 D。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "piecewise_derivative",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "derivative_definition",
-    "differentiability_continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对；审计修复：原打标 piecewise_derivative 不存在，已改为 derivative_definition",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1999.7",
-   "number": 7,
-   "title": "1999 年数学二 第 7 题",
-   "questionText": "设\n\n$\\alpha\\left(x\\right)=\\int_{0}^{x}\\sin^{5}t\\mathrm{~d}t,\\quad \\beta\\left(x\\right)=\\dfrac{1}{5}\\int_{0}^{x}\\dfrac{t^{5}}{1+\\sin t}\\mathrm{~d}t$，\n\n则当 $x\\to 0$ 时，$\\alpha\\left(x\\right)$ 是 $\\beta\\left(x\\right)$ 的（ ）\n\nA. 高阶无穷小。\nB. 低阶无穷小。\nC. 同阶但不等价的无穷小。\nD. 等价无穷小。",
-   "answerText": "C\n\n**解析：**\n洛必达：$\\lim\\dfrac{\\alpha}{\\beta}=\\lim\\dfrac{\\sin^{5}x}{\\frac{1}{5}\\cdot\\frac{x^{5}}{1+\\sin x}}=\\lim\\dfrac{5\\left(1+\\sin x\\right)}{\\left(\\frac{\\sin x}{x}\\right)^{5}}=5$，同阶但不等价。选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinitesimal_order",
-    "variable_upper_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1999.8",
-   "number": 8,
-   "title": "1999 年数学二 第 8 题",
-   "questionText": "设 $f\\left(x\\right)$ 是连续函数，$F\\left(x\\right)$ 是 $f\\left(x\\right)$ 的原函数，则（ ）\n\nA. 当 $f\\left(x\\right)$ 是奇函数时，$F\\left(x\\right)$ 必是偶函数。\nB. 当 $f\\left(x\\right)$ 是偶函数时，$F\\left(x\\right)$ 必是奇函数。\nC. 当 $f\\left(x\\right)$ 是周期函数时，$F\\left(x\\right)$ 必是周期函数。\nD. 当 $f\\left(x\\right)$ 是单调增函数时，$F\\left(x\\right)$ 必是单调增函数。",
-   "answerText": "A\n\n**解析：**\n取 $F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t+C$。$f$ 为奇函数时，令 $t=-u$ 得 $\\int_{0}^{-x}f=\\int_{0}^{x}f$，故 $F\\left(-x\\right)=F\\left(x\\right)$ 为偶函数。偶函数情形只能保证某个原函数为奇函数（$C$ 须取特定值），其余各项均可举反例。选 A。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "indefinite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "indefinite_integral_formulas",
-    "function_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：indefinite_integral，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1999.9",
-   "number": 9,
-   "title": "1999 年数学二 第 9 题",
-   "questionText": "“对任意给定的 $\\varepsilon\\in\\left(0,1\\right)$，总存在正整数 $N$，当 $n\\ge N$ 时，恒有 $\\left|x_{n}-a\\right|\\le 2\\varepsilon$”是数列 $\\left\\{x_{n}\\right\\}$ 收敛于 $a$ 的（ ）\n\nA. 充分条件但非必要条件。\nB. 必要条件但非充分条件。\nC. 充分必要条件。\nD. 既非充分条件又非必要条件。",
-   "answerText": "C\n\n**解析：**\n经典数列极限定义允许把 $\\varepsilon$ 换成其一半、三分之一等（仍可任意小），且 $\\left|\\cdot\\right|\\le2\\varepsilon$ 与 $\\left|\\cdot\\right|<\\varepsilon$ 等价刻画收敛。故互为充要条件。选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "limit_existence",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "limit_operations"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1999.10",
-   "number": 10,
-   "title": "1999 年数学二 第 10 题",
-   "questionText": "记行列式\n\n$\\begin{vmatrix}x-2 & x-1 & x-2 & x-3\\\\2x-2 & 2x-1 & 2x-2 & 2x-3\\\\3x-3 & 3x-2 & 4x-5 & 3x-5\\\\4x & 4x-3 & 5x-7 & 4x-3\\end{vmatrix}$\n\n为 $f\\left(x\\right)$，则方程 $f\\left(x\\right)=0$ 的根的个数为（ ）\n\nA. $1$。\nB. $2$。\nC. $3$。\nD. $4$。",
-   "answerText": "B\n\n**解析：**\n各行（列）作适当消去后，行列式可化为 $\\begin{vmatrix}x-1 & 1 & 1 & 1\\\\0 & \\cdots\\end{vmatrix}$ 型，逐次消元得 $f\\left(x\\right)=5x\\left(x-1\\right)$，故 $f\\left(x\\right)=0$ 有两个实根。选 B。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "equation_root",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.determinant_properties",
-    "la.knowledge.row_column_expansion"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：equation_root，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1999.11",
-   "number": 11,
-   "title": "1999 年数学二 第 11 题",
-   "questionText": "求\n\n$\\lim_{x\\to 0}\\dfrac{\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}}{x\\ln\\left(1+x\\right)-x^{2}}$。",
-   "answerText": "$-\\dfrac{1}{2}$\n\n**解析：**\n分子有理化：$\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}=\\dfrac{\\tan x-\\sin x}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}}$，其中 $\\tan x-\\sin x\\sim\\dfrac{x^{3}}{2}$，分母趋于 $2$，故分子 $\\sim\\dfrac{x^{3}}{4}$；分母 $x\\ln\\left(1+x\\right)-x^{2}=\\dfrac{x^{3}}{2}+o\\left(x^{3}\\right)$ 的相反数，即分母 $\\sim-\\dfrac{x^{3}}{2}$，极限为 $-\\dfrac{1}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "equivalent_infinitesimal"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1999.12",
-   "number": 12,
-   "title": "1999 年数学二 第 12 题",
-   "questionText": "计算\n\n$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x$。",
-   "answerText": "$\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\ln 2$\n\n**解析：**\n分部积分：$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x=\\left[-\\dfrac{\\arctan x}{x}\\right]_{1}^{+\\infty}+\\int_{1}^{+\\infty}\\dfrac{\\mathrm{d}x}{x\\left(1+x^{2}\\right)}=\\dfrac{\\pi}{4}+\\left[\\ln x-\\dfrac{1}{2}\\ln\\left(1+x^{2}\\right)\\right]_{1}^{+\\infty}=\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\ln2$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "improper_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_interval_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "四、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1999.13",
-   "number": 13,
-   "title": "1999 年数学二 第 13 题",
-   "questionText": "求初值问题\n\n$\\left\\{\\begin{array}{l}\\left(y+\\sqrt{x^{2}+y^{2}}\\right)\\mathrm{d}x-x\\mathrm{d}y=0,\\quad x>0,\\\\\\left.y\\right|_{x=1}=0\\end{array}\\right.$\n\n的解。",
-   "answerText": "$y=\\dfrac{x^{2}-1}{2}$\n\n**解析：**\n齐次方程：令 $y=ux$，方程化为 $\\dfrac{\\mathrm{d}x}{x}=\\dfrac{\\mathrm{d}u}{\\sqrt{1+u^{2}}}$，积分得 $x=C\\left(u+\\sqrt{1+u^{2}}\\right)$。由 $y\\left(1\\right)=0$ 得 $C=1$，解出 $u=\\dfrac{x^{2}-1}{2x}$，代回 $y=ux$ 即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "first_order_differential_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "homogeneous_first_order_equation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "五、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1999.14",
-   "number": 14,
-   "title": "1999 年数学二 第 14 题",
-   "questionText": "为清除井底的污泥，用缆绳将抓斗放入井底，抓起污泥后提出井口（图示略）。已知井深 $30\\ \\mathrm{m}$，抓斗自重 $400\\ \\mathrm{N}$，缆绳每米重 $50\\ \\mathrm{N}$，抓斗抓起的污泥重 $2000\\ \\mathrm{N}$，提升速度为 $3\\ \\mathrm{m/s}$，在提升过程中，污泥以 $20\\ \\mathrm{N/s}$ 的速度从抓斗缝隙中漏掉。现将抓起污泥的抓斗提升至井口，问克服重力需作多少焦耳的功？",
-   "answerText": "$91500$ 焦耳\n\n**解析：**\n分三部分：抓斗自重做功 $400\\times30=12000$；缆绳做功 $\\int_{0}^{30}50\\left(30-y\\right)\\mathrm{~d}y=22500$；污泥做功：提升到 $y$ 处历时 $\\dfrac{y}{3}$，剩余污泥重 $2000-\\dfrac{20y}{3}$，做功 $\\int_{0}^{30}\\left(2000-\\dfrac{20y}{3}\\right)\\mathrm{~d}y=57000$。合计 $91500$ 焦耳。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "physical_applications_of_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_substitution"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "calculus",
-   "section": "六、应用题"
-  },
-  {
-   "id": "bank.exam.m2-1999.15",
-   "number": 15,
-   "title": "1999 年数学二 第 15 题",
-   "questionText": "已知函数\n\n$y=\\dfrac{x^{3}}{\\left(x-1\\right)^{2}}$，\n\n求：\n\n1. 函数的增减区间及极值；\n2. 函数图形的凹凸区间及拐点；\n3. 函数图形的渐近线。",
-   "answerText": "增区间 $\\left(-\\infty,1\\right)$ 与 $\\left(5,+\\infty\\right)$，减区间 $\\left(1,5\\right)$，极小值 $y\\left(5\\right)=\\dfrac{125}{16}$；凹区间 $\\left(-\\infty,-5\\right)$ 与 $\\left(0,1\\right)\\cup\\left(1,+\\infty\\right)$，凸区间 $\\left(-5,0\\right)$，拐点 $\\left(-5,-\\dfrac{125}{36}\\right)$ 与 $\\left(0,0\\right)$；渐近线 $x=1$ 与 $y=x+2$。\n\n**解析：**\n$y^{\\prime}=\\dfrac{x^{2}\\left(x-5\\right)}{\\left(x-1\\right)^{3}}$，$y^{\\prime\\prime}=\\dfrac{2x\\left(x+5\\right)}{\\left(x-1\\right)^{4}}$，按各自零点分段讨论符号即得增减、凹凸与极值、拐点（$x=0$ 处 $y^{\\prime}$ 不变号，非极值点）。渐近线：$x\\to1$ 时 $y\\to+\\infty$；$\\dfrac{y}{x}\\to1$，$y-x=\\dfrac{2x^{2}-x}{\\left(x-1\\right)^{2}}\\to2$，得斜渐近线 $y=x+2$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "monotonicity_extrema",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "monotonicity",
-    "concavity_inflection",
-    "asymptote"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "七、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1999.16",
-   "number": 16,
-   "title": "1999 年数学二 第 16 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 在闭区间 $\\left[-1,1\\right]$ 上具有三阶连续导数，且 $f\\left(-1\\right)=0$，$f\\left(1\\right)=1$，$f^{\\prime}\\left(0\\right)=0$。证明：在开区间 $\\left(-1,1\\right)$ 内至少存在一点 $\\xi$，使 $f^{\\prime\\prime\\prime}\\left(\\xi\\right)=3$。",
-   "answerText": "（证明见解析）\n\n**解析：**\n在 $x=0$ 处作泰勒展开：$f\\left(\\pm1\\right)=f\\left(0\\right)\\pm f^{\\prime}\\left(0\\right)+\\dfrac{1}{2}f^{\\prime\\prime}\\left(0\\right)\\pm\\dfrac{1}{6}f^{\\prime\\prime\\prime}\\left(\\eta_{\\pm}\\right)$，$\\eta_{+}\\in\\left(0,1\\right)$，$\\eta_{-}\\in\\left(-1,0\\right)$。两式相减并用 $f\\left(1\\right)=1$，$f\\left(-1\\right)=0$，$f^{\\prime}\\left(0\\right)=0$，得 $\\dfrac{f^{\\prime\\prime\\prime}\\left(\\eta_{+}\\right)+f^{\\prime\\prime\\prime}\\left(\\eta_{-}\\right)}{6}=1$。由 $f^{\\prime\\prime\\prime}$ 连续及介值定理，存在 $\\xi$ 介于 $\\eta_{-}$ 与 $\\eta_{+}$ 之间使 $f^{\\prime\\prime\\prime}\\left(\\xi\\right)=3$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "mean_value_theorem",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "taylor_formula",
-    "closed_interval_continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对；审计修复：原打标 taylor_formula 不存在，已改为 mean_value_theorem",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "八、证明题"
-  },
-  {
-   "id": "bank.exam.m2-1999.17",
-   "number": 17,
-   "title": "1999 年数学二 第 17 题",
-   "questionText": "设函数 $y=y\\left(x\\right)\\left(x\\ge 0\\right)$ 二阶可导，且 $y^{\\prime}\\left(x\\right)>0$，$y\\left(0\\right)=1$。过曲线 $y=y\\left(x\\right)$ 上任意一点 $P\\left(x,y\\right)$ 作该曲线的切线及 $x$ 轴的垂线，上述两直线与 $x$ 轴所围成的三角形面积记为 $S_{1}$；区间 $\\left[0,x\\right]$ 上以 $y=y\\left(x\\right)$ 为曲边的曲边梯形面积记为 $S_{2}$，并设 $2S_{1}-S_{2}$ 恒为 $1$，求此曲线 $y=y\\left(x\\right)$ 的方程。",
-   "answerText": "$y=e^{x}$\n\n**解析：**\n切线在 $x$ 轴上的截距为 $x-\\dfrac{y}{y^{\\prime}}$，故 $S_{1}=\\dfrac{y^{2}}{2y^{\\prime}}$，条件即 $\\dfrac{y^{2}}{y^{\\prime}}-\\int_{0}^{x}y\\,\\mathrm{d}t=1$。两边求导得 $yy^{\\prime\\prime}=y^{\\prime 2}$，令 $y^{\\prime}=p\\left(y\\right)$ 解得 $y=e^{C_{1}x+C_{2}}$；由 $y\\left(0\\right)=1$ 及原恒等式（代 $x=0$：$y^{\\prime}\\left(0\\right)=y\\left(0\\right)^{2}=1$）得 $y=e^{x}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "second_order_homogeneous_linear",
-    "variable_upper_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "九、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1999.18",
-   "number": 18,
-   "title": "1999 年数学二 第 18 题",
-   "questionText": "设 $f\\left(x\\right)$ 是区间 $\\left[0,+\\infty\\right)$ 上单调减少且非负的连续函数，\n\n$a_{n}=\\sum_{k=1}^{n}f\\left(k\\right)-\\int_{1}^{n}f\\left(x\\right)\\mathrm{~d}x,\\quad n=1,2,\\cdots$。\n\n证明数列 $\\left\\{a_{n}\\right\\}$ 的极限存在。",
-   "answerText": "（证明见解析）\n\n**解析：**\n$a_{n+1}-a_{n}=f\\left(n+1\\right)-\\int_{n}^{n+1}f\\left(x\\right)\\mathrm{~d}x\\le0$（因 $f$ 单调减），故 $\\left\\{a_{n}\\right\\}$ 单调不增。又把积分按区间 $\\left[k,k+1\\right]$ 拆开，用 $f$ 递减逐段放缩得 $a_{n}\\ge f\\left(n\\right)\\ge0$，即有下界。单调有界原理保证极限存在。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_equality_inequality",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_properties",
-    "closed_interval_continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "十、证明题"
-  },
-  {
-   "id": "bank.exam.m2-1999.19",
-   "number": 19,
-   "title": "1999 年数学二 第 19 题",
-   "questionText": "设矩阵\n\n$\\boldsymbol{A}=\\begin{bmatrix}1 & 1 & -1\\\\-1 & 1 & 1\\\\1 & -1 & 1\\end{bmatrix}$，\n\n矩阵 $\\boldsymbol{X}$ 满足\n\n$\\boldsymbol{A}^{*}\\boldsymbol{X}=\\boldsymbol{A}^{-1}+2\\boldsymbol{X}$，\n\n其中 $\\boldsymbol{A}^{*}$ 是 $\\boldsymbol{A}$ 的伴随矩阵，求矩阵 $\\boldsymbol{X}$。",
-   "answerText": "$\\boldsymbol{X}=\\dfrac{1}{6}\\begin{pmatrix}1 & 1 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{pmatrix}$\n\n**解析：**\n由 $\\left|\\boldsymbol{A}\\right|=4$，原式左乘 $\\boldsymbol{A}$ 得 $\\left|\\boldsymbol{A}\\right|\\boldsymbol{X}=\\boldsymbol{E}+2\\boldsymbol{A}\\boldsymbol{X}$，即 $2\\left(2\\boldsymbol{E}-\\boldsymbol{A}\\right)\\boldsymbol{X}=\\boldsymbol{E}$，故 $\\boldsymbol{X}=\\dfrac{1}{2}\\left(2\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-1}$，用伴随矩阵法求逆后乘 $\\dfrac{1}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.adjoint_matrix",
-    "la.knowledge.inverse_matrix"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.adjoint_matrix，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十一、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1999.20",
-   "number": 20,
-   "title": "1999 年数学二 第 20 题",
-   "questionText": "设向量组\n\n$\\boldsymbol{\\alpha}_{1}=\\left(1,1,1,3\\right)^{T}$，$\\boldsymbol{\\alpha}_{2}=\\left(-1,-3,5,1\\right)^{T}$，$\\boldsymbol{\\alpha}_{3}=\\left(3,2,-1,p+2\\right)^{T}$，$\\boldsymbol{\\alpha}_{4}=\\left(-2,-6,10,p\\right)^{T}$。\n\n1. $p$ 为何值时，该向量组线性无关？并在此时将向量 $\\boldsymbol{\\alpha}=\\left(4,1,6,10\\right)^{T}$ 用 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性表出；\n2. $p$ 为何值时，该向量组线性相关？并在此时求出它的秩和一个极大线性无关组。",
-   "answerText": "当 $p\\ne2$ 时线性无关，此时 $\\boldsymbol{\\alpha}=2\\boldsymbol{\\alpha}_{1}+\\dfrac{3p-6}{p+2}\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\dfrac{4-p}{p+2}\\boldsymbol{\\alpha}_{4}$；当 $p=2$ 时线性相关，秩为 $3$，$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 是一个极大线性无关组。\n\n**解析：**\n以 $\\boldsymbol{\\alpha}_{i}$ 为列作矩阵并对增广矩阵（把 $\\boldsymbol{\\alpha}$ 添作最后一列）作初等行变换，系数部分化为上三角，行列式正比于 $p-2$。$p\\ne2$ 时满秩，回代解出表出系数；$p=2$ 时出现全零行，秩为 $3$，前三个向量对应的 $3$ 阶子式非零，取作极大无关组。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.maximal_independent_group",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.linear_correlation",
-    "la.knowledge.maximal_independent_group",
-    "la.knowledge.linear_combination"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.maximal_independent_group，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1999,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "十二、计算题"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-1999.1",
+      "number": 1,
+      "title": "1999 年数学二 第 1 题",
+      "questionText": "曲线\n\n$\\left\\{\\begin{array}{l}x=e^{t}\\sin 2t,\\\\y=e^{t}\\cos t\\end{array}\\right.$\n\n在点 $\\left(0,1\\right)$ 处的法线方程为 ________。",
+      "answerText": "$2x+y-1=0$\n\n**解析：**\n点 $\\left(0,1\\right)$ 对应 $t=0$；$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\bigg|_{t=0}=\\dfrac{e^{t}\\left(\\cos t-\\sin t\\right)}{e^{t}\\left(\\sin 2t+2\\cos 2t\\right)}\\bigg|_{t=0}=\\dfrac{1}{2}$，法线斜率为 $-2$，由点斜式得 $2x+y-1=0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "parametric_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1999.2",
+      "number": 2,
+      "title": "1999 年数学二 第 2 题",
+      "questionText": "设函数 $y=y\\left(x\\right)$ 由方程 $\\ln\\left(x^{2}+y\\right)=x^{3}+y\\sin x$ 确定，则 $\\left.\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0}=$ ________。",
+      "answerText": "$1$\n\n**解析：**\n$x=0$ 时由方程得 $y=1$。两边求导：$\\dfrac{2x+y^{\\prime}}{x^{2}+y}=3x^{2}+y^{\\prime}\\sin x+y\\cos x$，代入 $\\left(0,1\\right)$ 得 $y^{\\prime}=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1999.3",
+      "number": 3,
+      "title": "1999 年数学二 第 3 题",
+      "questionText": "$\\int\\dfrac{x+5}{x^{2}-6x+13}\\mathrm{~d}x=$ ________。",
+      "answerText": "$\\dfrac{1}{2}\\ln\\left(x^{2}-6x+13\\right)+4\\arctan\\dfrac{x-3}{2}+C$（$C$ 为任意常数）\n\n**解析：**\n把分子写成 $\\left(x-3\\right)+8$：前一部分凑成分母导数积出对数，后一部分配方 $\\left(x-3\\right)^{2}+4$ 积出反正切。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1999.4",
+      "number": 4,
+      "title": "1999 年数学二 第 4 题",
+      "questionText": "函数 $y=\\dfrac{x^{2}}{\\sqrt{1-x^{2}}}$ 在区间 $\\left[\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right]$ 上的平均值为 ________。",
+      "answerText": "$\\dfrac{\\left(\\sqrt{3}+1\\right)\\pi}{12}$\n\n**解析：**\n平均值 $\\overline{y}=\\dfrac{1}{\\frac{\\sqrt{3}}{2}-\\frac{1}{2}}\\int_{\\frac{1}{2}}^{\\frac{\\sqrt{3}}{2}}\\dfrac{x^{2}}{\\sqrt{1-x^{2}}}\\mathrm{~d}x$。令 $x=\\sin t$，积分化为 $\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}}\\sin^{2}t\\,\\mathrm{d}t=\\dfrac{\\pi}{12}$，而区间长度之倒数为 $\\sqrt{3}+1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_substitution"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1999.5",
+      "number": 5,
+      "title": "1999 年数学二 第 5 题",
+      "questionText": "微分方程 $y^{\\prime\\prime}-4y=e^{2x}$ 的通解为 ________。",
+      "answerText": "$y=C_{1}e^{-2x}+\\left(C_{2}+\\dfrac{x}{4}\\right)e^{2x}$（$C_{1},C_{2}$ 为任意常数）\n\n**解析：**\n特征根 $\\pm2$；自由项 $e^{2x}$ 对应单特征根，设 $y^{*}=Axe^{2x}$，代入得 $A=\\dfrac{1}{4}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "second_order_nonhomogeneous_linear"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1999.6",
+      "number": 6,
+      "title": "1999 年数学二 第 6 题",
+      "questionText": "设\n\n$f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\dfrac{1-\\cos x}{\\sqrt{x}}, & x>0,\\\\x^{2}g\\left(x\\right), & x\\le 0,\\end{array}\\right.$\n\n其中 $g\\left(x\\right)$ 是有界函数，则 $f\\left(x\\right)$ 在 $x=0$ 处（ ）\n\nA. 极限不存在。\nB. 极限存在，但不连续。\nC. 连续，但不可导。\nD. 可导。",
+      "answerText": "D\n\n**解析：**\n$x\\to0^{-}$ 时 $\\left|x^{2}g\\left(x\\right)\\right|\\le x^{2}\\to0$；$x\\to0^{+}$ 时 $1-\\cos x\\sim\\dfrac{x^{2}}{2}$，除以 $\\sqrt{x}$ 趋于 $0$，故连续。左右导数：$f_{-}^{\\prime}\\left(0\\right)=\\lim xg\\left(x\\right)=0$，$f_{+}^{\\prime}\\left(0\\right)=\\lim\\dfrac{1-\\cos x}{x\\sqrt{x}}=0$，相等，故可导。选 D。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "piecewise_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "differentiability_continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对；审计修复：原打标 piecewise_derivative 不存在，已改为 derivative_definition；审计修复：主章节原误挂 multivariable_differential，题面为一元分段函数在 x=0 处的连续性与可导性，改挂 one_variable_differential",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1999.7",
+      "number": 7,
+      "title": "1999 年数学二 第 7 题",
+      "questionText": "设\n\n$\\alpha\\left(x\\right)=\\int_{0}^{x}\\sin^{5}t\\mathrm{~d}t,\\quad \\beta\\left(x\\right)=\\dfrac{1}{5}\\int_{0}^{x}\\dfrac{t^{5}}{1+\\sin t}\\mathrm{~d}t$，\n\n则当 $x\\to 0$ 时，$\\alpha\\left(x\\right)$ 是 $\\beta\\left(x\\right)$ 的（ ）\n\nA. 高阶无穷小。\nB. 低阶无穷小。\nC. 同阶但不等价的无穷小。\nD. 等价无穷小。",
+      "answerText": "C\n\n**解析：**\n洛必达：$\\lim\\dfrac{\\alpha}{\\beta}=\\lim\\dfrac{\\sin^{5}x}{\\frac{1}{5}\\cdot\\frac{x^{5}}{1+\\sin x}}=\\lim\\dfrac{5\\left(1+\\sin x\\right)}{\\left(\\frac{\\sin x}{x}\\right)^{5}}=5$，同阶但不等价。选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinitesimal_order",
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1999.8",
+      "number": 8,
+      "title": "1999 年数学二 第 8 题",
+      "questionText": "设 $f\\left(x\\right)$ 是连续函数，$F\\left(x\\right)$ 是 $f\\left(x\\right)$ 的原函数，则（ ）\n\nA. 当 $f\\left(x\\right)$ 是奇函数时，$F\\left(x\\right)$ 必是偶函数。\nB. 当 $f\\left(x\\right)$ 是偶函数时，$F\\left(x\\right)$ 必是奇函数。\nC. 当 $f\\left(x\\right)$ 是周期函数时，$F\\left(x\\right)$ 必是周期函数。\nD. 当 $f\\left(x\\right)$ 是单调增函数时，$F\\left(x\\right)$ 必是单调增函数。",
+      "answerText": "A\n\n**解析：**\n取 $F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t+C$。$f$ 为奇函数时，令 $t=-u$ 得 $\\int_{0}^{-x}f=\\int_{0}^{x}f$，故 $F\\left(-x\\right)=F\\left(x\\right)$ 为偶函数。偶函数情形只能保证某个原函数为奇函数（$C$ 须取特定值），其余各项均可举反例。选 A。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas",
+        "function_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：indefinite_integral，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1999.9",
+      "number": 9,
+      "title": "1999 年数学二 第 9 题",
+      "questionText": "“对任意给定的 $\\varepsilon\\in\\left(0,1\\right)$，总存在正整数 $N$，当 $n\\ge N$ 时，恒有 $\\left|x_{n}-a\\right|\\le 2\\varepsilon$”是数列 $\\left\\{x_{n}\\right\\}$ 收敛于 $a$ 的（ ）\n\nA. 充分条件但非必要条件。\nB. 必要条件但非充分条件。\nC. 充分必要条件。\nD. 既非充分条件又非必要条件。",
+      "answerText": "C\n\n**解析：**\n经典数列极限定义允许把 $\\varepsilon$ 换成其一半、三分之一等（仍可任意小），且 $\\left|\\cdot\\right|\\le2\\varepsilon$ 与 $\\left|\\cdot\\right|<\\varepsilon$ 等价刻画收敛。故互为充要条件。选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_existence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "limit_operations"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1999.10",
+      "number": 10,
+      "title": "1999 年数学二 第 10 题",
+      "questionText": "记行列式\n\n$\\begin{vmatrix}x-2 & x-1 & x-2 & x-3\\\\2x-2 & 2x-1 & 2x-2 & 2x-3\\\\3x-3 & 3x-2 & 4x-5 & 3x-5\\\\4x & 4x-3 & 5x-7 & 4x-3\\end{vmatrix}$\n\n为 $f\\left(x\\right)$，则方程 $f\\left(x\\right)=0$ 的根的个数为（ ）\n\nA. $1$。\nB. $2$。\nC. $3$。\nD. $4$。",
+      "answerText": "B\n\n**解析：**\n各行（列）作适当消去后，行列式可化为 $\\begin{vmatrix}x-1 & 1 & 1 & 1\\\\0 & \\cdots\\end{vmatrix}$ 型，逐次消元得 $f\\left(x\\right)=5x\\left(x-1\\right)$，故 $f\\left(x\\right)=0$ 有两个实根。选 B。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.determinant_computation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.determinant_properties",
+        "la.knowledge.row_column_expansion"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：equation_root，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.determinants；审计修复：非法题型 equation_root → la.problem_type.determinant_computation（行列式展开求根）",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1999.11",
+      "number": 11,
+      "title": "1999 年数学二 第 11 题",
+      "questionText": "求\n\n$\\lim_{x\\to 0}\\dfrac{\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}}{x\\ln\\left(1+x\\right)-x^{2}}$。",
+      "answerText": "$-\\dfrac{1}{2}$\n\n**解析：**\n分子有理化：$\\sqrt{1+\\tan x}-\\sqrt{1+\\sin x}=\\dfrac{\\tan x-\\sin x}{\\sqrt{1+\\tan x}+\\sqrt{1+\\sin x}}$，其中 $\\tan x-\\sin x\\sim\\dfrac{x^{3}}{2}$，分母趋于 $2$，故分子 $\\sim\\dfrac{x^{3}}{4}$；分母 $x\\ln\\left(1+x\\right)-x^{2}=\\dfrac{x^{3}}{2}+o\\left(x^{3}\\right)$ 的相反数，即分母 $\\sim-\\dfrac{x^{3}}{2}$，极限为 $-\\dfrac{1}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1999.12",
+      "number": 12,
+      "title": "1999 年数学二 第 12 题",
+      "questionText": "计算\n\n$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x$。",
+      "answerText": "$\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\ln 2$\n\n**解析：**\n分部积分：$\\int_{1}^{+\\infty}\\dfrac{\\arctan x}{x^{2}}\\mathrm{~d}x=\\left[-\\dfrac{\\arctan x}{x}\\right]_{1}^{+\\infty}+\\int_{1}^{+\\infty}\\dfrac{\\mathrm{d}x}{x\\left(1+x^{2}\\right)}=\\dfrac{\\pi}{4}+\\left[\\ln x-\\dfrac{1}{2}\\ln\\left(1+x^{2}\\right)\\right]_{1}^{+\\infty}=\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\ln2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "四、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1999.13",
+      "number": 13,
+      "title": "1999 年数学二 第 13 题",
+      "questionText": "求初值问题\n\n$\\left\\{\\begin{array}{l}\\left(y+\\sqrt{x^{2}+y^{2}}\\right)\\mathrm{d}x-x\\mathrm{d}y=0,\\quad x>0,\\\\\\left.y\\right|_{x=1}=0\\end{array}\\right.$\n\n的解。",
+      "answerText": "$y=\\dfrac{x^{2}-1}{2}$\n\n**解析：**\n齐次方程：令 $y=ux$，方程化为 $\\dfrac{\\mathrm{d}x}{x}=\\dfrac{\\mathrm{d}u}{\\sqrt{1+u^{2}}}$，积分得 $x=C\\left(u+\\sqrt{1+u^{2}}\\right)$。由 $y\\left(1\\right)=0$ 得 $C=1$，解出 $u=\\dfrac{x^{2}-1}{2x}$，代回 $y=ux$ 即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "homogeneous_first_order_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "五、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1999.14",
+      "number": 14,
+      "title": "1999 年数学二 第 14 题",
+      "questionText": "为清除井底的污泥，用缆绳将抓斗放入井底，抓起污泥后提出井口（图示略）。已知井深 $30\\ \\mathrm{m}$，抓斗自重 $400\\ \\mathrm{N}$，缆绳每米重 $50\\ \\mathrm{N}$，抓斗抓起的污泥重 $2000\\ \\mathrm{N}$，提升速度为 $3\\ \\mathrm{m/s}$，在提升过程中，污泥以 $20\\ \\mathrm{N/s}$ 的速度从抓斗缝隙中漏掉。现将抓起污泥的抓斗提升至井口，问克服重力需作多少焦耳的功？",
+      "answerText": "$91500$ 焦耳\n\n**解析：**\n分三部分：抓斗自重做功 $400\\times30=12000$；缆绳做功 $\\int_{0}^{30}50\\left(30-y\\right)\\mathrm{~d}y=22500$；污泥做功：提升到 $y$ 处历时 $\\dfrac{y}{3}$，剩余污泥重 $2000-\\dfrac{20y}{3}$，做功 $\\int_{0}^{30}\\left(2000-\\dfrac{20y}{3}\\right)\\mathrm{~d}y=57000$。合计 $91500$ 焦耳。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "physical_applications_of_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_substitution"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "六、应用题"
+    },
+    {
+      "id": "bank.exam.m2-1999.15",
+      "number": 15,
+      "title": "1999 年数学二 第 15 题",
+      "questionText": "已知函数\n\n$y=\\dfrac{x^{3}}{\\left(x-1\\right)^{2}}$，\n\n求：\n\n1. 函数的增减区间及极值；\n2. 函数图形的凹凸区间及拐点；\n3. 函数图形的渐近线。",
+      "answerText": "增区间 $\\left(-\\infty,1\\right)$ 与 $\\left(5,+\\infty\\right)$，减区间 $\\left(1,5\\right)$，极小值 $y\\left(5\\right)=\\dfrac{125}{16}$；凹区间 $\\left(-\\infty,-5\\right)$ 与 $\\left(0,1\\right)\\cup\\left(1,+\\infty\\right)$，凸区间 $\\left(-5,0\\right)$，拐点 $\\left(-5,-\\dfrac{125}{36}\\right)$ 与 $\\left(0,0\\right)$；渐近线 $x=1$ 与 $y=x+2$。\n\n**解析：**\n$y^{\\prime}=\\dfrac{x^{2}\\left(x-5\\right)}{\\left(x-1\\right)^{3}}$，$y^{\\prime\\prime}=\\dfrac{2x\\left(x+5\\right)}{\\left(x-1\\right)^{4}}$，按各自零点分段讨论符号即得增减、凹凸与极值、拐点（$x=0$ 处 $y^{\\prime}$ 不变号，非极值点）。渐近线：$x\\to1$ 时 $y\\to+\\infty$；$\\dfrac{y}{x}\\to1$，$y-x=\\dfrac{2x^{2}-x}{\\left(x-1\\right)^{2}}\\to2$，得斜渐近线 $y=x+2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "monotonicity",
+        "concavity_inflection",
+        "asymptote"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "七、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1999.16",
+      "number": 16,
+      "title": "1999 年数学二 第 16 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 在闭区间 $\\left[-1,1\\right]$ 上具有三阶连续导数，且 $f\\left(-1\\right)=0$，$f\\left(1\\right)=1$，$f^{\\prime}\\left(0\\right)=0$。证明：在开区间 $\\left(-1,1\\right)$ 内至少存在一点 $\\xi$，使 $f^{\\prime\\prime\\prime}\\left(\\xi\\right)=3$。",
+      "answerText": "（证明见解析）\n\n**解析：**\n在 $x=0$ 处作泰勒展开：$f\\left(\\pm1\\right)=f\\left(0\\right)\\pm f^{\\prime}\\left(0\\right)+\\dfrac{1}{2}f^{\\prime\\prime}\\left(0\\right)\\pm\\dfrac{1}{6}f^{\\prime\\prime\\prime}\\left(\\eta_{\\pm}\\right)$，$\\eta_{+}\\in\\left(0,1\\right)$，$\\eta_{-}\\in\\left(-1,0\\right)$。两式相减并用 $f\\left(1\\right)=1$，$f\\left(-1\\right)=0$，$f^{\\prime}\\left(0\\right)=0$，得 $\\dfrac{f^{\\prime\\prime\\prime}\\left(\\eta_{+}\\right)+f^{\\prime\\prime\\prime}\\left(\\eta_{-}\\right)}{6}=1$。由 $f^{\\prime\\prime\\prime}$ 连续及介值定理，存在 $\\xi$ 介于 $\\eta_{-}$ 与 $\\eta_{+}$ 之间使 $f^{\\prime\\prime\\prime}\\left(\\xi\\right)=3$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "mean_value_theorem",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula",
+        "closed_interval_continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对；审计修复：原打标 taylor_formula 不存在，已改为 mean_value_theorem",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "calculus",
+      "section": "八、证明题"
+    },
+    {
+      "id": "bank.exam.m2-1999.17",
+      "number": 17,
+      "title": "1999 年数学二 第 17 题",
+      "questionText": "设函数 $y=y\\left(x\\right)\\left(x\\ge 0\\right)$ 二阶可导，且 $y^{\\prime}\\left(x\\right)>0$，$y\\left(0\\right)=1$。过曲线 $y=y\\left(x\\right)$ 上任意一点 $P\\left(x,y\\right)$ 作该曲线的切线及 $x$ 轴的垂线，上述两直线与 $x$ 轴所围成的三角形面积记为 $S_{1}$；区间 $\\left[0,x\\right]$ 上以 $y=y\\left(x\\right)$ 为曲边的曲边梯形面积记为 $S_{2}$，并设 $2S_{1}-S_{2}$ 恒为 $1$，求此曲线 $y=y\\left(x\\right)$ 的方程。",
+      "answerText": "$y=e^{x}$\n\n**解析：**\n切线在 $x$ 轴上的截距为 $x-\\dfrac{y}{y^{\\prime}}$，故 $S_{1}=\\dfrac{y^{2}}{2y^{\\prime}}$，条件即 $\\dfrac{y^{2}}{y^{\\prime}}-\\int_{0}^{x}y\\,\\mathrm{d}t=1$。两边求导得 $yy^{\\prime\\prime}=y^{\\prime 2}$，令 $y^{\\prime}=p\\left(y\\right)$ 解得 $y=e^{C_{1}x+C_{2}}$；由 $y\\left(0\\right)=1$ 及原恒等式（代 $x=0$：$y^{\\prime}\\left(0\\right)=y\\left(0\\right)^{2}=1$）得 $y=e^{x}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "second_order_homogeneous_linear",
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "九、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1999.18",
+      "number": 18,
+      "title": "1999 年数学二 第 18 题",
+      "questionText": "设 $f\\left(x\\right)$ 是区间 $\\left[0,+\\infty\\right)$ 上单调减少且非负的连续函数，\n\n$a_{n}=\\sum_{k=1}^{n}f\\left(k\\right)-\\int_{1}^{n}f\\left(x\\right)\\mathrm{~d}x,\\quad n=1,2,\\cdots$。\n\n证明数列 $\\left\\{a_{n}\\right\\}$ 的极限存在。",
+      "answerText": "（证明见解析）\n\n**解析：**\n$a_{n+1}-a_{n}=f\\left(n+1\\right)-\\int_{n}^{n+1}f\\left(x\\right)\\mathrm{~d}x\\le0$（因 $f$ 单调减），故 $\\left\\{a_{n}\\right\\}$ 单调不增。又把积分按区间 $\\left[k,k+1\\right]$ 拆开，用 $f$ 递减逐段放缩得 $a_{n}\\ge f\\left(n\\right)\\ge0$，即有下界。单调有界原理保证极限存在。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_equality_inequality",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties",
+        "closed_interval_continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "十、证明题"
+    },
+    {
+      "id": "bank.exam.m2-1999.19",
+      "number": 19,
+      "title": "1999 年数学二 第 19 题",
+      "questionText": "设矩阵\n\n$\\boldsymbol{A}=\\begin{bmatrix}1 & 1 & -1\\\\-1 & 1 & 1\\\\1 & -1 & 1\\end{bmatrix}$，\n\n矩阵 $\\boldsymbol{X}$ 满足\n\n$\\boldsymbol{A}^{*}\\boldsymbol{X}=\\boldsymbol{A}^{-1}+2\\boldsymbol{X}$，\n\n其中 $\\boldsymbol{A}^{*}$ 是 $\\boldsymbol{A}$ 的伴随矩阵，求矩阵 $\\boldsymbol{X}$。",
+      "answerText": "$\\boldsymbol{X}=\\dfrac{1}{6}\\begin{pmatrix}1 & 1 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{pmatrix}$\n\n**解析：**\n由 $\\left|\\boldsymbol{A}\\right|=4$，原式左乘 $\\boldsymbol{A}$ 得 $\\left|\\boldsymbol{A}\\right|\\boldsymbol{X}=\\boldsymbol{E}+2\\boldsymbol{A}\\boldsymbol{X}$，即 $2\\left(2\\boldsymbol{E}-\\boldsymbol{A}\\right)\\boldsymbol{X}=\\boldsymbol{E}$，故 $\\boldsymbol{X}=\\dfrac{1}{2}\\left(2\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-1}$，用伴随矩阵法求逆后乘 $\\dfrac{1}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.adjoint_matrix",
+        "la.knowledge.inverse_matrix"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.adjoint_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十一、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1999.20",
+      "number": 20,
+      "title": "1999 年数学二 第 20 题",
+      "questionText": "设向量组\n\n$\\boldsymbol{\\alpha}_{1}=\\left(1,1,1,3\\right)^{T}$，$\\boldsymbol{\\alpha}_{2}=\\left(-1,-3,5,1\\right)^{T}$，$\\boldsymbol{\\alpha}_{3}=\\left(3,2,-1,p+2\\right)^{T}$，$\\boldsymbol{\\alpha}_{4}=\\left(-2,-6,10,p\\right)^{T}$。\n\n1. $p$ 为何值时，该向量组线性无关？并在此时将向量 $\\boldsymbol{\\alpha}=\\left(4,1,6,10\\right)^{T}$ 用 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$ 线性表出；\n2. $p$ 为何值时，该向量组线性相关？并在此时求出它的秩和一个极大线性无关组。",
+      "answerText": "当 $p\\ne2$ 时线性无关，此时 $\\boldsymbol{\\alpha}=2\\boldsymbol{\\alpha}_{1}+\\dfrac{3p-6}{p+2}\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\dfrac{4-p}{p+2}\\boldsymbol{\\alpha}_{4}$；当 $p=2$ 时线性相关，秩为 $3$，$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 是一个极大线性无关组。\n\n**解析：**\n以 $\\boldsymbol{\\alpha}_{i}$ 为列作矩阵并对增广矩阵（把 $\\boldsymbol{\\alpha}$ 添作最后一列）作初等行变换，系数部分化为上三角，行列式正比于 $p-2$。$p\\ne2$ 时满秩，回代解出表出系数；$p=2$ 时出现全零行，秩为 $3$，前三个向量对应的 $3$ 阶子式非零，取作极大无关组。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.maximal_independent_group",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.linear_correlation",
+        "la.knowledge.maximal_independent_group",
+        "la.knowledge.linear_combination"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.maximal_independent_group，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1999,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "十二、计算题"
+    }
+  ]
 }

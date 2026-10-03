@@ -1,792 +1,792 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 1997,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": true,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1997-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 1997,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、填空题",
-   "二、选择题",
-   "三、计算题",
-   "四、线性方程组",
-   "五、极坐标曲线",
-   "六、面积与旋转体体积",
-   "七、函数连续性与导数",
-   "八、方程根的个数"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-1997.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-1997.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-1997.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-1997.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-1997.5",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-1997.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-1997.7",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-1997.8",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-1997.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-1997.10",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-1997.11",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-1997.12",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-1997.13",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-1997.14",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-1997.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-1997.16",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-1997.17",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-1997.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-1997.19",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-1997.20",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m2-1997.21",
-    "subjectGuess": "calculus",
-    "objective": false
-   }
-  ],
-  "total": 21
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-1997.1",
-   "number": 1,
-   "title": "1997 年数学二 第 1 题",
-   "questionText": "已知函数 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\left(\\cos x\\right)^{\\frac{1}{x^{2}}}, & x\\ne 0,\\\\a, & x=0,\\end{array}\\right.$ 在 $x=0$ 处连续，则 $a=$ ______。",
-   "answerText": "$e^{-\\frac{1}{2}}$\n\n**解析：**\n取对数：$\\lim_{x\\to0}\\dfrac{\\ln\\cos x}{x^{2}}=\\lim\\dfrac{-\\tan x}{2x}=-\\dfrac{1}{2}$，故极限为 $e^{-\\frac{1}{2}}$，由连续性 $a=e^{-\\frac{1}{2}}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "continuity_and_discontinuity",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "important_limits",
-    "continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1997-2.md",
+  "paperInfo": {
     "year": 1997,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
+    "label": "数学二",
+    "sections": [
+      "一、填空题",
+      "二、选择题",
+      "三、计算题",
+      "四、线性方程组",
+      "五、极坐标曲线",
+      "六、面积与旋转体体积",
+      "七、函数连续性与导数",
+      "八、方程根的个数"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-1997.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-1997.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-1997.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-1997.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-1997.5",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-1997.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-1997.7",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-1997.8",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-1997.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-1997.10",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-1997.11",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-1997.12",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-1997.13",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-1997.14",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-1997.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-1997.16",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-1997.17",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-1997.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-1997.19",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-1997.20",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m2-1997.21",
+        "subjectGuess": "calculus",
+        "objective": false
+      }
+    ],
+    "total": 21
   },
-  {
-   "id": "bank.exam.m2-1997.2",
-   "number": 2,
-   "title": "1997 年数学二 第 2 题",
-   "questionText": "设 $y=\\ln \\sqrt{\\frac{1-x}{1+x^{2}}}$，则 $\\left.y^{\\prime\\prime}\\right|_{x=0}=$ ______。",
-   "answerText": "$-\\dfrac{3}{2}$\n\n**解析：**\n先化为 $y=\\dfrac{1}{2}\\left[\\ln\\left(1-x\\right)-\\ln\\left(1+x^{2}\\right)\\right]$，求两次导后在 $x=0$ 处取值：$y^{\\prime\\prime}\\left(0\\right)=\\dfrac{1}{2}\\left[-1-2\\right]=-\\dfrac{3}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "composite_derivative"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1997.3",
-   "number": 3,
-   "title": "1997 年数学二 第 3 题",
-   "questionText": "求 $\\int \\frac{\\mathrm{d}x}{\\sqrt{x\\left(4-x\\right)}}$。",
-   "answerText": "$2\\arcsin\\dfrac{\\sqrt{x}}{2}+C$（$C$ 为任意常数）\n\n**解析：**\n$\\dfrac{\\mathrm{d}x}{\\sqrt{x}\\sqrt{4-x}}=2\\,\\dfrac{\\mathrm{d}\\sqrt{x}}{\\sqrt{4-\\left(\\sqrt{x}\\right)^{2}}}$，凑成反正弦微分即得；亦可配方后用 $\\arcsin\\dfrac{x-2}{2}+C$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "indefinite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1997.4",
-   "number": 4,
-   "title": "1997 年数学二 第 4 题",
-   "questionText": "求 $\\int_{0}^{+\\infty}\\frac{\\mathrm{d}x}{x^{2}+4x+8}$。",
-   "answerText": "$\\dfrac{\\pi}{8}$\n\n**解析：**\n配平方：$x^{2}+4x+8=\\left(x+2\\right)^{2}+4$，原积分 $=\\left.\\dfrac{1}{2}\\arctan\\dfrac{x+2}{2}\\right|_{0}^{+\\infty}=\\dfrac{1}{2}\\left(\\dfrac{\\pi}{2}-\\dfrac{\\pi}{4}\\right)=\\dfrac{\\pi}{8}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "improper_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_interval_integral"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1997.5",
-   "number": 5,
-   "title": "1997 年数学二 第 5 题",
-   "questionText": "已知向量组 $\\boldsymbol{\\alpha}_{1}=\\left(1,2,-1,1\\right)$，$\\boldsymbol{\\alpha}_{2}=\\left(2,0,t,0\\right)$，$\\boldsymbol{\\alpha}_{3}=\\left(0,-4,5,-2\\right)$ 的秩为 $2$，则 $t=$ ______。",
-   "answerText": "$3$\n\n**解析：**\n以 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{3}$ 为行作初等行变换（或按 $\\boldsymbol{\\alpha}_{2}=k_{1}\\boldsymbol{\\alpha}_{1}+k_{2}\\boldsymbol{\\alpha}_{3}$ 待定）：由第 1、4 分量定出 $k_{1}=2,k_{2}=1$，再由第 3 分量得 $t=-2+5=3$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、填空题"
-  },
-  {
-   "id": "bank.exam.m2-1997.6",
-   "number": 6,
-   "title": "1997 年数学二 第 6 题",
-   "questionText": "设 $x\\to 0$ 时，$e^{\\tan x}-e^{x}$ 与 $x^{n}$ 是同阶无穷小，则 $n$ 为（ ）\n\nA. $1$。\nB. $2$。\nC. $3$。\nD. $4$。",
-   "answerText": "C\n\n**解析：**\n$e^{\\tan x}-e^{x}=e^{x}\\left(e^{\\tan x-x}-1\\right)\\sim\\tan x-x\\sim\\dfrac{x^{3}}{3}$，故与 $x^{3}$ 同阶，$n=3$。选 C。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "equivalent_infinitesimal",
-    "infinitesimal_order"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1997.7",
-   "number": 7,
-   "title": "1997 年数学二 第 7 题",
-   "questionText": "设在闭区间 $\\left[a,b\\right]$ 上 $f\\left(x\\right)>0$，$f^{\\prime}\\left(x\\right)<0$，$f^{\\prime\\prime}\\left(x\\right)>0$。记 $S_{1}=\\int_{a}^{b}f\\left(x\\right)\\mathrm{~d}x$，$S_{2}=f\\left(b\\right)\\left(b-a\\right)$，$S_{3}=\\frac{1}{2}\\left[f\\left(a\\right)+f\\left(b\\right)\\right]\\left(b-a\\right)$，则（ ）\n\nA. $S_{1}<S_{2}<S_{3}$。\nB. $S_{2}<S_{1}<S_{3}$。\nC. $S_{3}<S_{1}<S_{2}$。\nD. $S_{2}<S_{3}<S_{1}$。",
-   "answerText": "B\n\n**解析：**\n$f$ 递减且为正：曲边梯形面积大于以 $f\\left(b\\right)$ 为高的矩形面积 $S_{2}$，即 $S_{2}<S_{1}$；又 $f^{\\prime\\prime}>0$（下凸），曲线位于连接端点的弦下方，故曲边梯形面积小于梯形面积 $S_{3}$。得 $S_{2}<S_{1}<S_{3}$。选 B。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "definite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_properties",
-    "concavity_inflection"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1997.8",
-   "number": 8,
-   "title": "1997 年数学二 第 8 题",
-   "questionText": "已知函数 $y=f\\left(x\\right)$ 对一切 $x$ 满足 $xf^{\\prime\\prime}\\left(x\\right)+3x\\left[f^{\\prime}\\left(x\\right)\\right]^{2}=1-e^{-x}$，若 $f^{\\prime}\\left(x_{0}\\right)=0\\left(x_{0}\\ne 0\\right)$，则（ ）\n\nA. $f\\left(x_{0}\\right)$ 是 $f\\left(x\\right)$ 的极大值。\nB. $f\\left(x_{0}\\right)$ 是 $f\\left(x\\right)$ 的极小值。\nC. $\\left(x_{0},f\\left(x_{0}\\right)\\right)$ 是曲线 $y=f\\left(x\\right)$ 的拐点。\nD. $f\\left(x_{0}\\right)$ 不是 $f\\left(x\\right)$ 的极值，$\\left(x_{0},f\\left(x_{0}\\right)\\right)$ 也不是曲线 $y=f\\left(x\\right)$ 的拐点。",
-   "answerText": "B\n\n**解析：**\n把 $f^{\\prime}\\left(x_{0}\\right)=0$ 代入方程：$x_{0}f^{\\prime\\prime}\\left(x_{0}\\right)=1-e^{-x_{0}}$，即 $f^{\\prime\\prime}\\left(x_{0}\\right)=\\dfrac{1-e^{-x_{0}}}{x_{0}}$。无论 $x_{0}>0$ 还是 $x_{0}<0$，分子与分母同号，故 $f^{\\prime\\prime}\\left(x_{0}\\right)>0$，为极小值。选 B。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "extrema",
-    "differentiability_continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1997.9",
-   "number": 9,
-   "title": "1997 年数学二 第 9 题",
-   "questionText": "设 $F\\left(x\\right)=\\int_{x}^{x+2\\pi}e^{\\sin t}\\sin t\\mathrm{~d}t$，则 $F\\left(x\\right)$（ ）\n\nA. 为正常数。\nB. 为负常数。\nC. 恒为零。\nD. 不为常数。",
-   "answerText": "A\n\n**解析：**\n被积函数 $e^{\\sin t}\\sin t$ 以 $2\\pi$ 为周期，$F\\left(x+2\\pi\\right)=F\\left(x\\right)$，故 $F$ 为常数。取 $x=0$ 拆成 $\\left[0,\\pi\\right]$ 与 $\\left[\\pi,2\\pi\\right]$，用 $t-\\pi$ 换元合并得 $F=\\int_{0}^{\\pi}\\left(e^{\\sin t}-e^{-\\sin t}\\right)\\sin t\\,\\mathrm{d}t>0$，为正常数。选 A。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "definite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "definite_integral_properties"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1997.10",
-   "number": 10,
-   "title": "1997 年数学二 第 10 题",
-   "questionText": "设函数 $g\\left(x\\right)=\\left\\{\\begin{array}{ll}2-x, & x\\le 0,\\\\x+2, & x>0,\\end{array}\\right.$，$f\\left(x\\right)=\\left\\{\\begin{array}{ll}x^{2}, & x<0,\\\\-x, & x\\ge 0,\\end{array}\\right.$，则 $g\\left[f\\left(x\\right)\\right]=$（ ）\n\nA. $\\left\\{\\begin{array}{ll}2+x^{2}, & x<0,\\\\2-x, & x\\ge 0.\\end{array}\\right.$\nB. $\\left\\{\\begin{array}{ll}2-x^{2}, & x<0,\\\\2+x, & x\\ge 0.\\end{array}\\right.$\nC. $\\left\\{\\begin{array}{ll}2-x^{2}, & x<0,\\\\2-x, & x\\ge 0.\\end{array}\\right.$\nD. $\\left\\{\\begin{array}{ll}2+x^{2}, & x<0,\\\\2+x, & x\\ge 0.\\end{array}\\right.$",
-   "answerText": "D\n\n**解析：**\n$x<0$ 时 $f\\left(x\\right)=x^{2}>0$，落入 $g$ 的 $x>0$ 分支，$g\\left[f\\left(x\\right)\\right]=2+x^{2}$；$x\\ge0$ 时 $f\\left(x\\right)=-x\\le0$，落入 $g$ 的 $x\\le0$ 分支，$g\\left[f\\left(x\\right)\\right]=2-\\left(-x\\right)=2+x$。选 D。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "inverse_composite_function"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "calculus",
-   "section": "二、选择题"
-  },
-  {
-   "id": "bank.exam.m2-1997.11",
-   "number": 11,
-   "title": "1997 年数学二 第 11 题",
-   "questionText": "求极限 $\\lim_{x \\to -\\infty}\\frac{\\sqrt{4x^{2}+x-1}+x+1}{\\sqrt{x^{2}+\\sin x}}$。",
-   "answerText": "$1$\n\n**解析：**\n$x\\to-\\infty$ 时 $\\sqrt{4x^{2}+x-1}=\\left|x\\right|\\sqrt{4+\\frac{1}{x}-\\frac{1}{x^{2}}}=-x\\left(2+o\\left(1\\right)\\right)$，分母 $\\sqrt{x^{2}+\\sin x}=\\left|x\\right|\\sqrt{1+\\frac{\\sin x}{x^{2}}}=-x\\left(1+o\\left(1\\right)\\right)$。于是分子 $=-x\\left(1+o\\left(1\\right)\\right)$，比值为 $1$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "limit_operations"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1997.12",
-   "number": 12,
-   "title": "1997 年数学二 第 12 题",
-   "questionText": "设函数 $y=y\\left(x\\right)$ 由 $\\left\\{\\begin{array}{l}x=\\arctan t,\\\\2y-ty^{2}+e^{t}=5\\end{array}\\right.$ 所确定，求 $y^{\\prime}$。",
-   "answerText": "$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\left(1+t^{2}\\right)\\left(y^{2}+e^{t}\\right)}{2\\left(1-ty\\right)}$\n\n**解析：**\n对第二式关于 $t$ 求导：$2\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}-y^{2}-2ty\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}-e^{t}=0$，解出 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}$，再除以 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{1}{1+t^{2}}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "derivative_calculation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "parametric_derivative",
-    "implicit_derivative"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1997.13",
-   "number": 13,
-   "title": "1997 年数学二 第 13 题",
-   "questionText": "计算 $\\int e^{2x}\\left(\\tan x+1\\right)^{2}\\mathrm{~d}x$。",
-   "answerText": "$e^{2x}\\tan x+C$（$C$ 为任意常数）\n\n**解析：**\n展开平方：$\\tan^{2}x+2\\tan x+1=\\sec^{2}x+2\\tan x$，恰为 $\\left(\\tan x\\right)^{\\prime}+2\\tan x$，即被积函数等于 $\\left(e^{2x}\\tan x\\right)^{\\prime}$，故原函数为 $e^{2x}\\tan x+C$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "indefinite_integral",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1997.14",
-   "number": 14,
-   "title": "1997 年数学二 第 14 题",
-   "questionText": "求微分方程 $\\left(3x^{2}+2xy-y^{2}\\right)\\mathrm{d}x+\\left(x^{2}-2xy\\right)\\mathrm{d}y=0$ 的通解。",
-   "answerText": "$y^{2}-xy-x^{2}=Cx^{5}$（$C$ 为任意常数）\n\n**解析：**\n令 $y=ux$，代入化简得 $3x\\left(1+u-u^{2}\\right)\\mathrm{~d}x+x^{2}\\left(1-2u\\right)\\mathrm{~d}u=0$，分离变量 $\\dfrac{3\\mathrm{~d}x}{x}=\\dfrac{2u-1}{1+u-u^{2}}\\mathrm{~d}u$，积分得 $x^{3}=C\\left(1+u-u^{2}\\right)$，回代整理即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "first_order_differential_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "homogeneous_first_order_equation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1997.15",
-   "number": 15,
-   "title": "1997 年数学二 第 15 题",
-   "questionText": "已知 $y_{1}=xe^{x}+e^{2x}$，$y_{2}=xe^{x}+e^{-x}$，$y_{3}=xe^{x}+e^{2x}-e^{-x}$ 是某二阶线性非齐次微分方程的三个解，求此微分方程。",
-   "answerText": "$y^{\\prime\\prime}-y^{\\prime}-2y=\\left(1-2x\\right)e^{x}$\n\n**解析：**\n由解的结构，$y_{1}-y_{3}=e^{-x}$ 与 $y_{1}-y_{2}=e^{2x}-e^{-x}$ 是对应齐次方程的解，进而 $e^{2x}$ 也是齐次解，特征根为 $2$ 与 $-1$；公共项 $xe^{x}$ 为一个特解。故方程为 $y^{\\prime\\prime}-y^{\\prime}-2y=f\\left(x\\right)$，把 $xe^{x}$ 代入左端算得 $f\\left(x\\right)=\\left(1-2x\\right)e^{x}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "linear_higher_order_equation",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "second_order_nonhomogeneous_linear",
-    "characteristic_equation"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1997.16",
-   "number": 16,
-   "title": "1997 年数学二 第 16 题",
-   "questionText": "已知矩阵 $\\boldsymbol{A}=\\begin{pmatrix}1 & 1 & -1\\\\0 & 1 & 1\\\\0 & 0 & -1\\end{pmatrix}$，且 $\\boldsymbol{A}^{2}-\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 是 $3$ 阶单位矩阵，求矩阵 $\\boldsymbol{B}$。",
-   "answerText": "$\\boldsymbol{B}=\\begin{pmatrix}0 & 2 & 1\\\\0 & 0 & 0\\\\0 & 0 & 0\\end{pmatrix}$\n\n**解析：**\n由 $\\boldsymbol{A}^{2}-\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{E}$ 得 $\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{E}$；$\\left|\\boldsymbol{A}\\right|=-1\\ne0$，故 $\\boldsymbol{B}=\\boldsymbol{A}-\\boldsymbol{A}^{-1}$。用伴随矩阵法或行变换求出 $\\boldsymbol{A}^{-1}=\\begin{pmatrix}1 & -1 & -2\\\\0 & 1 & 1\\\\0 & 0 & -1\\end{pmatrix}$，相减即得。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.matrix_operations"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、计算题"
-  },
-  {
-   "id": "bank.exam.m2-1997.17",
-   "number": 17,
-   "title": "1997 年数学二 第 17 题",
-   "questionText": "$\\lambda$ 取何值时，方程组 $\\left\\{\\begin{array}{l}2x_{1}+\\lambda x_{2}-x_{3}=1,\\\\\\lambda x_{1}-x_{2}+x_{3}=2,\\\\4x_{1}+5x_{2}-5x_{3}=-1\\end{array}\\right.$ 无解，有唯一解或者有无穷多解？并在有无穷多解时写出方程组的通解。",
-   "answerText": "$\\lambda=1$ 时有无穷多解，通解 $\\boldsymbol{x}=\\left(1,-1,0\\right)^{\\mathrm{T}}+c\\left(0,1,1\\right)^{\\mathrm{T}}$（$c$ 为任意常数）；$\\lambda=-\\dfrac{4}{5}$ 时无解；$\\lambda\\ne1$ 且 $\\lambda\\ne-\\dfrac{4}{5}$ 时有唯一解。\n\n**解析：**\n系数行列式为 $\\left(\\lambda-1\\right)\\left(5\\lambda+4\\right)$。$\\lambda\\ne1,-\\dfrac{4}{5}$ 时由克拉默法则有唯一解。$\\lambda=1$ 时增广矩阵行变换后秩相等且小于 $3$，有无穷多解，取 $x_{3}$ 为自由变量写出通解。$\\lambda=-\\dfrac{4}{5}$ 时第 $2$ 行乘 $-5$ 与第 $3$ 行左端相同而右端不同（$-10\\ne-1$），矛盾，无解。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.system_with_parameters",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.nonhomogeneous_solvability",
-    "la.knowledge.general_solution",
-    "la.knowledge.gaussian_elimination"
-   ],
-   "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.system_with_parameters，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "四、线性方程组"
-  },
-  {
-   "id": "bank.exam.m2-1997.18",
-   "number": 18,
-   "title": "1997 年数学二 第 18 题",
-   "questionText": "设曲线 $L$ 的极坐标方程为 $r=r\\left(\\theta\\right)$，$M\\left(r,\\theta\\right)$ 为 $L$ 上任一点，$M_{0}\\left(2,0\\right)$ 为 $L$ 上一定点。若极径 $OM_{0}$、$OM$ 与曲线 $L$ 所围成的曲边扇形面积恒等于 $L$ 上 $M_{0}$、$M$ 两点间弧长值的一半，求曲线 $L$ 的方程。",
-   "answerText": "$r=\\sec\\left(\\theta\\pm\\dfrac{\\pi}{3}\\right)$\n\n**解析：**\n面积 $A\\left(\\theta\\right)=\\dfrac{1}{2}\\int_{0}^{\\theta}r^{2}\\,\\mathrm{d}\\varphi$，弧长 $s\\left(\\theta\\right)=\\int_{0}^{\\theta}\\sqrt{r^{2}+r^{\\prime 2}}\\,\\mathrm{d}\\varphi$。由 $A=\\dfrac{s}{2}$ 两边求导得 $r^{4}=r^{2}+r^{\\prime 2}$，即 $\\dfrac{\\mathrm{d}r}{r\\sqrt{r^{2}-1}}=\\pm\\mathrm{d}\\theta$，积分得 $\\operatorname{arcsec}r=\\pm\\theta+C$。由 $r\\left(0\\right)=2$ 得 $C=\\pm\\dfrac{\\pi}{3}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_application_geometry",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "arc_differential",
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "五、极坐标曲线"
-  },
-  {
-   "id": "bank.exam.m2-1997.19",
-   "number": 19,
-   "title": "1997 年数学二 第 19 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 在闭区间 $\\left[0,1\\right]$ 上连续，在开区间 $\\left(0,1\\right)$ 内大于零，并满足 $xf^{\\prime}\\left(x\\right)=f\\left(x\\right)+\\frac{3a}{2}x^{2}$，其中 $a$ 为常数。又曲线 $y=f\\left(x\\right)$ 与 $x=1,y=0$ 所围图形 $S$ 的面积值为 $2$，求函数 $y=f\\left(x\\right)$，并问 $a$ 为何值时，图形 $S$ 绕 $x$ 轴旋转一周所得的旋转体体积最小。",
-   "answerText": "$f\\left(x\\right)=\\dfrac{3a}{2}x^{2}+\\left(4-a\\right)x$；当 $a=-5$ 时旋转体体积最小，最小值为 $\\dfrac{9\\pi}{2}$。\n\n**解析：**\n方程即 $f^{\\prime}-\\dfrac{f}{x}=\\dfrac{3a}{2}x$，乘 $\\dfrac{1}{x}$ 得 $\\left(\\dfrac{f}{x}\\right)^{\\prime}=\\dfrac{3a}{2}$，故 $f=\\dfrac{3a}{2}x^{2}+Cx$。由面积 $\\int_{0}^{1}f\\,\\mathrm{d}x=\\dfrac{a}{2}+\\dfrac{C}{2}=2$ 得 $C=4-a$。$V=\\pi\\int_{0}^{1}f^{2}\\,\\mathrm{d}x=\\pi\\left(\\dfrac{a^{2}}{30}+\\dfrac{a}{3}+\\dfrac{16}{3}\\right)$，令导数为零得 $a=-5$，此时 $V=\\dfrac{9\\pi}{2}$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_application_geometry",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc",
-    "extrema"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "calculus",
-   "section": "六、面积与旋转体体积"
-  },
-  {
-   "id": "bank.exam.m2-1997.20",
-   "number": 20,
-   "title": "1997 年数学二 第 20 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 连续，$\\varphi\\left(x\\right)=\\int_{0}^{1}f\\left(xt\\right)\\mathrm{~d}t$，且 $\\lim_{x \\to 0}\\frac{f\\left(x\\right)}{x}=A$，其中 $A$ 为常数，求 $\\varphi^{\\prime}\\left(x\\right)$ 并讨论 $\\varphi^{\\prime}\\left(x\\right)$ 在 $x=0$ 处的连续性。",
-   "answerText": "$\\varphi^{\\prime}\\left(x\\right)=\\dfrac{xf\\left(x\\right)-\\int_{0}^{x}f\\left(u\\right)\\mathrm{~d}u}{x^{2}}$（$x\\ne0$），$\\varphi^{\\prime}\\left(0\\right)=\\dfrac{A}{2}$，且 $\\varphi^{\\prime}$ 在 $x=0$ 处连续。\n\n**解析：**\n由 $\\lim\\dfrac{f\\left(x\\right)}{x}=A$ 知 $f\\left(0\\right)=0$，故 $\\varphi\\left(0\\right)=0$。$x\\ne0$ 时换元 $u=xt$：$\\varphi\\left(x\\right)=\\dfrac{1}{x}\\int_{0}^{x}f\\left(u\\right)\\mathrm{~d}u$，求导如上。$\\varphi^{\\prime}\\left(0\\right)=\\lim_{x\\to0}\\dfrac{\\varphi\\left(x\\right)}{x}$ 用洛必达得 $\\dfrac{A}{2}$；再由 $f\\left(x\\right)=Ax+o\\left(x\\right)$ 估计分子为 $\\dfrac{A}{2}x^{2}+o\\left(x^{2}\\right)$，得 $\\lim_{x\\to0}\\varphi^{\\prime}\\left(x\\right)=\\dfrac{A}{2}=\\varphi^{\\prime}\\left(0\\right)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "integral_defined_function",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "variable_upper_integral",
-    "continuity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "calculus",
-   "section": "七、函数连续性与导数"
-  },
-  {
-   "id": "bank.exam.m2-1997.21",
-   "number": 21,
-   "title": "1997 年数学二 第 21 题",
-   "questionText": "就 $k$ 的不同取值情况，确定方程 $x-\\frac{\\pi}{2}\\sin x=k$ 在开区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 内根的个数，并证明你的结论。",
-   "answerText": "当 $k\\ge0$ 或 $k<y_{0}$（$y_{0}=\\arccos\\dfrac{2}{\\pi}-\\dfrac{\\sqrt{\\pi^{2}-4}}{2}$）时无根；当 $k=y_{0}$ 时有唯一根；当 $y_{0}<k<0$ 时有两个不同的根。\n\n**解析：**\n记 $g\\left(x\\right)=x-\\dfrac{\\pi}{2}\\sin x$，$g^{\\prime}\\left(x\\right)=1-\\dfrac{\\pi}{2}\\cos x$ 在 $\\left(0,\\dfrac{\\pi}{2}\\right)$ 内有唯一零点 $x_{0}=\\arccos\\dfrac{2}{\\pi}$，且 $g$ 在 $\\left(0,x_{0}\\right)$ 严格减、$\\left(x_{0},\\dfrac{\\pi}{2}\\right)$ 严格增，$g\\left(0\\right)=g\\left(\\dfrac{\\pi}{2}\\right)=0$，最小值 $g\\left(x_{0}\\right)=y_{0}<0$。水平线 $y=k$ 与 $g$ 图象的交点个数即根的个数，按 $k$ 的范围讨论如上。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "equation_root",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "monotonicity"
-   ],
-   "methodIds": [],
-   "notes": "已校对",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 1997,
-    "paper": "math2",
-    "number": 21
-   },
-   "subjectGuess": "calculus",
-   "section": "八、方程根的个数"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-1997.1",
+      "number": 1,
+      "title": "1997 年数学二 第 1 题",
+      "questionText": "已知函数 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\left(\\cos x\\right)^{\\frac{1}{x^{2}}}, & x\\ne 0,\\\\a, & x=0,\\end{array}\\right.$ 在 $x=0$ 处连续，则 $a=$ ______。",
+      "answerText": "$e^{-\\frac{1}{2}}$\n\n**解析：**\n取对数：$\\lim_{x\\to0}\\dfrac{\\ln\\cos x}{x^{2}}=\\lim\\dfrac{-\\tan x}{2x}=-\\dfrac{1}{2}$，故极限为 $e^{-\\frac{1}{2}}$，由连续性 $a=e^{-\\frac{1}{2}}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "continuity_and_discontinuity",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "important_limits",
+        "continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1997.2",
+      "number": 2,
+      "title": "1997 年数学二 第 2 题",
+      "questionText": "设 $y=\\ln \\sqrt{\\frac{1-x}{1+x^{2}}}$，则 $\\left.y^{\\prime\\prime}\\right|_{x=0}=$ ______。",
+      "answerText": "$-\\dfrac{3}{2}$\n\n**解析：**\n先化为 $y=\\dfrac{1}{2}\\left[\\ln\\left(1-x\\right)-\\ln\\left(1+x^{2}\\right)\\right]$，求两次导后在 $x=0$ 处取值：$y^{\\prime\\prime}\\left(0\\right)=\\dfrac{1}{2}\\left[-1-2\\right]=-\\dfrac{3}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1997.3",
+      "number": 3,
+      "title": "1997 年数学二 第 3 题",
+      "questionText": "求 $\\int \\frac{\\mathrm{d}x}{\\sqrt{x\\left(4-x\\right)}}$。",
+      "answerText": "$2\\arcsin\\dfrac{\\sqrt{x}}{2}+C$（$C$ 为任意常数）\n\n**解析：**\n$\\dfrac{\\mathrm{d}x}{\\sqrt{x}\\sqrt{4-x}}=2\\,\\dfrac{\\mathrm{d}\\sqrt{x}}{\\sqrt{4-\\left(\\sqrt{x}\\right)^{2}}}$，凑成反正弦微分即得；亦可配方后用 $\\arcsin\\dfrac{x-2}{2}+C$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1997.4",
+      "number": 4,
+      "title": "1997 年数学二 第 4 题",
+      "questionText": "求 $\\int_{0}^{+\\infty}\\frac{\\mathrm{d}x}{x^{2}+4x+8}$。",
+      "answerText": "$\\dfrac{\\pi}{8}$\n\n**解析：**\n配平方：$x^{2}+4x+8=\\left(x+2\\right)^{2}+4$，原积分 $=\\left.\\dfrac{1}{2}\\arctan\\dfrac{x+2}{2}\\right|_{0}^{+\\infty}=\\dfrac{1}{2}\\left(\\dfrac{\\pi}{2}-\\dfrac{\\pi}{4}\\right)=\\dfrac{\\pi}{8}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1997.5",
+      "number": 5,
+      "title": "1997 年数学二 第 5 题",
+      "questionText": "已知向量组 $\\boldsymbol{\\alpha}_{1}=\\left(1,2,-1,1\\right)$，$\\boldsymbol{\\alpha}_{2}=\\left(2,0,t,0\\right)$，$\\boldsymbol{\\alpha}_{3}=\\left(0,-4,5,-2\\right)$ 的秩为 $2$，则 $t=$ ______。",
+      "answerText": "$3$\n\n**解析：**\n以 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{3}$ 为行作初等行变换（或按 $\\boldsymbol{\\alpha}_{2}=k_{1}\\boldsymbol{\\alpha}_{1}+k_{2}\\boldsymbol{\\alpha}_{3}$ 待定）：由第 1、4 分量定出 $k_{1}=2,k_{2}=1$，再由第 3 分量得 $t=-2+5=3$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、填空题"
+    },
+    {
+      "id": "bank.exam.m2-1997.6",
+      "number": 6,
+      "title": "1997 年数学二 第 6 题",
+      "questionText": "设 $x\\to 0$ 时，$e^{\\tan x}-e^{x}$ 与 $x^{n}$ 是同阶无穷小，则 $n$ 为（ ）\n\nA. $1$。\nB. $2$。\nC. $3$。\nD. $4$。",
+      "answerText": "C\n\n**解析：**\n$e^{\\tan x}-e^{x}=e^{x}\\left(e^{\\tan x-x}-1\\right)\\sim\\tan x-x\\sim\\dfrac{x^{3}}{3}$，故与 $x^{3}$ 同阶，$n=3$。选 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal",
+        "infinitesimal_order"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1997.7",
+      "number": 7,
+      "title": "1997 年数学二 第 7 题",
+      "questionText": "设在闭区间 $\\left[a,b\\right]$ 上 $f\\left(x\\right)>0$，$f^{\\prime}\\left(x\\right)<0$，$f^{\\prime\\prime}\\left(x\\right)>0$。记 $S_{1}=\\int_{a}^{b}f\\left(x\\right)\\mathrm{~d}x$，$S_{2}=f\\left(b\\right)\\left(b-a\\right)$，$S_{3}=\\frac{1}{2}\\left[f\\left(a\\right)+f\\left(b\\right)\\right]\\left(b-a\\right)$，则（ ）\n\nA. $S_{1}<S_{2}<S_{3}$。\nB. $S_{2}<S_{1}<S_{3}$。\nC. $S_{3}<S_{1}<S_{2}$。\nD. $S_{2}<S_{3}<S_{1}$。",
+      "answerText": "B\n\n**解析：**\n$f$ 递减且为正：曲边梯形面积大于以 $f\\left(b\\right)$ 为高的矩形面积 $S_{2}$，即 $S_{2}<S_{1}$；又 $f^{\\prime\\prime}>0$（下凸），曲线位于连接端点的弦下方，故曲边梯形面积小于梯形面积 $S_{3}$。得 $S_{2}<S_{1}<S_{3}$。选 B。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties",
+        "concavity_inflection"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1997.8",
+      "number": 8,
+      "title": "1997 年数学二 第 8 题",
+      "questionText": "已知函数 $y=f\\left(x\\right)$ 对一切 $x$ 满足 $xf^{\\prime\\prime}\\left(x\\right)+3x\\left[f^{\\prime}\\left(x\\right)\\right]^{2}=1-e^{-x}$，若 $f^{\\prime}\\left(x_{0}\\right)=0\\left(x_{0}\\ne 0\\right)$，则（ ）\n\nA. $f\\left(x_{0}\\right)$ 是 $f\\left(x\\right)$ 的极大值。\nB. $f\\left(x_{0}\\right)$ 是 $f\\left(x\\right)$ 的极小值。\nC. $\\left(x_{0},f\\left(x_{0}\\right)\\right)$ 是曲线 $y=f\\left(x\\right)$ 的拐点。\nD. $f\\left(x_{0}\\right)$ 不是 $f\\left(x\\right)$ 的极值，$\\left(x_{0},f\\left(x_{0}\\right)\\right)$ 也不是曲线 $y=f\\left(x\\right)$ 的拐点。",
+      "answerText": "B\n\n**解析：**\n把 $f^{\\prime}\\left(x_{0}\\right)=0$ 代入方程：$x_{0}f^{\\prime\\prime}\\left(x_{0}\\right)=1-e^{-x_{0}}$，即 $f^{\\prime\\prime}\\left(x_{0}\\right)=\\dfrac{1-e^{-x_{0}}}{x_{0}}$。无论 $x_{0}>0$ 还是 $x_{0}<0$，分子与分母同号，故 $f^{\\prime\\prime}\\left(x_{0}\\right)>0$，为极小值。选 B。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema",
+        "differentiability_continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1997.9",
+      "number": 9,
+      "title": "1997 年数学二 第 9 题",
+      "questionText": "设 $F\\left(x\\right)=\\int_{x}^{x+2\\pi}e^{\\sin t}\\sin t\\mathrm{~d}t$，则 $F\\left(x\\right)$（ ）\n\nA. 为正常数。\nB. 为负常数。\nC. 恒为零。\nD. 不为常数。",
+      "answerText": "A\n\n**解析：**\n被积函数 $e^{\\sin t}\\sin t$ 以 $2\\pi$ 为周期，$F\\left(x+2\\pi\\right)=F\\left(x\\right)$，故 $F$ 为常数。取 $x=0$ 拆成 $\\left[0,\\pi\\right]$ 与 $\\left[\\pi,2\\pi\\right]$，用 $t-\\pi$ 换元合并得 $F=\\int_{0}^{\\pi}\\left(e^{\\sin t}-e^{-\\sin t}\\right)\\sin t\\,\\mathrm{d}t>0$，为正常数。选 A。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1997.10",
+      "number": 10,
+      "title": "1997 年数学二 第 10 题",
+      "questionText": "设函数 $g\\left(x\\right)=\\left\\{\\begin{array}{ll}2-x, & x\\le 0,\\\\x+2, & x>0,\\end{array}\\right.$，$f\\left(x\\right)=\\left\\{\\begin{array}{ll}x^{2}, & x<0,\\\\-x, & x\\ge 0,\\end{array}\\right.$，则 $g\\left[f\\left(x\\right)\\right]=$（ ）\n\nA. $\\left\\{\\begin{array}{ll}2+x^{2}, & x<0,\\\\2-x, & x\\ge 0.\\end{array}\\right.$\nB. $\\left\\{\\begin{array}{ll}2-x^{2}, & x<0,\\\\2+x, & x\\ge 0.\\end{array}\\right.$\nC. $\\left\\{\\begin{array}{ll}2-x^{2}, & x<0,\\\\2-x, & x\\ge 0.\\end{array}\\right.$\nD. $\\left\\{\\begin{array}{ll}2+x^{2}, & x<0,\\\\2+x, & x\\ge 0.\\end{array}\\right.$",
+      "answerText": "D\n\n**解析：**\n$x<0$ 时 $f\\left(x\\right)=x^{2}>0$，落入 $g$ 的 $x>0$ 分支，$g\\left[f\\left(x\\right)\\right]=2+x^{2}$；$x\\ge0$ 时 $f\\left(x\\right)=-x\\le0$，落入 $g$ 的 $x\\le0$ 分支，$g\\left[f\\left(x\\right)\\right]=2-\\left(-x\\right)=2+x$。选 D。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "inverse_composite_function"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "calculus",
+      "section": "二、选择题"
+    },
+    {
+      "id": "bank.exam.m2-1997.11",
+      "number": 11,
+      "title": "1997 年数学二 第 11 题",
+      "questionText": "求极限 $\\lim_{x \\to -\\infty}\\frac{\\sqrt{4x^{2}+x-1}+x+1}{\\sqrt{x^{2}+\\sin x}}$。",
+      "answerText": "$1$\n\n**解析：**\n$x\\to-\\infty$ 时 $\\sqrt{4x^{2}+x-1}=\\left|x\\right|\\sqrt{4+\\frac{1}{x}-\\frac{1}{x^{2}}}=-x\\left(2+o\\left(1\\right)\\right)$，分母 $\\sqrt{x^{2}+\\sin x}=\\left|x\\right|\\sqrt{1+\\frac{\\sin x}{x^{2}}}=-x\\left(1+o\\left(1\\right)\\right)$。于是分子 $=-x\\left(1+o\\left(1\\right)\\right)$，比值为 $1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "limit_operations"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1997.12",
+      "number": 12,
+      "title": "1997 年数学二 第 12 题",
+      "questionText": "设函数 $y=y\\left(x\\right)$ 由 $\\left\\{\\begin{array}{l}x=\\arctan t,\\\\2y-ty^{2}+e^{t}=5\\end{array}\\right.$ 所确定，求 $y^{\\prime}$。",
+      "answerText": "$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\left(1+t^{2}\\right)\\left(y^{2}+e^{t}\\right)}{2\\left(1-ty\\right)}$\n\n**解析：**\n对第二式关于 $t$ 求导：$2\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}-y^{2}-2ty\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}-e^{t}=0$，解出 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}$，再除以 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{1}{1+t^{2}}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "parametric_derivative",
+        "implicit_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1997.13",
+      "number": 13,
+      "title": "1997 年数学二 第 13 题",
+      "questionText": "计算 $\\int e^{2x}\\left(\\tan x+1\\right)^{2}\\mathrm{~d}x$。",
+      "answerText": "$e^{2x}\\tan x+C$（$C$ 为任意常数）\n\n**解析：**\n展开平方：$\\tan^{2}x+2\\tan x+1=\\sec^{2}x+2\\tan x$，恰为 $\\left(\\tan x\\right)^{\\prime}+2\\tan x$，即被积函数等于 $\\left(e^{2x}\\tan x\\right)^{\\prime}$，故原函数为 $e^{2x}\\tan x+C$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "indefinite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1997.14",
+      "number": 14,
+      "title": "1997 年数学二 第 14 题",
+      "questionText": "求微分方程 $\\left(3x^{2}+2xy-y^{2}\\right)\\mathrm{d}x+\\left(x^{2}-2xy\\right)\\mathrm{d}y=0$ 的通解。",
+      "answerText": "$y^{2}-xy-x^{2}=Cx^{5}$（$C$ 为任意常数）\n\n**解析：**\n令 $y=ux$，代入化简得 $3x\\left(1+u-u^{2}\\right)\\mathrm{~d}x+x^{2}\\left(1-2u\\right)\\mathrm{~d}u=0$，分离变量 $\\dfrac{3\\mathrm{~d}x}{x}=\\dfrac{2u-1}{1+u-u^{2}}\\mathrm{~d}u$，积分得 $x^{3}=C\\left(1+u-u^{2}\\right)$，回代整理即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "homogeneous_first_order_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1997.15",
+      "number": 15,
+      "title": "1997 年数学二 第 15 题",
+      "questionText": "已知 $y_{1}=xe^{x}+e^{2x}$，$y_{2}=xe^{x}+e^{-x}$，$y_{3}=xe^{x}+e^{2x}-e^{-x}$ 是某二阶线性非齐次微分方程的三个解，求此微分方程。",
+      "answerText": "$y^{\\prime\\prime}-y^{\\prime}-2y=\\left(1-2x\\right)e^{x}$\n\n**解析：**\n由解的结构，$y_{1}-y_{3}=e^{-x}$ 与 $y_{1}-y_{2}=e^{2x}-e^{-x}$ 是对应齐次方程的解，进而 $e^{2x}$ 也是齐次解，特征根为 $2$ 与 $-1$；公共项 $xe^{x}$ 为一个特解。故方程为 $y^{\\prime\\prime}-y^{\\prime}-2y=f\\left(x\\right)$，把 $xe^{x}$ 代入左端算得 $f\\left(x\\right)=\\left(1-2x\\right)e^{x}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "second_order_nonhomogeneous_linear",
+        "characteristic_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1997.16",
+      "number": 16,
+      "title": "1997 年数学二 第 16 题",
+      "questionText": "已知矩阵 $\\boldsymbol{A}=\\begin{pmatrix}1 & 1 & -1\\\\0 & 1 & 1\\\\0 & 0 & -1\\end{pmatrix}$，且 $\\boldsymbol{A}^{2}-\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 是 $3$ 阶单位矩阵，求矩阵 $\\boldsymbol{B}$。",
+      "answerText": "$\\boldsymbol{B}=\\begin{pmatrix}0 & 2 & 1\\\\0 & 0 & 0\\\\0 & 0 & 0\\end{pmatrix}$\n\n**解析：**\n由 $\\boldsymbol{A}^{2}-\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{E}$ 得 $\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{E}$；$\\left|\\boldsymbol{A}\\right|=-1\\ne0$，故 $\\boldsymbol{B}=\\boldsymbol{A}-\\boldsymbol{A}^{-1}$。用伴随矩阵法或行变换求出 $\\boldsymbol{A}^{-1}=\\begin{pmatrix}1 & -1 & -2\\\\0 & 1 & 1\\\\0 & 0 & -1\\end{pmatrix}$，相减即得。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.inverse_matrix",
+        "la.knowledge.matrix_operations"
+      ],
+      "methodIds": [],
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、计算题"
+    },
+    {
+      "id": "bank.exam.m2-1997.17",
+      "number": 17,
+      "title": "1997 年数学二 第 17 题",
+      "questionText": "$\\lambda$ 取何值时，方程组 $\\left\\{\\begin{array}{l}2x_{1}+\\lambda x_{2}-x_{3}=1,\\\\\\lambda x_{1}-x_{2}+x_{3}=2,\\\\4x_{1}+5x_{2}-5x_{3}=-1\\end{array}\\right.$ 无解，有唯一解或者有无穷多解？并在有无穷多解时写出方程组的通解。",
+      "answerText": "$\\lambda=1$ 时有无穷多解，通解 $\\boldsymbol{x}=\\left(1,-1,0\\right)^{\\mathrm{T}}+c\\left(0,1,1\\right)^{\\mathrm{T}}$（$c$ 为任意常数）；$\\lambda=-\\dfrac{4}{5}$ 时无解；$\\lambda\\ne1$ 且 $\\lambda\\ne-\\dfrac{4}{5}$ 时有唯一解。\n\n**解析：**\n系数行列式为 $\\left(\\lambda-1\\right)\\left(5\\lambda+4\\right)$。$\\lambda\\ne1,-\\dfrac{4}{5}$ 时由克拉默法则有唯一解。$\\lambda=1$ 时增广矩阵行变换后秩相等且小于 $3$，有无穷多解，取 $x_{3}$ 为自由变量写出通解。$\\lambda=-\\dfrac{4}{5}$ 时第 $2$ 行乘 $-5$ 与第 $3$ 行左端相同而右端不同（$-10\\ne-1$），矛盾，无解。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.system_with_parameters",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.nonhomogeneous_solvability",
+        "la.knowledge.general_solution",
+        "la.knowledge.gaussian_elimination"
+      ],
+      "methodIds": [],
+      "notes": "已校对；自动打标(规则)：la.problem_type.system_with_parameters，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "四、线性方程组"
+    },
+    {
+      "id": "bank.exam.m2-1997.18",
+      "number": 18,
+      "title": "1997 年数学二 第 18 题",
+      "questionText": "设曲线 $L$ 的极坐标方程为 $r=r\\left(\\theta\\right)$，$M\\left(r,\\theta\\right)$ 为 $L$ 上任一点，$M_{0}\\left(2,0\\right)$ 为 $L$ 上一定点。若极径 $OM_{0}$、$OM$ 与曲线 $L$ 所围成的曲边扇形面积恒等于 $L$ 上 $M_{0}$、$M$ 两点间弧长值的一半，求曲线 $L$ 的方程。",
+      "answerText": "$r=\\sec\\left(\\theta\\pm\\dfrac{\\pi}{3}\\right)$\n\n**解析：**\n面积 $A\\left(\\theta\\right)=\\dfrac{1}{2}\\int_{0}^{\\theta}r^{2}\\,\\mathrm{d}\\varphi$，弧长 $s\\left(\\theta\\right)=\\int_{0}^{\\theta}\\sqrt{r^{2}+r^{\\prime 2}}\\,\\mathrm{d}\\varphi$。由 $A=\\dfrac{s}{2}$ 两边求导得 $r^{4}=r^{2}+r^{\\prime 2}$，即 $\\dfrac{\\mathrm{d}r}{r\\sqrt{r^{2}-1}}=\\pm\\mathrm{d}\\theta$，积分得 $\\operatorname{arcsec}r=\\pm\\theta+C$。由 $r\\left(0\\right)=2$ 得 $C=\\pm\\dfrac{\\pi}{3}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "arc_differential",
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "五、极坐标曲线"
+    },
+    {
+      "id": "bank.exam.m2-1997.19",
+      "number": 19,
+      "title": "1997 年数学二 第 19 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 在闭区间 $\\left[0,1\\right]$ 上连续，在开区间 $\\left(0,1\\right)$ 内大于零，并满足 $xf^{\\prime}\\left(x\\right)=f\\left(x\\right)+\\frac{3a}{2}x^{2}$，其中 $a$ 为常数。又曲线 $y=f\\left(x\\right)$ 与 $x=1,y=0$ 所围图形 $S$ 的面积值为 $2$，求函数 $y=f\\left(x\\right)$，并问 $a$ 为何值时，图形 $S$ 绕 $x$ 轴旋转一周所得的旋转体体积最小。",
+      "answerText": "$f\\left(x\\right)=\\dfrac{3a}{2}x^{2}+\\left(4-a\\right)x$；当 $a=-5$ 时旋转体体积最小，最小值为 $\\dfrac{9\\pi}{2}$。\n\n**解析：**\n方程即 $f^{\\prime}-\\dfrac{f}{x}=\\dfrac{3a}{2}x$，乘 $\\dfrac{1}{x}$ 得 $\\left(\\dfrac{f}{x}\\right)^{\\prime}=\\dfrac{3a}{2}$，故 $f=\\dfrac{3a}{2}x^{2}+Cx$。由面积 $\\int_{0}^{1}f\\,\\mathrm{d}x=\\dfrac{a}{2}+\\dfrac{C}{2}=2$ 得 $C=4-a$。$V=\\pi\\int_{0}^{1}f^{2}\\,\\mathrm{d}x=\\pi\\left(\\dfrac{a^{2}}{30}+\\dfrac{a}{3}+\\dfrac{16}{3}\\right)$，令导数为零得 $a=-5$，此时 $V=\\dfrac{9\\pi}{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc",
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "calculus",
+      "section": "六、面积与旋转体体积"
+    },
+    {
+      "id": "bank.exam.m2-1997.20",
+      "number": 20,
+      "title": "1997 年数学二 第 20 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 连续，$\\varphi\\left(x\\right)=\\int_{0}^{1}f\\left(xt\\right)\\mathrm{~d}t$，且 $\\lim_{x \\to 0}\\frac{f\\left(x\\right)}{x}=A$，其中 $A$ 为常数，求 $\\varphi^{\\prime}\\left(x\\right)$ 并讨论 $\\varphi^{\\prime}\\left(x\\right)$ 在 $x=0$ 处的连续性。",
+      "answerText": "$\\varphi^{\\prime}\\left(x\\right)=\\dfrac{xf\\left(x\\right)-\\int_{0}^{x}f\\left(u\\right)\\mathrm{~d}u}{x^{2}}$（$x\\ne0$），$\\varphi^{\\prime}\\left(0\\right)=\\dfrac{A}{2}$，且 $\\varphi^{\\prime}$ 在 $x=0$ 处连续。\n\n**解析：**\n由 $\\lim\\dfrac{f\\left(x\\right)}{x}=A$ 知 $f\\left(0\\right)=0$，故 $\\varphi\\left(0\\right)=0$。$x\\ne0$ 时换元 $u=xt$：$\\varphi\\left(x\\right)=\\dfrac{1}{x}\\int_{0}^{x}f\\left(u\\right)\\mathrm{~d}u$，求导如上。$\\varphi^{\\prime}\\left(0\\right)=\\lim_{x\\to0}\\dfrac{\\varphi\\left(x\\right)}{x}$ 用洛必达得 $\\dfrac{A}{2}$；再由 $f\\left(x\\right)=Ax+o\\left(x\\right)$ 估计分子为 $\\dfrac{A}{2}x^{2}+o\\left(x^{2}\\right)$，得 $\\lim_{x\\to0}\\varphi^{\\prime}\\left(x\\right)=\\dfrac{A}{2}=\\varphi^{\\prime}\\left(0\\right)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "calculus",
+      "section": "七、函数连续性与导数"
+    },
+    {
+      "id": "bank.exam.m2-1997.21",
+      "number": 21,
+      "title": "1997 年数学二 第 21 题",
+      "questionText": "就 $k$ 的不同取值情况，确定方程 $x-\\frac{\\pi}{2}\\sin x=k$ 在开区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 内根的个数，并证明你的结论。",
+      "answerText": "当 $k\\ge0$ 或 $k<y_{0}$（$y_{0}=\\arccos\\dfrac{2}{\\pi}-\\dfrac{\\sqrt{\\pi^{2}-4}}{2}$）时无根；当 $k=y_{0}$ 时有唯一根；当 $y_{0}<k<0$ 时有两个不同的根。\n\n**解析：**\n记 $g\\left(x\\right)=x-\\dfrac{\\pi}{2}\\sin x$，$g^{\\prime}\\left(x\\right)=1-\\dfrac{\\pi}{2}\\cos x$ 在 $\\left(0,\\dfrac{\\pi}{2}\\right)$ 内有唯一零点 $x_{0}=\\arccos\\dfrac{2}{\\pi}$，且 $g$ 在 $\\left(0,x_{0}\\right)$ 严格减、$\\left(x_{0},\\dfrac{\\pi}{2}\\right)$ 严格增，$g\\left(0\\right)=g\\left(\\dfrac{\\pi}{2}\\right)=0$，最小值 $g\\left(x_{0}\\right)=y_{0}<0$。水平线 $y=k$ 与 $g$ 图象的交点个数即根的个数，按 $k$ 的范围讨论如上。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "equation_root",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 1997,
+        "paper": "math2",
+        "number": 21
+      },
+      "subjectGuess": "calculus",
+      "section": "八、方程根的个数"
+    }
+  ]
 }
