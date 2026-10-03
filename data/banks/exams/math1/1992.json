@@ -4,8 +4,8 @@
  "subject": "exam_mixed",
  "year": 1992,
  "paper": "math1",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1992年考研数学(一)真题.md",
  "paperInfo": {
   "year": 1992,
@@ -14,10 +14,15 @@
   "sections": [
    "一、填空题（本题共5小题，每小题3分，满分15分）",
    "二、选择题（本题共5小题，每小题3分，满分15分）",
-   "三、(本题共3小题，每小题5分，满分15分)",
-   "八、（本题满分7分）",
-   "九、（本题满分7分）",
-   "十、填空题（本题共2小题，每小题3分，共6分）"
+   "三、（本题共3小题，每小题5分，满分15分）",
+   "四、（本题满分6分）",
+   "五、（本题满分8分）",
+   "六、（本题满分7分）",
+   "七、（本题满分8分）",
+   "八、（本题满分7分，含2小题）",
+   "九、（本题满分7分，含2小题）",
+   "十、填空题（本题共2小题，每小题3分，共6分）",
+   "十一、（本题满分6分）"
   ],
   "problemsOrder": [
    {
@@ -53,19 +58,19 @@
    {
     "number": 6,
     "id": "bank.exam.m1-1992.6",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 7,
     "id": "bank.exam.m1-1992.7",
-    "subjectGuess": "probability_statistics",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m1-1992.8",
-    "subjectGuess": "probability_statistics",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -77,32 +82,32 @@
    {
     "number": 10,
     "id": "bank.exam.m1-1992.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 11,
     "id": "bank.exam.m1-1992.11",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 12,
     "id": "bank.exam.m1-1992.12",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 13,
     "id": "bank.exam.m1-1992.13",
-    "subjectGuess": "linear_algebra",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 14,
     "id": "bank.exam.m1-1992.14",
-    "subjectGuess": "probability_statistics",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 15,
@@ -125,13 +130,43 @@
    {
     "number": 18,
     "id": "bank.exam.m1-1992.18",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": false
    },
    {
     "number": 19,
     "id": "bank.exam.m1-1992.19",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-1992.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-1992.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-1992.22",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-1992.23",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 24,
+    "id": "bank.exam.m1-1992.24",
+    "subjectGuess": "probability_statistics",
     "objective": false
    }
   ],
@@ -142,8 +177,8 @@
    "id": "bank.exam.m1-1992.1",
    "number": 1,
    "title": "1992 年数学一 第 1 题",
-   "questionText": "设函数 $y = y(x)$ 由方程 $\\mathrm{e}^{x + y} + \\cos (xy) = 0$ 确定，则 $\\frac{\\mathrm{dy}}{\\mathrm{dx}} = \\_ .$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $y=y(x)$ 由方程 $\\mathrm{e}^{x+y}+\\cos(xy)=0$ 确定，则 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\underline{\\quad}$ .",
+   "answerText": "答案：$\\dfrac{\\mathrm{e}^{x+y}-y\\sin(xy)}{x\\sin(xy)-\\mathrm{e}^{x+y}}$\n\n**解析：**\n两边对 $x$ 求导：$\\mathrm{e}^{x+y}(1+y^{\\prime})-\\sin(xy)\\,(y+xy^{\\prime})=0$，整理出 $y^{\\prime}$ 即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "infinite_series",
@@ -154,7 +189,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -172,8 +207,8 @@
    "id": "bank.exam.m1-1992.2",
    "number": 2,
    "title": "1992 年数学一 第 2 题",
-   "questionText": "函数 $u = \\ln (x^{2} + y^{2} + z^{2})$ 在点 $M(1,2, - 2)$ 处的梯度grad $u|_{M} = \\_ .$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "函数 $u=\\ln(x^{2}+y^{2}+z^{2})$ 在点 $M(1,2,-2)$ 处的梯度 $\\mathrm{grad}\\,u|_{M}=\\underline{\\quad}$ .",
+   "answerText": "答案：$\\left\\{\\dfrac{2}{9},\\ \\dfrac{4}{9},\\ -\\dfrac{4}{9}\\right\\}$\n\n**解析：**\n$\\mathrm{grad}\\,u=\\dfrac{1}{x^{2}+y^{2}+z^{2}}(2x,2y,2z)$。在 $M$ 处 $x^{2}+y^{2}+z^{2}=9$，代入得 $\\left(\\dfrac{2}{9},\\dfrac{4}{9},-\\dfrac{4}{9}\\right)$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -185,7 +220,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -203,8 +238,8 @@
    "id": "bank.exam.m1-1992.3",
    "number": 3,
    "title": "1992 年数学一 第 3 题",
-   "questionText": "设 $f(x) = \\left\\{ \\begin{array}{ll} - 1, & -\\pi < x \\leqslant 0, \\\\ 1 + x^2, & 0 < x \\leqslant \\pi, \\end{array} \\right.$ 则其以 $2\\pi$ 为周期的傅里叶级数在点 $x = \\pi$ 处收敛于",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $f(x)=\\begin{cases}-1, & -\\pi<x\\leqslant 0, \\\\ 1+x^{2}, & 0<x\\leqslant\\pi,\\end{cases}$ 则其以 $2\\pi$ 为周期的傅里叶级数在点 $x=\\pi$ 处收敛于 $\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{\\pi^{2}}{2}$\n\n**解析：**\n$x=\\pi$ 是周期延拓后 $f$ 的间断点，级数收敛于 $\\dfrac{f(\\pi^{-})+f(-\\pi^{+})}{2}=\\dfrac{(1+\\pi^{2})+(-1)}{2}=\\dfrac{\\pi^{2}}{2}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "infinite_series",
@@ -215,7 +250,7 @@
     "fourier_series_coefficients"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -233,8 +268,8 @@
    "id": "bank.exam.m1-1992.4",
    "number": 4,
    "title": "1992 年数学一 第 4 题",
-   "questionText": "微分方程 $y^\\prime +y\\tan x = \\cos x$ 的通解为",
-   "answerText": "（答案待校对补充）",
+   "questionText": "微分方程 $y^{\\prime}+y\\tan x=\\cos x$ 的通解为 $\\underline{\\quad}$",
+   "answerText": "答案：$y=(x+C)\\cos x$（$C$ 为任意常数）\n\n**解析：**\n一阶线性方程，乘积分因子 $\\mathrm{e}^{\\int\\tan x\\,\\mathrm{d}x}=\\dfrac{1}{\\cos x}$：$\\left(\\dfrac{y}{\\cos x}\\right)^{\\prime}=1$，积分得 $\\dfrac{y}{\\cos x}=x+C$，即 $y=(x+C)\\cos x$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
@@ -243,7 +278,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -262,7 +297,7 @@
    "number": 5,
    "title": "1992 年数学一 第 5 题",
    "questionText": "设 $\\mathbf{A} = \\begin{bmatrix} a_{1}b_{1} & a_{1}b_{2} & \\dots & a_{1}b_{n}\\\\ a_{2}b_{1} & a_{2}b_{2} & \\dots & a_{2}b_{n}\\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n}b_{1} & a_{n}b_{2} & \\dots & a_{n}b_{n} \\end{bmatrix}$ ，其中 $a_i\\neq 0,b_i\\neq 0,i = 1,2,\\dots ,n$ ，则矩阵 $\\mathbf{A}$ 的秩\n\n$$\nr (\\mathbf {A}) = \\underline {{\\quad}}.\n$$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$1$\n\n**解析：**\n$\\mathbf{A}=(a_{1},\\dots,a_{n})^{\\mathrm{T}}(b_{1},\\dots,b_{n})$ 为列向量与行向量的乘积，各行都成比例，故 $r(\\mathbf{A})\\le 1$；又 $a_{i},b_{i}$ 全不为零使 $\\mathbf{A}\\neq\\mathbf{O}$，故 $r(\\mathbf{A})=1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -273,7 +308,7 @@
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -292,7 +327,7 @@
    "number": 6,
    "title": "1992 年数学一 第 6 题",
    "questionText": "当 $x\\to 1$ 时，函数 $\\frac{x^2 - 1}{x - 1}\\mathrm{e}^{\\frac{1}{x - 1}}$ 的极限（ ）.\n\n（A）等于2\n\n（B）等于0\n\n（C）为 $\\infty$\n\n(D) 不存在但不是 $\\infty$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：D\n\n**解析：**\n$x\\to 1^{-}$ 时 $\\dfrac{1}{x-1}\\to-\\infty$，$\\dfrac{x^{2}-1}{x-1}\\to 2$，乘积极限为 $0$；$x\\to 1^{+}$ 时 $\\dfrac{1}{x-1}\\to+\\infty$，乘积极限为 $+\\infty$。左右极限不等且右极限为无穷，故极限不存在但不是 $\\infty$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -301,7 +336,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -312,7 +347,7 @@
     "paper": "math1",
     "number": 6
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -320,7 +355,7 @@
    "number": 7,
    "title": "1992 年数学一 第 7 题",
    "questionText": "级数 $\\sum_{n=1}^{\\infty}(-1)^{n}(1-\\cos \\frac{\\alpha}{n})$ (常数 $\\alpha > 0$ )\n\n（A）发散\n\n（B）条件收敛\n\n（C）绝对收敛\n\n(D)收敛性与 $\\alpha$ 有关",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：C\n\n**解析：**\n$\\left|(-1)^{n}\\left(1-\\cos\\dfrac{\\alpha}{n}\\right)\\right|=1-\\cos\\dfrac{\\alpha}{n}\\sim\\dfrac{\\alpha^{2}}{2n^{2}}$，而 $\\sum\\dfrac{1}{n^{2}}$ 收敛，由比较判别法知原级数绝对收敛，且与 $\\alpha>0$ 的具体取值无关。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -329,7 +364,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -340,7 +375,7 @@
     "paper": "math1",
     "number": 7
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -348,7 +383,7 @@
    "number": 8,
    "title": "1992 年数学一 第 8 题",
    "questionText": "在曲线 $x = t,y = -t^2,z = t^3$ 的所有切线中，与平面 $x + 2y + z = 4$ 平行的切线（ ）.\n\n（A）只有1条\n\n（B）只有2条\n\n（C）至少3条\n\n(D) 不存在",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：B\n\n**解析：**\n切向量 $\\boldsymbol{T}=(1,-2t,3t^{2})$ 与平面法向量 $(1,2,1)$ 垂直：$1-4t+3t^{2}=0$，即 $(3t-1)(t-1)=0$，得 $t=\\dfrac{1}{3}$ 与 $t=1$，故这样的切线恰有 2 条。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -357,7 +392,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -368,7 +403,7 @@
     "paper": "math1",
     "number": 8
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -376,7 +411,7 @@
    "number": 9,
    "title": "1992 年数学一 第 9 题",
    "questionText": "设 $f(x) = 3x^{3} + x^{2}|x|$ ，则使 $f^{(n)}(0)$ 存在的最高阶数 $n$ 为（ ）.\n\n(A)0\n\n(B)1\n\n(C)2\n\n(D)3",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：C\n\n**解析：**\n$f(x)=\\begin{cases}2x^{3}, & x<0,\\\\ 4x^{3}, & x\\ge 0.\\end{cases}$ 逐阶验证：$f^{\\prime},f^{\\prime\\prime}$ 在 $x=0$ 处都存在且等于 0（$f^{\\prime\\prime}(x)=12x\\ (x<0)$，$24x\\ (x>0)$）；而 $f^{\\prime\\prime}$ 在 $0$ 处的左、右变化率分别为 12 与 24，即 $f^{\\prime\\prime\\prime}(0)$ 不存在。故最高阶数 $n=2$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -385,7 +420,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -404,7 +439,7 @@
    "number": 10,
    "title": "1992 年数学一 第 10 题",
    "questionText": "要使 $\\pmb{\\xi}_{1} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}, \\pmb{\\xi}_{2} = \\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$ 都是线性方程组 $AX = 0$ 的解，只要系数矩阵 $\\mathbf{A}$ 为（ ）.\n\n(A)(-2 1 1)\n\n(B) $\\begin{pmatrix} 2 & 0 & -1 \\\\ 0 & 1 & 1 \\end{pmatrix}$\n\n（C） $\\left( \\begin{array}{rrr} - 1 & 0 & 2\\\\ 0 & 1 & -1 \\end{array} \\right)$\n\n(D) $\\begin{pmatrix} 0 & 1 & -1 \\\\ 4 & -2 & -2 \\\\ 0 & 1 & 1 \\end{pmatrix}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：A\n\n**解析：**\n两个线性无关的解说明 $3-r(\\mathbf{A})\\ge 2$，即 $r(\\mathbf{A})\\le 1$。选项 B、C、D 的矩阵秩均大于 1，排除；而 $(-2\\ \\,1\\ \\,1)$ 分别与 $\\boldsymbol{\\xi}_{1},\\boldsymbol{\\xi}_{2}$ 作内积得 $-2+0+2=0$，$0+1-1=0$，符合要求，故选 A。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -413,7 +448,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -424,7 +459,7 @@
     "paper": "math1",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -432,7 +467,7 @@
    "number": 11,
    "title": "1992 年数学一 第 11 题",
    "questionText": "求 $\\lim_{x\\to 0}\\frac{\\mathrm{e}^x - \\sin x - 1}{1 - \\sqrt{1 - x^2}}.$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$1$\n\n**解析：**\n分母 $1-\\sqrt{1-x^{2}}\\sim\\dfrac{x^{2}}{2}$。用洛必达法则两次（或泰勒展开 $e^x-\\sin x-1=\\frac{x^{2}}{2}+o(x^{2})$），得 $\\displaystyle\\lim_{x\\to 0}\\frac{\\mathrm{e}^{x}-\\sin x-1}{x^{2}/2}=1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -441,7 +476,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -453,14 +488,14 @@
     "number": 11
    },
    "subjectGuess": "calculus",
-   "section": "三、(本题共3小题，每小题5分，满分15分)"
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1992.12",
    "number": 12,
    "title": "1992 年数学一 第 12 题",
    "questionText": "设 $z = f(\\mathrm{e}^{x}\\sin y, x^{2} + y^{2})$ ，其中 $f$ 具有二阶连续偏导数，求 $\\frac{\\partial^2 z}{\\partial x \\partial y}$ .",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\dfrac{1}{2}\\mathrm{e}^{2x}\\sin 2y\\,f_{11}^{\\prime\\prime}+2\\mathrm{e}^{x}(y\\sin y+x\\cos y)f_{12}^{\\prime\\prime}+\\mathrm{e}^{x}\\cos y\\,f_{1}^{\\prime}+4xy\\,f_{22}^{\\prime\\prime}$\n\n**解析：**\n$\\dfrac{\\partial z}{\\partial x}=\\mathrm{e}^{x}\\sin y\\,f_{1}^{\\prime}+2xf_{2}^{\\prime}$。再对 $y$ 求导：两个中间变量 $(\\mathrm{e}^{x}\\sin y,\\ x^{2}+y^{2})$ 对 $y$ 的偏导分别为 $\\mathrm{e}^{x}\\cos y$ 与 $2y$，按链式法则展开并合并 $f_{12}^{\\prime\\prime}$ 项即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -472,7 +507,7 @@
     "continuity_partial_differentiability"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -484,14 +519,14 @@
     "number": 12
    },
    "subjectGuess": "calculus",
-   "section": "三、(本题共3小题，每小题5分，满分15分)"
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1992.13",
    "number": 13,
    "title": "1992 年数学一 第 13 题",
    "questionText": "设 $f(x) = \\begin{cases} 1 + x^2, & x \\leqslant 0, \\\\ \\mathrm{e}^{-x}, & x > 0, \\end{cases}$ 求 $\\int_{1}^{3} f(x - 2) \\, \\mathrm{d}x$ .",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\dfrac{7}{3}-\\dfrac{1}{\\mathrm{e}}$\n\n**解析：**\n令 $t=x-2$，则 $\\displaystyle\\int_{1}^{3}f(x-2)\\,\\mathrm{d}x=\\int_{-1}^{1}f(t)\\,\\mathrm{d}t=\\int_{-1}^{0}(1+t^{2})\\,\\mathrm{d}t+\\int_{0}^{1}\\mathrm{e}^{-t}\\,\\mathrm{d}t=\\frac{4}{3}+\\left(1-\\frac{1}{\\mathrm{e}}\\right)=\\frac{7}{3}-\\frac{1}{\\mathrm{e}}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -500,7 +535,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -511,15 +546,15 @@
     "paper": "math1",
     "number": 13
    },
-   "subjectGuess": "linear_algebra",
-   "section": "三、(本题共3小题，每小题5分，满分15分)"
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1992.14",
    "number": 14,
    "title": "1992 年数学一 第 14 题",
-   "questionText": "$\\alpha_{1}$ 能否由 $\\alpha_{2}, \\alpha_{3}$ 线性表示？证明你的结论；",
-   "answerText": "（答案待校对补充）",
+   "questionText": "求微分方程 $y^{\\prime\\prime}+2y^{\\prime}-3y=\\mathrm{e}^{-3x}$ 的通解.",
+   "answerText": "答案：$y=C_{1}\\mathrm{e}^{-3x}+C_{2}\\mathrm{e}^{x}-\\dfrac{1}{4}x\\mathrm{e}^{-3x}$\n\n**解析：**\n特征方程 $\\lambda^{2}+2\\lambda-3=0$，根 $\\lambda_{1}=-3,\\ \\lambda_{2}=1$，齐次通解 $C_{1}\\mathrm{e}^{-3x}+C_{2}\\mathrm{e}^{x}$。右端 $\\mathrm{e}^{-3x}$ 对应 $\\lambda=-3$ 为单根，设特解 $y_{0}=ax\\mathrm{e}^{-3x}$，代入方程得 $a=-\\dfrac{1}{4}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -528,7 +563,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -539,15 +574,15 @@
     "paper": "math1",
     "number": 14
    },
-   "subjectGuess": "probability_statistics",
-   "section": "八、（本题满分7分）"
+   "subjectGuess": "calculus",
+   "section": "四、（本题满分6分）"
   },
   {
    "id": "bank.exam.m1-1992.15",
    "number": 15,
    "title": "1992 年数学一 第 15 题",
-   "questionText": "$\\alpha_{4}$ 能否由 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性表示？证明你的结论",
-   "answerText": "（答案待校对补充）",
+   "questionText": "计算曲面积分 $I=\\displaystyle\\iint_{\\Sigma}(x^{3}+az^{2})\\,\\mathrm{d}y\\,\\mathrm{d}z+(y^{3}+ax^{2})\\,\\mathrm{d}z\\,\\mathrm{d}x+(z^{3}+ay^{2})\\,\\mathrm{d}x\\,\\mathrm{d}y$，其中 $\\Sigma$ 为上半球面 $z=\\sqrt{a^{2}-x^{2}-y^{2}}$ 的上侧.",
+   "answerText": "答案：$\\dfrac{29}{20}\\pi a^{5}$\n\n**解析：**\n补平面片 $\\Sigma_{1}:\\ z=0\\ (x^{2}+y^{2}\\le a^{2})$ 取下侧，与 $\\Sigma$ 围成上半球体 $\\Omega$。由高斯公式，$\\displaystyle\\iint_{\\Sigma+\\Sigma_{1}}=\\iiint_{\\Omega}3(x^{2}+y^{2}+z^{2})\\,\\mathrm{d}v=3\\int_{0}^{2\\pi}\\mathrm{d}\\theta\\int_{0}^{\\frac{\\pi}{2}}\\sin\\varphi\\,\\mathrm{d}\\varphi\\int_{0}^{a}r^{4}\\,\\mathrm{d}r=\\frac{6\\pi}{5}a^{5}$。在 $\\Sigma_{1}$ 上（法向朝下）只有 $ay^{2}\\,\\mathrm{d}x\\,\\mathrm{d}y$ 项有贡献：$-a\\iint_{x^{2}+y^{2}\\le a^{2}}y^{2}\\,\\mathrm{d}x\\mathrm{d}y=-\\dfrac{a}{2}\\iint r^{2}\\,\\mathrm{d}x\\mathrm{d}y=-\\dfrac{\\pi}{4}a^{5}$。故 $I=\\dfrac{6\\pi}{5}a^{5}-\\left(-\\dfrac{\\pi}{4}a^{5}\\right)=\\dfrac{29}{20}\\pi a^{5}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -556,7 +591,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -568,14 +603,14 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "八、（本题满分7分）"
+   "section": "五、（本题满分8分）"
   },
   {
    "id": "bank.exam.m1-1992.16",
    "number": 16,
    "title": "1992 年数学一 第 16 题",
-   "questionText": "将 $\\pmb{\\beta}$ 用 $\\xi_{1},\\xi_{2},\\xi_{3}$ 线性表示；",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $f^{\\prime\\prime}(x)<0$，$f(0)=0$，证明：对任意的 $x_{1}>0,\\ x_{2}>0$，有 $f(x_{1}+x_{2})<f(x_{1})+f(x_{2})$.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n不妨设 $x_{1}>0,\\ x_{2}>0$。对 $f$ 分别在 $[0,x_{1}]$ 与 $[x_{2},\\,x_{1}+x_{2}]$ 上用拉格朗日中值定理：$f(x_{1})=f^{\\prime}(\\xi_{1})x_{1}$（$0<\\xi_{1}<x_{1}$），$f(x_{1}+x_{2})-f(x_{2})=f^{\\prime}(\\xi_{2})x_{1}$（$x_{2}<\\xi_{2}<x_{1}+x_{2}$）。由 $f^{\\prime\\prime}<0$ 知 $f^{\\prime}$ 严格递减，而 $\\xi_{1}<\\xi_{2}$，故 $f^{\\prime}(\\xi_{1})>f^{\\prime}(\\xi_{2})$，于是 $f(x_{1})>f(x_{1}+x_{2})-f(x_{2})$，即 $f(x_{1}+x_{2})<f(x_{1})+f(x_{2})$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -584,7 +619,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -596,14 +631,14 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "九、（本题满分7分）"
+   "section": "六、（本题满分7分）"
   },
   {
    "id": "bank.exam.m1-1992.17",
    "number": 17,
    "title": "1992 年数学一 第 17 题",
-   "questionText": "求 $\\mathbf{A}^n\\pmb {\\beta}(n$ 为自然数).",
-   "answerText": "（答案待校对补充）",
+   "questionText": "在变力 $\\boldsymbol{F}=yz\\boldsymbol{i}+zx\\boldsymbol{j}+xy\\boldsymbol{k}$ 的作用下，质点由原点沿直线运动到椭球面 $\\dfrac{x^{2}}{a^{2}}+\\dfrac{y^{2}}{b^{2}}+\\dfrac{z^{2}}{c^{2}}=1$ 上第一卦限的点 $M(\\xi,\\eta,\\zeta)$，问：当 $\\xi,\\eta,\\zeta$ 取何值时，力 $\\boldsymbol{F}$ 所做的功 $W$ 最大？并求出 $W$ 的最大值.",
+   "answerText": "答案：$\\xi=\\dfrac{a}{\\sqrt{3}},\\ \\eta=\\dfrac{b}{\\sqrt{3}},\\ \\zeta=\\dfrac{c}{\\sqrt{3}}$ 时功最大，$W_{\\max}=\\dfrac{\\sqrt{3}}{9}abc$\n\n**解析：**\n直线段 $OM:\\ x=\\xi t,\\ y=\\eta t,\\ z=\\zeta t$（$0\\le t\\le 1$），则 $W=\\displaystyle\\int_{OM}yz\\,\\mathrm{d}x+zx\\,\\mathrm{d}y+xy\\,\\mathrm{d}z=\\int_{0}^{1}3\\xi\\eta\\zeta t^{2}\\,\\mathrm{d}t=\\xi\\eta\\zeta$。用拉格朗日乘数法求 $W=\\xi\\eta\\zeta$ 在约束 $\\dfrac{\\xi^{2}}{a^{2}}+\\dfrac{\\eta^{2}}{b^{2}}+\\dfrac{\\zeta^{2}}{c^{2}}=1$ 下的最大值，由对称性得 $\\dfrac{\\xi^{2}}{a^{2}}=\\dfrac{\\eta^{2}}{b^{2}}=\\dfrac{\\zeta^{2}}{c^{2}}=\\dfrac{1}{3}$，即 $\\xi=\\dfrac{a}{\\sqrt{3}},\\eta=\\dfrac{b}{\\sqrt{3}},\\zeta=\\dfrac{c}{\\sqrt{3}}$，此时 $W_{\\max}=\\dfrac{abc}{3\\sqrt{3}}=\\dfrac{\\sqrt{3}}{9}abc$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -612,7 +647,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -624,14 +659,14 @@
     "number": 17
    },
    "subjectGuess": "calculus",
-   "section": "九、（本题满分7分）"
+   "section": "七、（本题满分8分）"
   },
   {
    "id": "bank.exam.m1-1992.18",
    "number": 18,
    "title": "1992 年数学一 第 18 题",
-   "questionText": "已知 $P(A) = P(B) = P(C) = \\frac{1}{4}, P(AB) = 0, P(AC) = P(BC) = \\frac{1}{12}$ , 则事件 $A, B, C$ 全不发生的概率为",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设向量组 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性相关，向量组 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关.问：\n\n（1）$\\alpha_{1}$ 能否由 $\\alpha_{2}, \\alpha_{3}$ 线性表示？证明你的结论；",
+   "answerText": "答案：能.\n\n**解析：**\n因 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关，其部分组 $\\alpha_{2},\\alpha_{3}$ 线性无关。若 $\\alpha_{1}$ 不能由 $\\alpha_{2},\\alpha_{3}$ 线性表示，则 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性无关，与题设矛盾（线性相关的定义：其中一个向量可由其余向量线性表示）。故 $\\alpha_{1}$ 必可由 $\\alpha_{2},\\alpha_{3}$ 线性表示。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -640,7 +675,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -651,26 +686,24 @@
     "paper": "math1",
     "number": 18
    },
-   "subjectGuess": "calculus",
-   "section": "十、填空题（本题共2小题，每小题3分，共6分）"
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分7分，含2小题）"
   },
   {
    "id": "bank.exam.m1-1992.19",
    "number": 19,
    "title": "1992 年数学一 第 19 题",
-   "questionText": "设随机变量 $X$ 服从参数为1的指数分布，则数学期望 $E(X + \\mathrm{e}^{-2X}) =$\n\n# 十一、(本题满分6分)\n\n设随机变量 $X$ 与 $Y$ 独立， $X$ 服从正态分布 $N(\\mu, \\sigma^2)$ ， $Y$ 服从 $[- \\pi, \\pi]$ 上的均匀分布，试求 $Z = X + Y$ 的概率密度（计算结果用标准正态分布的分布函数 $\\Phi(x)$ 表示，其中 $\\Phi(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{x} \\mathrm{e}^{-\\frac{t^2}{2}} \\, \\mathrm{d}t$ ）.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设向量组 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性相关，向量组 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关.问：\n\n（2）$\\alpha_{4}$ 能否由 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性表示？证明你的结论.",
+   "answerText": "答案：不能.\n\n**解析：**\n反证：若 $\\alpha_{4}$ 可由 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性表示，又由（1）知 $\\alpha_{1}$ 可由 $\\alpha_{2},\\alpha_{3}$ 线性表示，代入即得 $\\alpha_{4}$ 可由 $\\alpha_{2},\\alpha_{3}$ 线性表示，这与 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关矛盾。故 $\\alpha_{4}$ 不能由 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性表示。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -681,8 +714,150 @@
     "paper": "math1",
     "number": 19
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1992.20",
+   "number": 20,
+   "title": "1992 年数学一 第 20 题",
+   "questionText": "设 3 阶矩阵 $\\mathbf{A}$ 的特征值为 $\\lambda_{1}=1,\\ \\lambda_{2}=2,\\ \\lambda_{3}=3$，对应的特征向量依次为 $\\boldsymbol{\\xi}_{1}=(1,1,1)^{\\mathrm{T}}$，$\\boldsymbol{\\xi}_{2}=(1,2,4)^{\\mathrm{T}}$，$\\boldsymbol{\\xi}_{3}=(1,3,9)^{\\mathrm{T}}$，又向量 $\\boldsymbol{\\beta}=(1,1,3)^{\\mathrm{T}}$.\n\n（1）将 $\\boldsymbol{\\beta}$ 用 $\\xi_{1},\\xi_{2},\\xi_{3}$ 线性表示；",
+   "answerText": "答案：$\\boldsymbol{\\beta}=2\\boldsymbol{\\xi}_{1}-2\\boldsymbol{\\xi}_{2}+\\boldsymbol{\\xi}_{3}$\n\n**解析：**\n设 $\\boldsymbol{\\beta}=x_{1}\\boldsymbol{\\xi}_{1}+x_{2}\\boldsymbol{\\xi}_{2}+x_{3}\\boldsymbol{\\xi}_{3}$，对增广矩阵 $\\begin{pmatrix}1&1&1&1\\\\1&2&4&1\\\\1&4&9&3\\end{pmatrix}$ 作初等行变换，解得唯一解 $(x_{1},x_{2},x_{3})=(2,-2,1)$，故 $\\boldsymbol{\\beta}=2\\boldsymbol{\\xi}_{1}-2\\boldsymbol{\\xi}_{2}+\\boldsymbol{\\xi}_{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1992,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "九、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1992.21",
+   "number": 21,
+   "title": "1992 年数学一 第 21 题",
+   "questionText": "设 3 阶矩阵 $\\mathbf{A}$ 的特征值为 $\\lambda_{1}=1,\\ \\lambda_{2}=2,\\ \\lambda_{3}=3$，对应的特征向量依次为 $\\boldsymbol{\\xi}_{1}=(1,1,1)^{\\mathrm{T}}$，$\\boldsymbol{\\xi}_{2}=(1,2,4)^{\\mathrm{T}}$，$\\boldsymbol{\\xi}_{3}=(1,3,9)^{\\mathrm{T}}$，又向量 $\\boldsymbol{\\beta}=(1,1,3)^{\\mathrm{T}}$.\n\n（2）求 $\\mathbf{A}^{n}\\boldsymbol{\\beta}$（$n$ 为自然数）.",
+   "answerText": "答案：$\\mathbf{A}^{n}\\boldsymbol{\\beta}=\\begin{pmatrix}2-2^{n+1}+3^{n} \\\\ 2-2^{n+2}+3^{n+1} \\\\ 2-2^{n+3}+3^{n+2}\\end{pmatrix}$\n\n**解析：**\n由 $\\mathbf{A}\\boldsymbol{\\xi}_{i}=\\lambda_{i}\\boldsymbol{\\xi}_{i}$ 得 $\\mathbf{A}^{n}\\boldsymbol{\\xi}_{i}=\\lambda_{i}^{n}\\boldsymbol{\\xi}_{i}$。于是 $\\mathbf{A}^{n}\\boldsymbol{\\beta}=2\\mathbf{A}^{n}\\boldsymbol{\\xi}_{1}-2\\mathbf{A}^{n}\\boldsymbol{\\xi}_{2}+\\mathbf{A}^{n}\\boldsymbol{\\xi}_{3}=2(1,1,1)^{\\mathrm{T}}-2^{n+1}(1,2,4)^{\\mathrm{T}}+3^{n}(1,3,9)^{\\mathrm{T}}$，按分量写出即得上述结果。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；源 md 题干与解析中特征向量缺第三分量，按解析中增广矩阵与通解核验补全为 $\\xi_1=(1,1,1)^T,\\xi_2=(1,2,4)^T,\\xi_3=(1,3,9)^T,\\beta=(1,1,3)^T$",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1992,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "九、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1992.22",
+   "number": 22,
+   "title": "1992 年数学一 第 22 题",
+   "questionText": "已知 $P(A)=P(B)=P(C)=\\dfrac{1}{4}$，$P(AB)=0$，$P(AC)=P(BC)=\\dfrac{1}{12}$，则事件 $A, B, C$ 全不发生的概率为 $\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{5}{12}$\n\n**解析：**\n由 $ABC\\subset AB$ 及 $P(AB)=0$ 得 $P(ABC)=0$。由容斥原理 $P(A\\cup B\\cup C)=\\dfrac{3}{4}-\\left(0+\\dfrac{1}{12}+\\dfrac{1}{12}\\right)+0=\\dfrac{7}{12}$，故全不发生的概率 $P(\\overline{A}\\,\\overline{B}\\,\\overline{C})=1-\\dfrac{7}{12}=\\dfrac{5}{12}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1992,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
    "section": "十、填空题（本题共2小题，每小题3分，共6分）"
+  },
+  {
+   "id": "bank.exam.m1-1992.23",
+   "number": 23,
+   "title": "1992 年数学一 第 23 题",
+   "questionText": "设随机变量 $X$ 服从参数为 1 的指数分布，则数学期望 $E\\left(X+\\mathrm{e}^{-2X}\\right)=\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{4}{3}$\n\n**解析：**\n$X$ 的密度为 $\\mathrm{e}^{-x}\\ (x>0)$。$E(X)=1$；$E(\\mathrm{e}^{-2X})=\\displaystyle\\int_{0}^{+\\infty}\\mathrm{e}^{-2x}\\,\\mathrm{e}^{-x}\\,\\mathrm{d}x=\\int_{0}^{+\\infty}\\mathrm{e}^{-3x}\\,\\mathrm{d}x=\\frac{1}{3}$。故 $E\\left(X+\\mathrm{e}^{-2X}\\right)=\\dfrac{4}{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1992,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共2小题，每小题3分，共6分）"
+  },
+  {
+   "id": "bank.exam.m1-1992.24",
+   "number": 24,
+   "title": "1992 年数学一 第 24 题",
+   "questionText": "设随机变量 $X$ 与 $Y$ 独立，$X$ 服从正态分布 $N(\\mu,\\sigma^{2})$，$Y$ 服从 $[-\\pi,\\pi]$ 上的均匀分布，试求 $Z=X+Y$ 的概率密度（计算结果用标准正态分布的分布函数 $\\Phi(x)$ 表示，其中 $\\Phi(x)=\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{-\\infty}^{x}\\mathrm{e}^{-\\frac{t^{2}}{2}}\\,\\mathrm{d}t$）.",
+   "answerText": "答案：$f_{Z}(z)=\\dfrac{1}{2\\pi}\\left[\\Phi\\left(\\dfrac{z+\\pi-\\mu}{\\sigma}\\right)-\\Phi\\left(\\dfrac{z-\\pi-\\mu}{\\sigma}\\right)\\right]$\n\n**解析：**\n由独立性先求分布函数：$F_{Z}(z)=P\\{X+Y\\le z\\}=\\dfrac{1}{2\\pi}\\displaystyle\\int_{-\\pi}^{\\pi}\\Phi\\left(\\frac{z-y-\\mu}{\\sigma}\\right)\\mathrm{d}y$。换元 $t=\\dfrac{z-y-\\mu}{\\sigma}$ 后 $F_{Z}(z)=\\dfrac{\\sigma}{2\\pi}\\displaystyle\\int_{\\frac{z-\\pi-\\mu}{\\sigma}}^{\\frac{z+\\pi-\\mu}{\\sigma}}\\Phi(t)\\,\\mathrm{d}t$，对 $z$ 求导即得 $f_{Z}(z)$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1992,
+    "paper": "math1",
+    "number": 24
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分6分）"
   }
  ]
 }
