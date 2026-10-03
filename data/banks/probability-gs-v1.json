@@ -3633,6 +3633,512 @@
         "section": "§9.1 Central Limit Theorem for Bernoulli Trials",
         "license": "GFDL"
       }
+    },
+    {
+      "id": "bank.prob.gs.1.31",
+      "title": "选修课选择的概率",
+      "questionText": "一名学生须从艺术、法语、数学三门选修课中恰好选两门。他选艺术的概率为 $\\frac58$，选法语的概率为 $\\frac58$，艺术与法语同时选的概率为 $\\frac14$。求：\n（1）他选数学的概率；（2）他选艺术或法语（至少其一）的概率。",
+      "answerText": "恰好选两门，三个可能组合互斥：$\\{A,F\\}$、$\\{A,M\\}$、$\\{F,M\\}$。由 $P(A)=P(\\{A,F\\})+P(\\{A,M\\})=\\frac58$ 与 $P(\\{A,F\\})=\\frac14$ 得 $P(\\{A,M\\})=\\frac38$；同理 $P(\\{F,M\\})=\\frac58-\\frac14=\\frac38$。（验证：三者之和 $\\frac14+\\frac38+\\frac38=1$ ✓。）\n（1）$P(M)=P(\\{A,M\\})+P(\\{F,M\\})=\\frac38+\\frac38=\\frac34$；\n（2）每个组合都含艺术或法语：$P(A\\cup F)=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.event_relations_operations",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.event_relations_operations",
+        "prob.knowledge.probability_properties"
+      ],
+      "methodIds": [
+        "prob.method.disjoint_decomposition"
+      ],
+      "notes": "译自原书 §1.2 Exercise 9（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§1.2 Discrete Probability Distributions",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.1.32",
+      "title": "法案通过两院的概率",
+      "questionText": "一项法案要送到总统面前，必须同时被众议院和参议院通过。设提交两院的法案中 60% 能通过众议院，80% 能通过参议院，90% 至少通过其中一院。求下一项法案被送到总统面前的概率。",
+      "answerText": "由容斥公式 $$P(H\\cap S)=P(H)+P(S)-P(H\\cup S)=0.6+0.8-0.9=0.5$$ 即下一项法案同时通过两院、从而送到总统面前的概率为 $0.5$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.event_relations_operations",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.event_relations_operations"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §1.2 Exercise 10（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§1.2 Discrete Probability Distributions",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.2.25",
+      "title": "折断木棍构成三角形",
+      "questionText": "把一根单位长度的木棍在随机位置折成两段，再把较长的一段在随机位置折断。求所得三段能构成三角形的概率。",
+      "answerText": "设第一折点为 $X\\sim U(0,1)$，长段 $L=\\max(X,1-X)$，短段 $S=1-L\\le\\frac12$。把 $L$ 在 $[0,L]$ 内均匀折断得 $Y$ 与 $L-Y$。三段构成三角形当且仅当最大段 $\\le\\frac12$，即 $Y\\le\\frac12$ 且 $L-Y\\le\\frac12$，即 $Y\\in[L-\\frac12,\\ \\frac12]$，区间长 $1-L$。故给定 $L$ 的条件概率为 $\\dfrac{1-L}{L}$。\n$X$ 均匀时 $L$ 的密度为 $2$（$L\\in[\\frac12,1]$），故 $$P=\\int_{1/2}^{1}2\\cdot\\frac{1-\\ell}{\\ell}\\,d\\ell=2\\Big[\\ln\\ell-\\ell\\Big]_{1/2}^{1}=2\\left(-1+\\ln2+\\frac12\\right)=2\\ln2-1\\approx0.3863$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.geometric_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.geometric_probability",
+        "prob.knowledge.uniform_distribution"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §2.2 Exercise 13（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§2.2 Continuous Density Functions",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.2.26",
+      "title": "二次方程根的实性与符号",
+      "questionText": "独立地在 $[-1,1]$ 上均匀地取两个数 $B$ 与 $C$，考虑二次方程 $x^2+Bx+C=0$。求该方程的根：\n（1）都是实根的概率；（2）都是正根的概率。",
+      "answerText": "$(B,C)$ 在面积 4 的正方形 $[-1,1]^2$ 上均匀分布。\n（1）实根条件 $B^2-4C\\ge0$，即 $C\\le B^2/4$：有利面积 $=\\displaystyle\\int_{-1}^{1}\\left(\\frac{B^2}{4}+1\\right)dB=\\frac{1}{6}+2=\\frac{13}{6}$，$$P=\\frac{13/6}{4}=\\frac{13}{24}\\approx0.5417$$\n（2）再加 $B\\le0$（两根之和 $-B\\ge0$）与 $C\\ge0$（两根之积 $\\ge0$）：$B\\in[-1,0]$，$C\\in[0,B^2/4]$（因 $B^2/4\\le\\frac14<1$），有利面积 $=\\displaystyle\\int_{-1}^{0}\\frac{B^2}{4}\\,dB=\\frac{1}{12}$，$$P=\\frac{1/12}{4}=\\frac{1}{48}\\approx0.0208$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_variables",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.geometric_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.geometric_probability"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §2.2 Exercise 14（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§2.2 Continuous Density Functions",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.3.23",
+      "title": "基本的组合计数",
+      "questionText": "计算：（1）从 10 人中选 5 人组成委员会有多少种方式？（2）9 元素集合有多少个 7 元素子集？",
+      "answerText": "（1）$\\binom{10}{5}=252$；（2）$\\binom{9}{7}=\\binom{9}{2}=36$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.classical_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.classical_probability"
+      ],
+      "methodIds": [
+        "prob.method.permutation_combination"
+      ],
+      "notes": "译自原书 §3.2 Exercise 2/3（GFDL）；答案为译者自解并验算（原书两道基本计数题合并收录）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§3.2 Combinations",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.3.24",
+      "title": "组合恒等式的反推",
+      "questionText": "求整数 $n$ 和 $r$，使 $$\\binom{13}{5}+2\\binom{13}{6}+\\binom{13}{7}=\\binom{n}{r}$$ 成立。",
+      "answerText": "用帕斯卡恒等式 $\\binom{m}{k}+\\binom{m}{k+1}=\\binom{m+1}{k+1}$ 两次：$$\\binom{13}{5}+\\binom{13}{6}=\\binom{14}{6},\\qquad \\binom{13}{6}+\\binom{13}{7}=\\binom{14}{7}$$ 故原式 $=\\binom{14}{6}+\\binom{14}{7}=\\binom{15}{7}$，即 $n=15$，$r=7$。（数值验证：$1287+2\\times1716+1716=6435=\\binom{15}{7}$ ✓。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.classical_probability",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.classical_probability"
+      ],
+      "methodIds": [
+        "prob.method.permutation_combination"
+      ],
+      "notes": "译自原书 §3.2 Exercise 9（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§3.2 Combinations",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.3.25",
+      "title": "苹果派与蓝莓派的备货量",
+      "questionText": "某餐厅供应苹果派和蓝莓派，两种备货数量相同。每天有 10 位顾客各以等概率购买其中一种。店主每种应备多少块，才能使「每位顾客都买到自己想买的那种」的概率约为 0.95？",
+      "answerText": "设买苹果派人数 $X\\sim b(10,\\frac12)$。每种各备 $m$ 块时，人人满意当且仅当 $X\\le m$ 且 $10-X\\le m$，即 $10-m\\le X\\le m$。\n备 7 块：$P(3\\le X\\le7)=1-2\\cdot\\dfrac{\\binom{10}{0}+\\binom{10}{1}+\\binom{10}{2}}{1024}=1-\\dfrac{112}{1024}\\approx0.891<0.95$；\n备 8 块：$P(2\\le X\\le8)=1-2\\cdot\\dfrac{1+10}{1024}=1-\\dfrac{22}{1024}\\approx0.9785\\ge0.95$。\n故每种应备 8 块（共 16 块），此时满意度约 97.9%。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.bernoulli_trials",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.binomial_distribution"
+      ],
+      "methodIds": [
+        "prob.method.complement_event"
+      ],
+      "notes": "译自原书 §3.2 Exercise 11（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§3.2 Combinations",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.3.26",
+      "title": "抛硬币三次的事件独立性判定",
+      "questionText": "抛硬币三次，考虑事件：$A$=第一次正面；$B$=第二次反面；$C$=第三次正面；$D$=三次全同（HHH 或 TTT）；$E$=恰出现一次正面。判断下列各组事件是否独立：\n（1）$A$ 与 $B$；（2）$A$ 与 $D$；（3）$A$ 与 $E$；（4）$D$ 与 $E$；\n（5）$A,B,C$（三个事件）；（6）$A,B,D$（三个事件）。",
+      "answerText": "各事件概率：$P(A)=P(B)=P(C)=\\frac12$，$P(D)=\\frac14$，$P(E)=\\frac38$。\n（1）$P(A\\cap B)=\\frac14=\\frac12\\cdot\\frac12$，独立 ✓；\n（2）$P(A\\cap D)=P(\\{HHH\\})=\\frac18=\\frac12\\cdot\\frac14$，独立 ✓；\n（3）$P(A\\cap E)=P(\\{HTT\\})=\\frac18\\neq\\frac12\\cdot\\frac38=\\frac{3}{16}$，不独立 ✗；\n（4）$P(D\\cap E)=0\\neq\\frac14\\cdot\\frac38$，不独立 ✗；\n（5）$A,B,C$ 两两独立（各交事件概率 $\\frac14$）且 $P(A\\cap B\\cap C)=P(\\{HHH\\})=\\frac18=\\left(\\frac12\\right)^3$，相互独立 ✓；\n（6）$A\\cap B=\\{HTH,HTT\\}$ 与 $D$ 交为空，$P(A\\cap B\\cap D)=0\\neq\\frac12\\cdot\\frac12\\cdot\\frac14$，不相互独立 ✗（注意三对事件两两独立，但三者不相互独立）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.event_independence_judgment",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.event_independence"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §4.1 Exercise 5（GFDL）；答案为译者自解并验算（原书第(6)组的两两独立说明为项目补全）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§4.1 Discrete Conditional Probability",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.3.27",
+      "title": "两两独立但不相互独立",
+      "questionText": "抛硬币两次，事件：$A$=第一次正面，$B$=第二次正面，$C$=两次结果相同。证明：$A,B,C$ 两两独立但不相互独立；且 $C$ 与 $A$、$C$ 与 $B$ 分别独立，但 $C$ 与 $A\\cap B$ 不独立。",
+      "answerText": "样本空间 $\\{HH,HT,TH,TT\\}$，各点概率 $\\frac14$。$P(A)=P(B)=P(C)=\\frac12$。\n两两：$A\\cap B=A\\cap C=B\\cap C=\\{HH\\}$，概率都是 $\\frac14=\\frac12\\cdot\\frac12$，故两两独立。\n三者：$A\\cap B\\cap C=\\{HH\\}$，$P=\\frac14\\neq\\frac18$，不相互独立。\n又 $C\\supseteq A\\cap B$，$P((A\\cap B)\\cap C)=\\frac14\\neq\\frac14\\cdot\\frac12$，故 $C$ 与 $A\\cap B$ 不独立。\n本题给出「两两独立 ⇏ 相互独立」的最小反例（仅 4 个样本点）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.random_events",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.event_independence_judgment",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.event_independence"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §4.1 Exercise 7（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§4.1 Discrete Conditional Probability",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.30",
+      "title": "均匀随机数的三个函数取值概率",
+      "questionText": "在 $[0,1]$ 上均匀地取一数 $U$。求下列概率：\n（1）$R=U^2<\\frac14$；（2）$S=U(1-U)<\\frac14$；（3）$T=\\dfrac{U}{1-U}<\\frac14$。",
+      "answerText": "（1）$U^2<\\frac14\\iff U<\\frac12$：$P=\\dfrac12$。\n（2）$U(1-U)$ 在 $[0,1]$ 上的最大值恰为 $\\frac14$（在 $U=\\frac12$ 处取得），故 $S<\\frac14$ 对除 $U=\\frac12$ 外的一切 $U$ 成立：$P=1$（单点不影响概率）。\n（3）$\\dfrac{U}{1-U}<\\dfrac14\\iff 4U<1-U\\iff U<\\dfrac15$：$P=\\dfrac15$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.function_distribution",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.function_of_random_variable",
+        "prob.knowledge.uniform_distribution"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §5.2 Exercise 12（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§5.2 Important Densities",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.31",
+      "title": "押单号与押颜色的对比",
+      "questionText": "你在拉斯维加斯轮盘（38 格）上押 1 元于数字 17（押中净赢 35 元），你的朋友押 1 元于黑色（38 格中 18 格为黑，押中净赢 1 元，否则输 1 元）。设你的收益为 $X$、朋友的为 $Y$。比较 $E(X)$、$E(Y)$ 与 $V(X)$、$V(Y)$，并说明两人长期下注时收益形态有何不同。",
+      "answerText": "$X$：+35（概率 $\\frac1{38}$）或 $-1$（概率 $\\frac{37}{38}$）：$$E(X)=\\frac{35-37}{38}=-\\frac{1}{19}\\approx-0.0526$$ $$E(X^2)=\\frac{35^2+37^2}{38}=\\frac{2594}{38}\\approx68.26,\\qquad V(X)\\approx68.26$$\n$Y$：+1（概率 $\\frac{18}{38}$）或 $-1$（概率 $\\frac{20}{38}$）：$$E(Y)=\\frac{18-20}{38}=-\\frac{1}{19}=E(X),\\qquad V(Y)=1-\\left(\\frac{1}{19}\\right)^2\\approx0.997$$\n两者期望损失相同，但方差相差约 68 倍：押单号输赢剧烈波动，押颜色是稳定的小幅流失。长期看两者都以每局约 $-0.0526$ 元的速率输钱——期望决定长期趋势，方差只决定路径颠簸程度。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.mathematical_expectation",
+        "prob.knowledge.variance",
+        "prob.knowledge.expectation_variance_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.2 Exercise 3（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.2 Variance of Discrete Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.32",
+      "title": "Peter 与 Paul 的累计赢利",
+      "questionText": "Peter 与 Paul 玩抛硬币猜正反（每次 Peter 赢 1 元或输 1 元，概率各半，各局独立）。设 $W_n$ 为 Peter $n$ 局后的累计赢利。证明 $E(W_n)=0$，$V(W_n)=n$。",
+      "answerText": "设第 $i$ 局赢利 $X_i$：$P(X_i=1)=P(X_i=-1)=\\frac12$，$E(X_i)=0$，$V(X_i)=1$。$W_n=\\sum_{i=1}^n X_i$，由期望的线性 $$E(W_n)=\\sum_iE(X_i)=0$$ 由独立性（协方差为零） $$V(W_n)=\\sum_iV(X_i)=n$$ 证毕。（$W_n$ 是典型的对称随机游动：位置期望始终为 0，但摆动幅度按 $\\sqrt n$ 增长。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.expectation_variance_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.2 Exercise 13（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.2 Variance of Discrete Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.33",
+      "title": "二次型密度的系数约束",
+      "questionText": "设 $X$ 取值于 $[-1,1]$，密度 $f_X(x)=ax^2+bx+c$（$|x|<1$），其他处为 0。证明：\n（1）$\\frac{2a}{3}+2c=1$；（2）$\\mu=\\frac{2b}{3}$；（3）$\\sigma^2=\\frac{2a}{5}+\\frac{2c}{3}-\\frac{4b^2}{9}$（并说明原书 $\\sigma^2=\\frac{2a}{5}+\\frac{2c}{3}$ 一式隐含 $\\mu=0$）。",
+      "answerText": "（1）$\\displaystyle\\int_{-1}^{1}(ax^2+bx+c)\\,dx=\\frac{2a}{3}+2c$，归一化即得。\n（2）奇函数项积分为零：$\\mu=\\displaystyle\\int_{-1}^{1}x(ax^2+bx+c)\\,dx=b\\int_{-1}^{1}x^2dx=\\frac{2b}{3}$。\n（3）$E(X^2)=\\displaystyle\\int_{-1}^{1}x^2(ax^2+bx+c)\\,dx=\\frac{2a}{5}+\\frac{2c}{3}$，故 $$\\sigma^2=E(X^2)-\\mu^2=\\frac{2a}{5}+\\frac{2c}{3}-\\frac{4b^2}{9}$$ 原书（c）所写 $\\sigma^2=\\frac{2a}{5}+\\frac{2c}{3}$ 是 $\\mu=0$（即 $b=0$）时的特例。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.continuous_density",
+        "prob.knowledge.variance"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.3 Exercise 5(a)(b)(c)（GFDL）；答案为译者自解并验算；修正了原书（c）的隐含条件缺失。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.3 Continuous Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.34",
+      "title": "二次型密度的参数反解与可行性",
+      "questionText": "接上题（$f_X(x)=ax^2+bx+c$，$[-1,1]$ 上）。\n（1）若 $\\mu=0$、$\\sigma^2=\\frac15$，求 $a,b,c$ 并说明密度非负；\n（2）若 $\\mu=0$、$\\sigma^2=\\frac12$，求 $a,b,c$；\n（3）证明当 $\\mu=0$ 且 $f_X\\ge0$ 时必有 $\\sigma^2\\ge\\frac15$，从而 $\\sigma^2=\\frac{1}{15}$ 时无可行密度。",
+      "answerText": "$\\mu=0$ 给 $b=0$；归一化给 $c=\\frac12-\\frac{a}{3}$；方差 $\\sigma^2=\\frac{2a}{5}+\\frac{2c}{3}=\\frac{1}{3}+\\frac{8a}{45}$。\n（1）$\\frac13+\\frac{8a}{45}=\\frac15$ 得 $a=-\\frac34$，$c=\\frac34$：$f(x)=\\frac34(1-x^2)$，在 $[-1,1]$ 上非负（端点为 0）✓。\n（2）$\\frac13+\\frac{8a}{45}=\\frac12$ 得 $a=\\frac{15}{16}$，$c=\\frac{3}{16}$：$f(x)=\\frac{15}{16}x^2+\\frac{3}{16}>0$ ✓。\n（3）非负性要求 $f(\\pm1)=c+a=\\frac12+\\frac{2a}{3}\\ge0$，即 $a\\ge-\\frac34$；故 $\\sigma^2=\\frac13+\\frac{8a}{45}\\ge\\frac13-\\frac{2}{15}=\\frac15$。若取 $\\sigma^2=\\frac{1}{15}$，解得 $a=-\\frac32$、$c=1$，但 $f(\\pm1)=-\\frac12<0$，不是合法密度——这样的分布不存在。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.continuous_density",
+        "prob.knowledge.variance"
+      ],
+      "methodIds": [
+        "prob.method.variance_formula_expansion"
+      ],
+      "notes": "译自原书 §6.3 Exercise 5(d)(e)（GFDL）；原书（d）给定的 σ²=1/15 实际无可行解，本项目按可行性分析改写为第(3)问；原书（e）对应本题(1)。答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.3 Continuous Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.35",
+      "title": "均方误差的最小值点",
+      "questionText": "设 $X$ 为密度 $f_X$ 的随机变量。用初等微积分证明：$\\phi(a)=E\\left((X-a)^2\\right)$ 在 $a=\\mu(X)$ 处取得最小值，且最小值为 $\\sigma^2(X)$。",
+      "answerText": "$$\\phi(a)=E(X^2)-2aE(X)+a^2$$ 是 $a$ 的二次函数（开口向上），令 $\\phi'(a)=-2E(X)+2a=0$ 得唯一驻点 $a=\\mu$；$\\phi''(a)=2>0$，故为最小值点。$$\\phi(\\mu)=E(X^2)-2\\mu^2+\\mu^2=E(X^2)-\\mu^2=\\sigma^2(X)$$ 证毕。（这说明均方意义下「用常数预测 $X$」的最优常数就是期望。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.variance",
+        "prob.knowledge.expectation_of_function"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.3 Exercise 7（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.3 Continuous Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.36",
+      "title": "二次变换的期望",
+      "questionText": "设 $E(X)=\\mu$，$V(X)=\\sigma^2$。令 $Y=aX^2+bX+c$，求 $E(Y)$。",
+      "answerText": "$$E(Y)=aE(X^2)+bE(X)+c=a(\\sigma^2+\\mu^2)+b\\mu+c$$ 其中用到 $E(X^2)=V(X)+\\mu^2$。注意一般 $E(Y)\\neq a\\mu^2+b\\mu+c$：除非 $\\sigma^2=0$，二次项使期望产生系统偏移。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.expectation_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.expectation_of_function",
+        "prob.knowledge.mathematical_expectation"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.3 Exercise 8（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.3 Continuous Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.37",
+      "title": "三个独立变量之和与平均",
+      "questionText": "设 $X,Y,Z$ 独立同分布，期望为 $\\mu$、方差为 $\\sigma^2$。\n（1）求 $S=X+Y+Z$ 的期望与方差；\n（2）求 $A=\\frac13(X+Y+Z)$ 的期望与方差；\n（3）求 $E(S^2)$ 与 $E(A^2)$。",
+      "answerText": "（1）$E(S)=3\\mu$，$V(S)=3\\sigma^2$（独立时方差相加）。\n（2）$E(A)=\\mu$，$V(A)=\\dfrac{\\sigma^2}{9}\\times3=\\dfrac{\\sigma^2}{3}$：取平均把波动缩小为原来的 $\\frac13$。\n（3）由 $E(T^2)=V(T)+E(T)^2$：$$E(S^2)=3\\sigma^2+9\\mu^2,\\qquad E(A^2)=\\frac{\\sigma^2}{3}+\\mu^2$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.variance_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.expectation_variance_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.3 Exercise 9（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.3 Continuous Random Variables",
+        "license": "GFDL"
+      }
+    },
+    {
+      "id": "bank.prob.gs.4.38",
+      "title": "由生存函数求期望",
+      "questionText": "设 $X$ 只取非负值，分布函数为 $F(x)$。证明 $$E(X)=\\int_0^{\\infty}(1-F(x))\\,dx$$ 并用该公式对指数分布（$F(x)=1-e^{-\\lambda x}$，$x\\ge0$）重新计算 $E(X)$。",
+      "answerText": "对连续型情形分部积分：$$\\int_0^{\\infty}(1-F(x))\\,dx=\\Big[x(1-F(x))\\Big]_0^{\\infty}+\\int_0^{\\infty}x f(x)\\,dx$$ 若 $E(X)$ 有限，可证 $x(1-F(x))\\to0$（$x\\to\\infty$），第一项为零，第二项即 $E(X)$。证毕。\n指数分布：$\\int_0^{\\infty}e^{-\\lambda x}\\,dx=\\dfrac{1}{\\lambda}$，与已知一致。（离散情形类似：$E(X)=\\sum_{k\\ge1}P(X\\ge k)$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "prob.chapter.numerical_characteristics",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "prob.type.expectation_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "prob.knowledge.mathematical_expectation",
+        "prob.knowledge.exponential_distribution"
+      ],
+      "methodIds": [],
+      "notes": "译自原书 §6.3 Exercise 13（GFDL）；答案为译者自解并验算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Grinstead & Snell, Introduction to Probability",
+        "section": "§6.3 Continuous Random Variables",
+        "license": "GFDL"
+      }
     }
   ]
 }
