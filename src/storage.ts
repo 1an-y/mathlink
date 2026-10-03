@@ -5,11 +5,21 @@ import { getCustomTags } from "./taxonomy";
 import calculusBank from "../data/banks/calculus-bank-v1.json";
 import linearAlgebraBank from "../data/banks/linear-algebra-bank-v1.json";
 import probabilityBank from "../data/banks/probability-bank-v1.json";
+import calculusActcalBank from "../data/banks/calculus-actcal-v1.json";
+import calculusActcal2Bank from "../data/banks/calculus-actcal2-v1.json";
+import calculusActcal3Bank from "../data/banks/calculus-actcal3-v1.json";
+import linearAlgebraHefferonBank from "../data/banks/linear-algebra-hefferon-v1.json";
+import probabilityGsBank from "../data/banks/probability-gs-v1.json";
 
 const builtinBankProblems: Problem[] = [
   ...(calculusBank.problems as unknown as Problem[]),
   ...(linearAlgebraBank.problems as unknown as Problem[]),
   ...(probabilityBank.problems as unknown as Problem[]),
+  ...(calculusActcalBank.problems as unknown as Problem[]),
+  ...(calculusActcal2Bank.problems as unknown as Problem[]),
+  ...(calculusActcal3Bank.problems as unknown as Problem[]),
+  ...(linearAlgebraHefferonBank.problems as unknown as Problem[]),
+  ...(probabilityGsBank.problems as unknown as Problem[]),
 ];
 
 const legacyStorageKey = "mathlink.problems.v1";
