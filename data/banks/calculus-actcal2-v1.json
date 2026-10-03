@@ -479,10 +479,10 @@
       "primaryProblemTypeId": "physical_applications_of_integral",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "fundamental_theorem_calculus"
+        "integral_physical_applications"
       ],
       "methodIds": [],
-      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.1 任务 (c)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.1 任务 (c)）。；知识点归入 integral_physical_applications（定积分的物理应用）",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -506,10 +506,10 @@
       "primaryProblemTypeId": "physical_applications_of_integral",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "fundamental_theorem_calculus"
+        "integral_physical_applications"
       ],
       "methodIds": [],
-      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.3 任务 (a)–(d)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §6.3 活动（Activity 6.3.3 任务 (a)–(d)）。；知识点归入 integral_physical_applications（定积分的物理应用）",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -533,10 +533,10 @@
       "primaryProblemTypeId": "physical_applications_of_integral",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "fundamental_theorem_calculus"
+        "integral_physical_applications"
       ],
       "methodIds": [],
-      "notes": "译自 Active Calculus §6.4 活动（Activity 6.4.1 任务 (a)(b)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §6.4 活动（Activity 6.4.1 任务 (a)(b)）。；知识点归入 integral_physical_applications（定积分的物理应用）",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -560,10 +560,10 @@
       "primaryProblemTypeId": "physical_applications_of_integral",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "fundamental_theorem_calculus"
+        "integral_physical_applications"
       ],
       "methodIds": [],
-      "notes": "译自 Active Calculus §6.4 活动（Activity 6.4.1 任务 (d)）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §6.4 活动（Activity 6.4.1 任务 (d)）。；知识点归入 integral_physical_applications（定积分的物理应用）",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -587,12 +587,12 @@
       "primaryProblemTypeId": "physical_applications_of_integral",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "fundamental_theorem_calculus"
+        "integral_physical_applications"
       ],
       "methodIds": [
         "integration_by_parts"
       ],
-      "notes": "译自 Active Calculus §6.3 习题（Exercise 6.3.5）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §6.3 习题（Exercise 6.3.5）。；知识点归入 integral_physical_applications（定积分的物理应用）",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -733,7 +733,7 @@
         "separable_equation"
       ],
       "methodIds": [],
-      "notes": "译自 Active Calculus §7.2 习题（Exercise 7.2.9）。原书（c）问要求作 $M(y)$ 图像、（d）（e）问要求结合相线分析平衡解稳定性，因属作图/定性内容酌情精简，未改变数学内容。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §7.2 习题（Exercise 7.2.9）。原书（c）问要求作 $M(y)$ 图像、（d）（e）问要求结合相线分析平衡解稳定性，因属作图/定性内容酌情精简，未改变数学内容。；知识点 separable_equation 按捕食模型可直接分离变量的特征标注。",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -1413,7 +1413,7 @@
       "methodIds": [
         "taylor_expansion"
       ],
-      "notes": "译自 Active Calculus §8.5 习题（Exercise 8.5.9）。原书该题答案与解答暂缺，本答案为项目自算（极限值 2 与 −1/4 均可由等价无穷小/洛必达验证）。；知识点打标由主控复核补齐（taxonomy 无积分物理应用专有知识点，取最近似 id）",
+      "notes": "译自 Active Calculus §8.5 习题（Exercise 8.5.9）。原书该题答案与解答暂缺，本答案为项目自算（极限值 2 与 −1/4 均可由等价无穷小/洛必达验证）。；知识点按未定式与重要极限标注。",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",

@@ -475,10 +475,10 @@
       "primaryProblemTypeId": "derivative_calculation",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "derivative_definition"
+        "derivative_arithmetic_rules"
       ],
       "methodIds": [],
-      "notes": "Source: Active Calculus §2.1 exercise 8. taxonomy 无『导数四则运算法则』知识点，故以 derivative_definition 为最近似知识点。",
+      "notes": "Source: Active Calculus §2.1 exercise 8. 知识点归入 derivative_arithmetic_rules（导数四则运算法则）。",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -844,10 +844,10 @@
       "primaryProblemTypeId": "derivative_calculation",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "composite_derivative"
+        "related_rates"
       ],
       "methodIds": [],
-      "notes": "Source: Active Calculus §3.1 exercise 9. taxonomy 无『相关变化率（related rates）』题型/知识点，归入导数计算、复合函数求导。",
+      "notes": "Source: Active Calculus §3.1 exercise 9. 知识点归入 related_rates（相关变化率）。",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -1681,10 +1681,10 @@
       "primaryProblemTypeId": "derivative_calculation",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "derivative_definition"
+        "derivative_arithmetic_rules"
       ],
       "methodIds": [],
-      "notes": "Source: Active Calculus §2.3 exercise 13. taxonomy 无乘法/除法求导法则专有知识点，取最近似的 derivative_definition（沿用第一批惯例）。原书解答把 $w(\\frac{1}{2})$、$w'(\\frac{1}{2})$ 误写为 $w(2)$、$w'(2)$，已按正确数学更正；第 (2) 问的精确形式为自算（数值 $\\approx 0.740 - 0.589(t-0.5)$ 与原书答案一致，$v'(\\frac{1}{2}) \\approx 0.952$ 已复核）。",
+      "notes": "Source: Active Calculus §2.3 exercise 13. 知识点归入 derivative_arithmetic_rules（导数四则运算法则）。原书解答把 $w(\\frac{1}{2})$、$w'(\\frac{1}{2})$ 误写为 $w(2)$、$w'(2)$，已按正确数学更正；第 (2) 问的精确形式为自算（数值 $\\approx 0.740 - 0.589(t-0.5)$ 与原书答案一致，$v'(\\frac{1}{2}) \\approx 0.952$ 已复核）。",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -1708,10 +1708,10 @@
       "primaryProblemTypeId": "derivative_calculation",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "derivative_definition"
+        "derivative_arithmetic_rules"
       ],
       "methodIds": [],
-      "notes": "Source: Active Calculus §2.3 exercise 14. 各小问重排为 (1)–(4)，数学内容不变。原书解答把 $C'(0)$ 的单位误写为 bushels per acre，已更正为蒲式耳/年。蒲式耳（bushel）、英亩（acre）为国内惯用音译单位。taxonomy 无乘法法则专有知识点，取最近似的 derivative_definition。",
+      "notes": "Source: Active Calculus §2.3 exercise 14. 各小问重排为 (1)–(4)，数学内容不变。原书解答把 $C'(0)$ 的单位误写为 bushels per acre，已更正为蒲式耳/年。蒲式耳（bushel）、英亩（acre）为国内惯用音译单位。知识点归入 derivative_arithmetic_rules（导数四则运算法则）。",
       "createdAt": "2026-09-27T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
