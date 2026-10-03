@@ -5,7 +5,7 @@
  "year": 2007,
  "paper": "math2",
  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2007-2.md",
  "paperInfo": {
   "year": 2007,
@@ -56,25 +56,25 @@
    {
     "number": 7,
     "id": "bank.exam.m2-2007.7",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m2-2007.8",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 9,
     "id": "bank.exam.m2-2007.9",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 10,
     "id": "bank.exam.m2-2007.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
@@ -98,20 +98,20 @@
    {
     "number": 14,
     "id": "bank.exam.m2-2007.14",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 15,
     "id": "bank.exam.m2-2007.15",
     "subjectGuess": "calculus",
-    "objective": false
+    "objective": true
    },
    {
     "number": 16,
     "id": "bank.exam.m2-2007.16",
-    "subjectGuess": "calculus",
-    "objective": false
+    "subjectGuess": "linear_algebra",
+    "objective": true
    },
    {
     "number": 17,
@@ -140,13 +140,13 @@
    {
     "number": 21,
     "id": "bank.exam.m2-2007.21",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": false
    },
    {
     "number": 22,
     "id": "bank.exam.m2-2007.22",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": false
    },
    {
@@ -158,7 +158,7 @@
    {
     "number": 24,
     "id": "bank.exam.m2-2007.24",
-    "subjectGuess": "",
+    "subjectGuess": "linear_algebra",
     "objective": false
    }
   ],
@@ -170,7 +170,7 @@
    "number": 1,
    "title": "2007 年数学二 第 1 题",
    "questionText": "当 $x\\to 0^{+}$ 时，与 $\\sqrt{x}$ 等价的无穷小量是（ ）\nA. $1-e^{\\sqrt{x}}$\nB. $\\ln\\frac{1+x}{1-\\sqrt{x}}$\nC. $\\sqrt{1+\\sqrt{x}}-1$\nD. $1-\\cos\\sqrt{x}$",
-   "answerText": "B\n\n**解析：**\n当 $x\\to 0^{+}$ 时，$1-e^{\\sqrt{x}}\\sim-\\sqrt{x}$，$\\sqrt{1+\\sqrt{x}}-1\\sim\\frac{1}{2}\\sqrt{x}$，$1-\\cos\\sqrt{x}\\sim\\frac{1}{2}x$。又 $\\ln\\frac{1+x}{1-\\sqrt{x}}=\\ln\\left(1+\\frac{x+\\sqrt{x}}{1-\\sqrt{x}}\\right)\\sim\\frac{x+\\sqrt{x}}{1-\\sqrt{x}}\\sim\\sqrt{x}$，故选 B。\n\n---",
+   "answerText": "答案：B。\n\n**解析：** 逐一与 $\\sqrt{x}$ 比较（$x\\to0^{+}$）：\n$$\n1-e^{\\sqrt{x}}\\sim-\\sqrt{x};\\qquad\n\\sqrt{1+\\sqrt{x}}-1\\sim\\frac12\\sqrt{x};\\qquad\n1-\\cos\\sqrt{x}\\sim\\frac{x}{2}.\n$$\n而对 B：$\\ln\\dfrac{1+x}{1-\\sqrt{x}}=\\ln\\!\\left(1+\\dfrac{x+\\sqrt{x}}{1-\\sqrt{x}}\\right)$，利用 $\\ln(1+u)\\sim u$，得\n$$\n\\ln\\frac{1+x}{1-\\sqrt{x}}\\sim\\frac{x+\\sqrt{x}}{1-\\sqrt{x}}\\sim\\sqrt{x},\n$$\n故与 $\\sqrt{x}$ 等价的是 B。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -178,10 +178,10 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "infinite_and_infinitesimal"
+    "equivalent_infinitesimal"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -200,7 +200,7 @@
    "number": 2,
    "title": "2007 年数学二 第 2 题",
    "questionText": "函数 $f\\left(x\\right)=\\frac{\\left(e^{\\frac{1}{x}}+e\\right)\\tan x}{x\\left(e^{\\frac{1}{x}}-e\\right)}$ 在 $\\left[-\\pi,\\pi\\right]$ 上的第一类间断点是 $x=$（ ）\nA. $0$\nB. $1$\nC. $-\\frac{\\pi}{2}$\nD. $\\frac{\\pi}{2}$",
-   "answerText": "A\n\n**解析：**\n函数的间断点为 $0,1,\\pm\\frac{\\pi}{2}$。当 $x\\to 0^{+}$ 时，$f\\left(x\\right)\\to 1$；当 $x\\to 0^{-}$ 时，$f\\left(x\\right)\\to -1$。左右极限存在但不相等，故 $x=0$ 为第一类间断点。\n\n---",
+   "answerText": "答案：A。\n\n**解析：** 候选间断点：$x=0$（$e^{1/x}$ 无定义）、$x=1$（分母 $e^{1/x}-e=0$）、$x=\\pm\\dfrac{\\pi}{2}$（$\\tan x$ 无定义）。\n考察 $x=0$：$x\\to0^{+}$ 时 $e^{1/x}\\to+\\infty$，分子分母同除以 $e^{1/x}$，$f(x)\\to\\dfrac{\\tan x}{x}\\to1$；$x\\to0^{-}$ 时 $e^{1/x}\\to0$，$f(x)\\to\\dfrac{e\\tan x}{-ex}\\to-1$。左右极限存在但不相等，$x=0$ 是跳跃间断点（第一类）。\n考察 $x=1$：分子 $\\to2e\\tan1\\ne0$ 而分母 $\\to0$，$f\\to\\infty$，第二类；$x=\\pm\\dfrac{\\pi}{2}$：分子 $\\to\\infty$ 而分母非零，第二类。\n故第一类间断点只有 $x=0$，选 A。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -208,11 +208,10 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "discontinuity",
-    "power_series_sum"
+    "discontinuity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -231,20 +230,20 @@
    "number": 3,
    "title": "2007 年数学二 第 3 题",
    "questionText": "连续函数 $y=f\\left(x\\right)$ 在区间 $\\left[-3,-2\\right]$，$\\left[2,3\\right]$ 上的图形分别是直径为 $1$ 的上、下半圆周，在区间 $\\left[-2,0\\right]$，$\\left[0,2\\right]$ 上的图形分别是直径为 $2$ 的上、下半圆周。设 $F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t$，则下列结论正确的是（ ）\nA. $F\\left(3\\right)=-\\frac{3}{4}F\\left(-2\\right)$\nB. $F\\left(3\\right)=\\frac{5}{4}F\\left(2\\right)$\nC. $F\\left(-3\\right)=\\frac{3}{4}F\\left(2\\right)$\nD. $F\\left(-3\\right)=-\\frac{5}{4}F\\left(-2\\right)$",
-   "answerText": "C\n\n**解析：**\n由图形可知 $f\\left(x\\right)$ 为奇函数，故 $F\\left(x\\right)$ 为偶函数，$F\\left(-3\\right)=F\\left(3\\right)$。又 $F\\left(2\\right)=\\frac{\\pi}{2}$，$F\\left(3\\right)=\\frac{\\pi}{2}-\\frac{\\pi}{8}=\\frac{3\\pi}{8}$，因此 $F\\left(-3\\right)=\\frac{3}{4}F\\left(2\\right)$。\n\n---",
+   "answerText": "答案：C。\n\n**解析：** 由图，$f$ 的图形关于原点对称，是奇函数，故 $F(x)=\\int_{0}^{x}f(t)\\,\\mathrm{d}t$ 是偶函数，于是 $F(-3)=F(3)$。\n计算：$[0,2]$ 上是直径 $2$ 的上半圆，$\\displaystyle\\int_{0}^{2}f=\\frac{\\pi\\cdot1^{2}}{2}=\\frac{\\pi}{2}$，即 $F(2)=\\dfrac{\\pi}{2}$；$[2,3]$ 上是直径 $1$ 的下半圆，$\\displaystyle\\int_{2}^{3}f=-\\frac{\\pi(1/2)^{2}}{2}=-\\frac{\\pi}{8}$。故\n$$\nF(3)=\\frac{\\pi}{2}-\\frac{\\pi}{8}=\\frac{3\\pi}{8}=\\frac34F(2),\n\\qquad F(-3)=F(3)=\\frac34F(2),\n$$\n选 C。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "quadric_surface_equations",
-    "power_series_sum"
+    "definite_integral_properties",
+    "variable_upper_integral",
+    "area_volume_arc"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -263,19 +262,18 @@
    "number": 4,
    "title": "2007 年数学二 第 4 题",
    "questionText": "设函数 $f\\left(x\\right)$ 在 $x=0$ 连续，则下列命题错误的是（ ）\nA. 若 $\\lim_{x\\to 0}\\frac{f\\left(x\\right)}{x}$ 存在，则 $f\\left(0\\right)=0$\nB. 若 $\\lim_{x\\to 0}\\frac{f\\left(x\\right)+f\\left(-x\\right)}{x}$ 存在，则 $f\\left(0\\right)=0$\nC. 若 $\\lim_{x\\to 0}\\frac{f\\left(x\\right)}{x}$ 存在，则 $f^{\\prime}\\left(0\\right)$ 存在\nD. 若 $\\lim_{x\\to 0}\\frac{f\\left(x\\right)-f\\left(-x\\right)}{x}$ 存在，则 $f^{\\prime}\\left(0\\right)$ 存在",
-   "answerText": "D\n\n**解析：**\n取 $f\\left(x\\right)=\\left|x\\right|$，则 $\\lim_{x\\to 0}\\frac{f\\left(x\\right)-f\\left(-x\\right)}{x}=0$ 存在，但 $f\\left(x\\right)$ 在 $x=0$ 处不可导，故 D 错误。\n\n---",
+   "answerText": "答案：D（该命题错误）。\n\n**解析：** A 正确：若 $\\lim\\limits_{x\\to0}\\dfrac{f(x)}{x}$ 存在而 $f(0)\\ne0$，则该极限必为 $\\infty$，矛盾，故 $f(0)=0$。\nB 正确：同理，若 $f(0)\\ne0$，则 $f(x)+f(-x)\\to2f(0)\\ne0$，除以 $x$ 极限为 $\\infty$，矛盾。\nC 正确：由 A 已得 $f(0)=0$，于是 $\\lim\\limits_{x\\to0}\\dfrac{f(x)}{x}=\\lim\\limits_{x\\to0}\\dfrac{f(x)-f(0)}{x-0}$ 恰为导数定义，$f'(0)$ 存在。\nD 错误：取 $f(x)=|x|$，则 $\\dfrac{f(x)-f(-x)}{x}=0$ 极限存在，但 $f$ 在 $x=0$ 不可导。故选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
+    "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -293,8 +291,8 @@
    "id": "bank.exam.m2-2007.5",
    "number": 5,
    "title": "2007 年数学二 第 5 题",
-   "questionText": "曲线 $y=\\ln\\left(1+e^{x}+\\frac{1}{x}\\right)$ 的渐近线的条数为（ ）\nA. $0$\nB. $1$\nC. $2$\nD. $3$",
-   "answerText": "D\n\n**解析：**\n当 $x\\to 0^{+}$ 时，$y\\to+\\infty$，故 $x=0$ 是铅直渐近线；当 $x\\to-\\infty$ 时，$y\\to 0$，故 $y=0$ 是水平渐近线；当 $x\\to+\\infty$ 时，$\\lim_{x\\to+\\infty}\\frac{y}{x}=1$，且 $\\lim_{x\\to+\\infty}\\left(y-x\\right)=0$，故 $y=x$ 是斜渐近线。共有 $3$ 条渐近线。\n\n---",
+   "questionText": "曲线 $y=\\dfrac{1}{x}+\\ln\\left(1+e^{x}\\right)$ 的渐近线的条数为（ ）\n\n- A. $0$\n- B. $1$\n- C. $2$\n- D. $3$",
+   "answerText": "答案：D（共 3 条）。\n\n**解析：** 定义域为 $x\\ne0$。\n- 铅直渐近线：$x\\to0^{-}$ 时 $\\dfrac1x\\to-\\infty$，$\\ln(1+e^{x})\\to\\ln2$，故 $y\\to-\\infty$，$x=0$ 是铅直渐近线；\n- 水平渐近线：$x\\to-\\infty$ 时 $\\dfrac1x\\to0$，$\\ln(1+e^{x})\\to0$，故 $y\\to0$，$y=0$ 是水平渐近线；\n- 斜渐近线：$x\\to+\\infty$ 时 $\\dfrac{y}{x}\\to1$，且 $y-x=\\dfrac1x+\\ln\\!\\left(1+e^{-x}\\right)\\to0$，故 $y=x$ 是斜渐近线。\n\n共 3 条，选 D。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -305,7 +303,7 @@
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对；已验算修正：源转录题干误为 $y=\\ln(1+e^{x}+\\frac1x)$，经核原卷为 $y=\\frac1x+\\ln(1+e^{x})$（两者渐近线条数相同）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -324,18 +322,19 @@
    "number": 6,
    "title": "2007 年数学二 第 6 题",
    "questionText": "设函数 $f\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 上具有二阶导数，且 $f^{\\prime\\prime}\\left(x\\right)>0$，令 $u_{n}=f\\left(n\\right)\\left(n=1,2,\\cdots\\right)$，则下列结论正确的是（ ）\nA. 若 $u_{1}>u_{2}$，则 $\\left\\{u_{n}\\right\\}$ 必收敛\nB. 若 $u_{1}>u_{2}$，则 $\\left\\{u_{n}\\right\\}$ 必发散\nC. 若 $u_{1}<u_{2}$，则 $\\left\\{u_{n}\\right\\}$ 必收敛\nD. 若 $u_{1}<u_{2}$，则 $\\left\\{u_{n}\\right\\}$ 必发散",
-   "answerText": "D\n\n**解析：**\n因 $f^{\\prime\\prime}\\left(x\\right)>0$，所以 $f^{\\prime}\\left(x\\right)$ 严格递增。由拉格朗日中值定理，$u_{n+1}-u_{n}=f^{\\prime}\\left(\\xi_{n}\\right)$，其中 $n<\\xi_{n}<n+1$。若 $u_{1}<u_{2}$，则 $f^{\\prime}\\left(\\xi_{1}\\right)>0$，从而 $u_{n}$ 递增且趋于 $+\\infty$，故发散。\n\n---",
+   "answerText": "答案：D。\n\n**解析：** $f''(x)>0$ 说明 $f'(x)$ 严格递增。对 $u_{2}-u_{1}=f(2)-f(1)$ 用拉格朗日中值定理：存在 $\\xi_{1}\\in(1,2)$ 使 $u_{2}-u_{1}=f'(\\xi_{1})$。\n若 $u_{1}<u_{2}$，则 $f'(\\xi_{1})>0$。对任意 $n\\ge2$，区间 $(n,n+1)$ 内的中值点 $\\xi_{n}>\\xi_{1}$，由 $f'$ 递增得 $u_{n+1}-u_{n}=f'(\\xi_{n})>f'(\\xi_{1})>0$，于是\n$$\nu_{n}\\ \\ge\\ u_{2}+(n-2)f'(\\xi_{1})\\ \\to\\ +\\infty ,\n$$\n即 $\\{u_{n}\\}$ 必发散，选 D。（而 $u_{1}>u_{2}$ 时 $f'$ 可在 $1$ 与 $-1$ 之间变动，$\\{u_{n}\\}$ 收敛与否不能确定，A、B 均不成立。）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "mean_value_theorem",
+    "monotonicity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -354,16 +353,19 @@
    "number": 7,
    "title": "2007 年数学二 第 7 题",
    "questionText": "二元函数 $f\\left(x,y\\right)$ 在点 $\\left(0,0\\right)$ 处可微的一个充分条件是（ ）\nA. $\\lim_{\\left(x,y\\right)\\to\\left(0,0\\right)}\\left[f\\left(x,y\\right)-f\\left(0,0\\right)\\right]=0$\n\nB. $\\lim_{x\\to 0}\\frac{f\\left(x,0\\right)-f\\left(0,0\\right)}{x}=0$ 且 $\\lim_{y\\to 0}\\frac{f\\left(0,y\\right)-f\\left(0,0\\right)}{y}=0$\n\nC. $\\lim_{\\left(x,y\\right)\\to\\left(0,0\\right)}\\frac{f\\left(x,y\\right)-f\\left(0,0\\right)}{\\sqrt{x^{2}+y^{2}}}=0$\n\nD. $\\lim_{x\\to 0}\\left[f_{x}^{\\prime}\\left(x,0\\right)-f_{x}^{\\prime}\\left(0,0\\right)\\right]=0$ 且 $\\lim_{y\\to 0}\\left[f_{y}^{\\prime}\\left(0,y\\right)-f_{y}^{\\prime}\\left(0,0\\right)\\right]=0$",
-   "answerText": "C\n\n**解析：**\n由 C 可得 $f\\left(x,y\\right)-f\\left(0,0\\right)=o\\left(\\sqrt{x^{2}+y^{2}}\\right)$，即 $\\Delta z=0\\cdot \\Delta x+0\\cdot \\Delta y+o\\left(\\rho\\right)$，其中 $\\rho=\\sqrt{x^{2}+y^{2}}$。这正符合可微定义，故 C 是充分条件。\n\n---",
+   "answerText": "答案：C。\n\n**解析：** C 的条件即\n$$\nf(x,y)-f(0,0)=o\\left(\\sqrt{x^{2}+y^{2}}\\right)\\qquad\\big((x,y)\\to(0,0)\\big),\n$$\n也就是 $\\Delta z=f(x,y)-f(0,0)=0\\cdot\\Delta x+0\\cdot\\Delta y+o(\\rho)$（$\\rho=\\sqrt{x^{2}+y^{2}}$），这正是可微的定义（且此时 $f'_x(0,0)=f'_y(0,0)=0$），故 C 是充分条件。\nA 只是 $f$ 在 $(0,0)$ 连续；B 只是说明沿两条坐标轴方向的一维差商极限为 $0$（偏导数存在）；D 只保证偏导数沿坐标轴连续，均不能推出可微。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "total_differential",
+    "continuity_partial_differentiability"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -374,7 +376,7 @@
     "paper": "math2",
     "number": 7
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "一、选择题"
   },
   {
@@ -382,16 +384,19 @@
    "number": 8,
    "title": "2007 年数学二 第 8 题",
    "questionText": "设函数 $f\\left(x,y\\right)$ 连续，则二次积分 $\\int_{\\frac{\\pi}{2}}^{\\pi}\\mathrm{d}x\\int_{\\sin x}^{1}f\\left(x,y\\right)\\mathrm{~d}y$ 等于（ ）\nA. $\\int_{0}^{1}\\mathrm{d}y\\int_{\\arcsin y}^{\\pi}f\\left(x,y\\right)\\mathrm{~d}x$\nB. $\\int_{0}^{1}\\mathrm{d}y\\int_{\\pi-\\arcsin y}^{\\pi}f\\left(x,y\\right)\\mathrm{~d}x$\nC. $\\int_{0}^{1}\\mathrm{d}y\\int_{\\frac{\\pi}{2}}^{\\pi+\\arcsin y}f\\left(x,y\\right)\\mathrm{~d}x$\nD. $\\int_{0}^{1}\\mathrm{d}y\\int_{\\frac{\\pi}{2}}^{\\pi-\\arcsin y}f\\left(x,y\\right)\\mathrm{~d}x$",
-   "answerText": "B\n\n**解析：**\n原积分区域为 $\\frac{\\pi}{2}\\leq x\\leq \\pi,\\ \\sin x\\leq y\\leq 1$。换序后，$0\\leq y\\leq 1,\\ \\pi-\\arcsin y\\leq x\\leq \\pi$，故选 B。\n\n---",
+   "answerText": "答案：B。\n\n**解析：** 原积分区域为 $\\Sigma:\\ \\dfrac\\pi2\\le x\\le\\pi,\\ \\sin x\\le y\\le1$。在 $\\left[\\dfrac\\pi2,\\pi\\right]$ 上 $y=\\sin x$ 单调递减，从 $1$ 降到 $0$。\n换序：$0\\le y\\le1$；对固定的 $y$，要求 $\\sin x\\ge y$（$x\\in\\left[\\frac\\pi2,\\pi\\right]$）。由 $\\sin x=\\sin(\\pi-x)$，$\\sin x\\ge y$ 等价于 $\\pi-x\\le\\arcsin y$，即 $x\\ge\\pi-\\arcsin y$。故\n$$\n\\int_{0}^{1}\\mathrm{d}y\\int_{\\pi-\\arcsin y}^{\\pi}f(x,y)\\,\\mathrm{d}x ,\n$$\n选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "integration_order",
+    "double_integral_region"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -402,7 +407,7 @@
     "paper": "math2",
     "number": 8
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "一、选择题"
   },
   {
@@ -410,18 +415,19 @@
    "number": 9,
    "title": "2007 年数学二 第 9 题",
    "questionText": "设向量组 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关，则下列向量组线性相关的是（ ）\nA. $\\boldsymbol{\\alpha}_{1}-\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{3}-\\boldsymbol{\\alpha}_{1}$\nB. $\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{1}$\nC. $\\boldsymbol{\\alpha}_{1}-2\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2}-2\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{3}-2\\boldsymbol{\\alpha}_{1}$\nD. $\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2}+2\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{3}+2\\boldsymbol{\\alpha}_{1}$",
-   "answerText": "A\n\n**解析：**\n因为 $\\left(\\boldsymbol{\\alpha}_{1}-\\boldsymbol{\\alpha}_{2}\\right)+\\left(\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}\\right)+\\left(\\boldsymbol{\\alpha}_{3}-\\boldsymbol{\\alpha}_{1}\\right)=\\boldsymbol{0}$，且系数不全为零，所以 A 中向量组线性相关。\n\n---",
+   "answerText": "答案：A。\n\n**解析：** A 组三个向量之和为\n$$\n(\\alpha_{1}-\\alpha_{2})+(\\alpha_{2}-\\alpha_{3})+(\\alpha_{3}-\\alpha_{1})=\\mathbf{0},\n$$\n组合系数 $1,1,1$ 不全为零，故线性相关。\nB、C、D 各组可写成 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 左乘一个系数矩阵，其行列式分别计算：B、D 的系数矩阵行列式为 $2\\ne0$，C 的系数矩阵 $\\begin{pmatrix}1&0&-2\\\\-2&1&0\\\\0&-2&1\\end{pmatrix}$ 行列式为 $-7\\ne0$。因 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性无关，系数矩阵可逆时向量组仍线性无关，故只有 A 组线性相关，选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "vector_linear_operation"
+    "la.knowledge.linear_correlation",
+    "la.knowledge.correlation_criteria"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -432,7 +438,7 @@
     "paper": "math2",
     "number": 9
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "一、选择题"
   },
   {
@@ -440,16 +446,20 @@
    "number": 10,
    "title": "2007 年数学二 第 10 题",
    "questionText": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}2 & -1 & -1\\\\ -1 & 2 & -1\\\\ -1 & -1 & 2\\end{matrix}\\right)$，$\\boldsymbol{B}=\\left(\\begin{matrix}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 0\\end{matrix}\\right)$，则 $\\boldsymbol{A}$ 与 $\\boldsymbol{B}$（ ）\nA. 合同，且相似\nB. 合同，但不相似\nC. 不合同，但相似\nD. 既不合同，也不相似",
-   "answerText": "B\n\n**解析：**\n$\\boldsymbol{A}$ 的特征值为 $3,3,0$，$\\boldsymbol{B}$ 的特征值为 $1,1,0$，故二者不相似。但 $\\boldsymbol{A},\\boldsymbol{B}$ 均为实对称矩阵，且正惯性指数均为 $2$，负惯性指数均为 $0$，故二者合同。\n\n---",
+   "answerText": "答案：B。\n\n**解析：** 把 $\\boldsymbol{A}$ 写成 $\\boldsymbol{A}=3\\boldsymbol{E}-\\boldsymbol{J}$（$\\boldsymbol{J}$ 为全 $1$ 矩阵）。$\\boldsymbol{J}$ 的特征值为 $3,0,0$，故 $\\boldsymbol{A}$ 的特征值为 $3-3=0,\\ 3,\\ 3$；$\\boldsymbol{B}$ 的特征值为 $1,1,0$。\n特征值不同（且均是对角形可知相似不变量不符），故 $\\boldsymbol{A}$ 与 $\\boldsymbol{B}$ 不相似。但 $\\boldsymbol{A},\\boldsymbol{B}$ 都是实对称矩阵，且正惯性指数都是 $2$、负惯性指数都是 $0$，由惯性定理，两个实对称矩阵合同的充要条件是正负惯性指数分别相同，故 $\\boldsymbol{A}$ 与 $\\boldsymbol{B}$ 合同。选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.quadratic_forms",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.contract",
+    "la.knowledge.similarity_concept",
+    "la.knowledge.eigen_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -460,7 +470,7 @@
     "paper": "math2",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "一、选择题"
   },
   {
@@ -468,16 +478,19 @@
    "number": 11,
    "title": "2007 年数学二 第 11 题",
    "questionText": "$\\lim_{x\\to 0}\\frac{\\arctan x-\\sin x}{x^{3}}=$ ________。",
-   "answerText": "$-\\frac{1}{6}$\n\n**解析：**\n由 $\\arctan x=x-\\frac{x^{3}}{3}+o\\left(x^{3}\\right)$，$\\sin x=x-\\frac{x^{3}}{6}+o\\left(x^{3}\\right)$，得 $\\arctan x-\\sin x=-\\frac{x^{3}}{6}+o\\left(x^{3}\\right)$，故原极限为 $-\\frac{1}{6}$。\n\n---",
+   "answerText": "答案：$-\\dfrac16$。\n\n**解析：** 用泰勒展开（到 $x^{3}$ 项）：\n$$\n\\arctan x=x-\\frac{x^{3}}{3}+o(x^{3}),\\qquad \\sin x=x-\\frac{x^{3}}{6}+o(x^{3}),\n$$\n相减得 $\\arctan x-\\sin x=-\\dfrac{x^{3}}{6}+o(x^{3})$，故\n$$\n\\lim_{x\\to0}\\frac{\\arctan x-\\sin x}{x^{3}}=-\\frac16 .\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form",
+    "equivalent_infinitesimal"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -496,18 +509,18 @@
    "number": 12,
    "title": "2007 年数学二 第 12 题",
    "questionText": "曲线 $\\left\\{\\begin{matrix}x=\\cos t+\\cos^{2}t\\\\ y=1+\\sin t\\end{matrix}\\right.$ 上对应于 $t=\\frac{\\pi}{4}$ 的点处的法线斜率为 ________。",
-   "answerText": "$1+\\sqrt{2}$\n\n**解析：**\n$\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{\\cos t}{-\\sin t-2\\sin t\\cos t}$。代入 $t=\\frac{\\pi}{4}$，得 $\\left.\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{t=\\frac{\\pi}{4}}=-\\frac{1}{1+\\sqrt{2}}$，故法线斜率为 $1+\\sqrt{2}$。\n\n---",
+   "answerText": "答案：$1+\\sqrt{2}$。\n\n**解析：** 参数求导：\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}t}=\\cos t,\\qquad\n\\frac{\\mathrm{d}x}{\\mathrm{d}t}=-\\sin t-2\\sin t\\cos t=-\\sin t\\,(1+2\\cos t),\n$$\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\bigg|_{t=\\frac\\pi4}\n=\\frac{\\cos t}{-\\sin t(1+2\\cos t)}\\bigg|_{t=\\frac\\pi4}\n=-\\frac{1}{1+\\sqrt2} .\n$$\n法线斜率为其负倒数：$k_{\\text{法}}=1+\\sqrt{2}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "geometric_applications_multivariable"
+    "parametric_derivative"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -526,18 +539,18 @@
    "number": 13,
    "title": "2007 年数学二 第 13 题",
    "questionText": "设函数 $y=\\frac{1}{2x+3}$，则 $y^{\\left(n\\right)}\\left(0\\right)=$ ________。",
-   "answerText": "$\\left(-1\\right)^{n}\\frac{2^{n}n!}{3^{n+1}}$\n\n**解析：**\n由 $y=\\left(2x+3\\right)^{-1}$，得 $y^{\\left(n\\right)}\\left(x\\right)=\\left(-1\\right)^{n}2^{n}n!\\left(2x+3\\right)^{-n-1}$。令 $x=0$，即得 $y^{\\left(n\\right)}\\left(0\\right)=\\left(-1\\right)^{n}\\frac{2^{n}n!}{3^{n+1}}$。\n\n---",
+   "answerText": "答案：$\\left(-1\\right)^{n}\\dfrac{2^{n}n!}{3^{n+1}}$。\n\n**解析：** 写成幂函数：$y=(2x+3)^{-1}$。逐次求导归纳可得\n$$\ny^{(n)}(x)=(-1)^{n}\\,2^{n} n!\\,(2x+3)^{-(n+1)},\n$$\n（每次求导：指数再减 $1$、乘一次内层导数 $2$、乘递增的整数因子。）令 $x=0$ 即得\n$$\ny^{(n)}(0)=(-1)^{n}\\frac{2^{n}n!}{3^{n+1}} .\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "composite_derivative"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -556,18 +569,19 @@
    "number": 14,
    "title": "2007 年数学二 第 14 题",
    "questionText": "二阶常系数非齐次线性微分方程 $y^{\\prime\\prime}-4y^{\\prime}+3y=2e^{2x}$ 的通解为 $y=$ ________。",
-   "answerText": "$C_{1}e^{x}+C_{2}e^{3x}-2e^{2x}$\n\n**解析：**\n特征方程 $r^{2}-4r+3=0$ 的根为 $r_{1}=1,\\ r_{2}=3$，齐次通解为 $C_{1}e^{x}+C_{2}e^{3x}$。设特解 $y^{*}=Ae^{2x}$，代入得 $A=-2$，故通解为 $C_{1}e^{x}+C_{2}e^{3x}-2e^{2x}$。\n\n---",
+   "answerText": "答案：$y=C_{1}e^{x}+C_{2}e^{3x}-2e^{2x}$。\n\n**解析：** 特征方程 $r^{2}-4r+3=0$ 的根为 $r=1,3$，齐次通解为 $C_{1}e^{x}+C_{2}e^{3x}$。\n自由项 $2e^{2x}$ 中 $2$ 不是特征根，设特解 $y^{*}=Ae^{2x}$，代入方程：\n$$\n(4-8+3)Ae^{2x}=-Ae^{2x}=2e^{2x}\\ \\Longrightarrow\\ A=-2 .\n$$\n故通解为 $y=C_{1}e^{x}+C_{2}e^{3x}-2e^{2x}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.linear_systems",
+   "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.general_solution"
+    "second_order_nonhomogeneous_linear",
+    "characteristic_equation"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -578,7 +592,7 @@
     "paper": "math2",
     "number": 14
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、填空题"
   },
   {
@@ -586,7 +600,7 @@
    "number": 15,
    "title": "2007 年数学二 第 15 题",
    "questionText": "设 $f\\left(u,v\\right)$ 是二元可微函数，$z=f\\left(\\frac{y}{x},\\frac{x}{y}\\right)$，则 $x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=$ ________。",
-   "answerText": "$-2\\left(\\frac{y}{x}f_{1}^{\\prime}-\\frac{x}{y}f_{2}^{\\prime}\\right)$\n\n**解析：**\n设 $u=\\frac{y}{x},\\ v=\\frac{x}{y}$，则 $\\frac{\\partial z}{\\partial x}=f_{1}^{\\prime}\\left(-\\frac{y}{x^{2}}\\right)+f_{2}^{\\prime}\\frac{1}{y}$，$\\frac{\\partial z}{\\partial y}=f_{1}^{\\prime}\\frac{1}{x}+f_{2}^{\\prime}\\left(-\\frac{x}{y^{2}}\\right)$。整理得 $x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=-2\\left(\\frac{y}{x}f_{1}^{\\prime}-\\frac{x}{y}f_{2}^{\\prime}\\right)$。\n\n---",
+   "answerText": "答案：$-2\\left(\\dfrac{y}{x}f'_{1}-\\dfrac{x}{y}f'_{2}\\right)$。\n\n**解析：** 记 $u=\\dfrac yx$，$v=\\dfrac xy$，由链式法则：\n$$\n\\frac{\\partial z}{\\partial x}=f'_{1}\\cdot\\left(-\\frac{y}{x^{2}}\\right)+f'_{2}\\cdot\\frac1y,\\qquad\n\\frac{\\partial z}{\\partial y}=f'_{1}\\cdot\\frac1x+f'_{2}\\cdot\\left(-\\frac{x}{y^{2}}\\right).\n$$\n于是\n$$\nx\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}\n=\\left(-\\frac yx f'_{1}+\\frac xy f'_{2}\\right)-\\left(\\frac yx f'_{1}-\\frac xy f'_{2}\\right)\n=-2\\frac yx f'_{1}+2\\frac xy f'_{2}\n=-2\\left(\\frac yx f'_{1}-\\frac xy f'_{2}\\right).\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -594,11 +608,10 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
-    "power_series_sum"
+    "composite_function_chain_rule"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -617,16 +630,19 @@
    "number": 16,
    "title": "2007 年数学二 第 16 题",
    "questionText": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}0 & 1 & 0 & 0\\\\ 0 & 0 & 1 & 0\\\\ 0 & 0 & 0 & 1\\\\ 0 & 0 & 0 & 0\\end{matrix}\\right)$，则 $\\boldsymbol{A}^{3}$ 的秩为 ________。",
-   "answerText": "$1$\n\n**解析：**\n直接计算得 $\\boldsymbol{A}^{3}=\\left(\\begin{matrix}0 & 0 & 0 & 1\\\\ 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0\\\\ 0 & 0 & 0 & 0\\end{matrix}\\right)$，故 $\\operatorname{rank}\\left(\\boldsymbol{A}^{3}\\right)=1$。\n\n---",
+   "answerText": "答案：$1$。\n\n**解析：** $\\boldsymbol{A}$ 是移位矩阵，每乘一次 $\\boldsymbol{A}$，非零元素右上移一位：\n$$\n\\boldsymbol{A}^{2}=\\begin{pmatrix}0&0&1&0\\\\0&0&0&1\\\\0&0&0&0\\\\0&0&0&0\\end{pmatrix},\\qquad\n\\boldsymbol{A}^{3}=\\begin{pmatrix}0&0&0&1\\\\0&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\end{pmatrix}.\n$$\n$\\boldsymbol{A}^{3}$ 只有一个非零行，故 $\\operatorname{rank}(\\boldsymbol{A}^{3})=1$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_power",
+    "la.knowledge.matrix_rank"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -637,28 +653,27 @@
     "paper": "math2",
     "number": 16
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2007.17",
    "number": 17,
    "title": "2007 年数学二 第 17 题",
-   "questionText": "设 $f\\left(x\\right)$ 是区间 $\\left[0,\\frac{\\pi}{4}\\right]$ 上的单调、可导函数，且满足\n$\\int_{0}^{f\\left(x\\right)}f^{-1}\\left(t\\right)\\mathrm{~d}t=\\int_{0}^{x}\\frac{\\cos t-\\sin t}{\\sin t+\\cos t}t\\mathrm{~d}t$，\n\n其中 $f^{-1}$ 是 $f$ 的反函数，求 $f\\left(x\\right)$。\n\n**解析：** 两边对 $x$ 求导，得 $f^{-1}\\left[f\\left(x\\right)\\right]f^{\\prime}\\left(x\\right)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}x$，即 $xf^{\\prime}\\left(x\\right)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}x$。当 $x\\ne 0$ 时，$f^{\\prime}\\left(x\\right)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}$，故 $f\\left(x\\right)=\\ln\\left(\\sin x+\\cos x\\right)+C$。由题设可得 $f\\left(0\\right)=0$，所以 $C=0$。因此 $f\\left(x\\right)=\\ln\\left(\\sin x+\\cos x\\right)$。\n\n---",
-   "answerText": "**解析：**\n两边对 $x$ 求导，得 $f^{-1}\\left[f\\left(x\\right)\\right]f^{\\prime}\\left(x\\right)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}x$，即 $xf^{\\prime}\\left(x\\right)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}x$。当 $x\\ne 0$ 时，$f^{\\prime}\\left(x\\right)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}$，故 $f\\left(x\\right)=\\ln\\left(\\sin x+\\cos x\\right)+C$。由题设可得 $f\\left(0\\right)=0$，所以 $C=0$。因此 $f\\left(x\\right)=\\ln\\left(\\sin x+\\cos x\\right)$。\n\n---",
+   "questionText": "设 $f\\left(x\\right)$ 是区间 $\\left[0,\\frac{\\pi}{4}\\right]$ 上的单调、可导函数，且满足\n\n$\\int_{0}^{f\\left(x\\right)}f^{-1}\\left(t\\right)\\mathrm{~d}t=\\int_{0}^{x}\\frac{\\cos t-\\sin t}{\\sin t+\\cos t}t\\mathrm{~d}t$，\n\n其中 $f^{-1}$ 是 $f$ 的反函数，求 $f\\left(x\\right)$。",
+   "answerText": "答案：$f(x)=\\ln\\left(\\sin x+\\cos x\\right)$。\n\n**解析：** 对恒等式两边关于 $x$ 求导。左端是上限为 $f(x)$ 的变限积分，由链式法则及反函数定义 $f^{-1}(f(x))=x$：\n$$\nf^{-1}\\!\\left[f(x)\\right]\\cdot f'(x)=x\\cdot\\frac{\\cos x-\\sin x}{\\sin x+\\cos x},\n\\qquad\\text{即}\\quad x\\,f'(x)=x\\cdot\\frac{\\cos x-\\sin x}{\\sin x+\\cos x}.\n$$\n先确定 $f(0)$：在原式中取 $x=0$，左端 $\\displaystyle\\int_{0}^{f(0)}f^{-1}(t)\\,\\mathrm{d}t=0$；由 $f$ 单调知 $f^{-1}$ 连续且不变号，故 $f(0)=0$。\n于是当 $0<x\\le\\dfrac\\pi4$ 时\n$$\nf'(x)=\\frac{\\cos x-\\sin x}{\\sin x+\\cos x},\n$$\n积分得 $f(x)=\\ln(\\sin x+\\cos x)+C$。由 $f(0)=0$ 得 $C=0$，故\n$$\nf(x)=\\ln\\left(\\sin x+\\cos x\\right),\\qquad x\\in\\left[0,\\frac\\pi4\\right].\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "inverse_composite_function",
-    "differentiability_continuity",
-    "power_series_sum"
+    "variable_upper_integral",
+    "inverse_derivative"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -676,8 +691,8 @@
    "id": "bank.exam.m2-2007.18",
    "number": 18,
    "title": "2007 年数学二 第 18 题",
-   "questionText": "设 $D$ 是位于曲线 $y=\\sqrt{x a^{-\\frac{x}{a}}}\\left(a>1,\\ 0\\leq x<+\\infty\\right)$ 下方、$x$ 轴上方的无界区域。\n（Ⅰ）求区域 $D$ 绕 $x$ 轴旋转一周所成旋转体的体积 $V\\left(a\\right)$；\n\n（Ⅱ）当 $a$ 为何值时，$V\\left(a\\right)$ 最小？并求出最小值。\n\n**解析：**\n\n（Ⅰ）由旋转体体积公式，\n\n$V\\left(a\\right)=\\pi\\int_{0}^{+\\infty}y^{2}\\mathrm{~d}x=\\pi\\int_{0}^{+\\infty}x a^{-\\frac{x}{a}}\\mathrm{~d}x$。\n\n因为 $a^{-\\frac{x}{a}}=e^{-\\frac{x\\ln a}{a}}$，所以\n\n$V\\left(a\\right)=\\pi\\left(\\frac{a}{\\ln a}\\right)^{2}$。\n\n（Ⅱ）求导得\n\n$V^{\\prime}\\left(a\\right)=\\frac{2\\pi a\\left(\\ln a-1\\right)}{\\left(\\ln a\\right)^{3}}$。\n\n令 $V^{\\prime}\\left(a\\right)=0$，得 $a=e$。此时 $V\\left(a\\right)$ 取最小值，且\n\n$V_{\\min}=V\\left(e\\right)=\\pi e^{2}$。\n\n---",
-   "answerText": "**解析：**\n（Ⅰ）由旋转体体积公式，\n\n$V\\left(a\\right)=\\pi\\int_{0}^{+\\infty}y^{2}\\mathrm{~d}x=\\pi\\int_{0}^{+\\infty}x a^{-\\frac{x}{a}}\\mathrm{~d}x$。\n\n因为 $a^{-\\frac{x}{a}}=e^{-\\frac{x\\ln a}{a}}$，所以\n\n$V\\left(a\\right)=\\pi\\left(\\frac{a}{\\ln a}\\right)^{2}$。\n\n（Ⅱ）求导得\n\n$V^{\\prime}\\left(a\\right)=\\frac{2\\pi a\\left(\\ln a-1\\right)}{\\left(\\ln a\\right)^{3}}$。\n\n令 $V^{\\prime}\\left(a\\right)=0$，得 $a=e$。此时 $V\\left(a\\right)$ 取最小值，且\n\n$V_{\\min}=V\\left(e\\right)=\\pi e^{2}$。\n\n---",
+   "questionText": "设 $D$ 是位于曲线 $y=\\sqrt{x a^{-\\frac{x}{a}}}\\left(a>1,\\ 0\\leq x<+\\infty\\right)$ 下方、$x$ 轴上方的无界区域。\n\n（Ⅰ）求区域 $D$ 绕 $x$ 轴旋转一周所成旋转体的体积 $V\\left(a\\right)$；\n\n（Ⅱ）当 $a$ 为何值时，$V\\left(a\\right)$ 最小？并求出最小值。",
+   "answerText": "答案：（Ⅰ）$V(a)=\\pi\\left(\\dfrac{a}{\\ln a}\\right)^{2}$；（Ⅱ）$a=e$ 时最小，最小值为 $\\pi e^{2}$。\n\n**解析：**\n（Ⅰ）$y^{2}=xa^{-\\frac xa}=x\\,e^{-\\frac{x\\ln a}{a}}$。记 $\\beta=\\dfrac{\\ln a}{a}>0$（$a>1$），则\n$$\nV(a)=\\pi\\int_{0}^{+\\infty}y^{2}\\,\\mathrm{d}x=\\pi\\int_{0}^{+\\infty}x e^{-\\beta x}\\,\\mathrm{d}x\n=\\pi\\cdot\\frac{1}{\\beta^{2}}=\\pi\\left(\\frac{a}{\\ln a}\\right)^{2},\n$$\n（其中 $\\int_{0}^{+\\infty}xe^{-\\beta x}\\mathrm{d}x=\\dfrac{1}{\\beta^{2}}$ 可由分部积分得到。）\n（Ⅱ）令 $g(a)=\\dfrac{a}{\\ln a}$（$a>1$），$g'(a)=\\dfrac{\\ln a-1}{\\ln^{2}a}$。$1<a<e$ 时 $g'<0$，$a>e$ 时 $g'>0$，故 $g$ 在 $a=e$ 处取最小值 $g(e)=e$，从而\n$$\nV_{\\min}=V(e)=\\pi e^{2}.\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
@@ -685,10 +700,11 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "area_volume_arc"
+    "area_volume_arc",
+    "infinite_interval_integral"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -706,17 +722,19 @@
    "id": "bank.exam.m2-2007.19",
    "number": 19,
    "title": "2007 年数学二 第 19 题",
-   "questionText": "求微分方程 $y^{\\prime\\prime}\\left[x+\\left(y^{\\prime}\\right)^{2}\\right]=y^{\\prime}$ 满足初始条件 $y\\left(1\\right)=1,\\ y^{\\prime}\\left(1\\right)=1$ 的特解。\n**解析：** 令 $p=y^{\\prime}$，则 $y^{\\prime\\prime}=\\frac{\\mathrm{d}p}{\\mathrm{d}x}$。原方程化为 $\\frac{\\mathrm{d}p}{\\mathrm{d}x}\\left(x+p^{2}\\right)=p$，即 $\\frac{\\mathrm{d}x}{\\mathrm{d}p}-\\frac{x}{p}=p$。解得 $x=p^{2}+Cp$。由 $x=1,p=1$ 得 $C=0$，故 $p=\\sqrt{x}$。于是 $y^{\\prime}=\\sqrt{x}$，积分并用 $y\\left(1\\right)=1$，得 $y=\\frac{2}{3}x^{\\frac{3}{2}}+\\frac{1}{3}$。\n\n---",
-   "answerText": "**解析：**\n令 $p=y^{\\prime}$，则 $y^{\\prime\\prime}=\\frac{\\mathrm{d}p}{\\mathrm{d}x}$。原方程化为 $\\frac{\\mathrm{d}p}{\\mathrm{d}x}\\left(x+p^{2}\\right)=p$，即 $\\frac{\\mathrm{d}x}{\\mathrm{d}p}-\\frac{x}{p}=p$。解得 $x=p^{2}+Cp$。由 $x=1,p=1$ 得 $C=0$，故 $p=\\sqrt{x}$。于是 $y^{\\prime}=\\sqrt{x}$，积分并用 $y\\left(1\\right)=1$，得 $y=\\frac{2}{3}x^{\\frac{3}{2}}+\\frac{1}{3}$。\n\n---",
+   "questionText": "求微分方程 $y^{\\prime\\prime}\\left[x+\\left(y^{\\prime}\\right)^{2}\\right]=y^{\\prime}$ 满足初始条件 $y\\left(1\\right)=1,\\ y^{\\prime}\\left(1\\right)=1$ 的特解。",
+   "answerText": "答案：$y=\\dfrac23 x^{\\frac32}+\\dfrac13$。\n\n**解析：** 方程不含 $y$，令 $p=y'$，则 $y''=\\dfrac{\\mathrm{d}p}{\\mathrm{d}x}$，方程化为\n$$\n\\frac{\\mathrm{d}p}{\\mathrm{d}x}\\left(x+p^{2}\\right)=p .\n$$\n把 $x$ 看作 $p$ 的函数（$\\dfrac{\\mathrm{d}x}{\\mathrm{d}p}=\\dfrac{x+p^{2}}{p}$）：\n$$\n\\frac{\\mathrm{d}x}{\\mathrm{d}p}-\\frac{1}{p}x=p ,\n$$\n这是一阶线性方程，积分因子为 $e^{-\\int \\mathrm{d}p/p}=1/p$，得 $\\left(\\dfrac xp\\right)'=1$，积分：\n$$\nx=p^{2}+Cp .\n$$\n代入初始条件 $x=1,\\ p=1$ 得 $C=0$，故 $x=p^{2}$。由 $p(1)=1>0$ 取 $p=\\sqrt{x}$，即 $y'=\\sqrt{x}$。积分：\n$$\ny=\\frac23 x^{\\frac32}+C' ,\n$$\n由 $y(1)=1$ 得 $C'=\\dfrac13$，特解为 $y=\\dfrac23 x^{\\frac32}+\\dfrac13$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
+   "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "reducible_higher_order_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -734,19 +752,20 @@
    "id": "bank.exam.m2-2007.20",
    "number": 20,
    "title": "2007 年数学二 第 20 题",
-   "questionText": "已知函数 $f\\left(u\\right)$ 具有二阶导数，且 $f^{\\prime}\\left(0\\right)=1$，函数 $y=y\\left(x\\right)$ 由方程 $y-1=xe^{y-1}$ 所确定。设 $z=f\\left(\\ln y-\\sin x\\right)$，求 $\\left.\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\right|_{x=0}$ 与 $\\left.\\frac{\\mathrm{d}^{2}z}{\\mathrm{d}x^{2}}\\right|_{x=0}$。\n**解析：** 由 $y-1=xe^{y-1}$，得 $y\\left(0\\right)=1$。两边求导并代入 $x=0$，得 $y^{\\prime}\\left(0\\right)=1$；再求导得 $y^{\\prime\\prime}\\left(0\\right)=2$。\n\n设 $u=\\ln y-\\sin x$，则 $z=f\\left(u\\right)$。有 $u\\left(0\\right)=0$，$u^{\\prime}\\left(0\\right)=\\frac{y^{\\prime}\\left(0\\right)}{y\\left(0\\right)}-\\cos 0=0$，故 $\\left.\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\right|_{x=0}=0$。\n\n又 $u^{\\prime\\prime}\\left(0\\right)=\\frac{y^{\\prime\\prime}\\left(0\\right)y\\left(0\\right)-\\left[y^{\\prime}\\left(0\\right)\\right]^{2}}{y^{2}\\left(0\\right)}+\\sin 0=1$，所以\n\n$\\left.\\frac{\\mathrm{d}^{2}z}{\\mathrm{d}x^{2}}\\right|_{x=0}=f^{\\prime}\\left(0\\right)u^{\\prime\\prime}\\left(0\\right)=1$。\n\n---",
-   "answerText": "**解析：**\n由 $y-1=xe^{y-1}$，得 $y\\left(0\\right)=1$。两边求导并代入 $x=0$，得 $y^{\\prime}\\left(0\\right)=1$；再求导得 $y^{\\prime\\prime}\\left(0\\right)=2$。\n\n设 $u=\\ln y-\\sin x$，则 $z=f\\left(u\\right)$。有 $u\\left(0\\right)=0$，$u^{\\prime}\\left(0\\right)=\\frac{y^{\\prime}\\left(0\\right)}{y\\left(0\\right)}-\\cos 0=0$，故 $\\left.\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\right|_{x=0}=0$。\n\n又 $u^{\\prime\\prime}\\left(0\\right)=\\frac{y^{\\prime\\prime}\\left(0\\right)y\\left(0\\right)-\\left[y^{\\prime}\\left(0\\right)\\right]^{2}}{y^{2}\\left(0\\right)}+\\sin 0=1$，所以\n\n$\\left.\\frac{\\mathrm{d}^{2}z}{\\mathrm{d}x^{2}}\\right|_{x=0}=f^{\\prime}\\left(0\\right)u^{\\prime\\prime}\\left(0\\right)=1$。\n\n---",
+   "questionText": "已知函数 $f\\left(u\\right)$ 具有二阶导数，且 $f^{\\prime}\\left(0\\right)=1$，函数 $y=y\\left(x\\right)$ 由方程 $y-1=xe^{y-1}$ 所确定。设 $z=f\\left(\\ln y-\\sin x\\right)$，求 $\\left.\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\right|_{x=0}$ 与 $\\left.\\frac{\\mathrm{d}^{2}z}{\\mathrm{d}x^{2}}\\right|_{x=0}$。",
+   "answerText": "答案：$\\left.\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}\\right|_{x=0}=0$，$\\left.\\dfrac{\\mathrm{d}^{2}z}{\\mathrm{d}x^{2}}\\right|_{x=0}=1$。\n\n**解析：** 先从 $y-1=xe^{y-1}$ 求 $y$ 在 $x=0$ 处的各阶导数。令 $x=0$ 得 $y(0)=1$。方程两边对 $x$ 求导：\n$$\ny'=e^{y-1}+xe^{y-1}y' .\n$$\n代入 $x=0$：$y'(0)=e^{0}=1$。再求导：\n$$\ny''=e^{y-1}y'+e^{y-1}y'+x\\left[e^{y-1}(y')^{2}+e^{y-1}y''\\right],\n$$\n代入 $x=0$：$y''(0)=2e^{0}\\cdot1+0=2$。\n令 $u=\\ln y-\\sin x$，则 $z=f(u)$。$u(0)=\\ln1-0=0$；\n$$\nu'=\\frac{y'}{y}-\\cos x,\\qquad u'(0)=1-1=0\\ \\Longrightarrow\\ \\left.\\frac{\\mathrm{d}z}{\\mathrm{d}x}\\right|_{0}=f'(u(0))\\,u'(0)=0 .\n$$\n$$\nu''=\\frac{y''y-(y')^{2}}{y^{2}}+\\sin x,\\qquad u''(0)=\\frac{2\\cdot1-1}{1}+0=1 ,\n$$\n$$\n\\left.\\frac{\\mathrm{d}^{2}z}{\\mathrm{d}x^{2}}\\right|_{0}=f'(u_{0})u''_{0}+f''(u_{0})(u'_{0})^{2}=f'(0)\\cdot1+0=1 .\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "implicit_function",
+    "composite_function_chain_rule"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -764,17 +783,19 @@
    "id": "bank.exam.m2-2007.21",
    "number": 21,
    "title": "2007 年数学二 第 21 题",
-   "questionText": "设函数 $f\\left(x\\right)$，$g\\left(x\\right)$ 在 $\\left[a,b\\right]$ 上连续，在 $\\left(a,b\\right)$ 内二阶可导且存在相等的最大值，又 $f\\left(a\\right)=g\\left(a\\right)$，$f\\left(b\\right)=g\\left(b\\right)$，证明：存在 $\\xi\\in\\left(a,b\\right)$，使得 $f^{\\prime\\prime}\\left(\\xi\\right)=g^{\\prime\\prime}\\left(\\xi\\right)$。\n**解析：** 令 $\\varphi\\left(x\\right)=f\\left(x\\right)-g\\left(x\\right)$。由题设可知存在 $\\eta\\in\\left(a,b\\right)$，使得 $\\varphi\\left(\\eta\\right)=0$。又 $\\varphi\\left(a\\right)=\\varphi\\left(b\\right)=0$。在 $\\left[a,\\eta\\right]$ 与 $\\left[\\eta,b\\right]$ 上分别应用罗尔定理，得 $\\varphi^{\\prime}\\left(\\xi_{1}\\right)=0,\\ \\varphi^{\\prime}\\left(\\xi_{2}\\right)=0$。再对 $\\varphi^{\\prime}\\left(x\\right)$ 用罗尔定理，得存在 $\\xi\\in\\left(a,b\\right)$，使 $\\varphi^{\\prime\\prime}\\left(\\xi\\right)=0$，即 $f^{\\prime\\prime}\\left(\\xi\\right)=g^{\\prime\\prime}\\left(\\xi\\right)$。\n\n---",
-   "answerText": "**解析：**\n令 $\\varphi\\left(x\\right)=f\\left(x\\right)-g\\left(x\\right)$。由题设可知存在 $\\eta\\in\\left(a,b\\right)$，使得 $\\varphi\\left(\\eta\\right)=0$。又 $\\varphi\\left(a\\right)=\\varphi\\left(b\\right)=0$。在 $\\left[a,\\eta\\right]$ 与 $\\left[\\eta,b\\right]$ 上分别应用罗尔定理，得 $\\varphi^{\\prime}\\left(\\xi_{1}\\right)=0,\\ \\varphi^{\\prime}\\left(\\xi_{2}\\right)=0$。再对 $\\varphi^{\\prime}\\left(x\\right)$ 用罗尔定理，得存在 $\\xi\\in\\left(a,b\\right)$，使 $\\varphi^{\\prime\\prime}\\left(\\xi\\right)=0$，即 $f^{\\prime\\prime}\\left(\\xi\\right)=g^{\\prime\\prime}\\left(\\xi\\right)$。\n\n---",
+   "questionText": "设函数 $f\\left(x\\right)$，$g\\left(x\\right)$ 在 $\\left[a,b\\right]$ 上连续，在 $\\left(a,b\\right)$ 内二阶可导且存在相等的最大值，又 $f\\left(a\\right)=g\\left(a\\right)$，$f\\left(b\\right)=g\\left(b\\right)$，证明：存在 $\\xi\\in\\left(a,b\\right)$，使得 $f^{\\prime\\prime}\\left(\\xi\\right)=g^{\\prime\\prime}\\left(\\xi\\right)$。",
+   "answerText": "答案：证明见解析。\n\n**解析：** 令 $\\varphi(x)=f(x)-g(x)$，则 $\\varphi$ 在 $[a,b]$ 连续，在 $(a,b)$ 二阶可导，且 $\\varphi(a)=\\varphi(b)=0$。\n设 $f$ 与 $g$ 在 $(a,b)$ 内分别取到相同的最大值 $M$：$f(x_{1})=M$，$g(x_{2})=M$。若 $x_{1}=x_{2}$，取 $\\eta=x_{1}$ 即有 $\\varphi(\\eta)=0$；若 $x_{1}\\ne x_{2}$，则\n$$\n\\varphi(x_{1})=M-g(x_{1})\\ge0,\\qquad \\varphi(x_{2})=f(x_{2})-M\\le0,\n$$\n由介值定理，存在介于 $x_{1},x_{2}$ 之间的 $\\eta\\in(a,b)$ 使 $\\varphi(\\eta)=0$。\n于是 $\\varphi$ 在 $a,\\eta,b$ 三点处同为零。在 $[a,\\eta]$ 与 $[\\eta,b]$ 上分别用罗尔定理：存在 $\\xi_{1}\\in(a,\\eta)$，$\\xi_{2}\\in(\\eta,b)$，使 $\\varphi'(\\xi_{1})=\\varphi'(\\xi_{2})=0$。再对 $\\varphi'$ 在 $[\\xi_{1},\\xi_{2}]$ 上用罗尔定理：存在 $\\xi\\in(\\xi_{1},\\xi_{2})\\subset(a,b)$，使\n$$\n\\varphi''(\\xi)=0,\\qquad\\text{即}\\quad f''(\\xi)=g''(\\xi).\n\\qquad\\blacksquare$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -785,26 +806,28 @@
     "paper": "math2",
     "number": 21
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2007.22",
    "number": 22,
    "title": "2007 年数学二 第 22 题",
-   "questionText": "设二元函数\n$f\\left(x,y\\right)=\\left\\{\\begin{matrix}x^{2}, & \\left|x\\right|+\\left|y\\right|\\leq 1\\\\ \\frac{1}{\\sqrt{x^{2}+y^{2}}}, & 1<\\left|x\\right|+\\left|y\\right|\\leq 2\\end{matrix}\\right.$\n\n计算二重积分 $\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}\\sigma$，其中 $D=\\left\\{\\left(x,y\\right)\\mid \\left|x\\right|+\\left|y\\right|\\leq 2\\right\\}$。\n\n**解析：** 记 $D_{1}=\\left\\{\\left(x,y\\right)\\mid \\left|x\\right|+\\left|y\\right|\\leq 1\\right\\}$，$D_{2}=\\left\\{\\left(x,y\\right)\\mid 1<\\left|x\\right|+\\left|y\\right|\\leq 2\\right\\}$。则\n\n$\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}\\sigma=\\iint_{D_{1}}x^{2}\\mathrm{~d}\\sigma+\\iint_{D_{2}}\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\mathrm{~d}\\sigma$。\n\n由对称性，\n\n$\\iint_{D_{1}}x^{2}\\mathrm{~d}\\sigma=4\\int_{0}^{1}\\mathrm{d}x\\int_{0}^{1-x}x^{2}\\mathrm{~d}y=\\frac{1}{3}$。\n\n对第二项用极坐标，第一象限中 $x+y=1$ 与 $x+y=2$ 分别对应 $r=\\frac{1}{\\cos\\theta+\\sin\\theta}$ 与 $r=\\frac{2}{\\cos\\theta+\\sin\\theta}$。故\n\n$\\iint_{D_{2}}\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\mathrm{~d}\\sigma=4\\int_{0}^{\\frac{\\pi}{2}}\\frac{1}{\\cos\\theta+\\sin\\theta}\\mathrm{~d}\\theta=2\\sqrt{2}\\ln\\left(3+2\\sqrt{2}\\right)$。\n\n因此\n\n$\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}\\sigma=\\frac{1}{3}+2\\sqrt{2}\\ln\\left(3+2\\sqrt{2}\\right)$。\n\n---",
-   "answerText": "**解析：**\n记 $D_{1}=\\left\\{\\left(x,y\\right)\\mid \\left|x\\right|+\\left|y\\right|\\leq 1\\right\\}$，$D_{2}=\\left\\{\\left(x,y\\right)\\mid 1<\\left|x\\right|+\\left|y\\right|\\leq 2\\right\\}$。则\n\n$\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}\\sigma=\\iint_{D_{1}}x^{2}\\mathrm{~d}\\sigma+\\iint_{D_{2}}\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\mathrm{~d}\\sigma$。\n\n由对称性，\n\n$\\iint_{D_{1}}x^{2}\\mathrm{~d}\\sigma=4\\int_{0}^{1}\\mathrm{d}x\\int_{0}^{1-x}x^{2}\\mathrm{~d}y=\\frac{1}{3}$。\n\n对第二项用极坐标，第一象限中 $x+y=1$ 与 $x+y=2$ 分别对应 $r=\\frac{1}{\\cos\\theta+\\sin\\theta}$ 与 $r=\\frac{2}{\\cos\\theta+\\sin\\theta}$。故\n\n$\\iint_{D_{2}}\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\mathrm{~d}\\sigma=4\\int_{0}^{\\frac{\\pi}{2}}\\frac{1}{\\cos\\theta+\\sin\\theta}\\mathrm{~d}\\theta=2\\sqrt{2}\\ln\\left(3+2\\sqrt{2}\\right)$。\n\n因此\n\n$\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}\\sigma=\\frac{1}{3}+2\\sqrt{2}\\ln\\left(3+2\\sqrt{2}\\right)$。\n\n---",
+   "questionText": "设二元函数\n\n$f\\left(x,y\\right)=\\left\\{\\begin{matrix}x^{2}, & \\left|x\\right|+\\left|y\\right|\\leq 1\\\\ \\frac{1}{\\sqrt{x^{2}+y^{2}}}, & 1<\\left|x\\right|+\\left|y\\right|\\leq 2\\end{matrix}\\right.$\n\n计算二重积分 $\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}\\sigma$，其中 $D=\\left\\{\\left(x,y\\right)\\mid \\left|x\\right|+\\left|y\\right|\\leq 2\\right\\}$。",
+   "answerText": "答案：$\\dfrac13+2\\sqrt2\\,\\ln\\!\\left(3+2\\sqrt2\\right)$。\n\n**解析：** 记 $D_{1}=\\{|x|+|y|\\le1\\}$，$D_{2}=D\\setminus D_{1}$，则\n$$\nI=\\iint_{D_{1}}x^{2}\\,\\mathrm{d}\\sigma+\\iint_{D_{2}}\\frac{1}{\\sqrt{x^{2}+y^{2}}}\\,\\mathrm{d}\\sigma .\n$$\n第一块用对称性：$D_{1}$ 关于两轴对称，\n$$\n\\iint_{D_{1}}x^{2}\\,\\mathrm{d}\\sigma=4\\int_{0}^{1}\\mathrm{d}x\\int_{0}^{1-x}x^{2}\\,\\mathrm{d}y=4\\int_{0}^{1}x^{2}(1-x)\\,\\mathrm{d}x=4\\left(\\frac13-\\frac14\\right)=\\frac13 .\n$$\n第二块用极坐标：第一象限内直线 $x+y=c$ 对应 $r=\\dfrac{c}{\\cos\\theta+\\sin\\theta}$，故 $0\\le\\theta\\le\\dfrac\\pi2$，$\\dfrac{1}{\\cos\\theta+\\sin\\theta}\\le r\\le\\dfrac{2}{\\cos\\theta+\\sin\\theta}$，被积函数乘 $r$ 后为 $1$：\n$$\n\\iint_{D_{2}}\\frac{\\mathrm{d}\\sigma}{\\sqrt{x^{2}+y^{2}}}=4\\int_{0}^{\\pi/2}\\mathrm{d}\\theta\\int_{\\frac{1}{\\cos\\theta+\\sin\\theta}}^{\\frac{2}{\\cos\\theta+\\sin\\theta}}\\mathrm{d}r\n=4\\int_{0}^{\\pi/2}\\frac{\\mathrm{d}\\theta}{\\cos\\theta+\\sin\\theta} .\n$$\n计算该积分：$\\cos\\theta+\\sin\\theta=\\sqrt2\\cos\\left(\\theta-\\dfrac\\pi4\\right)$，\n$$\n\\int_{0}^{\\pi/2}\\frac{\\mathrm{d}\\theta}{\\cos\\theta+\\sin\\theta}\n=\\frac{1}{\\sqrt2}\\int_{-\\pi/4}^{\\pi/4}\\sec u\\,\\mathrm{d}u\n=\\frac{1}{\\sqrt2}\\Big[\\ln|\\sec u+\\tan u|\\Big]_{-\\pi/4}^{\\pi/4}\n=\\sqrt2\\,\\ln(1+\\sqrt2),\n$$\n故第二块 $=4\\sqrt2\\ln(1+\\sqrt2)=2\\sqrt2\\ln\\!\\left(3+2\\sqrt2\\right)$。综上\n$$\nI=\\frac13+2\\sqrt2\\,\\ln\\!\\left(3+2\\sqrt2\\right).\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.vectors",
+   "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.basis_dimension_coordinates"
+    "double_integral_region",
+    "polar_coordinates",
+    "multiple_integral_symmetry"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -815,15 +838,15 @@
     "paper": "math2",
     "number": 22
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2007.23",
    "number": 23,
    "title": "2007 年数学二 第 23 题",
-   "questionText": "设线性方程组\n$\\left\\{\\begin{matrix}x_{1}+x_{2}+x_{3}=0\\\\ x_{1}+2x_{2}+ax_{3}=0\\\\ x_{1}+4x_{2}+a^{2}x_{3}=0\\end{matrix}\\right.$\n\n与方程\n\n$x_{1}+2x_{2}+x_{3}=a-1$\n\n有公共解，求 $a$ 的值及所有公共解。\n\n**解析：** 将方程组与方程联立，对增广矩阵作初等行变换，可得有解条件为 $\\left(a-1\\right)\\left(a-2\\right)=0$，故 $a=1$ 或 $a=2$。\n\n当 $a=1$ 时，公共解为\n\n$\\boldsymbol{x}=k\\left(\\begin{matrix}1\\\\ 0\\\\ -1\\end{matrix}\\right)$，\n\n其中 $k$ 为任意常数。\n\n当 $a=2$ 时，公共解为\n\n$\\boldsymbol{x}=\\left(\\begin{matrix}0\\\\ 1\\\\ -1\\end{matrix}\\right)$。\n\n---",
-   "answerText": "**解析：**\n将方程组与方程联立，对增广矩阵作初等行变换，可得有解条件为 $\\left(a-1\\right)\\left(a-2\\right)=0$，故 $a=1$ 或 $a=2$。\n\n当 $a=1$ 时，公共解为\n\n$\\boldsymbol{x}=k\\left(\\begin{matrix}1\\\\ 0\\\\ -1\\end{matrix}\\right)$，\n\n其中 $k$ 为任意常数。\n\n当 $a=2$ 时，公共解为\n\n$\\boldsymbol{x}=\\left(\\begin{matrix}0\\\\ 1\\\\ -1\\end{matrix}\\right)$。\n\n---",
+   "questionText": "设线性方程组\n\n$\\left\\{\\begin{matrix}x_{1}+x_{2}+x_{3}=0\\\\ x_{1}+2x_{2}+ax_{3}=0\\\\ x_{1}+4x_{2}+a^{2}x_{3}=0\\end{matrix}\\right.$\n\n与方程\n\n$x_{1}+2x_{2}+x_{3}=a-1$\n\n有公共解，求 $a$ 的值及所有公共解。",
+   "answerText": "答案：$a=1$ 时公共解为 $x=k(1,0,-1)^{T}$；$a=2$ 时公共解为 $x=(0,1,-1)^{T}$（$k$ 为任意常数）。\n\n**解析：** 把齐次方程组与方程 $x_{1}+2x_{2}+x_{3}=a-1$ 联立。齐次部分系数行列式为范德蒙德型：\n$$\n\\begin{vmatrix}1&1&1\\\\1&2&a\\\\1&4&a^{2}\\end{vmatrix}=(2-1)(a-1)(a-2)=(a-1)(a-2).\n$$\n若 $(a-1)(a-2)\\ne0$，齐次方程组只有零解，代入第四次方程得 $0=a-1$，矛盾。故只能 $a=1$ 或 $a=2$。\n**$a=1$：** 齐次组的三个方程同为 $x_{1}+x_{2}+x_{3}=0$，联立 $x_{1}+2x_{2}+x_{3}=0$，解得 $x_{2}=0$，$x_{1}=-x_{3}$，公共解为\n$$\nx=k\\,(1,0,-1)^{T}\\qquad(k\\ \\text{为任意常数}).\n$$\n**$a=2$：** 由前两个方程相减得 $x_{2}+x_{3}=0$，第三个方程减第一个方程亦得同解，故 $x_{1}=0,\\ x_{2}=-x_{3}$。代入 $x_{1}+2x_{2}+x_{3}=1$：$-x_{3}=1$，即 $x_{3}=-1$，$x_{2}=1$，公共解为\n$$\nx=(0,1,-1)^{T}.\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
@@ -832,10 +855,11 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.common_same_solution",
-    "la.knowledge.matrix_transpose"
+    "la.knowledge.nonhomogeneous_solvability",
+    "la.knowledge.general_solution"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -854,16 +878,20 @@
    "number": 24,
    "title": "2007 年数学二 第 24 题",
    "questionText": "设 3 阶实对称矩阵 $\\boldsymbol{A}$ 的特征值 $\\lambda_{1}=1,\\lambda_{2}=2,\\lambda_{3}=-2$，$\\boldsymbol{\\alpha}_{1}=\\left(1,-1,1\\right)^{T}$ 是 $\\boldsymbol{A}$ 的属于 $\\lambda_{1}$ 的一个特征向量。记 $\\boldsymbol{B}=\\boldsymbol{A}^{5}-4\\boldsymbol{A}^{3}+\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 为 3 阶单位矩阵。\n（Ⅰ）验证 $\\boldsymbol{\\alpha}_{1}$ 是矩阵 $\\boldsymbol{B}$ 的特征向量，并求 $\\boldsymbol{B}$ 的全部特征值与特征向量；\n\n（Ⅱ）求矩阵 $\\boldsymbol{B}$。\n\n**解析：**\n\n（Ⅰ）因 $\\boldsymbol{A}\\boldsymbol{\\alpha}_{1}=\\boldsymbol{\\alpha}_{1}$，所以 $\\boldsymbol{A}^{k}\\boldsymbol{\\alpha}_{1}=\\boldsymbol{\\alpha}_{1}$。于是\n\n$\\boldsymbol{B}\\boldsymbol{\\alpha}_{1}=\\left(\\boldsymbol{A}^{5}-4\\boldsymbol{A}^{3}+\\boldsymbol{E}\\right)\\boldsymbol{\\alpha}_{1}=-2\\boldsymbol{\\alpha}_{1}$。\n\n故 $\\boldsymbol{\\alpha}_{1}$ 是 $\\boldsymbol{B}$ 的特征向量，对应特征值为 $-2$。\n\n设 $p\\left(\\lambda\\right)=\\lambda^{5}-4\\lambda^{3}+1$，则 $\\boldsymbol{B}=p\\left(\\boldsymbol{A}\\right)$。由 $p\\left(1\\right)=-2,\\ p\\left(2\\right)=1,\\ p\\left(-2\\right)=1$，得 $\\boldsymbol{B}$ 的全部特征值为 $-2,1,1$。\n\n属于 $-2$ 的全部特征向量为\n\n$k_{1}\\left(1,-1,1\\right)^{T},\\quad k_{1}\\ne 0$。\n\n属于 $1$ 的特征向量与 $\\boldsymbol{\\alpha}_{1}$ 正交，故满足 $x_{1}-x_{2}+x_{3}=0$，其全部特征向量为\n\n$k_{2}\\left(-1,0,1\\right)^{T}+k_{3}\\left(1,1,0\\right)^{T}$，\n\n其中 $k_{2},k_{3}$ 不同时为零。\n\n（Ⅱ）取\n\n$\\boldsymbol{P}=\\left(\\begin{matrix}1 & -1 & 1\\\\ -1 & 0 & 1\\\\ 1 & 1 & 0\\end{matrix}\\right)$，\n\n则 $\\boldsymbol{P}^{-1}\\boldsymbol{B}\\boldsymbol{P}=\\operatorname{diag}\\left(-2,1,1\\right)$。计算得\n\n$\\boldsymbol{B}=\\left(\\begin{matrix}0 & 1 & -1\\\\ 1 & 0 & 1\\\\ -1 & 1 & 0\\end{matrix}\\right)$。",
-   "answerText": "**解析：**\n（Ⅰ）因 $\\boldsymbol{A}\\boldsymbol{\\alpha}_{1}=\\boldsymbol{\\alpha}_{1}$，所以 $\\boldsymbol{A}^{k}\\boldsymbol{\\alpha}_{1}=\\boldsymbol{\\alpha}_{1}$。于是\n\n$\\boldsymbol{B}\\boldsymbol{\\alpha}_{1}=\\left(\\boldsymbol{A}^{5}-4\\boldsymbol{A}^{3}+\\boldsymbol{E}\\right)\\boldsymbol{\\alpha}_{1}=-2\\boldsymbol{\\alpha}_{1}$。\n\n故 $\\boldsymbol{\\alpha}_{1}$ 是 $\\boldsymbol{B}$ 的特征向量，对应特征值为 $-2$。\n\n设 $p\\left(\\lambda\\right)=\\lambda^{5}-4\\lambda^{3}+1$，则 $\\boldsymbol{B}=p\\left(\\boldsymbol{A}\\right)$。由 $p\\left(1\\right)=-2,\\ p\\left(2\\right)=1,\\ p\\left(-2\\right)=1$，得 $\\boldsymbol{B}$ 的全部特征值为 $-2,1,1$。\n\n属于 $-2$ 的全部特征向量为\n\n$k_{1}\\left(1,-1,1\\right)^{T},\\quad k_{1}\\ne 0$。\n\n属于 $1$ 的特征向量与 $\\boldsymbol{\\alpha}_{1}$ 正交，故满足 $x_{1}-x_{2}+x_{3}=0$，其全部特征向量为\n\n$k_{2}\\left(-1,0,1\\right)^{T}+k_{3}\\left(1,1,0\\right)^{T}$，\n\n其中 $k_{2},k_{3}$ 不同时为零。\n\n（Ⅱ）取\n\n$\\boldsymbol{P}=\\left(\\begin{matrix}1 & -1 & 1\\\\ -1 & 0 & 1\\\\ 1 & 1 & 0\\end{matrix}\\right)$，\n\n则 $\\boldsymbol{P}^{-1}\\boldsymbol{B}\\boldsymbol{P}=\\operatorname{diag}\\left(-2,1,1\\right)$。计算得\n\n$\\boldsymbol{B}=\\left(\\begin{matrix}0 & 1 & -1\\\\ 1 & 0 & 1\\\\ -1 & 1 & 0\\end{matrix}\\right)$。",
+   "answerText": "答案：（Ⅰ）$\\boldsymbol{B}$ 的特征值为 $-2,1,1$；属于 $-2$ 的特征向量为 $k_{1}(1,-1,1)^{T}$（$k_{1}\\ne0$），属于 $1$ 的特征向量为 $k_{2}(-1,0,1)^{T}+k_{3}(1,1,0)^{T}$（$k_{2},k_{3}$ 不同时为零）；（Ⅱ）$\\boldsymbol{B}=\\begin{pmatrix}0&1&-1\\\\1&0&1\\\\-1&1&0\\end{pmatrix}$。\n\n**解析：**\n（Ⅰ）由 $A\\alpha_{1}=\\alpha_{1}$ 得 $A^{k}\\alpha_{1}=\\alpha_{1}$，故\n$$\nB\\alpha_{1}=\\left(A^{5}-4A^{3}+E\\right)\\alpha_{1}=(1-4+1)\\alpha_{1}=-2\\alpha_{1},\n$$\n即 $\\alpha_{1}$ 是 $B$ 的属于特征值 $-2$ 的特征向量。\n设 $p(\\lambda)=\\lambda^{5}-4\\lambda^{3}+1$，则 $B=p(A)$。$A$ 的特征值为 $1,2,-2$，对应 $B$ 的特征值为\n$$\np(1)=1-4+1=-2,\\qquad p(2)=32-32+1=1,\\qquad p(-2)=-32+32+1=1 .\n$$\n$A$ 实对称，故 $B$ 也实对称；实对称矩阵属于不同特征值的特征向量正交，故属于 $1$ 的特征向量落在 $\\alpha_{1}$ 的正交补（$x_{1}-x_{2}+x_{3}=0$）内，其基础解系为 $(-1,0,1)^{T},\\ (1,1,0)^{T}$，全部特征向量为 $k_{2}(-1,0,1)^{T}+k_{3}(1,1,0)^{T}$（不同时为零）。\n（Ⅱ）$B$ 可对角化，取 $\\boldsymbol{P}=\\left(\\alpha_{1},(-1,0,1)^{T},(1,1,0)^{T}\\right)=\\begin{pmatrix}1&-1&1\\\\-1&0&1\\\\1&1&0\\end{pmatrix}$，则\n$$\nP^{-1}BP=\\operatorname{diag}(-2,1,1)\\ \\Longrightarrow\\ B=P\\operatorname{diag}(-2,1,1)\\,P^{-1}\n=\\begin{pmatrix}0&1&-1\\\\1&0&1\\\\-1&1&0\\end{pmatrix}.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.eigen_concept",
+    "la.knowledge.similarity_concept",
+    "la.knowledge.real_symmetric_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -874,7 +902,7 @@
     "paper": "math2",
     "number": 24
    },
-   "subjectGuess": "",
+   "subjectGuess": "linear_algebra",
    "section": "三、解答题"
   }
  ]
