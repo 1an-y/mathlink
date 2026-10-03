@@ -245,11 +245,25 @@
   "file": "data/banks/exams/math1/2023.json"
  },
  {
+  "year": 2024,
+  "paper": "math1",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math1/2024.json"
+ },
+ {
   "year": 2025,
   "paper": "math1",
   "total": 8,
   "withAnswer": 5,
   "file": "data/banks/exams/math1/2025.json"
+ },
+ {
+  "year": 2026,
+  "paper": "math1",
+  "total": 22,
+  "withAnswer": 16,
+  "file": "data/banks/exams/math1/2026.json"
  },
  {
   "year": 1987,

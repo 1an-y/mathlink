@@ -1,0 +1,807 @@
+{
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2024,
+ "paper": "math1",
+ "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/m1-2024-paper.md",
+ "paperInfo": {
+  "year": 2024,
+  "paper": "math1",
+  "label": "数学一",
+  "sections": [
+   "选择题",
+   "填空题",
+   "解答题"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-2024.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-2024.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-2024.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-2024.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-2024.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-2024.6",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-2024.7",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-2024.8",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-2024.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-2024.10",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-2024.11",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-2024.12",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-2024.13",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-2024.14",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-2024.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-2024.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-2024.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-2024.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-2024.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-2024.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-2024.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-2024.22",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 22
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-2024.1",
+   "number": 1,
+   "title": "2024 年数学一 第 1 题",
+   "questionText": "已知函数$f(x)=\\int_{0}^{x}\\mathrm{e}^{\\cos t}dt,\\quad g(x)=\\int_{0}^{\\sin x}\\mathrm{e}^{t^2}dt$ ，则\n\n(A)$f(x)$ 为奇函数，$g(x)$ 为偶函数.（B)$f(x)$ 为偶函数，$g(x)$ 为奇函数.\n\n(C)$f(x)$ 与$g(x)$ 均为奇函数.（D)$f(x)$ 与$g(x)$ 均为偶函数.",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.2",
+   "number": 2,
+   "title": "2024 年数学一 第 2 题",
+   "questionText": "设$P=P(x,y,z),Q=Q(x,y,z)$ 均为连续函数，Σ为曲面$z=\\sqrt{1-x^{2}-y^{2}}\\quad(x\\geqslant0,y\\geqslant0)$ 的上侧，则$\\iint_{\\Sigma}P\\mathrm{d}y\\mathrm{d}z+Q\\mathrm{d}z\\mathrm{d}x=$\n\n(A)$\\iint_{\\Sigma}\\left(\\frac{x}{z}P+\\frac{y}{z}Q\\right)\\mathrm{d}x\\mathrm{d}y$ (B)$\\iint_{\\Sigma}\\left(-\\frac{x}{z}P+\\frac{y}{z}Q\\right)\\mathrm{d}x\\mathrm{d}y$\n\n(C)$\\iint_{\\Sigma}\\left(\\frac{x}{z}P-\\frac{y}{z}Q\\right)\\mathrm{d}x\\mathrm{d}y$ (D)$\\iint_{\\Sigma}\\left(-\\frac{x}{z}P-\\frac{y}{z}Q\\right)\\mathrm{d}x\\mathrm{d}y$",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "geometric_applications_multivariable",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.3",
+   "number": 3,
+   "title": "2024 年数学一 第 3 题",
+   "questionText": "已知幂函数$\\sum_{n=0}^{\\infty}a_{n}x^{n}$ 的和函数为$\\ln(2+x)$ ，则$\\sum_{n=0}^{\\infty}na_{2n}=$\n\n(A)$-\\frac{1}{6}.$ (B)$-\\frac{1}{3}.$ (C)$\\frac{1}{6}.$ (D)$\\frac{1}{3}.$",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.4",
+   "number": 4,
+   "title": "2024 年数学一 第 4 题",
+   "questionText": "设函数$f(x)$ 在区间$(-1,1)$ 内有定义，$\\lim_{x\\to0}f(x)=0$ ，则\n\n(A)当$\\lim_{x\\to0}\\frac{f(x)}{x}=m$ 时，$f^{\\prime}(0)=m$\n\n(B)当$f^{\\prime}(0)=m$ 时，$\\lim_{x\\to0}\\frac{f(x)}{x}=m$\n\n(C)当$\\lim_{x\\to0}f'(x)=m$ 时，$f^{\\prime}(0)=m$\n\n(D)当$f^{\\prime}(0)=m$ 时，$\\lim_{x\\to0}f'(x)=m$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.5",
+   "number": 5,
+   "title": "2024 年数学一 第 5 题",
+   "questionText": "在空间直角坐标系$O-xyz$ 中，三张平面$\\pi_{i}:a_{i}x+b_{i}y+c_{i}z=d_{i}$\n\n$(i=1,2,3)$ 位置关系如图所示，记$\\boldsymbol{a}_{i}=(a_{i},b_{i},c_{i}),\\boldsymbol{\\beta}_{i}=(a_{i},b_{i},c_{i},d_{i})$\n\n若$r\\left(\\begin{aligned}\\boldsymbol{\\alpha}_{1}\\\\ \\boldsymbol{\\alpha}_{2}\\\\ \\boldsymbol{\\alpha}_{3}\\end{aligned}\\right)=m,r\\left(\\begin{aligned}\\boldsymbol{\\beta}_{1}\\\\ \\boldsymbol{\\beta}_{2}\\\\ \\boldsymbol{\\beta}_{3}\\end{aligned}\\right)=n$ ，则\n\n$$\\pi_{3}$$\n\n$$\\pi_{2}$$\n\n(A)$m=1,n=2$ (B)$m=n=2$\n\n(C)$m=2,n=3$ (D)$m=n=3$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.basis_dimension_coordinates"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.6",
+   "number": 6,
+   "title": "2024 年数学一 第 6 题",
+   "questionText": "设向量$\\alpha_{1}=\\begin{pmatrix}a\\\\ 1\\\\ -1\\\\ 1\\end{pmatrix},\\quad\\alpha_{2}=\\begin{pmatrix}1\\\\ 1\\\\ b\\\\ a\\end{pmatrix},\\quad\\alpha_{3}=\\begin{pmatrix}1\\\\ a\\\\ -1\\\\ 1\\end{pmatrix}$ ，若$\\alpha_{1}$ ,$\\alpha_{2}$ ,$\\alpha_{3}$ 线性相关，且其中任意\n\n两个向量均线性无关，则\n\n(A)$a=1,b\\neq-1$ (B)$a=1,b=-1$ (C)$a\\ne-2,b=2$ (D)$a=-2,b=2$",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.linear_correlation",
+    "la.knowledge.vector_concept"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.7",
+   "number": 7,
+   "title": "2024 年数学一 第 7 题",
+   "questionText": "设A是秩为2的3阶矩阵，a是满足$A\\alpha=0$ 、的非零向量，若对满足.$\\boldsymbol{\\beta}^{\\mathrm{T}}\\boldsymbol{\\alpha}=\\boldsymbol{0}$ 的任意向量$\\beta$ ，均有$A\\boldsymbol{\\beta}=\\boldsymbol{\\beta}$ 。，则\n\n(A)$\\mathcal{A}^{3}$ 的迹为2.(B)$\\mathcal{A}^{3}$ 的迹为5.(C)$\\mathcal{A}^{5}$ 的迹为7.（D）$\\mathcal{A}^{5}$ 的迹为9.",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.8",
+   "number": 8,
+   "title": "2024 年数学一 第 8 题",
+   "questionText": "设随机变量X与Y相互独立，X是服从$N(0,2)$ 的正态分布，Y是服从$N(-2,2)$ 的正态分布，若$P\\left\\{2X+Y<a\\right\\}=P\\left\\{X>Y\\right\\}$ ，则$a=$\n\n(A)$-2-\\sqrt{10}$ (B)$-2+\\sqrt{10}$ (C)$-2-\\sqrt{6}$ (D)$-2+\\sqrt{6}$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.normal_distribution",
+    "prob.knowledge.random_variables_independence",
+    "prob.knowledge.functions_of_random_variables"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.9",
+   "number": 9,
+   "title": "2024 年数学一 第 9 题",
+   "questionText": "设随机变量X的概率密度为$\\mathrm{if}(\\mathrm{x})=\\left\\{\\begin{aligned}&2(1-\\mathrm{x}),&&0<\\mathrm{x}<1\\\\ &0,&& 其他 \\end{aligned}\\right.$ ，在$X=\\mathbf{x}$ 的条件下，Y在区间（x,1）上服从均匀分布，则$\\mathrm{cov}(\\mathrm{X},\\mathrm{Y})=$\n\n(A)$-\\frac{1}{36}$\n\n(B)$-\\frac{1}{72}$\n\n(C)$\\frac{1}{72}$\n\n(D)$\\frac{1}{36}$",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.10",
+   "number": 10,
+   "title": "2024 年数学一 第 10 题",
+   "questionText": "设随机变量X和Y相互独立，且都服从参数为的指数分布，令$Z=\\left|X-Y\\right|$ ，则下列与Z服从同一分布的是\n\n(A)$X+Y$ (B)$\\frac{X+Y}{2}$ (C) 2X (D)X",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2024.11",
+   "number": 11,
+   "title": "2024 年数学一 第 11 题",
+   "questionText": "若$\\lim_{x\\to0}\\frac{\\left(1+ax^{2}\\right)^{\\sin x}-1}{x^{3}}=6$ ，则$a=$",
+   "answerText": "6",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2024.12",
+   "number": 12,
+   "title": "2024 年数学一 第 12 题",
+   "questionText": "$z=f(u,v)$ 有二阶连续导数，$\\left.\\mathrm{d}f\\right|_{(1,1)}=3\\mathrm{d}u+4\\mathrm{d}v,\\;y=f(\\cos x,1+x^{2})$ ,则$\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\bigg|_{x=0}=$",
+   "answerText": "5",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2024.13",
+   "number": 13,
+   "title": "2024 年数学一 第 13 题",
+   "questionText": "若函数$f(x)=x+1$ ,若$f(x)=\\frac{a_{0}}{2}+\\sum_{n=1}^{\\infty}a_{n}\\cos nx$ $x\\in[0,\\pi]$ ，则极限\n\n$\\lim_{n\\to\\infty}n^2\\sin a_{2n-1}$",
+   "answerText": "$-\\frac{1}{\\pi}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2024.14",
+   "number": 14,
+   "title": "2024 年数学一 第 14 题",
+   "questionText": "微分方程$y^{\\prime}=\\frac{1}{(x+y)^{2}}$ ，满足条件$y(1)=0$ 的解为",
+   "answerText": "$x=\\tan(y+\\frac{\\pi}{4})-y$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2024.15",
+   "number": 15,
+   "title": "2024 年数学一 第 15 题",
+   "questionText": "设实矩阵$A=\\begin{pmatrix}a+1&a\\\\ a&a\\end{pmatrix}$ ，若对任意实向量$\\boldsymbol{\\alpha}=\\begin{pmatrix}x_{1}\\\\ x_{2}\\end{pmatrix},\\boldsymbol{\\beta}=\\begin{pmatrix}y_{1}\\\\ y_{2}\\end{pmatrix}$\n\n$\\left(\\boldsymbol{a}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{\\beta}\\right)^{2}\\leqslant\\boldsymbol{a}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{a}\\boldsymbol{\\beta}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{\\beta}$ 都成立，则a的取值范围",
+   "answerText": "$a\\geqslant0$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_linear_operation"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2024.16",
+   "number": 16,
+   "title": "2024 年数学一 第 16 题",
+   "questionText": "随机试验每次成功的概率为p，现进行三次独立重复实验，已知至少成功一次的条件下全部成功的概率为$\\frac{4}{13}$ ，则$\\mathrm{p}^{=}$",
+   "answerText": "$\\frac{2}{3}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2024.17",
+   "number": 17,
+   "title": "2024 年数学一 第 17 题",
+   "questionText": "（本题满分10分）已知平面区域$D=\\left\\{(x,y)\\middle|\\sqrt{1-y^2}\\leq x\\leq1,-1\\leq y\\leq1\\right\\}$ ,计算\n\n$\\iint_{D}\\frac{x}{\\sqrt{x^{2}+y^{2}}}d\\sigma$",
+   "answerText": "$\\sqrt{2}+\\ln(1+\\sqrt{2})-2$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multiple_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2024.18",
+   "number": 18,
+   "title": "2024 年数学一 第 18 题",
+   "questionText": "（本题满分12分）设$f(x,y)=x^{3}+y^{3}-(x+y)^{2}+3$ ，曲面$z=f(x,y)$ 在(1,1,1)处的切平面为T，T与三个坐标面所围有界区域在xoy面的投影为D\n\n(1)求T的方程\n\n(2）求$f(x,y)$ 在D上的最大值和最小值",
+   "answerText": "切平$x+y+z=3$ ；最大值21，最小值$\\frac{17}{27}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_angle_projection",
+    "geometric_applications_multivariable"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2024.19",
+   "number": 19,
+   "title": "2024 年数学一 第 19 题",
+   "questionText": "设$f(x)$ 二阶可导，$f^{\\prime}(0)=f^{\\prime}(0),\\left|f^{\\prime\\prime}(x)\\right|\\leq1$ ，证：\n\n1）\n\n$$\\left|f(x)-f(0)(1-x)-f(1)x\\right|\\leq\\frac{x(1-x)}{2}.$$\n\n2）\n\n$$\\left|\\int_{0}^{1}f(x)dx-\\frac{f(0)+f(1)}{2}\\right|\\leq\\frac{1}{12}$$",
+   "answerText": "1)泰勒公式",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2024.20",
+   "number": 20,
+   "title": "2024 年数学一 第 20 题",
+   "questionText": "（本题满分12分）已知有向曲线L为球面$x^{2}+y^{2}+z^{2}=2x$ 与平面$2x-z-1=0$ 的交线从z轴正向往z轴负向看去为逆时针方向，计算曲线积分\n\n$$\\int_{L}\\left(6xyz-yz^{2}\\right)\\mathrm{d}x+2x^{2}z\\mathrm{d}y+xyz\\mathrm{d}z $$",
+   "answerText": "$\\frac{4\\pi}{5\\sqrt{5}}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2024.21",
+   "number": 21,
+   "title": "2024 年数学一 第 21 题",
+   "questionText": "（本题满分12分）已知数列$\\{x_{n}\\},\\{y_{n}\\},\\{z_{n}\\}$ 满足$x_{0}=-1,y_{0}=0,z_{0}=2,$ ,且\n\n$\\left\\{\\begin{aligned}x_{n}&=-2x_{n-1}+2z_{n-1}\\\\ y_{n}&=-2y_{n-1}-2z_{n-1}\\\\ z_{n}&=-6x_{n-1}-3y_{n-1}+3z_{n-1}\\end{aligned}\\right.$ ，记$\\alpha_{n}=\\begin{cases}x_{n}\\\\y_{n}\\\\z_{n}\\end{cases}$ ，写出满足$\\alpha_{n}=A\\alpha_{n-1}$ 的矩阵A，并求$A^{n}$ 及\n\n$$x_{n},y_{n},z_{n}(n=1,2,\\cdots).$$",
+   "answerText": "$$A=\\begin{pmatrix}-2&0&2\\\\0&-2&-2\\\\-6&-3&3\\end{pmatrix},\\quad A^{n}=\\begin{pmatrix}-4+(-1)^{n+1}2^{n}&-2+(-1)^{n+1}2^{n}&2\\\\4+(-1)^{n}2^{n+1}&2+(-1)^{n}2^{n+1}&-2\\\\-6&-3&3\\end{pmatrix},$$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2024.22",
+   "number": 22,
+   "title": "2024 年数学一 第 22 题",
+   "questionText": "（本题满分12分）设总体$X\\sim U(0,\\theta)$ ，未知，$X_{1},X_{2}\\cdots X_{n}$ 为简单随机样本，\n\n$X_{(n)}=\\max(X_1,X_2\\cdots X_n),T_c=cX_{(n)}$\n\n(1)求c时，使得$T_{c}$ 为θ的无偏估计.\n\n（2）记$h(c)=E(T_c-\\theta)^2$ ，求c使得$h(c)$ 取最小值.",
+   "answerText": "(1)$c=\\frac{n+1}{n}$ ;（2)$c=\\frac{n+2}{n+1}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.mathematical_statistics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.population_and_sample"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2024,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "解答题"
+  }
+ ],
+ "notes": ""
+}
