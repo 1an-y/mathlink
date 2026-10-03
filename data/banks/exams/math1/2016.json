@@ -327,10 +327,10 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.standard_form",
-    "quadric_surface_equations"
+    "la.knowledge.orthogonal_standard_form"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；审计修复：原打标 quadric_surface_equations 不属线代 taxonomy，已改为 la.knowledge.orthogonal_standard_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

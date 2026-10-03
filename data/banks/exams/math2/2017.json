@@ -234,11 +234,11 @@
       "primaryProblemTypeId": "sequence_limit",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
-        "sequence_limit",
+        "limit_operations",
         "monotonicity"
       ],
       "methodIds": [],
-      "notes": "已校对",
+      "notes": "已校对；审计修复：原打标 sequence_limit 不存在，已改为 limit_operations",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",

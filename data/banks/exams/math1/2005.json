@@ -354,11 +354,11 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "prob.knowledge.functions_of_random_variables",
+    "limit_operations",
     "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；审计修复：原打标 prob.knowledge.functions_of_random_variables 与题面科目不符（本题属高等数学），已改为 limit_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -677,10 +677,10 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "inverse_derivative",
-    "piecewise_derivative"
+    "differentiability_continuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；审计修复：原打标 piecewise_derivative 不存在，已改为 differentiability_continuity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -680,13 +680,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "taylor_formula",
+   "primaryProblemTypeId": "limit_proof",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "taylor_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；审计修复：原打标 taylor_formula 不存在，已改为 limit_proof",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
