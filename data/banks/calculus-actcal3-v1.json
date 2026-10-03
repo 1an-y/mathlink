@@ -2252,6 +2252,283 @@
         "section": "§12.9 参数曲面与第一类曲面积分",
         "license": "CC BY-SA 4.0"
       }
+    },
+    {
+      "id": "bank.cal.ac3.81",
+      "title": "二元函数连续点集的判定",
+      "questionText": "利用连续性的性质，指出下列函数的连续点集合并说明理由：\n（1）$f(x,y) = \\dfrac{x+2y}{x-y}$；\n（2）$g(x,y) = \\dfrac{\\sin x}{1+e^y}$；\n（3）$h(x,y) = \\begin{cases} \\dfrac{xy}{x^2+y^2}, & (x,y) \\neq (0,0) \\\\ 0, & (x,y) = (0,0) \\end{cases}$\n（4）$k(x,y) = \\begin{cases} \\dfrac{x^2y^4}{x^2+y^2}, & (x,y) \\neq (0,0) \\\\ 0, & (x,y) = (0,0) \\end{cases}$",
+      "answerText": "（1）分母为零处无定义：连续点集为 $\\{(x,y): x\\neq y\\}$。在 $x=y$ 上函数无定义，故不连续。\n（2）分母 $1+e^y\\ge1$ 恒正，分子分母处处连续，故 $g$ 在全平面 $\\mathbb{R}^2$ 连续。\n（3）在 $(x,y)\\neq(0,0)$ 处连续。在 $(0,0)$：沿直线 $y=kx$，$\\dfrac{xy}{x^2+y^2}\\to\\dfrac{k}{1+k^2}$ 随 $k$ 变化，极限不存在，故 $h$ 在 $(0,0)$ 不连续。连续点集为 $\\mathbb{R}^2\\setminus\\{(0,0)\\}$。\n（4）在 $(x,y)\\neq(0,0)$ 处连续。在 $(0,0)$：由 $x^2\\le x^2+y^2$，$y^4\\le (x^2+y^2)^2$，得 $$0\\le\\left|\\frac{x^2y^4}{x^2+y^2}\\right|\\le\\frac{(x^2+y^2)\\cdot(x^2+y^2)^2}{x^2+y^2}=(x^2+y^2)^2\\to0$$ 故 $\\lim_{(x,y)\\to(0,0)}k(x,y)=0=f(0,0)$，$k$ 在 $(0,0)$ 连续，连续点集为全平面。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "limit_existence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "multivariable_limit_continuity"
+      ],
+      "methodIds": [
+        "squeeze_theorem"
+      ],
+      "notes": "译自 Active Calculus Multivariable §10.3 习题（ez-S_mv_limits）。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.3 多元函数的极限",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.82",
+      "title": "可微必连续的证明",
+      "questionText": "设 $f(x,y)$ 在点 $(x_0,y_0)$ 处可微，即 $$f(x_0+h,\\,y_0+k)-f(x_0,y_0)=f_x(x_0,y_0)h+f_y(x_0,y_0)k+\\varepsilon(h,k)\\sqrt{h^2+k^2}$$ 其中 $\\lim_{(h,k)\\to(0,0)}\\varepsilon(h,k)=0$。证明 $f$ 在 $(x_0,y_0)$ 处连续。",
+      "answerText": "在可微表达式中令 $(h,k)\\to(0,0)$：右边第一项 $f_x\\,h\\to0$，第二项 $f_y\\,k\\to0$，第三项 $$\\left|\\varepsilon(h,k)\\sqrt{h^2+k^2}\\right|\\le\\left(|\\varepsilon(h,k)|\\right)\\cdot\\sqrt{h^2+k^2}\\to0\\cdot0=0$$ （等价地，按原书提示：把等式两边同乘 $\\lim_{(h,k)\\to(0,0)}\\sqrt{h^2+k^2}$ 之前的因子并直接估计，相对误差项与 $\\sqrt{h^2+k^2}$ 之积趋于零。）故 $$\\lim_{(h,k)\\to(0,0)}\\left[f(x_0+h,y_0+k)-f(x_0,y_0)\\right]=0$$ 即 $\\lim_{(x,y)\\to(x_0,y_0)}f(x,y)=f(x_0,y_0)$，$f$ 在 $(x_0,y_0)$ 连续。证毕。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "continuity_partial_differentiability",
+        "total_differential"
+      ],
+      "methodIds": [
+        "definition"
+      ],
+      "notes": "译自 Active Calculus Multivariable §10.6 习题（ez-S_mv_Linearization）。证明为项目自写。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.6 线性化与全微分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.83",
+      "title": "金属板温度的二阶偏导数",
+      "questionText": "第一象限内一块受热金属板的温度为 $C(x,y) = 25e^{-(x-1)^2 - (y-1)^3}$（摄氏度，$x,y$ 以英寸计）。求 $C_{xx}(x,y)$、$C_{yy}(x,y)$ 与 $C_{xy}(x,y)$，并计算 $C_{xx}(1.1,\\,1.2)$、$C_{yy}(1.1,\\,1.2)$、$C_{xy}(1.1,\\,1.2)$ 的值。",
+      "answerText": "记 $E=e^{-(x-1)^2-(y-1)^3}$。先求一阶偏导：$C_x=-50(x-1)E$，$C_y=-75(y-1)^2E$。再求二阶偏导（乘积法则）：\n$$C_{xx}=-50E+50(x-1)\\cdot2(x-1)E=25E\\left[4(x-1)^2-2\\right]$$\n$$C_{yy}=-75\\left[2(y-1)E+(y-1)^2\\cdot(-3(y-1)^2)E\\right]=75E\\left[3(y-1)^4-2(y-1)\\right]$$\n$$C_{xy}=-50(x-1)\\cdot\\left(-3(y-1)^2\\right)E=150(x-1)(y-1)^2E$$\n在 $(1.1,\\,1.2)$ 处 $E=e^{-0.01-0.008}=e^{-0.018}$：\n$C_{xx}=25e^{-0.018}(0.04-2)\\approx-48.13$；$C_{yy}=75e^{-0.018}(0.0048-0.2)\\approx-29.11$；$C_{xy}=150\\times0.1\\times0.04\\times e^{-0.018}\\approx0.589$。（数值经差分脚本复核一致。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §10.5 习题（ez-S_mv_secondpartials 任务组）；原题的解释性文字子问未收录。答案为项目自算（解析与差分双重复核）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.5 高阶偏导数",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.84",
+      "title": "动能函数的二阶偏导数",
+      "questionText": "设 $f(x,y) = \\frac{1}{2}xy^2$ 表示质量 $x$（千克）、速度 $y$（米/秒）的物体的动能（焦耳）。在点 $(a,b)=(4,5)$ 处计算 $\\dfrac{\\partial^2 f}{\\partial x^2}$、$\\dfrac{\\partial^2 f}{\\partial y^2}$、$\\dfrac{\\partial^2 f}{\\partial y\\,\\partial x}$ 与 $\\dfrac{\\partial^2 f}{\\partial x\\,\\partial y}$，并说明所得混合偏导数相等的结论与哪个定理一致。",
+      "answerText": "一阶偏导：$f_x=\\frac12y^2$，$f_y=xy$。二阶偏导：$$\\frac{\\partial^2 f}{\\partial x^2}=0,\\qquad \\frac{\\partial^2 f}{\\partial y^2}=x,\\qquad \\frac{\\partial^2 f}{\\partial y\\,\\partial x}=y,\\qquad \\frac{\\partial^2 f}{\\partial x\\,\\partial y}=y$$ 在 $(4,5)$ 处：$\\frac{\\partial^2 f}{\\partial x^2}=0$，$\\frac{\\partial^2 f}{\\partial y^2}=4$，两个混合偏导都等于 $5$。混合偏导相等与 Clairaut（施瓦兹）定理一致：$f$ 的二阶混合偏导在包含定义域的开集上连续，故求导次序可交换。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "partial_derivative_existence"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §10.5 习题（ez-S_mv_secondpartials 任务组）；解释性文字子问改为与定理联系的提问。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.5 高阶偏导数",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.85",
+      "title": "由梯度判断指定方向的单调性",
+      "questionText": "设 $f$ 在点 $P$ 处可微，且 $\\nabla f_P =\\langle 2,-4,4\\rangle$。问 $f$ 在 $P$ 处沿方向 $\\vec{u}=\\langle2,1,3\\rangle$ 是增加还是减少？变化率是多少？",
+      "answerText": "方向导数 $D_{\\vec{u}}f(P)=\\nabla f_P\\cdot\\dfrac{\\vec{u}}{|\\vec{u}|}$，其中 $|\\vec{u}|=\\sqrt{4+1+9}=\\sqrt{14}$。$$D_{\\vec{u}}f(P)=\\frac{2\\times2+(-4)\\times1+4\\times3}{\\sqrt{14}}=\\frac{12}{\\sqrt{14}}\\approx3.21>0$$ 故 $f$ 在 $P$ 处沿 $\\vec{u}$ 方向增加，瞬时变化率约为 $3.21$（每单位距离）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "directional_derivative_gradient",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "directional_derivative_gradient"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable Higher Dimensions 节习题（ez-S_mv_HD）。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§10.8 方向导数与梯度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.86",
+      "title": "散度为零的向量场（无源场）",
+      "questionText": "设 $\\vec{F}=\\langle F_1,F_2,F_3\\rangle$，定义 $$\\vec{G} = \\left(\\frac{\\partial F_3}{\\partial y}-\\frac{\\partial F_2}{\\partial z}\\right)\\vec{i}- \\left(\\frac{\\partial F_3}{\\partial x}-\\frac{\\partial F_1}{\\partial z}\\right)\\vec{j} + \\left(\\frac{\\partial F_2}{\\partial x}-\\frac{\\partial F_1}{\\partial y}\\right)\\vec{k}$$ （即 $\\vec{G}=\\operatorname{curl}\\vec{F}$。）\n（1）证明 $\\operatorname{div}(\\vec{G})=\\vec{0}$，即旋度场无源；\n（2）判断下列向量场是否无源（散度恒为零）：$\\langle -y,z,x\\rangle$；$\\nabla f$（$f$ 为三元数量函数）。",
+      "answerText": "（1）$$\\operatorname{div}\\vec{G}=\\frac{\\partial}{\\partial x}\\left(\\frac{\\partial F_3}{\\partial y}-\\frac{\\partial F_2}{\\partial z}\\right)-\\frac{\\partial}{\\partial y}\\left(\\frac{\\partial F_3}{\\partial x}-\\frac{\\partial F_1}{\\partial z}\\right)+\\frac{\\partial}{\\partial z}\\left(\\frac{\\partial F_2}{\\partial x}-\\frac{\\partial F_1}{\\partial y}\\right)$$ 假设 $F$ 的各二阶混合偏导连续（求导次序可交换），六项两两相消：$\\frac{\\partial^2F_3}{\\partial x\\partial y}-\\frac{\\partial^2F_3}{\\partial y\\partial x}=0$ 等，故 $\\operatorname{div}(\\operatorname{curl}\\vec{F})=0$。证毕。\n（2）$\\langle -y,z,x\\rangle$：$\\operatorname{div}=\\frac{\\partial(-y)}{\\partial x}+\\frac{\\partial z}{\\partial y}+\\frac{\\partial x}{\\partial z}=0+0+0=0$，无源；$\\nabla f$：$\\operatorname{div}(\\nabla f)=f_{xx}+f_{yy}+f_{zz}$ 一般不为零（如 $f=x^2$ 时为 2），故梯度场一般**不是**无源场。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "divergence_and_curl"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §12.6 习题（ez-S_Vector_Div）。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.6 散度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.87",
+      "title": "旋度恒为常向量的向量场",
+      "questionText": "设 $\\vec{F}=f(x)\\,\\vec{i}+g(y)\\,\\vec{k}+\\vec{j}+h(z)\\,\\vec{j}$，即 $\\vec{F}=\\langle f(x),\\ 1+h(z),\\ g(y)\\rangle$。求 $\\operatorname{curl}\\vec{F}$，并给出一个使 $\\operatorname{curl}\\vec{F}$ 处处为零的分量函数条件。",
+      "answerText": "$$\\operatorname{curl}\\vec{F}=\\left(\\frac{\\partial g(y)}{\\partial y}-\\frac{\\partial(1+h(z))}{\\partial z},\\ \\frac{\\partial f(x)}{\\partial z}-\\frac{\\partial g(y)}{\\partial x},\\ \\frac{\\partial(1+h(z))}{\\partial x}-\\frac{\\partial f(x)}{\\partial y}\\right)=\\left(g'(y)-h'(z),\\ 0,\\ 0\\right)$$ 要使 $\\operatorname{curl}\\vec{F}\\equiv\\vec{0}$，需 $g'(y)=h'(z)$ 对一切 $y,z$ 成立，而左边只依赖 $y$、右边只依赖 $z$，故二者必为同一常数 $c$，即 $g(y)=cy+A$，$h(z)=cz+B$（$A,B$ 为常数）。此时 $\\vec{F}=\\langle f(x),\\ 1+cz+B,\\ cy+A\\rangle$ 无旋。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "line_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "divergence_and_curl"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §12.7 习题（ez-S_Vector_Curl / ez-S_Vector_Div 同组题）。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.7 旋度",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.88",
+      "title": "环面自相交曲线的参数化",
+      "questionText": "在下列两曲面的交线中，给出 $\\mathbb{R}^3$ 中参数曲线的描述：\n（1）球面 $x^2+y^2+z^2=2$ 与锥面 $z=\\sqrt{x^2+y^2}$；\n（2）抛物面 $z=x^2+y^2$ 与平面 $z=4$。",
+      "answerText": "（1）代入：$x^2+y^2+(x^2+y^2)=2$，得 $x^2+y^2=1$，$z=\\sqrt{1}=1$。交线为平面 $z=1$ 上的单位圆，参数化为 $$\\vec{r}(\\theta)=(\\cos\\theta,\\ \\sin\\theta,\\ 1),\\qquad 0\\le\\theta<2\\pi$$\n（2）$x^2+y^2=4$，$z=4$：交线为平面 $z=4$ 上半径 2 的圆，$$\\vec{r}(\\theta)=(2\\cos\\theta,\\ 2\\sin\\theta,\\ 4),\\qquad 0\\le\\theta<2\\pi$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "triple_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "triple_integral_region",
+        "cylindrical_spherical_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §11.7 习题（ez-S_multi_ints_triple_ints_cylsph 同组题）。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.6 三重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.89",
+      "title": "柱坐标与球坐标互换求三重积分",
+      "questionText": "对下列积分：描述积分区域，把它换成柱坐标或球坐标中较易的一种，并求值：\n（1）$\\int_{0}^{\\pi/2} \\int_{0}^{\\pi} \\int_{0}^{1} \\rho^2 \\sin(\\phi) \\, d\\rho \\, d\\phi \\, d\\theta$；\n（2）$\\int_{0}^{2\\pi} \\int_{0}^{1} \\int_{r}^{1} r^2 \\cos(\\theta) \\, dz \\, dr \\, d\\theta$。",
+      "answerText": "（1）已是球坐标：区域为八分之一球（注意此处 $\\varphi\\in[0,\\pi]$，对单位球而言 $\\rho\\sin\\varphi$ 沿 $z$ 轴对称，区域实为半空间 $x\\ge0$ 内的半个单位球），半径 1。$$\\int_0^{\\pi/2}\\!\\!d\\theta\\int_0^{\\pi}\\!\\!\\sin\\varphi\\,d\\varphi\\int_0^1\\!\\!\\rho^2d\\rho=\\frac{\\pi}{2}\\times2\\times\\frac13=\\frac{\\pi}{3}$$\n（2）已是柱坐标：区域为 $0\\le z\\le1$，$0\\le r\\le1$，$0\\le\\theta<2\\pi$，即单位圆柱。被积函数 $r^2\\cos\\theta$：$$\\int_0^{2\\pi}\\cos\\theta\\,d\\theta\\cdot\\int_0^1\\!\\!dr\\int_r^1\\!\\!dz\\;\\text{含}\\;r^2=0\\times(\\cdots)=0$$ 由 $\\theta$ 的对称性，积分恒等于 0。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "triple_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "cylindrical_spherical_coordinates",
+        "triple_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §11.7 习题（ez-S_multi_ints_triple_ints_cylsph 三小问组的后两问）。答案为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§11.6 三重积分",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bank.cal.ac3.90",
+      "title": "第一卦限平面片的面积",
+      "questionText": "求平面 $2x+y+2z=4$ 位于第一卦限内部分的面积。",
+      "answerText": "第一卦限部分是以 $(2,0,0)$、$(0,4,0)$、$(0,0,2)$ 为顶点的三角形。把它看作 $z=\\frac{4-2x-y}{2}$ 在 $D$ 上的图象，$D$ 为 $xy$ 平面上由 $x\\ge0$，$y\\ge0$，$2x+y\\le4$ 围成的三角形。$$\\frac{\\partial z}{\\partial x}=-1,\\qquad \\frac{\\partial z}{\\partial y}=-\\frac12,\\qquad \\sqrt{1+z_x^2+z_y^2}=\\sqrt{1+1+\\frac14}=\\frac{3}{2}$$ $$S=\\iint_D \\frac32\\,dA=\\frac32\\times\\frac12\\times2\\times4=6$$ （校验：利用向量 $\\vec{u}=(2,0,-2)$、$\\vec{v}=(0,4,-2)$，$|\\vec{u}\\times\\vec{v}|=|（8,4,8）|=12$，三角形面积为平行四边形之半 $=6$，一致。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "curve_surface_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "surface_integral_first_kind",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "surface_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 Active Calculus Multivariable §12.9 习题（ez-S_vector_param_surf 同组题）。答案为项目自算（两种方法互验）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Active Calculus materials (Boelkins)",
+        "section": "§12.9 参数曲面与第一类曲面积分",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }
