@@ -2956,6 +2956,767 @@
         "section": "Chapter 5 §2.3",
         "license": "CC BY-SA 3.0"
       }
+    },
+    {
+      "id": "bank.la.hef.sys16",
+      "title": "判断向量是否属于给定集合",
+      "questionText": "判断下列向量是否属于对应集合：\n（1）$\\begin{pmatrix}3\\\\-1\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}-6\\\\2\\end{pmatrix}k \\mid k\\in\\mathbb{R}\\right\\}$；\n（2）$\\begin{pmatrix}5\\\\4\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}5\\\\-4\\end{pmatrix}j \\mid j\\in\\mathbb{R}\\right\\}$；\n（3）$\\begin{pmatrix}2\\\\1\\\\-1\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}0\\\\3\\\\-7\\end{pmatrix}+\\begin{pmatrix}1\\\\-1\\\\3\\end{pmatrix}r \\mid r\\in\\mathbb{R}\\right\\}$；\n（4）$\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}j+\\begin{pmatrix}-3\\\\-1\\\\1\\end{pmatrix}k \\mid j,k\\in\\mathbb{R}\\right\\}$。",
+      "answerText": "（1）属于：$3=-6k$，$-1=2k$ 同解于 $k=-\\frac12$。\n（2）不属于：$5=5j$ 给 $j=1$，而 $4=-4j$ 给 $j=-1$，矛盾。\n（3）属于：第二个分量 $3-r=1$ 给 $r=2$，验证 $0+2=2$，$-7+6=-1$ ✓。\n（4）不属于：由第二分量 $-k=0$ 得 $k=0$，则第三分量 $j=1$，第一分量 $2j=2\\neq1$，矛盾。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.linear_representation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.linear_combination"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 1 §1.2 习题 3；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 1 §1.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.sys17",
+      "title": "参数化一元方程组的解集",
+      "questionText": "写出方程 $x_1+x_2+\\cdots+x_n=0$ 的解集的参数表示。",
+      "answerText": "一个方程、$n$ 个未知量，主元变量为 $x_1$，其余 $x_2,\\dots,x_n$ 为自由变量，$x_1=-(x_2+\\cdots+x_n)$。解集为 $$\\left\\{x_2\\begin{pmatrix}-1\\\\1\\\\0\\\\ \\vdots\\\\0\\end{pmatrix}+x_3\\begin{pmatrix}-1\\\\0\\\\1\\\\ \\vdots\\\\0\\end{pmatrix}+\\cdots+x_n\\begin{pmatrix}-1\\\\0\\\\ \\vdots\\\\0\\\\1\\end{pmatrix}\\ \\middle|\\ x_2,\\dots,x_n\\in\\mathbb{R}\\right\\}$$ 共 $n-1$ 个自由参数（解空间维数为 $n-1$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.homogeneous_system",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.general_solution",
+        "la.knowledge.basic_solution_system"
+      ],
+      "methodIds": [
+        "la.method.basic_solution_system_method"
+      ],
+      "notes": "译自 Hefferon Chapter 1 §1.2 习题 11；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 1 §1.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.sys18",
+      "title": "判断矩阵的奇异性",
+      "questionText": "下列两个矩阵一个是非奇异的、一个是奇异的，判断并说明理由：\n（1）$\\begin{pmatrix}1&3\\\\4&-12\\end{pmatrix}$；（2）$\\begin{pmatrix}1&3\\\\4&12\\end{pmatrix}$。",
+      "answerText": "（1）消元：$r_2-4r_1$ 得 $\\begin{pmatrix}1&3\\\\0&-24\\end{pmatrix}$，对角元全非零，非奇异（$\\det=-12-12=-24\\neq0$）。\n（2）$r_2-4r_1$ 得 $\\begin{pmatrix}1&3\\\\0&0\\end{pmatrix}$，出现零行，奇异（$\\det=12-12=0$，第二行是第一行的 4 倍）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.matrix_rank",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.invertibility_criteria"
+      ],
+      "methodIds": [
+        "la.method.gaussian_elimination"
+      ],
+      "notes": "译自 Hefferon Chapter 1 §3.1 习题 3；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 1 §3.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.sys19",
+      "title": "判断向量是否为生成集合的成员",
+      "questionText": "判断下列向量是否属于对应集合：\n（1）$\\begin{pmatrix}2\\\\3\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}1\\\\2\\end{pmatrix}k\\right\\}$；\n（2）$\\begin{pmatrix}-3\\\\3\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}1\\\\-1\\end{pmatrix}k\\right\\}$；\n（3）$\\begin{pmatrix}-3\\\\3\\\\4\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}1\\\\-1\\\\2\\end{pmatrix}k\\right\\}$；\n（4）$\\begin{pmatrix}-3\\\\3\\\\4\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}1\\\\-1\\\\2\\end{pmatrix}k+\\begin{pmatrix}0\\\\0\\\\2\\end{pmatrix}m\\right\\}$；\n（5）$\\begin{pmatrix}1\\\\4\\\\14\\end{pmatrix}$ 与 $\\left\\{\\begin{pmatrix}2\\\\2\\\\5\\end{pmatrix}k+\\begin{pmatrix}-1\\\\0\\\\2\\end{pmatrix}m\\right\\}$（$k,m\\in\\mathbb{R}$）。",
+      "answerText": "（1）否：$2=k$ 与 $3=2k$ 矛盾。\n（2）是：$k=-3$。\n（3）否：单参数只能张成过原点的一条直线，$-3= k$，$3=-k$ 矛盾。\n（4）是：$-3=k$，$3=-k$，$4=2k+2m$ 给 $k=-3$，$m=5$。\n（5）是：解 $2k-m=1$，$2k=4$，$5k+2m=14$ 得 $k=2$，$m=3$，三式全满足 ✓。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.linear_representation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.linear_combination"
+      ],
+      "methodIds": [
+        "la.method.gaussian_elimination"
+      ],
+      "notes": "译自 Hefferon Chapter 1 §1.2（Subsets 部分对齐）习题 4（env4）；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 1 §1.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec22",
+      "title": "判定运算下 R³ 是否构成向量空间",
+      "questionText": "判断在下列运算下 $\\mathbb{R}^3$ 是否构成向量空间：\n（1）加法 $\\begin{pmatrix}x_1\\\\y_1\\\\z_1\\end{pmatrix}+\\begin{pmatrix}x_2\\\\y_2\\\\z_2\\end{pmatrix}=\\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$，数乘 $r\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}rx\\\\ry\\\\rz\\end{pmatrix}$；\n（2）加法 $\\begin{pmatrix}x_1\\\\y_1\\\\z_1\\end{pmatrix}+\\begin{pmatrix}x_2\\\\y_2\\\\z_2\\end{pmatrix}=\\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$，数乘 $r\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$。",
+      "answerText": "（1）不是向量空间。数乘对加法的分配律要求 $(r+s)\\vec u=r\\vec u+s\\vec u$。取 $r=s=1$，$\\vec u=\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}$：左边 $2\\vec u=\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix}$，右边 $\\vec u+\\vec u=\\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$，不相等，公理不成立。\n（2）也不是向量空间。该运算把一切和与数乘都送至 $\\vec0$：若存在零向量 $\\vec z$ 满足 $\\vec v+\\vec z=\\vec v$（对一切 $\\vec v$），取 $\\vec v\\neq\\vec0$，则左边恒为 $\\vec0\\neq\\vec v$，矛盾——零向量公理不成立。\n结论：（1）违反分配律，（2）违反零向量公理，均不是向量空间。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.vector_space_basis_dimension",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.vector_space"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 2 §1.1 习题 8；解答由项目重写（原书答案给出 (1) 的反例，(2) 的零向量论证为项目补全）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §1.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec23",
+      "title": "R² 是否为 R³ 的子空间",
+      "questionText": "$\\mathbb{R}^2$ 是 $\\mathbb{R}^3$ 的子空间吗？",
+      "answerText": "不是——但原因值得说清楚：作为集合，$\\mathbb{R}^2$（二元组）的元素根本不是 $\\mathbb{R}^3$（三元组）的元素，连子集都不是，谈不上子空间。\n若把 $\\mathbb{R}^2$「嵌入」为 $\\mathbb{R}^3$ 的子集 $W=\\{(x,y,0)\\}$，则 $W$（连同继承的运算）是 $\\mathbb{R}^3$ 的子空间：$W$ 非空且对加法、数乘封闭（两个分量任意的三元组之和/数乘第三分量仍为 0）。但这个 $W$ 是「$xy$ 平面」，并非 $\\mathbb{R}^2$ 本身。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.vector_space_basis_dimension",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.vector_space"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 2 §1.2 习题 5；解答由项目重写（区分「子集关系」与「嵌入」两种理解）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §1.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec24",
+      "title": "R² 中线性无关组的大小",
+      "questionText": "（1）证明 $\\mathbb{R}^2$ 中任意 4 个向量线性相关；（2）这对任意 5 个向量成立吗？任意 3 个呢？（3）$\\mathbb{R}^2$ 中线性无关子集最多含多少个元素？",
+      "answerText": "（1）设 4 个向量为 $\\vec{v}_1,\\dots,\\vec{v}_4$，考察 $c_1\\vec v_1+\\cdots+c_4\\vec v_4=\\vec0$：这是 2 个方程、4 个未知量的齐次方程组，必有非零解（自由未知量个数 $4-2=2>0$），故线性相关。\n（2）5 个向量同理更相关（方程更少未知量更多）；3 个向量不一定相关——例如 $\\begin{pmatrix}1\\\\0\\end{pmatrix},\\begin{pmatrix}0\\\\1\\end{pmatrix}$ 再添第三个向量才相关，但恰取两个不共线向量时线性无关。\n（3）最多 2 个：$\\mathbb{R}^2$ 的维数为 2，任何 3 个及以上的向量组必线性相关，而标准基 $\\{\\vec e_1,\\vec e_2\\}$ 说明 2 个可以达到。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.linear_independence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.linear_correlation",
+        "la.knowledge.correlation_criteria"
+      ],
+      "methodIds": [
+        "la.method.rank_correlation"
+      ],
+      "notes": "译自 Hefferon Chapter 2 §2.1 习题 11；解答由项目按原书思路补全。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §2.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec25",
+      "title": "R⁴ 中极大极小的线性无关组与线性相关组",
+      "questionText": "在 $\\mathbb{R}^4$ 中：最大的线性无关组能有多少个向量？最小的呢？最大的线性相关组呢？最小的呢？（「最大/最小」指不存在保持该性质的真扩集/子集。）",
+      "answerText": "最大线性无关组：4 个（例如标准基 $\\vec e_1,\\vec e_2,\\vec e_3,\\vec e_4$）；不能再多（$\\dim\\mathbb{R}^4=4$），也不能再扩（任何第 5 个向量必可由它们表示）。\n最小线性无关组：1 个（单个非零向量线性无关，去掉就空了——若「最小」指没有非空真子集仍无关，则恰是 1 个向量；空集依约定也线性无关，若允许则最小为空集，但通常取非空情形）。\n最大线性相关组：任意有限多个都行（例如把同一向量重复写任意次——若允许重复；不允许重复时，任何 5 个不同向量必相关，且不能再添「保持相关但扩充后仍相关」…实际上不允许重复时，$\\mathbb{R}^4$ 全体（无穷多个向量）线性相关，故最大线性相关组是整个空间，无有限最大）。\n最小线性相关组：2 个（两个成比例的非零向量，如 $\\{\\vec e_1,2\\vec e_1\\}$；单个向量线性相关当且仅当它是零向量——若允许含零向量则最小为 1 个：$\\{\\vec0\\}$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.linear_independence",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.linear_correlation",
+        "la.knowledge.basis_dimension_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 2 §2.1 习题 14；解答译写自原书答案（各种边界情形的讨论为项目补全）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §2.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec26",
+      "title": "二阶矩阵空间的基与维数",
+      "questionText": "求二阶实矩阵空间 $\\mathbb{R}^{2\\times2}$（即 $\\mathcal{M}_{2,2}$）的一组基与维数。",
+      "answerText": "任一 $\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$ 可唯一分解为 $$a\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}+b\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}+c\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix}+d\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}$$ 四个「矩阵单位」$E_{ij}$ 张成全空间，且线性无关（线性组合为零矩阵迫使各系数为零）。故 $\\{E_{11},E_{12},E_{21},E_{22}\\}$ 是一组基，$\\dim\\mathbb{R}^{2\\times2}=4$。一般地 $\\dim\\mathbb{R}^{m\\times n}=mn$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.vector_space_basis_dimension",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.basis_dimension_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 2 §3.2 习题 3；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §3.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec27",
+      "title": "两个三维子空间的交必非平凡",
+      "questionText": "证明：若 $U$ 与 $W$ 都是 $\\mathbb{R}^5$ 的三维子空间，则 $U\\cap W$ 不是零子空间（即 $\\dim(U\\cap W)\\ge1$）。并推广你的结论。",
+      "answerText": "取 $U$ 的基 $B_U=\\{\\vec u_1,\\vec u_2,\\vec u_3\\}$ 与 $W$ 的基 $B_W=\\{\\vec w_1,\\vec w_2,\\vec w_3\\}$，拼成 6 个向量的组。它线性相关（$\\mathbb{R}^5$ 中任意 6 个向量相关），故存在不全为零的 $c_1,\\dots,c_6$ 使 $$c_1\\vec u_1+c_2\\vec u_2+c_3\\vec u_3+c_4\\vec w_1+c_5\\vec w_2+c_6\\vec w_3=\\vec0$$ 记 $\\vec v=c_1\\vec u_1+c_2\\vec u_2+c_3\\vec u_3=-(c_4\\vec w_1+c_5\\vec w_2+c_6\\vec w_3)$。若 $\\vec v=\\vec0$，则由 $B_U$、$B_W$ 各自线性无关得前三系数与后三系数全为零，矛盾；故 $\\vec v\\neq\\vec0$，且 $\\vec v\\in U\\cap W$，交非平凡。\n推广：若 $U$、$W$ 是 $n$ 维空间 $V$ 的子空间且 $\\dim U+\\dim W>n$，则 $U\\cap W\\neq\\{\\vec0\\}$（由维数公式 $\\dim(U\\cap W)\\ge\\dim U+\\dim W-n>0$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.vector_space_basis_dimension",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.basis_dimension_coordinates",
+        "la.knowledge.vector_space"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 2 §3.2 习题 19；解答由项目按原书思路补全。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §3.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.vec28",
+      "title": "P₂ 的直和分解",
+      "questionText": "$\\mathcal{P}_2$ 是子空间 $W_1=\\{a+bx^2 \\mid a,b\\in\\mathbb{R}\\}$ 与 $W_2=\\{cx \\mid c\\in\\mathbb{R}\\}$ 的直和吗？",
+      "answerText": "是。$W_1$、$W_2$ 都是 $\\mathcal{P}_2$ 的子空间（对加法数乘封闭）。\n每个 $m+nx+px^2\\in\\mathcal{P}_2$ 有分解 $$(m+nx+px^2)=(m+px^2)+(nx),\\qquad m+px^2\\in W_1,\\ nx\\in W_2$$ 唯一性：若 $(a+bx^2)+cx=0$，比较系数得 $a=0$，$c=0$，$b=0$，故表示法唯一（等价地 $W_1\\cap W_2=\\{0\\}$）。因此 $\\mathcal{P}_2=W_1\\oplus W_2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.vector_space_basis_dimension",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.vector_space",
+        "la.knowledge.basis_dimension_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 2 §3.4（对齐直和一节）习题 1；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 2 §3.5",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.mat23",
+      "title": "转置与乘法的交互",
+      "questionText": "（1）证明 $(GH)^{\\mathrm T}=H^{\\mathrm T}G^{\\mathrm T}$；\n（2）对称矩阵指满足 $A^{\\mathrm T}=A$ 的方阵。证明 $HH^{\\mathrm T}$ 与 $H^{\\mathrm T}H$ 都是对称矩阵。",
+      "answerText": "（1）$(GH)^{\\mathrm T}$ 的 $(i,j)$ 元是 $GH$ 的 $(j,i)$ 元 $=\\sum_k g_{jk}h_{ki}$；而 $H^{\\mathrm T}G^{\\mathrm T}$ 的 $(i,j)$ 元 $=\\sum_k h^{\\mathrm T}_{ik}g^{\\mathrm T}_{kj}=\\sum_k h_{ki}g_{jk}$，二者相等。证毕。\n（2）$(HH^{\\mathrm T})^{\\mathrm T}=(H^{\\mathrm T})^{\\mathrm T}H^{\\mathrm T}=HH^{\\mathrm T}$，故 $HH^{\\mathrm T}$ 对称；同理 $(H^{\\mathrm T}H)^{\\mathrm T}=H^{\\mathrm T}(H^{\\mathrm T})^{\\mathrm T}=H^{\\mathrm T}H$。证毕。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.matrix_operation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.matrix_transpose",
+        "la.knowledge.matrix_operations",
+        "la.knowledge.symmetric_matrix"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 3 §4.2 习题 16；解答译写自原书答案（按元素验证）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 3 §4.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.mat24",
+      "title": "(S+T)(S−T) 未必等于 S²−T²",
+      "questionText": "证明：对复方阵（或实方阵）$S$、$T$，$(S+T)(S-T)$ 未必等于 $S^2-T^2$。给出一个反例，并指出等式成立所需的条件。",
+      "answerText": "展开：$(S+T)(S-T)=S^2-ST+TS-T^2$。一般 $ST\\neq TS$，中间两项不相消。\n反例：取 $S=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$，$T=\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix}$，则 $S^2=T^2=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$，而 $$S+T=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix},\\qquad S-T=\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix},\\qquad (S+T)(S-T)=\\begin{pmatrix}-1&0\\\\0&1\\end{pmatrix}\\neq\\vec0$$ 故 $(S+T)(S-T)\\neq S^2-T^2$。等式成立当且仅当 $ST=TS$（此时中间两项相消）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.matrix_operation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.matrix_operations"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 3 §4.2 习题 21；反例计算为项目自算。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 3 §4.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.mat25",
+      "title": "构造实现行（列）变换的矩阵",
+      "questionText": "构造：\n（1）一个 3 阶矩阵，左乘它可交换矩阵的第 1、2 行；\n（2）一个 2 阶矩阵，右乘它可交换矩阵的第 1、2 列。",
+      "answerText": "（1）左乘实现行交换的初等矩阵：$$P=\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$$ 例如 $P\\begin{pmatrix}a&b&c\\\\d&e&f\\\\g&h&i\\end{pmatrix}=\\begin{pmatrix}d&e&f\\\\a&b&c\\\\g&h&i\\end{pmatrix}$。\n（2）右乘实现列交换：用同一个矩阵 $P=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$：$A P$ 把 $A$ 的第 1、2 列交换（右乘初等矩阵作用在列上）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.elementary_matrix_problem",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.elementary_matrix"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 3 §4.3 习题 2；解答译写自原书答案（原书 (1) 演示交换 1、3 行，此处按题面交换 1、2 行，矩阵构造同理）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 1,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 3 §4.3",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.mat26",
+      "title": "置换矩阵的逆等于其转置",
+      "questionText": "证明置换矩阵的逆矩阵等于它的转置。",
+      "answerText": "置换矩阵 $P$ 每行每列恰有一个 1，其余为 0，左乘 $P$ 把行按置换 $\\sigma$ 重排。于是 $P^{-1}$ 是按逆置换 $\\sigma^{-1}$ 重排行的矩阵，即 $P^{\\mathrm T}$（$P^{\\mathrm T}$ 的第 $i$ 行是 $P$ 的第 $i$ 列，恰对应 $\\sigma^{-1}$ 的行排列）。因此 $P^{\\mathrm T}=P^{-1}$。\n代数验证：$P^{\\mathrm T}P$ 的 $(i,j)$ 元是 $P$ 的第 $i$ 列与第 $j$ 列的点积，等于 1 当且仅当 $i=j$（每列恰有一个 1，且不同列的 1 在不同行），故 $P^{\\mathrm T}P=E$。（这也说明每个置换矩阵都是正交矩阵，$\\det P=\\operatorname{sgn}(\\sigma)=\\pm1$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.matrix_operation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.matrix_transpose",
+        "la.knowledge.inverse_matrix"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 3 §4.4 习题 13；证明由项目按原书思路重写。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 3 §4.4",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.mat27",
+      "title": "求使矩阵表示恒等映射的基",
+      "questionText": "求一组基，使得矩阵 $T=\\begin{pmatrix}3&1&4\\\\2&-1&1\\\\0&0&4\\end{pmatrix}$ 关于这组基（定义域与值域用同一组）表示恒等映射。",
+      "answerText": "该题有很多解。一个直接的办法：因为 $T$ 可逆（$\\det=4\\times(-3-2)=-20\\neq0$），它可以作为从某组基 $B$ 到另一组基 $D$ 的恒等映射表示——但题目要求表示「恒等映射」，即 $\\operatorname{Rep}_{B,D}(\\mathrm{id})=T$。取值域基 $D$ 为标准基 $\\mathcal{E}_3$，令定义域基 $B$ 的第 $j$ 个向量是 $T$ 的第 $j$ 列：$$B=\\left\\langle\\begin{pmatrix}3\\\\2\\\\0\\end{pmatrix},\\ \\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix},\\ \\begin{pmatrix}4\\\\1\\\\4\\end{pmatrix}\\right\\rangle$$ 三向量线性无关（$\\det T\\neq0$），构成 $\\mathbb{R}^3$ 的基。此时 $\\operatorname{Rep}_{B,\\mathcal{E}_3}(\\mathrm{id})$ 的第 $j$ 列恰是 $B$ 的第 $j$ 个向量（的标准坐标），即 $T$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.change_of_basis_coordinates",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.transition_matrix",
+        "la.knowledge.basis_dimension_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 3 §5.1 习题 4；解答由项目按原书思路补全。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 3 §5.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.mat28",
+      "title": "三角函数组的基与过渡矩阵",
+      "questionText": "考虑以 $\\langle\\sin x,\\ \\cos x\\rangle$ 为基的实值函数向量空间。证明 $\\langle 2\\sin x+\\cos x,\\ 3\\cos x\\rangle$ 也是这个空间的一组基，并求两个方向上的过渡（基变换）矩阵。",
+      "answerText": "记 $\\hat{B}=\\langle f_1,f_2\\rangle=\\langle 2\\sin x+\\cos x,\\ 3\\cos x\\rangle$，自然基 $D=\\langle\\sin x,\\cos x\\rangle$。\n是基：$a f_1+b f_2=(2a)\\sin x+(a+3b)\\cos x=0$（零函数）迫使 $2a=0$ 且 $a+3b=0$，得 $a=b=0$，线性无关；两个向量张成二维空间，故是基。\n过渡矩阵：$$\\operatorname{Rep}_{D}(\\hat{B})=\\begin{pmatrix}2&0\\\\1&3\\end{pmatrix}\\quad(\\text{列}=\\hat B\\text{ 在 }D\\text{ 下坐标})$$ 其逆为另一方向：$\\begin{pmatrix}2&0\\\\1&3\\end{pmatrix}^{-1}=\\frac{1}{6}\\begin{pmatrix}3&0\\\\-1&2\\end{pmatrix}=\\begin{pmatrix}\\frac12&0\\\\-\\frac16&\\frac13\\end{pmatrix}$，即 $\\sin x=\\frac12 f_1-\\frac16 f_2$，$\\cos x=\\frac13 f_2$（可直接验证）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.change_of_basis_coordinates",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.transition_matrix",
+        "la.knowledge.basis_dimension_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 3 §5.1 习题 5；解答译写自原书答案（逆矩阵计算与验证为项目补全）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 3 §5.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.det22",
+      "title": "三阶范德蒙德型行列式",
+      "questionText": "证明：$$\\begin{vmatrix}1&1&1\\\\ a&b&c\\\\ a^2&b^2&c^2\\end{vmatrix}=(b-a)(c-a)(c-b).$$",
+      "answerText": "作列变换 $c_2-c_1$、$c_3-c_1$（值不变）：$$\\begin{vmatrix}1&0&0\\\\ a&b-a&c-a\\\\ a^2&b^2-a^2&c^2-a^2\\end{vmatrix}$$ 按第一行展开，并对列提公因子 $(b-a)$、$(c-a)$：$$=(b-a)(c-a)\\begin{vmatrix}1&1\\\\ b+a&c+a\\end{vmatrix}=(b-a)(c-a)\\left[(c+a)-(b+a)\\right]=(b-a)(c-a)(c-b)$$ 证毕。（这就是三阶范德蒙德行列式。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.abstract_determinant",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.special_determinants",
+        "la.knowledge.determinant_properties"
+      ],
+      "methodIds": [
+        "la.method.determinant_properties",
+        "la.method.vandermonde_determinant"
+      ],
+      "notes": "译自 Hefferon Chapter 4 §1.1 习题 3；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 4 §1.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.det23",
+      "title": "数乘矩阵的行列式",
+      "questionText": "证明：若 $A$ 是 3 阶矩阵，则对任意数 $c$ 有 $\\det(cA)=c^3\\det(A)$。",
+      "answerText": "$cA$ 的每个元素都是 $A$ 的对应元素的 $c$ 倍。按行列式的定义（置换展开），$\\det(cA)$ 的每一项都是 $A$ 对应项的 $c^3$ 倍（每项恰含 3 个来自不同行不同列的元素，每个都乘了 $c$）；或者用性质：每行提出公因子 $c$，共 3 行，得 $\\det(cA)=c\\cdot c\\cdot c\\det(A)=c^3\\det(A)$。一般地，$n$ 阶时 $\\det(cA)=c^n\\det(A)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.abstract_determinant",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.determinant_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 4 §1.1 习题 11；解答译写自原书答案。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 2,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 4 §1.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.det24",
+      "title": "三角矩阵的行列式等于对角元之积",
+      "questionText": "证明：上三角或下三角矩阵的行列式等于其主对角线元素的乘积。",
+      "answerText": "对上三角矩阵 $T$（$t_{ij}=0$，$i>j$）：按定义（置换展开），非零项 $\\prod_i t_{i,\\sigma(i)}$ 要求对每个 $i$ 有 $t_{i,\\sigma(i)}\\neq0$，即 $\\sigma(i)\\ge i$ 对所有 $i$ 成立；而置换是一一对应，$\\sum_i\\sigma(i)=\\sum_i i$，故必须 $\\sigma(i)=i$ 对所有 $i$ 成立——即唯一可能非零的置换是恒等置换。于是 $\\det T=t_{11}t_{22}\\cdots t_{nn}$。\n下三角情形对称（要求 $\\sigma(i)\\le i$，同样只有恒等置换）。证毕。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.abstract_determinant",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.determinant_definition",
+        "la.knowledge.determinant_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 4 §1.2 习题 8；证明由项目按置换展开重写。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 4 §1.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.det25",
+      "title": "有理元素矩阵的有理行列式",
+      "questionText": "证明：元素全为有理数的矩阵，其行列式仍是有理数。",
+      "answerText": "对矩阵的阶数 $n$ 归纳。$n=1$ 时行列式即唯一的有理元素。\n设结论对 $n-1$ 阶成立。$n$ 阶有理矩阵 $A$ 按第一行展开：$$\\det A=\\sum_{j=1}^{n}(-1)^{1+j}a_{1j}M_{1j}$$ 其中 $a_{1j}$ 是有理数，每个余子式 $M_{1j}$ 是 $n-1$ 阶有理矩阵的行列式，由归纳假设是有理数。有理数的有限和与积仍是有理数，故 $\\det A$ 是有理数。证毕。（同理可推广：元素属于数域 $F$ 的矩阵，其行列式仍属于 $F$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.abstract_determinant",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.row_column_expansion",
+        "la.knowledge.determinant_definition"
+      ],
+      "methodIds": [
+        "la.method.row_column_expansion"
+      ],
+      "notes": "译自 Hefferon Chapter 4 §1.2 习题 12；证明由项目按归纳法重写。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 4 §1.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.det26",
+      "title": "五阶行列式置换展开的项数",
+      "questionText": "（1）证明 5 阶矩阵的置换展开式中恰有 $5!=120$ 项；\n（2）这些项中取正值与取负值的各多少项？",
+      "answerText": "（1）置换展开的每一项对应 $S_5$（5 元对称群）中的一个置换，而 $|S_5|=5!=120$，故恰有 120 项（各项由 5 个元素相乘而成）。\n（2）正负项各半。理由：对换（交换两行的位置）改变行列式符号，给出 $S_5$ 到自身的一个双射 $\\sigma\\mapsto\\sigma\\circ\\tau$（$\\tau$ 为任一固定对换），它把偶置换与奇置换互相交换，且 $\\operatorname{sgn}(\\sigma\\circ\\tau)=-\\operatorname{sgn}(\\sigma)$。因此偶置换与奇置换个数相等，各为 $120/2=60$，取正负号的项各 60 项。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.abstract_determinant",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.determinant_definition"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 4 §1.3 习题 10；解答由项目按原书思路补全（(2) 的对换双射论证）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 4 §1.3",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.det27",
+      "title": "正交条件与行列式",
+      "questionText": "（1）给出一个非单位矩阵 $A$ 满足 $A^{\\mathrm T}=A^{-1}$；\n（2）证明：若 $A^{\\mathrm T}=A^{-1}$，则 $\\det A=\\pm1$；\n（3）反过来成立吗（$\\det A=\\pm1$ 能推出 $A^{\\mathrm T}=A^{-1}$ 吗）？",
+      "answerText": "（1）任一置换矩阵即可，例如 $A=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$：$A^{\\mathrm T}=A=A^{-1}$。\n（2）由 $A A^{\\mathrm T}=E$，两边取行列式：$$1=\\det(E)=\\det(A A^{\\mathrm T})=\\det A\\cdot\\det(A^{\\mathrm T})=(\\det A)^2$$ 故 $\\det A=\\pm1$。\n（3）不成立。反例：$A=\\operatorname{diag}(2,\\tfrac12)$，$\\det A=1$，但 $A^{\\mathrm T}=A\\neq A^{-1}=\\operatorname{diag}(\\tfrac12,2)$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.abstract_determinant",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.matrix_product_determinant",
+        "la.knowledge.matrix_transpose"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 4 §2.1 习题 11；解答译写自原书答案（反例为项目补全）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 4 §2.1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.eig19",
+      "title": "一类不可对角化的矩阵",
+      "questionText": "证明形如 $\\begin{pmatrix}1&c\\\\0&1\\end{pmatrix}$（$c\\neq0$）的矩阵不可相似对角化。",
+      "answerText": "矩阵是上三角的，特征值为主对角元：$\\lambda=1$（二重）。考察特征空间：$$(A-E)\\vec{b}=\\begin{pmatrix}0&c\\\\0&0\\end{pmatrix}\\begin{pmatrix}b_1\\\\b_2\\end{pmatrix}=\\vec0 \\iff cb_2=0 \\iff b_2=0$$ 特征向量形如 $k\\begin{pmatrix}1\\\\0\\end{pmatrix}$，特征空间维数为 1。$\\lambda=1$ 的几何重数 1 小于代数重数 2，线性无关的特征向量总数不足 2 个，故不可对角化。（直观：它是 $E$ 加一个非零幂零扰动，若 $P^{-1}AP$ 是对角阵则只能是 $E$，推出 $A=PEP^{-1}=E$，与 $c\\neq0$ 矛盾。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.diagonalization",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.diagonalization_criteria",
+        "la.knowledge.eigenvector_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 5 §2.2 习题 11；解答由项目补全（附括号中的矛盾论证）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 5 §2.2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.eig20",
+      "title": "三角矩阵的特征值是对角元",
+      "questionText": "证明：上（下）三角矩阵的特征值就是主对角线上的元素。",
+      "answerText": "设 $T$ 为上三角矩阵。$$\\det(T-\\lambda E)=\\begin{vmatrix}t_{11}-\\lambda & * & \\cdots \\\\ 0 & t_{22}-\\lambda & * \\\\ \\vdots & & \\ddots\\end{vmatrix}$$ 由上一题的结论（三角矩阵行列式等于对角元之积，对 $T-\\lambda E$ 仍为三角阵），$$\\det(T-\\lambda E)=(t_{11}-\\lambda)(t_{22}-\\lambda)\\cdots(t_{nn}-\\lambda)$$ 特征多项式的根恰为 $t_{11},t_{22},\\dots,t_{nn}$，故特征值就是主对角元。下三角情形同理。证毕。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_properties",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept",
+        "la.knowledge.eigen_properties"
+      ],
+      "methodIds": [
+        "la.method.characteristic_polynomial"
+      ],
+      "notes": "译自 Hefferon Chapter 5 §2.3 习题 10；证明由项目重写（引用 det24 的结论）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 5 §2.3",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.eig21",
+      "title": "矩阵等价的矩阵有相同特征值吗",
+      "questionText": "矩阵等价（matrix equivalent，即经行、列初等变换可互化）的两个矩阵有相同的特征值吗？",
+      "answerText": "没有。矩阵等价只保持秩，不保持特征值。反例：$$A=E=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\0&2\\end{pmatrix}$$ 二者同型同秩（秩都是 2），故矩阵等价（都可经初等变换化为 $\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$ 型标准形——事实上 $A$ 本身就是）；但 $A$ 的特征值是 $1,1$，$B$ 的特征值是 $1,2$，不同。\n与「相似」对照：相似变换 $P^{-1}AP$ 只用一种基变换（保持特征值），而矩阵等价允许定义域、值域各换一组基（只保持秩）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_properties",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_properties",
+        "la.knowledge.similarity_invariants"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 5 §2.3 习题 15；解答由项目按原书反例重写。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 3,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 5 §2.3",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bank.la.hef.eig22",
+      "title": "奇数阶实矩阵必有实特征值",
+      "questionText": "证明：元素为实数的奇数阶方阵必有至少一个实特征值。",
+      "answerText": "设 $A$ 为 $n$ 阶实矩阵，$n$ 为奇数。特征多项式 $$p(\\lambda)=\\det(A-\\lambda E)=\\lambda^n+c_{n-1}\\lambda^{n-1}+\\cdots+c_0$$ 是实系数多项式，且首项次数 $n$ 为奇数。考察 $p(\\lambda)$ 在 $\\lambda\\to+\\infty$ 与 $\\lambda\\to-\\infty$ 的行为：$n$ 为奇数时，$\\lambda^n$ 在 $+\\infty$ 处为正、在 $-\\infty$ 处为负，故 $$\\lim_{\\lambda\\to+\\infty}p(\\lambda)=+\\infty,\\qquad\\lim_{\\lambda\\to-\\infty}p(\\lambda)=-\\infty$$（或相反，取决于首项符号，总之两端异号）。由连续函数的介值定理，存在实数 $\\lambda_0$ 使 $p(\\lambda_0)=0$，即 $A$ 有实特征值。证毕。（偶数阶时结论不真：如旋转矩阵 $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$ 的特征值为 $\\pm i$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_properties",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_properties"
+      ],
+      "methodIds": [],
+      "notes": "译自 Hefferon Chapter 5 §2.3 习题 16；证明由项目重写（反例为项目补充）。",
+      "createdAt": "2026-09-27T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": 4,
+      "source": {
+        "kind": "example",
+        "book": "Hefferon, Linear Algebra",
+        "section": "Chapter 5 §2.3",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }
