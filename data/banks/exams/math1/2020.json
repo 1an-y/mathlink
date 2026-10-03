@@ -4,18 +4,14 @@
  "subject": "exam_mixed",
  "year": 2020,
  "paper": "math1",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
+ "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
  "verified": false,
- "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/2020年考研数学(一)真题.md",
+ "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/shu1-2020-sol.md",
  "paperInfo": {
   "year": 2020,
   "paper": "math1",
   "label": "数学一",
-  "sections": [
-   "一、选择题(1～8小题，每小题4分，共32分.在每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选项前的字母写在题后的括号内.)",
-   "二、填空题（9～14小题，每小题4分，共24分.请将答案写在题中的横线上.）",
-   "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
-  ],
+  "sections": [],
   "problemsOrder": [
    {
     "number": 1,
@@ -32,6 +28,54 @@
    {
     "number": 3,
     "id": "bank.exam.m1-2020.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-2020.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-2020.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-2020.6",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-2020.7",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-2020.8",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-2020.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-2020.11",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-2020.12",
     "subjectGuess": "calculus",
     "objective": true
    },
@@ -102,26 +146,24 @@
     "objective": false
    }
   ],
-  "total": 14
+  "total": 22
  },
  "problems": [
   {
    "id": "bank.exam.m1-2020.1",
    "number": 1,
    "title": "2020 年数学一 第 1 题",
-   "questionText": "当 $x\\to 0^{+}$ 时，下列无穷小量中最高阶的是（\n\n(A) $\\int_{0}^{x} (\\mathrm{e}^{t^2} - 1) \\, \\mathrm{d}t$\n\n(B) $\\int_{0}^{x}\\ln (1 + \\sqrt{t^3})\\mathrm{d}t$\n\n(C) $\\int_{0}^{\\sin x}\\sin t^{2}\\mathrm{d}t$\n\n(D) $\\int_{0}^{1 - \\cos x}\\sqrt{\\sin^3t}\\mathrm{d}t$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "（题干待校对补充）",
+   "answerText": "D",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "function_limit",
+   "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_and_infinitesimal"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -133,27 +175,23 @@
     "number": 1
    },
    "subjectGuess": "calculus",
-   "section": "一、选择题(1～8小题，每小题4分，共32分.在每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选项前的字母写在题后的括号内.)"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.2",
    "number": 2,
    "title": "2020 年数学一 第 2 题",
-   "questionText": "设函数 $f(x)$ 在区间 $(-1, 1)$ 内有定义，且 $\\lim_{x \\to 0} f(x) = 0$ ，则（ ）.\n\n（A）当 $\\lim_{x\\to 0}\\frac{f(x)}{\\sqrt{|x|}} = 0$ 时， $f(x)$ 在 $x = 0$ 处可导\n（B）当 $\\lim_{x\\to 0}\\frac{f(x)}{x^2} = 0$ 时， $f(x)$ 在 $x = 0$ 处可导\n（C）当 $f(x)$ 在 $x = 0$ 处可导时， $\\lim_{x\\to 0}\\frac{f(x)}{\\sqrt{|x|}} = 0$\n（D）当 $f(x)$ 在 $x = 0$ 处可导时， $\\lim_{x\\to 0}\\frac{f(x)}{x^2} = 0$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "（题干待校对补充）",
+   "answerText": "C",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "differentiability_continuity",
-    "surface_integral_definition",
-    "power_series_sum"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -165,27 +203,23 @@
     "number": 2
    },
    "subjectGuess": "calculus",
-   "section": "一、选择题(1～8小题，每小题4分，共32分.在每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选项前的字母写在题后的括号内.)"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.3",
    "number": 3,
    "title": "2020 年数学一 第 3 题",
-   "questionText": "设函数 $f(x,y)$ 在点(0，0）处可微， $f(0,0) = 0,n = \\left(\\frac{\\partial f}{\\partial x},\\frac{\\partial f}{\\partial y}, - 1\\right)\\bigg|_{(0,0)}$ 非零向量 $\\pmb{\\alpha}$ 与 $\\pmb{n}$ 垂直，则（ ）.\n\n(A) $\\lim_{(x,y)\\to (0,0)}\\frac{|n\\cdot(x,y,f(x,y))|}{\\sqrt{x^2 + y^2}}$ 存在\n(B) $\\lim_{(x,y)\\to (0,0)}\\frac{|n\\times(x,y,f(x,y))|}{\\sqrt{x^2 + y^2}}$ 存在\n(C) $\\lim_{(x,y)\\to (0,0)}\\frac{|\\pmb{\\alpha}\\cdot(x,y,f(x,y))|}{\\sqrt{x^2 + y^2}}$ 存在\n$\\lim_{(x,y)\\to (0,0)}\\frac{|\\pmb{\\alpha}\\times(x,y,f(x,y))|}{\\sqrt{x^2 + y^2}}$ 存在\n\n4）设 $R$ 为幂级数 $\\sum_{n = 1}^{\\infty}a_nx^n$ 的收敛半径， $r$ 是实数，则（ ）.\n\n（A）当 $\\sum_{n = 1}^{\\infty}a_{2n}r^{2n}$ 发散时， $|r|\\geqslant R$\n\n(B) 当 $\\sum_{n=1}^{\\infty} a_{2n} r^{2n}$ 收敛时, $|r| \\leqslant R$\n\n(C) 当 $|r| \\geqslant R$ 时, $\\sum_{n=1}^{\\infty} a_{2n} r^{2n}$ 发散\n\n(D) 当 $|r| \\leqslant R$ 时, $\\sum_{n=1}^{\\infty} a_{2n} r^{2n}$ 收敛\n\n5）若矩阵 $\\mathbf{A}$ 经过初等列变换化成 $\\pmb{B}$ ，则（ ）.\n\n（A）存在矩阵 $\\pmb{P}$ ，使得 $PA = B$\n（B）存在矩阵 $\\pmb{P}$ ，使得 $BP = A$\n（C）存在矩阵 $\\pmb{P}$ ，使得 $PB = A$\n(D) 方程组 $AX = 0$ 与 $BX = 0$ 同解\n\n6）已知直线 $L_{1}:\\frac{x - a_{2}}{a_{1}} = \\frac{y - b_{2}}{b_{1}} = \\frac{z - c_{2}}{c_{1}}$ 与直线 $L_{2}:\\frac{x - a_{3}}{a_{2}} = \\frac{y - b_{3}}{b_{2}} = \\frac{z - c_{3}}{c_{2}}$ 相交于一点，记向量 $\\pmb{\\alpha}_{i} = \\begin{pmatrix} a_{i}\\\\ b_{i}\\\\ c_{i} \\end{pmatrix} ,i = 1,2,3$ ，则（ ）.\n\n(A) $\\pmb{\\alpha}_{1}$ 可由 $\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3}$ 线性表示\n\n(B) $\\pmb{\\alpha}_{2}$ 可由 $\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{3}$ 线性表示\n\n(C) $\\alpha_{3}$ 可由 $\\alpha_{1}, \\alpha_{2}$ 线性表示\n\n(D) $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性无关\n\n7）设 $A, B, C$ 为三个随机事件，且 $P(A) = P(B) = P(C) = \\frac{1}{4}, P(AB) = 0,$ $P(AC) = P(BC) = \\frac{1}{12}$ ，则 $A, B, C$ 中恰有一个事件发生的概率为（ ）.\n\n(A) $\\frac{3}{4}$\n\n(B) $\\frac{2}{3}$\n\n(C) $\\frac{1}{2}$\n\n(D) $\\frac{5}{12}$\n\n8）设 $X_{1}, X_{2}, \\dots, X_{100}$ 为来自总体 $X$ 的简单随机样本，其中 $P\\{X = 0\\} = P\\{X = 1\\} = \\frac{1}{2}, \\Phi(x)$ 表示标准正态分布函数，利用中心极限定理可得 $P\\{\\sum_{i=1}^{100} X_{i} \\leqslant 55\\}$ 的近似值为（ ）.\n\n(A) $1 - \\Phi (1)$\n\n(B) $\\Phi (1)$\n\n(C) $1 - \\Phi (0,2)$\n\n(D) $\\Phi(0.2)$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "（题干待校对补充）",
+   "answerText": "A",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "power_series_radius_domain",
+   "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum",
-    "differentiability_continuity",
-    "vector_linear_operation"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：power_series_radius_domain，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -197,25 +231,247 @@
     "number": 3
    },
    "subjectGuess": "calculus",
-   "section": "一、选择题(1～8小题，每小题4分，共32分.在每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选项前的字母写在题后的括号内.)"
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.4",
+   "number": 4,
+   "title": "2020 年数学一 第 4 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "D",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.5",
+   "number": 5,
+   "title": "2020 年数学一 第 5 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "B",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.6",
+   "number": 6,
+   "title": "2020 年数学一 第 6 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "C",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.7",
+   "number": 7,
+   "title": "2020 年数学一 第 7 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "D",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.8",
+   "number": 8,
+   "title": "2020 年数学一 第 8 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "B",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.9",
+   "number": 9,
+   "title": "2020 年数学一 第 9 题",
+   "questionText": "【答案$ 】-1$\n\n$$\\begin{aligned}&\\lim_{x\\to0}\\left(\\frac{1}{e^x-1}-\\frac{1}{\\ln(1+x)}\\right)\\\\&=\\lim_{x\\to0}\\left[\\frac{\\ln(1+x)-e^x+1}{(e^x-1)\\ln(1+x)}\\right]=\\lim_{x\\to0}\\frac{\\left[x-\\frac{x^2}{2}+o(x^2)\\right]-\\left[1+x+\\frac{x^2}{2}+o(x^2)\\right]+1}{x^2}\\\\&=\\lim_{x\\to0}\\frac{-x^2+o(x^2)}{x^2}=-1.\\\\&0. 答案】-\\sqrt{2}.\\end{aligned}$$\n\n【解析】\n\n$$\\frac{dy}{dx}=\\frac{dy}{dx}=\\frac{\\left(1+\\frac{t}{\\sqrt{t^{2}+1}}\\right)}{t}=\\frac{1}{t},$$\n\n$$\\frac{d^{2}y}{dx^{2}}=\\frac{d\\left(\\frac{1}{t}\\right)}{dt}\\cdot\\frac{1}{dx}=-\\frac{1}{t^{2}}\\cdot\\frac{\\sqrt{t^{2}+1}}{t}=-\\frac{\\sqrt{t^{2}+1}}{t^{3}}$$\n\n所以$\\left.\\frac{d^{2}y}{dx^{2}}\\right|_{t=1}=-\\sqrt{2}.$",
+   "answerText": "答案：-1",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.11",
+   "number": 11,
+   "title": "2020 年数学一 第 11 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "$n+a m$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2020.12",
+   "number": 12,
+   "title": "2020 年数学一 第 12 题",
+   "questionText": "（题干待校对补充）",
+   "answerText": "4e",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2020,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.13",
    "number": 13,
    "title": "2020 年数学一 第 13 题",
-   "questionText": "行列式 $\\left| \\begin{array}{cccc}a & 0 & -1 & 1\\\\ 0 & a & 1 & -1\\\\ -1 & 1 & a & 0\\\\ 1 & -1 & 0 & a \\end{array} \\right| = \\underline{\\quad}$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "（题干待校对补充）",
+   "answerText": "$a^{4}-4a^{2}$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.determinants",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.determinant_computation",
+   "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.matrix_product_determinant"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.determinant_computation，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -227,26 +483,23 @@
     "number": 13
    },
    "subjectGuess": "linear_algebra",
-   "section": "二、填空题（9～14小题，每小题4分，共24分.请将答案写在题中的横线上.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.14",
    "number": 14,
    "title": "2020 年数学一 第 14 题",
-   "questionText": "设 $X$ 服从区间 $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 上的均匀分布， $Y = \\sin X$ ，则 $\\operatorname{Cov}(X, Y) =$ ______.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "（题干待校对补充）",
+   "answerText": "$\\frac{2}{\\pi}$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "prob.chapter.random_variables",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.uniform_distribution",
-    "prob.knowledge.functions_of_random_variables"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -258,14 +511,14 @@
     "number": 14
    },
    "subjectGuess": "probability_statistics",
-   "section": "二、填空题（9～14小题，每小题4分，共24分.请将答案写在题中的横线上.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.15",
    "number": 15,
    "title": "2020 年数学一 第 15 题",
-   "questionText": "（本题满分10分）\n\n求函数 $f(x,y) = x^{3} + 8y^{3} - xy$ 的极值.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "【解析】令$\\left\\{\\begin{aligned}\\frac{\\partial f}{\\partial x}&=3x^{2}-y=0,\\\\ \\frac{\\partial f}{\\partial y}&=24y^{2}-x=0,\\end{aligned}\\right.$ 得驻点$(0,0),\\left(\\frac{1}{6},\\frac{1}{12}\\right)$\n\n$$\\frac{\\partial^{2}f}{\\partial x^{2}}=6x,\\quad\\frac{\\partial^{2}f}{\\partial x\\partial y}=-1,\\quad\\frac{\\partial^{2}f}{\\partial y^{2}}=48y.$$\n\n<div style=\"text-align: center;\"><html><body><table border=\"1\"><tr><td>$(x,y)$</td><td>$A=\\frac{\\partial^{2}f}{\\partial x^{2}}$</td><td>$B=\\frac{\\partial^{2}f}{\\partial x\\partial y}$</td><td>$C=\\frac{\\partial^{2}f}{\\partial y^{2}}$</td><td>$AC-B^{2}$</td><td>极值</td></tr><tr><td>(0,0)</td><td>0</td><td>-1</td><td>0</td><td>$<0$</td><td>无</td></tr><tr><td>$\\left(\\frac{1}{6},\\frac{1}{12}\\right)$</td><td>1</td><td>-1</td><td>4</td><td>$\\geq0$</td><td>极小</td></tr></table></body></html></div>\n\n故$f(x)\\in\\left(\\frac{1}{6},\\frac{1}{12}\\right)$ 处取得极小值且极小值$f\\left(\\frac{1}{6},\\frac{1}{12}\\right)=-\\frac{1}{216}$",
+   "answerText": "答案：极小值 $f\\left(\\tfrac{1}{6},\\tfrac{1}{12}\\right)=-\\dfrac{1}{216}$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -273,11 +526,10 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "extrema",
-    "power_series_sum"
+    "divergence_and_curl"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：divergence_and_curl，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -289,26 +541,23 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.16",
    "number": 16,
    "title": "2020 年数学一 第 16 题",
-   "questionText": "（本题满分10分）\n\n计算曲线积分 $I = \\int_{L} \\frac{4x - y}{4x^2 + y^2} \\mathrm{d}x + \\frac{x + y}{4x^2 + y^2} \\mathrm{d}y$ ，其中 $L$ 是 $x^2 + y^2 = 2$ ，方向为逆时针方向。",
-   "answerText": "（答案待校对补充）",
+   "questionText": "【解析】补线$L_{1}:4x^{2}+y^{2}=r,(r>0$ 且r适当小)取逆时针.\n\n$$\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}=\\frac{4x-y}{4x^{2}+y^{2}}$$",
+   "answerText": "答案：$\\pi$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "curve_surface_integral",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "line_integral_second_kind",
+   "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "line_integral_definition",
-    "orientation"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：line_integral_second_kind，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；审计标记：原 OCR 公式有重复与截断（ Green 公式偏导等式后的中段无法确证），已截断待人工核对原卷；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -320,25 +569,28 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.17",
    "number": 17,
    "title": "2020 年数学一 第 17 题",
-   "questionText": "（本题满分10分）\n\n设数列 $\\{a_{n}\\}$ 满足： $a_1 = 1,(n + 1)a_{n + 1} = \\left(n + \\frac{1}{2}\\right)a_n$ ，证明：当 $|x| < 1$ 时，幂级数 $\\sum_{n = 1}^{\\infty}a_{n}x^{n}$ 收敛，并求其和函数.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "【解析】即证$\\sum_{n=1}^{\\infty}a_{n}x^{n}$ 的收敛半径$R=1$\n\n由于$\\lim_{x\\to\\infty}\\left|\\frac{a_{n+1}}{a_n}\\right|=\\lim_{x\\to\\infty}\\frac{n+\\frac{1}{2}}{n+1}=1$ ,所以$R=1$\n\n当$|x|<1$ 时，记$S(x)=\\sum_{n=1}^{\\infty}a_n x^n$ ,则\n\n$$\\begin{aligned}&S^{\\prime}(x)=\\sum_{n=1}^{\\infty}na_{n}x^{n-1}=\\sum_{n=0}^{\\infty}(n+1)a_{n+1}x^{n}=1+\\sum_{n=1}^{\\infty}(n+\\frac{1}{2})a_{n}x^{n}\\\\ &=1+x\\sum_{n=1}^{\\infty}na_{n}x^{n-1}+\\frac{1}{2}S(x)=1+xS^{\\prime}(x)+\\frac{1}{2}S(x)\\\\ \\end{aligned}$$\n\n所以$(x-1)S^{\\prime}(x)+\\frac{1}{2}S(x)+1=0,$\n\n即\n\n$$S^{\\prime}(x)+\\frac{1}{2(x-1)}S(x)=\\frac{1}{1-x}$$\n\n所以\n\n$$所以S(x)=e^{-\\int\\frac{1}{2(x-1)}dx}\\left[\\int\\frac{1}{1-x}e^{\\int\\frac{1}{2(x-1)}dx}dx+C\\right]$$\n\n$$\\left(1-x\\right)^{-\\frac{1}{2}}\\left[\\int\\frac{1}{1-x}\\sqrt{1-x}d x+C\\right]=\\left(1-x\\right)^{-\\frac{1}{2}}\\left(2\\sqrt{1-x}+C\\right)=\\frac{C}{\\sqrt{1-x}}+2.$$\n\n又$S^{\\prime}(x)=a_{1}=1$ ,所以$C=2$ ,所以$S(x)=\\frac{2}{\\sqrt{1-x}}+2$",
+   "answerText": "答案：$S(x)=\\dfrac{2}{\\sqrt{1-x}}+2$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "infinite_series",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "power_series_sum",
+   "primaryProblemTypeId": "power_series_radius_domain",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "indefinite_integral_formulas",
+    "infinite_interval_integral",
+    "power_series_interval",
+    "power_series_radius"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：power_series_sum，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 infinite_series；自动打标(规则)：power_series_radius_domain、indefinite_integral_formulas、infinite_interval_integral、power_series_interval、power_series_radius，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -350,27 +602,26 @@
     "number": 17
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.18",
    "number": 18,
    "title": "2020 年数学一 第 18 题",
-   "questionText": "（本题满分10分）\n\n设 $\\Sigma$ 为曲面 $z = \\sqrt{x^2 + y^2}$ （ $1 \\leqslant x^2 + y^2 \\leqslant 4$ ）的下侧， $f(x)$ 是连续函数，计算\n\n$$\nI = \\iint_ {\\Sigma} [ x f (x y) + 2 x - y ] d y d z + [ y f (x y) + 2 y + x ] d z d x + [ z f (x y) + z ] d x d y.\n$$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "【解析】该题$f(x)$ 仅为连续函数，不可用高斯公式\n\n$$\\because dS\\cos\\alpha=dydz,dS\\cos\\beta=dzdx,dS\\cos\\gamma=dxdy,$$\n\n$$d y d z=\\frac{\\cos\\alpha}{\\cos\\beta}d x d y,d x d z=\\frac{\\cos\\beta}{\\cos\\gamma}d x d y $$\n\n其中$\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 为$\\Sigma$ 上法向量$\\vec{n}$ 的方向向量.\n\n$$\\begin{aligned}&\\sum:z=\\sqrt{x^{2}+y^{2}},\\quad\\vec{n}=\\left(\\frac{x}{\\sqrt{x^{2}+y^{2}}},\\frac{y}{\\sqrt{x^{2}+y^{2}}},-1\\right)\\\\ &\\therefore dy dz=\\frac{-x}{\\sqrt{x^{2}+y^{2}}}dx dy,dx dz=\\frac{-y}{\\sqrt{x^{2}+y^{2}}}dx dy\\\\ &I=\\iint_{\\Sigma}\\left\\{\\left[xf(xy)+2x-y\\right]\\left(\\frac{-x}{\\sqrt{x^{2}+y^{2}}}\\right)+\\left[yf(xy)+2y+x\\right]\\left(\\frac{-y}{\\sqrt{x^{2}+y^{2}}}\\right)+\\left[zf(xy)+z\\right]dx dy\\right\\}\\\\ \\end{aligned}$$\n\n$$\\begin{aligned}=&\\iint_{\\Sigma}\\left[\\frac{-x^{2}f(xy)-2x^{2}+xy-y^{2}f(xy)-2y^{2}-xy}{\\sqrt{x^{2}+y^{2}}}+zf(xy)+z\\right]dxdy\\\\=&\\iint_{\\Sigma}\\left[\\sqrt{x^{2}+y^{2}}f(xy)-2\\sqrt{x^{2}+y^{2}}+zf(xy)+z\\right]dxdy\\\\=&\\iint_{\\Sigma}\\left[-\\sqrt{x^{2}+y^{2}}f(xy)-2\\sqrt{x^{2}+y^{2}}+\\sqrt{x^{2}+y^{2}}f(xy)+\\sqrt{x^{2}+y^{2}}\\right]dxdy\\\\=&\\iint_{\\Sigma}\\left[-\\sqrt{x^{2}+y^{2}}\\right]dxdy=\\iint_{1\\leq x^{2}+y^{2}\\leq4}\\sqrt{x^{2}+y^{2}}dxdy=\\int_{0}^{2\\pi}d\\theta\\int_{1}^{2}\\rho\\cdot\\rho d\\rho=\\frac{14}{3}\\pi.\\end{aligned}$$",
+   "answerText": "答案：$\\dfrac{14\\pi}{3}$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "geometric_applications_multivariable",
-    "power_series_sum"
+    "gauss_formula",
+    "vector_product"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 curve_surface_integral；自动打标(规则)：gauss_formula、vector_product，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -382,26 +633,25 @@
     "number": 18
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.19",
    "number": 19,
    "title": "2020 年数学一 第 19 题",
-   "questionText": "（本题满分10分）\n\n设函数 $f(x)$ 在区间 $[0,2]$ 上具有连续导数， $f(0) = f(2) = 0, M = \\max_{x\\in [0,2]}\\{|f(x)|\\}$ ，证明：\n\n（I）存在 $\\xi \\in (0,2)$ ，使得 $|f'(\\xi)| \\geqslant M$ ；\n（Ⅱ）若对任意的 $x\\in (0,2),|f'(x)|\\leqslant M$ ，则 $M = 0$",
+   "questionText": "【解析】（1）若$M=0$ ,则在$[0,2]\\models f(x)\\equiv0$\n\n所以$\\forall\\xi\\in(0,2)$ ,有$f^{\\prime}(\\xi)=0\\geq0=M$ 成立.\n\n若$M>0$ ,则设$\\exists c\\in(0,2)$ 使$f(c)=M$\n\n由拉格朗日中值定理，$\\exists\\xi_{1}\\in(0,c) 与 \\exists\\xi_{2}\\in(c,2)$ ,使\n\n$$f^{\\prime}(\\xi_{1})=\\frac{f(c)-f(0)}{c-0}=\\frac{M}{c},f^{\\prime}(\\xi_{2})=\\frac{f(2)-f(c)}{2-c}=-\\frac{M}{2-c}$$\n\n所以|$f^{\\prime}(\\xi_{1})=\\frac{M}{c},\\quad|f^{\\prime}(\\xi_{2})|=\\frac{M}{2-c}$\n\n若$c\\in(0,1]$ ,则可取$\\xi=\\xi_{1}$ ,有|$f^{\\prime}(\\xi)=\\frac{M}{c}\\geq M$\n\n若$c\\in(1,2)$ ,则可取$\\xi=\\xi_{2}$ ,有|$f^{\\prime}(\\xi)\\mid=\\frac{M}{2-c}\\geq M$\n\n综上所示，$\\xi\\in(0,2)$ ,使|$f^{\\prime}(\\xi)\\geq M$",
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
+    "mean_value_theorem"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：mean_value_theorem，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -413,27 +663,26 @@
     "number": 19
    },
    "subjectGuess": "calculus",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.20",
    "number": 20,
    "title": "2020 年数学一 第 20 题",
-   "questionText": "（本题满分11分）\n\n设二次型 $f(x_{1},x_{2}) = x_{1}^{2} - 4x_{1}x_{2} + 4x_{2}^{2}$ 经正交变换 $\\binom{x_1}{x_2}=\\mathbf{Q}\\binom{y_1}{y_2}$ 化为二次型 $g(y_{1},y_{2}) = ay_{1}^{2} + 4y_{1}y_{2} + by_{2}^{2}$ ，其中 $a\\geqslant b$\n\n（I）求 $a, b$ 的值；\n（Ⅱ）求正交矩阵 $Q$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设$A=\\begin{pmatrix}1&-2\\\\ -2&4\\end{pmatrix},B=\\begin{pmatrix}a&2\\\\ 2&b\\end{pmatrix}$ ，由题，存在正交矩阵Q，使得$Q^{T}AQ=B$ ，即A与B\n\n合同，且A与B相似，故$\\left\\{\\begin{aligned}&|A|=|B|\\\\ &tr(A)=tr(B)\\end{aligned}\\right.$ ，从而$\\left\\{\\begin{aligned}ab-4&=0\\\\ a+b&=5\\end{aligned}\\right.$\n\n又由于$a\\geq b$ ，所以$a=4,b=1$\n\n会$\\left|A-\\lambda E\\right|=\\left|\\begin{matrix}1-\\lambda&-2\\\\ -2&4-\\lambda\\end{matrix}\\right|=\\lambda(\\lambda-5)=0$ ，得$\\lambda_{1}=0,\\lambda_{2}=5$\n\n当$\\lambda_{1}=0$ 时，求解$AX=0$ ,得$\\alpha_{1}=(2,1)^{T}$ ;\n\n当$\\lambda_{2}=5$ 时，求解$(A-5E)X=0$ ,得$\\alpha_{2}=(-1,2)^{T}$\n\n所以存在正交阵$P_{1}=\\begin{pmatrix}\\dfrac{2}{\\sqrt{5}}&-\\dfrac{1}{\\sqrt{5}}\\\\ \\dfrac{1}{\\sqrt{5}}&\\dfrac{2}{\\sqrt{5}}\\end{pmatrix}$ ，使得$P_{1}^{T}AP_{1}=\\Lambda=\\begin{pmatrix}0&\\\\&5\\end{pmatrix}$\n\n当$\\lambda_{1}=0$ 时，求解$BX=0$ ,得$\\beta_{1}=(-1,2)^{T}$\n\n当$\\lambda_{2}=5$ 时，求解$(B-5E)X=0$ ,得$\\alpha_{2}=(2,1)^{T}$\n\n所以存在正交阵$P_{2}=\\left(\\begin{aligned}-\\frac{1}{\\sqrt{5}}&\\quad\\frac{2}{\\sqrt{5}}\\\\\\frac{2}{\\sqrt{5}}&\\quad\\frac{1}{\\sqrt{5}}\\end{aligned}\\right)$ ，使得$P_{2}^{T}BP_{2}=\\Lambda=\\begin{pmatrix}0&\\\\&5\\end{pmatrix}$\n\n从而$P_{1}^{T}AP_{1}=\\begin{pmatrix}0&\\\\&5\\end{pmatrix}=P_{2}^{T}BP_{2}$ $P_{2}P_{1}^{T}AP_{1}P_{2}^{T}=B$ ,所以$Q=P_{1}P_{2}^{T}=\\left(\\begin{aligned}-\\frac{4}{5}&\\quad\\frac{3}{5}\\\\ \\frac{3}{5}&\\quad\\frac{4}{5}\\end{aligned}\\right),$",
+   "answerText": "答案：$a=4,\\ b=1$，$Q=P_{1}P_{2}^{T}=\\begin{pmatrix}-\\frac45&\\frac35\\\\\\frac35&\\frac45\\end{pmatrix}$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.quadratic_forms",
+   "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
+   "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.orthogonal_matrix",
-    "la.knowledge.standard_form",
-    "la.knowledge.matrix_transpose"
+    "la.knowledge.contract",
+    "la.knowledge.similarity_concept"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.orthogonal_standard_form，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；自动打标(规则)：la.knowledge.contract、la.knowledge.similarity_concept，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -445,27 +694,25 @@
     "number": 20
    },
    "subjectGuess": "linear_algebra",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.21",
    "number": 21,
    "title": "2020 年数学一 第 21 题",
-   "questionText": "（本题满分11分）\n\n设 $A$ 为2阶矩阵， $P = (\\alpha ,A\\alpha)$ ，其中 $\\pmb{\\alpha}$ 是非零向量且不是 $A$ 的特征向量\n\n（I）证明 $P$ 为可逆矩阵；\n（Ⅱ）若 $A^2\\alpha + A\\alpha - 6\\alpha = 0$ ，求 $P^{-1}AP$ ，并判断 $A$ 是否相似于对角矩阵.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "（1）因为α是非0向量，且不是A的特征向量，\n\n所以$A\\alpha\\ne\\lambda\\alpha$ ，λ为任意实数，\n\n所以，$P=(\\alpha,A\\alpha)$ 的2列向量不成比例\n\n所以α、Aα线性无关，从而$R(P)=2$ ，所以P可逆.\n\n(2) 由于$AP=A(\\alpha,A\\alpha)=(A\\alpha,A^2\\alpha)=(A\\alpha,6\\alpha-A\\alpha)\\binom{0\\quad6}{1\\quad-1}$\n\n所以，$AP=\\begin{pmatrix}0&6\\\\ 1&-1\\end{pmatrix}$ ，又因为P可逆，所以$P^{-1}AP=\\begin{pmatrix}0&6\\\\ 1&-1\\end{pmatrix}$\n\n所以，$B=\\begin{pmatrix}0&6\\\\ 1&-1\\end{pmatrix}, 又 \\left|B-\\lambda E\\right|=0.$ ，所以，$\\lambda^{2}+\\lambda-6=0$\n\n从而$\\lambda_{1}=-3,\\lambda_{2}=2$\n\n所以B的两个特征向量互不相同，从而B可对角化\n\n又A与B相似，所以A可对角化.",
+   "answerText": "答案：$R(P)=2$（P 可逆）；$B=P^{-1}AP=\\begin{pmatrix}0&6\\\\1&-1\\end{pmatrix}$，特征值 $-3,2$ 互异，故 A 可对角化",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
+   "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.matrix_transpose"
+    "la.knowledge.diagonalization_criteria"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 la.chapter.vectors；自动打标(规则)：la.knowledge.diagonalization_criteria，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -477,27 +724,26 @@
     "number": 21
    },
    "subjectGuess": "linear_algebra",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   },
   {
    "id": "bank.exam.m1-2020.22",
    "number": 22,
    "title": "2020 年数学一 第 22 题",
-   "questionText": "（本题满分11分）\n\n设随机变量 $X_{1}, X_{2}, X_{3}$ 相互独立，其中 $X_{1}$ 与 $X_{2}$ 均服从标准正态分布， $X_{3}$ 的概率分布为 $P\\{X_{3} = 0\\} = P\\{X_{3} = 1\\} = \\frac{1}{2}.$ $Y = X_{3}X_{1} + (1 - X_{3})X_{2}.$\n\n（I）求二维随机变量 $(X_{1},Y)$ 的分布函数，结果用标准正态分布函数 $\\Phi (x)$ 表示；\n（Ⅱ）证明随机变量 $Y$ 服从标准正态分布，",
-   "answerText": "（答案待校对补充）",
+   "questionText": "答案：（1)\n\n$$\\begin{aligned}&F(x,y)=P(X_{1}\\leq x,X_{3}X_{1}+(1-X_{3})X_{2}\\leq y)\\\\=&P(X_{1}\\leq x,X_{3}=0,X_{2}\\leq y)+P(X_{1}\\leq x,X_{3}=1,X_{1}\\leq y)\\\\=&P(X_{1}\\leq x_{1})P(X_{3}=0)P(X_{2}\\leq y)+P(X_{3}=1)P(X_{1}\\leq x_{1},X_{1}\\leq y)\\\\=&\\frac{1}{2}\\Phi(x)\\Phi(y)+\\frac{1}{2}\\Phi(\\min(x,y))\\end{aligned}$$\n\n(2)令Y得分布函数$F(y)$ ,对于$y\\in R$\n\n$$\\begin{aligned}&F(y)=P(Y\\leq y)=P(X_3X_1+(1-X_3)X_2\\leq y)\\\\=&P(X_3=0,X_2\\leq y)+P(X_3=1,X_1\\leq y)\\\\=&P(X_3=0)P(X_2\\leq y)+P(X_3=1)P(X_1\\leq y)\\\\=&\\frac{1}{2}P(X_2\\leq y)+\\frac{1}{2}P(X_1\\leq y)=\\frac{1}{2}\\Phi(y)+\\frac{1}{2}\\Phi(y)=\\Phi(y).\\end{aligned}$$\n\n因此Y服从标准正态分布",
+   "answerText": "答案：（1）$F(x,y)=\\tfrac12\\Phi(x)\\Phi(y)+\\tfrac12\\Phi(\\min(x,y))$；（2）$Y\\sim N(0,1)$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.distribution_function_properties",
+   "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.distribution_function",
-    "prob.knowledge.normal_distribution",
-    "prob.knowledge.random_variables_independence"
+    "prob.knowledge.normal_distribution"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；自动打标(规则)：prob.type.distribution_function_properties，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_variables；自动打标(规则)：prob.knowledge.distribution_function、prob.knowledge.normal_distribution，待人工复核；答案由 OCR 解析卷回填（16 为验算值）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -509,39 +755,8 @@
     "number": 22
    },
    "subjectGuess": "probability_statistics",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
-  },
-  {
-   "id": "bank.exam.m1-2020.23",
-   "number": 23,
-   "title": "2020 年数学一 第 23 题",
-   "questionText": "（本题满分11分）\n\n设某元件的使用寿命 $T$ 的分布函数为\n\n$$\nF (t) = \\left\\{ \\begin{array}{l l} 1 - \\mathrm {e} ^ {- \\left(\\frac {t}{\\theta}\\right) ^ {m}}, t \\geqslant 0, \\\\ 0, & \\text {其 他}, \\end{array} \\right.\n$$\n\n其中 $\\theta ,m$ 为参数且大于零\n\n（I）求概率 $P\\{T > t\\}$ 与 $P\\{T > s + t \\mid T > s\\}$ ，其中 $s > 0, t > 0$ ；\n（Ⅱ）任取 $n$ 个这种元件做寿命试验，测得它们的寿命分别为 $t_1, t_2, \\dots, t_n$ ，若 $m$ 已知，求 $\\theta$ 的最大似然估计值 $\\hat{\\theta}$",
-   "answerText": "（答案待校对补充）",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "prob.chapter.random_variables",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "prob.type.distribution_function_properties",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "prob.knowledge.distribution_function",
-    "prob.knowledge.probability_properties",
-    "prob.knowledge.functions_of_random_variables"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；自动打标(规则)：prob.type.distribution_function_properties，待人工复核",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2020,
-    "paper": "math1",
-    "number": 23
-   },
-   "subjectGuess": "probability_statistics",
-   "section": "三、解答题（15～23小题，共94分.解答应写出文字说明、证明过程或演算步骤.）"
+   "section": ""
   }
- ]
+ ],
+ "notes": ""
 }

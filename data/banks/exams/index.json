@@ -1,576 +1,576 @@
 [
-  {
-    "year": 1987,
-    "paper": "math1",
-    "total": 21,
-    "withAnswer": 21,
-    "file": "data/banks/exams/math1/1987.json"
-  },
-  {
-    "year": 1988,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/1988.json"
-  },
-  {
-    "year": 1989,
-    "paper": "math1",
-    "total": 24,
-    "withAnswer": 24,
-    "file": "data/banks/exams/math1/1989.json"
-  },
-  {
-    "year": 1990,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/1990.json"
-  },
-  {
-    "year": 1991,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/1991.json"
-  },
-  {
-    "year": 1992,
-    "paper": "math1",
-    "total": 24,
-    "withAnswer": 24,
-    "file": "data/banks/exams/math1/1992.json"
-  },
-  {
-    "year": 1993,
-    "paper": "math1",
-    "total": 25,
-    "withAnswer": 25,
-    "file": "data/banks/exams/math1/1993.json"
-  },
-  {
-    "year": 1995,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/1995.json"
-  },
-  {
-    "year": 1996,
-    "paper": "math1",
-    "total": 26,
-    "withAnswer": 26,
-    "file": "data/banks/exams/math1/1996.json"
-  },
-  {
-    "year": 1997,
-    "paper": "math1",
-    "total": 24,
-    "withAnswer": 24,
-    "file": "data/banks/exams/math1/1997.json"
-  },
-  {
-    "year": 1998,
-    "paper": "math1",
-    "total": 24,
-    "withAnswer": 24,
-    "file": "data/banks/exams/math1/1998.json"
-  },
-  {
-    "year": 1999,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/1999.json"
-  },
-  {
-    "year": 2000,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2000.json"
-  },
-  {
-    "year": 2001,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2001.json"
-  },
-  {
-    "year": 2002,
-    "paper": "math1",
-    "total": 25,
-    "withAnswer": 25,
-    "file": "data/banks/exams/math1/2002.json"
-  },
-  {
-    "year": 2003,
-    "paper": "math1",
-    "total": 30,
-    "withAnswer": 30,
-    "file": "data/banks/exams/math1/2003.json"
-  },
-  {
-    "year": 2004,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2004.json"
-  },
-  {
-    "year": 2005,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2005.json"
-  },
-  {
-    "year": 2006,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2006.json"
-  },
-  {
-    "year": 2007,
-    "paper": "math1",
-    "total": 24,
-    "withAnswer": 24,
-    "file": "data/banks/exams/math1/2007.json"
-  },
-  {
-    "year": 2008,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2008.json"
-  },
-  {
-    "year": 2009,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2009.json"
-  },
-  {
-    "year": 2010,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2010.json"
-  },
-  {
-    "year": 2011,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2011.json"
-  },
-  {
-    "year": 2012,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2012.json"
-  },
-  {
-    "year": 2013,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2013.json"
-  },
-  {
-    "year": 2014,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2014.json"
-  },
-  {
-    "year": 2015,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2015.json"
-  },
-  {
-    "year": 2016,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2016.json"
-  },
-  {
-    "year": 2017,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2017.json"
-  },
-  {
-    "year": 2018,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2018.json"
-  },
-  {
-    "year": 2019,
-    "paper": "math1",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math1/2019.json"
-  },
-  {
-    "year": 2020,
-    "paper": "math1",
-    "total": 14,
-    "withAnswer": 14,
-    "file": "data/banks/exams/math1/2020.json"
-  },
-  {
-    "year": 2021,
-    "paper": "math1",
-    "total": 13,
-    "withAnswer": 13,
-    "file": "data/banks/exams/math1/2021.json"
-  },
-  {
-    "year": 2023,
-    "paper": "math1",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math1/2023.json"
-  },
-  {
-    "year": 2024,
-    "paper": "math1",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math1/2024.json"
-  },
-  {
-    "year": 2025,
-    "paper": "math1",
-    "total": 8,
-    "withAnswer": 8,
-    "file": "data/banks/exams/math1/2025.json"
-  },
-  {
-    "year": 2026,
-    "paper": "math1",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math1/2026.json"
-  },
-  {
-    "year": 1987,
-    "paper": "math2",
-    "total": 19,
-    "withAnswer": 19,
-    "file": "data/banks/exams/math2/1987.json"
-  },
-  {
-    "year": 1988,
-    "paper": "math2",
-    "total": 19,
-    "withAnswer": 19,
-    "file": "data/banks/exams/math2/1988.json"
-  },
-  {
-    "year": 1989,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/1989.json"
-  },
-  {
-    "year": 1990,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/1990.json"
-  },
-  {
-    "year": 1991,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/1991.json"
-  },
-  {
-    "year": 1992,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/1992.json"
-  },
-  {
-    "year": 1993,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/1993.json"
-  },
-  {
-    "year": 1994,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/1994.json"
-  },
-  {
-    "year": 1995,
-    "paper": "math2",
-    "total": 21,
-    "withAnswer": 21,
-    "file": "data/banks/exams/math2/1995.json"
-  },
-  {
-    "year": 1996,
-    "paper": "math2",
-    "total": 21,
-    "withAnswer": 21,
-    "file": "data/banks/exams/math2/1996.json"
-  },
-  {
-    "year": 1997,
-    "paper": "math2",
-    "total": 21,
-    "withAnswer": 21,
-    "file": "data/banks/exams/math2/1997.json"
-  },
-  {
-    "year": 1998,
-    "paper": "math2",
-    "total": 21,
-    "withAnswer": 21,
-    "file": "data/banks/exams/math2/1998.json"
-  },
-  {
-    "year": 1999,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/1999.json"
-  },
-  {
-    "year": 2000,
-    "paper": "math2",
-    "total": 21,
-    "withAnswer": 21,
-    "file": "data/banks/exams/math2/2000.json"
-  },
-  {
-    "year": 2001,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/2001.json"
-  },
-  {
-    "year": 2002,
-    "paper": "math2",
-    "total": 20,
-    "withAnswer": 20,
-    "file": "data/banks/exams/math2/2002.json"
-  },
-  {
-    "year": 2003,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2003.json"
-  },
-  {
-    "year": 2004,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2004.json"
-  },
-  {
-    "year": 2005,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2005.json"
-  },
-  {
-    "year": 2006,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2006.json"
-  },
-  {
-    "year": 2007,
-    "paper": "math2",
-    "total": 24,
-    "withAnswer": 24,
-    "file": "data/banks/exams/math2/2007.json"
-  },
-  {
-    "year": 2008,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2008.json"
-  },
-  {
-    "year": 2009,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2009.json"
-  },
-  {
-    "year": 2010,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2010.json"
-  },
-  {
-    "year": 2011,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2011.json"
-  },
-  {
-    "year": 2012,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2012.json"
-  },
-  {
-    "year": 2013,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2013.json"
-  },
-  {
-    "year": 2014,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2014.json"
-  },
-  {
-    "year": 2015,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2015.json"
-  },
-  {
-    "year": 2016,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2016.json"
-  },
-  {
-    "year": 2017,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2017.json"
-  },
-  {
-    "year": 2018,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2018.json"
-  },
-  {
-    "year": 2019,
-    "paper": "math2",
-    "total": 23,
-    "withAnswer": 23,
-    "file": "data/banks/exams/math2/2019.json"
-  },
-  {
-    "year": 2020,
-    "paper": "math2",
-    "total": 4,
-    "withAnswer": 4,
-    "file": "data/banks/exams/math2/2020.json"
-  },
-  {
-    "year": 2021,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2021.json"
-  },
-  {
-    "year": 2022,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2022.json"
-  },
-  {
-    "year": 2023,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2023.json"
-  },
-  {
-    "year": 2024,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2024.json"
-  },
-  {
-    "year": 2025,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2025.json"
-  },
-  {
-    "year": 2026,
-    "paper": "math2",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math2/2026.json"
-  },
-  {
-    "year": 2021,
-    "paper": "math3",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math3/2021.json"
-  },
-  {
-    "year": 2022,
-    "paper": "math3",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math3/2022.json"
-  },
-  {
-    "year": 2023,
-    "paper": "math3",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math3/2023.json"
-  },
-  {
-    "year": 2024,
-    "paper": "math3",
-    "total": 22,
-    "withAnswer": 22,
-    "file": "data/banks/exams/math3/2024.json"
-  }
+ {
+  "year": 1987,
+  "paper": "math1",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math1/1987.json"
+ },
+ {
+  "year": 1988,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/1988.json"
+ },
+ {
+  "year": 1989,
+  "paper": "math1",
+  "total": 24,
+  "withAnswer": 24,
+  "file": "data/banks/exams/math1/1989.json"
+ },
+ {
+  "year": 1990,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/1990.json"
+ },
+ {
+  "year": 1991,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/1991.json"
+ },
+ {
+  "year": 1992,
+  "paper": "math1",
+  "total": 24,
+  "withAnswer": 24,
+  "file": "data/banks/exams/math1/1992.json"
+ },
+ {
+  "year": 1993,
+  "paper": "math1",
+  "total": 25,
+  "withAnswer": 25,
+  "file": "data/banks/exams/math1/1993.json"
+ },
+ {
+  "year": 1995,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/1995.json"
+ },
+ {
+  "year": 1996,
+  "paper": "math1",
+  "total": 26,
+  "withAnswer": 26,
+  "file": "data/banks/exams/math1/1996.json"
+ },
+ {
+  "year": 1997,
+  "paper": "math1",
+  "total": 24,
+  "withAnswer": 24,
+  "file": "data/banks/exams/math1/1997.json"
+ },
+ {
+  "year": 1998,
+  "paper": "math1",
+  "total": 24,
+  "withAnswer": 24,
+  "file": "data/banks/exams/math1/1998.json"
+ },
+ {
+  "year": 1999,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/1999.json"
+ },
+ {
+  "year": 2000,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2000.json"
+ },
+ {
+  "year": 2001,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2001.json"
+ },
+ {
+  "year": 2002,
+  "paper": "math1",
+  "total": 25,
+  "withAnswer": 25,
+  "file": "data/banks/exams/math1/2002.json"
+ },
+ {
+  "year": 2003,
+  "paper": "math1",
+  "total": 30,
+  "withAnswer": 30,
+  "file": "data/banks/exams/math1/2003.json"
+ },
+ {
+  "year": 2004,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2004.json"
+ },
+ {
+  "year": 2005,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2005.json"
+ },
+ {
+  "year": 2006,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2006.json"
+ },
+ {
+  "year": 2007,
+  "paper": "math1",
+  "total": 24,
+  "withAnswer": 24,
+  "file": "data/banks/exams/math1/2007.json"
+ },
+ {
+  "year": 2008,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2008.json"
+ },
+ {
+  "year": 2009,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2009.json"
+ },
+ {
+  "year": 2010,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2010.json"
+ },
+ {
+  "year": 2011,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2011.json"
+ },
+ {
+  "year": 2012,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2012.json"
+ },
+ {
+  "year": 2013,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2013.json"
+ },
+ {
+  "year": 2014,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2014.json"
+ },
+ {
+  "year": 2015,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2015.json"
+ },
+ {
+  "year": 2016,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2016.json"
+ },
+ {
+  "year": 2017,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2017.json"
+ },
+ {
+  "year": 2018,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2018.json"
+ },
+ {
+  "year": 2019,
+  "paper": "math1",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math1/2019.json"
+ },
+ {
+  "year": 2020,
+  "paper": "math1",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math1/2020.json"
+ },
+ {
+  "year": 2021,
+  "paper": "math1",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math1/2021.json"
+ },
+ {
+  "year": 2023,
+  "paper": "math1",
+  "total": 22,
+  "withAnswer": 15,
+  "file": "data/banks/exams/math1/2023.json"
+ },
+ {
+  "year": 2024,
+  "paper": "math1",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math1/2024.json"
+ },
+ {
+  "year": 2025,
+  "paper": "math1",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math1/2025.json"
+ },
+ {
+  "year": 2026,
+  "paper": "math1",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math1/2026.json"
+ },
+ {
+  "year": 1987,
+  "paper": "math2",
+  "total": 19,
+  "withAnswer": 19,
+  "file": "data/banks/exams/math2/1987.json"
+ },
+ {
+  "year": 1988,
+  "paper": "math2",
+  "total": 19,
+  "withAnswer": 19,
+  "file": "data/banks/exams/math2/1988.json"
+ },
+ {
+  "year": 1989,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/1989.json"
+ },
+ {
+  "year": 1990,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/1990.json"
+ },
+ {
+  "year": 1991,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/1991.json"
+ },
+ {
+  "year": 1992,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/1992.json"
+ },
+ {
+  "year": 1993,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/1993.json"
+ },
+ {
+  "year": 1994,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/1994.json"
+ },
+ {
+  "year": 1995,
+  "paper": "math2",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math2/1995.json"
+ },
+ {
+  "year": 1996,
+  "paper": "math2",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math2/1996.json"
+ },
+ {
+  "year": 1997,
+  "paper": "math2",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math2/1997.json"
+ },
+ {
+  "year": 1998,
+  "paper": "math2",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math2/1998.json"
+ },
+ {
+  "year": 1999,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/1999.json"
+ },
+ {
+  "year": 2000,
+  "paper": "math2",
+  "total": 21,
+  "withAnswer": 21,
+  "file": "data/banks/exams/math2/2000.json"
+ },
+ {
+  "year": 2001,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/2001.json"
+ },
+ {
+  "year": 2002,
+  "paper": "math2",
+  "total": 20,
+  "withAnswer": 20,
+  "file": "data/banks/exams/math2/2002.json"
+ },
+ {
+  "year": 2003,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2003.json"
+ },
+ {
+  "year": 2004,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2004.json"
+ },
+ {
+  "year": 2005,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2005.json"
+ },
+ {
+  "year": 2006,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2006.json"
+ },
+ {
+  "year": 2007,
+  "paper": "math2",
+  "total": 24,
+  "withAnswer": 24,
+  "file": "data/banks/exams/math2/2007.json"
+ },
+ {
+  "year": 2008,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2008.json"
+ },
+ {
+  "year": 2009,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2009.json"
+ },
+ {
+  "year": 2010,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2010.json"
+ },
+ {
+  "year": 2011,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2011.json"
+ },
+ {
+  "year": 2012,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2012.json"
+ },
+ {
+  "year": 2013,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2013.json"
+ },
+ {
+  "year": 2014,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2014.json"
+ },
+ {
+  "year": 2015,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2015.json"
+ },
+ {
+  "year": 2016,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2016.json"
+ },
+ {
+  "year": 2017,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2017.json"
+ },
+ {
+  "year": 2018,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2018.json"
+ },
+ {
+  "year": 2019,
+  "paper": "math2",
+  "total": 23,
+  "withAnswer": 23,
+  "file": "data/banks/exams/math2/2019.json"
+ },
+ {
+  "year": 2020,
+  "paper": "math2",
+  "total": 4,
+  "withAnswer": 4,
+  "file": "data/banks/exams/math2/2020.json"
+ },
+ {
+  "year": 2021,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2021.json"
+ },
+ {
+  "year": 2022,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2022.json"
+ },
+ {
+  "year": 2023,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2023.json"
+ },
+ {
+  "year": 2024,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2024.json"
+ },
+ {
+  "year": 2025,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2025.json"
+ },
+ {
+  "year": 2026,
+  "paper": "math2",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math2/2026.json"
+ },
+ {
+  "year": 2021,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math3/2021.json"
+ },
+ {
+  "year": 2022,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math3/2022.json"
+ },
+ {
+  "year": 2023,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math3/2023.json"
+ },
+ {
+  "year": 2024,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math3/2024.json"
+ }
 ]
