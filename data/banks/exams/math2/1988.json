@@ -5,7 +5,7 @@
  "year": 1988,
  "paper": "math2",
  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1988-2.md",
  "paperInfo": {
   "year": 1988,
@@ -15,6 +15,10 @@
    "一、填空题",
    "二、选择题",
    "三、计算题",
+   "四、计算题",
+   "五、应用题",
+   "六、计算题",
+   "七、计算题",
    "八、证明题"
   ],
   "problemsOrder": [
@@ -57,13 +61,13 @@
    {
     "number": 7,
     "id": "bank.exam.m2-1988.7",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m2-1988.8",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -82,53 +86,77 @@
     "number": 11,
     "id": "bank.exam.m2-1988.11",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 12,
     "id": "bank.exam.m2-1988.12",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 13,
     "id": "bank.exam.m2-1988.13",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 14,
     "id": "bank.exam.m2-1988.14",
-    "subjectGuess": "linear_algebra",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 15,
     "id": "bank.exam.m2-1988.15",
     "subjectGuess": "calculus",
     "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m2-1988.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m2-1988.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m2-1988.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m2-1988.19",
+    "subjectGuess": "calculus",
+    "objective": false
    }
   ],
-  "total": 15
+  "total": 19
  },
  "problems": [
   {
    "id": "bank.exam.m2-1988.1",
    "number": 1,
    "title": "1988 年数学二 第 1 题",
-   "questionText": "设\n$f\\left(x\\right)=\\begin{cases}2x+a, & x\\le 0,\\\\e^{x}\\left(\\sin x+\\cos x\\right), & x>0,\\end{cases}$\n\n在 $\\left(-\\infty,+\\infty\\right)$ 内连续，则 $a=$ ________。",
-   "answerText": "$1$\n\n**解析：**\n由连续性知 $f\\left(0-0\\right)=f\\left(0+0\\right)$。又 $f\\left(0-0\\right)=a$，$f\\left(0+0\\right)=1$，故 $a=1$。\n\n---",
+   "questionText": "设\n\n$f\\left(x\\right)=\\begin{cases}2x+a, & x\\le 0,\\\\e^{x}\\left(\\sin x+\\cos x\\right), & x>0,\\end{cases}$\n\n在 $\\left(-\\infty,+\\infty\\right)$ 内连续，则 $a=$ ________。",
+   "answerText": "$1$\n\n**解析：**\n$f$ 在 $0$ 处左极限为 $a$，右极限为 $e^{0}\\left(\\sin 0+\\cos 0\\right)=1$，由连续性得 $a=1$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "continuity_and_discontinuity",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity"
+    "continuity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -146,17 +174,20 @@
    "id": "bank.exam.m2-1988.2",
    "number": 2,
    "title": "1988 年数学二 第 2 题",
-   "questionText": "设\n$f\\left(t\\right)=\\lim_{x\\to\\infty}t\\left(1+\\dfrac{1}{x}\\right)^{2tx}$，\n\n则 $f^{\\prime}\\left(t\\right)=$ ________。",
-   "answerText": "$\\left(1+2t\\right)e^{2t}$\n\n**解析：**\n由重要极限得 $f\\left(t\\right)=te^{2t}$，故 $f^{\\prime}\\left(t\\right)=e^{2t}+2te^{2t}=\\left(1+2t\\right)e^{2t}$。\n\n---",
+   "questionText": "设\n\n$f\\left(t\\right)=\\lim_{x\\to\\infty}t\\left(1+\\dfrac{1}{x}\\right)^{2tx}$，\n\n则 $f^{\\prime}\\left(t\\right)=$ ________。",
+   "answerText": "$\\left(1+2t\\right)e^{2t}$\n\n**解析：**\n由重要极限，对每个固定的 $t$ 有 $f\\left(t\\right)=t\\left[\\lim_{x\\to\\infty}\\left(1+\\dfrac{1}{x}\\right)^{x}\\right]^{2t}=te^{2t}$，求导得 $f^{\\prime}\\left(t\\right)=e^{2t}+2te^{2t}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "important_limits",
+    "composite_derivative"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -174,19 +205,19 @@
    "id": "bank.exam.m2-1988.3",
    "number": 3,
    "title": "1988 年数学二 第 3 题",
-   "questionText": "设 $f\\left(x\\right)$ 连续，且\n$\\int_{0}^{x^{3}-1}f\\left(t\\right)\\mathrm{~d}t=x$，\n\n则 $f\\left(7\\right)=$ ________。",
-   "answerText": "$\\dfrac{1}{12}$\n\n**解析：**\n两边对 $x$ 求导，得 $3x^{2}f\\left(x^{3}-1\\right)=1$。令 $x=2$，则 $x^{3}-1=7$，所以 $12f\\left(7\\right)=1$，即 $f\\left(7\\right)=\\dfrac{1}{12}$。\n\n---",
+   "questionText": "设 $f\\left(x\\right)$ 连续，且\n\n$\\int_{0}^{x^{3}-1}f\\left(t\\right)\\mathrm{~d}t=x$，\n\n则 $f\\left(7\\right)=$ ________。",
+   "answerText": "$\\dfrac{1}{12}$\n\n**解析：**\n对 $\\int_{0}^{x^{3}-1}f\\left(t\\right)\\mathrm{~d}t=x$ 两边关于 $x$ 求导，得 $3x^{2}f\\left(x^{3}-1\\right)=1$。取 $x=2$（此时上限恰为 $7$），得 $12f\\left(7\\right)=1$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity"
+    "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -205,16 +236,18 @@
    "number": 4,
    "title": "1988 年数学二 第 4 题",
    "questionText": "$\\lim_{x\\to 0^{+}}\\left(\\dfrac{1}{\\sqrt{x}}\\right)^{\\tan x}=$ ________。",
-   "answerText": "$1$\n\n**解析：**\n设原式为 $L$，则 $\\ln L=-\\dfrac{1}{2}\\lim_{x\\to 0^{+}}\\tan x\\ln x=0$，故 $L=e^{0}=1$。\n\n---",
+   "answerText": "$1$\n\n**解析：**\n设原式为 $L$，取对数得 $\\ln L=-\\dfrac{1}{2}\\tan x\\,\\ln x\\to0$（因 $x\\ln x\\to0$），故 $L=e^{0}=1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -233,16 +266,18 @@
    "number": 5,
    "title": "1988 年数学二 第 5 题",
    "questionText": "$\\int_{0}^{4}e^{\\sqrt{x}}\\mathrm{~d}x=$ ________。",
-   "answerText": "$2\\left(e^{2}+1\\right)$\n\n**解析：**\n令 $t=\\sqrt{x}$，则 $\\mathrm{d}x=2t\\mathrm{~d}t$。于是\n\n$\\int_{0}^{4}e^{\\sqrt{x}}\\mathrm{~d}x=2\\int_{0}^{2}te^{t}\\mathrm{~d}t=2\\left[\\left(t-1\\right)e^{t}\\right]_{0}^{2}=2\\left(e^{2}+1\\right)$。\n\n---",
+   "answerText": "$2\\left(e^{2}+1\\right)$\n\n**解析：**\n令 $t=\\sqrt{x}$（$x=t^{2}$），积分化为 $2\\int_{0}^{2}te^{t}\\mathrm{~d}t$，分部积分得 $2\\left[\\left(t-1\\right)e^{t}\\right]_{0}^{2}=2\\left(e^{2}+1\\right)$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_substitution"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -260,20 +295,19 @@
    "id": "bank.exam.m2-1988.6",
    "number": 6,
    "title": "1988 年数学二 第 6 题",
-   "questionText": "$f\\left(x\\right)=\\dfrac{1}{3}x^{3}+\\dfrac{1}{2}x^{2}+6x+1$ 的图形在点 $\\left(0,1\\right)$ 处的切线与 $x$ 轴交点的坐标是（ ）\nA. $\\left(-\\dfrac{1}{6},0\\right)$\nB. $\\left(-1,0\\right)$\nC. $\\left(\\dfrac{1}{6},0\\right)$\nD. $\\left(1,0\\right)$",
-   "answerText": "A\n\n**解析：**\n$f^{\\prime}\\left(x\\right)=x^{2}+x+6$，故 $f^{\\prime}\\left(0\\right)=6$。切线方程为 $y-1=6x$，令 $y=0$，得 $x=-\\dfrac{1}{6}$，故选 A。\n\n---",
+   "questionText": "$f\\left(x\\right)=\\dfrac{1}{3}x^{3}+\\dfrac{1}{2}x^{2}+6x+1$ 的图形在点 $\\left(0,1\\right)$ 处的切线与 $x$ 轴交点的坐标是（ ）\n\nA. $\\left(-\\dfrac{1}{6},0\\right)$\nB. $\\left(-1,0\\right)$\nC. $\\left(\\dfrac{1}{6},0\\right)$\nD. $\\left(1,0\\right)$",
+   "answerText": "A\n\n**解析：**\n切线斜率 $f^{\\prime}\\left(0\\right)=6$，切线为 $y=6x+1$，令 $y=0$ 得交点横坐标 $-\\dfrac{1}{6}$。选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "quadric_surface_equations",
-    "geometric_applications_multivariable"
+    "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -291,17 +325,19 @@
    "id": "bank.exam.m2-1988.7",
    "number": 7,
    "title": "1988 年数学二 第 7 题",
-   "questionText": "若 $f\\left(x\\right)$ 与 $g\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 上皆可导，且 $f\\left(x\\right)<g\\left(x\\right)$，则必有（ ）\nA. $f\\left(-x\\right)>g\\left(-x\\right)$\nB. $f^{\\prime}\\left(x\\right)<g^{\\prime}\\left(x\\right)$\nC. $\\lim_{x\\to x_{0}}f\\left(x\\right)<\\lim_{x\\to x_{0}}g\\left(x\\right)$\nD. $\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t<\\int_{0}^{x}g\\left(t\\right)\\mathrm{~d}t$",
-   "answerText": "C\n\n**解析：**\n可导函数必连续，所以 $\\lim_{x\\to x_{0}}f\\left(x\\right)=f\\left(x_{0}\\right)$，$\\lim_{x\\to x_{0}}g\\left(x\\right)=g\\left(x_{0}\\right)$。由 $f\\left(x\\right)<g\\left(x\\right)$ 得 $f\\left(x_{0}\\right)<g\\left(x_{0}\\right)$，故选 C。\n\n---",
+   "questionText": "若 $f\\left(x\\right)$ 与 $g\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 上皆可导，且 $f\\left(x\\right)<g\\left(x\\right)$，则必有（ ）\n\nA. $f\\left(-x\\right)>g\\left(-x\\right)$\nB. $f^{\\prime}\\left(x\\right)<g^{\\prime}\\left(x\\right)$\nC. $\\lim_{x\\to x_{0}}f\\left(x\\right)<\\lim_{x\\to x_{0}}g\\left(x\\right)$\nD. $\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t<\\int_{0}^{x}g\\left(t\\right)\\mathrm{~d}t$",
+   "answerText": "C\n\n**解析：**\n可导必连续，两极限分别等于 $f\\left(x_{0}\\right)$ 与 $g\\left(x_{0}\\right)$，不等式取极限保持严格小于，故 C 成立。A 与条件 $f<g$ 矛盾；B、D 未必成立（$x<0$ 时 D 中积分不等号反向）。选 C。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -312,24 +348,26 @@
     "paper": "math2",
     "number": 7
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1988.8",
    "number": 8,
    "title": "1988 年数学二 第 8 题",
-   "questionText": "若函数 $y=f\\left(x\\right)$ 有 $f^{\\prime}\\left(x_{0}\\right)=\\dfrac{1}{2}$，则当 $\\Delta x\\to 0$ 时，该函数在 $x=x_{0}$ 处的微分 $\\mathrm{d}y$ 是（ ）\nA. 与 $\\Delta x$ 等价的无穷小\nB. 与 $\\Delta x$ 同阶的无穷小\nC. 比 $\\Delta x$ 低阶的无穷小\nD. 比 $\\Delta x$ 高阶的无穷小",
-   "answerText": "B\n\n**解析：**\n因为 $\\mathrm{d}y=f^{\\prime}\\left(x_{0}\\right)\\Delta x=\\dfrac{1}{2}\\Delta x$，所以 $\\mathrm{d}y$ 与 $\\Delta x$ 同阶，但不等价，故选 B。\n\n---",
+   "questionText": "若函数 $y=f\\left(x\\right)$ 有 $f^{\\prime}\\left(x_{0}\\right)=\\dfrac{1}{2}$，则当 $\\Delta x\\to 0$ 时，该函数在 $x=x_{0}$ 处的微分 $\\mathrm{d}y$ 是（ ）\n\nA. 与 $\\Delta x$ 等价的无穷小\nB. 与 $\\Delta x$ 同阶的无穷小\nC. 比 $\\Delta x$ 低阶的无穷小\nD. 比 $\\Delta x$ 高阶的无穷小",
+   "answerText": "B\n\n**解析：**\n$\\mathrm{d}y=f^{\\prime}\\left(x_{0}\\right)\\Delta x=\\dfrac{1}{2}\\Delta x$，故 $\\mathrm{d}y$ 与 $\\Delta x$ 同阶但不等价。选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -340,27 +378,26 @@
     "paper": "math2",
     "number": 8
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1988.9",
    "number": 9,
    "title": "1988 年数学二 第 9 题",
-   "questionText": "由曲线 $y=\\sin^{\\frac{3}{2}}x\\left(0\\le x\\le \\pi\\right)$ 与 $x$ 轴围成的平面图形绕 $x$ 轴旋转而成的旋转体的体积为（ ）\nA. $\\dfrac{4}{3}$\nB. $\\dfrac{4}{3}\\pi$\nC. $\\dfrac{2}{3}\\pi^{2}$\nD. $\\dfrac{2}{3}\\pi$",
-   "answerText": "B\n\n**解析：**\n旋转体体积为 $V=\\pi\\int_{0}^{\\pi}y^{2}\\mathrm{~d}x=\\pi\\int_{0}^{\\pi}\\sin^{3}x\\mathrm{~d}x=\\dfrac{4}{3}\\pi$，故选 B。\n\n---",
+   "questionText": "由曲线 $y=\\sin^{\\frac{3}{2}}x\\left(0\\le x\\le \\pi\\right)$ 与 $x$ 轴围成的平面图形绕 $x$ 轴旋转而成的旋转体的体积为（ ）\n\nA. $\\dfrac{4}{3}$\nB. $\\dfrac{4}{3}\\pi$\nC. $\\dfrac{2}{3}\\pi^{2}$\nD. $\\dfrac{2}{3}\\pi$",
+   "answerText": "B\n\n**解析：**\n$V=\\pi\\int_{0}^{\\pi}\\sin^{3}x\\,\\mathrm{d}x=2\\pi\\int_{0}^{\\frac{\\pi}{2}}\\sin^{3}x\\,\\mathrm{d}x=2\\pi\\cdot\\dfrac{2}{3}=\\dfrac{4\\pi}{3}$。选 B。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_application_geometry",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "area_volume_arc",
-    "quadric_surface_equations"
+    "area_volume_arc"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -378,19 +415,19 @@
    "id": "bank.exam.m2-1988.10",
    "number": 10,
    "title": "1988 年数学二 第 10 题",
-   "questionText": "设函数 $y=f\\left(x\\right)$ 是微分方程 $y^{\\prime\\prime}-2y^{\\prime}+4y=0$ 的一个解，且 $f\\left(x_{0}\\right)>0$，$f^{\\prime}\\left(x_{0}\\right)=0$，则 $f\\left(x\\right)$ 在点 $x_{0}$ 处（ ）\nA. 有极大值\nB. 有极小值\nC. 某邻域内单调增加\nD. 某邻域内单调减少",
-   "answerText": "A\n\n**解析：**\n代入 $x=x_{0}$，得 $f^{\\prime\\prime}\\left(x_{0}\\right)-2f^{\\prime}\\left(x_{0}\\right)+4f\\left(x_{0}\\right)=0$。由 $f^{\\prime}\\left(x_{0}\\right)=0$，得 $f^{\\prime\\prime}\\left(x_{0}\\right)=-4f\\left(x_{0}\\right)<0$，故 $f\\left(x_{0}\\right)$ 为极大值，选 A。\n\n---",
+   "questionText": "设函数 $y=f\\left(x\\right)$ 是微分方程 $y^{\\prime\\prime}-2y^{\\prime}+4y=0$ 的一个解，且 $f\\left(x_{0}\\right)>0$，$f^{\\prime}\\left(x_{0}\\right)=0$，则 $f\\left(x\\right)$ 在点 $x_{0}$ 处（ ）\n\nA. 有极大值\nB. 有极小值\nC. 某邻域内单调增加\nD. 某邻域内单调减少",
+   "answerText": "A\n\n**解析：**\n将解代入方程并利用 $f^{\\prime}\\left(x_{0}\\right)=0$，得 $f^{\\prime\\prime}\\left(x_{0}\\right)=-4f\\left(x_{0}\\right)<0$，由极值第二充分条件知 $f\\left(x_{0}\\right)$ 为极大值。选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "extrema"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -408,8 +445,8 @@
    "id": "bank.exam.m2-1988.11",
    "number": 11,
    "title": "1988 年数学二 第 11 题",
-   "questionText": "已知 $f\\left(x\\right)=e^{x^{2}}$，$f\\left[\\varphi\\left(x\\right)\\right]=1-x$ 且 $\\varphi\\left(x\\right)\\ge 0$，求 $\\varphi\\left(x\\right)$ 并写出它的定义域。\n**解析：**\n\n由 $e^{\\left[\\varphi\\left(x\\right)\\right]^{2}}=1-x$，得 $\\left[\\varphi\\left(x\\right)\\right]^{2}=\\ln\\left(1-x\\right)$。又 $\\varphi\\left(x\\right)\\ge 0$，故\n\n$\\varphi\\left(x\\right)=\\sqrt{\\ln\\left(1-x\\right)}$。\n\n定义域需满足 $\\ln\\left(1-x\\right)\\ge 0$，即 $x\\le 0$，所以定义域为 $\\left(-\\infty,0\\right]$。\n\n---",
-   "answerText": "**解析：**\n由 $e^{\\left[\\varphi\\left(x\\right)\\right]^{2}}=1-x$，得 $\\left[\\varphi\\left(x\\right)\\right]^{2}=\\ln\\left(1-x\\right)$。又 $\\varphi\\left(x\\right)\\ge 0$，故\n\n$\\varphi\\left(x\\right)=\\sqrt{\\ln\\left(1-x\\right)}$。\n\n定义域需满足 $\\ln\\left(1-x\\right)\\ge 0$，即 $x\\le 0$，所以定义域为 $\\left(-\\infty,0\\right]$。\n\n---",
+   "questionText": "已知 $f\\left(x\\right)=e^{x^{2}}$，$f\\left[\\varphi\\left(x\\right)\\right]=1-x$ 且 $\\varphi\\left(x\\right)\\ge 0$，求 $\\varphi\\left(x\\right)$ 并写出它的定义域。",
+   "answerText": "$\\varphi\\left(x\\right)=\\sqrt{\\ln\\left(1-x\\right)}$，定义域为 $\\left(-\\infty,0\\right]$。\n\n**解析：**\n由 $e^{\\varphi^{2}\\left(x\\right)}=1-x$ 且 $\\varphi\\left(x\\right)\\ge0$，得 $\\varphi\\left(x\\right)=\\sqrt{\\ln\\left(1-x\\right)}$。使它有意义需 $1-x>0$ 且 $\\ln\\left(1-x\\right)\\ge0$，即 $x\\le0$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -417,11 +454,11 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "function_domain_range",
-    "surface_integral_definition"
+    "inverse_composite_function",
+    "function_domain_range"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -439,17 +476,19 @@
    "id": "bank.exam.m2-1988.12",
    "number": 12,
    "title": "1988 年数学二 第 12 题",
-   "questionText": "已知 $y=1+xe^{xy}$，求 $\\left.y^{\\prime}\\right|_{x=0}$，$\\left.y^{\\prime\\prime}\\right|_{x=0}$。\n**解析：**\n\n两边求导得\n\n$y^{\\prime}=e^{xy}+xe^{xy}\\left(y+xy^{\\prime}\\right)$。\n\n代入 $x=0$，$y=1$，得 $\\left.y^{\\prime}\\right|_{x=0}=1$。继续求导并代入 $x=0$，$y=1$，$y^{\\prime}=1$，得\n\n$\\left.y^{\\prime\\prime}\\right|_{x=0}=2$。\n\n---",
-   "answerText": "**解析：**\n两边求导得\n\n$y^{\\prime}=e^{xy}+xe^{xy}\\left(y+xy^{\\prime}\\right)$。\n\n代入 $x=0$，$y=1$，得 $\\left.y^{\\prime}\\right|_{x=0}=1$。继续求导并代入 $x=0$，$y=1$，$y^{\\prime}=1$，得\n\n$\\left.y^{\\prime\\prime}\\right|_{x=0}=2$。\n\n---",
+   "questionText": "已知 $y=1+xe^{xy}$，求 $\\left.y^{\\prime}\\right|_{x=0}$，$\\left.y^{\\prime\\prime}\\right|_{x=0}$。",
+   "answerText": "$\\left.y^{\\prime}\\right|_{x=0}=1$；$\\left.y^{\\prime\\prime}\\right|_{x=0}=2$\n\n**解析：**\n由方程 $y\\left(0\\right)=1$。两边求导得 $y^{\\prime}=e^{xy}\\left(1+xy+x^{2}y^{\\prime}\\right)$，代入 $x=0$ 得 $y^{\\prime}\\left(0\\right)=1$；对上式再求导并代入 $x=0,y=1,y^{\\prime}=1$，解得 $y^{\\prime\\prime}\\left(0\\right)=2$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "implicit_derivative"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -467,17 +506,19 @@
    "id": "bank.exam.m2-1988.13",
    "number": 13,
    "title": "1988 年数学二 第 13 题",
-   "questionText": "求微分方程\n$y^{\\prime}+\\dfrac{1}{x}y=\\dfrac{1}{x\\left(x^{2}+1\\right)}$\n\n的通解。\n\n**解析：**\n\n两边同乘积分因子 $x$，得\n\n$\\left(xy\\right)^{\\prime}=\\dfrac{1}{x^{2}+1}$。\n\n积分得 $xy=\\arctan x+C$，故通解为\n\n$y=\\dfrac{\\arctan x+C}{x}$，\n\n其中 $C$ 为任意常数。\n\n---",
-   "answerText": "**解析：**\n两边同乘积分因子 $x$，得\n\n$\\left(xy\\right)^{\\prime}=\\dfrac{1}{x^{2}+1}$。\n\n积分得 $xy=\\arctan x+C$，故通解为\n\n$y=\\dfrac{\\arctan x+C}{x}$，\n\n其中 $C$ 为任意常数。\n\n---",
+   "questionText": "求微分方程\n\n$y^{\\prime}+\\dfrac{1}{x}y=\\dfrac{1}{x\\left(x^{2}+1\\right)}$\n\n的通解。",
+   "answerText": "$y=\\dfrac{\\arctan x+C}{x}$（$C$ 为任意常数）\n\n**解析：**\n两边同乘 $x$ 得 $\\left(xy\\right)^{\\prime}=\\dfrac{1}{x^{2}+1}$，积分得 $xy=\\arctan x+C$，通解如上。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
+   "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "first_order_linear_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -495,17 +536,21 @@
    "id": "bank.exam.m2-1988.14",
    "number": 14,
    "title": "1988 年数学二 第 14 题",
-   "questionText": "求\n$\\lim_{a\\to 0^{+}}\\dfrac{1}{4a^{2}}\\int_{-a}^{a}\\left[f\\left(t+a\\right)-f\\left(t-a\\right)\\right]\\mathrm{~d}t$。\n\n**解析：**\n\n作变量替换得\n\n$\\int_{-a}^{a}f\\left(t+a\\right)\\mathrm{~d}t=\\int_{0}^{2a}f\\left(u\\right)\\mathrm{~d}u,\\quad \\int_{-a}^{a}f\\left(t-a\\right)\\mathrm{~d}t=\\int_{-2a}^{0}f\\left(u\\right)\\mathrm{~d}u$。\n\n所以原极限为\n\n$\\lim_{a\\to 0^{+}}\\dfrac{\\int_{0}^{2a}f\\left(u\\right)\\mathrm{~d}u-\\int_{-2a}^{0}f\\left(u\\right)\\mathrm{~d}u}{4a^{2}}$。\n\n用洛必达法则得\n\n$\\lim_{a\\to 0^{+}}\\dfrac{2f\\left(2a\\right)-2f\\left(-2a\\right)}{8a}=\\dfrac{1}{2}\\lim_{a\\to 0^{+}}\\dfrac{f\\left(2a\\right)-f\\left(-2a\\right)}{2a}=f^{\\prime}\\left(0\\right)$。",
-   "answerText": "**解析：**\n作变量替换得\n\n$\\int_{-a}^{a}f\\left(t+a\\right)\\mathrm{~d}t=\\int_{0}^{2a}f\\left(u\\right)\\mathrm{~d}u,\\quad \\int_{-a}^{a}f\\left(t-a\\right)\\mathrm{~d}t=\\int_{-2a}^{0}f\\left(u\\right)\\mathrm{~d}u$。\n\n所以原极限为\n\n$\\lim_{a\\to 0^{+}}\\dfrac{\\int_{0}^{2a}f\\left(u\\right)\\mathrm{~d}u-\\int_{-2a}^{0}f\\left(u\\right)\\mathrm{~d}u}{4a^{2}}$。\n\n用洛必达法则得\n\n$\\lim_{a\\to 0^{+}}\\dfrac{2f\\left(2a\\right)-2f\\left(-2a\\right)}{8a}=\\dfrac{1}{2}\\lim_{a\\to 0^{+}}\\dfrac{f\\left(2a\\right)-f\\left(-2a\\right)}{2a}=f^{\\prime}\\left(0\\right)$。",
+   "questionText": "作函数\n\n$y=\\dfrac{6}{x^{2}-2x+4}$\n\n的图形，并填写下表。\n\n| 项目 | 结果 |\n|---|---|\n| 单调增加区间 |  |\n| 单调减少区间 |  |\n| 极值点 |  |\n| 极值 |  |\n| 凹 $\\left(\\cup\\right)$ 区间 |  |\n| 凸 $\\left(\\cap\\right)$ 区间 |  |\n| 拐点 |  |\n| 渐近线 |  |",
+   "answerText": "单调增加区间 $\\left(-\\infty,1\\right]$；单调减少区间 $\\left[1,+\\infty\\right)$；极值点 $x=1$，极大值 $y=2$；凹 $\\left(\\cup\\right)$ 区间 $\\left(-\\infty,0\\right)\\cup\\left(2,+\\infty\\right)$；凸 $\\left(\\cap\\right)$ 区间 $\\left(0,2\\right)$；拐点 $\\left(0,\\dfrac{3}{2}\\right)$，$\\left(2,\\dfrac{3}{2}\\right)$；渐近线 $y=0$。\n\n**解析：**\n记 $g=x^{2}-2x+4=\\left(x-1\\right)^{2}+3$。$y^{\\prime}=-\\dfrac{12\\left(x-1\\right)}{g^{2}}$，在 $x<1$ 时为正、$x>1$ 时为负，得增减区间与极大值 $2$（$x=1$）。$y^{\\prime\\prime}=\\dfrac{36x\\left(x-2\\right)}{g^{3}}$，在 $\\left(-\\infty,0\\right)$ 与 $\\left(2,+\\infty\\right)$ 内为正（凹），在 $\\left(0,2\\right)$ 内为负（凸），拐点处 $y=\\dfrac{6}{4}=\\dfrac{3}{2}$。又 $x\\to\\infty$ 时 $y\\to0$，有水平渐近线 $y=0$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "monotonicity",
+    "concavity_inflection",
+    "asymptote"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -516,26 +561,26 @@
     "paper": "math2",
     "number": 14
    },
-   "subjectGuess": "linear_algebra",
-   "section": "八、证明题"
+   "subjectGuess": "calculus",
+   "section": "四、计算题"
   },
   {
    "id": "bank.exam.m2-1988.15",
    "number": 15,
    "title": "1988 年数学二 第 15 题",
-   "questionText": "证明：\n$\\left|\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t-f\\left(x\\right)\\right|\\le M-m\\quad \\left(a>0\\right)$。\n\n**解析：**\n\n由积分中值定理，存在 $c\\in\\left[-a,a\\right]$，使\n\n$\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t=f\\left(c\\right)$。\n\n又 $m\\le f\\left(c\\right)\\le M$，$m\\le f\\left(x\\right)\\le M$，故\n\n$\\left|\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t-f\\left(x\\right)\\right|=\\left|f\\left(c\\right)-f\\left(x\\right)\\right|\\le M-m$。\n\n证毕。",
-   "answerText": "**解析：**\n由积分中值定理，存在 $c\\in\\left[-a,a\\right]$，使\n\n$\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t=f\\left(c\\right)$。\n\n又 $m\\le f\\left(c\\right)\\le M$，$m\\le f\\left(x\\right)\\le M$，故\n\n$\\left|\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t-f\\left(x\\right)\\right|=\\left|f\\left(c\\right)-f\\left(x\\right)\\right|\\le M-m$。\n\n证毕。",
+   "questionText": "将长为 $a$ 的一段铁丝截成两段，一段围成正方形，另一段围成圆形，问这两段铁丝各长为多少时，正方形与圆形的面积之和为最小？",
+   "answerText": "围正方形的一段长 $\\dfrac{4a}{\\pi+4}$，围圆的一段长 $\\dfrac{\\pi a}{\\pi+4}$。\n\n**解析：**\n设正方形一段长 $x$，则面积之和 $S\\left(x\\right)=\\dfrac{x^{2}}{16}+\\dfrac{\\left(a-x\\right)^{2}}{4\\pi}$，令 $S^{\\prime}\\left(x\\right)=\\dfrac{x}{8}-\\dfrac{a-x}{2\\pi}=0$ 得唯一驻点 $x=\\dfrac{4a}{\\pi+4}$，且 $S^{\\prime\\prime}>0$，为最小值点。此时另一段长 $a-x=\\dfrac{\\pi a}{\\pi+4}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "integral_mean_value"
+    "extrema"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -545,6 +590,128 @@
     "year": 1988,
     "paper": "math2",
     "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "五、应用题"
+  },
+  {
+   "id": "bank.exam.m2-1988.16",
+   "number": 16,
+   "title": "1988 年数学二 第 16 题",
+   "questionText": "设函数 $y=y\\left(x\\right)$ 满足微分方程\n\n$y^{\\prime\\prime}-3y^{\\prime}+2y=2e^{x}$，\n\n且其图形在点 $\\left(0,1\\right)$ 处的切线与曲线 $y=x^{2}-x+1$ 在该点处的切线重合，求函数 $y=y\\left(x\\right)$。",
+   "answerText": "$y=\\left(1-2x\\right)e^{x}$\n\n**解析：**\n特征根 $\\lambda_{1}=1$，$\\lambda_{2}=2$，齐次通解 $C_{1}e^{x}+C_{2}e^{2x}$。因 $1$ 为单特征根，设 $y^{*}=axe^{x}$，代入方程得 $-a=2$，即 $a=-2$。由切线条件：$y\\left(0\\right)=1$，$y^{\\prime}\\left(0\\right)=-1$，代入通解解出 $C_{1}=1$，$C_{2}=0$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "linear_higher_order_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "second_order_nonhomogeneous_linear",
+    "characteristic_equation"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1988,
+    "paper": "math2",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "六、计算题"
+  },
+  {
+   "id": "bank.exam.m2-1988.17",
+   "number": 17,
+   "title": "1988 年数学二 第 17 题",
+   "questionText": "设 $x\\ge -1$，求\n\n$\\int_{-1}^{x}\\left(1-\\left|t\\right|\\right)\\mathrm{~d}t$。",
+   "answerText": "当 $-1\\le x<0$ 时为 $\\dfrac{x^{2}}{2}+x+\\dfrac{1}{2}$；当 $x\\ge0$ 时为 $\\dfrac{1}{2}+x-\\dfrac{x^{2}}{2}$。\n\n**解析：**\n按 $x$ 的符号分段去绝对值。$-1\\le x<0$ 时被积函数为 $1+t$，积分得 $\\dfrac{x^{2}}{2}+x+\\dfrac{1}{2}$；$x\\ge0$ 时再叠加 $\\int_{0}^{x}\\left(1-t\\right)\\mathrm{~d}t=x-\\dfrac{x^{2}}{2}$（注意 $\\int_{-1}^{0}\\left(1+t\\right)\\mathrm{~d}t=\\dfrac{1}{2}$）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "integral_defined_function",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "piecewise_integral"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1988,
+    "paper": "math2",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "七、计算题"
+  },
+  {
+   "id": "bank.exam.m2-1988.18",
+   "number": 18,
+   "title": "1988 年数学二 第 18 题",
+   "questionText": "设 $f\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 上有连续导数，且 $m\\le f\\left(x\\right)\\le M$。\n求\n\n$\\lim_{a\\to 0^{+}}\\dfrac{1}{4a^{2}}\\int_{-a}^{a}\\left[f\\left(t+a\\right)-f\\left(t-a\\right)\\right]\\mathrm{~d}t$。",
+   "answerText": "$f^{\\prime}\\left(0\\right)$\n\n**解析：**\n换元：$\\int_{-a}^{a}f\\left(t+a\\right)\\mathrm{~d}t=\\int_{0}^{2a}f\\left(u\\right)\\mathrm{~d}u$，$\\int_{-a}^{a}f\\left(t-a\\right)\\mathrm{~d}t=\\int_{-2a}^{0}f\\left(u\\right)\\mathrm{~d}u$。对所得 $\\dfrac{0}{0}$ 型极限用洛必达法则，分子对 $a$ 的导数为 $2f\\left(2a\\right)-2f\\left(-2a\\right)$，故原式 $=\\lim_{a\\to0^{+}}\\dfrac{f\\left(2a\\right)-f\\left(-2a\\right)}{4a}=f^{\\prime}\\left(0\\right)$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "variable_upper_integral",
+    "indeterminate_form"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1988,
+    "paper": "math2",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "八、证明题"
+  },
+  {
+   "id": "bank.exam.m2-1988.19",
+   "number": 19,
+   "title": "1988 年数学二 第 19 题",
+   "questionText": "设 $f\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 上有连续导数，且 $m\\le f\\left(x\\right)\\le M$，$a>0$。证明：\n\n$\\left|\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t-f\\left(x\\right)\\right|\\le M-m$。",
+   "answerText": "**解析：**\n由 $m\\le f\\left(t\\right)\\le M$ 及积分保序性，$2am\\le\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t\\le2aM$，故 $\\dfrac{1}{2a}\\int_{-a}^{a}f\\left(t\\right)\\mathrm{~d}t\\in\\left[m,M\\right]$；又 $f\\left(x\\right)\\in\\left[m,M\\right]$，两个同区间内的数之差的绝对值不超过 $M-m$。证毕。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "integral_equality_inequality",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1988,
+    "paper": "math2",
+    "number": 19
    },
    "subjectGuess": "calculus",
    "section": "八、证明题"

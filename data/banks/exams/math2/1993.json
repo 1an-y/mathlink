@@ -5,7 +5,7 @@
  "year": 1993,
  "paper": "math2",
  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1993-2.md",
  "paperInfo": {
   "year": 1993,
@@ -14,7 +14,12 @@
   "sections": [
    "一、填空题",
    "二、选择题",
-   "三、计算题"
+   "三、计算题",
+   "四、微分方程",
+   "五、旋转体体积",
+   "六、最值问题",
+   "七、不等式证明",
+   "八、积分不等式证明"
   ],
   "problemsOrder": [
    {
@@ -56,13 +61,13 @@
    {
     "number": 7,
     "id": "bank.exam.m2-1993.7",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m2-1993.8",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -81,51 +86,83 @@
     "number": 11,
     "id": "bank.exam.m2-1993.11",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 12,
     "id": "bank.exam.m2-1993.12",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 13,
     "id": "bank.exam.m2-1993.13",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 14,
     "id": "bank.exam.m2-1993.14",
-    "subjectGuess": "linear_algebra",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 15,
     "id": "bank.exam.m2-1993.15",
     "subjectGuess": "calculus",
     "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m2-1993.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m2-1993.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m2-1993.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m2-1993.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m2-1993.20",
+    "subjectGuess": "calculus",
+    "objective": false
    }
   ],
-  "total": 15
+  "total": 20
  },
  "problems": [
   {
    "id": "bank.exam.m2-1993.1",
    "number": 1,
    "title": "1993 年数学二 第 1 题",
-   "questionText": "极限计算\n**题目：** 求 $\\lim_{x \\to 0^{+}} x \\ln x$。",
-   "answerText": "$0$。\n\n**解析：**\n$\\lim_{x \\to 0^{+}}x\\ln x=\\lim_{x \\to 0^{+}}\\frac{\\ln x}{\\frac{1}{x}}=\\lim_{x \\to 0^{+}}\\frac{\\frac{1}{x}}{-\\frac{1}{x^{2}}}=\\lim_{x \\to 0^{+}}\\left(-x\\right)=0$。\n\n---",
+   "questionText": "求 $\\lim_{x \\to 0^{+}} x \\ln x$。",
+   "answerText": "$0$\n\n**解析：**\n化为 $\\dfrac{\\ln x}{1/x}$ 后用洛必达法则，导数之比为 $-x$，趋于 $0$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -143,20 +180,19 @@
    "id": "bank.exam.m2-1993.2",
    "number": 2,
    "title": "1993 年数学二 第 2 题",
-   "questionText": "隐函数求导\n**题目：** 函数 $y=y\\left(x\\right)$ 由方程 $\\sin \\left(x^{2}+y^{2}\\right)+e^{x}-xy^{2}=0$ 所确定，则 $y^{\\prime}=$ ______。",
-   "answerText": "$\\frac{2x\\cos \\left(x^{2}+y^{2}\\right)+e^{x}-y^{2}}{2xy-2y\\cos \\left(x^{2}+y^{2}\\right)}$。\n\n**解析：**\n对方程两边关于 $x$ 求导，得 $\\cos \\left(x^{2}+y^{2}\\right)\\left(2x+2yy^{\\prime}\\right)+e^{x}-y^{2}-2xyy^{\\prime}=0$，解得 $y^{\\prime}=\\frac{2x\\cos \\left(x^{2}+y^{2}\\right)+e^{x}-y^{2}}{2xy-2y\\cos \\left(x^{2}+y^{2}\\right)}$。\n\n---",
+   "questionText": "函数 $y=y\\left(x\\right)$ 由方程 $\\sin \\left(x^{2}+y^{2}\\right)+e^{x}-xy^{2}=0$ 所确定，则 $y^{\\prime}=$ ______。",
+   "answerText": "$\\dfrac{2x\\cos\\left(x^{2}+y^{2}\\right)+e^{x}-y^{2}}{2xy-2y\\cos\\left(x^{2}+y^{2}\\right)}$\n\n**解析：**\n两边对 $x$ 求导：$\\cos\\left(x^{2}+y^{2}\\right)\\left(2x+2yy^{\\prime}\\right)+e^{x}-y^{2}-2xyy^{\\prime}=0$，把含 $y^{\\prime}$ 的项集中解出即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "implicit_derivative",
-    "power_series_sum"
+    "implicit_derivative"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -174,19 +210,20 @@
    "id": "bank.exam.m2-1993.3",
    "number": 3,
    "title": "1993 年数学二 第 3 题",
-   "questionText": "单调区间\n**题目：** 设 $F\\left(x\\right)=\\int_{1}^{x}\\left(2-\\frac{1}{\\sqrt{t}}\\right)\\mathrm{~d}t\\left(x>0\\right)$，则函数 $F\\left(x\\right)$ 的单调减少区间是 ______。",
-   "answerText": "$\\left(0,\\frac{1}{4}\\right]$。\n\n**解析：**\n$F^{\\prime}\\left(x\\right)=2-\\frac{1}{\\sqrt{x}}$。由 $F^{\\prime}\\left(x\\right)=0$ 得 $x=\\frac{1}{4}$，且当 $0<x<\\frac{1}{4}$ 时 $F^{\\prime}\\left(x\\right)<0$，故单调减少区间为 $\\left(0,\\frac{1}{4}\\right]$。\n\n---",
+   "questionText": "设 $F\\left(x\\right)=\\int_{1}^{x}\\left(2-\\frac{1}{\\sqrt{t}}\\right)\\mathrm{~d}t\\left(x>0\\right)$，则函数 $F\\left(x\\right)$ 的单调减少区间是 ______。",
+   "answerText": "$\\left(0,\\dfrac{1}{4}\\right]$\n\n**解析：**\n由变上限积分求导 $F^{\\prime}\\left(x\\right)=2-\\dfrac{1}{\\sqrt{x}}$，它在 $0<x<\\dfrac{1}{4}$ 时小于零、$x\\ge\\dfrac{1}{4}$ 时非负，故单调减少区间为 $\\left(0,\\dfrac{1}{4}\\right]$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "variable_upper_integral",
+    "monotonicity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -204,17 +241,17 @@
    "id": "bank.exam.m2-1993.4",
    "number": 4,
    "title": "1993 年数学二 第 4 题",
-   "questionText": "不定积分\n**题目：** 求 $\\int \\frac{\\tan x}{\\sqrt{\\cos x}}\\mathrm{~d}x$。",
-   "answerText": "$\\frac{2}{\\sqrt{\\cos x}}+C$。\n\n**解析：**\n$\\int \\frac{\\tan x}{\\sqrt{\\cos x}}\\mathrm{~d}x=-\\int \\cos^{-{\\frac{3}{2}}}x\\mathrm{~d}\\left(\\cos x\\right)=\\frac{2}{\\sqrt{\\cos x}}+C$。\n\n---",
+   "questionText": "求 $\\int \\frac{\\tan x}{\\sqrt{\\cos x}}\\mathrm{~d}x$。",
+   "answerText": "$\\dfrac{2}{\\sqrt{\\cos x}}+C$\n\n**解析：**\n$\\dfrac{\\tan x}{\\sqrt{\\cos x}}=\\dfrac{\\sin x}{\\cos^{\\frac{3}{2}}x}$，凑微分 $\\sin x\\,\\mathrm{d}x=-\\mathrm{d}\\left(\\cos x\\right)$，积分得 $2\\cos^{-\\frac{1}{2}}x+C$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "indefinite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -232,19 +269,19 @@
    "id": "bank.exam.m2-1993.5",
    "number": 5,
    "title": "1993 年数学二 第 5 题",
-   "questionText": "曲线方程\n**题目：** 已知曲线 $y=f\\left(x\\right)$ 过点 $\\left(0,-\\frac{1}{2}\\right)$，且其上任一点 $\\left(x,y\\right)$ 处的切线斜率为 $x\\ln \\left(1+x^{2}\\right)$，则 $f\\left(x\\right)=$ ______。",
-   "answerText": "$\\frac{1}{2}\\left(1+x^{2}\\right)\\left[\\ln \\left(1+x^{2}\\right)-1\\right]$。\n\n**解析：**\n由题意，$y^{\\prime}=x\\ln \\left(1+x^{2}\\right)$。积分得 $y=\\frac{1}{2}x^{2}\\ln \\left(1+x^{2}\\right)-\\frac{1}{2}x^{2}+\\frac{1}{2}\\ln \\left(1+x^{2}\\right)+C$。代入点 $\\left(0,-\\frac{1}{2}\\right)$，得 $C=-\\frac{1}{2}$，故 $f\\left(x\\right)=\\frac{1}{2}\\left(1+x^{2}\\right)\\left[\\ln \\left(1+x^{2}\\right)-1\\right]$。\n\n---",
+   "questionText": "已知曲线 $y=f\\left(x\\right)$ 过点 $\\left(0,-\\frac{1}{2}\\right)$，且其上任一点 $\\left(x,y\\right)$ 处的切线斜率为 $x\\ln \\left(1+x^{2}\\right)$，则 $f\\left(x\\right)=$ ______。",
+   "answerText": "$\\dfrac{1}{2}\\left(1+x^{2}\\right)\\left[\\ln\\left(1+x^{2}\\right)-1\\right]$\n\n**解析：**\n由 $y^{\\prime}=x\\ln\\left(1+x^{2}\\right)$，对 $x^{2}$ 凑微分积分得 $y=\\dfrac{1}{2}x^{2}\\ln\\left(1+x^{2}\\right)-\\dfrac{1}{2}x^{2}+\\dfrac{1}{2}\\ln\\left(1+x^{2}\\right)+C$，代入 $\\left(0,-\\dfrac{1}{2}\\right)$ 得 $C=-\\dfrac{1}{2}$，整理即得。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "indefinite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "geometric_applications_multivariable"
+    "indefinite_integral_formulas"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -262,8 +299,8 @@
    "id": "bank.exam.m2-1993.6",
    "number": 6,
    "title": "1993 年数学二 第 6 题",
-   "questionText": "无穷小与无穷大\n**题目：** 当 $x \\to 0$ 时，变量 $\\frac{1}{x^{2}}\\sin \\left(\\frac{1}{x}\\right)$ 是（ ）\n\nA. 无穷小。\nB. 无穷大。\nC. 有界的，但不是无穷小。\nD. 无界的，但不是无穷大。",
-   "answerText": "D。\n\n**解析：**\n取 $x_{n}=\\frac{1}{2n\\pi}$，则 $\\frac{1}{x_{n}^{2}}\\sin \\left(\\frac{1}{x_{n}}\\right)=0$；取 $y_{n}=\\frac{1}{2n\\pi+\\frac{\\pi}{2}}$，则 $\\frac{1}{y_{n}^{2}}\\sin \\left(\\frac{1}{y_{n}}\\right)=\\left(2n\\pi+\\frac{\\pi}{2}\\right)^{2}\\to +\\infty$。故该变量无界但不是无穷大，选 D。\n\n---",
+   "questionText": "当 $x \\to 0$ 时，变量 $\\frac{1}{x^{2}}\\sin \\left(\\frac{1}{x}\\right)$ 是（ ）\n\nA. 无穷小。\nB. 无穷大。\nC. 有界的，但不是无穷小。\nD. 无界的，但不是无穷大。",
+   "answerText": "D\n\n**解析：**\n取 $x_{n}=\\dfrac{1}{2n\\pi}$，变量值为 $0$；取 $y_{n}=\\dfrac{1}{2n\\pi+\\frac{\\pi}{2}}$，变量值为 $\\left(2n\\pi+\\dfrac{\\pi}{2}\\right)^{2}\\to+\\infty$。故无界但不是无穷大。选 D。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -274,7 +311,7 @@
     "infinite_and_infinitesimal"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -292,17 +329,20 @@
    "id": "bank.exam.m2-1993.7",
    "number": 7,
    "title": "1993 年数学二 第 7 题",
-   "questionText": "分段函数的连续性\n**题目：** 设 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{\\left|x^{2}-1\\right|}{x-1}, & x\\ne 1,\\\\2, & x=1,\\end{array}\\right.$ 则在点 $x=1$ 处函数 $f\\left(x\\right)$（ ）\n\nA. 不连续。\nB. 连续，但不可导。\nC. 可导，但导数不连续。\nD. 可导，且导数连续。",
-   "answerText": "A。\n\n**解析：**\n$\\lim_{x \\to 1^{-}}f\\left(x\\right)=-2$，$\\lim_{x \\to 1^{+}}f\\left(x\\right)=2$，左右极限不相等，故 $f\\left(x\\right)$ 在 $x=1$ 处不连续，选 A。\n\n---",
+   "questionText": "设 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{\\left|x^{2}-1\\right|}{x-1}, & x\\ne 1,\\\\2, & x=1,\\end{array}\\right.$ 则在点 $x=1$ 处函数 $f\\left(x\\right)$（ ）\n\nA. 不连续。\nB. 连续，但不可导。\nC. 可导，但导数不连续。\nD. 可导，且导数连续。",
+   "answerText": "A\n\n**解析：**\n$x\\to1^{-}$ 时 $\\left|x^{2}-1\\right|=1-x^{2}$，$f\\to-2$；$x\\to1^{+}$ 时 $f\\to2$。左右极限不等，故 $x=1$ 为间断点。选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "continuity_and_discontinuity",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "discontinuity",
+    "one_sided_limit"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -313,24 +353,27 @@
     "paper": "math2",
     "number": 7
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1993.8",
    "number": 8,
    "title": "1993 年数学二 第 8 题",
-   "questionText": "变上限积分\n**题目：** 已知 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}x^{2}, & 0\\le x<1,\\\\1, & 1\\le x\\le 2,\\end{array}\\right.$ 设 $F\\left(x\\right)=\\int_{1}^{x}f\\left(t\\right)\\mathrm{~d}t\\left(0\\le x\\le 2\\right)$，则 $F\\left(x\\right)$ 为（ ）\n\nA. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}, & 0\\le x<1,\\\\x, & 1\\le x\\le 2.\\end{array}\\right.$\n\nB. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}-\\frac{1}{3}, & 0\\le x<1,\\\\x, & 1\\le x\\le 2.\\end{array}\\right.$\n\nC. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}, & 0\\le x<1,\\\\x-1, & 1\\le x\\le 2.\\end{array}\\right.$\n\nD. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}-\\frac{1}{3}, & 0\\le x<1,\\\\x-1, & 1\\le x\\le 2.\\end{array}\\right.$",
-   "answerText": "D。\n\n**解析：**\n当 $0\\le x<1$ 时，$F\\left(x\\right)=\\int_{1}^{x}t^{2}\\mathrm{~d}t=\\frac{1}{3}x^{3}-\\frac{1}{3}$；当 $1\\le x\\le 2$ 时，$F\\left(x\\right)=\\int_{1}^{x}1\\mathrm{~d}t=x-1$。故选 D。\n\n---",
+   "questionText": "已知 $f\\left(x\\right)=\\left\\{\\begin{array}{ll}x^{2}, & 0\\le x<1,\\\\1, & 1\\le x\\le 2,\\end{array}\\right.$ 设 $F\\left(x\\right)=\\int_{1}^{x}f\\left(t\\right)\\mathrm{~d}t\\left(0\\le x\\le 2\\right)$，则 $F\\left(x\\right)$ 为（ ）\n\nA. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}, & 0\\le x<1,\\\\x, & 1\\le x\\le 2.\\end{array}\\right.$\n\nB. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}-\\frac{1}{3}, & 0\\le x<1,\\\\x, & 1\\le x\\le 2.\\end{array}\\right.$\n\nC. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}, & 0\\le x<1,\\\\x-1, & 1\\le x\\le 2.\\end{array}\\right.$\n\nD. $F\\left(x\\right)=\\left\\{\\begin{array}{ll}\\frac{1}{3}x^{3}-\\frac{1}{3}, & 0\\le x<1,\\\\x-1, & 1\\le x\\le 2.\\end{array}\\right.$",
+   "answerText": "D\n\n**解析：**\n$0\\le x<1$ 时上限在积分下限左侧：$F\\left(x\\right)=-\\int_{x}^{1}t^{2}\\mathrm{~d}t=\\dfrac{x^{3}}{3}-\\dfrac{1}{3}$；$1\\le x\\le2$ 时 $F\\left(x\\right)=x-1$。选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "variable_upper_integral",
+    "piecewise_integral"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -341,26 +384,26 @@
     "paper": "math2",
     "number": 8
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1993.9",
    "number": 9,
    "title": "1993 年数学二 第 9 题",
-   "questionText": "零点个数\n**题目：** 设常数 $k>0$，函数 $f\\left(x\\right)=\\ln x-\\frac{x}{e}+k$ 在 $\\left(0,+\\infty\\right)$ 内的零点个数为（ ）\n\nA. 3。\nB. 2。\nC. 1。\nD. 0。",
-   "answerText": "B。\n\n**解析：**\n$f^{\\prime}\\left(x\\right)=\\frac{1}{x}-\\frac{1}{e}$，唯一驻点为 $x=e$。又 $f^{\\prime\\prime}\\left(e\\right)<0$，所以 $f\\left(e\\right)=k>0$ 为最大值；且 $\\lim_{x \\to 0^{+}}f\\left(x\\right)=-\\infty$，$\\lim_{x \\to +\\infty}f\\left(x\\right)=-\\infty$，故零点个数为 $2$，选 B。\n\n---",
+   "questionText": "设常数 $k>0$，函数 $f\\left(x\\right)=\\ln x-\\frac{x}{e}+k$ 在 $\\left(0,+\\infty\\right)$ 内的零点个数为（ ）\n\nA. 3。\nB. 2。\nC. 1。\nD. 0。",
+   "answerText": "B\n\n**解析：**\n$f^{\\prime}\\left(x\\right)=\\dfrac{1}{x}-\\dfrac{1}{e}$，唯一驻点 $x=e$，为最大值点，$f\\left(e\\right)=k>0$；两端 $x\\to0^{+}$ 与 $x\\to+\\infty$ 均趋于 $-\\infty$，故两侧各有一个零点，共 $2$ 个。选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "equation_root",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "monotonicity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -378,19 +421,20 @@
    "id": "bank.exam.m2-1993.10",
    "number": 10,
    "title": "1993 年数学二 第 10 题",
-   "questionText": "奇函数及导数性质\n**题目：** 若 $f\\left(x\\right)=-f\\left(-x\\right)$，在 $\\left(0,+\\infty\\right)$ 内 $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$，则 $f\\left(x\\right)$ 在 $\\left(-\\infty,0\\right)$ 内（ ）\n\nA. $f^{\\prime}\\left(x\\right)<0$，$f^{\\prime\\prime}\\left(x\\right)<0$。\nB. $f^{\\prime}\\left(x\\right)<0$，$f^{\\prime\\prime}\\left(x\\right)>0$。\nC. $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)<0$。\nD. $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$。",
-   "answerText": "C。\n\n**解析：**\n$f\\left(x\\right)$ 为奇函数，所以 $f^{\\prime}\\left(x\\right)$ 为偶函数，$f^{\\prime\\prime}\\left(x\\right)$ 为奇函数。故在 $\\left(-\\infty,0\\right)$ 内，$f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)<0$，选 C。\n\n---",
+   "questionText": "若 $f\\left(x\\right)=-f\\left(-x\\right)$，在 $\\left(0,+\\infty\\right)$ 内 $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$，则 $f\\left(x\\right)$ 在 $\\left(-\\infty,0\\right)$ 内（ ）\n\nA. $f^{\\prime}\\left(x\\right)<0$，$f^{\\prime\\prime}\\left(x\\right)<0$。\nB. $f^{\\prime}\\left(x\\right)<0$，$f^{\\prime\\prime}\\left(x\\right)>0$。\nC. $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)<0$。\nD. $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$。",
+   "answerText": "C\n\n**解析：**\n奇函数的导函数为偶函数、二阶导为奇函数，故在 $\\left(-\\infty,0\\right)$ 内 $f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)<0$。选 C。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "function_properties",
+    "concavity_inflection"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -408,20 +452,19 @@
    "id": "bank.exam.m2-1993.11",
    "number": 11,
    "title": "1993 年数学二 第 11 题",
-   "questionText": "复合函数求二阶导数\n**题目：** 设 $y=\\sin \\left[f\\left(x^{2}\\right)\\right]$，其中 $f$ 具有二阶导数，求 $y^{\\prime\\prime}$。\n\n**解析：** 先得 $y^{\\prime}=2x\\cos \\left[f\\left(x^{2}\\right)\\right]f^{\\prime}\\left(x^{2}\\right)$，再求导得 $y^{\\prime\\prime}=2\\cos \\left[f\\left(x^{2}\\right)\\right]f^{\\prime}\\left(x^{2}\\right)-4x^{2}\\sin \\left[f\\left(x^{2}\\right)\\right]\\left[f^{\\prime}\\left(x^{2}\\right)\\right]^{2}+4x^{2}\\cos \\left[f\\left(x^{2}\\right)\\right]f^{\\prime\\prime}\\left(x^{2}\\right)$。\n\n---",
-   "answerText": "**解析：**\n先得 $y^{\\prime}=2x\\cos \\left[f\\left(x^{2}\\right)\\right]f^{\\prime}\\left(x^{2}\\right)$，再求导得 $y^{\\prime\\prime}=2\\cos \\left[f\\left(x^{2}\\right)\\right]f^{\\prime}\\left(x^{2}\\right)-4x^{2}\\sin \\left[f\\left(x^{2}\\right)\\right]\\left[f^{\\prime}\\left(x^{2}\\right)\\right]^{2}+4x^{2}\\cos \\left[f\\left(x^{2}\\right)\\right]f^{\\prime\\prime}\\left(x^{2}\\right)$。\n\n---",
+   "questionText": "设 $y=\\sin \\left[f\\left(x^{2}\\right)\\right]$，其中 $f$ 具有二阶导数，求 $y^{\\prime\\prime}$。",
+   "answerText": "$y^{\\prime\\prime}=2f^{\\prime}\\left(x^{2}\\right)\\cos f\\left(x^{2}\\right)+4x^{2}\\left[f^{\\prime\\prime}\\left(x^{2}\\right)\\cos f\\left(x^{2}\\right)-\\left(f^{\\prime}\\left(x^{2}\\right)\\right)^{2}\\sin f\\left(x^{2}\\right)\\right]$\n\n**解析：**\n先求一阶导 $y^{\\prime}=2x f^{\\prime}\\left(x^{2}\\right)\\cos f\\left(x^{2}\\right)$，再按乘积与复合法则求导，注意 $\\left[f^{\\prime}\\left(x^{2}\\right)\\right]^{\\prime}=2x f^{\\prime\\prime}\\left(x^{2}\\right)$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "higher_derivative",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "inverse_composite_function",
-    "power_series_sum"
+    "composite_derivative"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -439,17 +482,19 @@
    "id": "bank.exam.m2-1993.12",
    "number": 12,
    "title": "1993 年数学二 第 12 题",
-   "questionText": "极限计算\n**题目：** 求 $\\lim_{x \\to -\\infty}x\\left(\\sqrt{x^{2}+100}+x\\right)$。\n\n**解析：** $\\lim_{x \\to -\\infty}x\\left(\\sqrt{x^{2}+100}+x\\right)=\\lim_{x \\to -\\infty}\\frac{100x}{\\sqrt{x^{2}+100}-x}=\\lim_{x \\to -\\infty}\\frac{-100}{\\sqrt{1+\\frac{100}{x^{2}}}+1}=-50$。\n\n---",
-   "answerText": "**解析：**\n$\\lim_{x \\to -\\infty}x\\left(\\sqrt{x^{2}+100}+x\\right)=\\lim_{x \\to -\\infty}\\frac{100x}{\\sqrt{x^{2}+100}-x}=\\lim_{x \\to -\\infty}\\frac{-100}{\\sqrt{1+\\frac{100}{x^{2}}}+1}=-50$。\n\n---",
+   "questionText": "求 $\\lim_{x \\to -\\infty}x\\left(\\sqrt{x^{2}+100}+x\\right)$。",
+   "answerText": "$-50$\n\n**解析：**\n令 $t=-x$，原式 $=-\\lim_{t\\to+\\infty}t\\left(\\sqrt{t^{2}+100}-t\\right)=-\\lim_{t\\to+\\infty}\\dfrac{100t}{\\sqrt{t^{2}+100}+t}=-50$（分子有理化）。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "limit_operations"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -467,17 +512,19 @@
    "id": "bank.exam.m2-1993.13",
    "number": 13,
    "title": "1993 年数学二 第 13 题",
-   "questionText": "定积分\n**题目：** 求 $\\int_{0}^{\\frac{\\pi}{4}}\\frac{x}{1+\\cos 2x}\\mathrm{~d}x$。\n\n**解析：** 因为 $1+\\cos 2x=2\\cos^{2}x$，所以 $\\int_{0}^{\\frac{\\pi}{4}}\\frac{x}{1+\\cos 2x}\\mathrm{~d}x=\\frac{1}{2}\\int_{0}^{\\frac{\\pi}{4}}x\\sec^{2}x\\mathrm{~d}x=\\frac{\\pi}{8}-\\frac{1}{4}\\ln 2$。\n\n---",
-   "answerText": "**解析：**\n因为 $1+\\cos 2x=2\\cos^{2}x$，所以 $\\int_{0}^{\\frac{\\pi}{4}}\\frac{x}{1+\\cos 2x}\\mathrm{~d}x=\\frac{1}{2}\\int_{0}^{\\frac{\\pi}{4}}x\\sec^{2}x\\mathrm{~d}x=\\frac{\\pi}{8}-\\frac{1}{4}\\ln 2$。\n\n---",
+   "questionText": "求 $\\int_{0}^{\\frac{\\pi}{4}}\\frac{x}{1+\\cos 2x}\\mathrm{~d}x$。",
+   "answerText": "$\\dfrac{\\pi}{8}-\\dfrac{1}{4}\\ln 2$\n\n**解析：**\n$1+\\cos 2x=2\\cos^{2}x$，积分化为 $\\dfrac{1}{2}\\int_{0}^{\\frac{\\pi}{4}}x\\sec^{2}x\\,\\mathrm{d}x$，分部积分得 $\\dfrac{1}{2}\\left(\\dfrac{\\pi}{4}-\\int_{0}^{\\frac{\\pi}{4}}\\tan x\\,\\mathrm{d}x\\right)=\\dfrac{\\pi}{8}-\\dfrac{1}{4}\\ln2$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_substitution"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -495,17 +542,19 @@
    "id": "bank.exam.m2-1993.14",
    "number": 14,
    "title": "1993 年数学二 第 14 题",
-   "questionText": "反常积分\n**题目：** 求 $\\int_{0}^{+\\infty}\\frac{x}{\\left(1+x\\right)^{3}}\\mathrm{~d}x$。\n\n**解析：** $\\int_{0}^{+\\infty}\\frac{x}{\\left(1+x\\right)^{3}}\\mathrm{~d}x=\\int_{0}^{+\\infty}\\left[\\frac{1}{\\left(x+1\\right)^{2}}-\\frac{1}{\\left(x+1\\right)^{3}}\\right]\\mathrm{~d}x=\\frac{1}{2}$。\n\n---",
-   "answerText": "**解析：**\n$\\int_{0}^{+\\infty}\\frac{x}{\\left(1+x\\right)^{3}}\\mathrm{~d}x=\\int_{0}^{+\\infty}\\left[\\frac{1}{\\left(x+1\\right)^{2}}-\\frac{1}{\\left(x+1\\right)^{3}}\\right]\\mathrm{~d}x=\\frac{1}{2}$。\n\n---",
+   "questionText": "求 $\\int_{0}^{+\\infty}\\frac{x}{\\left(1+x\\right)^{3}}\\mathrm{~d}x$。",
+   "answerText": "$\\dfrac{1}{2}$\n\n**解析：**\n令 $u=1+x$，积分化为 $\\int_{1}^{+\\infty}\\left(\\dfrac{1}{u^{2}}-\\dfrac{1}{u^{3}}\\right)\\mathrm{~d}u=\\left[-\\dfrac{1}{u}+\\dfrac{1}{2u^{2}}\\right]_{1}^{+\\infty}=1-\\dfrac{1}{2}=\\dfrac{1}{2}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "improper_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -516,24 +565,26 @@
     "paper": "math2",
     "number": 14
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、计算题"
   },
   {
    "id": "bank.exam.m2-1993.15",
    "number": 15,
    "title": "1993 年数学二 第 15 题",
-   "questionText": "微分方程特解\n**题目：** 求微分方程 $\\left(x^{2}-1\\right)\\mathrm{~d}y+\\left(2xy-\\cos x\\right)\\mathrm{~d}x=0$ 满足初值条件 $y\\left(0\\right)=1$ 的特解。\n\n**解析：** 原方程可化为 $\\mathrm{d}\\left(x^{2}y-\\sin x-y\\right)=0$，故通解为 $x^{2}y-\\sin x-y=C$。由 $y\\left(0\\right)=1$ 得 $C=-1$，所以特解为 $y=\\frac{\\sin x-1}{x^{2}-1}$。\n\n---",
-   "answerText": "**解析：**\n原方程可化为 $\\mathrm{d}\\left(x^{2}y-\\sin x-y\\right)=0$，故通解为 $x^{2}y-\\sin x-y=C$。由 $y\\left(0\\right)=1$ 得 $C=-1$，所以特解为 $y=\\frac{\\sin x-1}{x^{2}-1}$。\n\n---",
+   "questionText": "求微分方程 $\\left(x^{2}-1\\right)\\mathrm{~d}y+\\left(2xy-\\cos x\\right)\\mathrm{~d}x=0$ 满足初值条件 $y\\left(0\\right)=1$ 的特解。",
+   "answerText": "$y=\\dfrac{\\sin x-1}{x^{2}-1}$\n\n**解析：**\n方程左端恰为全微分 $\\mathrm{d}\\left[\\left(x^{2}-1\\right)y\\right]$，故 $\\left(x^{2}-1\\right)y=\\sin x+C$。由 $y\\left(0\\right)=1$ 得 $C=-1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "exact_differential_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -546,6 +597,157 @@
    },
    "subjectGuess": "calculus",
    "section": "三、计算题"
+  },
+  {
+   "id": "bank.exam.m2-1993.16",
+   "number": 16,
+   "title": "1993 年数学二 第 16 题",
+   "questionText": "设二阶常系数线性微分方程 $y^{\\prime\\prime}+\\alpha y^{\\prime}+\\beta y=\\gamma e^{x}$ 的一个特解为 $y=e^{2x}+\\left(1+x\\right)e^{x}$，试确定常数 $\\alpha,\\beta,\\gamma$，并求该方程的通解。",
+   "answerText": "$\\alpha=-3$，$\\beta=2$，$\\gamma=-1$；通解 $y=C_{1}e^{x}+C_{2}e^{2x}+xe^{x}$（$C_{1},C_{2}$ 为任意常数）\n\n**解析：**\n把特解代入方程：$e^{2x}$ 项只能来自齐次部分，得 $4+2\\alpha+\\beta=0$；对 $e^{x}\\left(1+x\\right)$ 部分，$\\gamma e^{x}$ 不能含 $x$，得 $\\beta+\\alpha+1=0$，联立解出 $\\alpha=-3$，$\\beta=2$，$\\gamma=-1$。特征根 $1,2$，自由项 $-e^{x}$ 对应共振特解 $xe^{x}$，得通解。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "linear_higher_order_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "second_order_nonhomogeneous_linear",
+    "characteristic_equation"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1993,
+    "paper": "math2",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "四、微分方程"
+  },
+  {
+   "id": "bank.exam.m2-1993.17",
+   "number": 17,
+   "title": "1993 年数学二 第 17 题",
+   "questionText": "设平面图形 $A$ 由 $x^{2}+y^{2}\\le 2x$ 与 $y\\ge x$ 所确定，求图形 $A$ 绕直线 $x=2$ 旋转一周所得旋转体的体积。",
+   "answerText": "$\\dfrac{2\\pi}{3}$\n\n**解析：**\n用柱壳法（到直线 $x=2$ 的距离为 $2-x$）：$V=2\\pi\\int_{0}^{1}\\left(2-x\\right)\\left[\\sqrt{2x-x^{2}}-x\\right]\\mathrm{~d}x$。其中含根号部分令 $u=x-1$ 换元算得 $1$，另一部分为 $\\dfrac{2}{3}$，故 $V=2\\pi\\left(1-\\dfrac{2}{3}\\right)=\\dfrac{2\\pi}{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "integral_application_geometry",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "area_volume_arc"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1993,
+    "paper": "math2",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "五、旋转体体积"
+  },
+  {
+   "id": "bank.exam.m2-1993.18",
+   "number": 18,
+   "title": "1993 年数学二 第 18 题",
+   "questionText": "作半径为 $r$ 的球的外切正圆锥，问此圆锥的高 $h$ 为何值时，其体积 $V$ 最小，并求出该最小值。",
+   "answerText": "当 $h=4r$ 时体积最小，最小值为 $\\dfrac{8\\pi r^{3}}{3}$。\n\n**解析：**\n设锥底半径 $R$，由轴截面中球与锥几何关系得 $R^{2}=\\dfrac{r^{2}h}{h-2r}$，故 $V=\\dfrac{\\pi R^{2}h}{3}=\\dfrac{\\pi r^{2}h^{2}}{3\\left(h-2r\\right)}$，$h>2r$。求导令为零得 $h=4r$，且其为唯一极小值点，代入得 $V=\\dfrac{8\\pi r^{3}}{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "monotonicity_extrema",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "extrema"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1993,
+    "paper": "math2",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "六、最值问题"
+  },
+  {
+   "id": "bank.exam.m2-1993.19",
+   "number": 19,
+   "title": "1993 年数学二 第 19 题",
+   "questionText": "设 $x>0$，常数 $a>e$，证明：$\\left(a+x\\right)^{a}<a^{a+x}$。",
+   "answerText": "（证明见解析）\n\n**解析：**\n原不等式两边取对数，等价于 $\\left(a+x\\right)\\ln a-a\\ln\\left(a+x\\right)>0$。令 $g\\left(x\\right)=\\left(a+x\\right)\\ln a-a\\ln\\left(a+x\\right)$，则 $g\\left(0\\right)=0$，$g^{\\prime}\\left(x\\right)=\\ln a-\\dfrac{a}{a+x}$。由 $a>e$ 得 $\\ln a>1>\\dfrac{a}{a+x}$，故 $g^{\\prime}>0$，$g\\left(x\\right)>0$，证毕。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "inequality_proof",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "monotonicity"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1993,
+    "paper": "math2",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "七、不等式证明"
+  },
+  {
+   "id": "bank.exam.m2-1993.20",
+   "number": 20,
+   "title": "1993 年数学二 第 20 题",
+   "questionText": "设 $f^{\\prime}\\left(x\\right)$ 在 $\\left[0,a\\right]$ 上连续，且 $f\\left(0\\right)=0$，证明：$\\left|\\int_{0}^{a}f\\left(x\\right)\\mathrm{~d}x\\right|\\le \\frac{Ma^{2}}{2}$，其中 $M=\\max_{0\\le x\\le a}\\left|f^{\\prime}\\left(x\\right)\\right|$。",
+   "answerText": "（证明见解析）\n\n**解析：**\n由拉格朗日中值定理与 $f\\left(0\\right)=0$：$f\\left(x\\right)=f\\left(x\\right)-f\\left(0\\right)=f^{\\prime}\\left(\\xi\\right)x$，故 $\\left|f\\left(x\\right)\\right|\\le Mx$。于是 $\\left|\\int_{0}^{a}f\\left(x\\right)\\mathrm{~d}x\\right|\\le\\int_{0}^{a}Mx\\,\\mathrm{d}x=\\dfrac{Ma^{2}}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "integral_equality_inequality",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1993,
+    "paper": "math2",
+    "number": 20
+   },
+   "subjectGuess": "calculus",
+   "section": "八、积分不等式证明"
   }
  ]
 }
