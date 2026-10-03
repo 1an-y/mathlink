@@ -1,858 +1,862 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 2015,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2015-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 2015,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、选择题",
-   "二、填空题",
-   "三、解答题"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-2015.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-2015.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-2015.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2015.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2015.5",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-2015.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-2015.7",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-2015.8",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-2015.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-2015.10",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-2015.11",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-2015.12",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-2015.13",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-2015.14",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-2015.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-2015.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-2015.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-2015.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-2015.19",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-2015.20",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m2-2015.21",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 22,
-    "id": "bank.exam.m2-2015.22",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 23,
-    "id": "bank.exam.m2-2015.23",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   }
-  ],
-  "total": 23
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-2015.1",
-   "number": 1,
-   "title": "2015 年数学二 第 1 题",
-   "questionText": "下列反常积分收敛的是（ ）\n（A）$\\int_{2}^{+\\infty}\\frac{1}{\\sqrt{x}}\\mathrm{~d}x$\n\n（B）$\\int_{2}^{+\\infty}\\frac{\\ln x}{x}\\mathrm{~d}x$\n\n（C）$\\int_{2}^{+\\infty}\\frac{1}{x \\ln x}\\mathrm{~d}x$\n\n（D）$\\int_{2}^{+\\infty}\\frac{x}{e^{x}}\\mathrm{~d}x$",
-   "answerText": "（D）\n\n**解析：**\n$\\int \\frac{x}{e^{x}}\\mathrm{~d}x=-\\left(x+1\\right)e^{-x}$，故\n\n$\\int_{2}^{+\\infty}\\frac{x}{e^{x}}\\mathrm{~d}x=-\\left(x+1\\right)e^{-x}\\bigg|_{2}^{+\\infty}=3e^{-2}$，\n\n所以该反常积分收敛。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题转录（题干以公开真题为准）；解析为原创重写，仅保留客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2015-2.md",
+  "paperInfo": {
     "year": 2015,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
+    "label": "数学二",
+    "sections": [
+      "一、选择题",
+      "二、填空题",
+      "三、解答题"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-2015.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-2015.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-2015.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-2015.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-2015.5",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-2015.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-2015.7",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-2015.8",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-2015.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-2015.10",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-2015.11",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-2015.12",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-2015.13",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-2015.14",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-2015.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-2015.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-2015.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-2015.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-2015.19",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-2015.20",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m2-2015.21",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 22,
+        "id": "bank.exam.m2-2015.22",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 23,
+        "id": "bank.exam.m2-2015.23",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      }
+    ],
+    "total": 23
   },
-  {
-   "id": "bank.exam.m2-2015.2",
-   "number": 2,
-   "title": "2015 年数学二 第 2 题",
-   "questionText": "函数 $f\\left(x\\right)=\\lim_{t\\to 0}\\left(1+\\frac{\\sin t}{x}\\right)^{\\frac{x^{2}}{t}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内（ ）\n（A）连续\n\n（B）有可去间断点\n\n（C）有跳跃间断点\n\n（D）有无穷间断点",
-   "answerText": "（B）\n\n**解析：**\n当 $x\\neq 0$ 时，\n\n$f\\left(x\\right)=e^{\\lim_{t\\to 0}\\frac{x^{2}}{t}\\cdot \\frac{\\sin t}{x}}=e^{x}$。\n\n因此 $x=0$ 为可去间断点。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "discontinuity",
-    "multivariable_limit_continuity",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.3",
-   "number": 3,
-   "title": "2015 年数学二 第 3 题",
-   "questionText": "设函数\n$f\\left(x\\right)=\\left\\{\\begin{matrix}x^{\\alpha}\\cos \\frac{1}{x^{\\beta}},&x>0\\\\0,&x\\leq 0\\end{matrix}\\right.$，$\\left(\\alpha>0,\\beta>0\\right)$，\n\n若 $f^{\\prime}\\left(x\\right)$ 在 $x=0$ 处连续，则（ ）\n\n（A）$\\alpha-\\beta>0$\n\n（B）$0<\\alpha-\\beta\\leq 1$\n\n（C）$\\alpha-\\beta>2$\n\n（D）$0<\\alpha-\\beta\\leq 2$",
-   "answerText": "（A）\n\n**解析：**\n由 $f_{+}^{\\prime}\\left(0\\right)=\\lim_{x\\to 0^{+}}x^{\\alpha-1}\\cos \\frac{1}{x^{\\beta}}=0$，得 $\\alpha>1$。\n\n当 $x>0$ 时，\n\n$f^{\\prime}\\left(x\\right)=\\alpha x^{\\alpha-1}\\cos \\frac{1}{x^{\\beta}}+\\beta x^{\\alpha-\\beta-1}\\sin \\frac{1}{x^{\\beta}}$。\n\n若 $f^{\\prime}\\left(x\\right)$ 在 $x=0$ 处连续，则需 $\\alpha-\\beta-1>0$，从而 $\\alpha-\\beta>0$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.4",
-   "number": 4,
-   "title": "2015 年数学二 第 4 题",
-   "questionText": "设函数 $f\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 内连续，其中二阶导数 $f^{\\prime\\prime}\\left(x\\right)$ 的图形如图所示，则曲线 $y=f\\left(x\\right)$ 的拐点的个数为（ ）\n（A）$0$\n\n（B）$1$\n\n（C）$2$\n\n（D）$3$",
-   "answerText": "（C）\n\n**解析：**\n由图像可知，$f^{\\prime\\prime}\\left(x\\right)$ 有两处变号，因此曲线 $y=f\\left(x\\right)$ 有 $2$ 个拐点。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "concavity_inflection",
-    "quadric_surface_equations"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.5",
-   "number": 5,
-   "title": "2015 年数学二 第 5 题",
-   "questionText": "设函数 $f\\left(u,v\\right)$ 满足 $f\\left(x+\\frac{y}{x},y\\right)=x^{2}-y^{2}$，则 $\\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}$ 与 $\\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}$ 依次是（ ）\n（A）$\\frac{1}{2},0$\n\n（B）$0,\\frac{1}{2}$\n\n（C）$-\\frac{1}{2},0$\n\n（D）$0,-\\frac{1}{2}$",
-   "answerText": "（D）\n\n**解析：**\n令 $u=x+\\frac{y}{x},v=y$，则 $x=\\frac{uv}{1+v}$，故\n\n$f\\left(u,v\\right)=\\left(\\frac{uv}{1+v}\\right)^{2}-v^{2}$。\n\n求偏导并代入 $u=1,v=1$，得\n\n$\\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}=0,\\quad \\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}=-\\frac{1}{2}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.6",
-   "number": 6,
-   "title": "2015 年数学二 第 6 题",
-   "questionText": "设 $D$ 是第一象限由曲线 $2xy=1$，$4xy=1$ 与直线 $y=x$，$y=3x$ 围成的平面区域，函数 $f\\left(x,y\\right)$ 在 $D$ 上连续，则 $\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y=$（ ）\n（A）$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{4\\sin 2\\theta}}^{\\frac{1}{2\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)r\\mathrm{~d}r$\n\n（B）$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{4\\sin 2\\theta}}^{\\frac{1}{2\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)r\\mathrm{~d}r$\n\n（C）$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{4\\sin 2\\theta}}^{\\frac{1}{2\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)\\mathrm{d}r$\n\n（D）$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{4\\sin 2\\theta}}^{\\frac{1}{2\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)\\mathrm{d}r$",
-   "answerText": "（B）\n\n**解析：**\n极坐标下 $xy=r^{2}\\sin\\theta\\cos\\theta=\\frac{r^{2}}{2}\\sin 2\\theta$，且\n\n$\\frac{\\pi}{4}\\leq \\theta\\leq \\frac{\\pi}{3},\\quad \\frac{1}{4\\sin 2\\theta}\\leq r\\leq \\frac{1}{2\\sin 2\\theta}$。\n\n因此\n\n$\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y=\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{4\\sin 2\\theta}}^{\\frac{1}{2\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)r\\mathrm{~d}r$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.7",
-   "number": 7,
-   "title": "2015 年数学二 第 7 题",
-   "questionText": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}1&1&1\\\\1&2&a\\\\1&4&a^{2}\\end{matrix}\\right)$，$\\boldsymbol{b}=\\left(\\begin{matrix}1\\\\2\\\\d\\end{matrix}\\right)$。若集合 $\\Omega=\\left\\{1,2\\right\\}$，则线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{b}$ 有无穷多解的充分必要条件为（ ）\n（A）$a\\notin\\Omega,d\\notin\\Omega$\n\n（B）$a\\notin\\Omega,d\\in\\Omega$\n\n（C）$a\\in\\Omega,d\\notin\\Omega$\n\n（D）$a\\in\\Omega,d\\in\\Omega$",
-   "answerText": "（D）\n\n**解析：**\n对增广矩阵作初等变换：\n\n$\\left(\\boldsymbol{A},\\boldsymbol{b}\\right)\\to \\left(\\begin{matrix}1&1&1&1\\\\0&1&a-1&1\\\\0&0&\\left(a-1\\right)\\left(a-2\\right)&\\left(d-1\\right)\\left(d-2\\right)\\end{matrix}\\right)$。\n\n方程组有无穷多解需 $r\\left(\\boldsymbol{A}\\right)=r\\left(\\boldsymbol{A},\\boldsymbol{b}\\right)<3$，故 $a\\in\\Omega,d\\in\\Omega$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.linear_systems",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.invertibility_criteria",
-    "la.knowledge.matrix_transpose"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.8",
-   "number": 8,
-   "title": "2015 年数学二 第 8 题",
-   "questionText": "设二次型 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{P}\\boldsymbol{y}$ 下的标准形为 $2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$，其中 $\\boldsymbol{P}=\\left(\\boldsymbol{e}_{1},\\boldsymbol{e}_{2},\\boldsymbol{e}_{3}\\right)$，若 $\\boldsymbol{Q}=\\left(\\boldsymbol{e}_{1},-\\boldsymbol{e}_{3},\\boldsymbol{e}_{2}\\right)$，则 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{Q}\\boldsymbol{y}$ 下的标准形为（ ）\n（A）$2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$\n\n（B）$2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$\n\n（C）$2y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n（D）$2y_{1}^{2}+y_{2}^{2}+y_{3}^{2}$",
-   "answerText": "（A）\n\n**解析：**\n由题知\n\n$\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}2&0&0\\\\0&1&0\\\\0&0&-1\\end{matrix}\\right)$。\n\n又 $\\boldsymbol{Q}=\\boldsymbol{P}\\boldsymbol{C}$，其中\n\n$\\boldsymbol{C}=\\left(\\begin{matrix}1&0&0\\\\0&0&1\\\\0&-1&0\\end{matrix}\\right)$。\n\n所以\n\n$\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\boldsymbol{C}^{T}\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}\\boldsymbol{C}=\\left(\\begin{matrix}2&0&0\\\\0&-1&0\\\\0&0&1\\end{matrix}\\right)$，\n\n标准形为 $2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.quadratic_forms",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.standard_form"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2015.9",
-   "number": 9,
-   "title": "2015 年数学二 第 9 题",
-   "questionText": "$\\left\\{\\begin{matrix}x=\\arctan t\\\\y=t^{3}+t\\end{matrix}\\right.$，则 $\\left.\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\right|_{t=1}=$",
-   "answerText": "$48$\n\n**解析：**\n$\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{3+3t^{2}}{\\frac{1}{1+t^{2}}}=3\\left(1+t^{2}\\right)^{2}$，\n\n$\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left[3\\left(1+t^{2}\\right)^{2}\\right]=12t\\left(1+t^{2}\\right)^{2}$。\n\n代入 $t=1$，得 $\\left.\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\right|_{t=1}=48$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2015.10",
-   "number": 10,
-   "title": "2015 年数学二 第 10 题",
-   "questionText": "函数 $f\\left(x\\right)=x^{2}\\cdot 2^{x}$ 在 $x=0$ 处的 $n$ 阶导数 $f^{\\left(n\\right)}\\left(0\\right)=$",
-   "answerText": "$n\\left(n-1\\right)\\left(\\ln 2\\right)^{n-2}$\n\n**解析：**\n由莱布尼茨公式，\n\n$f^{\\left(n\\right)}\\left(0\\right)=C_{n}^{2}\\cdot 2\\cdot \\left(\\ln 2\\right)^{n-2}=n\\left(n-1\\right)\\left(\\ln 2\\right)^{n-2}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2015.11",
-   "number": 11,
-   "title": "2015 年数学二 第 11 题",
-   "questionText": "设 $f\\left(x\\right)$ 连续，$\\varphi\\left(x\\right)=x\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t$，若 $\\varphi\\left(1\\right)=1,\\varphi^{\\prime}\\left(1\\right)=5$，则 $f\\left(1\\right)=$",
-   "answerText": "$2$\n\n**解析：**\n$\\varphi^{\\prime}\\left(x\\right)=\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t+2x^{2}f\\left(x^{2}\\right)$。\n\n由 $\\varphi\\left(1\\right)=1$，得 $\\int_{0}^{1}f\\left(t\\right)\\mathrm{~d}t=1$。\n\n又 $\\varphi^{\\prime}\\left(1\\right)=1+2f\\left(1\\right)=5$，故 $f\\left(1\\right)=2$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2015.12",
-   "number": 12,
-   "title": "2015 年数学二 第 12 题",
-   "questionText": "设函数 $y=y\\left(x\\right)$ 是微分方程 $y^{\\prime\\prime}+y^{\\prime}-2y=0$ 的解，且在 $x=0$ 处 $y\\left(x\\right)$ 取得极值 $3$，则 $y\\left(x\\right)=$",
-   "answerText": "$2e^{x}+e^{-2x}$\n\n**解析：**\n特征方程为 $\\lambda^{2}+\\lambda-2=0$，得 $\\lambda_{1}=1,\\lambda_{2}=-2$。\n\n故 $y=C_{1}e^{x}+C_{2}e^{-2x}$。由 $y\\left(0\\right)=3,y^{\\prime}\\left(0\\right)=0$，解得 $C_{1}=2,C_{2}=1$。\n\n所以 $y=2e^{x}+e^{-2x}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "extrema",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2015.13",
-   "number": 13,
-   "title": "2015 年数学二 第 13 题",
-   "questionText": "若函数 $z=z\\left(x,y\\right)$ 由方程 $e^{x+2y+3z}+xyz=1$ 确定，则 $\\left.\\mathrm{d}z\\right|_{\\left(0,0\\right)}=$",
-   "answerText": "$-\\frac{1}{3}\\left(\\mathrm{d}x+2\\mathrm{d}y\\right)$\n\n**解析：**\n当 $x=0,y=0$ 时，$z=0$。对方程求偏导并代入 $\\left(0,0,0\\right)$，得\n\n$\\left.\\frac{\\partial z}{\\partial x}\\right|_{\\left(0,0\\right)}=-\\frac{1}{3},\\quad \\left.\\frac{\\partial z}{\\partial y}\\right|_{\\left(0,0\\right)}=-\\frac{2}{3}$。\n\n因此\n\n$\\left.\\mathrm{d}z\\right|_{\\left(0,0\\right)}=-\\frac{1}{3}\\mathrm{d}x-\\frac{2}{3}\\mathrm{d}y=-\\frac{1}{3}\\left(\\mathrm{d}x+2\\mathrm{d}y\\right)$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2015.14",
-   "number": 14,
-   "title": "2015 年数学二 第 14 题",
-   "questionText": "若 $3$ 阶矩阵 $\\boldsymbol{A}$ 的特征值为 $2,-2,1$，$\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{A}+\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 为 $3$ 阶单位阵，则行列式 $\\left|\\boldsymbol{B}\\right|=$",
-   "answerText": "$21$\n\n**解析：**\n若 $\\lambda$ 为 $\\boldsymbol{A}$ 的特征值，则 $\\lambda^{2}-\\lambda+1$ 为 $\\boldsymbol{B}$ 的特征值。\n\n对应 $2,-2,1$，得 $\\boldsymbol{B}$ 的特征值为 $3,7,1$，故\n\n$\\left|\\boldsymbol{B}\\right|=3\\times 7\\times 1=21$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.determinants",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.matrix_product_determinant",
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.matrix_transpose"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2015.15",
-   "number": 15,
-   "title": "2015 年数学二 第 15 题",
-   "questionText": "（本题满分 10 分）\n设函数 $f\\left(x\\right)=\\ln\\left(1+x\\right)+ax+bx\\sin x$，$g\\left(x\\right)=kx^{3}$。若 $f\\left(x\\right)$ 与 $g\\left(x\\right)$ 在 $x\\to 0$ 时是等价无穷小，求 $a,b,k$ 的值。\n\n**解析：**\n由\n\n$\\ln\\left(1+x\\right)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}+o\\left(x^{3}\\right),\\quad \\sin x=x-\\frac{x^{3}}{3!}+o\\left(x^{3}\\right)$，\n\n代入 $f\\left(x\\right)$，并由 $f\\left(x\\right)\\sim kx^{3}$，比较各阶系数，可得\n\n$a=-1,\\quad b=-\\frac{1}{2},\\quad k=-\\frac{1}{3}$。\n\n---",
-   "answerText": "**解析：**\n由\n\n$\\ln\\left(1+x\\right)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}+o\\left(x^{3}\\right),\\quad \\sin x=x-\\frac{x^{3}}{3!}+o\\left(x^{3}\\right)$，\n\n代入 $f\\left(x\\right)$，并由 $f\\left(x\\right)\\sim kx^{3}$，比较各阶系数，可得\n\n$a=-1,\\quad b=-\\frac{1}{2},\\quad k=-\\frac{1}{3}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "equivalent_infinitesimal",
-    "infinite_and_infinitesimal",
-    "infinitesimal_order"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.16",
-   "number": 16,
-   "title": "2015 年数学二 第 16 题",
-   "questionText": "（本题满分 10 分）\n设 $A>0$，$D$ 是由曲线段 $y=A\\sin x\\left(0\\leq x\\leq \\frac{\\pi}{2}\\right)$ 及直线 $y=0$，$x=\\frac{\\pi}{2}$ 所围成的平面区域，$V_{1}$，$V_{2}$ 分别表示 $D$ 绕 $x$ 轴与绕 $y$ 轴旋转成旋转体的体积，若 $V_{1}=V_{2}$，求 $A$ 的值。\n\n**解析：**\n由旋转体体积公式，\n\n$V_{1}=\\pi\\int_{0}^{\\frac{\\pi}{2}}A^{2}\\sin^{2}x\\mathrm{~d}x=\\frac{\\pi^{2}A^{2}}{4}$，\n\n$V_{2}=2\\pi\\int_{0}^{\\frac{\\pi}{2}}xA\\sin x\\mathrm{~d}x=\\pi^{2}A$。\n\n由 $V_{1}=V_{2}$，且 $A>0$，得\n\n$A=\\frac{8}{\\pi}$。\n\n---",
-   "answerText": "**解析：**\n由旋转体体积公式，\n\n$V_{1}=\\pi\\int_{0}^{\\frac{\\pi}{2}}A^{2}\\sin^{2}x\\mathrm{~d}x=\\frac{\\pi^{2}A^{2}}{4}$，\n\n$V_{2}=2\\pi\\int_{0}^{\\frac{\\pi}{2}}xA\\sin x\\mathrm{~d}x=\\pi^{2}A$。\n\n由 $V_{1}=V_{2}$，且 $A>0$，得\n\n$A=\\frac{8}{\\pi}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.17",
-   "number": 17,
-   "title": "2015 年数学二 第 17 题",
-   "questionText": "（本题满分 11 分）\n已知函数 $f\\left(x,y\\right)$ 满足 $f_{xy}^{\\prime\\prime}\\left(x,y\\right)=2\\left(y+1\\right)e^{x}$，$f_{x}^{\\prime}\\left(x,0\\right)=\\left(x+1\\right)e^{x}$，$f\\left(0,y\\right)=y^{2}+2y$，求 $f\\left(x,y\\right)$ 的极值。\n\n**解析：**\n由 $f_{xy}^{\\prime\\prime}\\left(x,y\\right)=2\\left(y+1\\right)e^{x}$，对 $y$ 积分得\n\n$f_{x}^{\\prime}\\left(x,y\\right)=\\left(y^{2}+2y\\right)e^{x}+\\varphi\\left(x\\right)$。\n\n由 $f_{x}^{\\prime}\\left(x,0\\right)=\\left(x+1\\right)e^{x}$，得 $\\varphi\\left(x\\right)=\\left(x+1\\right)e^{x}$。\n\n再对 $x$ 积分并利用 $f\\left(0,y\\right)=y^{2}+2y$，得\n\n$f\\left(x,y\\right)=\\left(y^{2}+2y\\right)e^{x}+xe^{x}$。\n\n令 $f_{x}^{\\prime}=0,f_{y}^{\\prime}=0$，得驻点 $\\left(0,-1\\right)$。\n\n又\n\n$f_{xx}^{\\prime\\prime}\\left(0,-1\\right)=1,\\quad f_{xy}^{\\prime\\prime}\\left(0,-1\\right)=0,\\quad f_{yy}^{\\prime\\prime}\\left(0,-1\\right)=2$，\n\n故 $AC-B^{2}>0$ 且 $A>0$，所以 $f\\left(0,-1\\right)=-1$ 为极小值。\n\n---",
-   "answerText": "**解析：**\n由 $f_{xy}^{\\prime\\prime}\\left(x,y\\right)=2\\left(y+1\\right)e^{x}$，对 $y$ 积分得\n\n$f_{x}^{\\prime}\\left(x,y\\right)=\\left(y^{2}+2y\\right)e^{x}+\\varphi\\left(x\\right)$。\n\n由 $f_{x}^{\\prime}\\left(x,0\\right)=\\left(x+1\\right)e^{x}$，得 $\\varphi\\left(x\\right)=\\left(x+1\\right)e^{x}$。\n\n再对 $x$ 积分并利用 $f\\left(0,y\\right)=y^{2}+2y$，得\n\n$f\\left(x,y\\right)=\\left(y^{2}+2y\\right)e^{x}+xe^{x}$。\n\n令 $f_{x}^{\\prime}=0,f_{y}^{\\prime}=0$，得驻点 $\\left(0,-1\\right)$。\n\n又\n\n$f_{xx}^{\\prime\\prime}\\left(0,-1\\right)=1,\\quad f_{xy}^{\\prime\\prime}\\left(0,-1\\right)=0,\\quad f_{yy}^{\\prime\\prime}\\left(0,-1\\right)=2$，\n\n故 $AC-B^{2}>0$ 且 $A>0$，所以 $f\\left(0,-1\\right)=-1$ 为极小值。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "extrema",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.18",
-   "number": 18,
-   "title": "2015 年数学二 第 18 题",
-   "questionText": "（本题满分 10 分）\n计算二重积分 $\\iint_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 2,y\\geq x^{2}\\right\\}$。\n\n**解析：**\n由于区域 $D$ 关于 $y$ 轴对称，$\\iint_{D}xy\\mathrm{~d}x\\mathrm{~d}y=0$，所以\n\n$\\iint_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y=\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y$。\n\n于是\n\n$\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y=2\\int_{0}^{1}x^{2}\\left(\\sqrt{2-x^{2}}-x^{2}\\right)\\mathrm{~d}x$。\n\n令 $x=\\sqrt{2}\\sin t$，可得\n\n$2\\int_{0}^{1}x^{2}\\sqrt{2-x^{2}}\\mathrm{~d}x=\\frac{\\pi}{4}$。\n\n故原积分为\n\n$\\frac{\\pi}{4}-\\frac{2}{5}$。\n\n---",
-   "answerText": "**解析：**\n由于区域 $D$ 关于 $y$ 轴对称，$\\iint_{D}xy\\mathrm{~d}x\\mathrm{~d}y=0$，所以\n\n$\\iint_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y=\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y$。\n\n于是\n\n$\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y=2\\int_{0}^{1}x^{2}\\left(\\sqrt{2-x^{2}}-x^{2}\\right)\\mathrm{~d}x$。\n\n令 $x=\\sqrt{2}\\sin t$，可得\n\n$2\\int_{0}^{1}x^{2}\\sqrt{2-x^{2}}\\mathrm{~d}x=\\frac{\\pi}{4}$。\n\n故原积分为\n\n$\\frac{\\pi}{4}-\\frac{2}{5}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multiple_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.19",
-   "number": 19,
-   "title": "2015 年数学二 第 19 题",
-   "questionText": "（本题满分 11 分）\n已知函数 $f\\left(x\\right)=\\int_{x}^{1}\\sqrt{1+t^{2}}\\mathrm{~d}t+\\int_{1}^{x^{2}}\\sqrt{1+t}\\mathrm{~d}t$，求 $f\\left(x\\right)$ 零点的个数。\n\n**解析：**\n求导得\n\n$f^{\\prime}\\left(x\\right)=-\\sqrt{1+x^{2}}+2x\\sqrt{1+x^{2}}=\\sqrt{1+x^{2}}\\left(2x-1\\right)$。\n\n故 $x=\\frac{1}{2}$ 为唯一驻点，且 $f\\left(x\\right)$ 在 $\\left(-\\infty,\\frac{1}{2}\\right)$ 上单调递减，在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上单调递增。\n\n又可判断\n\n$f\\left(\\frac{1}{2}\\right)<0,\\quad \\lim_{x\\to-\\infty}f\\left(x\\right)=+\\infty,\\quad \\lim_{x\\to+\\infty}f\\left(x\\right)=+\\infty$。\n\n因此 $f\\left(x\\right)$ 在 $\\left(-\\infty,\\frac{1}{2}\\right)$ 和 $\\left(\\frac{1}{2},+\\infty\\right)$ 上各有一个零点，故零点个数为 $2$。\n\n---",
-   "answerText": "**解析：**\n求导得\n\n$f^{\\prime}\\left(x\\right)=-\\sqrt{1+x^{2}}+2x\\sqrt{1+x^{2}}=\\sqrt{1+x^{2}}\\left(2x-1\\right)$。\n\n故 $x=\\frac{1}{2}$ 为唯一驻点，且 $f\\left(x\\right)$ 在 $\\left(-\\infty,\\frac{1}{2}\\right)$ 上单调递减，在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上单调递增。\n\n又可判断\n\n$f\\left(\\frac{1}{2}\\right)<0,\\quad \\lim_{x\\to-\\infty}f\\left(x\\right)=+\\infty,\\quad \\lim_{x\\to+\\infty}f\\left(x\\right)=+\\infty$。\n\n因此 $f\\left(x\\right)$ 在 $\\left(-\\infty,\\frac{1}{2}\\right)$ 和 $\\left(\\frac{1}{2},+\\infty\\right)$ 上各有一个零点，故零点个数为 $2$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.20",
-   "number": 20,
-   "title": "2015 年数学二 第 20 题",
-   "questionText": "（本题满分 10 分）\n已知高温物体置于低温介质中，任一时刻该物体温度对时间的变化率与该时刻物体和介质的温差成正比，现将一初始温度为 $120^\\circ\\mathrm{C}$ 的物体在 $20^\\circ\\mathrm{C}$ 的恒温介质中冷却，$30\\mathrm{min}$ 后该物体降至 $30^\\circ\\mathrm{C}$，若要将该物体的温度继续降至 $21^\\circ\\mathrm{C}$，还需冷却多长时间？\n\n**解析：**\n设 $t$ 时刻温度为 $x\\left(t\\right)$，则\n\n$\\frac{\\mathrm{d}x}{\\mathrm{d}t}=-k\\left(x-20\\right)$，\n\n解得\n\n$x\\left(t\\right)=100e^{-kt}+20$。\n\n由 $x\\left(\\frac{1}{2}\\right)=30$，得 $k=2\\ln 10$，于是\n\n$x\\left(t\\right)=100e^{-2t\\ln 10}+20$。\n\n令 $x\\left(t\\right)=21$，得 $t=1$。已冷却 $\\frac{1}{2}\\mathrm{h}$，故还需冷却 $30\\mathrm{min}$。\n\n---",
-   "answerText": "**解析：**\n设 $t$ 时刻温度为 $x\\left(t\\right)$，则\n\n$\\frac{\\mathrm{d}x}{\\mathrm{d}t}=-k\\left(x-20\\right)$，\n\n解得\n\n$x\\left(t\\right)=100e^{-kt}+20$。\n\n由 $x\\left(\\frac{1}{2}\\right)=30$，得 $k=2\\ln 10$，于是\n\n$x\\left(t\\right)=100e^{-2t\\ln 10}+20$。\n\n令 $x\\left(t\\right)=21$，得 $t=1$。已冷却 $\\frac{1}{2}\\mathrm{h}$，故还需冷却 $30\\mathrm{min}$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.21",
-   "number": 21,
-   "title": "2015 年数学二 第 21 题",
-   "questionText": "（本题满分 10 分）\n已知函数 $f\\left(x\\right)$ 在区间 $\\left[a,+\\infty\\right)$ 上具有 $2$ 阶导数，$f\\left(a\\right)=0$，$f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$。设 $b>a$，曲线 $y=f\\left(x\\right)$ 在点 $\\left(b,f\\left(b\\right)\\right)$ 处的切线与 $x$ 轴的交点是 $\\left(x_{0},0\\right)$，证明 $a<x_{0}<b$。\n\n**解析：**\n切线方程为\n\n$y-f\\left(b\\right)=f^{\\prime}\\left(b\\right)\\left(x-b\\right)$。\n\n令 $y=0$，得\n\n$x_{0}=b-\\frac{f\\left(b\\right)}{f^{\\prime}\\left(b\\right)}$。\n\n因 $f^{\\prime}\\left(x\\right)>0$ 且 $f\\left(a\\right)=0$，所以 $f\\left(b\\right)>0$，从而 $x_{0}<b$。\n\n由拉格朗日中值定理，存在 $\\xi\\in\\left(a,b\\right)$，使\n\n$f\\left(b\\right)=f^{\\prime}\\left(\\xi\\right)\\left(b-a\\right)$。\n\n于是\n\n$x_{0}-a=\\frac{f\\left(b\\right)}{f^{\\prime}\\left(\\xi\\right)}-\\frac{f\\left(b\\right)}{f^{\\prime}\\left(b\\right)}=\\frac{f\\left(b\\right)\\left[f^{\\prime}\\left(b\\right)-f^{\\prime}\\left(\\xi\\right)\\right]}{f^{\\prime}\\left(\\xi\\right)f^{\\prime}\\left(b\\right)}$。\n\n又 $f^{\\prime\\prime}\\left(x\\right)>0$，故 $f^{\\prime}\\left(b\\right)>f^{\\prime}\\left(\\xi\\right)$，所以 $x_{0}>a$。\n\n综上，$a<x_{0}<b$。\n\n---",
-   "answerText": "**解析：**\n切线方程为\n\n$y-f\\left(b\\right)=f^{\\prime}\\left(b\\right)\\left(x-b\\right)$。\n\n令 $y=0$，得\n\n$x_{0}=b-\\frac{f\\left(b\\right)}{f^{\\prime}\\left(b\\right)}$。\n\n因 $f^{\\prime}\\left(x\\right)>0$ 且 $f\\left(a\\right)=0$，所以 $f\\left(b\\right)>0$，从而 $x_{0}<b$。\n\n由拉格朗日中值定理，存在 $\\xi\\in\\left(a,b\\right)$，使\n\n$f\\left(b\\right)=f^{\\prime}\\left(\\xi\\right)\\left(b-a\\right)$。\n\n于是\n\n$x_{0}-a=\\frac{f\\left(b\\right)}{f^{\\prime}\\left(\\xi\\right)}-\\frac{f\\left(b\\right)}{f^{\\prime}\\left(b\\right)}=\\frac{f\\left(b\\right)\\left[f^{\\prime}\\left(b\\right)-f^{\\prime}\\left(\\xi\\right)\\right]}{f^{\\prime}\\left(\\xi\\right)f^{\\prime}\\left(b\\right)}$。\n\n又 $f^{\\prime\\prime}\\left(x\\right)>0$，故 $f^{\\prime}\\left(b\\right)>f^{\\prime}\\left(\\xi\\right)$，所以 $x_{0}>a$。\n\n综上，$a<x_{0}<b$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 21
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.22",
-   "number": 22,
-   "title": "2015 年数学二 第 22 题",
-   "questionText": "（本题满分 11 分）\n设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}a&1&0\\\\1&a&-1\\\\0&1&a\\end{matrix}\\right)$ 且 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$。\n\n（1）求 $a$ 的值；\n\n（2）若矩阵 $\\boldsymbol{X}$ 满足 $\\boldsymbol{X}-\\boldsymbol{X}\\boldsymbol{A}-\\boldsymbol{A}\\boldsymbol{X}+\\boldsymbol{A}\\boldsymbol{X}\\boldsymbol{A}=\\boldsymbol{E}$，$\\boldsymbol{E}$ 为 $3$ 阶单位阵，求 $\\boldsymbol{X}$。\n\n**解析：**\n由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$，得 $\\left|\\boldsymbol{A}\\right|=0$，即 $a^{3}=0$，所以\n\n$a=0$。\n\n原方程可化为\n\n$\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)\\boldsymbol{X}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)=\\boldsymbol{E}$，\n\n故\n\n$\\boldsymbol{X}=\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-2}$。\n\n由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$，有\n\n$\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-1}=\\boldsymbol{E}+\\boldsymbol{A}+\\boldsymbol{A}^{2}$。\n\n代入 $a=0$ 计算得\n\n$\\boldsymbol{X}=\\left(\\begin{matrix}3&1&-2\\\\1&-1&-1\\\\2&-1&1\\end{matrix}\\right)$。\n\n---",
-   "answerText": "**解析：**\n由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$，得 $\\left|\\boldsymbol{A}\\right|=0$，即 $a^{3}=0$，所以\n\n$a=0$。\n\n原方程可化为\n\n$\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)\\boldsymbol{X}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)=\\boldsymbol{E}$，\n\n故\n\n$\\boldsymbol{X}=\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-2}$。\n\n由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$，有\n\n$\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-1}=\\boldsymbol{E}+\\boldsymbol{A}+\\boldsymbol{A}^{2}$。\n\n代入 $a=0$ 计算得\n\n$\\boldsymbol{X}=\\left(\\begin{matrix}3&1&-2\\\\1&-1&-1\\\\2&-1&1\\end{matrix}\\right)$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.matrix_transpose"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 22
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2015.23",
-   "number": 23,
-   "title": "2015 年数学二 第 23 题",
-   "questionText": "（本题满分 11 分）\n设矩阵\n\n$\\boldsymbol{A}=\\left(\\begin{matrix}0&-2&3\\\\1&-3&3\\\\1&-2&a\\end{matrix}\\right)$\n\n相似于矩阵\n\n$\\boldsymbol{B}=\\left(\\begin{matrix}1&2&0\\\\0&b&0\\\\0&3&1\\end{matrix}\\right)$。\n\n（1）求 $a,b$ 的值；\n\n（2）求可逆矩阵 $\\boldsymbol{P}$，使 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$ 为对角阵。\n\n**解析：**\n由 $\\boldsymbol{A}\\sim \\boldsymbol{B}$，得\n\n$\\operatorname{tr}\\left(\\boldsymbol{A}\\right)=\\operatorname{tr}\\left(\\boldsymbol{B}\\right),\\quad \\left|\\boldsymbol{A}\\right|=\\left|\\boldsymbol{B}\\right|$。\n\n解得\n\n$a=4,\\quad b=5$。\n\n此时令 $\\boldsymbol{A}=\\boldsymbol{E}+\\boldsymbol{C}$，其中\n\n$\\boldsymbol{C}=\\left(\\begin{matrix}-1&-2&3\\\\1&-4&3\\\\1&-2&3\\end{matrix}\\right)$。\n\n$\\boldsymbol{C}$ 的特征值为 $0,0,4$，对应 $\\boldsymbol{A}$ 的特征值为 $1,1,5$。\n\n取对应特征向量\n\n$\\boldsymbol{\\xi}_{1}=\\left(2,1,0\\right)^{T},\\quad \\boldsymbol{\\xi}_{2}=\\left(-3,0,1\\right)^{T},\\quad \\boldsymbol{\\xi}_{3}=\\left(-1,-1,1\\right)^{T}$。\n\n令\n\n$\\boldsymbol{P}=\\left(\\boldsymbol{\\xi}_{1},\\boldsymbol{\\xi}_{2},\\boldsymbol{\\xi}_{3}\\right)=\\left(\\begin{matrix}2&-3&-1\\\\1&0&-1\\\\0&1&1\\end{matrix}\\right)$，\n\n则\n\n$\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}1&0&0\\\\0&1&0\\\\0&0&5\\end{matrix}\\right)$。",
-   "answerText": "**解析：**\n由 $\\boldsymbol{A}\\sim \\boldsymbol{B}$，得\n\n$\\operatorname{tr}\\left(\\boldsymbol{A}\\right)=\\operatorname{tr}\\left(\\boldsymbol{B}\\right),\\quad \\left|\\boldsymbol{A}\\right|=\\left|\\boldsymbol{B}\\right|$。\n\n解得\n\n$a=4,\\quad b=5$。\n\n此时令 $\\boldsymbol{A}=\\boldsymbol{E}+\\boldsymbol{C}$，其中\n\n$\\boldsymbol{C}=\\left(\\begin{matrix}-1&-2&3\\\\1&-4&3\\\\1&-2&3\\end{matrix}\\right)$。\n\n$\\boldsymbol{C}$ 的特征值为 $0,0,4$，对应 $\\boldsymbol{A}$ 的特征值为 $1,1,5$。\n\n取对应特征向量\n\n$\\boldsymbol{\\xi}_{1}=\\left(2,1,0\\right)^{T},\\quad \\boldsymbol{\\xi}_{2}=\\left(-3,0,1\\right)^{T},\\quad \\boldsymbol{\\xi}_{3}=\\left(-1,-1,1\\right)^{T}$。\n\n令\n\n$\\boldsymbol{P}=\\left(\\boldsymbol{\\xi}_{1},\\boldsymbol{\\xi}_{2},\\boldsymbol{\\xi}_{3}\\right)=\\left(\\begin{matrix}2&-3&-1\\\\1&0&-1\\\\0&1&1\\end{matrix}\\right)$，\n\n则\n\n$\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}1&0&0\\\\0&1&0\\\\0&0&5\\end{matrix}\\right)$。",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.matrix_transpose"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2015,
-    "paper": "math2",
-    "number": 23
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-2015.1",
+      "number": 1,
+      "title": "2015 年数学二 第 1 题",
+      "questionText": "下列反常积分收敛的是（ ）\n（A）$\\int_{2}^{+\\infty}\\frac{1}{\\sqrt{x}}\\mathrm{~d}x$\n\n（B）$\\int_{2}^{+\\infty}\\frac{\\ln x}{x}\\mathrm{~d}x$\n\n（C）$\\int_{2}^{+\\infty}\\frac{1}{x \\ln x}\\mathrm{~d}x$\n\n（D）$\\int_{2}^{+\\infty}\\frac{x}{e^{x}}\\mathrm{~d}x$",
+      "answerText": "答案：D\n\n**解析：**\n**A**：$\\displaystyle\\int_{2}^{+\\infty}x^{-1/2}\\mathrm{d}x$，$p=\\frac12<1$ 发散；\n**B**：$\\displaystyle\\int_{2}^{+\\infty}\\frac{\\ln x}{x}\\mathrm{d}x=\\frac12\\ln^{2}x\\Big|_{2}^{+\\infty}=+\\infty$ 发散；\n**C**：$\\displaystyle\\int_{2}^{+\\infty}\\frac{\\mathrm{d}x}{x\\ln x}=\\ln\\ln x\\Big|_{2}^{+\\infty}=+\\infty$ 发散；\n**D**：$\\displaystyle\\int_{2}^{+\\infty}xe^{-x}\\mathrm{d}x=\\Bigl[-(x+1)e^{-x}\\Bigr]_{2}^{+\\infty}=3e^{-2}$ 收敛。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.2",
+      "number": 2,
+      "title": "2015 年数学二 第 2 题",
+      "questionText": "函数 $f\\left(x\\right)=\\lim_{t\\to 0}\\left(1+\\frac{\\sin t}{x}\\right)^{\\frac{x^{2}}{t}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内（ ）\n（A）连续\n\n（B）有可去间断点\n\n（C）有跳跃间断点\n\n（D）有无穷间断点",
+      "answerText": "答案：B（$x=0$ 为可去间断点）\n\n**解析：**\n$x\\ne0$ 时（$x=0$ 处表达式无定义）：\n$$\n\\ln f=\\lim_{t\\to0}\\frac{x^{2}}{t}\\ln\\Bigl(1+\\frac{\\sin t}{x}\\Bigr)\n=\\lim_{t\\to0}\\frac{x^{2}}{t}\\cdot\\frac{\\sin t}{x}\n=x\\lim_{t\\to0}\\frac{\\sin t}{t}=x ,\n$$\n故 $x\\ne0$ 时 $f(x)=e^{x}$。$\\lim\\limits_{x\\to0}f(x)=e^{0}=1$ 存在但 $f$ 在 $x=0$ 无定义，为可去间断点。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "continuity_and_discontinuity",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "discontinuity",
+        "important_limits"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.3",
+      "number": 3,
+      "title": "2015 年数学二 第 3 题",
+      "questionText": "设函数\n\n$f\\left(x\\right)=\\left\\{\\begin{matrix}x^{\\alpha}\\cos \\frac{1}{x^{\\beta}},&x>0\\\\0,&x\\leq 0\\end{matrix}\\right.$，$\\left(\\alpha>0,\\beta>0\\right)$，\n\n若 $f^{\\prime}\\left(x\\right)$ 在 $x=0$ 处连续，则（ ）\n\n- **A.** $\\alpha-\\beta>1$\n- **B.** $0<\\alpha-\\beta\\leq 1$\n- **C.** $\\alpha-\\beta>2$\n- **D.** $0<\\alpha-\\beta\\leq 2$",
+      "answerText": "答案：A（$\\alpha-\\beta>1$）\n\n**解析：**\n$f'(0)=\\lim\\limits_{x\\to0^{+}}\\dfrac{x^{\\alpha}\\cos\\frac1{x^{\\beta}}}{x}\n=\\lim\\limits_{x\\to0^{+}}x^{\\alpha-1}\\cos\\frac1{x^{\\beta}}=0$ 要求 $\\alpha>1$。\n$x>0$：$f'(x)=\\alpha x^{\\alpha-1}\\cos\\dfrac1{x^{\\beta}}+\\beta x^{\\alpha-\\beta-1}\\sin\\dfrac1{x^{\\beta}}$。\n第一项因 $\\alpha>1$ 趋于 0；第二项中 $\\sin\\frac1{x^{\\beta}}$ 有界振荡，须系数趋于 0，即 $\\alpha-\\beta-1>0$，也即 $\\alpha-\\beta>1$。反之 $\\alpha-\\beta>1$（配合 $\\alpha>1$）时 $f'(x)\\to0=f'(0)$，连续。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "piecewise_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition",
+        "continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源选项 A 误作 α-β>0，按官方真题应为 α-β>1（这也是使 f′ 连续的精确条件）",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.4",
+      "number": 4,
+      "title": "2015 年数学二 第 4 题",
+      "questionText": "设函数 $f\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 内连续，其中二阶导数 $f^{\\prime\\prime}\\left(x\\right)$ 的图形如图所示，则曲线 $y=f\\left(x\\right)$ 的拐点的个数为（ ）\n（A）$0$\n\n（B）$1$\n\n（C）$2$\n\n（D）$3$",
+      "answerText": "答案：C（$2$ 个）\n\n**解析：**\n拐点是 $f''$ **变号**的点。图示 $f''(x)$ 曲线穿过 $x$ 轴（两侧异号）$2$ 处，另有与 $x$ 轴相触不变号的点不算拐点。故拐点个数为 $2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "concavity_inflection",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "concavity_inflection"
+      ],
+      "methodIds": [],
+      "notes": "已校对；图形题",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.5",
+      "number": 5,
+      "title": "2015 年数学二 第 5 题",
+      "questionText": "设函数 $f\\left(u,v\\right)$ 满足 $f\\left(x+y,\\dfrac{y}{x}\\right)=x^{2}-y^{2}$，则 $\\left.\\dfrac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}$ 与 $\\left.\\dfrac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}$ 依次是（ ）\n\n- **A.** $\\dfrac{1}{2},0$\n- **B.** $0,\\dfrac{1}{2}$\n- **C.** $-\\dfrac{1}{2},0$\n- **D.** $0,-\\dfrac{1}{2}$",
+      "answerText": "答案：D（$\\dfrac{\\partial f}{\\partial u}=0,\\ \\dfrac{\\partial f}{\\partial v}=-\\dfrac12$）\n\n**解析：**\n令 $u=x+y,\\ v=\\dfrac{y}{x}$，则 $x=\\dfrac{u}{1+v},\\ y=\\dfrac{uv}{1+v}$，\n$$\nf(u,v)=x^{2}-y^{2}=\\frac{u^{2}(1-v^{2})}{(1+v)^{2}}=\\frac{u^{2}(1-v)}{1+v}.\n$$\n$$\n\\frac{\\partial f}{\\partial u}=\\frac{2u(1-v)}{1+v}\\Big|_{(1,1)}=0,\\qquad\n\\frac{\\partial f}{\\partial v}=u^{2}\\cdot\\frac{-(1+v)-(1-v)}{(1+v)^{2}}\\Big|_{(1,1)}=-\\frac{2}{4}=-\\frac12 .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "infinite_series",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "composite_implicit_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_function_chain_rule"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源误作 f(x+y/x, y)（按该式 (u,v)=(1,1) 无法实现且反解不唯一），按官方真题为 f(x+y, y/x)",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.6",
+      "number": 6,
+      "title": "2015 年数学二 第 6 题",
+      "questionText": "设 $D$ 是第一象限由曲线 $2xy=1$，$4xy=1$ 与直线 $y=x$，$y=\\sqrt{3}x$ 围成的平面区域，函数 $f\\left(x,y\\right)$ 在 $D$ 上连续，则 $\\iint_{D}f\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y=$（ ）\n\n- **A.** $\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{2\\sin 2\\theta}}^{\\frac{1}{\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)r\\mathrm{~d}r$\n- **B.** $\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{\\sqrt{2\\sin 2\\theta}}}^{\\frac{1}{\\sqrt{\\sin 2\\theta}}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)r\\mathrm{~d}r$\n- **C.** $\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{2\\sin 2\\theta}}^{\\frac{1}{\\sin 2\\theta}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)\\mathrm{~d}r$\n- **D.** $\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\mathrm{d}\\theta\\int_{\\frac{1}{\\sqrt{2\\sin 2\\theta}}}^{\\frac{1}{\\sqrt{\\sin 2\\theta}}}f\\left(r\\cos\\theta,r\\sin\\theta\\right)\\mathrm{~d}r$",
+      "answerText": "答案：B\n\n**解析：**\n极坐标：$xy=\\dfrac{r^{2}}{2}\\sin2\\theta$。$2xy=1$、$4xy=1$ 分别给 $r^{2}\\sin2\\theta=1$、$=\\dfrac12$，即\n$$\nr=\\frac{1}{\\sqrt{\\sin2\\theta}},\\qquad r=\\frac{1}{\\sqrt{2\\sin2\\theta}};\n$$\n$y=x$、$y=\\sqrt3x$ 分别给 $\\theta=\\dfrac{\\pi}{4}$、$\\dfrac{\\pi}{3}$。面积元含雅可比因子 $r$：\n$$\n\\iint_{D}f\\,\\mathrm{d}x\\mathrm{d}y=\\int_{\\pi/4}^{\\pi/3}\\mathrm{d}\\theta\\int_{\\frac{1}{\\sqrt{2\\sin2\\theta}}}^{\\frac{1}{\\sqrt{\\sin2\\theta}}}f(r\\cos\\theta,r\\sin\\theta)\\,r\\,\\mathrm{d}r .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "polar_coordinates",
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源直线误作 y=3x（应为 y=√3x），且四个选项的区分度丢失（A/B、C/D 重复），按官方真题补全（区别在 r 因子与上下限）",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.7",
+      "number": 7,
+      "title": "2015 年数学二 第 7 题",
+      "questionText": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}1&1&1\\\\1&2&a\\\\1&4&a^{2}\\end{matrix}\\right)$，$\\boldsymbol{b}=\\left(\\begin{matrix}1\\\\2\\\\d\\end{matrix}\\right)$。若集合 $\\Omega=\\left\\{1,2\\right\\}$，则线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{b}$ 有无穷多解的充分必要条件为（ ）\n（A）$a\\notin\\Omega,d\\notin\\Omega$\n\n（B）$a\\notin\\Omega,d\\in\\Omega$\n\n（C）$a\\in\\Omega,d\\notin\\Omega$\n\n（D）$a\\in\\Omega,d\\in\\Omega$",
+      "answerText": "答案：D（$a\\in\\Omega,\\ d\\in\\Omega$）\n\n**解析：**\n增广矩阵行化简（系数矩阵是范德蒙德型）：\n$$\n(\\boldsymbol{A},\\boldsymbol{b})\\to\\begin{pmatrix}1&1&1&1\\\\0&1&a-1&1\\\\0&0&(a-1)(a-2)&(d-1)(d-2)\\end{pmatrix}.\n$$\n无穷多解 $\\iff r(\\boldsymbol{A})=r(\\boldsymbol{A},\\boldsymbol{b})<3$ $\\iff$ 最后一行全为零 $\\iff a\\in\\{1,2\\}$ 且 $d\\in\\{1,2\\}$，即 $a\\in\\Omega,\\ d\\in\\Omega$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.system_with_parameters",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.solution_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.8",
+      "number": 8,
+      "title": "2015 年数学二 第 8 题",
+      "questionText": "设二次型 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{P}\\boldsymbol{y}$ 下的标准形为 $2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$，其中 $\\boldsymbol{P}=\\left(\\boldsymbol{e}_{1},\\boldsymbol{e}_{2},\\boldsymbol{e}_{3}\\right)$，若 $\\boldsymbol{Q}=\\left(\\boldsymbol{e}_{1},-\\boldsymbol{e}_{3},\\boldsymbol{e}_{2}\\right)$，则 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{Q}\\boldsymbol{y}$ 下的标准形为（ ）\n（A）$2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$\n\n（B）$2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$\n\n（C）$2y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n（D）$2y_{1}^{2}+y_{2}^{2}+y_{3}^{2}$",
+      "answerText": "答案：A（$2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$）\n\n**解析：**\n$\\boldsymbol{P}^{T}\\boldsymbol{A}\\boldsymbol{P}=\\operatorname{diag}(2,1,-1)$。$\\boldsymbol{Q}=(\\boldsymbol{e}_{1},-\\boldsymbol{e}_{3},\\boldsymbol{e}_{2})=\\boldsymbol{P}\\boldsymbol{C}$，其中\n$$\n\\boldsymbol{C}=\\begin{pmatrix}1&0&0\\\\0&0&1\\\\0&-1&0\\end{pmatrix}\\ (\\text{列置换}+\\text{变号}),\n$$\n$$\n\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\boldsymbol{C}^{T}\\operatorname{diag}(2,1,-1)\\boldsymbol{C}=\\operatorname{diag}(2,-1,1),\n$$\n标准形 $2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$。（列交换只重排对角元，列乘 $-1$ 不改变平方项。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.quadratic_forms",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.orthogonal_standard_form"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2015.9",
+      "number": 9,
+      "title": "2015 年数学二 第 9 题",
+      "questionText": "$\\left\\{\\begin{matrix}x=\\arctan t\\\\y=3t+t^{3}\\end{matrix}\\right.$，则 $\\left.\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\right|_{t=1}=$",
+      "answerText": "答案：48\n\n**解析：**\n$x'=\\dfrac{1}{1+t^{2}}$，$y'=3t^{2}+3$，\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=3(1+t^{2})^{2},\\qquad\n\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\frac{\\mathrm{d}/\\mathrm{d}t\\bigl[3(1+t^{2})^{2}\\bigr]}{x'}=\\frac{12t(1+t^{2})}{1/(1+t^{2})}=12t(1+t^{2})^{2},\n$$\n$t=1$：$12\\cdot4=48$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "parametric_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源误作 y=t³+t（按该式答案应为 40），按官方真题 y=3t+t³，答案 48",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2015.10",
+      "number": 10,
+      "title": "2015 年数学二 第 10 题",
+      "questionText": "函数 $f\\left(x\\right)=x^{2}\\cdot 2^{x}$ 在 $x=0$ 处的 $n$ 阶导数 $f^{\\left(n\\right)}\\left(0\\right)=$",
+      "answerText": "答案：$n(n-1)\\left(\\ln2\\right)^{n-2}$（$n\\ge2$）\n\n**解析：**\n莱布尼茨公式，$u=x^{2}$（三阶以上导为零）：\n$$\nf^{(n)}=x^{2}\\bigl(2^{x}\\bigr)^{(n)}+nx\\bigl(2^{x}\\bigr)^{(n-1)}+\\frac{n(n-1)}{2}\\cdot2\\cdot\\bigl(2^{x}\\bigr)^{(n-2)},\n$$\n代入 $x=0$：前两项为零，\n$$\nf^{(n)}(0)=n(n-1)\\bigl(\\ln2\\bigr)^{n-2}\\quad(n\\ge2).\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "higher_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "taylor_formula"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2015.11",
+      "number": 11,
+      "title": "2015 年数学二 第 11 题",
+      "questionText": "设 $f\\left(x\\right)$ 连续，$\\varphi\\left(x\\right)=x\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t$，若 $\\varphi\\left(1\\right)=1,\\varphi^{\\prime}\\left(1\\right)=5$，则 $f\\left(1\\right)=$",
+      "answerText": "答案：2\n\n**解析：**\n$\\varphi'(x)=\\displaystyle\\int_{0}^{x^{2}}f(t)\\,\\mathrm{d}t+x\\cdot f(x^{2})\\cdot2x$（乘积 + 变限求导）。\n$\\varphi(1)=1\\Rightarrow\\displaystyle\\int_{0}^{1}f=1$；$\\varphi'(1)=1+2f(1)=5\\Rightarrow f(1)=2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2015.12",
+      "number": 12,
+      "title": "2015 年数学二 第 12 题",
+      "questionText": "设函数 $y=y\\left(x\\right)$ 是微分方程 $y^{\\prime\\prime}+y^{\\prime}-2y=0$ 的解，且在 $x=0$ 处 $y\\left(x\\right)$ 取得极值 $3$，则 $y\\left(x\\right)=$",
+      "answerText": "答案：$2e^{x}+e^{-2x}$\n\n**解析：**\n特征根 $\\lambda=1,-2$，$y=C_{1}e^{x}+C_{2}e^{-2x}$。极值条件：$y(0)=3$，$y'(0)=0$：\n$$\nC_{1}+C_{2}=3,\\qquad C_{1}-2C_{2}=0\\ \\Longrightarrow\\ C_{1}=2,\\ C_{2}=1 .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "characteristic_equation",
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2015.13",
+      "number": 13,
+      "title": "2015 年数学二 第 13 题",
+      "questionText": "若函数 $z=z\\left(x,y\\right)$ 由方程 $e^{x+2y+3z}+xyz=1$ 确定，则 $\\left.\\mathrm{d}z\\right|_{\\left(0,0\\right)}=$",
+      "answerText": "答案：$-\\dfrac13\\left(\\mathrm{d}x+2\\mathrm{d}y\\right)$\n\n**解析：**\n$(0,0)$ 代入：$e^{3z}=1$，$z=0$。记 $F=e^{x+2y+3z}+xyz-1$：\n$$\nF_{x}=e^{x+2y+3z}(1+3z_{x})+yz+xy\\,z_{x}=0\\ \\xrightarrow{(0,0,0)}\\ 1+3z_{x}=0\\ \\Rightarrow\\ z_{x}=-\\frac13,\n$$\n$$\nF_{y}=e^{x+2y+3z}(2+3z_{y})+xz+xy\\,z_{y}=0\\ \\xrightarrow{(0,0,0)}\\ 2+3z_{y}=0\\ \\Rightarrow\\ z_{y}=-\\frac23 .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "composite_implicit_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "total_differential",
+        "implicit_function"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2015.14",
+      "number": 14,
+      "title": "2015 年数学二 第 14 题",
+      "questionText": "若 $3$ 阶矩阵 $\\boldsymbol{A}$ 的特征值为 $2,-2,1$，$\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{A}+\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 为 $3$ 阶单位阵，则行列式 $\\left|\\boldsymbol{B}\\right|=$",
+      "answerText": "答案：21\n\n**解析：**\n$\\lambda$ 是 $\\boldsymbol{A}$ 的特征值 $\\Rightarrow\\lambda^{2}-\\lambda+1$ 是 $\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{A}+\\boldsymbol{E}$ 的特征值。对应 $2,-2,1$：\n$$\n3,\\quad 7,\\quad 1\\ \\Longrightarrow\\ |\\boldsymbol{B}|=3\\cdot7\\cdot1=21 .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.determinants",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigenvalue_properties",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2015.15",
+      "number": 15,
+      "title": "2015 年数学二 第 15 题",
+      "questionText": "设函数 $f\\left(x\\right)=x+a\\ln\\left(1+x\\right)+bx\\sin x$，$g\\left(x\\right)=kx^{3}$。若 $f\\left(x\\right)$ 与 $g\\left(x\\right)$ 在 $x\\to 0$ 时是等价无穷小，求 $a,b,k$ 的值。",
+      "answerText": "答案：$a=-1,\\ b=-\\dfrac12,\\ k=-\\dfrac13$\n\n**解析：**\n$x\\to0$：\n$$\n\\ln(1+x)=x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}+o(x^{3}),\\qquad x\\sin x=x^{2}+o(x^{3}).\n$$\n$$\nf(x)=x+a\\Bigl(x-\\frac{x^{2}}{2}+\\frac{x^{3}}{3}\\Bigr)+bx^{2}+o(x^{3})\n=(1+a)x+\\Bigl(b-\\frac{a}{2}\\Bigr)x^{2}+\\frac{a}{3}x^{3}+o(x^{3}).\n$$\n$f\\sim kx^{3}$ 要求一次、二次项消失且三次项系数非零：\n$$\n1+a=0,\\qquad b-\\frac{a}{2}=0,\\qquad k=\\frac{a}{3},\n$$\n得 $a=-1,\\ b=-\\dfrac12,\\ k=-\\dfrac13$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal",
+        "taylor_formula"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源误作 f=ln(1+x)+ax+bx·sinx（该题无法与负系数 kx³ 等价且与官方答案矛盾），按官方真题 f=x+a·ln(1+x)+bx·sinx，答案 a=-1, b=-1/2, k=-1/3",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.16",
+      "number": 16,
+      "title": "2015 年数学二 第 16 题",
+      "questionText": "（本题满分 10 分）\n设 $A>0$，$D$ 是由曲线段 $y=A\\sin x\\left(0\\leq x\\leq \\frac{\\pi}{2}\\right)$ 及直线 $y=0$，$x=\\frac{\\pi}{2}$ 所围成的平面区域，$V_{1}$，$V_{2}$ 分别表示 $D$ 绕 $x$ 轴与绕 $y$ 轴旋转成旋转体的体积，若 $V_{1}=V_{2}$，求 $A$ 的值。\n\n**解析：**\n由旋转体体积公式，\n\n$V_{1}=\\pi\\int_{0}^{\\frac{\\pi}{2}}A^{2}\\sin^{2}x\\mathrm{~d}x=\\frac{\\pi^{2}A^{2}}{4}$，\n\n$V_{2}=2\\pi\\int_{0}^{\\frac{\\pi}{2}}xA\\sin x\\mathrm{~d}x=\\pi^{2}A$。\n\n由 $V_{1}=V_{2}$，且 $A>0$，得\n\n$A=\\frac{8}{\\pi}$。\n\n---",
+      "answerText": "答案：$A=\\dfrac{8}{\\pi}$\n\n**解析：**\n$$\nV_{1}=\\pi\\int_{0}^{\\pi/2}A^{2}\\sin^{2}x\\,\\mathrm{d}x=\\frac{\\pi^{2}A^{2}}{4};\n\\qquad\nV_{2}=2\\pi\\int_{0}^{\\pi/2}x\\cdot A\\sin x\\,\\mathrm{d}x=2\\pi A\\Bigl(\\Bigl[-x\\cos x\\Bigr]_{0}^{\\pi/2}+\\int_{0}^{\\pi/2}\\cos x\\,\\mathrm{d}x\\Bigr)=2\\pi A .\n$$\n$V_{1}=V_{2}$ 且 $A>0$：$\\dfrac{\\pi^{2}A^{2}}{4}=2\\pi A\\Rightarrow A=\\dfrac{8}{\\pi}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "已校对；源解析中间式 V₂=π²A 有笔误（应为 2πA），最终答案 8/π 正确",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.17",
+      "number": 17,
+      "title": "2015 年数学二 第 17 题",
+      "questionText": "（本题满分 11 分）\n已知函数 $f\\left(x,y\\right)$ 满足 $f_{xy}^{\\prime\\prime}\\left(x,y\\right)=2\\left(y+1\\right)e^{x}$，$f_{x}^{\\prime}\\left(x,0\\right)=\\left(x+1\\right)e^{x}$，$f\\left(0,y\\right)=y^{2}+2y$，求 $f\\left(x,y\\right)$ 的极值。\n\n**解析：**\n由 $f_{xy}^{\\prime\\prime}\\left(x,y\\right)=2\\left(y+1\\right)e^{x}$，对 $y$ 积分得\n\n$f_{x}^{\\prime}\\left(x,y\\right)=\\left(y^{2}+2y\\right)e^{x}+\\varphi\\left(x\\right)$。\n\n由 $f_{x}^{\\prime}\\left(x,0\\right)=\\left(x+1\\right)e^{x}$，得 $\\varphi\\left(x\\right)=\\left(x+1\\right)e^{x}$。\n\n再对 $x$ 积分并利用 $f\\left(0,y\\right)=y^{2}+2y$，得\n\n$f\\left(x,y\\right)=\\left(y^{2}+2y\\right)e^{x}+xe^{x}$。\n\n令 $f_{x}^{\\prime}=0,f_{y}^{\\prime}=0$，得驻点 $\\left(0,-1\\right)$。\n\n又\n\n$f_{xx}^{\\prime\\prime}\\left(0,-1\\right)=1,\\quad f_{xy}^{\\prime\\prime}\\left(0,-1\\right)=0,\\quad f_{yy}^{\\prime\\prime}\\left(0,-1\\right)=2$，\n\n故 $AC-B^{2}>0$ 且 $A>0$，所以 $f\\left(0,-1\\right)=-1$ 为极小值。\n\n---",
+      "answerText": "答案：极小值 $f(0,-1)=-1$\n\n**解析：**\n$f_{xy}=2(y+1)e^{x}$ 对 $y$ 积分：$f_{x}=(y^{2}+2y)e^{x}+\\varphi(x)$；由 $f_{x}(x,0)=\\varphi(x)=(x+1)e^{x}$。\n再对 $x$ 积分：$f=(y^{2}+2y)e^{x}+xe^{x}+\\psi(y)$；由 $f(0,y)=y^{2}+2y$ 得 $\\psi(y)=0$。故\n$$\nf=(y^{2}+2y)e^{x}+xe^{x}.\n$$\n驻点：$f_{y}=2(y+1)e^{x}=0\\Rightarrow y=-1$；$f_{x}=\\bigl[(y^{2}+2y)+(x+1)\\bigr]e^{x}=x\\,e^{x}$（$y=-1$）$\\Rightarrow x=0$。\n二阶：$f_{xx}=\\bigl[(y^{2}+2y)+(x+2)\\bigr]e^{x}\\big|_{(0,-1)}=1$，$f_{xy}=2(y+1)e^{x}\\big|=0$，$f_{yy}=2e^{x}\\big|=2$。$AC-B^{2}=2>0$，$A>0$，极小值 $f(0,-1)=-1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multivariable_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.18",
+      "number": 18,
+      "title": "2015 年数学二 第 18 题",
+      "questionText": "（本题满分 10 分）\n计算二重积分 $\\iint_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 2,y\\geq x^{2}\\right\\}$。\n\n**解析：**\n由于区域 $D$ 关于 $y$ 轴对称，$\\iint_{D}xy\\mathrm{~d}x\\mathrm{~d}y=0$，所以\n\n$\\iint_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y=\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y$。\n\n于是\n\n$\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y=2\\int_{0}^{1}x^{2}\\left(\\sqrt{2-x^{2}}-x^{2}\\right)\\mathrm{~d}x$。\n\n令 $x=\\sqrt{2}\\sin t$，可得\n\n$2\\int_{0}^{1}x^{2}\\sqrt{2-x^{2}}\\mathrm{~d}x=\\frac{\\pi}{4}$。\n\n故原积分为\n\n$\\frac{\\pi}{4}-\\frac{2}{5}$。\n\n---",
+      "answerText": "答案：$\\dfrac{\\pi}{4}-\\dfrac{2}{5}$\n\n**解析：**\n$D$ 关于 $y$ 轴对称，$xy$ 为奇函数项积分为零：\n$$\n\\iint_{D}x(x+y)\\,\\mathrm{d}x\\mathrm{d}y=\\iint_{D}x^{2}\\,\\mathrm{d}x\\mathrm{d}y\n=2\\int_{0}^{1}x^{2}\\bigl(\\sqrt{2-x^{2}}-x^{2}\\bigr)\\mathrm{d}x .\n$$\n$\\displaystyle\\int_{0}^{1}x^{2}\\sqrt{2-x^{2}}\\,\\mathrm{d}x$：令 $x=\\sqrt2\\sin t$，$=\\int_{0}^{\\pi/4}2\\sin^{2}t\\cdot2\\cos^{2}t\\,\\mathrm{d}t=\\int_{0}^{\\pi/4}\\sin^{2}2t\\,\\mathrm{d}t=\\frac{\\pi}{8}$。\n$$\n\\iint_{D}x^{2}\\,\\mathrm{d}x\\mathrm{d}y=2\\Bigl(\\frac{\\pi}{8}-\\frac15\\Bigr)=\\frac{\\pi}{4}-\\frac{2}{5}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.19",
+      "number": 19,
+      "title": "2015 年数学二 第 19 题",
+      "questionText": "（本题满分 11 分）\n已知函数 $f\\left(x\\right)=\\int_{x}^{1}\\sqrt{1+t^{2}}\\mathrm{~d}t+\\int_{1}^{x^{2}}\\sqrt{1+t}\\mathrm{~d}t$，求 $f\\left(x\\right)$ 零点的个数。\n\n**解析：**\n求导得\n\n$f^{\\prime}\\left(x\\right)=-\\sqrt{1+x^{2}}+2x\\sqrt{1+x^{2}}=\\sqrt{1+x^{2}}\\left(2x-1\\right)$。\n\n故 $x=\\frac{1}{2}$ 为唯一驻点，且 $f\\left(x\\right)$ 在 $\\left(-\\infty,\\frac{1}{2}\\right)$ 上单调递减，在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上单调递增。\n\n又可判断\n\n$f\\left(\\frac{1}{2}\\right)<0,\\quad \\lim_{x\\to-\\infty}f\\left(x\\right)=+\\infty,\\quad \\lim_{x\\to+\\infty}f\\left(x\\right)=+\\infty$。\n\n因此 $f\\left(x\\right)$ 在 $\\left(-\\infty,\\frac{1}{2}\\right)$ 和 $\\left(\\frac{1}{2},+\\infty\\right)$ 上各有一个零点，故零点个数为 $2$。\n\n---",
+      "answerText": "答案：2 个\n\n**解析：**\n$$\nf'(x)=-\\sqrt{1+x^{2}}+2x\\sqrt{1+x^{2}}=\\sqrt{1+x^{2}}\\,(2x-1),\n$$\n唯一驻点 $x=\\dfrac12$；$f$ 在 $\\bigl(-\\infty,\\frac12\\bigr)$ 严格减、$\\bigl(\\frac12,+\\infty\\bigr)$ 严格增。\n$f(0)=\\displaystyle\\int_{0}^{1}\\bigl(\\sqrt{1+t^{2}}-\\sqrt{1+t}\\bigr)\\mathrm{d}t<0$（被积函数在 $(0,1)$ 内恒负），故 $f\\bigl(\\frac12\\bigr)<f(0)<0$；\n$\\displaystyle\\lim_{x\\to-\\infty}f=\\lim_{x\\to-\\infty}\\Bigl[\\int_{x}^{1}\\sqrt{1+t^{2}}\\mathrm{d}t\\Bigr]+\\frac{2}{3}\\bigl((1+x^{2})^{3/2}-1\\bigr)=+\\infty$（两项中后者 $\\sim\\frac23|x|^{3}$ 占优）；\n$x\\to+\\infty$ 时 $f\\to+\\infty$ 更显然。\n由单调性 + 介值定理：减区间、增区间各恰有一个零点，共 $2$ 个。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_defined_function",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.20",
+      "number": 20,
+      "title": "2015 年数学二 第 20 题",
+      "questionText": "（本题满分 10 分）\n已知高温物体置于低温介质中，任一时刻该物体温度对时间的变化率与该时刻物体和介质的温差成正比，现将一初始温度为 $120^\\circ\\mathrm{C}$ 的物体在 $20^\\circ\\mathrm{C}$ 的恒温介质中冷却，$30\\mathrm{min}$ 后该物体降至 $30^\\circ\\mathrm{C}$，若要将该物体的温度继续降至 $21^\\circ\\mathrm{C}$，还需冷却多长时间？\n\n**解析：**\n设 $t$ 时刻温度为 $x\\left(t\\right)$，则\n\n$\\frac{\\mathrm{d}x}{\\mathrm{d}t}=-k\\left(x-20\\right)$，\n\n解得\n\n$x\\left(t\\right)=100e^{-kt}+20$。\n\n由 $x\\left(\\frac{1}{2}\\right)=30$，得 $k=2\\ln 10$，于是\n\n$x\\left(t\\right)=100e^{-2t\\ln 10}+20$。\n\n令 $x\\left(t\\right)=21$，得 $t=1$。已冷却 $\\frac{1}{2}\\mathrm{h}$，故还需冷却 $30\\mathrm{min}$。\n\n---",
+      "answerText": "答案：还需 $30$ 分钟\n\n**解析：**\n牛顿冷却定律：$\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=-k(x-20)$（$t$ 以小时计），通解 $x=20+Ce^{-kt}$。$x(0)=120\\Rightarrow C=100$。\n$x(1/2)=30$：$100e^{-k/2}=10\\Rightarrow k=2\\ln10$。\n降温到 $21^\\circ\\mathrm{C}$：$100e^{-kt}=1\\Rightarrow kt=2\\ln10\\Rightarrow t=1\\,\\mathrm{h}$。已冷却 $\\dfrac12\\,\\mathrm{h}$，还需 $\\dfrac12\\,\\mathrm{h}=30$ 分钟。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "separable_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.21",
+      "number": 21,
+      "title": "2015 年数学二 第 21 题",
+      "questionText": "（本题满分 10 分）\n已知函数 $f\\left(x\\right)$ 在区间 $\\left[a,+\\infty\\right)$ 上具有 $2$ 阶导数，$f\\left(a\\right)=0$，$f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$。设 $b>a$，曲线 $y=f\\left(x\\right)$ 在点 $\\left(b,f\\left(b\\right)\\right)$ 处的切线与 $x$ 轴的交点是 $\\left(x_{0},0\\right)$，证明 $a<x_{0}<b$。\n\n**解析：**\n切线方程为\n\n$y-f\\left(b\\right)=f^{\\prime}\\left(b\\right)\\left(x-b\\right)$。\n\n令 $y=0$，得\n\n$x_{0}=b-\\frac{f\\left(b\\right)}{f^{\\prime}\\left(b\\right)}$。\n\n因 $f^{\\prime}\\left(x\\right)>0$ 且 $f\\left(a\\right)=0$，所以 $f\\left(b\\right)>0$，从而 $x_{0}<b$。\n\n由拉格朗日中值定理，存在 $\\xi\\in\\left(a,b\\right)$，使\n\n$f\\left(b\\right)=f^{\\prime}\\left(\\xi\\right)\\left(b-a\\right)$。\n\n于是\n\n$x_{0}-a=\\frac{f\\left(b\\right)}{f^{\\prime}\\left(\\xi\\right)}-\\frac{f\\left(b\\right)}{f^{\\prime}\\left(b\\right)}=\\frac{f\\left(b\\right)\\left[f^{\\prime}\\left(b\\right)-f^{\\prime}\\left(\\xi\\right)\\right]}{f^{\\prime}\\left(\\xi\\right)f^{\\prime}\\left(b\\right)}$。\n\n又 $f^{\\prime\\prime}\\left(x\\right)>0$，故 $f^{\\prime}\\left(b\\right)>f^{\\prime}\\left(\\xi\\right)$，所以 $x_{0}>a$。\n\n综上，$a<x_{0}<b$。\n\n---",
+      "answerText": "答案：命题得证：$a<x_{0}<b$\n\n**解析：**\n切线 $y-f(b)=f'(b)(x-b)$ 与 $x$ 轴交点：$x_{0}=b-\\dfrac{f(b)}{f'(b)}$。\n由 $f'(x)>0$、$f(a)=0$ 得 $f(b)>0$，故 $x_{0}<b$。\n对 $f$ 在 $[a,b]$ 用拉格朗日中值定理：存在 $\\xi\\in(a,b)$ 使 $f(b)=f'(\\xi)(b-a)$，于是\n$$\nx_{0}-a=b-a-\\frac{f(b)}{f'(b)}=\\frac{f(b)}{f'(\\xi)}-\\frac{f(b)}{f'(b)}\n=f(b)\\cdot\\frac{f'(b)-f'(\\xi)}{f'(\\xi)f'(b)} .\n$$\n$f''>0\\Rightarrow f'$ 严格增 $\\Rightarrow f'(b)>f'(\\xi)>0$，又 $f(b)>0$，故 $x_{0}-a>0$，即 $x_{0}>a$。综上 $a<x_{0}<b$。$\\blacksquare$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "mean_value_theorem",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "mean_value_theorem"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 21
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.22",
+      "number": 22,
+      "title": "2015 年数学二 第 22 题",
+      "questionText": "（本题满分 11 分）\n设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}a&1&0\\\\1&a&-1\\\\0&1&a\\end{matrix}\\right)$ 且 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$。\n\n（1）求 $a$ 的值；\n\n（2）若矩阵 $\\boldsymbol{X}$ 满足 $\\boldsymbol{X}-\\boldsymbol{X}\\boldsymbol{A}-\\boldsymbol{A}\\boldsymbol{X}+\\boldsymbol{A}\\boldsymbol{X}\\boldsymbol{A}=\\boldsymbol{E}$，$\\boldsymbol{E}$ 为 $3$ 阶单位阵，求 $\\boldsymbol{X}$。\n\n**解析：**\n由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$，得 $\\left|\\boldsymbol{A}\\right|=0$，即 $a^{3}=0$，所以\n\n$a=0$。\n\n原方程可化为\n\n$\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)\\boldsymbol{X}\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)=\\boldsymbol{E}$，\n\n故\n\n$\\boldsymbol{X}=\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-2}$。\n\n由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$，有\n\n$\\left(\\boldsymbol{E}-\\boldsymbol{A}\\right)^{-1}=\\boldsymbol{E}+\\boldsymbol{A}+\\boldsymbol{A}^{2}$。\n\n代入 $a=0$ 计算得\n\n$\\boldsymbol{X}=\\left(\\begin{matrix}3&1&-2\\\\1&-1&-1\\\\2&-1&1\\end{matrix}\\right)$。\n\n---",
+      "answerText": "答案：（1）$a=0$；（2）$\\boldsymbol{X}=\\begin{pmatrix}4&2&-3\\\\2&1&-2\\\\3&2&-2\\end{pmatrix}$\n\n**解析：**\n**（1）** $\\boldsymbol{A}^{3}=\\boldsymbol{O}\\Rightarrow|\\boldsymbol{A}|=0$，而 $|\\boldsymbol{A}|=a\\bigl(a^{2}+1\\bigr)-a=a^{3}$，故 $a=0$。\n**（2）** 原方程左边因式分解：\n$$\n\\boldsymbol{X}-\\boldsymbol{XA}-\\boldsymbol{AX}+\\boldsymbol{AXA}=(\\boldsymbol{E}-\\boldsymbol{A})\\,\\boldsymbol{X}\\,(\\boldsymbol{E}-\\boldsymbol{A})=\\boldsymbol{E},\n$$\n故 $\\boldsymbol{X}=(\\boldsymbol{E}-\\boldsymbol{A})^{-2}$。由 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$ 有 $(\\boldsymbol{E}-\\boldsymbol{A})^{-1}=\\boldsymbol{E}+\\boldsymbol{A}+\\boldsymbol{A}^{2}$。\n$a=0$：$\\boldsymbol{A}=\\begin{pmatrix}0&1&0\\\\1&0&-1\\\\0&1&0\\end{pmatrix}$，$\\boldsymbol{A}^{2}=\\begin{pmatrix}1&0&-1\\\\0&0&0\\\\1&0&-1\\end{pmatrix}$，\n$$\n\\boldsymbol{E}+\\boldsymbol{A}+\\boldsymbol{A}^{2}=\\begin{pmatrix}2&1&-1\\\\1&1&-1\\\\1&1&0\\end{pmatrix},\\qquad\n\\boldsymbol{X}=(\\boldsymbol{E}+\\boldsymbol{A}+\\boldsymbol{A}^{2})^{2}=\\begin{pmatrix}4&2&-3\\\\2&1&-2\\\\3&2&-2\\end{pmatrix}.\n$$\n（可直接验证 $(\\boldsymbol{E}-\\boldsymbol{A})\\boldsymbol{X}(\\boldsymbol{E}-\\boldsymbol{A})=\\boldsymbol{E}$。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.matrix_transpose"
+      ],
+      "methodIds": [],
+      "notes": "已校对；验算修正：源给出的 X = [[3,1,-2],[1,-1,-1],[2,-1,1]] 不满足方程，正确解为 (E-A)⁻² = [[4,2,-3],[2,1,-2],[3,2,-2]]（数值验证 (E-A)X(E-A)=E 成立）",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 22
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2015.23",
+      "number": 23,
+      "title": "2015 年数学二 第 23 题",
+      "questionText": "设矩阵\n\n$\\boldsymbol{A}=\\left(\\begin{matrix}0&2&-3\\\\-1&3&-3\\\\1&-2&a\\end{matrix}\\right)$\n\n相似于矩阵\n\n$\\boldsymbol{B}=\\left(\\begin{matrix}1&-2&0\\\\0&b&0\\\\0&3&1\\end{matrix}\\right)$。\n\n（1）求 $a,b$ 的值；\n\n（2）求可逆矩阵 $\\boldsymbol{P}$，使 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$ 为对角阵。",
+      "answerText": "答案：（1）$a=4,\\ b=5$；（2）$\\boldsymbol{P}=\\begin{pmatrix}2&-3&-1\\\\1&0&-1\\\\0&1&1\\end{pmatrix}$，$\\boldsymbol{P}^{-1}\\boldsymbol{AP}=\\operatorname{diag}(1,1,5)$\n\n**解析：**\n**（1）** 相似矩阵同迹同行列式：\n$$\n\\operatorname{tr}\\boldsymbol{A}=a+3=\\operatorname{tr}\\boldsymbol{B}=b+2,\\qquad\n|\\boldsymbol{A}|=2a-3=|\\boldsymbol{B}|=b,\n$$\n解得 $a=4,\\ b=5$（代入检验第三条不变量也相容）。\n**（2）** $a=4$ 时 $|\\lambda\\boldsymbol{E}-\\boldsymbol{A}|=(\\lambda-1)^{2}(\\lambda-5)$，特征值 $1,1,5$。\n$\\lambda=1$：$(\\boldsymbol{E}-\\boldsymbol{A})\\boldsymbol{x}=\\boldsymbol{0}$ 的基础解系 $\\boldsymbol{\\xi}_{1}=(2,1,0)^{T},\\ \\boldsymbol{\\xi}_{2}=(-3,0,1)^{T}$；\n$\\lambda=5$：$\\boldsymbol{\\xi}_{3}=(-1,-1,1)^{T}$。\n$$\n\\boldsymbol{P}=(\\boldsymbol{\\xi}_{1},\\boldsymbol{\\xi}_{2},\\boldsymbol{\\xi}_{3})=\\begin{pmatrix}2&-3&-1\\\\1&0&-1\\\\0&1&1\\end{pmatrix},\n\\qquad\n\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\operatorname{diag}(1,1,5).\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.diagonalization",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.inverse_matrix",
+        "la.knowledge.real_symmetric_properties",
+        "la.knowledge.matrix_transpose"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源矩阵多处符号转录错误（按源矩阵 A 与 B 对任何 a,b 都不相似），按官方真题 A=[[0,2,-3],[-1,3,-3],[1,-2,a]]、B=[[1,-2,0],[0,b,0],[0,3,1]]，答案 a=4, b=5；特征向量经验证成立",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2015,
+        "paper": "math2",
+        "number": 23
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    }
+  ]
 }

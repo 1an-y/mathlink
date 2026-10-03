@@ -5,7 +5,7 @@
  "year": 2025,
  "paper": "math2",
  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2025-2.md",
  "paperInfo": {
   "year": 2025,
@@ -56,7 +56,7 @@
    {
     "number": 7,
     "id": "bank.exam.m2-2025.7",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -68,13 +68,13 @@
    {
     "number": 9,
     "id": "bank.exam.m2-2025.9",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 10,
     "id": "bank.exam.m2-2025.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
@@ -98,7 +98,7 @@
    {
     "number": 14,
     "id": "bank.exam.m2-2025.14",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -110,7 +110,7 @@
    {
     "number": 16,
     "id": "bank.exam.m2-2025.16",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": false
    },
    {
@@ -134,13 +134,13 @@
    {
     "number": 20,
     "id": "bank.exam.m2-2025.20",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": false
    },
    {
     "number": 21,
     "id": "bank.exam.m2-2025.21",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": false
    },
    {
@@ -158,18 +158,18 @@
    "number": 1,
    "title": "2025 年数学二 第 1 题",
    "questionText": "设函数 $z = z\\left( x, y \\right)$ 由 $z + \\ln z - \\int_{y}^{x} e^{-t^{2}} \\mathrm{~d} t = 0$ 确定，则 $\\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y} =$\n- A. $\\frac{z}{z + 1}\\left( e^{-x^{2}} - e^{-y^{2}} \\right)$\n\n- B. $\\frac{z}{z + 1}\\left( e^{-x^{2}} + e^{-y^{2}} \\right)$\n\n- C. $-\\frac{z}{z + 1}\\left( e^{-x^{2}} - e^{-y^{2}} \\right)$\n\n- D. $-\\frac{z}{z + 1}\\left( e^{-x^{2}} + e^{-y^{2}} \\right)$",
-   "answerText": "A\n\n**解析：**\n原式两边分别对 $x$，$y$ 求导，得\n$\\frac{\\partial z}{\\partial x} + \\frac{1}{z}\\frac{\\partial z}{\\partial x} - e^{-x^{2}} = 0$，\n$\\frac{\\partial z}{\\partial y} + \\frac{1}{z}\\frac{\\partial z}{\\partial y} + e^{-y^{2}} = 0$.\n\n两式相加得\n$\\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y} = \\frac{z}{z + 1}\\left( e^{-x^{2}} - e^{-y^{2}} \\right)$.",
+   "answerText": "答案：A\n\n**解析：** 方程两边分别对 $x$、$y$ 求导（$z$ 为其函数）：\n$$\n\\Bigl(1+\\frac1z\\Bigr)\\frac{\\partial z}{\\partial x}=e^{-x^{2}},\\qquad\n\\Bigl(1+\\frac1z\\Bigr)\\frac{\\partial z}{\\partial y}=-e^{-y^{2}}.\n$$\n即 $\\dfrac{\\partial z}{\\partial x}=\\dfrac{z}{z+1}e^{-x^{2}}$，$\\dfrac{\\partial z}{\\partial y}=-\\dfrac{z}{z+1}e^{-y^{2}}$。相加得\n$$\n\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{z}{z+1}\\left(e^{-x^{2}}-e^{-y^{2}}\\right).\n$$\n故选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "implicit_function"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -188,7 +188,7 @@
    "number": 2,
    "title": "2025 年数学二 第 2 题",
    "questionText": "已知函数 $f\\left( x \\right) = \\int_{0}^{x} e^{t^{2}} \\sin t \\mathrm{~d} t$，$g\\left( x \\right) = \\int_{0}^{x} e^{t^{2}} \\mathrm{~d} t \\cdot \\sin^{2} x$，则\n- A. $x = 0$ 是 $f\\left( x \\right)$ 的极值点，也是 $g\\left( x \\right)$ 的极值点.\n\n- B. $x = 0$ 是 $f\\left( x \\right)$ 的极值点，$\\left( 0, 0 \\right)$ 是曲线 $y = g\\left( x \\right)$ 的拐点.\n\n- C. $x = 0$ 是 $f\\left( x \\right)$ 的极值点，$\\left( 0, 0 \\right)$ 是曲线 $y = f\\left( x \\right)$ 的拐点.\n\n- D. $\\left( 0, 0 \\right)$ 是曲线 $y = f\\left( x \\right)$ 的极值点，也是曲线 $y = g\\left( x \\right)$ 的拐点.",
-   "answerText": "B\n\n**解析：**\n$f^{\\prime}\\left( x \\right) = e^{x^{2}} \\sin x$，\n$f^{\\prime\\prime}\\left( x \\right) = 2x e^{x^{2}} \\sin x + e^{x^{2}} \\cos x$.\n\n故\n$f^{\\prime}\\left( 0 \\right) = 0$，$f^{\\prime\\prime}\\left( 0 \\right) = 1 > 0$，\n所以 $x = 0$ 为 $f\\left( x \\right)$ 的极值点，但不是拐点.\n\n又\n$g^{\\prime}\\left( x \\right) = e^{x^{2}} \\sin x \\cdot \\sin^{2} x + \\int_{0}^{x} e^{t^{2}} \\sin t \\mathrm{~d} t \\cdot 2 \\sin x \\cos x$.\n\n可得\n$g^{\\prime}\\left( 0 \\right) = 0$，$g^{\\prime\\prime}\\left( 0 \\right) = 0$，且继续求导得 $g^{\\prime\\prime\\prime}\\left( 0 \\right) = 6 > 0$.\n\n所以 $\\left( 0, 0 \\right)$ 是曲线 $y = g\\left( x \\right)$ 的拐点.",
+   "answerText": "答案：B\n\n**解析：** $f'(x)=e^{x^{2}}\\sin x$，$f'(0)=0$；$f''(x)=2xe^{x^{2}}\\sin x+e^{x^{2}}\\cos x$，$f''(0)=1>0$，故 $x=0$ 是 $f$ 的极小值点，且 $f''(0)\\ne0$，$(0,0)$ 不是 $y=f(x)$ 的拐点。\n\n对 $g$：由 $\\int_0^x e^{t^{2}}\\mathrm{d}t=x+\\dfrac{x^{3}}{3}+o(x^{3})$ 与 $\\sin^{2}x=x^{2}+o(x^{3})$ 相乘得\n$$\ng(x)=x^{3}+o(x^{3}),\n$$\n于是 $g'(0)=g''(0)=0$ 而 $g'''(0)=6>0$：$x=0$ 附近 $g'(x)\\ge0$ 不变号，非极值点；$g$ 在 $(0,0)$ 两侧凹凸性相反，$(0,0)$ 是拐点。故选 B。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -198,10 +198,10 @@
    "knowledgePointIds": [
     "extrema",
     "concavity_inflection",
-    "power_series_sum"
+    "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -220,16 +220,20 @@
    "number": 3,
    "title": "2025 年数学二 第 3 题",
    "questionText": "如果对微分方程 $y^{\\prime\\prime} - 2a y^{\\prime} + \\left( a + 2 \\right) y = 0$ 的任一解 $y\\left( x \\right)$，反常积分 $\\int_{0}^{+\\infty} y\\left( x \\right) \\mathrm{~d} x$ 均收敛，那么 $a$ 的取值范围是\n- A. $\\left( -2, -1 \\right]$\n\n- B. $\\left( -\\infty, -1 \\right]$\n\n- C. $\\left( -2, 0 \\right)$\n\n- D. $\\left( -\\infty, 0 \\right)$",
-   "answerText": "C\n\n**解析：**\n特征方程为\n$r^{2} - 2a r + \\left( a + 2 \\right) = 0$.\n\n要使任一解对应的反常积分都收敛，需两个特征根都小于 $0$.于是\n$r_{1} r_{2} = a + 2 > 0$，$r_{1} + r_{2} = 2a < 0$.\n\n故 $-2 < a < 0$.",
+   "answerText": "答案：C\n\n**解析：** 特征方程 $r^{2}-2ar+(a+2)=0$，两根之和 $2a$，两根之积 $a+2$。“任一解都在 $[0,+\\infty)$ 上可积”等价于特征根均具负实部。\n\n判别式 $\\Delta=4(a^{2}-a-2)\\ge0$（$a\\le-1$ 或 $a\\ge2$）时为二实根：均负要求 $2a<0$ 且 $a+2>0$，即 $-2<a<0$，与前提取交得 $-2<a\\le-1$。\n\n$\\Delta<0$（$-1<a<2$）时为共轭复根，实部为 $a$，要求 $a<0$，得 $-1<a<0$。\n\n并起来为 $-2<a<0$。边界 $a=-2$ 出现零根、$a=0$ 根为纯虚数，均不可积，应排除。故选 C。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
+   "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "second_order_homogeneous_linear",
+    "characteristic_equation",
+    "infinite_interval_integral"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -247,8 +251,8 @@
    "id": "bank.exam.m2-2025.4",
    "number": 4,
    "title": "2025 年数学二 第 4 题",
-   "questionText": "设函数 $f\\left( x \\right)$，$g\\left( x \\right)$ 在 $x = 0$ 的某去心邻域内有定义且恒不为零.若当 $x \\to 0$ 时，$f\\left( x \\right)$ 是 $g\\left( x \\right)$ 的高阶无穷小，则当 $x \\to 0$ 时，\n- A. $f\\left( x \\right) + g\\left( x \\right) = O\\left( g\\left( x \\right) \\right)$.\n\n- B. $f\\left( x \\right) g\\left( x \\right) = o\\left( f^{2}\\left( x \\right) \\right)$.\n\n- C. $f\\left( x \\right) = o\\left( e^{g\\left( x \\right)} - 1 \\right)$.\n\n- D. $f\\left( x \\right) = o\\left( g^{2}\\left( x \\right) \\right)$.",
-   "answerText": "C\n\n**解析：**\n由题意，$f\\left( x \\right) = o\\left( g\\left( x \\right) \\right)$.\n\n对 A，\n$\\lim_{x \\to 0} \\frac{f\\left( x \\right) + g\\left( x \\right)}{g\\left( x \\right)} = \\lim_{x \\to 0} \\frac{f\\left( x \\right)}{g\\left( x \\right)} + 1 = 1$，\n故 A 不正确.\n\n对 B，\n$\\lim_{x \\to 0} \\frac{f\\left( x \\right) g\\left( x \\right)}{f^{2}\\left( x \\right)} = \\lim_{x \\to 0} \\frac{g\\left( x \\right)}{f\\left( x \\right)} = +\\infty$，\n故 B 不正确.\n\n对 C，\n$\\lim_{x \\to 0} \\frac{f\\left( x \\right)}{e^{g\\left( x \\right)} - 1} = \\lim_{x \\to 0} \\frac{f\\left( x \\right)}{g\\left( x \\right)} \\cdot \\frac{g\\left( x \\right)}{e^{g\\left( x \\right)} - 1} = 0$，\n故 C 正确.\n\n对 D，\n$\\frac{f\\left( x \\right)}{g^{2}\\left( x \\right)} = \\frac{f\\left( x \\right)}{g\\left( x \\right)} \\cdot \\frac{1}{g\\left( x \\right)}$，为未定式，故 D 不正确.",
+   "questionText": "设函数 $f\\left( x \\right)$，$g\\left( x \\right)$ 在 $x = 0$ 的某去心邻域内有定义且恒不为零.若当 $x \\to 0$ 时，$f\\left( x \\right)$ 是 $g\\left( x \\right)$ 的高阶无穷小，则当 $x \\to 0$ 时，\n- A. $f\\left( x \\right) + g\\left( x \\right) = o\\left( g\\left( x \\right) \\right)$.\n\n- B. $f\\left( x \\right) g\\left( x \\right) = o\\left( f^{2}\\left( x \\right) \\right)$.\n\n- C. $f\\left( x \\right) = o\\left( e^{g\\left( x \\right)} - 1 \\right)$.\n\n- D. $f\\left( x \\right) = o\\left( g^{2}\\left( x \\right) \\right)$.",
+   "answerText": "答案：C\n\n**解析：** 由题意 $f=o(g)$。\n\n- A：$f+g=g\\bigl(1+o(1)\\bigr)$ 与 $g$ 等价而不是 $g$ 的高阶无穷小，错；\n- B：$\\dfrac{fg}{f^{2}}=\\dfrac{g}{f}\\to\\infty$，$fg$ 不是 $o(f^{2})$，错；\n- C：$e^{g}-1\\sim g$，故 $\\dfrac{f}{e^{g}-1}=\\dfrac{f}{g}\\cdot\\dfrac{g}{e^{g}-1}\\to0$，即 $f=o(e^{g}-1)$，对；\n- D：$\\dfrac{f}{g^{2}}=\\dfrac{f}{g}\\cdot\\dfrac1g$，极限无法确定，错。\n\n故选 C。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -257,11 +261,11 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "infinite_and_infinitesimal",
-    "surface_integral_definition",
-    "power_series_sum"
+    "infinitesimal_order",
+    "equivalent_infinitesimal"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对；已验算修正：选项 A 按 2025 官方真题由 O(g(x)) 订正为 o(g(x))",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -280,19 +284,19 @@
    "number": 5,
    "title": "2025 年数学二 第 5 题",
    "questionText": "设函数 $f\\left( x, y \\right)$ 连续，则 $\\int_{-2}^{2} \\mathrm{~d} x \\int_{4 - x^{2}}^{4} f\\left( x, y \\right) \\mathrm{~d} y =$\n- A. $\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$\n\n- B. $\\int_{0}^{4} \\left[ \\int_{-2}^{\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$\n\n- C. $\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{2}^{\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$\n\n- D. $2 \\int_{0}^{4} \\mathrm{~d} y \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x$",
-   "answerText": "A\n\n**解析：**\n积分区域由 $y = 4 - x^{2}$ 与 $y = 2$ 确定.改变积分次序后，对每个 $y \\in \\left[ 0, 4 \\right]$，对应的 $x$ 分别落在\n$\\left[ -2, -\\sqrt{4 - y} \\right]$ 与 $\\left[ \\sqrt{4 - y}, 2 \\right]$.\n\n故原式等于\n$\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$.",
+   "answerText": "答案：A\n\n**解析：** 积分区域为 $4-x^{2}\\le y\\le4$，$|x|\\le2$，即抛物线 $y=4-x^{2}$ 上方与直线 $y=4$ 之间。改为先对 $x$ 积分：固定 $y\\in[0,4]$，由 $y\\ge4-x^{2}$ 得 $x^{2}\\ge4-y$，即 $|x|\\ge\\sqrt{4-y}$；结合 $|x|\\le2$，$x$ 的范围是\n$$\n\\left[-2,-\\sqrt{4-y}\\right]\\cup\\left[\\sqrt{4-y},\\,2\\right].\n$$\n故交换次序后为选项 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
+    "integration_order",
+    "double_integral_region"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -311,16 +315,18 @@
    "number": 6,
    "title": "2025 年数学二 第 6 题",
    "questionText": "设单位质点 $P$，$Q$ 分别位于点 $\\left( 0, 0 \\right)$ 和 $\\left( 0, 1 \\right)$ 处，$P$ 从点 $\\left( 0, 0 \\right)$ 出发沿 $x$ 轴正向移动，记 $G$ 为引力常量，则当质点 $P$ 移动到点 $\\left( 1, 0 \\right)$ 时，克服质点 $Q$ 的引力所做的功为\n- A. $\\int_{0}^{1} \\frac{G}{x^{2} + 1} \\mathrm{~d} x$\n\n- B. $\\int_{0}^{1} \\frac{Gx}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$\n\n- C. $\\int_{0}^{1} \\frac{G}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$\n\n- D. $\\int_{0}^{1} \\frac{G\\left( x + 1 \\right)}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$",
-   "answerText": "B\n\n**解析：**\n当 $P$ 位于 $\\left( x, 0 \\right)$ 时，$Q P$ 的距离为 $\\sqrt{x^{2} + 1}$，引力大小为 $\\frac{G}{x^{2} + 1}$.\n\n沿运动方向的分力为\n$\\frac{G}{x^{2} + 1} \\cdot \\frac{x}{\\sqrt{x^{2} + 1}}$.\n\n故所做的功为\n$\\int_{0}^{1} \\frac{Gx}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$.",
+   "answerText": "答案：B\n\n**解析：** $P$ 位于 $(x,0)$ 时与 $Q$ 相距 $\\sqrt{x^{2}+1}$，两单位质点间的引力大小为 $\\dfrac{G}{x^{2}+1}$，它沿运动方向（$x$ 轴正向）的分量为\n$$\n\\frac{G}{x^{2}+1}\\cdot\\frac{x}{\\sqrt{x^{2}+1}}=\\frac{Gx}{\\left(x^{2}+1\\right)^{3/2}}.\n$$\n变力做功即该分力从 $0$ 到 $1$ 的积分，$W=\\displaystyle\\int_0^{1}\\frac{Gx}{(x^{2}+1)^{3/2}}\\,\\mathrm{d}x$。故选 B。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_substitution"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -339,16 +345,20 @@
    "number": 7,
    "title": "2025 年数学二 第 7 题",
    "questionText": "设函数 $f\\left( x \\right)$ 连续，给出下列四个条件：\n① $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - f\\left( 0 \\right)}{x}$ 存在；\n\n② $\\lim_{x \\to 0} \\frac{f\\left( x \\right) - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在；\n\n③ $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right|}{x}$ 存在；\n\n④ $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在.\n\n其中能得到 “$f\\left( x \\right)$ 在 $x = 0$ 处可导” 的条件的个数是\n\n- A. 1\n\n- B. 2\n\n- C. 3\n\n- D. 4",
-   "answerText": "D\n\n**解析：**\n对于①：若极限存在，由连续性知 $\\left| f\\left( 0 \\right) \\right| = f\\left( 0 \\right)$，故 $f\\left( 0 \\right) \\ge 0$.\n\n* 若 $f\\left( 0 \\right) > 0$，则 $x = 0$ 的某邻域内有 $f\\left( x \\right) > 0$，于是 $\\left| f\\left( x \\right) \\right| = f\\left( x \\right)$，从而 $f$ 在 $0$ 处可导.\n* 若 $f\\left( 0 \\right) = 0$，则①化为 $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right|}{x}$ 存在，与③同理可推出 $f$ 在 $0$ 处可导.\n\n对于②：由连续性知 $f\\left( 0 \\right) = \\left| f\\left( 0 \\right) \\right|$，故\n$\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x}$ 存在，\n所以 $f$ 在 $0$ 处可导.\n\n对于③：若 $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right|}{x} = A$ 存在，则连续性推出 $f\\left( 0 \\right) = 0$.\n于是\n$\\lim_{x \\to 0^{+}} \\frac{f\\left( x \\right)}{x} = A$，\n$\\lim_{x \\to 0^{-}} \\frac{f\\left( x \\right)}{x} = -A$.\n又因两侧极限必须相等，得 $A = -A$，故 $A = 0$.\n所以\n$\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x} = \\lim_{x \\to 0} \\frac{f\\left( x \\right)}{x} = 0$，\n即 $f$ 在 $0$ 处可导.\n\n对于④：\n\n* 若 $f\\left( 0 \\right) > 0$，则邻域内 $\\left| f\\left( x \\right) \\right| = f\\left( x \\right)$，于是可导；\n* 若 $f\\left( 0 \\right) = 0$，则化为③；\n* 若 $f\\left( 0 \\right) < 0$，则邻域内 $\\left| f\\left( x \\right) \\right| = -f\\left( x \\right)$，于是\n  $\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x}$ 也存在.\n\n故四个条件都能推出 $f\\left( x \\right)$ 在 $x = 0$ 处可导.",
+   "answerText": "答案：D\n\n**解析：** $f$ 在 $x=0$ 处连续。各条件分子均在 $x=0$ 处连续，若极限存在，分子必趋于 $0$。\n\n① 分子 $|f(x)|-f(0)\\to|f(0)|-f(0)$，故 $f(0)\\ge0$。若 $f(0)>0$，邻域内 $f>0$，$|f|=f$，极限即 $f'(0)$；若 $f(0)=0$，条件化为 $\\lim\\limits_{x\\to0}\\dfrac{|f(x)|}{x}$ 存在，同 ③。\n\n② 分子趋于 $f(0)-|f(0)|$，故 $f(0)=|f(0)|\\ge0$，此极限恰为 $f'(0)$。\n\n③ 先由分子趋于 $0$ 得 $f(0)=0$。记极限为 $A$：$x>0$ 时商非负，$x<0$ 时商非正，故 $A=0$，从而 $\\dfrac{|f(x)|}{|x|}\\to0$，$f'(0)=0$ 存在。\n\n④ 若 $f(0)>0$，邻域内 $|f|=f$；若 $f(0)=0$，同 ③；若 $f(0)<0$，邻域内 $|f|=-f$，极限为 $-f'(0)$。各情形 $f'(0)$ 都存在。\n\n四个条件都能推出可导，选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_definition",
+    "differentiability_continuity",
+    "continuity"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -359,7 +369,7 @@
     "paper": "math2",
     "number": 7
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "一、选择题"
   },
   {
@@ -367,7 +377,7 @@
    "number": 8,
    "title": "2025 年数学二 第 8 题",
    "questionText": "设矩阵 $\\boldsymbol{A} = \\begin{pmatrix} 1 & 2 & 0 \\\\ 2 & a & 0 \\\\ 0 & 0 & b \\end{pmatrix}$ 有一个正特征值和两个负特征值，则\n- A. $a > 4$，$b > 0$\n\n- B. $a < 4$，$b > 0$\n\n- C. $a > 4$，$b < 0$\n\n- D. $a < 4$，$b < 0$",
-   "answerText": "D\n\n**解析：**\n$\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left( b - \\lambda \\right)\\left[ \\lambda^{2} - \\left( a + 1 \\right)\\lambda + a - 4 \\right]$.\n\n二次因式对应的两个根一正一负，故其常数项满足\n$a - 4 < 0$，即 $a < 4$.\n\n此时二次因式已经给出一个正根、一个负根.又矩阵总共有一个正特征值和两个负特征值，所以第三个特征值 $b$ 必须小于 $0$.",
+   "answerText": "答案：D\n\n**解析：** $\\boldsymbol A$ 为实对称分块对角矩阵，特征值为 $b$ 与二阶块 $\\begin{pmatrix}1&2\\\\2&a\\end{pmatrix}$ 的两个特征值，后者的迹为 $a+1$、行列式为 $a-4$。\n\n若 $a>4$：二阶块两特征值之积、之和均为正，必同为正，加上 $b$ 不可能恰有一正两负。\n\n故必须 $a<4$，此时二阶块两特征值一正一负；要使全部特征值恰为一正两负，须 $b<0$。故选 D。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
@@ -375,11 +385,11 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.matrix_transpose"
+    "la.knowledge.eigen_properties",
+    "la.knowledge.real_symmetric_properties"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -398,16 +408,19 @@
    "number": 9,
    "title": "2025 年数学二 第 9 题",
    "questionText": "下列矩阵中，可以经过若干初等变换得到矩阵 $\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 2 \\\\ 0 & 0 & 0 & 0 \\end{pmatrix}$ 的是\n- A. $\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 1 & 2 & 1 & 3 \\\\ 2 & 3 & 1 & 4 \\end{pmatrix}$\n\n- B. $\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 1 & 1 & 2 & 5 \\\\ 1 & 1 & 1 & 3 \\end{pmatrix}$\n\n- C. $\\begin{pmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 1 & 0 & 3 \\\\ 0 & 1 & 0 & 0 \\end{pmatrix}$\n\n- D. $\\begin{pmatrix} 1 & 1 & 2 & 3 \\\\ 1 & 2 & 2 & 3 \\\\ 2 & 3 & 4 & 6 \\end{pmatrix}$",
-   "answerText": "B\n\n**解析：**\n对 B 作初等行变换：\n$\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 1 & 1 & 2 & 5 \\\\ 1 & 1 & 1 & 3 \\end{pmatrix} \\to \\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 2 \\\\ 0 & 0 & 0 & 0 \\end{pmatrix}$.",
+   "answerText": "答案：B\n\n**解析：** 目标矩阵已是行最简形，而行最简形在初等行变换下唯一。对 B 作行变换：\n$$\n\\begin{pmatrix}1&1&0&1\\\\1&1&2&5\\\\1&1&1&3\\end{pmatrix}\n\\xrightarrow[r_3-r_1]{r_2-r_1}\n\\begin{pmatrix}1&1&0&1\\\\0&0&2&4\\\\0&0&1&2\\end{pmatrix}\n\\to\n\\begin{pmatrix}1&1&0&1\\\\0&0&1&2\\\\0&0&0&0\\end{pmatrix}.\n$$\nA 的行最简形为 $\\begin{pmatrix}1&0&-1&-1\\\\0&1&1&2\\\\0&0&0&0\\end{pmatrix}$，D 的行最简形为 $\\begin{pmatrix}1&0&2&3\\\\0&1&0&0\\\\0&0&0&0\\end{pmatrix}$，均与目标不同；C 的秩为 $3$。故选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.elementary_transformation",
+    "la.knowledge.matrix_rank"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -418,7 +431,7 @@
     "paper": "math2",
     "number": 9
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "一、选择题"
   },
   {
@@ -426,16 +439,20 @@
    "number": 10,
    "title": "2025 年数学二 第 10 题",
    "questionText": "设 3 阶矩阵 $\\boldsymbol{A}$，$\\boldsymbol{B}$ 满足 $r\\left( \\boldsymbol{A}\\boldsymbol{B} \\right) = r\\left( \\boldsymbol{B}\\boldsymbol{A} \\right) + 1$，则\n- A. 方程组 $\\left( \\boldsymbol{A} + \\boldsymbol{B} \\right)\\boldsymbol{x} = 0$ 只有零解.\n\n- B. 方程组 $\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 均只有零解.\n\n- C. 方程组 $\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 没有公共非零解.\n\n- D. 方程组 $\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{x} = 0$ 有公共非零解.",
-   "answerText": "D\n\n**解析：**\n取\n$\\boldsymbol{A} = \\begin{pmatrix} 1 & 1 & 1 \\\\ -1 & -1 & -1 \\\\ 0 & 0 & 0 \\end{pmatrix}$，\n$\\boldsymbol{B} = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{pmatrix}$.\n\n则\n$\\boldsymbol{A}\\boldsymbol{B} = \\begin{pmatrix} 3 & 3 & 3 \\\\ -3 & -3 & -3 \\\\ 0 & 0 & 0 \\end{pmatrix}$，\n$\\boldsymbol{B}\\boldsymbol{A} = \\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$.\n\n故 $r\\left( \\boldsymbol{A}\\boldsymbol{B} \\right) = 1$，$r\\left( \\boldsymbol{B}\\boldsymbol{A} \\right) = 0$，满足题设.\n\n而\n$\\left( \\boldsymbol{A} + \\boldsymbol{B} \\right)\\boldsymbol{x} = 0$ 有非零解，故 A 错；\n$\\boldsymbol{A}\\boldsymbol{x} = 0$ 与 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 都有非零解，故 B 错；\n且这两个方程组有公共非零解，故 C 错.\n\n因此选 D.\n\n\n---",
+   "answerText": "答案：D\n\n**解析：** 构造反例排除 A、B、C：取\n$$\n\\boldsymbol A=\\begin{pmatrix}1&1&1\\\\-1&-1&-1\\\\0&0&0\\end{pmatrix},\\qquad\n\\boldsymbol B=\\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix},\n$$\n则 $\\boldsymbol A\\boldsymbol B=\\begin{pmatrix}3&3&3\\\\-3&-3&-3\\\\0&0&0\\end{pmatrix}$ 秩为 $1$，$\\boldsymbol B\\boldsymbol A=\\boldsymbol O$ 秩为 $0$，满足 $r(\\boldsymbol A\\boldsymbol B)=r(\\boldsymbol B\\boldsymbol A)+1$。\n\n此例中 $r(\\boldsymbol A+\\boldsymbol B)=1<3$，$(\\boldsymbol A+\\boldsymbol B)\\boldsymbol x=\\boldsymbol 0$ 有非零解，A 错；$r(\\boldsymbol A)=r(\\boldsymbol B)=1$，两个方程组都有非零解，B 错；且两方程组都等价于 $x_1+x_2+x_3=0$，有公共非零解，C 错。\n\n故选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.rank_properties",
+    "la.knowledge.homogeneous_nonzero_solution",
+    "la.knowledge.common_same_solution"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -446,7 +463,7 @@
     "paper": "math2",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "一、选择题"
   },
   {
@@ -454,16 +471,18 @@
    "number": 11,
    "title": "2025 年数学二 第 11 题",
    "questionText": "设 $\\int_{1}^{+\\infty} \\frac{a}{x\\left( 2x + a \\right)} \\mathrm{~d} x = \\ln 2$，则 $a =$ ________.",
-   "answerText": "$2$\n\n**解析：**\n$\\frac{a}{x\\left( 2x + a \\right)} = \\frac{1}{x} - \\frac{2}{2x + a}$.\n\n故\n$\\int_{1}^{+\\infty} \\frac{a}{x\\left( 2x + a \\right)} \\mathrm{~d} x = \\left. \\ln \\frac{2x}{2x + a} \\right|_{1}^{+\\infty} = \\ln \\left| \\frac{2 + a}{2} \\right|$.\n\n由 $\\ln \\left| \\frac{2 + a}{2} \\right| = \\ln 2$ 得\n$\\left| \\frac{2 + a}{2} \\right| = 2$.\n\n解得 $a = 2$ 或 $a = -6$.当 $a = -6$ 时，被积函数在区间 $\\left[ 1, +\\infty \\right)$ 内有奇点，积分发散.\n\n故 $a = 2$.",
+   "answerText": "答案：$2$\n\n**解析：** $\\dfrac{a}{x(2x+a)}=\\dfrac1x-\\dfrac{2}{2x+a}$，故\n$$\n\\int_1^{+\\infty}\\frac{a}{x(2x+a)}\\,\\mathrm{d}x\n=\\Bigl[\\ln\\frac{x}{2x+a}\\Bigr]_1^{+\\infty}\n=\\ln\\frac12-\\ln\\frac{1}{a+2}\n=\\ln\\frac{a+2}{2}.\n$$\n令其等于 $\\ln2$ 得 $|a+2|=4$，$a=2$ 或 $a=-6$。当 $a=-6$ 时被积函数在 $x=3$ 处分母为零，积分发散，舍去。故 $a=2$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -482,7 +501,7 @@
    "number": 12,
    "title": "2025 年数学二 第 12 题",
    "questionText": "曲线 $y = \\sqrt[3]{x^{3} - 3x^{2} + 1}$ 的渐近线方程为 ________.",
-   "answerText": "$y = x - 1$\n\n**解析：**\n显然无水平渐近线与垂直渐近线.\n\n又\n$\\lim_{x \\to +\\infty} \\frac{y}{x} = \\lim_{x \\to +\\infty} \\frac{\\sqrt[3]{x^{3} - 3x^{2} + 1}}{x} = 1$，\n\n且\n$\\lim_{x \\to +\\infty} \\left( y - x \\right) = \\lim_{x \\to +\\infty} \\left( \\sqrt[3]{x^{3} - 3x^{2} + 1} - x \\right) = -1$.\n\n所以有斜渐近线 $y = x - 1$.",
+   "answerText": "答案：$y=x-1$\n\n**解析：** 曲线处处有定义，无铅直渐近线；$x\\to\\infty$ 时 $y\\to\\infty$，无水平渐近线。\n\n计算斜渐近线系数：\n$$\n\\frac{y}{x}=\\sqrt[3]{1-\\frac3x+\\frac1{x^{3}}}\\to1,\n\\qquad\ny-x=x\\left[\\sqrt[3]{1-\\frac3x+\\frac1{x^{3}}}-1\\right]\\to-1\n$$\n（用了 $(1+u)^{1/3}-1\\sim\\dfrac u3$）。故斜渐近线为 $y=x-1$（$x\\to\\pm\\infty$ 两个方向相同）。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -493,7 +512,7 @@
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -512,16 +531,19 @@
    "number": 13,
    "title": "2025 年数学二 第 13 题",
    "questionText": "$\\lim_{n \\to \\infty} \\frac{1}{n^{2}} \\left[ \\ln \\frac{1}{n} + 2 \\ln \\frac{2}{n} + \\cdots + \\left( n - 1 \\right) \\ln \\frac{n - 1}{n} \\right] =$ ________.",
-   "answerText": "$-\\frac{1}{4}$\n\n**解析：**\n原式可写为\n$\\lim_{n \\to \\infty} \\sum_{k = 1}^{n - 1} \\frac{k}{n} \\ln \\frac{k}{n} \\cdot \\frac{1}{n}$.\n\n它是函数 $x \\ln x$ 在区间 $\\left[ 0, 1 \\right]$ 上的黎曼和，因此\n$\\lim_{n \\to \\infty} \\sum_{k = 1}^{n - 1} \\frac{k}{n} \\ln \\frac{k}{n} \\cdot \\frac{1}{n} = \\int_{0}^{1} x \\ln x \\mathrm{~d} x = -\\frac{1}{4}$.",
+   "answerText": "答案：$-\\dfrac14$\n\n**解析：** 原式 $=\\displaystyle\\lim_{n\\to\\infty}\\sum_{k=1}^{n-1}\\frac kn\\ln\\frac kn\\cdot\\frac1n$，这是 $x\\ln x$ 在 $[0,1]$ 上的黎曼和（$x\\ln x$ 在 $x\\to0^{+}$ 时趋于 $0$，补充定义后连续），故\n$$\n\\lim_{n\\to\\infty}\\sum_{k=1}^{n-1}\\frac kn\\ln\\frac kn\\cdot\\frac1n\n=\\int_0^1 x\\ln x\\,\\mathrm{d}x\n=\\Bigl[\\frac{x^{2}}2\\ln x-\\frac{x^{2}}4\\Bigr]_0^1=-\\frac14.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties",
+    "fundamental_theorem_calculus"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -540,16 +562,20 @@
    "number": 14,
    "title": "2025 年数学二 第 14 题",
    "questionText": "已知函数 $y = y\\left( x \\right)$ 由 $\\left\\{ \\begin{aligned} x &= \\ln \\left( 1 + 2t \\right), \\\\ 2t - \\int_{1}^{y + t^{2}} e^{-u^{2}} \\mathrm{~d} u &= 0 \\end{aligned} \\right.$\n确定，则 $\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right|_{x = 0} =$ ________.",
-   "answerText": "$e$\n\n**解析：**\n令 $t = 0$，代入方程得 $y = 1$.\n\n对方程\n$2t - \\int_{1}^{y + t^{2}} e^{-u^{2}} \\mathrm{~d} u = 0$\n关于 $t$ 求导，得\n$2 - e^{-\\left( y + t^{2} \\right)^{2}}\\left( \\frac{\\mathrm{d} y}{\\mathrm{d} t} + 2t \\right) = 0$.\n\n代入 $t = 0$，$y = 1$，得\n$\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} t} \\right|_{t = 0} = 2e$.\n\n又\n$\\frac{\\mathrm{d} x}{\\mathrm{d} t} = \\frac{2}{1 + 2t}$，故 $\\left. \\frac{\\mathrm{d} x}{\\mathrm{d} t} \\right|_{t = 0} = 2$.\n\n所以\n$\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right|_{x = 0} = \\frac{\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} t} \\right|_{t = 0}}{\\left. \\frac{\\mathrm{d} x}{\\mathrm{d} t} \\right|_{t = 0}} = e$.",
+   "answerText": "答案：$e$\n\n**解析：** $x=0$ 对应 $t=0$；代入第二式得 $\\displaystyle\\int_1^{y}e^{-u^{2}}\\mathrm{d}u=0$，由被积函数恒正知 $y=1$。\n\n第二式对 $t$ 求导：\n$$\n2-e^{-(y+t^{2})^{2}}\\left(\\frac{\\mathrm{d}y}{\\mathrm{d}t}+2t\\right)=0,\n$$\n代入 $t=0,\\ y=1$ 得 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=2e$。又 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{2}{1+2t}$ 在 $t=0$ 处为 $2$，故\n$$\n\\left.\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0}=\\frac{2e}{2}=e.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "parametric_derivative",
+    "implicit_derivative",
+    "variable_upper_integral"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -560,7 +586,7 @@
     "paper": "math2",
     "number": 14
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、填空题"
   },
   {
@@ -568,16 +594,18 @@
    "number": 15,
    "title": "2025 年数学二 第 15 题",
    "questionText": "微分方程 $\\left( 2y - 3x \\right) \\mathrm{d} x + \\left( 2x - 5y \\right) \\mathrm{d} y = 0$ 满足条件 $y\\left( 1 \\right) = 1$ 的解为 ________.",
-   "answerText": "$5y^{2} - 4xy + 3x^{2} = 4$\n\n**解析：**\n$\\frac{\\mathrm{d} y}{\\mathrm{d} x} = \\frac{2y - 3x}{5y - 2x} = \\frac{2 \\frac{y}{x} - 3}{5 \\frac{y}{x} - 2}$.\n\n令 $\\frac{y}{x} = u$，则 $y = ux$，从而\n$u + x \\frac{\\mathrm{d} u}{\\mathrm{d} x} = \\frac{2u - 3}{5u - 2}$.\n\n化简得\n$\\frac{5u - 2}{5u^{2} - 4u + 3} \\mathrm{d} u = -\\frac{1}{x} \\mathrm{d} x$.\n\n两边积分可得\n$5u^{2} - 4u + 3 = \\frac{C}{x^{2}}$.\n\n即\n$5y^{2} - 4xy + 3x^{2} = C$.\n\n由 $y\\left( 1 \\right) = 1$ 得 $C = 4$.\n\n故所求解为\n$5y^{2} - 4xy + 3x^{2} = 4$.",
+   "answerText": "答案：$5y^{2}-4xy+3x^{2}=4$\n\n**解析：** 方程是齐次的：$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{2y-3x}{5y-2x}$。令 $y=ux$，得\n$$\nu+x\\frac{\\mathrm{d}u}{\\mathrm{d}x}=\\frac{2u-3}{5u-2},\n\\qquad\n\\frac{(5u-2)\\,\\mathrm{d}u}{5u^{2}-4u+3}=-\\frac{\\mathrm{d}x}{x}.\n$$\n注意到 $\\mathrm{d}(5u^{2}-4u+3)=2(5u-2)\\,\\mathrm{d}u$，积分得\n$$\n\\frac12\\ln\\left(5u^{2}-4u+3\\right)=-\\ln|x|+c,\n$$\n即 $5y^{2}-4xy+3x^{2}=C$。代入 $y(1)=1$ 得 $C=4$。故所求解为 $5y^{2}-4xy+3x^{2}=4$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "homogeneous_first_order_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -596,16 +624,20 @@
    "number": 16,
    "title": "2025 年数学二 第 16 题",
    "questionText": "设矩阵 $\\boldsymbol{A} = \\left( \\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}, \\boldsymbol{\\alpha}_{4} \\right)$.若 $\\boldsymbol{\\alpha}_{1}$，$\\boldsymbol{\\alpha}_{2}$，$\\boldsymbol{\\alpha}_{3}$ 线性无关，且 $\\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} = \\boldsymbol{\\alpha}_{3} + \\boldsymbol{\\alpha}_{4}$，则方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{\\alpha}_{1} + 4\\boldsymbol{\\alpha}_{4}$ 的通解为 ________.",
-   "answerText": "$\\boldsymbol{x} = k \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 4 \\end{pmatrix}$\n\n**解析：**\n由 $\\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} = \\boldsymbol{\\alpha}_{3} + \\boldsymbol{\\alpha}_{4}$ 得\n$\\boldsymbol{\\alpha}_{4} = \\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} - \\boldsymbol{\\alpha}_{3}$.\n\n故\n$r\\left( \\boldsymbol{A} \\right) = r\\left( \\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3} \\right) = 3$.\n\n于是齐次方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{0}$ 的基础解系只有一个线性无关向量，且\n$\\left( 1, 1, -1, -1 \\right)^{\\mathrm{T}}$ 是其一个解.\n\n又\n$\\left( 1, 0, 0, 4 \\right)^{\\mathrm{T}}$ 是方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{\\alpha}_{1} + 4\\boldsymbol{\\alpha}_{4}$ 的一个特解.\n\n故通解为\n$\\boldsymbol{x} = k \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\ 4 \\end{pmatrix}$.\n\n---",
+   "answerText": "答案：$\\boldsymbol x=k\\begin{pmatrix}1\\\\1\\\\-1\\\\-1\\end{pmatrix}+\\begin{pmatrix}1\\\\0\\\\0\\\\4\\end{pmatrix}$（$k$ 为任意常数）\n\n**解析：** 由 $\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2=\\boldsymbol\\alpha_3+\\boldsymbol\\alpha_4$ 得 $\\boldsymbol\\alpha_4=\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2-\\boldsymbol\\alpha_3$，故 $r(\\boldsymbol A)=3$，$\\boldsymbol A\\boldsymbol x=\\boldsymbol 0$ 的基础解系含一个向量。\n\n把 $\\boldsymbol A\\boldsymbol x$ 用 $\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3$ 表示：\n$$\n\\boldsymbol A\\boldsymbol x=(x_1+x_4)\\boldsymbol\\alpha_1+(x_2+x_4)\\boldsymbol\\alpha_2+(x_3-x_4)\\boldsymbol\\alpha_3,\n$$\n由线性无关性得 $x_1+x_4=x_2+x_4=0$，$x_3=x_4$，取 $\\boldsymbol\\xi=(1,1,-1,-1)^{T}$。\n\n又 $\\boldsymbol A(1,0,0,4)^{T}=\\boldsymbol\\alpha_1+4\\boldsymbol\\alpha_4$，即其为特解。故通解为\n$\\boldsymbol x=k(1,1,-1,-1)^{T}+(1,0,0,4)^{T}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "differential_equation",
+   "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.basic_solution_system",
+    "la.knowledge.general_solution",
+    "la.knowledge.linear_correlation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -616,26 +648,27 @@
     "paper": "math2",
     "number": 16
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2025.17",
    "number": 17,
    "title": "2025 年数学二 第 17 题",
-   "questionText": "（本题满分 10 分）\n计算 $\\int_{0}^{1} \\frac{1}{\\left( x + 1 \\right)\\left( x^{2} - 2x + 2 \\right)} \\mathrm{~d} x$.\n\n**解：**\n设\n$\\frac{1}{\\left( 1 + x \\right)\\left( x^{2} - 2x + 2 \\right)} = \\frac{a}{1 + x} + \\frac{bx + c}{x^{2} - 2x + 2}$.\n\n比较系数得\n$\\left\\{ \\begin{aligned} a + b &= 0, \\\\ -2a + b + c &= 0, \\\\ 2a + c &= 1 \\end{aligned} \\right.$\n\n解得\n$a = \\frac{1}{5}$，$b = -\\frac{1}{5}$，$c = \\frac{3}{5}$.\n\n故原式\n$= \\int_{0}^{1} \\left[ \\frac{1}{5\\left( 1 + x \\right)} + \\frac{-\\frac{1}{5}x + \\frac{3}{5}}{x^{2} - 2x + 2} \\right] \\mathrm{~d} x$\n\n$= \\frac{1}{5}\\ln \\left( 1 + x \\right)\\Big|_{0}^{1} - \\frac{1}{5} \\int_{0}^{1} \\frac{x - 3}{x^{2} - 2x + 2} \\mathrm{~d} x$\n\n$= \\frac{1}{5}\\ln 2 - \\frac{1}{5} \\left[ \\frac{1}{2} \\int_{0}^{1} \\frac{1}{x^{2} - 2x + 2} \\mathrm{d} \\left( x^{2} - 2x + 2 \\right) - \\int_{0}^{1} \\frac{2}{x^{2} - 2x + 2} \\mathrm{~d} x \\right]$\n\n$= \\frac{1}{5}\\ln 2 - \\frac{1}{10}\\ln \\left( x^{2} - 2x + 2 \\right)\\Big|_{0}^{1} + \\frac{2}{5} \\int_{0}^{1} \\frac{1}{\\left( x - 1 \\right)^{2} + 1} \\mathrm{~d} x$\n\n$= \\frac{1}{5}\\ln 2 - \\frac{1}{10}\\left( 0 - \\ln 2 \\right) + \\frac{2}{5}\\arctan \\left( x - 1 \\right)\\Big|_{0}^{1}$\n\n$= \\frac{1}{5}\\ln 2 + \\frac{1}{10}\\ln 2 + \\frac{2}{5}\\left( 0 + \\frac{\\pi}{4} \\right)$\n\n$= \\frac{3}{10}\\ln 2 + \\frac{\\pi}{10}$.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "计算 $\\int_{0}^{1} \\frac{1}{\\left( x + 1 \\right)\\left( x^{2} - 2x + 2 \\right)} \\mathrm{~d} x$.",
+   "answerText": "答案：$\\dfrac{3}{10}\\ln2+\\dfrac{\\pi}{10}$\n\n**解析：** 设部分分式 $\\dfrac{1}{(x+1)(x^{2}-2x+2)}=\\dfrac{a}{x+1}+\\dfrac{bx+c}{x^{2}-2x+2}$，比较系数解得 $a=\\dfrac15$，$b=-\\dfrac15$，$c=\\dfrac35$。于是\n$$\nI=\\frac15\\ln(x+1)\\Big|_0^1+\\frac15\\int_0^1\\frac{-x+3}{x^{2}-2x+2}\\,\\mathrm{d}x.\n$$\n把 $-x+3$ 拆成 $-\\dfrac12(2x-2)+2$：\n$$\nI=\\frac15\\ln2-\\frac1{10}\\ln\\left(x^{2}-2x+2\\right)\\Big|_0^1+\\frac25\\arctan(x-1)\\Big|_0^1\n=\\frac15\\ln2+\\frac1{10}\\ln2+\\frac{\\pi}{10}.\n$$\n故 $I=\\dfrac{3}{10}\\ln2+\\dfrac{\\pi}{10}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "infinitesimal_order"
+    "indefinite_integral_formulas",
+    "fundamental_theorem_calculus"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -653,21 +686,22 @@
    "id": "bank.exam.m2-2025.18",
    "number": 18,
    "title": "2025 年数学二 第 18 题",
-   "questionText": "（本题满分 12 分）\n设函数 $f\\left( x \\right)$ 在 $x = 0$ 处连续，且 $\\lim_{x \\to 0} \\frac{x f\\left( x \\right) - e^{2 \\sin x} + 1}{\\ln \\left( 1 + x \\right) + \\ln \\left( 1 - x \\right)} = -3$，证明 $f\\left( x \\right)$ 在 $x = 0$ 处可导，并求 $f^{\\prime}\\left( 0 \\right)$.\n\n**解：**\n由\n$\\ln \\left( 1 + x \\right) + \\ln \\left( 1 - x \\right) = \\ln \\left( 1 - x^{2} \\right)$，\n可将已知极限写为\n$-3 = \\lim_{x \\to 0} \\frac{x f\\left( x \\right) - e^{2 \\sin x} + 1}{-x^{2}}$.\n\n进一步化为\n$-3 = \\lim_{x \\to 0} \\frac{f\\left( x \\right) + \\frac{1 - e^{2 \\sin x}}{x}}{-x}$.\n\n由于\n$\\lim_{x \\to 0} \\frac{1 - e^{2 \\sin x}}{x} = -2$，\n又由 $f\\left( x \\right)$ 在 $x = 0$ 处连续，可知 $f\\left( 0 \\right) = 2$.\n\n于是\n$-3 = \\lim_{x \\to 0} \\frac{x\\left[ f\\left( x \\right) - f\\left( 0 \\right) \\right] + 2x - e^{2 \\sin x} + 1}{-x^{2}}$\n\n$= -\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x} + \\lim_{x \\to 0} \\frac{2x - e^{2 \\sin x} + 1}{-x^{2}}$\n\n$= -\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x} + \\lim_{x \\to 0} \\frac{2 - 2 \\cos x \\cdot e^{2 \\sin x}}{-2x}$\n\n$= -\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x} + \\lim_{x \\to 0} \\frac{1 - \\cos x + \\cos x \\left( 1 - e^{2 \\sin x} \\right)}{-x}$\n\n$= -\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x} + 2$.\n\n故\n$\\lim_{x \\to 0} \\frac{f\\left( x \\right) - f\\left( 0 \\right)}{x} = 5$.\n\n所以 $f\\left( x \\right)$ 在 $x = 0$ 处可导，且\n$f^{\\prime}\\left( 0 \\right) = 5$.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $f\\left( x \\right)$ 在 $x = 0$ 处连续，且 $\\lim_{x \\to 0} \\frac{x f\\left( x \\right) - e^{2 \\sin x} + 1}{\\ln \\left( 1 + x \\right) + \\ln \\left( 1 - x \\right)} = -3$，证明 $f\\left( x \\right)$ 在 $x = 0$ 处可导，并求 $f^{\\prime}\\left( 0 \\right)$.",
+   "answerText": "答案：$f(x)$ 在 $x=0$ 处可导，且 $f(0)=2$，$f'(0)=5$。\n\n**解析：** 分母 $\\ln(1+x)+\\ln(1-x)=\\ln(1-x^{2})\\sim-x^{2}$，题设即\n$$\n\\lim_{x\\to0}\\frac{xf(x)-\\left(e^{2\\sin x}-1\\right)}{-x^{2}}=3.\n$$\n先定 $f(0)$：$e^{2\\sin x}-1=2x+o(x)$，故分子 $=x\\bigl[f(x)-2\\bigr]+o(x)$；若 $f(x)\\not\\to2$，分子与 $x$ 同阶，除以 $x^{2}$ 后极限不存在，与题设矛盾。故 $f(0)=2$。\n\n再拆分子：\n$$\nxf(x)-\\left(e^{2\\sin x}-1\\right)=x\\left[f(x)-f(0)\\right]-\\left[e^{2\\sin x}-1-2x\\right],\n$$\n其中 $e^{2\\sin x}-1-2x=2x^{2}+o(x^{2})$。于是\n$$\n3=\\lim_{x\\to0}\\frac{x\\left[f(x)-f(0)\\right]}{-x^{2}}+\\lim_{x\\to0}\\frac{-2x^{2}+o(x^{2})}{-x^{2}}\n=-\\lim_{x\\to0}\\frac{f(x)-f(0)}{x}+2,\n$$\n得 $\\lim\\limits_{x\\to0}\\dfrac{f(x)-f(0)}{x}=5$，即 $f$ 在 $x=0$ 处可导且 $f'(0)=5$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [
+    "function_limit_continuity"
+   ],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "differentiability_continuity",
-    "power_series_sum"
+    "derivative_definition",
+    "indeterminate_form"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -685,21 +719,20 @@
    "id": "bank.exam.m2-2025.19",
    "number": 19,
    "title": "2025 年数学二 第 19 题",
-   "questionText": "（本题满分 12 分）\n设函数 $f\\left( x, y \\right)$ 可微且满足 $\\mathrm{d} f\\left( x, y \\right) = -2x e^{-y} \\mathrm{d} x + e^{-y}\\left( x^{2} - y - 1 \\right) \\mathrm{d} y$，$f\\left( 0, 0 \\right) = 2$，求 $f\\left( x, y \\right)$，并求 $f\\left( x, y \\right)$ 的极值.\n\n**解：**\n由题意知\n$f_{x}^{\\prime}\\left( x, y \\right) = -2x e^{-y}$，\n$f_{y}^{\\prime}\\left( x, y \\right) = e^{-y}\\left( x^{2} - y - 1 \\right)$.\n\n对 $x$ 积分得\n$f\\left( x, y \\right) = \\int -2x e^{-y} \\mathrm{~d} x = -x^{2} e^{-y} + C\\left( y \\right)$.\n\n于是\n$f_{y}^{\\prime}\\left( x, y \\right) = x^{2} e^{-y} + C^{\\prime}\\left( y \\right) = e^{-y}\\left( x^{2} - y - 1 \\right)$.\n\n故\n$C^{\\prime}\\left( y \\right) = -\\left( y + 1 \\right)e^{-y}$，\n从而\n$C\\left( y \\right) = \\left( y + 2 \\right)e^{-y} + C$.\n\n所以\n$f\\left( x, y \\right) = -x^{2} e^{-y} + \\left( y + 2 \\right)e^{-y} + C$.\n\n由 $f\\left( 0, 0 \\right) = 2$ 得 $C = 0$.\n\n故\n$f\\left( x, y \\right) = -x^{2} e^{-y} + \\left( y + 2 \\right)e^{-y}$.\n\n令\n$\\left\\{ \\begin{aligned} f_{x}^{\\prime}\\left( x, y \\right) &= -2x e^{-y} = 0, \\\\ f_{y}^{\\prime}\\left( x, y \\right) &= e^{-y}\\left( x^{2} - y - 1 \\right) = 0 \\end{aligned} \\right.$\n得驻点 $\\left( 0, -1 \\right)$.\n\n再求二阶偏导：\n$f_{xx}^{\\prime\\prime}\\left( x, y \\right) = -2e^{-y}$，\n$f_{xy}^{\\prime\\prime}\\left( x, y \\right) = 2x e^{-y}$，\n$f_{yy}^{\\prime\\prime}\\left( x, y \\right) = -e^{-y}\\left( x^{2} - y - 1 \\right) - e^{-y}$.\n\n在点 $\\left( 0, -1 \\right)$ 处，\n$A = -2e$，$B = 0$，$C = -e$，\n故\n$AC - B^{2} > 0$，且 $A < 0$.\n\n所以 $\\left( 0, -1 \\right)$ 为极大值点，极大值为\n$f\\left( 0, -1 \\right) = e$.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $f\\left( x, y \\right)$ 可微且满足 $\\mathrm{d} f\\left( x, y \\right) = -2x e^{-y} \\mathrm{d} x + e^{-y}\\left( x^{2} - y - 1 \\right) \\mathrm{d} y$，$f\\left( 0, 0 \\right) = 2$，求 $f\\left( x, y \\right)$，并求 $f\\left( x, y \\right)$ 的极值.",
+   "answerText": "答案：$f(x,y)=(y+2-x^{2})e^{-y}$；$(0,-1)$ 为极大值点，极大值 $f(0,-1)=e$。\n\n**解析：** 由 $f_x=-2xe^{-y}$ 对 $x$ 积分得 $f=-x^{2}e^{-y}+C(y)$；代回 $f_y=e^{-y}(x^{2}-y-1)$ 得 $C'(y)=-(y+1)e^{-y}$，积分得 $C(y)=(y+2)e^{-y}+C_0$。由 $f(0,0)=2$ 得 $C_0=0$，故\n$$\nf(x,y)=(y+2-x^{2})e^{-y}.\n$$\n驻点：$f_x=-2xe^{-y}=0$ 给出 $x=0$；$f_y=e^{-y}(x^{2}-y-1)=0$ 给出 $y=-1$，得驻点 $(0,-1)$。\n\n二阶偏导 $A=f_{xx}=-2e^{-y}$，$B=f_{xy}=2xe^{-y}$，$C=f_{yy}=(y-x^{2})e^{-y}$。在 $(0,-1)$ 处 $A=-2e$，$B=0$，$C=-e$，$AC-B^{2}=2e^{2}>0$ 且 $A<0$，为极大值点，极大值\n$$\nf(0,-1)=1\\cdot e=e.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
-    "extrema",
-    "continuity_partial_differentiability"
+    "total_differential",
+    "extrema"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -717,20 +750,20 @@
    "id": "bank.exam.m2-2025.20",
    "number": 20,
    "title": "2025 年数学二 第 20 题",
-   "questionText": "（本题满分 12 分）\n已知平面有界区域 $D = \\left\\{ \\left( x, y \\right) \\mid x^{2} + y^{2} \\le 4x,\\ x^{2} + y^{2} \\le 4y \\right\\}$，计算 $\\iint_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y$.\n\n**解：**\n由区域关于直线 $y = x$ 对称，记第一部分区域为 $D_{1}$，则\n$\\iint_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y = 2 \\iint_{D_{1}} \\left( x^{2} + y^{2} - 2xy \\right) \\mathrm{d} x \\mathrm{d} y$.\n\n作极坐标变换\n$x = r \\cos \\theta$，$y = r \\sin \\theta$.\n\n在区域 $D_{1}$ 上有\n$0 \\le \\theta \\le \\frac{\\pi}{4}$，$0 \\le r \\le 4 \\sin \\theta$.\n\n于是\n$\\iint_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y = 2 \\int_{0}^{\\frac{\\pi}{4}} \\mathrm{~d} \\theta \\int_{0}^{4 \\sin \\theta} \\left( r^{2} - 2r^{2} \\cos \\theta \\sin \\theta \\right) r \\mathrm{~d} r$\n\n$= 128 \\int_{0}^{\\frac{\\pi}{4}} \\left( \\sin^{4} \\theta - 2 \\cos \\theta \\sin^{5} \\theta \\right) \\mathrm{~d} \\theta$\n\n$= 128 \\left[ \\int_{0}^{\\frac{\\pi}{4}} \\left( \\frac{1 - \\cos 2\\theta}{2} \\right)^{2} \\mathrm{~d} \\theta - \\frac{1}{3}\\sin^{6} \\theta \\Big|_{0}^{\\frac{\\pi}{4}} \\right]$\n\n$= 128 \\left[ \\frac{1}{4} \\int_{0}^{\\frac{\\pi}{4}} \\left( 1 - 2 \\cos 2\\theta + \\cos^{2} 2\\theta \\right) \\mathrm{~d} \\theta - \\frac{1}{24} \\right]$\n\n$= 128 \\left[ \\frac{1}{4} \\left( \\frac{\\pi}{4} - \\sin 2\\theta \\Big|_{0}^{\\frac{\\pi}{4}} \\right) + \\frac{1}{2} \\int_{0}^{\\frac{\\pi}{2}} \\cos^{2} t \\mathrm{~d} t - \\frac{1}{24} \\right]$\n\n$= 128 \\left( \\frac{3\\pi}{32} - \\frac{7}{24} \\right)$\n\n$= 12\\pi - \\frac{112}{3}$.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "已知平面有界区域 $D = \\left\\{ \\left( x, y \\right) \\mid x^{2} + y^{2} \\le 4x,\\ x^{2} + y^{2} \\le 4y \\right\\}$，计算 $\\iint_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y$.",
+   "answerText": "答案：$12\\pi-\\dfrac{112}{3}$\n\n**解析：** $D$ 是圆 $x^{2}+y^{2}\\le4x$ 与 $x^{2}+y^{2}\\le4y$ 的公共部分，关于直线 $y=x$ 对称，故\n$$\n\\iint_D(x-y)^{2}\\,\\mathrm{d}x\\mathrm{d}y=2\\iint_{D_1}(x-y)^{2}\\,\\mathrm{d}x\\mathrm{d}y,\n$$\n其中 $D_1$ 为 $y\\le x$ 的部分。极坐标下 $D_1$ 为 $0\\le\\theta\\le\\dfrac{\\pi}{4}$，$0\\le r\\le4\\sin\\theta$（此时 $4\\sin\\theta\\le4\\cos\\theta$）。于是\n$$\n\\iint_{D_1}(x-y)^{2}\\mathrm{d}\\sigma\n=\\int_0^{\\pi/4}\\mathrm{d}\\theta\\int_0^{4\\sin\\theta}r^{3}(1-\\sin2\\theta)\\,\\mathrm{d}r\n=64\\int_0^{\\pi/4}\\sin^{4}\\theta(1-\\sin2\\theta)\\,\\mathrm{d}\\theta.\n$$\n其中\n$$\n\\int_0^{\\pi/4}\\sin^{4}\\theta\\,\\mathrm{d}\\theta=\\frac{3\\pi}{32}-\\frac14,\\qquad\n\\int_0^{\\pi/4}\\sin^{4}\\theta\\sin2\\theta\\,\\mathrm{d}\\theta\n=\\frac{\\sin^{6}\\theta}{3}\\Big|_0^{\\pi/4}=\\frac1{24}.\n$$\n故原式 $=128\\left(\\dfrac{3\\pi}{32}-\\dfrac14-\\dfrac1{24}\\right)=128\\left(\\dfrac{3\\pi}{32}-\\dfrac{7}{24}\\right)=12\\pi-\\dfrac{112}{3}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.vectors",
+   "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.change_of_basis_coordinates",
-    "la.knowledge.basis_dimension_coordinates"
+    "polar_coordinates",
+    "double_integral_region"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -741,26 +774,27 @@
     "paper": "math2",
     "number": 20
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2025.21",
    "number": 21,
    "title": "2025 年数学二 第 21 题",
-   "questionText": "（本题满分 12 分）\n设函数 $f\\left( x \\right)$ 在区间 $\\left( a, b \\right)$ 内可导，证明：导函数 $f^{\\prime}\\left( x \\right)$ 在 $\\left( a, b \\right)$ 内严格单调递增的充分必要条件是：对 $\\left( a, b \\right)$ 内任意的 $x_{1}$，$x_{2}$，$x_{3}$，当 $x_{1} < x_{2} < x_{3}$ 时，有\n$\\frac{f\\left( x_{2} \\right) - f\\left( x_{1} \\right)}{x_{2} - x_{1}} < \\frac{f\\left( x_{3} \\right) - f\\left( x_{2} \\right)}{x_{3} - x_{2}}$.\n\n**解：**\n必要性：由拉格朗日中值定理，存在\n$\\xi_{1} \\in \\left( x_{1}, x_{2} \\right)$，$\\xi_{2} \\in \\left( x_{2}, x_{3} \\right)$，使得\n\n$\\frac{f\\left( x_{2} \\right) - f\\left( x_{1} \\right)}{x_{2} - x_{1}} = f^{\\prime}\\left( \\xi_{1} \\right)$，\n$\\frac{f\\left( x_{3} \\right) - f\\left( x_{2} \\right)}{x_{3} - x_{2}} = f^{\\prime}\\left( \\xi_{2} \\right)$.\n\n由于 $f^{\\prime}\\left( x \\right)$ 在 $\\left( a, b \\right)$ 内严格单调递增，且 $\\xi_{1} < \\xi_{2}$，故\n$f^{\\prime}\\left( \\xi_{1} \\right) < f^{\\prime}\\left( \\xi_{2} \\right)$.\n\n于是\n$\\frac{f\\left( x_{2} \\right) - f\\left( x_{1} \\right)}{x_{2} - x_{1}} < \\frac{f\\left( x_{3} \\right) - f\\left( x_{2} \\right)}{x_{3} - x_{2}}$.\n\n充分性：任取 $c_{1} < c_{2}$，其中 $c_{1}, c_{2} \\in \\left( a, b \\right)$.对任意满足 $c_{1} < x < c_{2}$ 的 $x$，由题设有\n$\\frac{f\\left( c_{1} \\right) - f\\left( a \\right)}{c_{1} - a} < \\frac{f\\left( x \\right) - f\\left( c_{1} \\right)}{x - c_{1}} < \\frac{f\\left( c_{2} \\right) - f\\left( x \\right)}{c_{2} - x} < \\frac{f\\left( b \\right) - f\\left( c_{2} \\right)}{b - c_{2}}$.\n\n特别地，只需利用\n$\\frac{f\\left( c_{1} \\right) - f\\left( a \\right)}{c_{1} - a} < \\frac{f\\left( x \\right) - f\\left( c_{1} \\right)}{x - c_{1}} < \\frac{f\\left( c_{2} \\right) - f\\left( x \\right)}{c_{2} - x}$\n并分别令 $x \\to c_{1}^{+}$ 与 $x \\to c_{2}^{-}$，得\n\n$f^{\\prime}\\left( c_{1} \\right) \\le \\frac{f\\left( c_{2} \\right) - f\\left( c_{1} \\right)}{c_{2} - c_{1}} \\le f^{\\prime}\\left( c_{2} \\right)$.\n\n故 $f^{\\prime}\\left( x \\right)$ 在 $\\left( a, b \\right)$ 上单调递增.再结合题设中的严格不等号，可排除在某子区间上恒等的情形，因此 $f^{\\prime}\\left( x \\right)$ 在 $\\left( a, b \\right)$ 上严格单调递增.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $f\\left( x \\right)$ 在区间 $\\left( a, b \\right)$ 内可导，证明：导函数 $f^{\\prime}\\left( x \\right)$ 在 $\\left( a, b \\right)$ 内严格单调递增的充分必要条件是：对 $\\left( a, b \\right)$ 内任意的 $x_{1}$，$x_{2}$，$x_{3}$，当 $x_{1} < x_{2} < x_{3}$ 时，有\n$\\frac{f\\left( x_{2} \\right) - f\\left( x_{1} \\right)}{x_{2} - x_{1}} < \\frac{f\\left( x_{3} \\right) - f\\left( x_{2} \\right)}{x_{3} - x_{2}}$.",
+   "answerText": "答案：证明见解析。\n\n**解析：** **必要性：** 设 $f'$ 严格增，$x_1<x_2<x_3$。由拉格朗日中值定理，存在 $\\xi_1\\in(x_1,x_2)$、$\\xi_2\\in(x_2,x_3)$ 使\n$$\n\\frac{f(x_2)-f(x_1)}{x_2-x_1}=f'(\\xi_1),\\qquad\n\\frac{f(x_3)-f(x_2)}{x_3-x_2}=f'(\\xi_2).\n$$\n由 $\\xi_1<\\xi_2$ 及 $f'$ 严格增得 $f'(\\xi_1)<f'(\\xi_2)$，即所要的不等式。\n\n**充分性：** 设题设不等式对任意三元组成立。任取 $c_1<c_2\\in(a,b)$ 与 $x\\in(c_1,c_2)$，把它用于 $c_1<x<c_2$：\n$$\n\\frac{f(x)-f(c_1)}{x-c_1}<\\frac{f(c_2)-f(x)}{c_2-x}.\n$$\n令 $x\\to c_1^{+}$，得 $f'(c_1)\\le\\dfrac{f(c_2)-f(c_1)}{c_2-c_1}$；令 $x\\to c_2^{-}$，得 $\\dfrac{f(c_2)-f(c_1)}{c_2-c_1}\\le f'(c_2)$。故 $f'(c_1)\\le f'(c_2)$，$f'$ 在 $(a,b)$ 内单调不减。\n\n若存在 $c_1<c_2$ 使 $f'(c_1)=f'(c_2)$，由单调不减性 $f'$ 在 $[c_1,c_2]$ 上恒等于该值，于是对 $(c_1,c_2)$ 内任意 $x_1<x_2<x_3$，两个差商相等，与题设严格不等式矛盾。故 $f'$ 在 $(a,b)$ 内严格单调递增。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.invertibility_criteria"
+    "mean_value_theorem",
+    "monotonicity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -771,30 +805,32 @@
     "paper": "math2",
     "number": 21
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2025.22",
    "number": 22,
    "title": "2025 年数学二 第 22 题",
-   "questionText": "（本题满分 12 分）\n已知矩阵\n$\\boldsymbol{A} = \\begin{pmatrix} 4 & 1 & -2 \\\\ 1 & 1 & 1 \\\\ -2 & 1 & a \\end{pmatrix}$，\n$\\boldsymbol{B} = \\begin{pmatrix} k & 0 & 0 \\\\ 0 & 6 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$\n合同.\n\n1. 求 $a$ 的值及 $k$ 的取值范围；\n2. 若存在正交矩阵 $\\boldsymbol{Q}$，使得 $\\boldsymbol{Q}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{Q} = \\boldsymbol{B}$，求 $k$ 及 $\\boldsymbol{Q}$.\n\n**解：**\n（1）因为 $\\boldsymbol{A}$ 与 $\\boldsymbol{B}$ 合同，所以它们有相同的惯性指标.又由 $\\boldsymbol{B}$ 可知存在零特征值，因此 $\\boldsymbol{A}$ 也有零特征值，从而\n$\\left| \\boldsymbol{A} \\right| = 0$.\n\n计算得 $a = 4$.此时 $\\boldsymbol{A}$ 的特征值为 $3$，$6$，$0$，故 $\\boldsymbol{A}$ 有两个正特征值和一个零特征值.由合同保持惯性知 $k > 0$.\n\n（2）若存在正交矩阵 $\\boldsymbol{Q}$，使得 $\\boldsymbol{Q}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{Q} = \\boldsymbol{B}$，则 $\\boldsymbol{B}$ 是 $\\boldsymbol{A}$ 的正交相似对角化结果.由于 $\\boldsymbol{B}$ 的对角元已固定为 $k$，$6$，$0$，故必有 $k = 3$.\n\n当 $a = 4$ 时，分别求特征值对应的特征向量：\n\n当 $\\lambda_{1} = 3$ 时，由 $\\left( 3\\boldsymbol{E} - \\boldsymbol{A} \\right)\\boldsymbol{x} = \\boldsymbol{0}$，可取\n$\\boldsymbol{\\xi}_{1} = \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$.\n\n当 $\\lambda_{2} = 6$ 时，由 $\\left( 6\\boldsymbol{E} - \\boldsymbol{A} \\right)\\boldsymbol{x} = \\boldsymbol{0}$，可取\n$\\boldsymbol{\\xi}_{2} = \\begin{pmatrix} -1 \\\\ 0 \\\\ 1 \\end{pmatrix}$.\n\n当 $\\lambda_{3} = 0$ 时，由 $\\left( 0\\boldsymbol{E} - \\boldsymbol{A} \\right)\\boldsymbol{x} = \\boldsymbol{0}$，可取\n$\\boldsymbol{\\xi}_{3} = \\begin{pmatrix} 1 \\\\ -2 \\\\ 1 \\end{pmatrix}$.\n\n将其单位化，得\n$\\boldsymbol{q}_{1} = \\frac{1}{\\sqrt{3}} \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$，\n$\\boldsymbol{q}_{2} = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} -1 \\\\ 0 \\\\ 1 \\end{pmatrix}$，\n$\\boldsymbol{q}_{3} = \\frac{1}{\\sqrt{6}} \\begin{pmatrix} 1 \\\\ -2 \\\\ 1 \\end{pmatrix}$.\n\n于是\n$\\boldsymbol{Q} = \\left( \\boldsymbol{q}_{1}, \\boldsymbol{q}_{2}, \\boldsymbol{q}_{3} \\right) = \\begin{pmatrix} \\frac{1}{\\sqrt{3}} & -\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{3}} & 0 & -\\frac{2}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} \\end{pmatrix}$.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "已知矩阵\n$\\boldsymbol{A} = \\begin{pmatrix} 4 & 1 & -2 \\\\ 1 & 1 & 1 \\\\ -2 & 1 & a \\end{pmatrix}$，\n$\\boldsymbol{B} = \\begin{pmatrix} k & 0 & 0 \\\\ 0 & 6 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$\n合同.\n\n1. 求 $a$ 的值及 $k$ 的取值范围；\n2. 若存在正交矩阵 $\\boldsymbol{Q}$，使得 $\\boldsymbol{Q}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{Q} = \\boldsymbol{B}$，求 $k$ 及 $\\boldsymbol{Q}$.",
+   "answerText": "答案：（1）$a=4$，$k>0$；（2）$k=3$，$\\boldsymbol Q=\\begin{pmatrix}\\dfrac{1}{\\sqrt3}&-\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\\\\[2pt]\\dfrac{1}{\\sqrt3}&0&-\\dfrac{2}{\\sqrt6}\\\\[2pt]\\dfrac{1}{\\sqrt3}&\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\\end{pmatrix}$。\n\n**解析：**（1）实对称矩阵合同当且仅当秩与正、负惯性指数都相同。$r(\\boldsymbol B)=2$，故 $r(\\boldsymbol A)=2$，$\\det\\boldsymbol A=3a-12=0$，得 $a=4$。此时 $\\boldsymbol A$ 的特征值为 $3,6,0$（迹 $9$，二阶主子式之和 $18$），正惯性指数为 $2$；$\\boldsymbol B=\\mathrm{diag}(k,6,0)$ 与之合同要求 $k>0$。\n\n（2）$\\boldsymbol Q^{T}\\boldsymbol A\\boldsymbol Q=\\boldsymbol B$ 说明 $\\boldsymbol B$ 是 $\\boldsymbol A$ 的正交相似对角化，对角元为 $\\boldsymbol A$ 的全部特征值，故 $k=3$。解 $\\bigl(3\\boldsymbol E-\\boldsymbol A\\bigr)\\boldsymbol x=\\boldsymbol 0$、$\\bigl(6\\boldsymbol E-\\boldsymbol A\\bigr)\\boldsymbol x=\\boldsymbol 0$、$\\boldsymbol A\\boldsymbol x=\\boldsymbol 0$，分别得特征向量\n$$\n\\boldsymbol\\xi_1=\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix},\\qquad\n\\boldsymbol\\xi_2=\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix},\\qquad\n\\boldsymbol\\xi_3=\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}\n$$\n（实对称矩阵不同特征值的特征向量相互正交），单位化后作为列拼成正交矩阵 $\\boldsymbol Q$（如上）。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [
+    "la.chapter.eigenvalues"
+   ],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.orthogonal_diagonalization",
-    "la.knowledge.orthogonal_matrix",
-    "la.knowledge.real_symmetric_properties"
+    "la.knowledge.contract",
+    "la.knowledge.inertia_theorem",
+    "la.knowledge.orthogonal_standard_form"
    ],
    "methodIds": [
     "la.method.orthogonal_diagonalize"
    ],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

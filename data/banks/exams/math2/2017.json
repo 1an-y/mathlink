@@ -1,859 +1,868 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 2017,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2017-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 2017,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、选择题",
-   "二、填空题",
-   "三、解答题"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-2017.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-2017.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-2017.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2017.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2017.5",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-2017.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-2017.7",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-2017.8",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-2017.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-2017.10",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-2017.11",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-2017.12",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-2017.13",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-2017.14",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-2017.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-2017.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-2017.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-2017.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-2017.19",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-2017.20",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m2-2017.21",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 22,
-    "id": "bank.exam.m2-2017.22",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 23,
-    "id": "bank.exam.m2-2017.23",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   }
-  ],
-  "total": 23
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-2017.1",
-   "number": 1,
-   "title": "2017 年数学二 第 1 题",
-   "questionText": "若函数\n$$\nf(x)=\n\\begin{cases}\n\\dfrac{1-\\cos\\sqrt{x}}{ax}, & x>0,\\\\\nb, & x\\le 0\n\\end{cases}\n$$\n\n在 $x=0$ 处连续，则（ ）\n\n- A. $ab=\\dfrac{1}{2}$\n- B. $ab=-\\dfrac{1}{2}$\n- C. $ab=0$\n- D. $ab=2$",
-   "answerText": "A\n\n**解析：**\n由 $1-\\cos\\sqrt{x}\\sim \\dfrac{x}{2}$，得\n\n$$\n\\lim_{x\\to0^+}\\frac{1-\\cos\\sqrt{x}}{ax}=\\frac{1}{2a}.\n$$\n\n连续性要求 $b=\\dfrac{1}{2a}$，故 $ab=\\dfrac12$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题转录（题干以公开真题为准）；解析为原创重写，仅保留客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2017-2.md",
+  "paperInfo": {
     "year": 2017,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
+    "label": "数学二",
+    "sections": [
+      "一、选择题",
+      "二、填空题",
+      "三、解答题"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-2017.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-2017.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-2017.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-2017.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-2017.5",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-2017.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-2017.7",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-2017.8",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-2017.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-2017.10",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-2017.11",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-2017.12",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-2017.13",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-2017.14",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-2017.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-2017.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-2017.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-2017.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-2017.19",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-2017.20",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m2-2017.21",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 22,
+        "id": "bank.exam.m2-2017.22",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 23,
+        "id": "bank.exam.m2-2017.23",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      }
+    ],
+    "total": 23
   },
-  {
-   "id": "bank.exam.m2-2017.2",
-   "number": 2,
-   "title": "2017 年数学二 第 2 题",
-   "questionText": "设二阶可导函数 $f(x)$ 满足\n$$\nf(1)=f(-1)=1,\\qquad f(0)=-1,\\qquad f''(x)>0,\n$$\n\n则（ ）\n\n- A. $\\int_{-1}^{1} f(x)\\mathrm{d}x>0$\n- B. $\\int_{-1}^{1} f(x)\\mathrm{d}x<0$\n- C. $\\int_{-1}^{0} f(x)\\mathrm{d}x>\\int_{0}^{1} f(x)\\mathrm{d}x$\n- D. $\\int_{-1}^{0} f(x)\\mathrm{d}x<\\int_{0}^{1} f(x)\\mathrm{d}x$",
-   "answerText": "B\n\n**解析：**\n因 $f''(x)>0$，$f(x)$ 为严格凸函数。它在 $[-1,0]$ 与 $[0,1]$ 上均位于连接端点的弦下方，而两段弦与 $x$ 轴所围有向面积均为 $0$，故\n\n$$\n\\int_{-1}^{1}f(x)\\mathrm{d}x<0.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "differentiability_continuity",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.3",
-   "number": 3,
-   "title": "2017 年数学二 第 3 题",
-   "questionText": "设数列 $\\{x_n\\}$ 收敛，则（ ）\n- A. 当 $\\lim\\limits_{n\\to\\infty}\\sin x_n=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$\n- B. 当 $\\lim\\limits_{n\\to\\infty}(x_n+\\sqrt{|x_n|})=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$\n- C. 当 $\\lim\\limits_{n\\to\\infty}(x_n+x_n^2)=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$\n- D. 当 $\\lim\\limits_{n\\to\\infty}(x_n+\\sin x_n)=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$",
-   "answerText": "D\n\n**解析：**\nA 可取 $x_n=\\pi$；B、C 可取 $x_n=-1$ 排除。\n对 D，函数 $h(x)=x+\\sin x$ 严格单调递增，且 $h(0)=0$，故 $h(x_n)\\to0$ 可推出 $x_n\\to0$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.4",
-   "number": 4,
-   "title": "2017 年数学二 第 4 题",
-   "questionText": "微分方程的特解可设为（ ）\n- A. $Ae^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$\n- B. $Axe^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$\n- C. $Ae^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)$\n- D. $Axe^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$",
-   "answerText": "C\n\n**解析：**\n特征方程为\n\n$$\n\\lambda^2-4\\lambda+8=0,\n$$\n\n得特征根 $2\\pm2i$。对非齐次项 $e^{2x}+e^{2x}\\cos2x$，前者不共振，后者共振一次，故特解可设为\n\n$$\ny^*=Ae^{2x}+xe^{2x}(B\\cos2x+C\\sin2x).\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "differential_equation",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.5",
-   "number": 5,
-   "title": "2017 年数学二 第 5 题",
-   "questionText": "设 $f(x,y)$ 具有一阶偏导数，且对任意 $(x,y)$，都有\n$$\n\\frac{\\partial f}{\\partial x}>0,\\qquad \\frac{\\partial f}{\\partial y}<0,\n$$\n\n则（ ）\n\n- A. $f(0,0)>f(1,1)$\n- B. $f(0,0)<f(1,1)$\n- C. $f(0,1)>f(1,0)$\n- D. $f(0,1)<f(1,0)$",
-   "answerText": "D\n\n**解析：**\n由条件知 $f$ 关于 $x$ 单调递增，关于 $y$ 单调递减。因此\n\n$$\nf(0,1)<f(1,1)<f(1,0),\n$$\n\n故选 D。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "continuity_partial_differentiability"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.6",
-   "number": 6,
-   "title": "2017 年数学二 第 6 题",
-   "questionText": "甲、乙两人赛跑。计时开始时，甲在乙前方 $10\\mathrm{m}$ 处。图中实线表示甲的速度曲线 $v=v_1(t)$，虚线表示乙的速度曲线 $v=v_2(t)$。三块阴影部分面积的数值依次为 $10,20,3$。计时开始后乙追上甲的时刻记为 $t_0$，则（ ）\n- A. $t_0=10$\n- B. $15<t_0<20$\n- C. $t_0=25$\n- D. $t_0>25$",
-   "answerText": "B\n\n**解析：**\n乙追上甲需满足\n\n$$\n\\int_0^{t_0}\\bigl(v_2(t)-v_1(t)\\bigr)\\mathrm{d}t=10.\n$$\n\n结合图中面积的正负累积可知，$t=15$ 时尚未追上，而 $t=20$ 前已经追上，故\n\n$$\n15<t_0<20.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.7",
-   "number": 7,
-   "title": "2017 年数学二 第 7 题",
-   "questionText": "设 $\\boldsymbol A$ 为三阶矩阵，$\\boldsymbol P=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)$ 为可逆矩阵，且\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\n\\begin{pmatrix}\n0\\\\\n1\\\\\n2\n\\end{pmatrix},\n$$\n\n则 $\\boldsymbol A(\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3)=$（ ）\n\n- A. $\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2$\n- B. $\\boldsymbol\\alpha_2+2\\boldsymbol\\alpha_3$\n- C. $\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3$\n- D. $\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2$",
-   "answerText": "B\n\n**解析：**\n由\n\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\n\\begin{pmatrix}\n0\\\\\n1\\\\\n2\n\\end{pmatrix}\n$$\n\n可得\n\n$$\n\\boldsymbol A(\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3)\n=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)\n\\begin{pmatrix}\n0\\\\\n1\\\\\n2\n\\end{pmatrix}\n=\\boldsymbol\\alpha_2+2\\boldsymbol\\alpha_3.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.matrix_transpose"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.8",
-   "number": 8,
-   "title": "2017 年数学二 第 8 题",
-   "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&0&0\\\\\n0&2&1\\\\\n0&0&1\n\\end{pmatrix},\\quad\n\\boldsymbol B=\n\\begin{pmatrix}\n2&1&0\\\\\n0&2&0\\\\\n0&0&1\n\\end{pmatrix},\\quad\n\\boldsymbol C=\n\\begin{pmatrix}\n1&0&0\\\\\n0&2&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n\n则（ ）\n\n- A. $\\boldsymbol A$ 与 $\\boldsymbol C$ 相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 相似\n- B. $\\boldsymbol A$ 与 $\\boldsymbol C$ 相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 不相似\n- C. $\\boldsymbol A$ 与 $\\boldsymbol C$ 不相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 相似\n- D. $\\boldsymbol A$ 与 $\\boldsymbol C$ 不相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 不相似",
-   "answerText": "B\n\n**解析：**\n三者特征值均为 $2,2,1$。\n对 $\\boldsymbol A$，特征值 $2$ 的特征子空间维数为 $2$，可对角化，故 $\\boldsymbol A\\sim\\boldsymbol C$。\n对 $\\boldsymbol B$，特征值 $2$ 的特征子空间维数为 $1$，不可对角化，故 $\\boldsymbol B\\nsim\\boldsymbol C$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.matrix_transpose",
-    "la.knowledge.similarity_concept"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2017.9",
-   "number": 9,
-   "title": "2017 年数学二 第 9 题",
-   "questionText": "曲线\n$$\ny=x\\left(1+\\arcsin\\frac{2}{x}\\right)\n$$\n\n的斜渐近线方程为 ______",
-   "answerText": "$y=x+2$\n\n**解析：**\n斜率\n\n$$\nk=\\lim_{x\\to\\infty}\\frac{y}{x}=1,\n$$\n\n截距\n\n$$\nb=\\lim_{x\\to\\infty}(y-x)\n=\\lim_{x\\to\\infty}x\\arcsin\\frac{2}{x}=2.\n$$\n\n故斜渐近线为 $y=x+2$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "asymptote"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2017.10",
-   "number": 10,
-   "title": "2017 年数学二 第 10 题",
-   "questionText": "设函数 $y=y(x)$ 由参数方程\n$$\n\\begin{cases}\nx=t+e^t,\\\\\ny=\\sin t\n\\end{cases}\n$$\n\n确定，则\n\n$$\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=0}=\n$$",
-   "answerText": "$-\\dfrac18$\n\n**解析：**\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{\\cos t}{1+e^t},\n$$\n\n所以\n\n$$\n\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\n=\n\\frac{\\left(\\dfrac{\\cos t}{1+e^t}\\right)'}{1+e^t}.\n$$\n\n代入 $t=0$，得\n\n$$\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=0}=-\\frac18.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "space_curve_parametric_equation",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2017.11",
-   "number": 11,
-   "title": "2017 年数学二 第 11 题",
-   "questionText": "$$\n\\int_{0}^{+\\infty}\\frac{\\ln(1+x)}{(1+x)^2}\\mathrm{d}x=\n$$",
-   "answerText": "$1$\n\n**解析：**\n令 $u=1+x$，则\n\n$$\n\\int_0^{+\\infty}\\frac{\\ln(1+x)}{(1+x)^2}\\mathrm{d}x\n=\n\\int_1^{+\\infty}\\frac{\\ln u}{u^2}\\mathrm{d}u.\n$$\n\n分部积分得结果为 $1$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2017.12",
-   "number": 12,
-   "title": "2017 年数学二 第 12 题",
-   "questionText": "设函数 $f(x,y)$ 具有一阶连续偏导数，且\n$$\n\\mathrm{d}f(x,y)=ye^y\\mathrm{d}x+x(1+y)e^y\\mathrm{d}y,\\qquad f(0,0)=0,\n$$\n\n则 $f(x,y)=$ ______",
-   "answerText": "$xye^y$\n\n**解析：**\n由 $f_x=ye^y$，得\n\n$$\nf=xye^y+C(y).\n$$\n\n再由 $f_y=x(1+y)e^y$，得 $C'(y)=0$。结合 $f(0,0)=0$，故\n\n$$\nf(x,y)=xye^y.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "continuity_partial_differentiability",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2017.13",
-   "number": 13,
-   "title": "2017 年数学二 第 13 题",
-   "questionText": "$$\n\\int_0^1\\mathrm{d}y\\int_y^1\\frac{\\tan x}{x}\\mathrm{d}x=\n$$",
-   "answerText": "$-\\ln\\cos1$\n\n**解析：**\n交换积分次序：\n\n$$\n\\int_0^1\\mathrm{d}y\\int_y^1\\frac{\\tan x}{x}\\mathrm{d}x\n=\n\\int_0^1\\frac{\\tan x}{x}\\int_0^x\\mathrm{d}y\\,\\mathrm{d}x\n=\n\\int_0^1\\tan x\\,\\mathrm{d}x.\n$$\n\n因此结果为\n\n$$\n-\\ln|\\cos x|\\bigg|_0^1=-\\ln\\cos1.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2017.14",
-   "number": 14,
-   "title": "2017 年数学二 第 14 题",
-   "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n4&1&-2\\\\\n1&2&a\\\\\n3&1&-1\n\\end{pmatrix}\n$$\n\n的一个特征向量为\n\n$$\n\\begin{pmatrix}\n1\\\\\n1\\\\\n2\n\\end{pmatrix},\n$$\n\n则 $a=$ ______",
-   "answerText": "$-1$\n\n**解析：**\n由 $\\boldsymbol A\\boldsymbol\\alpha=\\lambda\\boldsymbol\\alpha$，有\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\1\\\\2\n\\end{pmatrix}\n=\n\\begin{pmatrix}\n1\\\\3+2a\\\\2\n\\end{pmatrix}\n=\n\\lambda\n\\begin{pmatrix}\n1\\\\1\\\\2\n\\end{pmatrix}.\n$$\n\n故 $\\lambda=1$，$3+2a=1$，得 $a=-1$。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.matrix_transpose",
-    "la.knowledge.vector_concept"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2017.15",
-   "number": 15,
-   "title": "2017 年数学二 第 15 题",
-   "questionText": "求极限\n$$\n\\lim_{x\\to0^+}\n\\frac{\\displaystyle\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t}{\\sqrt{x^3}}.\n$$\n\n**解析：**\n\n令 $u=x-t$，则\n\n$$\n\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t\n=\ne^x\\int_0^x\\sqrt{u}e^{-u}\\mathrm{d}u.\n$$\n\n于是\n\n$$\n\\lim_{x\\to0^+}\n\\frac{e^x\\int_0^x\\sqrt{u}e^{-u}\\mathrm{d}u}{x^{3/2}}\n=\n\\lim_{x\\to0^+}\n\\frac{\\sqrt{x}e^{-x}}{\\frac32x^{1/2}}\n=\n\\frac23.\n$$\n\n---",
-   "answerText": "**解析：**\n令 $u=x-t$，则\n\n$$\n\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t\n=\ne^x\\int_0^x\\sqrt{u}e^{-u}\\mathrm{d}u.\n$$\n\n于是\n\n$$\n\\lim_{x\\to0^+}\n\\frac{e^x\\int_0^x\\sqrt{u}e^{-u}\\mathrm{d}u}{x^{3/2}}\n=\n\\lim_{x\\to0^+}\n\\frac{\\sqrt{x}e^{-x}}{\\frac32x^{1/2}}\n=\n\\frac23.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.16",
-   "number": 16,
-   "title": "2017 年数学二 第 16 题",
-   "questionText": "设函数 $f(u,v)$ 具有二阶连续偏导数，\n$$\ny=f(e^x,\\cos x),\n$$\n\n求\n\n$$\n\\left.\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0},\n\\qquad\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{x=0}.\n$$\n\n**解析：**\n\n由链式法则，\n\n$$\ny'=f_1'e^x-f_2'\\sin x.\n$$\n\n故\n\n$$\n\\left.y'\\right|_{x=0}=f_1'(1,1).\n$$\n\n再求导并代入 $x=0$：\n\n$$\n\\left.y''\\right|_{x=0}\n=\nf_{11}''(1,1)+f_1'(1,1)-f_2'(1,1).\n$$\n\n---",
-   "answerText": "**解析：**\n由链式法则，\n\n$$\ny'=f_1'e^x-f_2'\\sin x.\n$$\n\n故\n\n$$\n\\left.y'\\right|_{x=0}=f_1'(1,1).\n$$\n\n再求导并代入 $x=0$：\n\n$$\n\\left.y''\\right|_{x=0}\n=\nf_{11}''(1,1)+f_1'(1,1)-f_2'(1,1).\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "continuity_partial_differentiability",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.17",
-   "number": 17,
-   "title": "2017 年数学二 第 17 题",
-   "questionText": "求\n$$\n\\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac{k}{n^2}\\ln\\left(1+\\frac{k}{n}\\right).\n$$\n\n**解析：**\n\n该和式为定积分\n\n$$\n\\int_0^1x\\ln(1+x)\\mathrm{d}x.\n$$\n\n分部积分：\n\n$$\n\\int_0^1x\\ln(1+x)\\mathrm{d}x\n=\n\\frac12\\ln2-\\frac12\\int_0^1\\frac{x^2}{1+x}\\mathrm{d}x\n=\n\\frac14.\n$$\n\n---",
-   "answerText": "**解析：**\n该和式为定积分\n\n$$\n\\int_0^1x\\ln(1+x)\\mathrm{d}x.\n$$\n\n分部积分：\n\n$$\n\\int_0^1x\\ln(1+x)\\mathrm{d}x\n=\n\\frac12\\ln2-\\frac12\\int_0^1\\frac{x^2}{1+x}\\mathrm{d}x\n=\n\\frac14.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [
-    "integration_by_parts"
-   ],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.18",
-   "number": 18,
-   "title": "2017 年数学二 第 18 题",
-   "questionText": "已知函数 $y(x)$ 由方程\n$$\nx^3+y^3-3x+3y-2=0\n$$\n\n确定，求 $y(x)$ 的极值。\n\n**解析：**\n\n两边求导：\n\n$$\n3x^2+3y^2y'-3+3y'=0.\n$$\n\n令 $y'=0$，得 $x=\\pm1$。代回原方程得\n\n$$\nx=1,\\ y=1;\\qquad x=-1,\\ y=0.\n$$\n\n再求二阶导判断：\n\n$$\ny''(1)=-1<0,\\qquad y''(-1)=2>0.\n$$\n\n故极大值为\n\n$$\ny(1)=1,\n$$\n\n极小值为\n\n$$\ny(-1)=0.\n$$\n\n---",
-   "answerText": "**解析：**\n两边求导：\n\n$$\n3x^2+3y^2y'-3+3y'=0.\n$$\n\n令 $y'=0$，得 $x=\\pm1$。代回原方程得\n\n$$\nx=1,\\ y=1;\\qquad x=-1,\\ y=0.\n$$\n\n再求二阶导判断：\n\n$$\ny''(1)=-1<0,\\qquad y''(-1)=2>0.\n$$\n\n故极大值为\n\n$$\ny(1)=1,\n$$\n\n极小值为\n\n$$\ny(-1)=0.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "extrema",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.19",
-   "number": 19,
-   "title": "2017 年数学二 第 19 题",
-   "questionText": "设函数 $f(x)$ 在区间 $[0,1]$ 上具有二阶导数，且\n$$\nf(1)>0,\\qquad \\lim_{x\\to0^+}\\frac{f(x)}{x}<0.\n$$\n\n证明：\n\n（1）方程 $f(x)=0$ 在区间 $(0,1)$ 内至少存在一个实根；\n\n（2）方程\n\n$$\nf(x)f''(x)+\\left(f'(x)\\right)^2=0\n$$\n\n在区间 $(0,1)$ 内至少存在两个不同实根。\n\n**解析：**\n\n（1）由\n\n$$\n\\lim_{x\\to0^+}\\frac{f(x)}{x}<0\n$$\n\n可知 $f(0)=0$，且存在充分小的 $x_0>0$，使 $f(x_0)<0$。又 $f(1)>0$，由零点定理，存在\n\n$$\n\\xi\\in(x_0,1)\\subset(0,1)\n$$\n\n使 $f(\\xi)=0$。\n\n（2）由 $f(0)=f(\\xi)=0$，罗尔定理得存在\n\n$$\n\\eta\\in(0,\\xi)\n$$\n\n使 $f'(\\eta)=0$。令\n\n$$\nF(x)=f(x)f'(x),\n$$\n\n则\n\n$$\nF(0)=F(\\eta)=F(\\xi)=0.\n$$\n\n分别在 $(0,\\eta)$ 与 $(\\eta,\\xi)$ 上对 $F$ 用罗尔定理，得两个不同点 $\\eta_1,\\eta_2\\in(0,1)$，使\n\n$$\nF'(\\eta_1)=F'(\\eta_2)=0.\n$$\n\n而\n\n$$\nF'(x)=f(x)f''(x)+\\left(f'(x)\\right)^2,\n$$\n\n故结论成立。\n\n---",
-   "answerText": "**解析：**\n（1）由\n\n$$\n\\lim_{x\\to0^+}\\frac{f(x)}{x}<0\n$$\n\n可知 $f(0)=0$，且存在充分小的 $x_0>0$，使 $f(x_0)<0$。又 $f(1)>0$，由零点定理，存在\n\n$$\n\\xi\\in(x_0,1)\\subset(0,1)\n$$\n\n使 $f(\\xi)=0$。\n\n（2）由 $f(0)=f(\\xi)=0$，罗尔定理得存在\n\n$$\n\\eta\\in(0,\\xi)\n$$\n\n使 $f'(\\eta)=0$。令\n\n$$\nF(x)=f(x)f'(x),\n$$\n\n则\n\n$$\nF(0)=F(\\eta)=F(\\xi)=0.\n$$\n\n分别在 $(0,\\eta)$ 与 $(\\eta,\\xi)$ 上对 $F$ 用罗尔定理，得两个不同点 $\\eta_1,\\eta_2\\in(0,1)$，使\n\n$$\nF'(\\eta_1)=F'(\\eta_2)=0.\n$$\n\n而\n\n$$\nF'(x)=f(x)f''(x)+\\left(f'(x)\\right)^2,\n$$\n\n故结论成立。\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.20",
-   "number": 20,
-   "title": "2017 年数学二 第 20 题",
-   "questionText": "已知平面区域\n$$\nD=\\{(x,y)\\mid x^2+y^2\\le2y\\},\n$$\n\n计算二重积分\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y.\n$$\n\n**解析：**\n\n区域关于 $y$ 轴对称，故 $\\iint_D2x\\,\\mathrm{d}x\\mathrm{d}y=0$。于是\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y\n=\n\\iint_Dx^2\\mathrm{d}x\\mathrm{d}y+\\iint_D1\\,\\mathrm{d}x\\mathrm{d}y.\n$$\n\n用极坐标，$0\\le\\theta\\le\\pi,\\ 0\\le r\\le2\\sin\\theta$，得\n\n$$\n\\iint_Dx^2\\mathrm{d}x\\mathrm{d}y=\\frac{\\pi}{4},\\qquad\nS_D=\\pi.\n$$\n\n故原积分为\n\n$$\n\\frac{5\\pi}{4}.\n$$\n\n---",
-   "answerText": "**解析：**\n区域关于 $y$ 轴对称，故 $\\iint_D2x\\,\\mathrm{d}x\\mathrm{d}y=0$。于是\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y\n=\n\\iint_Dx^2\\mathrm{d}x\\mathrm{d}y+\\iint_D1\\,\\mathrm{d}x\\mathrm{d}y.\n$$\n\n用极坐标，$0\\le\\theta\\le\\pi,\\ 0\\le r\\le2\\sin\\theta$，得\n\n$$\n\\iint_Dx^2\\mathrm{d}x\\mathrm{d}y=\\frac{\\pi}{4},\\qquad\nS_D=\\pi.\n$$\n\n故原积分为\n\n$$\n\\frac{5\\pi}{4}.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multiple_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "polar_coordinates"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.21",
-   "number": 21,
-   "title": "2017 年数学二 第 21 题",
-   "questionText": "设 $y(x)$ 是区间 $\\left(0,\\frac32\\right)$ 内的可导函数，且 $y(1)=0$。点 $P$ 是曲线 $L:y=y(x)$ 上任意一点，$L$ 在点 $P$ 处的切线与 $y$ 轴相交于点 $(0,Y_p)$，法线与 $x$ 轴相交于点 $(X_p,0)$。若 $X_p=Y_p$，求 $L$ 上点的坐标 $(x,y)$ 满足的方程。\n**解析：**\n\n设 $P=(x,y)$。切线在 $y$ 轴上的截距为\n\n$$\nY_p=y-xy',\n$$\n\n法线在 $x$ 轴上的截距为\n\n$$\nX_p=x+yy'.\n$$\n\n由 $X_p=Y_p$，得\n\n$$\n(x+y)y'=y-x.\n$$\n\n令 $u=\\dfrac{y}{x}$，即 $y=ux$，则\n\n$$\nx\\frac{\\mathrm{d}u}{\\mathrm{d}x}\n=\n-\\frac{u^2+1}{u+1}.\n$$\n\n积分得\n\n$$\n\\frac12\\ln(1+u^2)+\\arctan u=-\\ln x+C.\n$$\n\n由 $y(1)=0$ 得 $C=0$。代回 $u=\\dfrac{y}{x}$，并化简得曲线方程\n\n$$\n\\frac12\\ln(x^2+y^2)+\\arctan\\frac{y}{x}=0.\n$$\n\n---",
-   "answerText": "**解析：**\n设 $P=(x,y)$。切线在 $y$ 轴上的截距为\n\n$$\nY_p=y-xy',\n$$\n\n法线在 $x$ 轴上的截距为\n\n$$\nX_p=x+yy'.\n$$\n\n由 $X_p=Y_p$，得\n\n$$\n(x+y)y'=y-x.\n$$\n\n令 $u=\\dfrac{y}{x}$，即 $y=ux$，则\n\n$$\nx\\frac{\\mathrm{d}u}{\\mathrm{d}x}\n=\n-\\frac{u^2+1}{u+1}.\n$$\n\n积分得\n\n$$\n\\frac12\\ln(1+u^2)+\\arctan u=-\\ln x+C.\n$$\n\n由 $y(1)=0$ 得 $C=0$。代回 $u=\\dfrac{y}{x}$，并化简得曲线方程\n\n$$\n\\frac12\\ln(x^2+y^2)+\\arctan\\frac{y}{x}=0.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.vectors",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.basis_dimension_coordinates"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 21
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.22",
-   "number": 22,
-   "title": "2017 年数学二 第 22 题",
-   "questionText": "设 $3$ 阶矩阵\n$$\n\\boldsymbol A=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)\n$$\n\n有 $3$ 个不同的特征值，且\n\n$$\n\\boldsymbol\\alpha_3=\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2.\n$$\n\n（1）证明：$r(\\boldsymbol A)=2$；\n\n（2）若\n\n$$\n\\boldsymbol\\beta=\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n求方程组 $\\boldsymbol A\\boldsymbol x=\\boldsymbol\\beta$ 的通解。\n\n**解析：**\n\n（1）由\n\n$$\n\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2-\\boldsymbol\\alpha_3=\\boldsymbol0\n$$\n\n知列向量线性相关，故 $|\\boldsymbol A|=0$，所以 $0$ 是 $\\boldsymbol A$ 的特征值。\n又 $\\boldsymbol A$ 有三个不同特征值，因此另外两个特征值非零，故\n\n$$\nr(\\boldsymbol A)=2.\n$$\n\n（2）由\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix}\n=\\boldsymbol0\n$$\n\n知齐次方程基础解系可取\n\n$$\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix}.\n$$\n\n又\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\1\\\\1\n\\end{pmatrix}\n=\\boldsymbol\\beta,\n$$\n\n故非齐次方程通解为\n\n$$\n\\boldsymbol x\n=\n\\begin{pmatrix}\n1\\\\1\\\\1\n\\end{pmatrix}\n+\nk\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix},\n\\qquad k\\in\\mathbb R.\n$$\n\n---",
-   "answerText": "**解析：**\n（1）由\n\n$$\n\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2-\\boldsymbol\\alpha_3=\\boldsymbol0\n$$\n\n知列向量线性相关，故 $|\\boldsymbol A|=0$，所以 $0$ 是 $\\boldsymbol A$ 的特征值。\n又 $\\boldsymbol A$ 有三个不同特征值，因此另外两个特征值非零，故\n\n$$\nr(\\boldsymbol A)=2.\n$$\n\n（2）由\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix}\n=\\boldsymbol0\n$$\n\n知齐次方程基础解系可取\n\n$$\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix}.\n$$\n\n又\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\1\\\\1\n\\end{pmatrix}\n=\\boldsymbol\\beta,\n$$\n\n故非齐次方程通解为\n\n$$\n\\boldsymbol x\n=\n\\begin{pmatrix}\n1\\\\1\\\\1\n\\end{pmatrix}\n+\nk\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix},\n\\qquad k\\in\\mathbb R.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.linear_correlation",
-    "la.knowledge.basic_solution_system",
-    "la.knowledge.real_symmetric_properties"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 22
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2017.23",
-   "number": 23,
-   "title": "2017 年数学二 第 23 题",
-   "questionText": "设二次型\n$$\nf(x_1,x_2,x_3)\n=\n2x_1^2-x_2^2+ax_3^2\n+2x_1x_2-8x_1x_3+2x_2x_3\n$$\n\n在正交变换 $\\boldsymbol X=\\boldsymbol Q\\boldsymbol Y$ 下的标准型为\n\n$$\n\\lambda_1y_1^2+\\lambda_2y_2^2.\n$$\n\n求 $a$ 的值及一个正交矩阵 $\\boldsymbol Q$。\n\n**解析：**\n\n二次型对应矩阵为\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&1&-4\\\\\n1&-1&1\\\\\n-4&1&a\n\\end{pmatrix}.\n$$\n\n标准型只有两个非零平方项，故 $r(\\boldsymbol A)=2$，即\n\n$$\n|\\boldsymbol A|=0.\n$$\n\n计算得\n\n$$\na=2.\n$$\n\n此时\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&1&-4\\\\\n1&-1&1\\\\\n-4&1&2\n\\end{pmatrix},\n$$\n\n其特征值为\n\n$$\n-3,\\ 6,\\ 0.\n$$\n\n对应的两两正交特征向量可取\n\n$$\n(1,-1,1)^T,\\quad (-1,0,1)^T,\\quad (1,2,1)^T.\n$$\n\n单位化后取\n\n$$\n\\boldsymbol Q=\n\\begin{pmatrix}\n\\dfrac{1}{\\sqrt3}&-\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\\\\\n-\\dfrac{1}{\\sqrt3}&0&\\dfrac{2}{\\sqrt6}\\\\\n\\dfrac{1}{\\sqrt3}&\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\n\\end{pmatrix}.\n$$\n\n于是\n\n$$\n\\boldsymbol Q^T\\boldsymbol A\\boldsymbol Q\n=\n\\begin{pmatrix}\n-3&0&0\\\\\n0&6&0\\\\\n0&0&0\n\\end{pmatrix},\n$$\n\n故标准型为\n\n$$\n-3y_1^2+6y_2^2.\n$$",
-   "answerText": "**解析：**\n二次型对应矩阵为\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&1&-4\\\\\n1&-1&1\\\\\n-4&1&a\n\\end{pmatrix}.\n$$\n\n标准型只有两个非零平方项，故 $r(\\boldsymbol A)=2$，即\n\n$$\n|\\boldsymbol A|=0.\n$$\n\n计算得\n\n$$\na=2.\n$$\n\n此时\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&1&-4\\\\\n1&-1&1\\\\\n-4&1&2\n\\end{pmatrix},\n$$\n\n其特征值为\n\n$$\n-3,\\ 6,\\ 0.\n$$\n\n对应的两两正交特征向量可取\n\n$$\n(1,-1,1)^T,\\quad (-1,0,1)^T,\\quad (1,2,1)^T.\n$$\n\n单位化后取\n\n$$\n\\boldsymbol Q=\n\\begin{pmatrix}\n\\dfrac{1}{\\sqrt3}&-\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\\\\\n-\\dfrac{1}{\\sqrt3}&0&\\dfrac{2}{\\sqrt6}\\\\\n\\dfrac{1}{\\sqrt3}&\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\n\\end{pmatrix}.\n$$\n\n于是\n\n$$\n\\boldsymbol Q^T\\boldsymbol A\\boldsymbol Q\n=\n\\begin{pmatrix}\n-3&0&0\\\\\n0&6&0\\\\\n0&0&0\n\\end{pmatrix},\n$$\n\n故标准型为\n\n$$\n-3y_1^2+6y_2^2.\n$$",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.orthogonal_matrix",
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.standard_form"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2017,
-    "paper": "math2",
-    "number": 23
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-2017.1",
+      "number": 1,
+      "title": "2017 年数学二 第 1 题",
+      "questionText": "若函数\n$$\nf(x)=\n\\begin{cases}\n\\dfrac{1-\\cos\\sqrt{x}}{ax}, & x>0,\\\\\nb, & x\\le 0\n\\end{cases}\n$$\n\n在 $x=0$ 处连续，则（ ）\n\n- A. $ab=\\dfrac{1}{2}$\n- B. $ab=-\\dfrac{1}{2}$\n- C. $ab=0$\n- D. $ab=2$",
+      "answerText": "答案：A（$ab=\\dfrac12$）\n\n**解析：**\n$x\\to0^{+}$ 时 $1-\\cos\\sqrt{x}\\sim\\dfrac{(\\sqrt{x})^{2}}{2}=\\dfrac{x}{2}$，故\n$$\n\\lim_{x\\to0^{+}}f(x)=\\lim_{x\\to0^{+}}\\frac{1-\\cos\\sqrt{x}}{ax}=\\frac{1}{2a}.\n$$\n连续性要求 $b=\\dfrac{1}{2a}$，即 $ab=\\dfrac12$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "continuity_and_discontinuity",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "continuity",
+        "equivalent_infinitesimal"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.2",
+      "number": 2,
+      "title": "2017 年数学二 第 2 题",
+      "questionText": "设二阶可导函数 $f(x)$ 满足\n$$\nf(1)=f(-1)=1,\\qquad f(0)=-1,\\qquad f''(x)>0,\n$$\n\n则（ ）\n\n- A. $\\int_{-1}^{1} f(x)\\mathrm{d}x>0$\n- B. $\\int_{-1}^{1} f(x)\\mathrm{d}x<0$\n- C. $\\int_{-1}^{0} f(x)\\mathrm{d}x>\\int_{0}^{1} f(x)\\mathrm{d}x$\n- D. $\\int_{-1}^{0} f(x)\\mathrm{d}x<\\int_{0}^{1} f(x)\\mathrm{d}x$",
+      "answerText": "答案：B\n\n**解析：**\n$f''>0$ 说明 $f$ 严格下凸，图像位于连接任意两点的弦的下方。\n- 在 $[-1,0]$ 上，弦是连接 $(-1,1)$ 与 $(0,-1)$ 的直线 $y=-x$，且 $\\int_{-1}^{0}(-x)\\,\\mathrm{d}x=0$；$f<$ 弦 $\\Rightarrow\\int_{-1}^{0}f\\,\\mathrm{d}x<0$。\n- 在 $[0,1]$ 上，弦是连接 $(0,-1)$ 与 $(1,1)$ 的直线 $y=2x-1$，$\\int_{0}^{1}(2x-1)\\,\\mathrm{d}x=0$；同理 $\\int_{0}^{1}f\\,\\mathrm{d}x<0$。\n故 $\\int_{-1}^{1}f\\,\\mathrm{d}x<0$。（两个子区间上的积分都为负，C、D 无从比较大小关系上成立——实际上 $\\int_{-1}^0 f$ 与 $\\int_0^1 f$ 都 $<0$ 但大小不确定。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_equality_inequality",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "concavity_inflection",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.3",
+      "number": 3,
+      "title": "2017 年数学二 第 3 题",
+      "questionText": "设数列 $\\{x_n\\}$ 收敛，则（ ）\n- A. 当 $\\lim\\limits_{n\\to\\infty}\\sin x_n=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$\n- B. 当 $\\lim\\limits_{n\\to\\infty}(x_n+\\sqrt{|x_n|})=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$\n- C. 当 $\\lim\\limits_{n\\to\\infty}(x_n+x_n^2)=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$\n- D. 当 $\\lim\\limits_{n\\to\\infty}(x_n+\\sin x_n)=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$",
+      "answerText": "答案：D\n\n**解析：**\n**A 反例：** $x_{n}\\equiv\\pi$，$\\sin x_{n}\\equiv0$ 但 $x_{n}\\to\\pi\\ne0$。\n**B 反例：** $x_{n}\\equiv-1$，$x_{n}+\\sqrt{|x_{n}|}=0$ 但 $x_{n}\\to-1$。\n**C 反例：** 同 $x_{n}\\equiv-1$，$x_{n}+x_{n}^{2}=0$ 但 $x_{n}\\to-1$。\n**D 正确：** $h(x)=x+\\sin x$ 在 $\\mathbb{R}$ 上严格增（$h'=1+\\cos x\\ge0$，只在孤立点为零），且 $h(0)=0$；$h(x_{n})\\to0$ 结合严格单调连续反函数的存在性得 $x_{n}=h^{-1}\\bigl(h(x_{n})\\bigr)\\to h^{-1}(0)=0$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "sequence_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "sequence_limit",
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.4",
+      "number": 4,
+      "title": "2017 年数学二 第 4 题",
+      "questionText": "微分方程 $y^{\\prime\\prime}-4y^{\\prime}+8y=e^{2x}\\left(1+\\cos 2x\\right)$ 的特解可设为 $y^{*}=$（ ）\n\n- **A.** $Ae^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$\n- **B.** $Axe^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$\n- **C.** $Ae^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)$\n- **D.** $Axe^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)$",
+      "answerText": "答案：C\n\n**解析：**\n特征方程 $\\lambda^{2}-4\\lambda+8=0$，$\\lambda=2\\pm2\\mathrm{i}$。\n非齐次项 $e^{2x}(1+\\cos2x)=e^{2x}+e^{2x}\\cos2x$ 分为两部分：$e^{2x}$ 对应 $\\lambda=2$，不是特征根，设 $Ae^{2x}$；$e^{2x}\\cos2x$ 对应 $\\lambda=2+2\\mathrm{i}$，恰为单重特征根，需乘 $x$，设 $xe^{2x}(B\\cos2x+C\\sin2x)$。叠加即得 C。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "characteristic_equation",
+        "second_order_nonhomogeneous_linear"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源转录漏掉微分方程本身，且 D 选项第二项漏乘 x（与 B 重复）；经独立转录交叉验证补为 y″-4y′+8y=e^{2x}(1+cos2x)，D 为 Axe^{2x}+xe^{2x}(Bcos2x+Csin2x)",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.5",
+      "number": 5,
+      "title": "2017 年数学二 第 5 题",
+      "questionText": "设 $f(x,y)$ 具有一阶偏导数，且对任意 $(x,y)$，都有\n$$\n\\frac{\\partial f}{\\partial x}>0,\\qquad \\frac{\\partial f}{\\partial y}<0,\n$$\n\n则（ ）\n\n- A. $f(0,0)>f(1,1)$\n- B. $f(0,0)<f(1,1)$\n- C. $f(0,1)>f(1,0)$\n- D. $f(0,1)<f(1,0)$",
+      "answerText": "答案：D\n\n**解析：**\n$f_{x}>0$：固定 $y$，$f$ 关于 $x$ 严格增；$f_{y}<0$：固定 $x$，$f$ 关于 $y$ 严格减。于是\n$$\nf(0,1)<f(1,1)\\quad(x\\text{ 增}),\\qquad f(1,1)<f(1,0)\\quad(y\\text{ 减}),\n$$\n故 $f(0,1)<f(1,0)$。（A、B 比较 $f(0,0)$ 与 $f(1,1)$：$x$ 与 $y$ 的作用相反，方向不定；C 的不等号方向恰反。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "monotonicity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.6",
+      "number": 6,
+      "title": "2017 年数学二 第 6 题",
+      "questionText": "甲、乙两人赛跑。计时开始时，甲在乙前方 $10\\mathrm{m}$ 处。图中实线表示甲的速度曲线 $v=v_1(t)$，虚线表示乙的速度曲线 $v=v_2(t)$。三块阴影部分面积的数值依次为 $10,20,3$。计时开始后乙追上甲的时刻记为 $t_0$，则（ ）\n- A. $t_0=10$\n- B. $15<t_0<20$\n- C. $t_0=25$\n- D. $t_0>25$",
+      "answerText": "答案：C（$t_{0}=25$）\n\n**解析：**\n两速度曲线间的有向面积表示相对位移。设位置差 $s(t)=$ 甲领先距离，$s(0)=10$。\n- $0\\sim10\\,\\mathrm{s}$：实线（甲）在上方，面积 10，甲越跑越快：$s(10)=10+10=20\\,\\mathrm{m}$；\n- $10\\sim25\\,\\mathrm{s}$：虚线（乙）在上方，面积 20，乙以共 20 m 追回：$s(25)=20-20=0$；\n- $25\\,\\mathrm{s}$ 之后（面积 3）不影响首次追上时刻。\n位置差在 $(10,25)$ 内恒正、于 $25\\,\\mathrm{s}$ 首次为零，故 $t_{0}=25$。（易错点：$t=10$ 只是速度相等，不是追上。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对；答案修正：源答案 B（15<t₀<20）及其解析有误，按官方图示数据（0~10s 甲快面积10，10~25s 乙快面积20）推导 t₀=25，选 C",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.7",
+      "number": 7,
+      "title": "2017 年数学二 第 7 题",
+      "questionText": "设 $\\boldsymbol A$ 为三阶矩阵，$\\boldsymbol P=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)$ 为可逆矩阵，且\n\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\n\\begin{pmatrix}\n0&0&0\\\\\n0&1&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n\n则 $\\boldsymbol A(\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3)=$（ ）\n\n- **A.** $\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2$\n- **B.** $\\boldsymbol\\alpha_2+2\\boldsymbol\\alpha_3$\n- **C.** $\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3$\n- **D.** $\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2$",
+      "answerText": "答案：B\n\n**解析：**\n由 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\operatorname{diag}(0,1,2)$ 得 $\\boldsymbol{A}\\boldsymbol{P}=\\boldsymbol{P}\\operatorname{diag}(0,1,2)$，按列写出：\n$$\n\\boldsymbol{A}\\boldsymbol{\\alpha}_{1}=\\boldsymbol{0},\\qquad\n\\boldsymbol{A}\\boldsymbol{\\alpha}_{2}=\\boldsymbol{\\alpha}_{2},\\qquad\n\\boldsymbol{A}\\boldsymbol{\\alpha}_{3}=2\\boldsymbol{\\alpha}_{3}.\n$$\n于是\n$$\n\\boldsymbol{A}(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3})\n=\\boldsymbol{0}+\\boldsymbol{\\alpha}_{2}+2\\boldsymbol{\\alpha}_{3}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.diagonalization",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept",
+        "la.knowledge.diagonalization_criteria"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：转录把 P⁻¹AP 显示为 3×1 列向量，应为对角阵 diag(0,1,2)",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.8",
+      "number": 8,
+      "title": "2017 年数学二 第 8 题",
+      "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&0&0\\\\\n0&2&1\\\\\n0&0&1\n\\end{pmatrix},\\quad\n\\boldsymbol B=\n\\begin{pmatrix}\n2&1&0\\\\\n0&2&0\\\\\n0&0&1\n\\end{pmatrix},\\quad\n\\boldsymbol C=\n\\begin{pmatrix}\n1&0&0\\\\\n0&2&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n\n则（ ）\n\n- A. $\\boldsymbol A$ 与 $\\boldsymbol C$ 相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 相似\n- B. $\\boldsymbol A$ 与 $\\boldsymbol C$ 相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 不相似\n- C. $\\boldsymbol A$ 与 $\\boldsymbol C$ 不相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 相似\n- D. $\\boldsymbol A$ 与 $\\boldsymbol C$ 不相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 不相似",
+      "answerText": "答案：B\n\n**解析：**\n三者特征值均为 $2,2,1$。判断能否与对角阵 $\\boldsymbol{C}=\\operatorname{diag}(2,2,1)$ 相似，看二重特征值 $2$ 的线性无关特征向量个数：\n- $\\boldsymbol{A}$：$2\\boldsymbol{E}-\\boldsymbol{A}=\\begin{pmatrix}0&0&0\\\\0&0&-1\\\\0&0&1\\end{pmatrix}$，秩 1，特征子空间维数 $3-1=2$，$\\boldsymbol{A}$ 可对角化，$\\boldsymbol{A}\\sim\\boldsymbol{C}$。\n- $\\boldsymbol{B}$：$2\\boldsymbol{E}-\\boldsymbol{B}=\\begin{pmatrix}0&-1&0\\\\0&0&0\\\\0&0&1\\end{pmatrix}$，秩 2，特征子空间维数 $1<2$，不可对角化，$\\boldsymbol{B}\\nsim\\boldsymbol{C}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.diagonalization",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.diagonalization_criteria"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2017.9",
+      "number": 9,
+      "title": "2017 年数学二 第 9 题",
+      "questionText": "曲线\n$$\ny=x\\left(1+\\arcsin\\frac{2}{x}\\right)\n$$\n\n的斜渐近线方程为 ______",
+      "answerText": "答案：$y=x+2$\n\n**解析：**\n$k=\\lim\\limits_{x\\to\\infty}\\dfrac{y}{x}=1+\\lim\\limits_{x\\to\\infty}\\arcsin\\dfrac2x=1$；\n$$\nb=\\lim_{x\\to\\infty}(y-x)=\\lim_{x\\to\\infty}x\\arcsin\\frac2x\n=\\lim_{x\\to\\infty}2\\cdot\\frac{\\arcsin\\frac2x}{\\frac2x}=2 .\n$$\n斜渐近线 $y=x+2$（$x\\to\\pm\\infty$ 同式）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "asymptote",
+        "important_limits"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2017.10",
+      "number": 10,
+      "title": "2017 年数学二 第 10 题",
+      "questionText": "设函数 $y=y(x)$ 由参数方程\n$$\n\\begin{cases}\nx=t+e^t,\\\\\ny=\\sin t\n\\end{cases}\n$$\n\n确定，则\n\n$$\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=0}=\n$$",
+      "answerText": "答案：$-\\dfrac18$\n\n**解析：**\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\cos t}{1+e^{t}}$，\n$$\n\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\n=\\frac{\\dfrac{\\mathrm{d}}{\\mathrm{d}t}\\Bigl(\\dfrac{\\cos t}{1+e^{t}}\\Bigr)}{1+e^{t}}\n=\\frac{-\\sin t\\,(1+e^{t})-e^{t}\\cos t}{(1+e^{t})^{3}} .\n$$\n$t=0$：分子 $=0-1=-1$，分母 $=2^{3}=8$，得 $-\\dfrac18$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "parametric_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2017.11",
+      "number": 11,
+      "title": "2017 年数学二 第 11 题",
+      "questionText": "$$\n\\int_{0}^{+\\infty}\\frac{\\ln(1+x)}{(1+x)^2}\\mathrm{d}x=\n$$",
+      "answerText": "答案：1\n\n**解析：**\n令 $u=1+x$：$\\displaystyle\\int_{1}^{+\\infty}\\frac{\\ln u}{u^{2}}\\,\\mathrm{d}u$。分部积分：\n$$\n\\int\\frac{\\ln u}{u^{2}}\\,\\mathrm{d}u=-\\frac{\\ln u}{u}+\\int\\frac{1}{u^{2}}\\,\\mathrm{d}u=-\\frac{\\ln u}{u}-\\frac1u ,\n$$\n从 $1$ 到 $+\\infty$：$0-\\bigl(0-1\\bigr)=1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "infinite_interval_integral"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2017.12",
+      "number": 12,
+      "title": "2017 年数学二 第 12 题",
+      "questionText": "设函数 $f(x,y)$ 具有一阶连续偏导数，且\n$$\n\\mathrm{d}f(x,y)=ye^y\\mathrm{d}x+x(1+y)e^y\\mathrm{d}y,\\qquad f(0,0)=0,\n$$\n\n则 $f(x,y)=$ ______",
+      "answerText": "答案：$f(x,y)=xye^{y}$\n\n**解析：**\n$f_{x}=ye^{y}$ 对 $x$ 积分：$f=xye^{y}+C(y)$。对 $y$ 求导：$f_{y}=x(1+y)e^{y}+C'(y)$，与给定 $f_{y}=x(1+y)e^{y}$ 比较得 $C'(y)=0$。由 $f(0,0)=0$：$f=xye^{y}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "partial_derivative_total_differential",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "total_differential"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2017.13",
+      "number": 13,
+      "title": "2017 年数学二 第 13 题",
+      "questionText": "$$\n\\int_0^1\\mathrm{d}y\\int_y^1\\frac{\\tan x}{x}\\mathrm{d}x=\n$$",
+      "answerText": "答案：$-\\ln\\cos 1$\n\n**解析：**\n区域 $0\\le y\\le x\\le1$。交换次序：\n$$\n\\int_{0}^{1}\\mathrm{d}y\\int_{y}^{1}\\frac{\\tan x}{x}\\,\\mathrm{d}x\n=\\int_{0}^{1}\\frac{\\tan x}{x}\\Bigl(\\int_{0}^{x}\\mathrm{d}y\\Bigr)\\mathrm{d}x\n=\\int_{0}^{1}\\tan x\\,\\mathrm{d}x\n=-\\ln\\cos x\\Big|_{0}^{1}=-\\ln\\cos1 .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "integration_order"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2017.14",
+      "number": 14,
+      "title": "2017 年数学二 第 14 题",
+      "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n4&1&-2\\\\\n1&2&a\\\\\n3&1&-1\n\\end{pmatrix}\n$$\n\n的一个特征向量为\n\n$$\n\\begin{pmatrix}\n1\\\\\n1\\\\\n2\n\\end{pmatrix},\n$$\n\n则 $a=$ ______",
+      "answerText": "答案：-1\n\n**解析：**\n代入 $\\boldsymbol{\\alpha}=(1,1,2)^{T}$：\n$$\n\\boldsymbol{A}\\boldsymbol{\\alpha}=(4+1-4,\\ 1+2+2a,\\ 3+1-2)^{T}=(1,\\ 3+2a,\\ 2)^{T}.\n$$\n由 $\\boldsymbol{A}\\boldsymbol{\\alpha}=\\lambda\\boldsymbol{\\alpha}$：第一、三个分量给出 $\\lambda=1$；第二个分量 $3+2a=\\lambda=1$，得 $a=-1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.eigen_parameter_matrix",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.eigen_concept"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2017.15",
+      "number": 15,
+      "title": "2017 年数学二 第 15 题",
+      "questionText": "求极限\n$$\n\\lim_{x\\to0^+}\n\\frac{\\displaystyle\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t}{\\sqrt{x^3}}.\n$$\n\n**解析：**\n\n令 $u=x-t$，则\n\n$$\n\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t\n=\ne^x\\int_0^x\\sqrt{u}e^{-u}\\mathrm{d}u.\n$$\n\n于是\n\n$$\n\\lim_{x\\to0^+}\n\\frac{e^x\\int_0^x\\sqrt{u}e^{-u}\\mathrm{d}u}{x^{3/2}}\n=\n\\lim_{x\\to0^+}\n\\frac{\\sqrt{x}e^{-x}}{\\frac32x^{1/2}}\n=\n\\frac23.\n$$\n\n---",
+      "answerText": "答案：$\\dfrac{2}{3}$\n\n**解析：**\n令 $u=x-t$：$\\displaystyle\\int_{0}^{x}\\sqrt{x-t}\\,e^{t}\\,\\mathrm{d}t=e^{x}\\int_{0}^{x}\\sqrt{u}\\,e^{-u}\\,\\mathrm{d}u$。分子分母同阶 $x^{3/2}$，用洛必达（变限求导）：\n$$\n\\lim_{x\\to0^{+}}\\frac{e^{x}\\int_{0}^{x}\\sqrt u\\,e^{-u}\\mathrm{d}u}{x^{3/2}}\n=\\lim_{x\\to0^{+}}\\frac{e^{x}\\int_{0}^{x}\\sqrt u\\,e^{-u}\\mathrm{d}u+\\sqrt x}{\\frac32\\sqrt x},\n$$\n其中 $\\displaystyle\\int_{0}^{x}\\sqrt u\\,e^{-u}\\,\\mathrm{d}u\\sim\\int_{0}^{x}\\sqrt u\\,\\mathrm{d}u=\\frac23x^{3/2}$，第一项比值为 $0$，第二项 $\\dfrac{\\sqrt x}{\\frac32\\sqrt x}=\\dfrac23$。故极限为 $\\dfrac23$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "indeterminate_form"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.16",
+      "number": 16,
+      "title": "2017 年数学二 第 16 题",
+      "questionText": "设函数 $f(u,v)$ 具有二阶连续偏导数，\n$$\ny=f(e^x,\\cos x),\n$$\n\n求\n\n$$\n\\left.\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0},\n\\qquad\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{x=0}.\n$$\n\n**解析：**\n\n由链式法则，\n\n$$\ny'=f_1'e^x-f_2'\\sin x.\n$$\n\n故\n\n$$\n\\left.y'\\right|_{x=0}=f_1'(1,1).\n$$\n\n再求导并代入 $x=0$：\n\n$$\n\\left.y''\\right|_{x=0}\n=\nf_{11}''(1,1)+f_1'(1,1)-f_2'(1,1).\n$$\n\n---",
+      "answerText": "答案：$\\left.y'\\right|_{x=0}=f_{1}'(1,1)$，$\\left.y''\\right|_{x=0}=f_{11}''(1,1)+f_{1}'(1,1)-f_{2}'(1,1)$\n\n**解析：**\n$u=e^{x},\\ v=\\cos x$，链式法则：\n$$\ny'=f_{1}'e^{x}-f_{2}'\\sin x .\n$$\n$x=0$（$u=1,v=1$）：$y'=f_{1}'(1,1)$。\n再求导（$f_{1}'$、$f_{2}'$ 仍是复合函数，继续用链式法则）：\n$$\ny''=f_{1}'e^{x}+\\bigl(f_{11}''e^{x}-f_{12}''\\sin x\\bigr)e^{x}-\\bigl(f_{21}''e^{x}-f_{22}''\\sin x\\bigr)\\sin x-f_{2}'\\cos x .\n$$\n代入 $x=0$（$\\sin0=0,\\ \\cos0=1$）：\n$$\ny''(0)=f_{1}'(1,1)+f_{11}''(1,1)-f_{2}'(1,1).\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "composite_implicit_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_function_chain_rule"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.17",
+      "number": 17,
+      "title": "2017 年数学二 第 17 题",
+      "questionText": "求\n$$\n\\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac{k}{n^2}\\ln\\left(1+\\frac{k}{n}\\right).\n$$\n\n**解析：**\n\n该和式为定积分\n\n$$\n\\int_0^1x\\ln(1+x)\\mathrm{d}x.\n$$\n\n分部积分：\n\n$$\n\\int_0^1x\\ln(1+x)\\mathrm{d}x\n=\n\\frac12\\ln2-\\frac12\\int_0^1\\frac{x^2}{1+x}\\mathrm{d}x\n=\n\\frac14.\n$$\n\n---",
+      "answerText": "答案：$\\dfrac14$\n\n**解析：**\n和式即 $\\dfrac1n\\displaystyle\\sum_{k=1}^{n}\\frac{k}{n}\\ln\\Bigl(1+\\frac{k}{n}\\Bigr)$，为 $g(x)=x\\ln(1+x)$ 在 $[0,1]$ 上的黎曼和：\n$$\n\\lim_{n\\to\\infty}=\\int_{0}^{1}x\\ln(1+x)\\,\\mathrm{d}x .\n$$\n分部积分：\n$$\n\\int_{0}^{1}x\\ln(1+x)\\,\\mathrm{d}x\n=\\frac12\\ln2-\\frac12\\int_{0}^{1}\\frac{x^{2}}{1+x}\\,\\mathrm{d}x,\n$$\n$\\dfrac{x^{2}}{1+x}=x-1+\\dfrac{1}{1+x}$，$\\displaystyle\\int_{0}^{1}=\\frac12-1+\\ln2=\\ln2-\\frac12$。故原式 $=\\dfrac12\\ln2-\\dfrac12\\ln2+\\dfrac14=\\dfrac14$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [
+        "integration_by_parts"
+      ],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.18",
+      "number": 18,
+      "title": "2017 年数学二 第 18 题",
+      "questionText": "已知函数 $y(x)$ 由方程\n$$\nx^3+y^3-3x+3y-2=0\n$$\n\n确定，求 $y(x)$ 的极值。\n\n**解析：**\n\n两边求导：\n\n$$\n3x^2+3y^2y'-3+3y'=0.\n$$\n\n令 $y'=0$，得 $x=\\pm1$。代回原方程得\n\n$$\nx=1,\\ y=1;\\qquad x=-1,\\ y=0.\n$$\n\n再求二阶导判断：\n\n$$\ny''(1)=-1<0,\\qquad y''(-1)=2>0.\n$$\n\n故极大值为\n\n$$\ny(1)=1,\n$$\n\n极小值为\n\n$$\ny(-1)=0.\n$$\n\n---",
+      "answerText": "答案：极大值 $y(1)=1$；极小值 $y(-1)=0$\n\n**解析：**\n方程两边对 $x$ 求导：$3x^{2}+3y^{2}y'-3+3y'=0$，即\n$$\ny'=\\frac{1-x^{2}}{1+y^{2}} .\n$$\n令 $y'=0$ 得 $x=\\pm1$。代回原方程：$x=1$：$1+y^{3}-3+3y-2=0$，$y^{3}+3y-4=0$，$y=1$（左端严格增，根唯一）；$x=-1$：$y^{3}+3y=0$，$y=0$。\n再求导：由 $3x^{2}+3y^{2}y'-3+3y'=0$ 两边求导并解出\n$$\ny''=-\\frac{2x+2y\\,(y')^{2}}{1+y^{2}} .\n$$\n$y''(1)=-\\dfrac{2}{2}=-1<0$，$y(1)=1$ 为极大值；$y''(-1)=\\dfrac{-2}{1}=2>0$，$y(-1)=0$ 为极小值。\n（曲线满足 $\\partial/\\partial y=3y^{2}+3>0$，隐函数在每点局部可解。）",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "monotonicity_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "extrema",
+        "implicit_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.19",
+      "number": 19,
+      "title": "2017 年数学二 第 19 题",
+      "questionText": "设函数 $f(x)$ 在区间 $[0,1]$ 上具有二阶导数，且\n$$\nf(1)>0,\\qquad \\lim_{x\\to0^+}\\frac{f(x)}{x}<0.\n$$\n\n证明：\n\n（1）方程 $f(x)=0$ 在区间 $(0,1)$ 内至少存在一个实根；\n\n（2）方程\n\n$$\nf(x)f''(x)+\\left(f'(x)\\right)^2=0\n$$\n\n在区间 $(0,1)$ 内至少存在两个不同实根。\n\n**解析：**\n\n（1）由\n\n$$\n\\lim_{x\\to0^+}\\frac{f(x)}{x}<0\n$$\n\n可知 $f(0)=0$，且存在充分小的 $x_0>0$，使 $f(x_0)<0$。又 $f(1)>0$，由零点定理，存在\n\n$$\n\\xi\\in(x_0,1)\\subset(0,1)\n$$\n\n使 $f(\\xi)=0$。\n\n（2）由 $f(0)=f(\\xi)=0$，罗尔定理得存在\n\n$$\n\\eta\\in(0,\\xi)\n$$\n\n使 $f'(\\eta)=0$。令\n\n$$\nF(x)=f(x)f'(x),\n$$\n\n则\n\n$$\nF(0)=F(\\eta)=F(\\xi)=0.\n$$\n\n分别在 $(0,\\eta)$ 与 $(\\eta,\\xi)$ 上对 $F$ 用罗尔定理，得两个不同点 $\\eta_1,\\eta_2\\in(0,1)$，使\n\n$$\nF'(\\eta_1)=F'(\\eta_2)=0.\n$$\n\n而\n\n$$\nF'(x)=f(x)f''(x)+\\left(f'(x)\\right)^2,\n$$\n\n故结论成立。\n\n---",
+      "answerText": "答案：（1）（2）均得证\n\n**解析：**\n**（1）** 由 $\\lim\\limits_{x\\to0^{+}}\\dfrac{f(x)}{x}$ 存在且 $x\\to0^{+}$ 时分母 $\\to0$，分子必 $\\to0$：$f(0)=0$（补充定义）。且极限 $<0$ 结合保号性：存在 $x_{0}\\in(0,1)$ 使 $\\dfrac{f(x_{0})}{x_{0}}<0$，即 $f(x_{0})<0$。又 $f(1)>0$，$f$ 在 $[x_{0},1]$ 上连续，由零点定理存在 $\\xi\\in(x_{0},1)\\subset(0,1)$ 使 $f(\\xi)=0$。\n**（2）** $f$ 在 $[0,\\xi]$ 上两端为零，罗尔定理给出 $\\eta\\in(0,\\xi)$ 使 $f'(\\eta)=0$。\n令 $F(x)=f(x)f'(x)$，则 $F'(x)=f(x)f''(x)+\\bigl(f'(x)\\bigr)^{2}$，且\n$$\nF(0)=f(0)f'(0)=0,\\qquad F(\\eta)=f(\\eta)f'(\\eta)=0,\\qquad F(\\xi)=f(\\xi)f'(\\xi)=0 .\n$$\n在 $[0,\\eta]$ 与 $[\\eta,\\xi]$ 上分别用罗尔定理，得 $\\eta_{1}\\in(0,\\eta)$，$\\eta_{2}\\in(\\eta,\\xi)$，$\\eta_{1}\\ne\\eta_{2}$，使 $F'(\\eta_{1})=F'(\\eta_{2})=0$，即方程 $f(x)f''(x)+\\bigl(f'(x)\\bigr)^{2}=0$ 在 $(0,1)$ 内至少有两个不同实根。$\\blacksquare$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "mean_value_theorem",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "mean_value_theorem",
+        "closed_interval_continuity"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.20",
+      "number": 20,
+      "title": "2017 年数学二 第 20 题",
+      "questionText": "已知平面区域\n$$\nD=\\{(x,y)\\mid x^2+y^2\\le2y\\},\n$$\n\n计算二重积分\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y.\n$$\n\n**解析：**\n\n区域关于 $y$ 轴对称，故 $\\iint_D2x\\,\\mathrm{d}x\\mathrm{d}y=0$。于是\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y\n=\n\\iint_Dx^2\\mathrm{d}x\\mathrm{d}y+\\iint_D1\\,\\mathrm{d}x\\mathrm{d}y.\n$$\n\n用极坐标，$0\\le\\theta\\le\\pi,\\ 0\\le r\\le2\\sin\\theta$，得\n\n$$\n\\iint_Dx^2\\mathrm{d}x\\mathrm{d}y=\\frac{\\pi}{4},\\qquad\nS_D=\\pi.\n$$\n\n故原积分为\n\n$$\n\\frac{5\\pi}{4}.\n$$\n\n---",
+      "answerText": "答案：$\\dfrac{5\\pi}{4}$\n\n**解析：**\n$D$：$x^{2}+(y-1)^{2}\\le1$，关于 $y$ 轴对称、面积 $\\pi$。展开 $(x+1)^{2}=x^{2}+2x+1$，奇函数项 $2x$ 积分为零：\n$$\n\\iint_{D}(x+1)^{2}\\mathrm{d}x\\mathrm{d}y=\\iint_{D}x^{2}\\,\\mathrm{d}x\\mathrm{d}y+\\pi .\n$$\n极坐标（$0\\le\\theta\\le\\pi$，$0\\le r\\le2\\sin\\theta$）：\n$$\n\\iint_{D}x^{2}\\,\\mathrm{d}x\\mathrm{d}y\n=\\int_{0}^{\\pi}\\cos^{2}\\theta\\,\\mathrm{d}\\theta\\int_{0}^{2\\sin\\theta}r^{3}\\,\\mathrm{d}r\n=4\\int_{0}^{\\pi}\\sin^{4}\\theta\\cos^{2}\\theta\\,\\mathrm{d}\\theta .\n$$\n（或平移为单位圆盘后用轮换对称：$\\iint x^{2}=\\dfrac12\\iint(x^{2}+y^{2})=\\dfrac12\\displaystyle\\int_{0}^{2\\pi}\\mathrm{d}\\varphi\\int_{0}^{1}\\rho^{3}\\,\\mathrm{d}\\rho=\\dfrac{\\pi}{4}$。）\n故原积分 $=\\dfrac{\\pi}{4}+\\pi=\\dfrac{5\\pi}{4}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "polar_coordinates",
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.21",
+      "number": 21,
+      "title": "2017 年数学二 第 21 题",
+      "questionText": "设 $y(x)$ 是区间 $\\left(0,\\frac32\\right)$ 内的可导函数，且 $y(1)=0$。点 $P$ 是曲线 $L:y=y(x)$ 上任意一点，$L$ 在点 $P$ 处的切线与 $y$ 轴相交于点 $(0,Y_p)$，法线与 $x$ 轴相交于点 $(X_p,0)$。若 $X_p=Y_p$，求 $L$ 上点的坐标 $(x,y)$ 满足的方程。\n**解析：**\n\n设 $P=(x,y)$。切线在 $y$ 轴上的截距为\n\n$$\nY_p=y-xy',\n$$\n\n法线在 $x$ 轴上的截距为\n\n$$\nX_p=x+yy'.\n$$\n\n由 $X_p=Y_p$，得\n\n$$\n(x+y)y'=y-x.\n$$\n\n令 $u=\\dfrac{y}{x}$，即 $y=ux$，则\n\n$$\nx\\frac{\\mathrm{d}u}{\\mathrm{d}x}\n=\n-\\frac{u^2+1}{u+1}.\n$$\n\n积分得\n\n$$\n\\frac12\\ln(1+u^2)+\\arctan u=-\\ln x+C.\n$$\n\n由 $y(1)=0$ 得 $C=0$。代回 $u=\\dfrac{y}{x}$，并化简得曲线方程\n\n$$\n\\frac12\\ln(x^2+y^2)+\\arctan\\frac{y}{x}=0.\n$$\n\n---",
+      "answerText": "答案：$\\dfrac12\\ln\\bigl(x^{2}+y^{2}\\bigr)+\\arctan\\dfrac{y}{x}=0$\n\n**解析：**\n设 $P=(x,y)$。切线 $Y-y=y'(X-x)$ 交 $y$ 轴于 $Y_{p}=y-xy'$；法线斜率 $-\\dfrac1{y'}$，交 $x$ 轴于 $X_{p}=x+yy'$。条件 $X_{p}=Y_{p}$：\n$$\nx+yy'=y-xy'\\ \\Longrightarrow\\ (x+y)\\,y'=y-x .\n$$\n齐次方程，令 $y=ux$：$y'=u+xu'$，代入：\n$$\n(1+u)(u+xu')=u-1\\ \\Longrightarrow\\ x\\frac{\\mathrm{d}u}{\\mathrm{d}x}=-\\frac{1+u^{2}}{1+u}.\n$$\n分离变量并积分：$\\displaystyle\\int\\frac{1+u}{1+u^{2}}\\,\\mathrm{d}u=-\\int\\frac{\\mathrm{d}x}{x}$，即\n$$\n\\arctan u+\\frac12\\ln(1+u^{2})=-\\ln x+C .\n$$\n$y(1)=0\\Rightarrow u=0\\Rightarrow C=0$。代回 $u=\\dfrac yx$ 并整理：\n$$\n\\frac12\\ln\\bigl(x^{2}+y^{2}\\bigr)+\\arctan\\frac{y}{x}=0 .\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "homogeneous_first_order_equation"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 21
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.22",
+      "number": 22,
+      "title": "2017 年数学二 第 22 题",
+      "questionText": "设 $3$ 阶矩阵\n$$\n\\boldsymbol A=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)\n$$\n\n有 $3$ 个不同的特征值，且\n\n$$\n\\boldsymbol\\alpha_3=\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2.\n$$\n\n（1）证明：$r(\\boldsymbol A)=2$；\n\n（2）若\n\n$$\n\\boldsymbol\\beta=\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n求方程组 $\\boldsymbol A\\boldsymbol x=\\boldsymbol\\beta$ 的通解。\n\n**解析：**\n\n（1）由\n\n$$\n\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2-\\boldsymbol\\alpha_3=\\boldsymbol0\n$$\n\n知列向量线性相关，故 $|\\boldsymbol A|=0$，所以 $0$ 是 $\\boldsymbol A$ 的特征值。\n又 $\\boldsymbol A$ 有三个不同特征值，因此另外两个特征值非零，故\n\n$$\nr(\\boldsymbol A)=2.\n$$\n\n（2）由\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix}\n=\\boldsymbol0\n$$\n\n知齐次方程基础解系可取\n\n$$\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix}.\n$$\n\n又\n\n$$\n\\boldsymbol A\n\\begin{pmatrix}\n1\\\\1\\\\1\n\\end{pmatrix}\n=\\boldsymbol\\beta,\n$$\n\n故非齐次方程通解为\n\n$$\n\\boldsymbol x\n=\n\\begin{pmatrix}\n1\\\\1\\\\1\n\\end{pmatrix}\n+\nk\n\\begin{pmatrix}\n1\\\\2\\\\-1\n\\end{pmatrix},\n\\qquad k\\in\\mathbb R.\n$$\n\n---",
+      "answerText": "答案：$\\boldsymbol{x}=\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}+k\\begin{pmatrix}1\\\\2\\\\-1\\end{pmatrix}$，$k\\in\\mathbb R$\n\n**解析：**\n**（1）** $\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}=\\boldsymbol{0}$ 说明 $\\boldsymbol{A}$ 的列线性相关，$\\det\\boldsymbol{A}=0$，故 $0$ 是 $\\boldsymbol{A}$ 的特征值。$\\boldsymbol{A}$ 有三个不同特征值，故 $0$ 只出现一次，另两个特征值非零。三个互异特征值意味着 $\\boldsymbol{A}$ 可对角化，秩等于非零特征值个数，故 $r(\\boldsymbol{A})=2$。\n**（2）** 由 $\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}=\\boldsymbol{0}$：\n$$\n\\boldsymbol{A}\\begin{pmatrix}1\\\\2\\\\-1\\end{pmatrix}=\\boldsymbol{0},\n$$\n即 $(1,2,-1)^{T}$ 是 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{0}$ 的基础解系（$n-r=3-2=1$）。又\n$$\n\\boldsymbol{A}\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}=\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}=\\boldsymbol{\\beta},\n$$\n故通解为 $(1,1,1)^{T}+k\\,(1,2,-1)^{T}$，$k\\in\\mathbb{R}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.solution_structure",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.general_solution",
+        "la.knowledge.diagonalization_criteria"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 22
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2017.23",
+      "number": 23,
+      "title": "2017 年数学二 第 23 题",
+      "questionText": "设二次型\n$$\nf(x_1,x_2,x_3)\n=\n2x_1^2-x_2^2+ax_3^2\n+2x_1x_2-8x_1x_3+2x_2x_3\n$$\n\n在正交变换 $\\boldsymbol X=\\boldsymbol Q\\boldsymbol Y$ 下的标准型为\n\n$$\n\\lambda_1y_1^2+\\lambda_2y_2^2.\n$$\n\n求 $a$ 的值及一个正交矩阵 $\\boldsymbol Q$。\n\n**解析：**\n\n二次型对应矩阵为\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&1&-4\\\\\n1&-1&1\\\\\n-4&1&a\n\\end{pmatrix}.\n$$\n\n标准型只有两个非零平方项，故 $r(\\boldsymbol A)=2$，即\n\n$$\n|\\boldsymbol A|=0.\n$$\n\n计算得\n\n$$\na=2.\n$$\n\n此时\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&1&-4\\\\\n1&-1&1\\\\\n-4&1&2\n\\end{pmatrix},\n$$\n\n其特征值为\n\n$$\n-3,\\ 6,\\ 0.\n$$\n\n对应的两两正交特征向量可取\n\n$$\n(1,-1,1)^T,\\quad (-1,0,1)^T,\\quad (1,2,1)^T.\n$$\n\n单位化后取\n\n$$\n\\boldsymbol Q=\n\\begin{pmatrix}\n\\dfrac{1}{\\sqrt3}&-\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\\\\\n-\\dfrac{1}{\\sqrt3}&0&\\dfrac{2}{\\sqrt6}\\\\\n\\dfrac{1}{\\sqrt3}&\\dfrac{1}{\\sqrt2}&\\dfrac{1}{\\sqrt6}\n\\end{pmatrix}.\n$$\n\n于是\n\n$$\n\\boldsymbol Q^T\\boldsymbol A\\boldsymbol Q\n=\n\\begin{pmatrix}\n-3&0&0\\\\\n0&6&0\\\\\n0&0&0\n\\end{pmatrix},\n$$\n\n故标准型为\n\n$$\n-3y_1^2+6y_2^2.\n$$",
+      "answerText": "答案：$a=2$；$\\boldsymbol{Q}=\\begin{pmatrix}\\frac{1}{\\sqrt3}&-\\frac{1}{\\sqrt2}&\\frac{1}{\\sqrt6}\\\\[2pt]-\\frac{1}{\\sqrt3}&0&\\frac{2}{\\sqrt6}\\\\[2pt]\\frac{1}{\\sqrt3}&\\frac{1}{\\sqrt2}&\\frac{1}{\\sqrt6}\\end{pmatrix}$，标准形 $-3y_{1}^{2}+6y_{2}^{2}$\n\n**解析：**\n二次型矩阵\n$$\n\\boldsymbol{A}=\\begin{pmatrix}2&1&-4\\\\1&-1&1\\\\-4&1&a\\end{pmatrix}.\n$$\n标准形只有两个非零平方项 $\\iff$ $r(\\boldsymbol{A})=2\\iff\\det\\boldsymbol{A}=0$：\n$$\n\\det\\boldsymbol{A}=2(-a-1)-1\\,(a+4)-4(1-4)=-3a+6=0\\ \\Longrightarrow\\ a=2 .\n$$\n此时 $\\det(\\lambda\\boldsymbol{E}-\\boldsymbol{A})=\\lambda(\\lambda-6)(\\lambda+3)$，特征值 $0,6,-3$。两两正交的特征向量：\n$\\lambda=6$：$(1,-1,1)^{T}$；$\\lambda=-3$：$(-1,0,1)^{T}$；$\\lambda=0$：$(1,2,1)^{T}$（验证：两两内积均为 0）。\n单位化并按 $\\lambda=-3,6,0$ 排列成 $\\boldsymbol{Q}$，则 $\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\operatorname{diag}(-3,6,0)$，标准形为 $-3y_{1}^{2}+6y_{2}^{2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.quadratic_forms",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.orthogonal_standard_form",
+        "la.knowledge.orthogonal_diagonalization"
+      ],
+      "methodIds": [],
+      "notes": "已校对；数值验证特征值 6,-3,0 与特征向量正交性",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2017,
+        "paper": "math2",
+        "number": 23
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    }
+  ]
 }

@@ -5,7 +5,7 @@
  "year": 2024,
  "paper": "math2",
  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2024-2.md",
  "paperInfo": {
   "year": 2024,
@@ -56,7 +56,7 @@
    {
     "number": 7,
     "id": "bank.exam.m2-2024.7",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -68,13 +68,13 @@
    {
     "number": 9,
     "id": "bank.exam.m2-2024.9",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 10,
     "id": "bank.exam.m2-2024.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
@@ -98,7 +98,7 @@
    {
     "number": 14,
     "id": "bank.exam.m2-2024.14",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -110,7 +110,7 @@
    {
     "number": 16,
     "id": "bank.exam.m2-2024.16",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": false
    },
    {
@@ -134,13 +134,13 @@
    {
     "number": 20,
     "id": "bank.exam.m2-2024.20",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": false
    },
    {
     "number": 21,
     "id": "bank.exam.m2-2024.21",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": false
    },
    {
@@ -158,7 +158,7 @@
    "number": 1,
    "title": "2024 年数学二 第 1 题",
    "questionText": "函数\n$$\nf(x)=|x|^{\\frac{1}{(1-x)(x-2)}}\n$$\n的第一类间断点的个数为（ ）\n\n- A. $3$\n- B. $2$\n- C. $1$\n- D. $0$",
-   "answerText": "C\n\n**解析：**\n间断点只可能在 $x=0,1,2$ 处。又\n$$\n\\lim_{x\\to 1}f(x)\n=\\lim_{x\\to 1}\\exp\\!\\left(\\frac{\\ln x}{(1-x)(x-2)}\\right)\n=e,\n$$\n故 $x=1$ 为可去间断点；而\n$$\n\\lim_{x\\to 2^-}f(x)=+\\infty,\\qquad \\lim_{x\\to 0^+}f(x)=+\\infty,\n$$\n所以第一类间断点只有 $1$ 个，即 $x=1$。",
+   "answerText": "答案：C\n\n**解析：** 可能的间断点是 $x=0,1,2$。写成 $f(x)=\\exp\\!\\Bigl(\\dfrac{\\ln|x|}{(1-x)(x-2)}\\Bigr)$ 后逐点考察：\n\n- $x\\to1$：$\\ln|x|\\sim x-1$，分母 $(1-x)(x-2)\\sim x-1$，故 $\\lim\\limits_{x\\to1}f(x)=e$，$x=1$ 为可去间断点（第一类）；\n- $x\\to0$：$\\ln|x|\\to-\\infty$ 而分母趋于 $-2$，故 $f\\to+\\infty$，第二类；\n- $x\\to2$：$\\ln|x|\\to\\ln2$，分母趋于 $0$，单侧极限为 $\\infty$，第二类。\n\n第一类间断点只有 $1$ 个，选 C。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -166,11 +166,10 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "discontinuity",
-    "power_series_sum"
+    "discontinuity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -189,16 +188,19 @@
    "number": 2,
    "title": "2024 年数学二 第 2 题",
    "questionText": "已知\n$$\n\\left\\{\n\\begin{aligned}\nx &= 1+t^3,\\\\\ny &= e^{t^2},\n\\end{aligned}\n\\right.\n$$\n则\n$$\n\\lim_{x\\to+\\infty}x\\!\\left[f\\!\\left(2+\\frac{2}{x}\\right)-f(2)\\right]\n$$\n等于（ ）\n\n- A. $2e$\n- B. $\\frac{4}{3}e$\n- C. $\\frac{2}{3}e$\n- D. $\\frac{e}{3}$",
-   "answerText": "B\n\n**解析：**\n由参数方程，\n$$\nf'(x)=\\frac{dy/dt}{dx/dt}=\\frac{2te^{t^2}}{3t^2}.\n$$\n当 $x=2$ 时，$t=1$，故\n$$\nf'(2)=\\frac{2}{3}e.\n$$\n于是\n$$\n\\lim_{x\\to+\\infty}x\\!\\left[f\\!\\left(2+\\frac{2}{x}\\right)-f(2)\\right]\n=2\\lim_{x\\to+\\infty}\\frac{f\\!\\left(2+\\frac{2}{x}\\right)-f(2)}{2/x}\n=2f'(2)=\\frac{4}{3}e.\n$$",
+   "answerText": "答案：B\n\n**解析：** 把 $y$ 看作由参数方程确定的 $f(x)$，则\n$$\nf'(x)=\\frac{\\mathrm{d}y/\\mathrm{d}t}{\\mathrm{d}x/\\mathrm{d}t}=\\frac{2te^{t^{2}}}{3t^{2}}=\\frac{2e^{t^{2}}}{3t}.\n$$\n$x=2$ 对应 $t=1$，故 $f'(2)=\\dfrac23e$。于是\n$$\n\\lim_{x\\to+\\infty}x\\left[f\\Bigl(2+\\frac2x\\Bigr)-f(2)\\right]\n=2\\lim_{x\\to+\\infty}\\frac{f(2+2/x)-f(2)}{2/x}\n=2f'(2)=\\frac43e.\n$$\n故选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "parametric_derivative",
+    "derivative_definition"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -217,18 +219,18 @@
    "number": 3,
    "title": "2024 年数学二 第 3 题",
    "questionText": "已知\n$$\nf(x)=\\int_0^{\\sin x}\\sin t^3\\,dt,\\qquad\ng(x)=\\int_0^x f(t)\\,dt,\n$$\n则（ ）\n\n- A. $f(x)$ 为奇函数，$g(x)$ 为奇函数\n- B. $f(x)$ 为奇函数，$g(x)$ 为偶函数\n- C. $f(x)$ 为偶函数，$g(x)$ 为偶函数\n- D. $f(x)$ 为偶函数，$g(x)$ 为奇函数",
-   "answerText": "D\n\n**解析：**\n设\n$$\nh(x)=\\int_0^x \\sin t^3\\,dt.\n$$\n因 $\\sin(t^3)$ 为奇函数，所以 $h(x)$ 为偶函数。于是\n$$\nf(x)=h(\\sin x)\n$$\n仍为偶函数；而\n$$\ng(x)=\\int_0^x f(t)\\,dt\n$$\n是偶函数在 $[0,x]$ 上的积分，因此为奇函数。",
+   "answerText": "答案：D\n\n**解析：** 记 $h(x)=\\displaystyle\\int_0^x\\sin t^{3}\\,\\mathrm{d}t$，被积函数是奇函数，故 $h$ 为偶函数；$f(x)=h(\\sin x)$ 是偶函数与奇函数 $\\sin x$ 的复合，仍为偶函数。$g(x)=\\displaystyle\\int_0^x f(t)\\,\\mathrm{d}t$ 是偶函数自原点起的不定积分，为奇函数。故选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "power_series_sum"
+    "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -247,16 +249,19 @@
    "number": 4,
    "title": "2024 年数学二 第 4 题",
    "questionText": "已知数列 $\\{a_n\\}$（$a_n\\ne 0$），若 $\\{a_n\\}$ 发散，则（ ）\n- A. $\\left\\{a_n+\\frac{1}{a_n}\\right\\}$ 发散\n- B. $\\left\\{a_n-\\frac{1}{a_n}\\right\\}$ 发散\n- C. $\\left\\{e^{a_n}+\\frac{1}{e^{a_n}}\\right\\}$ 发散\n- D. $\\left\\{e^{a_n}-\\frac{1}{e^{a_n}}\\right\\}$ 发散",
-   "answerText": "D\n\n**解析：**\nA、C 可取反例 $a_n=2^{(-1)^n}$；B 可取反例 $a_n=(-1)^n$。\n对 D，设\n$$\nb_n=e^{a_n}-e^{-a_n}.\n$$\n函数\n$$\n\\varphi(x)=e^x-e^{-x}\n$$\n在 $\\mathbb R$ 上连续且严格单调递增，故存在连续反函数。若 $\\{b_n\\}$ 收敛，则\n$$\na_n=\\varphi^{-1}(b_n)\n$$\n也收敛，与题设矛盾，所以 D 正确。",
+   "answerText": "答案：D\n\n**解析：**\n- A 错：取 $a_n=2^{(-1)^n}$（在 $2$ 与 $\\frac12$ 间交替），$\\{a_n\\}$ 发散，但 $a_n+\\dfrac1{a_n}$ 恒为 $\\dfrac52$；\n- B 错：取 $a_n=(-1)^n$，则 $a_n-\\dfrac1{a_n}$ 恒为 $0$；\n- C 错：取 $a_n=(-1)^n$，则 $e^{a_n}+e^{-a_n}$ 恒为 $e+\\dfrac1e$；\n- D 对：设 $b_n=e^{a_n}-e^{-a_n}=\\varphi(a_n)$，其中 $\\varphi(x)=e^x-e^{-x}$ 是 $\\mathbb R$ 上严格单调递增的连续函数，存在连续反函数。若 $\\{b_n\\}$ 收敛，则 $a_n=\\varphi^{-1}(b_n)$ 也收敛，与题设矛盾。故 $\\{b_n\\}$ 必发散。\n\n故选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "limit_operations",
+    "function_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对；已验算修正：选项 C 的反例改为 a_n=(-1)^n（源解析所举 a_n=2^{(-1)^n} 对 C 不成立，答案 D 不变）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -275,7 +280,7 @@
    "number": 5,
    "title": "2024 年数学二 第 5 题",
    "questionText": "已知函数\n$$\nf(x,y)=\n\\begin{cases}\n(x^2+y^2)\\sin\\frac{1}{xy}, & xy\\ne 0,\\\\\n0, & xy=0,\n\\end{cases}\n$$\n则在点 $(0,0)$ 处（ ）\n\n- A. $\\dfrac{\\partial f}{\\partial x}$ 连续，$f$ 可微\n- B. $\\dfrac{\\partial f}{\\partial x}$ 连续，$f$ 不可微\n- C. $\\dfrac{\\partial f}{\\partial x}$ 不连续，$f$ 可微\n- D. $\\dfrac{\\partial f}{\\partial x}$ 不连续，$f$ 不可微",
-   "answerText": "C\n\n**解析：**\n先有\n$$\n\\frac{\\partial f}{\\partial x}(0,0)=0,\\qquad \\frac{\\partial f}{\\partial y}(0,0)=0.\n$$\n且\n$$\n\\left|\\frac{f(x,y)-f(0,0)}{\\sqrt{x^2+y^2}}\\right|\n\\le \\sqrt{x^2+y^2}\\to 0,\n$$\n故 $f$ 在 $(0,0)$ 可微。\n当 $xy\\ne 0$ 时，\n$$\n\\frac{\\partial f}{\\partial x}\n=2x\\sin\\frac{1}{xy}-\\frac{x^2+y^2}{x^2y}\\cos\\frac{1}{xy},\n$$\n其在 $(0,0)$ 附近极限不存在，所以偏导不连续。",
+   "answerText": "答案：C\n\n**解析：** $f_x(0,0)=\\lim\\limits_{x\\to0}\\dfrac{f(x,0)-0}{x}=0$，同理 $f_y(0,0)=0$。又 $|f(x,y)|\\le x^{2}+y^{2}$，故\n$$\n\\frac{\\bigl|f(x,y)-f(0,0)\\bigr|}{\\sqrt{x^{2}+y^{2}}}\\le\\sqrt{x^{2}+y^{2}}\\to0,\n$$\n即 $f$ 在 $(0,0)$ 处可微。而当 $xy\\ne0$ 时\n$$\nf_x=2x\\sin\\frac1{xy}-\\frac{x^{2}+y^{2}}{x^{2}y}\\cos\\frac1{xy},\n$$\n沿 $y=x$、$x\\to0$ 其第二项 $\\sim-\\dfrac2x\\cos\\dfrac1{x^{2}}$ 无界，极限不存在，故 $f_x$ 在 $(0,0)$ 处不连续。选 C。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -283,12 +288,11 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "differentiability_continuity",
-    "power_series_sum"
+    "partial_derivative_existence",
+    "continuity_partial_differentiability"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -307,19 +311,19 @@
    "number": 6,
    "title": "2024 年数学二 第 6 题",
    "questionText": "设 $f(x,y)$ 为连续函数，则\n$$\n\\int_{\\pi/6}^{\\pi/2}dx\\int_{\\sin x}^{1}f(x,y)\\,dy\n=\n(\\ \\ )\n$$\n\n- A. $\\displaystyle \\int_{1/2}^{1}dy\\int_{\\pi/6}^{\\arcsin y}f(x,y)\\,dx$\n- B. $\\displaystyle \\int_{1/2}^{1}dy\\int_{\\arcsin y}^{\\pi/2}f(x,y)\\,dx$\n- C. $\\displaystyle \\int_0^{1/2}dy\\int_{\\pi/6}^{\\arcsin y}f(x,y)\\,dx$\n- D. $\\displaystyle \\int_0^{1/2}dy\\int_{\\arcsin y}^{\\pi/2}f(x,y)\\,dx$",
-   "answerText": "A\n\n**解析：**\n原区域满足\n$$\n\\frac{\\pi}{6}\\le x\\le \\frac{\\pi}{2},\\qquad \\sin x\\le y\\le 1.\n$$\n换序后，\n$$\n\\frac12\\le y\\le 1,\\qquad \\frac{\\pi}{6}\\le x\\le \\arcsin y.\n$$\n故对应选项为 A。",
+   "answerText": "答案：A\n\n**解析：** 积分区域为 $\\dfrac{\\pi}{6}\\le x\\le\\dfrac{\\pi}{2}$，$\\sin x\\le y\\le1$。因 $x\\ge\\dfrac{\\pi}{6}$ 时 $\\sin x\\ge\\dfrac12$，故 $y$ 的范围是 $\\left[\\dfrac12,1\\right]$；固定 $y$，由 $\\sin x\\le y$ 得 $x\\le\\arcsin y$，结合 $x\\ge\\dfrac{\\pi}{6}$ 得\n$$\n\\frac{\\pi}{6}\\le x\\le\\arcsin y.\n$$\n故选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
+    "integration_order",
+    "double_integral_region"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -338,16 +342,18 @@
    "number": 7,
    "title": "2024 年数学二 第 7 题",
    "questionText": "设非负函数 $f(x)$ 在 $[0,+\\infty)$ 上连续，给出三个命题：\n1. 若 $\\int_0^{+\\infty}f^2(x)\\,dx$ 收敛，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n2. 若存在 $p>1$，使极限 $\\lim_{x\\to+\\infty}x^p f(x)$ 存在，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n3. 若 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛，则存在 $p>1$，使极限 $\\lim_{x\\to+\\infty}x^p f(x)$ 存在。\n\n其中正确命题的个数是（ ）\n\n- A. $0$\n- B. $1$\n- C. $2$\n- D. $3$",
-   "answerText": "B\n\n**解析：**\n- (1) 错。取 $f(x)=\\dfrac{1}{1+x}$，则 $\\int_0^{+\\infty}f^2(x)\\,dx$ 收敛，但 $\\int_0^{+\\infty}f(x)\\,dx$ 发散。\n- (2) 对。若 $\\lim_{x\\to+\\infty}x^pf(x)$ 存在，则充分大时 $f(x)\\le \\dfrac{M}{x^p}$，再由比较判别法知积分收敛。\n- (3) 错。取\n  $$\n  f(x)=\\frac{1}{(x+2)\\ln^2(x+2)},\n  $$\n  积分收敛，但不存在 $p>1$ 使 $x^pf(x)$ 极限存在。\n\n故正确的只有 1 个。",
+   "answerText": "答案：B\n\n**解析：**\n- 命题 1 错：取 $f(x)=\\dfrac1{1+x}$，$\\int_0^{+\\infty}f^{2}\\,\\mathrm{d}x$ 收敛，但 $\\int_0^{+\\infty}f\\,\\mathrm{d}x$ 发散。\n- 命题 2 对：设 $x^{p}f(x)\\to M$，则充分远处 $f(x)\\le\\dfrac{M+1}{x^{p}}$，而 $p>1$，由比较判别法知积分收敛。\n- 命题 3 错：取 $f(x)=\\dfrac1{(x+2)\\ln^{2}(x+2)}$，积分收敛；但对任意 $p>1$，$x^{p}f(x)\\sim\\dfrac{x^{p-1}}{\\ln^{2}x}\\to\\infty$，这样的 $p$ 不存在。\n\n正确的只有 $1$ 个，选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -358,7 +364,7 @@
     "paper": "math2",
     "number": 7
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "一、选择题"
   },
   {
@@ -366,7 +372,7 @@
    "number": 8,
    "title": "2024 年数学二 第 8 题",
    "questionText": "设 $\\boldsymbol A$ 为三阶矩阵，\n$$\n\\boldsymbol P=\n\\begin{pmatrix}\n1&0&0\\\\\n0&1&0\\\\\n1&0&1\n\\end{pmatrix},\n$$\n若\n$$\n\\boldsymbol P^T\\boldsymbol A\\boldsymbol P^2=\n\\begin{pmatrix}\na+2c&0&c\\\\\n0&b&0\\\\\n2c&0&c\n\\end{pmatrix},\n$$\n则矩阵 $\\boldsymbol A$ 为（ ）\n\n- A. $\\begin{pmatrix} c&0&0\\\\ 0&a&0\\\\ 0&0&b \\end{pmatrix}$\n- B. $\\begin{pmatrix} b&0&0\\\\ 0&c&0\\\\ 0&0&a \\end{pmatrix}$\n- C. $\\begin{pmatrix} a&0&0\\\\ 0&b&0\\\\ 0&0&c \\end{pmatrix}$\n- D. $\\begin{pmatrix} c&0&0\\\\ 0&b&0\\\\ 0&0&a \\end{pmatrix}$",
-   "answerText": "C\n\n**解析：**\n由\n$$\n\\boldsymbol A=(\\boldsymbol P^T)^{-1}\n\\begin{pmatrix}\na+2c&0&c\\\\\n0&b&0\\\\\n2c&0&c\n\\end{pmatrix}\n(\\boldsymbol P^2)^{-1}\n$$\n直接计算得\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\na&0&0\\\\\n0&b&0\\\\\n0&0&c\n\\end{pmatrix}.\n$$",
+   "answerText": "答案：C\n\n**解析：** $\\boldsymbol P^{2}=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\2&0&1\\end{pmatrix}$，且\n$$\n\\boldsymbol P^{-1}=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\-1&0&1\\end{pmatrix},\\qquad\n(\\boldsymbol P^{2})^{-1}=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\-2&0&1\\end{pmatrix},\\qquad\n(\\boldsymbol P^{T})^{-1}=(\\boldsymbol P^{-1})^{T}.\n$$\n由 $\\boldsymbol A=(\\boldsymbol P^{T})^{-1}\\,\\boldsymbol M\\,(\\boldsymbol P^{2})^{-1}$（$\\boldsymbol M$ 为题给矩阵）：右乘 $(\\boldsymbol P^{2})^{-1}$ 是把第 $1$ 列减去第 $3$ 列的 $2$ 倍，得 $\\begin{pmatrix}a&0&c\\\\0&b&0\\\\0&0&c\\end{pmatrix}$；再左乘 $(\\boldsymbol P^{T})^{-1}$ 是把第 $3$ 行减给第 $1$ 行，得\n$$\n\\boldsymbol A=\\begin{pmatrix}a&0&0\\\\0&b&0\\\\0&0&c\\end{pmatrix}.\n$$\n故选 C。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -374,10 +380,12 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.matrix_transpose"
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.elementary_matrix",
+    "la.knowledge.matrix_operations"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -396,16 +404,20 @@
    "number": 9,
    "title": "2024 年数学二 第 9 题",
    "questionText": "设 $\\boldsymbol A$ 为 $4$ 阶矩阵，$\\boldsymbol A^*$ 为 $\\boldsymbol A$ 的伴随矩阵。若\n$$\n\\boldsymbol A(\\boldsymbol A-\\boldsymbol A^*)=\\boldsymbol O,\\qquad \\boldsymbol A\\ne \\boldsymbol A^*,\n$$\n则 $r(\\boldsymbol A)$ 的取值为（ ）\n\n- A. $0$ 或 $1$\n- B. $1$ 或 $3$\n- C. $2$ 或 $3$\n- D. $1$ 或 $2$",
-   "answerText": "D\n\n**解析：**\n若 $\\boldsymbol A$ 可逆，则 $\\boldsymbol A^*=|\\boldsymbol A|\\boldsymbol A^{-1}$，由题式可推出 $\\boldsymbol A=\\boldsymbol A^*$，矛盾；故 $\\boldsymbol A$ 不可逆，从而\n$$\n\\boldsymbol A\\boldsymbol A^*=|\\boldsymbol A|\\boldsymbol E=\\boldsymbol O.\n$$\n于是由题设得\n$$\n\\boldsymbol A^2=\\boldsymbol O.\n$$\n故\n$$\nr(\\boldsymbol A)+r(\\boldsymbol A)\\le 4 \\Rightarrow r(\\boldsymbol A)\\le 2.\n$$\n又 $\\boldsymbol A\\ne \\boldsymbol O$，故\n$$\nr(\\boldsymbol A)=1\\ \\text{或}\\ 2.\n$$",
+   "answerText": "答案：D\n\n**解析：** 若 $\\boldsymbol A$ 可逆，由 $\\boldsymbol A(\\boldsymbol A-\\boldsymbol A^{*})=\\boldsymbol O$ 得 $\\boldsymbol A^{*}=\\boldsymbol A$，与题设矛盾，故 $|\\boldsymbol A|=0$。此时 $\\boldsymbol A\\boldsymbol A^{*}=|\\boldsymbol A|\\boldsymbol E=\\boldsymbol O$，代回原式得\n$$\n\\boldsymbol A^{2}=\\boldsymbol O.\n$$\n由 $r(\\boldsymbol A^{2})\\ge r(\\boldsymbol A)+r(\\boldsymbol A)-4$ 得 $r(\\boldsymbol A)\\le2$；又若 $\\boldsymbol A=\\boldsymbol O$ 则 $\\boldsymbol A^{*}=\\boldsymbol O=\\boldsymbol A$，矛盾，故 $r(\\boldsymbol A)\\ge1$。于是 $r(\\boldsymbol A)=1$ 或 $2$，选 D。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.adjoint_matrix",
+    "la.knowledge.rank_properties",
+    "la.knowledge.invertibility_criteria"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -416,7 +428,7 @@
     "paper": "math2",
     "number": 9
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "一、选择题"
   },
   {
@@ -424,16 +436,19 @@
    "number": 10,
    "title": "2024 年数学二 第 10 题",
    "questionText": "设 $\\boldsymbol A,\\boldsymbol B$ 均为 $2$ 阶矩阵，且 $\\boldsymbol A\\boldsymbol B=\\boldsymbol B\\boldsymbol A$，则“$\\boldsymbol A$ 有两个不相等的特征值”是“$\\boldsymbol B$ 可对角化”的（ ）\n- A. 充要条件\n- B. 充分不必要条件\n- C. 必要不充分条件\n- D. 既不充分也不必要条件",
-   "answerText": "B\n\n**解析：**\n若 $\\boldsymbol A$ 有两个不同特征值，则有两组线性无关特征向量。由 $\\boldsymbol A\\boldsymbol B=\\boldsymbol B\\boldsymbol A$ 可知，$\\boldsymbol B$ 将 $\\boldsymbol A$ 的特征子空间映到自身，因此这两组特征向量也可取为 $\\boldsymbol B$ 的特征向量，故 $\\boldsymbol B$ 可对角化。\n反之不成立，例如取\n$$\n\\boldsymbol A=\\boldsymbol B=\\boldsymbol E,\n$$\n则 $\\boldsymbol B$ 可对角化，但 $\\boldsymbol A$ 没有两个不相等特征值。\n\n---",
+   "answerText": "答案：B\n\n**解析：** 设 $\\boldsymbol A$ 有两个不同特征值 $\\lambda_1\\ne\\lambda_2$，对应特征向量 $\\boldsymbol p_1,\\boldsymbol p_2$（线性无关）。由 $\\boldsymbol A\\boldsymbol B=\\boldsymbol B\\boldsymbol A$，\n$$\n\\boldsymbol A(\\boldsymbol B\\boldsymbol p_i)=\\boldsymbol B(\\boldsymbol A\\boldsymbol p_i)=\\lambda_i\\,\\boldsymbol B\\boldsymbol p_i,\n$$\n即 $\\boldsymbol B\\boldsymbol p_i$ 仍属于 $\\lambda_i$ 的特征子空间；二维情形该子空间是一维的，故 $\\boldsymbol B\\boldsymbol p_i=\\mu_i\\boldsymbol p_i$，$\\boldsymbol p_1,\\boldsymbol p_2$ 就是 $\\boldsymbol B$ 的两组线性无关特征向量，$\\boldsymbol B$ 可对角化：充分性成立。\n\n必要性不成立：取 $\\boldsymbol A=\\boldsymbol B=\\boldsymbol E$，$\\boldsymbol B$ 可对角化，但 $\\boldsymbol A$ 没有两个不相等的特征值。故是充分不必要条件，选 B。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.diagonalization_criteria",
+    "la.knowledge.eigen_concept"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -444,7 +459,7 @@
     "paper": "math2",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "一、选择题"
   },
   {
@@ -452,7 +467,7 @@
    "number": 11,
    "title": "2024 年数学二 第 11 题",
    "questionText": "曲线 $y^2=x$ 在点 $(0,0)$ 处的曲率圆方程为 ______",
-   "answerText": "$$\n\n**解析：**\n将曲线写成 $x=y^2$，则\n$$\nx'(y)=2y,\\qquad x''(y)=2.\n$$\n故在 $y=0$ 处曲率为\n$$\nK=\\frac{|x''(0)|}{\\left(1+[x'(0)]^2\\right)^{3/2}}=2,\n$$\n曲率半径\n$$\nR=\\frac12.\n$$\n又曲线在原点处与 $y$ 轴相切，曲率中心为 $\\left(\\frac12,0\\right)$，故曲率圆方程如上。",
+   "answerText": "答案：$\\left(x-\\dfrac12\\right)^{2}+y^{2}=\\dfrac14$\n\n**解析：** 把曲线写成 $x=y^{2}$，则 $x'(y)=2y$，$x''(y)=2$。在原点处 $x'(0)=0$，曲率\n$$\nK=\\frac{|x''(0)|}{\\left(1+[x'(0)]^{2}\\right)^{3/2}}=2,\n\\qquad R=\\frac1K=\\frac12.\n$$\n曲线在原点处与 $y$ 轴相切、向右侧弯，曲率中心为 $\\left(\\dfrac12,0\\right)$，故曲率圆方程为\n$$\n\\left(x-\\dfrac12\\right)^{2}+y^{2}=\\dfrac14.\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -463,7 +478,7 @@
     "curvature"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -482,19 +497,18 @@
    "number": 12,
    "title": "2024 年数学二 第 12 题",
    "questionText": "函数\n$$\nf(x,y)=2x^3-9x^2-6y^4+12x+24y\n$$\n的极值点为 ______",
-   "answerText": "$$\n\n**解析：**\n由\n$$\nf_x=6x^2-18x+12,\\qquad f_y=-24y^3+24,\n$$\n得驻点为 $(1,1)$、$(2,1)$。再由\n$$\nf_{xx}=12x-18,\\qquad f_{xy}=0,\\qquad f_{yy}=-72y^2,\n$$\n知在 $(1,1)$ 处，\n$$\nf_{xx}f_{yy}-f_{xy}^2>0,\\qquad f_{xx}<0,\n$$\n故 $(1,1)$ 为极值点；而 $(2,1)$ 处判别式小于零，不是极值点。",
+   "answerText": "答案：$(1,1)$\n\n**解析：** $f_x=6x^{2}-18x+12=6(x-1)(x-2)$，$f_y=-24y^{3}+24$，解得驻点 $(1,1)$ 与 $(2,1)$。\n\n$f_{xx}=12x-18$，$f_{xy}=0$，$f_{yy}=-72y^{2}$。在 $(1,1)$ 处 $A=-6$，$C=-72$，$AC-B^{2}>0$ 且 $A<0$，是极大值点；在 $(2,1)$ 处 $A=6$，$C=-72$，$AC-B^{2}<0$，不是极值点。\n\n故极值点只有 $(1,1)$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "extrema",
-    "power_series_sum"
+    "extrema"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -513,16 +527,18 @@
    "number": 13,
    "title": "2024 年数学二 第 13 题",
    "questionText": "微分方程\n$$\ny'=\\frac{1}{(x+y)^2}\n$$\n满足初始条件 $y(1)=0$ 的解为 ______",
-   "answerText": "$$\n\n**解析：**\n令 $u=x+y$，则\n$$\ny=u-x,\\qquad y'=u'-1.\n$$\n代入原方程得\n$$\nu'-1=\\frac{1}{u^2}\n\\Rightarrow\nu'=\\frac{1+u^2}{u^2}.\n$$\n分离变量积分：\n$$\nx=u-\\arctan u+C.\n$$\n代回 $u=x+y$，得\n$$\ny=\\arctan(x+y)-C.\n$$\n再由 $y(1)=0$ 得 $C=\\frac{\\pi}{4}$。",
+   "answerText": "答案：$y=\\arctan(x+y)-\\dfrac{\\pi}{4}$\n\n**解析：** 令 $u=x+y$，则 $y=u-x$，$y'=u'-1$，方程化为\n$$\nu'-1=\\frac1{u^{2}}\n\\quad\\Longrightarrow\\quad\nu'=\\frac{1+u^{2}}{u^{2}}.\n$$\n分离变量 $\\dfrac{u^{2}}{1+u^{2}}\\,\\mathrm{d}u=\\mathrm{d}x$，积分得 $u-\\arctan u=x+C$。代回 $u=x+y$ 化简得 $y=\\arctan(x+y)+C$。由 $y(1)=0$（此时 $u=1$）得 $C=-\\dfrac{\\pi}{4}$。故\n$$\ny=\\arctan(x+y)-\\frac{\\pi}{4}.\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "separable_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -541,16 +557,18 @@
    "number": 14,
    "title": "2024 年数学二 第 14 题",
    "questionText": "已知函数\n$$\nf(x)=x^2(e^x-1),\n$$\n则\n$$\nf^{(5)}(1)=\\ \\underline{\\qquad}\n$$",
-   "answerText": "$$\n\n**解析：**\n由莱布尼茨公式可得\n$$\nf^{(5)}(x)=(x^2+10x+20)e^x.\n$$\n故\n$$\nf^{(5)}(1)=(1+10+20)e=31e.\n$$",
+   "answerText": "答案：$31e$\n\n**解析：** $f=x^{2}e^{x}-x^{2}$，其中 $x^{2}$ 项的五阶导数为零。对 $x^{2}e^{x}$ 用莱布尼茨公式：\n$$\n\\bigl(x^{2}e^{x}\\bigr)^{(5)}=e^{x}\\left[x^{2}+\\binom{5}{2}\\cdot2x+\\binom{5}{5}\\cdot2\\right]=e^{x}\\left(x^{2}+10x+20\\right),\n$$\n故 $f^{(5)}(1)=(1+10+20)e=31e$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "taylor_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -561,7 +579,7 @@
     "paper": "math2",
     "number": 14
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、填空题"
   },
   {
@@ -569,16 +587,19 @@
    "number": 15,
    "title": "2024 年数学二 第 15 题",
    "questionText": "某物体以速度\n$$\nv(t)=t+k\\sin\\pi t\n$$\n做直线运动。若它从 $t=0$ 到 $t=3$ 的平均速度是 $\\dfrac52$，则 $k=$ ______",
-   "answerText": "$$\n\n**解析：**\n由平均速度定义，\n$$\n\\frac13\\int_0^3\\bigl(t+k\\sin\\pi t\\bigr)\\,dt=\\frac52.\n$$\n计算得\n$$\n\\frac13\\left(\\frac92+\\frac{2k}{\\pi}\\right)=\\frac52,\n$$\n故\n$$\nk=\\frac{3\\pi}{2}.\n$$",
+   "answerText": "答案：$\\dfrac{3\\pi}{2}$\n\n**解析：** 平均速度为\n$$\n\\frac13\\int_0^{3}\\bigl(t+k\\sin\\pi t\\bigr)\\,\\mathrm{d}t\n=\\frac13\\left(\\frac92+\\frac{2k}{\\pi}\\right)\n$$\n（其中 $\\int_0^{3}\\sin\\pi t\\,\\mathrm{d}t=\\dfrac2{\\pi}$）。令其等于 $\\dfrac52$：\n$$\n\\frac92+\\frac{2k}{\\pi}=\\frac{15}{2}\n\\quad\\Longrightarrow\\quad k=\\frac{3\\pi}{2}.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "integral_mean_value",
+    "fundamental_theorem_calculus"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -597,18 +618,19 @@
    "number": 16,
    "title": "2024 年数学二 第 16 题",
    "questionText": "设向量\n$$\n\\boldsymbol\\alpha_1=\n\\begin{pmatrix}\na\\\\\n1\\\\\n-1\\\\\n1\n\\end{pmatrix},\\quad\n\\boldsymbol\\alpha_2=\n\\begin{pmatrix}\n1\\\\\n1\\\\\nb\\\\\na\n\\end{pmatrix},\\quad\n\\boldsymbol\\alpha_3=\n\\begin{pmatrix}\n1\\\\\na\\\\\n-1\\\\\n1\n\\end{pmatrix}.\n$$\n若 $\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3$ 线性相关，且其中任意两个向量均线性无关，则 $ab=$ ______",
-   "answerText": "$$\n\n**解析：**\n对矩阵 $(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)$ 行变换，可化到\n$$\n\\begin{pmatrix}\n1&1&a\\\\\n0&1&-1-a\\\\\n0&0&a+b\\\\\n0&0&a+2\n\\end{pmatrix}.\n$$\n由题设知秩为 $2$，故\n$$\na+2=0,\\qquad a+b=0.\n$$\n解得\n$$\na=-2,\\qquad b=2,\n$$\n于是\n$$\nab=-4.\n$$\n\n---",
+   "answerText": "答案：$-4$\n\n**解析：** 设 $x_1\\boldsymbol\\alpha_1+x_2\\boldsymbol\\alpha_2+x_3\\boldsymbol\\alpha_3=\\boldsymbol 0$。把第 $1$ 个分量方程分别与第 $2$、第 $4$ 个分量方程相减，得\n$$\n(a-1)(x_1-x_3)=0,\\qquad (a-1)(x_1-x_2)=0.\n$$\n若 $a=1$，则 $\\boldsymbol\\alpha_1=\\boldsymbol\\alpha_3$，与\"任意两个向量线性无关\"矛盾，故 $a\\ne1$，于是 $x_1=x_2=x_3$。代回第 $1$ 个分量方程得 $(a+2)x_1=0$，要存在非零解须 $a=-2$；再代第 $3$ 个分量方程得 $(b-2)x_1=0$，故 $b=2$。\n\n此时 $\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3=\\boldsymbol 0$，解空间一维，向量组秩恰为 $2$，满足全部题设。故 $ab=(-2)\\times2=-4$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "vector_linear_operation"
+    "la.knowledge.linear_correlation",
+    "la.knowledge.vector_group_rank"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -619,15 +641,15 @@
     "paper": "math2",
     "number": 16
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、填空题"
   },
   {
    "id": "bank.exam.m2-2024.17",
    "number": 17,
    "title": "2024 年数学二 第 17 题",
-   "questionText": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nxy=\\frac13,\\qquad xy=3\n$$\n与直线\n$$\ny=\\frac13x,\\qquad y=3x\n$$\n围成，计算\n$$\n\\iint_D(1+x-y)\\,dx\\,dy.\n$$\n\n**解析：**\n区域关于直线 $y=x$ 对称，因此\n$$\n\\iint_D x\\,dx\\,dy=\\iint_D y\\,dx\\,dy,\n$$\n从而原积分化为\n$$\n\\iint_D 1\\,dx\\,dy,\n$$\n即只需求区域面积。\n\n改用极坐标\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta.\n$$\n由边界条件得\n$$\n\\arctan\\frac13\\le \\theta\\le \\arctan 3,\n$$\n且\n$$\n\\frac13\\le r^2\\sin\\theta\\cos\\theta\\le 3.\n$$\n故\n$$\n\\iint_D dx\\,dy\n=\n\\int_{\\arctan(1/3)}^{\\arctan 3}\n\\int_{\\sqrt{\\frac{1}{3\\sin\\theta\\cos\\theta}}}^{\\sqrt{\\frac{3}{\\sin\\theta\\cos\\theta}}}\nr\\,dr\\,d\\theta.\n$$\n计算得\n$$\n\\iint_D dx\\,dy\n=\n\\frac{8}{3}\\int_{\\arctan(1/3)}^{\\arctan 3}\\frac{1}{\\sin 2\\theta}\\,d\\theta\n=\n\\frac{8}{3}\\ln 3.\n$$\n因此\n$$\n\\boxed{\\iint_D(1+x-y)\\,dx\\,dy=\\frac{8}{3}\\ln 3 }.\n$$",
-   "answerText": "**解析：**\n区域关于直线 $y=x$ 对称，因此\n$$\n\\iint_D x\\,dx\\,dy=\\iint_D y\\,dx\\,dy,\n$$\n从而原积分化为\n$$\n\\iint_D 1\\,dx\\,dy,\n$$\n即只需求区域面积。\n\n改用极坐标\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta.\n$$\n由边界条件得\n$$\n\\arctan\\frac13\\le \\theta\\le \\arctan 3,\n$$\n且\n$$\n\\frac13\\le r^2\\sin\\theta\\cos\\theta\\le 3.\n$$\n故\n$$\n\\iint_D dx\\,dy\n=\n\\int_{\\arctan(1/3)}^{\\arctan 3}\n\\int_{\\sqrt{\\frac{1}{3\\sin\\theta\\cos\\theta}}}^{\\sqrt{\\frac{3}{\\sin\\theta\\cos\\theta}}}\nr\\,dr\\,d\\theta.\n$$\n计算得\n$$\n\\iint_D dx\\,dy\n=\n\\frac{8}{3}\\int_{\\arctan(1/3)}^{\\arctan 3}\\frac{1}{\\sin 2\\theta}\\,d\\theta\n=\n\\frac{8}{3}\\ln 3.\n$$\n因此\n$$\n\\boxed{\\iint_D(1+x-y)\\,dx\\,dy=\\frac{8}{3}\\ln 3 }.\n$$",
+   "questionText": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nxy=\\frac13,\\qquad xy=3\n$$\n与直线\n$$\ny=\\frac13x,\\qquad y=3x\n$$\n围成，计算\n$$\n\\iint_D(1+x-y)\\,dx\\,dy.\n$$",
+   "answerText": "答案：$\\dfrac83\\ln3$\n\n**解析：** 区域 $D$ 关于直线 $y=x$ 对称，故 $\\iint_Dx\\,\\mathrm{d}\\sigma=\\iint_Dy\\,\\mathrm{d}\\sigma$，原积分化为 $\\iint_D\\mathrm{d}\\sigma$，即只需求面积。\n\n极坐标下：$\\arctan\\dfrac13\\le\\theta\\le\\arctan3$，且 $\\dfrac1{3\\sin\\theta\\cos\\theta}\\le r^{2}\\le\\dfrac3{\\sin\\theta\\cos\\theta}$。于是\n$$\n\\iint_D\\mathrm{d}\\sigma\n=\\int_{\\arctan(1/3)}^{\\arctan3}\\frac12\\left(\\frac{3}{\\sin\\theta\\cos\\theta}-\\frac{1}{3\\sin\\theta\\cos\\theta}\\right)\\mathrm{d}\\theta\n=\\frac83\\int_{\\arctan(1/3)}^{\\arctan3}\\frac{\\mathrm{d}\\theta}{\\sin2\\theta}.\n$$\n利用 $\\displaystyle\\int\\frac{\\mathrm{d}\\theta}{\\sin2\\theta}=\\frac12\\ln\\tan\\theta$，得\n$$\n\\iint_D\\mathrm{d}\\sigma=\\frac83\\cdot\\frac12\\Bigl[\\ln\\tan\\theta\\Bigr]_{\\arctan(1/3)}^{\\arctan3}\n=\\frac43\\bigl(\\ln3-\\ln\\tfrac13\\bigr)=\\frac83\\ln3.\n$$\n故 $\\iint_D(1+x-y)\\,\\mathrm{d}x\\mathrm{d}y=\\dfrac83\\ln3$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
@@ -636,10 +658,11 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "polar_coordinates",
-    "area_volume_arc"
+    "double_integral_region",
+    "multiple_integral_symmetry"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -657,17 +680,20 @@
    "id": "bank.exam.m2-2024.18",
    "number": 18,
    "title": "2024 年数学二 第 18 题",
-   "questionText": "设 $y=y(x)$ 满足方程\n$$\nx^2y''+xy'-9y=0,\n$$\n且\n$$\ny\\big|_{x=1}=2,\\qquad y'\\big|_{x=1}=6.\n$$\n\n1. 利用变换 $x=e^t$ 化简方程，并求 $y(x)$；\n2. 求\n   $$\n   \\int_1^2 y(x)\\sqrt{4-x^2}\\,dx.\n   $$\n\n**解析：**\n\n#### （1）\n\n令 $x=e^t$，则 $t=\\ln x$。有\n$$\n\\frac{dy}{dx}=\\frac1x\\frac{dy}{dt},\\qquad\n\\frac{d^2y}{dx^2}=\\frac{1}{x^2}\\left(\\frac{d^2y}{dt^2}-\\frac{dy}{dt}\\right).\n$$\n代入原方程得\n$$\n\\frac{d^2y}{dt^2}-9y=0.\n$$\n故通解为\n$$\ny=C_1e^{3t}+C_2e^{-3t}=C_1x^3+C_2x^{-3}.\n$$\n再由\n$$\ny(1)=2,\\qquad y'(1)=6\n$$\n解得\n$$\nC_1=2,\\qquad C_2=0.\n$$\n因此\n$$\n\\boxed{y=2x^3 }.\n$$\n\n#### （2）\n\n于是\n$$\n\\int_1^2 y(x)\\sqrt{4-x^2}\\,dx\n=\n\\int_1^2 2x^3\\sqrt{4-x^2}\\,dx.\n$$\n令\n$$\nu=4-x^2,\\qquad du=-2x\\,dx,\n$$\n则\n$$\n2x^3dx=2x^2(x\\,dx)=(4-u)(-du).\n$$\n故原积分化为\n$$\n\\int_0^3 (4-u)u^{1/2}\\,du\n=\n\\left[\\frac{8}{3}u^{3/2}-\\frac{2}{5}u^{5/2}\\right]_0^3\n=\n\\frac{22}{5}\\sqrt3.\n$$\n即\n$$\n\\boxed{\\int_1^2 y(x)\\sqrt{4-x^2}\\,dx=\\frac{22}{5}\\sqrt3 }.\n$$",
-   "answerText": "**解析：**\n#### （1）\n\n令 $x=e^t$，则 $t=\\ln x$。有\n$$\n\\frac{dy}{dx}=\\frac1x\\frac{dy}{dt},\\qquad\n\\frac{d^2y}{dx^2}=\\frac{1}{x^2}\\left(\\frac{d^2y}{dt^2}-\\frac{dy}{dt}\\right).\n$$\n代入原方程得\n$$\n\\frac{d^2y}{dt^2}-9y=0.\n$$\n故通解为\n$$\ny=C_1e^{3t}+C_2e^{-3t}=C_1x^3+C_2x^{-3}.\n$$\n再由\n$$\ny(1)=2,\\qquad y'(1)=6\n$$\n解得\n$$\nC_1=2,\\qquad C_2=0.\n$$\n因此\n$$\n\\boxed{y=2x^3 }.\n$$\n\n#### （2）\n\n于是\n$$\n\\int_1^2 y(x)\\sqrt{4-x^2}\\,dx\n=\n\\int_1^2 2x^3\\sqrt{4-x^2}\\,dx.\n$$\n令\n$$\nu=4-x^2,\\qquad du=-2x\\,dx,\n$$\n则\n$$\n2x^3dx=2x^2(x\\,dx)=(4-u)(-du).\n$$\n故原积分化为\n$$\n\\int_0^3 (4-u)u^{1/2}\\,du\n=\n\\left[\\frac{8}{3}u^{3/2}-\\frac{2}{5}u^{5/2}\\right]_0^3\n=\n\\frac{22}{5}\\sqrt3.\n$$\n即\n$$\n\\boxed{\\int_1^2 y(x)\\sqrt{4-x^2}\\,dx=\\frac{22}{5}\\sqrt3 }.\n$$",
+   "questionText": "设 $y=y(x)$ 满足方程\n$$\nx^2y''+xy'-9y=0,\n$$\n且\n$$\ny\\big|_{x=1}=2,\\qquad y'\\big|_{x=1}=6.\n$$\n\n1. 利用变换 $x=e^t$ 化简方程，并求 $y(x)$；\n2. 求\n   $$\n   \\int_1^2 y(x)\\sqrt{4-x^2}\\,dx.\n   $$",
+   "answerText": "答案：（1）$y=2x^{3}$；（2）$\\dfrac{22}{5}\\sqrt3$。\n\n**解析：**（1）令 $x=e^{t}$，$t=\\ln x$，则\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac1x\\frac{\\mathrm{d}y}{\\mathrm{d}t},\\qquad\n\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\frac1{x^{2}}\\left(\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}t^{2}}-\\frac{\\mathrm{d}y}{\\mathrm{d}t}\\right),\n$$\n代入原方程得 $\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}t^{2}}-9y=0$，通解 $y=C_1e^{3t}+C_2e^{-3t}=C_1x^{3}+C_2x^{-3}$。由 $y(1)=2$，$y'(1)=6$ 解得 $C_1=2$，$C_2=0$，故 $y=2x^{3}$。\n\n（2）令 $u=4-x^{2}$，$\\mathrm{d}u=-2x\\,\\mathrm{d}x$，$2x^{3}\\,\\mathrm{d}x=(4-u)(-\\mathrm{d}u)$；$x:1\\to2$ 对应 $u:3\\to0$，\n$$\n\\int_1^{2}2x^{3}\\sqrt{4-x^{2}}\\,\\mathrm{d}x\n=\\int_0^{3}(4-u)u^{1/2}\\,\\mathrm{d}u\n=\\left[\\frac83u^{3/2}-\\frac25u^{5/2}\\right]_0^{3}\n=8\\sqrt3-\\frac{18}{5}\\sqrt3\n=\\frac{22}{5}\\sqrt3.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
+   "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "second_order_homogeneous_linear",
+    "reducible_higher_order_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -685,8 +711,8 @@
    "id": "bank.exam.m2-2024.19",
    "number": 19,
    "title": "2024 年数学二 第 19 题",
-   "questionText": "设 $t>0$，曲线\n$$\ny=\\sqrt{x}e^{-x}\n$$\n与直线 $x=t,\\ x=2t$ 及 $x$ 轴所围平面图形绕 $x$ 轴旋转所得的旋转体体积为 $V(t)$，求 $V(t)$ 的最大值。\n\n**解析：**\n由旋转体体积公式，\n$$\nV(t)=\\pi\\int_t^{2t}\\bigl(\\sqrt{x}e^{-x}\\bigr)^2\\,dx\n=\\pi\\int_t^{2t}xe^{-2x}\\,dx.\n$$\n对 $t$ 求导，\n$$\nV'(t)=2\\pi\\cdot (2t)e^{-4t}-\\pi\\cdot t e^{-2t}\n=\\pi t e^{-2t}(4e^{-2t}-1).\n$$\n故\n$$\nV'(t)\n\\begin{cases}\n>0, & 0<t<\\ln 2,\\\\\n<0, & t>\\ln 2.\n\\end{cases}\n$$\n所以 $V(t)$ 在 $t=\\ln 2$ 处取得最大值。\n\n代入得\n$$\nV_{\\max}=V(\\ln 2)\n=\\pi\\int_{\\ln 2}^{2\\ln 2}xe^{-2x}\\,dx\n=\\pi\\left(\\frac{\\ln 2}{16}+\\frac{3}{64}\\right).\n$$\n即\n$$\n\\boxed{V_{\\max}=\\pi\\left(\\frac{\\ln 2}{16}+\\frac{3}{64}\\right)}.\n$$",
-   "answerText": "**解析：**\n由旋转体体积公式，\n$$\nV(t)=\\pi\\int_t^{2t}\\bigl(\\sqrt{x}e^{-x}\\bigr)^2\\,dx\n=\\pi\\int_t^{2t}xe^{-2x}\\,dx.\n$$\n对 $t$ 求导，\n$$\nV'(t)=2\\pi\\cdot (2t)e^{-4t}-\\pi\\cdot t e^{-2t}\n=\\pi t e^{-2t}(4e^{-2t}-1).\n$$\n故\n$$\nV'(t)\n\\begin{cases}\n>0, & 0<t<\\ln 2,\\\\\n<0, & t>\\ln 2.\n\\end{cases}\n$$\n所以 $V(t)$ 在 $t=\\ln 2$ 处取得最大值。\n\n代入得\n$$\nV_{\\max}=V(\\ln 2)\n=\\pi\\int_{\\ln 2}^{2\\ln 2}xe^{-2x}\\,dx\n=\\pi\\left(\\frac{\\ln 2}{16}+\\frac{3}{64}\\right).\n$$\n即\n$$\n\\boxed{V_{\\max}=\\pi\\left(\\frac{\\ln 2}{16}+\\frac{3}{64}\\right)}.\n$$",
+   "questionText": "设 $t>0$，曲线\n$$\ny=\\sqrt{x}e^{-x}\n$$\n与直线 $x=t,\\ x=2t$ 及 $x$ 轴所围平面图形绕 $x$ 轴旋转所得的旋转体体积为 $V(t)$，求 $V(t)$ 的最大值。",
+   "answerText": "答案：$V(t)$ 在 $t=\\ln2$ 处取得最大值 $V_{\\max}=\\pi\\left(\\dfrac{\\ln2}{16}+\\dfrac3{64}\\right)$。\n\n**解析：** $V(t)=\\pi\\displaystyle\\int_t^{2t}xe^{-2x}\\,\\mathrm{d}x$。对变限求导：\n$$\nV'(t)=\\pi\\bigl[2t\\,e^{-4t}\\cdot2-t\\,e^{-2t}\\bigr]=\\pi te^{-2t}\\bigl(4e^{-2t}-1\\bigr).\n$$\n$0<t<\\ln2$ 时 $V'(t)>0$，$t>\\ln2$ 时 $V'(t)<0$，故 $t=\\ln2$ 是最大值点。计算\n$$\nV(\\ln2)=\\pi\\left[-\\frac{x}{2}e^{-2x}-\\frac14e^{-2x}\\right]_{\\ln2}^{2\\ln2}\n=\\pi\\left(\\frac{\\ln2}{16}+\\frac{3}{64}\\right).\n$$",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
@@ -695,10 +721,10 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "area_volume_arc",
-    "quadric_surface_equations"
+    "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -716,17 +742,19 @@
    "id": "bank.exam.m2-2024.20",
    "number": 20,
    "title": "2024 年数学二 第 20 题",
-   "questionText": "设 $f(u,v)$ 具有二阶连续偏导，\n$$\ng(x,y)=f(2x+y,\\,3x-y),\n$$\n且满足\n$$\n\\frac{\\partial^2g}{\\partial x^2}\n+\\frac{\\partial^2g}{\\partial x\\partial y}\n-6\\frac{\\partial^2g}{\\partial y^2}=1.\n$$\n\n1. 求 $\\dfrac{\\partial^2f}{\\partial u\\partial v}$；\n2. 若 $\\dfrac{\\partial f(u,0)}{\\partial u}=ue^{-u}$，且 $f(0,v)=\\dfrac{1}{50}v^2-1$，求 $f(u,v)$。\n\n**解析：**\n\n#### （1）\n\n由链式法则，\n$$\nu=2x+y,\\qquad v=3x-y.\n$$\n于是\n$$\ng_x=2f_u+3f_v,\\qquad g_y=f_u-f_v.\n$$\n继续求导得\n$$\ng_{xx}=4f_{uu}+12f_{uv}+9f_{vv},\n$$\n$$\ng_{xy}=2f_{uu}+f_{uv}-3f_{vv},\n$$\n$$\ng_{yy}=f_{uu}-2f_{uv}+f_{vv}.\n$$\n代入题设可得\n$$\n25f_{uv}=1.\n$$\n故\n$$\n\\boxed{f_{uv}=\\frac{1}{25}}.\n$$\n\n#### （2）\n\n由\n$$\nf_{uv}=\\frac{1}{25}\n$$\n知\n$$\nf_u(u,v)=\\frac{1}{25}v+\\phi(u).\n$$\n又因\n$$\nf_u(u,0)=ue^{-u},\n$$\n故\n$$\n\\phi(u)=ue^{-u}.\n$$\n于是\n$$\nf_u(u,v)=\\frac{1}{25}v+ue^{-u}.\n$$\n对 $u$ 积分，\n$$\nf(u,v)=\\frac{1}{25}uv-(u+1)e^{-u}+\\psi(v).\n$$\n再由\n$$\nf(0,v)=\\frac{1}{50}v^2-1\n$$\n得\n$$\n\\psi(v)=\\frac{1}{50}v^2.\n$$\n因此\n$$\n\\boxed{\nf(u,v)=\\frac{1}{25}uv-(u+1)e^{-u}+\\frac{1}{50}v^2\n}.\n$$",
-   "answerText": "**解析：**\n#### （1）\n\n由链式法则，\n$$\nu=2x+y,\\qquad v=3x-y.\n$$\n于是\n$$\ng_x=2f_u+3f_v,\\qquad g_y=f_u-f_v.\n$$\n继续求导得\n$$\ng_{xx}=4f_{uu}+12f_{uv}+9f_{vv},\n$$\n$$\ng_{xy}=2f_{uu}+f_{uv}-3f_{vv},\n$$\n$$\ng_{yy}=f_{uu}-2f_{uv}+f_{vv}.\n$$\n代入题设可得\n$$\n25f_{uv}=1.\n$$\n故\n$$\n\\boxed{f_{uv}=\\frac{1}{25}}.\n$$\n\n#### （2）\n\n由\n$$\nf_{uv}=\\frac{1}{25}\n$$\n知\n$$\nf_u(u,v)=\\frac{1}{25}v+\\phi(u).\n$$\n又因\n$$\nf_u(u,0)=ue^{-u},\n$$\n故\n$$\n\\phi(u)=ue^{-u}.\n$$\n于是\n$$\nf_u(u,v)=\\frac{1}{25}v+ue^{-u}.\n$$\n对 $u$ 积分，\n$$\nf(u,v)=\\frac{1}{25}uv-(u+1)e^{-u}+\\psi(v).\n$$\n再由\n$$\nf(0,v)=\\frac{1}{50}v^2-1\n$$\n得\n$$\n\\psi(v)=\\frac{1}{50}v^2.\n$$\n因此\n$$\n\\boxed{\nf(u,v)=\\frac{1}{25}uv-(u+1)e^{-u}+\\frac{1}{50}v^2\n}.\n$$",
+   "questionText": "设 $f(u,v)$ 具有二阶连续偏导，\n$$\ng(x,y)=f(2x+y,\\,3x-y),\n$$\n且满足\n$$\n\\frac{\\partial^2g}{\\partial x^2}\n+\\frac{\\partial^2g}{\\partial x\\partial y}\n-6\\frac{\\partial^2g}{\\partial y^2}=1.\n$$\n\n1. 求 $\\dfrac{\\partial^2f}{\\partial u\\partial v}$；\n2. 若 $\\dfrac{\\partial f(u,0)}{\\partial u}=ue^{-u}$，且 $f(0,v)=\\dfrac{1}{50}v^2-1$，求 $f(u,v)$。",
+   "answerText": "答案：（1）$f_{uv}=\\dfrac1{25}$；（2）$f(u,v)=\\dfrac1{25}uv-(u+1)e^{-u}+\\dfrac1{50}v^{2}$。\n\n**解析：**（1）记 $u=2x+y$，$v=3x-y$，则 $g_x=2f_u+3f_v$，$g_y=f_u-f_v$。继续求二阶偏导：\n$$\ng_{xx}=4f_{uu}+12f_{uv}+9f_{vv},\\qquad\ng_{xy}=2f_{uu}+f_{uv}-3f_{vv},\\qquad\ng_{yy}=f_{uu}-2f_{uv}+f_{vv}.\n$$\n代入条件，$f_{uu}$、$f_{vv}$ 的系数分别为 $4+2-6=0$、$9-3-6=0$，只剩\n$$\n(12+1+12)f_{uv}=25f_{uv}=1,\n$$\n故 $f_{uv}=\\dfrac1{25}$。\n\n（2）由 $f_{uv}=\\dfrac1{25}$ 对 $v$ 积分得 $f_u=\\dfrac v{25}+\\varphi(u)$；代入 $f_u(u,0)=ue^{-u}$ 得 $\\varphi(u)=ue^{-u}$。再对 $u$ 积分：\n$$\nf(u,v)=\\frac1{25}uv-(u+1)e^{-u}+\\psi(v).\n$$\n由 $f(0,v)=\\dfrac1{50}v^{2}-1$ 得 $\\psi(v)=\\dfrac1{50}v^{2}$。故\n$$\nf(u,v)=\\frac1{25}uv-(u+1)e^{-u}+\\frac1{50}v^{2}.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "composite_function_chain_rule"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -737,24 +765,27 @@
     "paper": "math2",
     "number": 20
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2024.21",
    "number": 21,
    "title": "2024 年数学二 第 21 题",
-   "questionText": "设函数 $f(x)$ 具有二阶导数，且\n$$\nf'(0)=f'(1),\\qquad |f''(x)|\\le 1.\n$$\n证明：\n\n1. 当 $x\\in(0,1)$ 时，\n   $$\n   \\left|f(x)-f(0)(1-x)-f(1)x\\right|\\le \\frac{x(1-x)}{2};\n   $$\n2.\n   $$\n   \\left|\\int_0^1 f(x)\\,dx-\\frac{f(0)+f(1)}{2}\\right|\\le \\frac{1}{12}.\n   $$\n\n**解析：**\n\n#### （1）\n\n令\n$$\ng(x)=f(x)-f(0)(1-x)-f(1)x-\\frac{x(1-x)}{2}.\n$$\n则\n$$\ng(0)=g(1)=0,\n$$\n且\n$$\ng''(x)=f''(x)+1\\ge 0.\n$$\n若存在 $x_0\\in(0,1)$ 使 $g(x_0)>0$，则由拉格朗日中值定理可在 $(0,x_0)$、$(x_0,1)$ 内分别取点 $\\xi_1,\\xi_2$，使\n$$\ng'(\\xi_1)>0,\\qquad g'(\\xi_2)<0.\n$$\n再对 $g'$ 应用中值定理，可得某点 $\\xi\\in(\\xi_1,\\xi_2)$ 满足\n$$\ng''(\\xi)<0,\n$$\n与 $g''(x)\\ge 0$ 矛盾。故\n$$\ng(x)\\le 0.\n$$\n同理，对\n$$\n\\tilde g(x)=f(x)-f(0)(1-x)-f(1)x+\\frac{x(1-x)}{2}\n$$\n可得\n$$\n\\tilde g(x)\\ge 0.\n$$\n于是\n$$\n-\\frac{x(1-x)}{2}\n\\le\nf(x)-f(0)(1-x)-f(1)x\n\\le\n\\frac{x(1-x)}{2},\n$$\n即\n$$\n\\boxed{\n\\left|f(x)-f(0)(1-x)-f(1)x\\right|\n\\le\n\\frac{x(1-x)}{2}\n}.\n$$\n\n#### （2）\n\n将上式在 $[0,1]$ 上积分，得\n$$\n-\\int_0^1\\frac{x(1-x)}{2}\\,dx\n\\le\n\\int_0^1\\left[f(x)-f(0)(1-x)-f(1)x\\right]dx\n\\le\n\\int_0^1\\frac{x(1-x)}{2}\\,dx.\n$$\n而\n$$\n\\int_0^1\\frac{x(1-x)}{2}\\,dx=\\frac{1}{12},\n$$\n且\n$$\n\\int_0^1\\left[f(x)-f(0)(1-x)-f(1)x\\right]dx\n=\n\\int_0^1f(x)\\,dx-\\frac{f(0)+f(1)}{2}.\n$$\n因此\n$$\n\\boxed{\n\\left|\\int_0^1f(x)\\,dx-\\frac{f(0)+f(1)}{2}\\right|\n\\le\n\\frac{1}{12}\n}.\n$$",
-   "answerText": "**解析：**\n#### （1）\n\n令\n$$\ng(x)=f(x)-f(0)(1-x)-f(1)x-\\frac{x(1-x)}{2}.\n$$\n则\n$$\ng(0)=g(1)=0,\n$$\n且\n$$\ng''(x)=f''(x)+1\\ge 0.\n$$\n若存在 $x_0\\in(0,1)$ 使 $g(x_0)>0$，则由拉格朗日中值定理可在 $(0,x_0)$、$(x_0,1)$ 内分别取点 $\\xi_1,\\xi_2$，使\n$$\ng'(\\xi_1)>0,\\qquad g'(\\xi_2)<0.\n$$\n再对 $g'$ 应用中值定理，可得某点 $\\xi\\in(\\xi_1,\\xi_2)$ 满足\n$$\ng''(\\xi)<0,\n$$\n与 $g''(x)\\ge 0$ 矛盾。故\n$$\ng(x)\\le 0.\n$$\n同理，对\n$$\n\\tilde g(x)=f(x)-f(0)(1-x)-f(1)x+\\frac{x(1-x)}{2}\n$$\n可得\n$$\n\\tilde g(x)\\ge 0.\n$$\n于是\n$$\n-\\frac{x(1-x)}{2}\n\\le\nf(x)-f(0)(1-x)-f(1)x\n\\le\n\\frac{x(1-x)}{2},\n$$\n即\n$$\n\\boxed{\n\\left|f(x)-f(0)(1-x)-f(1)x\\right|\n\\le\n\\frac{x(1-x)}{2}\n}.\n$$\n\n#### （2）\n\n将上式在 $[0,1]$ 上积分，得\n$$\n-\\int_0^1\\frac{x(1-x)}{2}\\,dx\n\\le\n\\int_0^1\\left[f(x)-f(0)(1-x)-f(1)x\\right]dx\n\\le\n\\int_0^1\\frac{x(1-x)}{2}\\,dx.\n$$\n而\n$$\n\\int_0^1\\frac{x(1-x)}{2}\\,dx=\\frac{1}{12},\n$$\n且\n$$\n\\int_0^1\\left[f(x)-f(0)(1-x)-f(1)x\\right]dx\n=\n\\int_0^1f(x)\\,dx-\\frac{f(0)+f(1)}{2}.\n$$\n因此\n$$\n\\boxed{\n\\left|\\int_0^1f(x)\\,dx-\\frac{f(0)+f(1)}{2}\\right|\n\\le\n\\frac{1}{12}\n}.\n$$",
+   "questionText": "设函数 $f(x)$ 具有二阶导数，且\n$$\nf'(0)=f'(1),\\qquad |f''(x)|\\le 1.\n$$\n证明：\n\n1. 当 $x\\in(0,1)$ 时，\n   $$\n   \\left|f(x)-f(0)(1-x)-f(1)x\\right|\\le \\frac{x(1-x)}{2};\n   $$\n2.\n   $$\n   \\left|\\int_0^1 f(x)\\,dx-\\frac{f(0)+f(1)}{2}\\right|\\le \\frac{1}{12}.\n   $$",
+   "answerText": "答案：证明见解析。\n\n**解析：**（1）记 $h(x)=f(x)-f(0)(1-x)-f(1)x$，则 $h(0)=h(1)=0$，要证 $|h(x)|\\le\\dfrac{x(1-x)}{2}$。\n\n先证 $h(x)\\le\\dfrac{x(1-x)}{2}$：令 $g(x)=h(x)-\\dfrac{x(1-x)}{2}$，则 $g(0)=g(1)=0$，$g''(x)=f''(x)+1\\ge0$。若有 $x_0\\in(0,1)$ 使 $g(x_0)>0$，由拉格朗日中值定理，存在 $\\xi_1\\in(0,x_0)$ 使 $g'(\\xi_1)=\\dfrac{g(x_0)-g(0)}{x_0}>0$，存在 $\\xi_2\\in(x_0,1)$ 使 $g'(\\xi_2)=\\dfrac{g(1)-g(x_0)}{1-x_0}<0$；再对 $g'$ 用中值定理，存在 $\\xi\\in(\\xi_1,\\xi_2)$ 使 $g''(\\xi)<0$，矛盾。故 $g(x)\\le0$。\n\n对 $\\tilde g(x)=h(x)+\\dfrac{x(1-x)}{2}$ 重复同样推理（$(-\\tilde g)''=1-f''\\ge0$，且 $-\\tilde g$ 在两端为零），得 $\\tilde g(x)\\ge0$。两式合并即\n$$\n\\left|f(x)-f(0)(1-x)-f(1)x\\right|\\le\\frac{x(1-x)}{2}.\n$$\n\n（2）将上式在 $[0,1]$ 上积分：\n$$\n\\left|\\int_0^{1}f(x)\\,\\mathrm{d}x-\\frac{f(0)+f(1)}{2}\\right|\n=\\left|\\int_0^{1}h(x)\\,\\mathrm{d}x\\right|\n\\le\\int_0^{1}\\frac{x(1-x)}{2}\\,\\mathrm{d}x\n=\\frac1{12}.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem",
+    "taylor_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -765,28 +796,30 @@
     "paper": "math2",
     "number": 21
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "三、解答题"
   },
   {
    "id": "bank.exam.m2-2024.22",
    "number": 22,
    "title": "2024 年数学二 第 22 题",
-   "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n0&1&a\\\\\n1&0&1\n\\end{pmatrix},\\qquad\n\\boldsymbol B=\n\\begin{pmatrix}\n1&1\\\\\n1&1\\\\\nb&2\n\\end{pmatrix},\n$$\n二次型\n$$\nf(x_1,x_2,x_3)=\\boldsymbol x^T\\boldsymbol B\\boldsymbol A\\boldsymbol x.\n$$\n\n已知方程组 $\\boldsymbol A\\boldsymbol x=0$ 的解是 $\\boldsymbol B^T\\boldsymbol x=0$ 的解，但两个方程组不同解。\n\n1. 求 $a,b$ 的值；\n2. 求正交变换 $\\boldsymbol x=\\boldsymbol Q\\boldsymbol y$，将 $f(x_1,x_2,x_3)$ 化为标准形。\n\n**解析：**\n\n#### （1）\n\n由题意，\n$$\n\\boldsymbol A\\boldsymbol x=0\n\\quad\\text{与}\\quad\n\\begin{pmatrix}\n\\boldsymbol A\\\\\n\\boldsymbol B^T\n\\end{pmatrix}\\boldsymbol x=0\n$$\n同解，故\n$$\nr\\!\\begin{pmatrix}\n\\boldsymbol A\\\\\n\\boldsymbol B^T\n\\end{pmatrix}\n=r(\\boldsymbol A)=2.\n$$\n而\n$$\n\\begin{pmatrix}\n\\boldsymbol A\\\\\n\\boldsymbol B^T\n\\end{pmatrix}\n=\n\\begin{pmatrix}\n0&1&a\\\\\n1&0&1\\\\\n1&1&b\\\\\n1&1&2\n\\end{pmatrix}\n\\sim\n\\begin{pmatrix}\n1&1&2\\\\\n0&1&1\\\\\n0&0&a-1\\\\\n0&0&b-2\n\\end{pmatrix}.\n$$\n故\n$$\na-1=0,\\qquad b-2=0.\n$$\n因此\n$$\n\\boxed{a=1,\\qquad b=2 }.\n$$\n\n#### （2）\n\n代入 $a=1,\\ b=2$，得\n$$\n\\boldsymbol B\\boldsymbol A\n=\n\\begin{pmatrix}\n1&1\\\\\n1&1\\\\\n2&2\n\\end{pmatrix}\n\\begin{pmatrix}\n0&1&1\\\\\n1&0&1\n\\end{pmatrix}\n=\n\\begin{pmatrix}\n1&1&2\\\\\n1&1&2\\\\\n2&2&4\n\\end{pmatrix}.\n$$\n于是\n$$\nf(x_1,x_2,x_3)=x_1^2+x_2^2+4x_3^2+2x_1x_2+4x_1x_3+4x_2x_3\n=(x_1+x_2+2x_3)^2.\n$$\n故该矩阵只有一个非零特征值：\n$$\n\\lambda_1=6,\\qquad \\lambda_2=\\lambda_3=0.\n$$\n取对应的单位正交特征向量为\n$$\n\\boldsymbol q_1=\\frac{1}{\\sqrt6}\n\\begin{pmatrix}\n1\\\\\n1\\\\\n2\n\\end{pmatrix},\\qquad\n\\boldsymbol q_2=\\frac{1}{\\sqrt2}\n\\begin{pmatrix}\n1\\\\\n-1\\\\\n0\n\\end{pmatrix},\\qquad\n\\boldsymbol q_3=\\frac{1}{\\sqrt3}\n\\begin{pmatrix}\n1\\\\\n1\\\\\n-1\n\\end{pmatrix}.\n$$\n令\n$$\n\\boldsymbol Q=(\\boldsymbol q_1,\\boldsymbol q_2,\\boldsymbol q_3)\n=\n\\begin{pmatrix}\n\\frac{1}{\\sqrt6} & \\frac{1}{\\sqrt2} & \\frac{1}{\\sqrt3}\\\\[4pt]\n\\frac{1}{\\sqrt6} & -\\frac{1}{\\sqrt2} & \\frac{1}{\\sqrt3}\\\\[4pt]\n\\frac{2}{\\sqrt6} & 0 & -\\frac{1}{\\sqrt3}\n\\end{pmatrix}.\n$$\n则\n$$\n\\boldsymbol Q^T(\\boldsymbol B\\boldsymbol A)\\boldsymbol Q\n=\n\\operatorname{diag}(6,0,0).\n$$\n因此在正交变换 $\\boldsymbol x=\\boldsymbol Q\\boldsymbol y$ 下，\n$$\n\\boxed{f=6y_1^2 }.\n$$",
-   "answerText": "**解析：**\n#### （1）\n\n由题意，\n$$\n\\boldsymbol A\\boldsymbol x=0\n\\quad\\text{与}\\quad\n\\begin{pmatrix}\n\\boldsymbol A\\\\\n\\boldsymbol B^T\n\\end{pmatrix}\\boldsymbol x=0\n$$\n同解，故\n$$\nr\\!\\begin{pmatrix}\n\\boldsymbol A\\\\\n\\boldsymbol B^T\n\\end{pmatrix}\n=r(\\boldsymbol A)=2.\n$$\n而\n$$\n\\begin{pmatrix}\n\\boldsymbol A\\\\\n\\boldsymbol B^T\n\\end{pmatrix}\n=\n\\begin{pmatrix}\n0&1&a\\\\\n1&0&1\\\\\n1&1&b\\\\\n1&1&2\n\\end{pmatrix}\n\\sim\n\\begin{pmatrix}\n1&1&2\\\\\n0&1&1\\\\\n0&0&a-1\\\\\n0&0&b-2\n\\end{pmatrix}.\n$$\n故\n$$\na-1=0,\\qquad b-2=0.\n$$\n因此\n$$\n\\boxed{a=1,\\qquad b=2 }.\n$$\n\n#### （2）\n\n代入 $a=1,\\ b=2$，得\n$$\n\\boldsymbol B\\boldsymbol A\n=\n\\begin{pmatrix}\n1&1\\\\\n1&1\\\\\n2&2\n\\end{pmatrix}\n\\begin{pmatrix}\n0&1&1\\\\\n1&0&1\n\\end{pmatrix}\n=\n\\begin{pmatrix}\n1&1&2\\\\\n1&1&2\\\\\n2&2&4\n\\end{pmatrix}.\n$$\n于是\n$$\nf(x_1,x_2,x_3)=x_1^2+x_2^2+4x_3^2+2x_1x_2+4x_1x_3+4x_2x_3\n=(x_1+x_2+2x_3)^2.\n$$\n故该矩阵只有一个非零特征值：\n$$\n\\lambda_1=6,\\qquad \\lambda_2=\\lambda_3=0.\n$$\n取对应的单位正交特征向量为\n$$\n\\boldsymbol q_1=\\frac{1}{\\sqrt6}\n\\begin{pmatrix}\n1\\\\\n1\\\\\n2\n\\end{pmatrix},\\qquad\n\\boldsymbol q_2=\\frac{1}{\\sqrt2}\n\\begin{pmatrix}\n1\\\\\n-1\\\\\n0\n\\end{pmatrix},\\qquad\n\\boldsymbol q_3=\\frac{1}{\\sqrt3}\n\\begin{pmatrix}\n1\\\\\n1\\\\\n-1\n\\end{pmatrix}.\n$$\n令\n$$\n\\boldsymbol Q=(\\boldsymbol q_1,\\boldsymbol q_2,\\boldsymbol q_3)\n=\n\\begin{pmatrix}\n\\frac{1}{\\sqrt6} & \\frac{1}{\\sqrt2} & \\frac{1}{\\sqrt3}\\\\[4pt]\n\\frac{1}{\\sqrt6} & -\\frac{1}{\\sqrt2} & \\frac{1}{\\sqrt3}\\\\[4pt]\n\\frac{2}{\\sqrt6} & 0 & -\\frac{1}{\\sqrt3}\n\\end{pmatrix}.\n$$\n则\n$$\n\\boldsymbol Q^T(\\boldsymbol B\\boldsymbol A)\\boldsymbol Q\n=\n\\operatorname{diag}(6,0,0).\n$$\n因此在正交变换 $\\boldsymbol x=\\boldsymbol Q\\boldsymbol y$ 下，\n$$\n\\boxed{f=6y_1^2 }.\n$$",
+   "questionText": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n0&1&a\\\\\n1&0&1\n\\end{pmatrix},\\qquad\n\\boldsymbol B=\n\\begin{pmatrix}\n1&1\\\\\n1&1\\\\\nb&2\n\\end{pmatrix},\n$$\n二次型\n$$\nf(x_1,x_2,x_3)=\\boldsymbol x^T\\boldsymbol B\\boldsymbol A\\boldsymbol x.\n$$\n\n已知方程组 $\\boldsymbol A\\boldsymbol x=0$ 的解是 $\\boldsymbol B^T\\boldsymbol x=0$ 的解，但两个方程组不同解。\n\n1. 求 $a,b$ 的值；\n2. 求正交变换 $\\boldsymbol x=\\boldsymbol Q\\boldsymbol y$，将 $f(x_1,x_2,x_3)$ 化为标准形。",
+   "answerText": "答案：（1）$a=1$，$b=2$；（2）在正交变换 $\\boldsymbol x=\\boldsymbol Q\\boldsymbol y$（$\\boldsymbol Q$ 见下）下 $f=6y_1^{2}$。\n\n**解析：**（1）$r(\\boldsymbol A)=2$，“$\\boldsymbol A\\boldsymbol x=\\boldsymbol 0$ 的解都是 $\\boldsymbol B^{T}\\boldsymbol x=\\boldsymbol 0$ 的解”等价于\n$$\nr\\begin{pmatrix}\\boldsymbol A\\\\\\boldsymbol B^{T}\\end{pmatrix}=r(\\boldsymbol A)=2.\n$$\n对堆叠矩阵作初等行变换：\n$$\n\\begin{pmatrix}0&1&a\\\\1&0&1\\\\1&1&b\\\\1&1&2\\end{pmatrix}\n\\sim\n\\begin{pmatrix}1&0&1\\\\0&1&a\\\\0&0&b-1-a\\\\0&0&1-a\\end{pmatrix},\n$$\n故 $a=1$ 且 $b-2=0$，即 $a=1$，$b=2$。此时 $\\boldsymbol B^{T}$ 的两行都是 $(1,1,2)$，$\\boldsymbol B^{T}\\boldsymbol x=\\boldsymbol 0$ 的解集为平面 $x_1+x_2+2x_3=0$，真包含 $\\boldsymbol A\\boldsymbol x=\\boldsymbol 0$ 的解 $k(-1,-1,1)^{T}$，两方程组确不同解。\n\n（2）$\\boldsymbol B\\boldsymbol A=\\begin{pmatrix}1&1&2\\\\1&1&2\\\\2&2&4\\end{pmatrix}$，二次型的矩阵 $\\boldsymbol M=\\dfrac{\\boldsymbol B\\boldsymbol A+(\\boldsymbol B\\boldsymbol A)^{T}}{2}=\\boldsymbol u\\boldsymbol u^{T}$，其中 $\\boldsymbol u=(1,1,2)^{T}$。展开即\n$$\nf=x_1^{2}+x_2^{2}+4x_3^{2}+2x_1x_2+4x_1x_3+4x_2x_3=(x_1+x_2+2x_3)^{2}.\n$$\n$\\boldsymbol M$ 的特征值为 $\\lambda_1=\\boldsymbol u^{T}\\boldsymbol u=6$，$\\lambda_2=\\lambda_3=0$，取单位正交特征向量\n$$\n\\boldsymbol q_1=\\frac1{\\sqrt6}\\begin{pmatrix}1\\\\1\\\\2\\end{pmatrix},\\qquad\n\\boldsymbol q_2=\\frac1{\\sqrt2}\\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix},\\qquad\n\\boldsymbol q_3=\\frac1{\\sqrt3}\\begin{pmatrix}1\\\\1\\\\-1\\end{pmatrix},\n$$\n令 $\\boldsymbol Q=(\\boldsymbol q_1,\\boldsymbol q_2,\\boldsymbol q_3)$，则 $\\boldsymbol Q^{T}\\boldsymbol M\\boldsymbol Q=\\mathrm{diag}(6,0,0)$，即 $f=6y_1^{2}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [
+    "la.chapter.linear_systems"
+   ],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.real_symmetric_properties",
-    "la.knowledge.standard_form",
-    "la.knowledge.matrix_transpose"
+    "la.knowledge.orthogonal_standard_form",
+    "la.knowledge.quadratic_form_concept",
+    "la.knowledge.common_same_solution"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
