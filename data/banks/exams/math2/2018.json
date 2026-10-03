@@ -830,8 +830,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.matrix_product_determinant",
     "la.knowledge.inverse_matrix",
+    "la.knowledge.matrix_product_determinant",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],

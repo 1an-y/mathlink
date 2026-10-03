@@ -114,19 +114,43 @@
     "objective": false
    },
    {
-    "number": 17,
-    "id": "bank.exam.m2-2023.17",
-    "subjectGuess": "calculus",
+    "number": 33,
+    "id": "bank.exam.m2-2023.33",
+    "subjectGuess": "",
     "objective": false
    },
    {
-    "number": 18,
-    "id": "bank.exam.m2-2023.18",
-    "subjectGuess": "calculus",
+    "number": 34,
+    "id": "bank.exam.m2-2023.34",
+    "subjectGuess": "",
+    "objective": false
+   },
+   {
+    "number": 35,
+    "id": "bank.exam.m2-2023.35",
+    "subjectGuess": "",
+    "objective": false
+   },
+   {
+    "number": 36,
+    "id": "bank.exam.m2-2023.36",
+    "subjectGuess": "",
+    "objective": false
+   },
+   {
+    "number": 37,
+    "id": "bank.exam.m2-2023.37",
+    "subjectGuess": "",
+    "objective": false
+   },
+   {
+    "number": 38,
+    "id": "bank.exam.m2-2023.38",
+    "subjectGuess": "",
     "objective": false
    }
   ],
-  "total": 18
+  "total": 22
  },
  "problems": [
   {
@@ -350,8 +374,8 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.adjoint_matrix",
     "la.knowledge.inverse_matrix",
+    "la.knowledge.adjoint_matrix",
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],
@@ -607,22 +631,20 @@
    "section": "二、填空题"
   },
   {
-   "id": "bank.exam.m2-2023.17",
-   "number": 17,
-   "title": "2023 年数学二 第 17 题",
-   "questionText": "求曲线方程\n点 $P(x,y)$ 处切线方程为\n$$\nY-y=y'(X-x).\n$$\n令 $X=0$，得切线在 $y$ 轴上的截距为\n$$\ny-xy'.\n$$\n由题意，\n$$\ny-xy'=x,\n$$\n即\n$$\ny'-\\frac{1}{x}y=-1.\n$$\n解此一阶线性方程得\n$$\ny=(C-\\ln x)x.\n$$\n再由点 $(e^2,0)$ 在曲线上，得\n$$\n0=(C-2)e^2 \\Rightarrow C=2.\n$$\n故\n$$\n\\boxed{\\,y(x)=(2-\\ln x)x\\, }.\n$$",
-   "answerText": "（答案待校对补充）",
+   "id": "bank.exam.m2-2023.33",
+   "number": 33,
+   "title": "2023 年数学二 第 33 题",
+   "questionText": "（本题满分 10 分）\n设曲线 $\\boldsymbol L:y=y(x)$（$x>e$）经过点 $(e^2,0)$，且 $\\boldsymbol L$ 上任一点 $P(x,y)$ 到 $y$ 轴的距离等于该点处切线在 $y$ 轴上的截距。\n\n1. 求 $y(x)$；\n2. 在 $\\boldsymbol L$ 上求一点，使该点处的切线与两坐标轴所围三角形的面积最小，并求此最小面积。\n\n**解析：**\n\n### （1）求曲线方程\n\n点 $P(x,y)$ 处切线方程为\n$$\nY-y=y'(X-x).\n$$\n令 $X=0$，得切线在 $y$ 轴上的截距为\n$$\ny-xy'.\n$$\n由题意，\n$$\ny-xy'=x,\n$$\n即\n$$\ny'-\\frac{1}{x}y=-1.\n$$\n解此一阶线性方程得\n$$\ny=(C-\\ln x)x.\n$$\n再由点 $(e^2,0)$ 在曲线上，得\n$$\n0=(C-2)e^2 \\Rightarrow C=2.\n$$\n故\n$$\n\\boxed{\\,y(x)=(2-\\ln x)x\\, }.\n$$\n\n### （2）求最小面积\n\n设曲线上点为\n$$\nM\\bigl(x,(2-\\ln x)x\\bigr).\n$$\n则\n$$\ny'(x)=1-\\ln x.\n$$\n该点切线方程为\n$$\nY-(2-\\ln x)x=(1-\\ln x)(X-x).\n$$\n令 $Y=0$，得与 $x$ 轴交点横坐标\n$$\nX=\\frac{x}{\\ln x-1}.\n$$\n令 $X=0$，得与 $y$ 轴交点纵坐标\n$$\nY=x.\n$$\n故三角形面积为\n$$\nS(x)=\\frac12\\cdot \\frac{x}{\\ln x-1}\\cdot x\n=\\frac{x^2}{2(\\ln x-1)}.\n$$\n\n求导得\n$$\nS'(x)=\\frac12\\cdot \\frac{x(2\\ln x-3)}{(\\ln x-1)^2}.\n$$\n令 $S'(x)=0$，得\n$$\nx=e^{3/2}.\n$$\n此时取得极小值，故最小面积为\n$$\nS\\!\\left(e^{3/2}\\right)=e^3.\n$$",
+   "answerText": "**解析：**\n### （1）求曲线方程\n\n点 $P(x,y)$ 处切线方程为\n$$\nY-y=y'(X-x).\n$$\n令 $X=0$，得切线在 $y$ 轴上的截距为\n$$\ny-xy'.\n$$\n由题意，\n$$\ny-xy'=x,\n$$\n即\n$$\ny'-\\frac{1}{x}y=-1.\n$$\n解此一阶线性方程得\n$$\ny=(C-\\ln x)x.\n$$\n再由点 $(e^2,0)$ 在曲线上，得\n$$\n0=(C-2)e^2 \\Rightarrow C=2.\n$$\n故\n$$\n\\boxed{\\,y(x)=(2-\\ln x)x\\, }.\n$$\n\n### （2）求最小面积\n\n设曲线上点为\n$$\nM\\bigl(x,(2-\\ln x)x\\bigr).\n$$\n则\n$$\ny'(x)=1-\\ln x.\n$$\n该点切线方程为\n$$\nY-(2-\\ln x)x=(1-\\ln x)(X-x).\n$$\n令 $Y=0$，得与 $x$ 轴交点横坐标\n$$\nX=\\frac{x}{\\ln x-1}.\n$$\n令 $X=0$，得与 $y$ 轴交点纵坐标\n$$\nY=x.\n$$\n故三角形面积为\n$$\nS(x)=\\frac12\\cdot \\frac{x}{\\ln x-1}\\cdot x\n=\\frac{x^2}{2(\\ln x-1)}.\n$$\n\n求导得\n$$\nS'(x)=\\frac12\\cdot \\frac{x(2\\ln x-3)}{(\\ln x-1)^2}.\n$$\n令 $S'(x)=0$，得\n$$\nx=e^{3/2}.\n$$\n此时取得极小值，故最小面积为\n$$\nS\\!\\left(e^{3/2}\\right)=e^3.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "geometric_applications_multivariable"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -631,33 +653,26 @@
     "kind": "exam",
     "year": 2023,
     "paper": "math2",
-    "number": 17
+    "number": 33
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "",
    "section": "三、解答题"
   },
   {
-   "id": "bank.exam.m2-2023.18",
-   "number": 18,
-   "title": "2023 年数学二 第 18 题",
-   "questionText": "求最小面积\n设曲线上点为\n$$\nM\\bigl(x,(2-\\ln x)x\\bigr).\n$$\n则\n$$\ny'(x)=1-\\ln x.\n$$\n该点切线方程为\n$$\nY-(2-\\ln x)x=(1-\\ln x)(X-x).\n$$\n令 $Y=0$，得与 $x$ 轴交点横坐标\n$$\nX=\\frac{x}{\\ln x-1}.\n$$\n令 $X=0$，得与 $y$ 轴交点纵坐标\n$$\nY=x.\n$$\n故三角形面积为\n$$\nS(x)=\\frac12\\cdot \\frac{x}{\\ln x-1}\\cdot x\n=\\frac{x^2}{2(\\ln x-1)}.\n$$\n\n求导得\n$$\nS'(x)=\\frac12\\cdot \\frac{x(2\\ln x-3)}{(\\ln x-1)^2}.\n$$\n令 $S'(x)=0$，得\n$$\nx=e^{3/2}.\n$$\n此时取得极小值，故最小面积为\n$$\nS\\!\\left(e^{3/2}\\right)=e^3.\n$$\n\n### 18（本题满分 12 分）\n\n求函数\n$$\nf(x,y)=xe^{\\cos y}+\\frac{x^2}{2}\n$$\n的极值。\n\n**解析：**\n\n先求偏导：\n$$\nf_x=e^{\\cos y}+x,\\qquad\nf_y=-xe^{\\cos y}\\sin y.\n$$\n令\n$$\nf_x=0,\\qquad f_y=0,\n$$\n得驻点为\n$$\n\\left(-e^{-1},(2k+1)\\pi\\right),\\qquad\n\\left(-e,2k\\pi\\right),\\qquad k\\in\\mathbb Z.\n$$\n\n再求二阶偏导：\n$$\nf_{xx}=1,\\qquad\nf_{xy}=-e^{\\cos y}\\sin y,\n$$\n$$\nf_{yy}=xe^{\\cos y}\\sin^2 y-xe^{\\cos y}\\cos y.\n$$\n\n- 在 $\\left(-e^{-1},(2k+1)\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=-e^{-2},\n  $$\n  故\n  $$\n  AC-B^2<0,\n  $$\n  不是极值点。\n\n- 在 $\\left(-e,2k\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=e^2,\n  $$\n  故\n  $$\n  AC-B^2>0,\\quad A>0,\n  $$\n  为极小值点。\n\n因此函数在\n$$\n\\left(-e,2k\\pi\\right)\\quad (k\\in\\mathbb Z)\n$$\n处取得极小值，且极小值为\n$$\nf(-e,2k\\pi)=-\\frac{e^2}{2}.\n$$\n\n### 19（本题满分 12 分）\n\n已知平面区域\n$$\nD=\\left\\{(x,y)\\mid 0\\le y\\le \\frac{1}{x\\sqrt{1+x^2}},\\ x\\ge 1\\right\\}.\n$$\n\n1. 求 $D$ 的面积；\n2. 求 $D$ 绕 $x$ 轴旋转所成旋转体的体积。\n\n**解析：**\n\n### （1）面积\n\n面积为\n$$\nA=\\int_1^{+\\infty}\\frac{1}{x\\sqrt{1+x^2}}\\,dx.\n$$\n令 $x=\\tan t$，则\n$$\nA=\\int_{\\pi/4}^{\\pi/2}\\csc t\\,dt\n=\\ln|\\csc t-\\cot t|\\Big|_{\\pi/4}^{\\pi/2}\n=\\ln(1+\\sqrt2).\n$$\n\n### （2）体积\n\n旋转体体积为\n$$\nV=\\pi\\int_1^{+\\infty}\\frac{1}{x^2(1+x^2)}\\,dx.\n$$\n裂项得\n$$\n\\frac{1}{x^2(1+x^2)}=\\frac{1}{x^2}-\\frac{1}{1+x^2}.\n$$\n故\n$$\nV=\\pi\\int_1^{+\\infty}\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)\\,dx\n=\\pi\\left(1-\\frac{\\pi}{4}\\right).\n$$\n\n### 20（本题满分 12 分）\n\n设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nx^2+y^2-xy=1,\\qquad x^2+y^2-xy=2\n$$\n与直线\n$$\ny=\\sqrt3\\,x,\\qquad y=0\n$$\n围成，计算\n$$\n\\iint_D \\frac{1}{3x^2+y^2}\\,dx\\,dy.\n$$\n\n**解析：**\n\n作极坐标变换\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta.\n$$\n则边界化为\n$$\n0\\le \\theta\\le \\frac{\\pi}{3},\n$$\n且\n$$\n\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}\\le r\\le \\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}.\n$$\n\n原积分变为\n$$\nI=\\int_0^{\\pi/3}\\int_{\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}^{\\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}\n\\frac{r}{3r^2\\cos^2\\theta+r^2\\sin^2\\theta}\\,dr\\,d\\theta.\n$$\n约去 $r$ 后得\n$$\nI=\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}\\int_{r_1}^{r_2}\\frac{dr}{r}.\n$$\n而\n$$\n\\int_{r_1}^{r_2}\\frac{dr}{r}=\\ln\\sqrt2.\n$$\n所以\n$$\nI=\\ln\\sqrt2\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}.\n$$\n令 $u=\\tan\\theta$，则\n$$\nI=\\ln\\sqrt2\\int_0^{\\sqrt3}\\frac{du}{3+u^2}\n=\\frac{\\ln\\sqrt2}{\\sqrt3}\\arctan\\frac{u}{\\sqrt3}\\Big|_0^{\\sqrt3}.\n$$\n故\n$$\nI=\\frac{\\pi\\ln\\sqrt2}{4\\sqrt3}.\n$$\n\n### 21（本题满分 12 分）\n\n设函数 $f(x)$ 在 $[-a,a]$ 上具有二阶连续导数。证明：\n\n1. 若 $f(0)=0$，则存在 $\\xi\\in(-a,a)$，使得\n   $$\n   f''(\\xi)=\\frac{f(a)+f(-a)}{a^2};\n   $$\n2. 若 $f(x)$ 在 $(-a,a)$ 内取得极值，则存在 $\\eta\\in(-a,a)$，使得\n   $$\n   |f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n   $$\n\n**解析：**\n\n### （1）证明存在 $\\xi$\n\n由带拉格朗日余项的泰勒公式，\n$$\nf(a)=f'(0)a+\\frac{f''(\\xi_1)}{2}a^2,\\qquad 0<\\xi_1<a,\n$$\n$$\nf(-a)=-f'(0)a+\\frac{f''(\\xi_2)}{2}a^2,\\qquad -a<\\xi_2<0.\n$$\n两式相加得\n$$\n\\frac{f''(\\xi_1)+f''(\\xi_2)}{2}\n=\\frac{f(a)+f(-a)}{a^2}.\n$$\n由于 $f''$ 连续，介值性表明存在\n$$\n\\xi\\in(\\xi_2,\\xi_1)\\subset(-a,a)\n$$\n使得\n$$\nf''(\\xi)=\\frac{f(a)+f(-a)}{a^2}.\n$$\n\n### （2）证明存在 $\\eta$\n\n设 $c\\in(-a,a)$ 是极值点，则\n$$\nf'(c)=0.\n$$\n分别在点 $c$ 处作泰勒展开：\n$$\nf(a)=f(c)+\\frac{f''(\\eta_1)}{2}(a-c)^2,\\qquad c<\\eta_1<a,\n$$\n$$\nf(-a)=f(c)+\\frac{f''(\\eta_2)}{2}(a+c)^2,\\qquad -a<\\eta_2<c.\n$$\n两式相减得\n$$\nf(a)-f(-a)=\\frac{(a-c)^2}{2}f''(\\eta_1)-\\frac{(a+c)^2}{2}f''(\\eta_2).\n$$\n取\n$$\n|f''(\\eta)|=\\max\\{|f''(\\eta_1)|,\\ |f''(\\eta_2)|\\},\n$$\n则\n$$\n|f(a)-f(-a)|\n\\le \\frac{(a-c)^2+(a+c)^2}{2}|f''(\\eta)|.\n$$\n又\n$$\n(a-c)^2+(a+c)^2=2(a^2+c^2)\\le 4a^2,\n$$\n故\n$$\n|f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n$$\n证毕。\n\n### 22（本题满分 12 分）\n\n设矩阵 $\\boldsymbol A$ 满足：对任意 $x_1,x_2,x_3$，均有\n$$\n\\boldsymbol A\n\\begin{pmatrix}\nx_1\\\\\nx_2\\\\\nx_3\n\\end{pmatrix}\n=\n\\begin{pmatrix}\nx_1+x_2+x_3\\\\\n2x_1-x_2+x_3\\\\\nx_2-x_3\n\\end{pmatrix}.\n$$\n\n1. 求 $\\boldsymbol A$；\n2. 求可逆矩阵 $\\boldsymbol P$ 与对角矩阵 $\\boldsymbol\\Lambda$，使得\n   $$\n   \\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n   $$\n\n**解析：**\n\n### （1）求矩阵 $\\boldsymbol A$\n\n由题意直接读出\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n1&1&1\\\\\n2&-1&1\\\\\n0&1&-1\n\\end{pmatrix}.\n$$\n\n### （2）对角化\n\n先求特征多项式：\n$$\n|\\lambda\\boldsymbol E-\\boldsymbol A|\n=\n\\begin{vmatrix}\n\\lambda-1&-1&-1\\\\\n-2&\\lambda+1&-1\\\\\n0&-1&\\lambda+1\n\\end{vmatrix}\n=(\\lambda+2)(\\lambda+1)(\\lambda-2).\n$$\n故特征值为\n$$\n\\lambda_1=-2,\\qquad \\lambda_2=-1,\\qquad \\lambda_3=2.\n$$\n\n分别求特征向量：\n\n- 对 $\\lambda=-2$，可取\n  $$\n  \\boldsymbol\\alpha_1=\n  \\begin{pmatrix}\n  0\\\\\n  -1\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=-1$，可取\n  $$\n  \\boldsymbol\\alpha_2=\n  \\begin{pmatrix}\n  -1\\\\\n  0\\\\\n  2\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=2$，可取\n  $$\n  \\boldsymbol\\alpha_3=\n  \\begin{pmatrix}\n  4\\\\\n  3\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n令\n$$\n\\boldsymbol P=\n\\begin{pmatrix}\n0&-1&4\\\\\n-1&0&3\\\\\n1&2&1\n\\end{pmatrix},\\qquad\n\\boldsymbol\\Lambda=\n\\begin{pmatrix}\n-2&0&0\\\\\n0&-1&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n则\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n$$",
-   "answerText": "**解析：**\n先求偏导：\n$$\nf_x=e^{\\cos y}+x,\\qquad\nf_y=-xe^{\\cos y}\\sin y.\n$$\n令\n$$\nf_x=0,\\qquad f_y=0,\n$$\n得驻点为\n$$\n\\left(-e^{-1},(2k+1)\\pi\\right),\\qquad\n\\left(-e,2k\\pi\\right),\\qquad k\\in\\mathbb Z.\n$$\n\n再求二阶偏导：\n$$\nf_{xx}=1,\\qquad\nf_{xy}=-e^{\\cos y}\\sin y,\n$$\n$$\nf_{yy}=xe^{\\cos y}\\sin^2 y-xe^{\\cos y}\\cos y.\n$$\n\n- 在 $\\left(-e^{-1},(2k+1)\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=-e^{-2},\n  $$\n  故\n  $$\n  AC-B^2<0,\n  $$\n  不是极值点。\n\n- 在 $\\left(-e,2k\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=e^2,\n  $$\n  故\n  $$\n  AC-B^2>0,\\quad A>0,\n  $$\n  为极小值点。\n\n因此函数在\n$$\n\\left(-e,2k\\pi\\right)\\quad (k\\in\\mathbb Z)\n$$\n处取得极小值，且极小值为\n$$\nf(-e,2k\\pi)=-\\frac{e^2}{2}.\n$$\n\n### 19（本题满分 12 分）\n\n已知平面区域\n$$\nD=\\left\\{(x,y)\\mid 0\\le y\\le \\frac{1}{x\\sqrt{1+x^2}},\\ x\\ge 1\\right\\}.\n$$\n\n1. 求 $D$ 的面积；\n2. 求 $D$ 绕 $x$ 轴旋转所成旋转体的体积。\n\n**解析：**\n\n### （1）面积\n\n面积为\n$$\nA=\\int_1^{+\\infty}\\frac{1}{x\\sqrt{1+x^2}}\\,dx.\n$$\n令 $x=\\tan t$，则\n$$\nA=\\int_{\\pi/4}^{\\pi/2}\\csc t\\,dt\n=\\ln|\\csc t-\\cot t|\\Big|_{\\pi/4}^{\\pi/2}\n=\\ln(1+\\sqrt2).\n$$\n\n### （2）体积\n\n旋转体体积为\n$$\nV=\\pi\\int_1^{+\\infty}\\frac{1}{x^2(1+x^2)}\\,dx.\n$$\n裂项得\n$$\n\\frac{1}{x^2(1+x^2)}=\\frac{1}{x^2}-\\frac{1}{1+x^2}.\n$$\n故\n$$\nV=\\pi\\int_1^{+\\infty}\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)\\,dx\n=\\pi\\left(1-\\frac{\\pi}{4}\\right).\n$$\n\n### 20（本题满分 12 分）\n\n设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nx^2+y^2-xy=1,\\qquad x^2+y^2-xy=2\n$$\n与直线\n$$\ny=\\sqrt3\\,x,\\qquad y=0\n$$\n围成，计算\n$$\n\\iint_D \\frac{1}{3x^2+y^2}\\,dx\\,dy.\n$$\n\n**解析：**\n\n作极坐标变换\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta.\n$$\n则边界化为\n$$\n0\\le \\theta\\le \\frac{\\pi}{3},\n$$\n且\n$$\n\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}\\le r\\le \\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}.\n$$\n\n原积分变为\n$$\nI=\\int_0^{\\pi/3}\\int_{\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}^{\\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}\n\\frac{r}{3r^2\\cos^2\\theta+r^2\\sin^2\\theta}\\,dr\\,d\\theta.\n$$\n约去 $r$ 后得\n$$\nI=\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}\\int_{r_1}^{r_2}\\frac{dr}{r}.\n$$\n而\n$$\n\\int_{r_1}^{r_2}\\frac{dr}{r}=\\ln\\sqrt2.\n$$\n所以\n$$\nI=\\ln\\sqrt2\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}.\n$$\n令 $u=\\tan\\theta$，则\n$$\nI=\\ln\\sqrt2\\int_0^{\\sqrt3}\\frac{du}{3+u^2}\n=\\frac{\\ln\\sqrt2}{\\sqrt3}\\arctan\\frac{u}{\\sqrt3}\\Big|_0^{\\sqrt3}.\n$$\n故\n$$\nI=\\frac{\\pi\\ln\\sqrt2}{4\\sqrt3}.\n$$\n\n### 21（本题满分 12 分）\n\n设函数 $f(x)$ 在 $[-a,a]$ 上具有二阶连续导数。证明：\n\n1. 若 $f(0)=0$，则存在 $\\xi\\in(-a,a)$，使得\n   $$\n   f''(\\xi)=\\frac{f(a)+f(-a)}{a^2};\n   $$\n2. 若 $f(x)$ 在 $(-a,a)$ 内取得极值，则存在 $\\eta\\in(-a,a)$，使得\n   $$\n   |f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n   $$\n\n**解析：**\n\n### （1）证明存在 $\\xi$\n\n由带拉格朗日余项的泰勒公式，\n$$\nf(a)=f'(0)a+\\frac{f''(\\xi_1)}{2}a^2,\\qquad 0<\\xi_1<a,\n$$\n$$\nf(-a)=-f'(0)a+\\frac{f''(\\xi_2)}{2}a^2,\\qquad -a<\\xi_2<0.\n$$\n两式相加得\n$$\n\\frac{f''(\\xi_1)+f''(\\xi_2)}{2}\n=\\frac{f(a)+f(-a)}{a^2}.\n$$\n由于 $f''$ 连续，介值性表明存在\n$$\n\\xi\\in(\\xi_2,\\xi_1)\\subset(-a,a)\n$$\n使得\n$$\nf''(\\xi)=\\frac{f(a)+f(-a)}{a^2}.\n$$\n\n### （2）证明存在 $\\eta$\n\n设 $c\\in(-a,a)$ 是极值点，则\n$$\nf'(c)=0.\n$$\n分别在点 $c$ 处作泰勒展开：\n$$\nf(a)=f(c)+\\frac{f''(\\eta_1)}{2}(a-c)^2,\\qquad c<\\eta_1<a,\n$$\n$$\nf(-a)=f(c)+\\frac{f''(\\eta_2)}{2}(a+c)^2,\\qquad -a<\\eta_2<c.\n$$\n两式相减得\n$$\nf(a)-f(-a)=\\frac{(a-c)^2}{2}f''(\\eta_1)-\\frac{(a+c)^2}{2}f''(\\eta_2).\n$$\n取\n$$\n|f''(\\eta)|=\\max\\{|f''(\\eta_1)|,\\ |f''(\\eta_2)|\\},\n$$\n则\n$$\n|f(a)-f(-a)|\n\\le \\frac{(a-c)^2+(a+c)^2}{2}|f''(\\eta)|.\n$$\n又\n$$\n(a-c)^2+(a+c)^2=2(a^2+c^2)\\le 4a^2,\n$$\n故\n$$\n|f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n$$\n证毕。\n\n### 22（本题满分 12 分）\n\n设矩阵 $\\boldsymbol A$ 满足：对任意 $x_1,x_2,x_3$，均有\n$$\n\\boldsymbol A\n\\begin{pmatrix}\nx_1\\\\\nx_2\\\\\nx_3\n\\end{pmatrix}\n=\n\\begin{pmatrix}\nx_1+x_2+x_3\\\\\n2x_1-x_2+x_3\\\\\nx_2-x_3\n\\end{pmatrix}.\n$$\n\n1. 求 $\\boldsymbol A$；\n2. 求可逆矩阵 $\\boldsymbol P$ 与对角矩阵 $\\boldsymbol\\Lambda$，使得\n   $$\n   \\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n   $$\n\n**解析：**\n\n### （1）求矩阵 $\\boldsymbol A$\n\n由题意直接读出\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n1&1&1\\\\\n2&-1&1\\\\\n0&1&-1\n\\end{pmatrix}.\n$$\n\n### （2）对角化\n\n先求特征多项式：\n$$\n|\\lambda\\boldsymbol E-\\boldsymbol A|\n=\n\\begin{vmatrix}\n\\lambda-1&-1&-1\\\\\n-2&\\lambda+1&-1\\\\\n0&-1&\\lambda+1\n\\end{vmatrix}\n=(\\lambda+2)(\\lambda+1)(\\lambda-2).\n$$\n故特征值为\n$$\n\\lambda_1=-2,\\qquad \\lambda_2=-1,\\qquad \\lambda_3=2.\n$$\n\n分别求特征向量：\n\n- 对 $\\lambda=-2$，可取\n  $$\n  \\boldsymbol\\alpha_1=\n  \\begin{pmatrix}\n  0\\\\\n  -1\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=-1$，可取\n  $$\n  \\boldsymbol\\alpha_2=\n  \\begin{pmatrix}\n  -1\\\\\n  0\\\\\n  2\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=2$，可取\n  $$\n  \\boldsymbol\\alpha_3=\n  \\begin{pmatrix}\n  4\\\\\n  3\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n令\n$$\n\\boldsymbol P=\n\\begin{pmatrix}\n0&-1&4\\\\\n-1&0&3\\\\\n1&2&1\n\\end{pmatrix},\\qquad\n\\boldsymbol\\Lambda=\n\\begin{pmatrix}\n-2&0&0\\\\\n0&-1&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n则\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n$$",
+   "id": "bank.exam.m2-2023.34",
+   "number": 34,
+   "title": "2023 年数学二 第 34 题",
+   "questionText": "（本题满分 12 分）\n求函数\n$$\nf(x,y)=xe^{\\cos y}+\\frac{x^2}{2}\n$$\n的极值。\n\n**解析：**\n\n先求偏导：\n$$\nf_x=e^{\\cos y}+x,\\qquad\nf_y=-xe^{\\cos y}\\sin y.\n$$\n令\n$$\nf_x=0,\\qquad f_y=0,\n$$\n得驻点为\n$$\n\\left(-e^{-1},(2k+1)\\pi\\right),\\qquad\n\\left(-e,2k\\pi\\right),\\qquad k\\in\\mathbb Z.\n$$\n\n再求二阶偏导：\n$$\nf_{xx}=1,\\qquad\nf_{xy}=-e^{\\cos y}\\sin y,\n$$\n$$\nf_{yy}=xe^{\\cos y}\\sin^2 y-xe^{\\cos y}\\cos y.\n$$\n\n- 在 $\\left(-e^{-1},(2k+1)\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=-e^{-2},\n  $$\n  故\n  $$\n  AC-B^2<0,\n  $$\n  不是极值点。\n\n- 在 $\\left(-e,2k\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=e^2,\n  $$\n  故\n  $$\n  AC-B^2>0,\\quad A>0,\n  $$\n  为极小值点。\n\n因此函数在\n$$\n\\left(-e,2k\\pi\\right)\\quad (k\\in\\mathbb Z)\n$$\n处取得极小值，且极小值为\n$$\nf(-e,2k\\pi)=-\\frac{e^2}{2}.\n$$",
+   "answerText": "**解析：**\n先求偏导：\n$$\nf_x=e^{\\cos y}+x,\\qquad\nf_y=-xe^{\\cos y}\\sin y.\n$$\n令\n$$\nf_x=0,\\qquad f_y=0,\n$$\n得驻点为\n$$\n\\left(-e^{-1},(2k+1)\\pi\\right),\\qquad\n\\left(-e,2k\\pi\\right),\\qquad k\\in\\mathbb Z.\n$$\n\n再求二阶偏导：\n$$\nf_{xx}=1,\\qquad\nf_{xy}=-e^{\\cos y}\\sin y,\n$$\n$$\nf_{yy}=xe^{\\cos y}\\sin^2 y-xe^{\\cos y}\\cos y.\n$$\n\n- 在 $\\left(-e^{-1},(2k+1)\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=-e^{-2},\n  $$\n  故\n  $$\n  AC-B^2<0,\n  $$\n  不是极值点。\n\n- 在 $\\left(-e,2k\\pi\\right)$ 处，\n  $$\n  A=1,\\quad B=0,\\quad C=e^2,\n  $$\n  故\n  $$\n  AC-B^2>0,\\quad A>0,\n  $$\n  为极小值点。\n\n因此函数在\n$$\n\\left(-e,2k\\pi\\right)\\quad (k\\in\\mathbb Z)\n$$\n处取得极小值，且极小值为\n$$\nf(-e,2k\\pi)=-\\frac{e^2}{2}.\n$$",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "taylor_formula",
-    "polar_coordinates",
-    "multivariable_limit_continuity"
-   ],
-   "methodIds": [
-    "polar_coordinates",
-    "taylor_expansion"
-   ],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -666,9 +681,121 @@
     "kind": "exam",
     "year": 2023,
     "paper": "math2",
-    "number": 18
+    "number": 34
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "",
+   "section": "三、解答题"
+  },
+  {
+   "id": "bank.exam.m2-2023.35",
+   "number": 35,
+   "title": "2023 年数学二 第 35 题",
+   "questionText": "（本题满分 12 分）\n已知平面区域\n$$\nD=\\left\\{(x,y)\\mid 0\\le y\\le \\frac{1}{x\\sqrt{1+x^2}},\\ x\\ge 1\\right\\}.\n$$\n\n1. 求 $D$ 的面积；\n2. 求 $D$ 绕 $x$ 轴旋转所成旋转体的体积。\n\n**解析：**\n\n### （1）面积\n\n面积为\n$$\nA=\\int_1^{+\\infty}\\frac{1}{x\\sqrt{1+x^2}}\\,dx.\n$$\n令 $x=\\tan t$，则\n$$\nA=\\int_{\\pi/4}^{\\pi/2}\\csc t\\,dt\n=\\ln|\\csc t-\\cot t|\\Big|_{\\pi/4}^{\\pi/2}\n=\\ln(1+\\sqrt2).\n$$\n\n### （2）体积\n\n旋转体体积为\n$$\nV=\\pi\\int_1^{+\\infty}\\frac{1}{x^2(1+x^2)}\\,dx.\n$$\n裂项得\n$$\n\\frac{1}{x^2(1+x^2)}=\\frac{1}{x^2}-\\frac{1}{1+x^2}.\n$$\n故\n$$\nV=\\pi\\int_1^{+\\infty}\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)\\,dx\n=\\pi\\left(1-\\frac{\\pi}{4}\\right).\n$$",
+   "answerText": "**解析：**\n### （1）面积\n\n面积为\n$$\nA=\\int_1^{+\\infty}\\frac{1}{x\\sqrt{1+x^2}}\\,dx.\n$$\n令 $x=\\tan t$，则\n$$\nA=\\int_{\\pi/4}^{\\pi/2}\\csc t\\,dt\n=\\ln|\\csc t-\\cot t|\\Big|_{\\pi/4}^{\\pi/2}\n=\\ln(1+\\sqrt2).\n$$\n\n### （2）体积\n\n旋转体体积为\n$$\nV=\\pi\\int_1^{+\\infty}\\frac{1}{x^2(1+x^2)}\\,dx.\n$$\n裂项得\n$$\n\\frac{1}{x^2(1+x^2)}=\\frac{1}{x^2}-\\frac{1}{1+x^2}.\n$$\n故\n$$\nV=\\pi\\int_1^{+\\infty}\\left(\\frac{1}{x^2}-\\frac{1}{1+x^2}\\right)\\,dx\n=\\pi\\left(1-\\frac{\\pi}{4}\\right).\n$$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math2",
+    "number": 35
+   },
+   "subjectGuess": "",
+   "section": "三、解答题"
+  },
+  {
+   "id": "bank.exam.m2-2023.36",
+   "number": 36,
+   "title": "2023 年数学二 第 36 题",
+   "questionText": "（本题满分 12 分）\n设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nx^2+y^2-xy=1,\\qquad x^2+y^2-xy=2\n$$\n与直线\n$$\ny=\\sqrt3\\,x,\\qquad y=0\n$$\n围成，计算\n$$\n\\iint_D \\frac{1}{3x^2+y^2}\\,dx\\,dy.\n$$\n\n**解析：**\n\n作极坐标变换\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta.\n$$\n则边界化为\n$$\n0\\le \\theta\\le \\frac{\\pi}{3},\n$$\n且\n$$\n\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}\\le r\\le \\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}.\n$$\n\n原积分变为\n$$\nI=\\int_0^{\\pi/3}\\int_{\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}^{\\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}\n\\frac{r}{3r^2\\cos^2\\theta+r^2\\sin^2\\theta}\\,dr\\,d\\theta.\n$$\n约去 $r$ 后得\n$$\nI=\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}\\int_{r_1}^{r_2}\\frac{dr}{r}.\n$$\n而\n$$\n\\int_{r_1}^{r_2}\\frac{dr}{r}=\\ln\\sqrt2.\n$$\n所以\n$$\nI=\\ln\\sqrt2\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}.\n$$\n令 $u=\\tan\\theta$，则\n$$\nI=\\ln\\sqrt2\\int_0^{\\sqrt3}\\frac{du}{3+u^2}\n=\\frac{\\ln\\sqrt2}{\\sqrt3}\\arctan\\frac{u}{\\sqrt3}\\Big|_0^{\\sqrt3}.\n$$\n故\n$$\nI=\\frac{\\pi\\ln\\sqrt2}{4\\sqrt3}.\n$$",
+   "answerText": "**解析：**\n作极坐标变换\n$$\nx=r\\cos\\theta,\\qquad y=r\\sin\\theta.\n$$\n则边界化为\n$$\n0\\le \\theta\\le \\frac{\\pi}{3},\n$$\n且\n$$\n\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}\\le r\\le \\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}.\n$$\n\n原积分变为\n$$\nI=\\int_0^{\\pi/3}\\int_{\\frac{1}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}^{\\frac{\\sqrt2}{\\sqrt{1-\\sin\\theta\\cos\\theta}}}\n\\frac{r}{3r^2\\cos^2\\theta+r^2\\sin^2\\theta}\\,dr\\,d\\theta.\n$$\n约去 $r$ 后得\n$$\nI=\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}\\int_{r_1}^{r_2}\\frac{dr}{r}.\n$$\n而\n$$\n\\int_{r_1}^{r_2}\\frac{dr}{r}=\\ln\\sqrt2.\n$$\n所以\n$$\nI=\\ln\\sqrt2\\int_0^{\\pi/3}\\frac{d\\theta}{3\\cos^2\\theta+\\sin^2\\theta}.\n$$\n令 $u=\\tan\\theta$，则\n$$\nI=\\ln\\sqrt2\\int_0^{\\sqrt3}\\frac{du}{3+u^2}\n=\\frac{\\ln\\sqrt2}{\\sqrt3}\\arctan\\frac{u}{\\sqrt3}\\Big|_0^{\\sqrt3}.\n$$\n故\n$$\nI=\\frac{\\pi\\ln\\sqrt2}{4\\sqrt3}.\n$$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math2",
+    "number": 36
+   },
+   "subjectGuess": "",
+   "section": "三、解答题"
+  },
+  {
+   "id": "bank.exam.m2-2023.37",
+   "number": 37,
+   "title": "2023 年数学二 第 37 题",
+   "questionText": "（本题满分 12 分）\n设函数 $f(x)$ 在 $[-a,a]$ 上具有二阶连续导数。证明：\n\n1. 若 $f(0)=0$，则存在 $\\xi\\in(-a,a)$，使得\n   $$\n   f''(\\xi)=\\frac{f(a)+f(-a)}{a^2};\n   $$\n2. 若 $f(x)$ 在 $(-a,a)$ 内取得极值，则存在 $\\eta\\in(-a,a)$，使得\n   $$\n   |f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n   $$\n\n**解析：**\n\n### （1）证明存在 $\\xi$\n\n由带拉格朗日余项的泰勒公式，\n$$\nf(a)=f'(0)a+\\frac{f''(\\xi_1)}{2}a^2,\\qquad 0<\\xi_1<a,\n$$\n$$\nf(-a)=-f'(0)a+\\frac{f''(\\xi_2)}{2}a^2,\\qquad -a<\\xi_2<0.\n$$\n两式相加得\n$$\n\\frac{f''(\\xi_1)+f''(\\xi_2)}{2}\n=\\frac{f(a)+f(-a)}{a^2}.\n$$\n由于 $f''$ 连续，介值性表明存在\n$$\n\\xi\\in(\\xi_2,\\xi_1)\\subset(-a,a)\n$$\n使得\n$$\nf''(\\xi)=\\frac{f(a)+f(-a)}{a^2}.\n$$\n\n### （2）证明存在 $\\eta$\n\n设 $c\\in(-a,a)$ 是极值点，则\n$$\nf'(c)=0.\n$$\n分别在点 $c$ 处作泰勒展开：\n$$\nf(a)=f(c)+\\frac{f''(\\eta_1)}{2}(a-c)^2,\\qquad c<\\eta_1<a,\n$$\n$$\nf(-a)=f(c)+\\frac{f''(\\eta_2)}{2}(a+c)^2,\\qquad -a<\\eta_2<c.\n$$\n两式相减得\n$$\nf(a)-f(-a)=\\frac{(a-c)^2}{2}f''(\\eta_1)-\\frac{(a+c)^2}{2}f''(\\eta_2).\n$$\n取\n$$\n|f''(\\eta)|=\\max\\{|f''(\\eta_1)|,\\ |f''(\\eta_2)|\\},\n$$\n则\n$$\n|f(a)-f(-a)|\n\\le \\frac{(a-c)^2+(a+c)^2}{2}|f''(\\eta)|.\n$$\n又\n$$\n(a-c)^2+(a+c)^2=2(a^2+c^2)\\le 4a^2,\n$$\n故\n$$\n|f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n$$\n证毕。",
+   "answerText": "**解析：**\n### （1）证明存在 $\\xi$\n\n由带拉格朗日余项的泰勒公式，\n$$\nf(a)=f'(0)a+\\frac{f''(\\xi_1)}{2}a^2,\\qquad 0<\\xi_1<a,\n$$\n$$\nf(-a)=-f'(0)a+\\frac{f''(\\xi_2)}{2}a^2,\\qquad -a<\\xi_2<0.\n$$\n两式相加得\n$$\n\\frac{f''(\\xi_1)+f''(\\xi_2)}{2}\n=\\frac{f(a)+f(-a)}{a^2}.\n$$\n由于 $f''$ 连续，介值性表明存在\n$$\n\\xi\\in(\\xi_2,\\xi_1)\\subset(-a,a)\n$$\n使得\n$$\nf''(\\xi)=\\frac{f(a)+f(-a)}{a^2}.\n$$\n\n### （2）证明存在 $\\eta$\n\n设 $c\\in(-a,a)$ 是极值点，则\n$$\nf'(c)=0.\n$$\n分别在点 $c$ 处作泰勒展开：\n$$\nf(a)=f(c)+\\frac{f''(\\eta_1)}{2}(a-c)^2,\\qquad c<\\eta_1<a,\n$$\n$$\nf(-a)=f(c)+\\frac{f''(\\eta_2)}{2}(a+c)^2,\\qquad -a<\\eta_2<c.\n$$\n两式相减得\n$$\nf(a)-f(-a)=\\frac{(a-c)^2}{2}f''(\\eta_1)-\\frac{(a+c)^2}{2}f''(\\eta_2).\n$$\n取\n$$\n|f''(\\eta)|=\\max\\{|f''(\\eta_1)|,\\ |f''(\\eta_2)|\\},\n$$\n则\n$$\n|f(a)-f(-a)|\n\\le \\frac{(a-c)^2+(a+c)^2}{2}|f''(\\eta)|.\n$$\n又\n$$\n(a-c)^2+(a+c)^2=2(a^2+c^2)\\le 4a^2,\n$$\n故\n$$\n|f''(\\eta)|\\ge \\frac{|f(a)-f(-a)|}{2a^2}.\n$$\n证毕。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math2",
+    "number": 37
+   },
+   "subjectGuess": "",
+   "section": "三、解答题"
+  },
+  {
+   "id": "bank.exam.m2-2023.38",
+   "number": 38,
+   "title": "2023 年数学二 第 38 题",
+   "questionText": "（本题满分 12 分）\n设矩阵 $\\boldsymbol A$ 满足：对任意 $x_1,x_2,x_3$，均有\n$$\n\\boldsymbol A\n\\begin{pmatrix}\nx_1\\\\\nx_2\\\\\nx_3\n\\end{pmatrix}\n=\n\\begin{pmatrix}\nx_1+x_2+x_3\\\\\n2x_1-x_2+x_3\\\\\nx_2-x_3\n\\end{pmatrix}.\n$$\n\n1. 求 $\\boldsymbol A$；\n2. 求可逆矩阵 $\\boldsymbol P$ 与对角矩阵 $\\boldsymbol\\Lambda$，使得\n   $$\n   \\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n   $$\n\n**解析：**\n\n### （1）求矩阵 $\\boldsymbol A$\n\n由题意直接读出\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n1&1&1\\\\\n2&-1&1\\\\\n0&1&-1\n\\end{pmatrix}.\n$$\n\n### （2）对角化\n\n先求特征多项式：\n$$\n|\\lambda\\boldsymbol E-\\boldsymbol A|\n=\n\\begin{vmatrix}\n\\lambda-1&-1&-1\\\\\n-2&\\lambda+1&-1\\\\\n0&-1&\\lambda+1\n\\end{vmatrix}\n=(\\lambda+2)(\\lambda+1)(\\lambda-2).\n$$\n故特征值为\n$$\n\\lambda_1=-2,\\qquad \\lambda_2=-1,\\qquad \\lambda_3=2.\n$$\n\n分别求特征向量：\n\n- 对 $\\lambda=-2$，可取\n  $$\n  \\boldsymbol\\alpha_1=\n  \\begin{pmatrix}\n  0\\\\\n  -1\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=-1$，可取\n  $$\n  \\boldsymbol\\alpha_2=\n  \\begin{pmatrix}\n  -1\\\\\n  0\\\\\n  2\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=2$，可取\n  $$\n  \\boldsymbol\\alpha_3=\n  \\begin{pmatrix}\n  4\\\\\n  3\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n令\n$$\n\\boldsymbol P=\n\\begin{pmatrix}\n0&-1&4\\\\\n-1&0&3\\\\\n1&2&1\n\\end{pmatrix},\\qquad\n\\boldsymbol\\Lambda=\n\\begin{pmatrix}\n-2&0&0\\\\\n0&-1&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n则\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n$$",
+   "answerText": "**解析：**\n### （1）求矩阵 $\\boldsymbol A$\n\n由题意直接读出\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n1&1&1\\\\\n2&-1&1\\\\\n0&1&-1\n\\end{pmatrix}.\n$$\n\n### （2）对角化\n\n先求特征多项式：\n$$\n|\\lambda\\boldsymbol E-\\boldsymbol A|\n=\n\\begin{vmatrix}\n\\lambda-1&-1&-1\\\\\n-2&\\lambda+1&-1\\\\\n0&-1&\\lambda+1\n\\end{vmatrix}\n=(\\lambda+2)(\\lambda+1)(\\lambda-2).\n$$\n故特征值为\n$$\n\\lambda_1=-2,\\qquad \\lambda_2=-1,\\qquad \\lambda_3=2.\n$$\n\n分别求特征向量：\n\n- 对 $\\lambda=-2$，可取\n  $$\n  \\boldsymbol\\alpha_1=\n  \\begin{pmatrix}\n  0\\\\\n  -1\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=-1$，可取\n  $$\n  \\boldsymbol\\alpha_2=\n  \\begin{pmatrix}\n  -1\\\\\n  0\\\\\n  2\n  \\end{pmatrix}.\n  $$\n\n- 对 $\\lambda=2$，可取\n  $$\n  \\boldsymbol\\alpha_3=\n  \\begin{pmatrix}\n  4\\\\\n  3\\\\\n  1\n  \\end{pmatrix}.\n  $$\n\n令\n$$\n\\boldsymbol P=\n\\begin{pmatrix}\n0&-1&4\\\\\n-1&0&3\\\\\n1&2&1\n\\end{pmatrix},\\qquad\n\\boldsymbol\\Lambda=\n\\begin{pmatrix}\n-2&0&0\\\\\n0&-1&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n则\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\\boldsymbol\\Lambda.\n$$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math2",
+    "number": 38
+   },
+   "subjectGuess": "",
    "section": "三、解答题"
   }
  ]

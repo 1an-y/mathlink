@@ -47,19 +47,25 @@
     "objective": false
    },
    {
-    "number": 17,
-    "id": "bank.exam.m1-2025.17",
-    "subjectGuess": "calculus",
+    "number": 34,
+    "id": "bank.exam.m1-2025.34",
+    "subjectGuess": "",
     "objective": false
    },
    {
-    "number": 18,
-    "id": "bank.exam.m1-2025.18",
-    "subjectGuess": "calculus",
+    "number": 36,
+    "id": "bank.exam.m1-2025.36",
+    "subjectGuess": "",
+    "objective": false
+   },
+   {
+    "number": 37,
+    "id": "bank.exam.m1-2025.37",
+    "subjectGuess": "",
     "objective": false
    }
   ],
-  "total": 7
+  "total": 8
  },
  "problems": [
   {
@@ -208,10 +214,10 @@
    "section": "二、填空题： $1 1 { \\sim } 1 6$ 小题，每小题 5 分，共 30分"
   },
   {
-   "id": "bank.exam.m1-2025.17",
-   "number": 17,
-   "title": "2025 年数学一 第 17 题",
-   "questionText": "求 a 的值；",
+   "id": "bank.exam.m1-2025.34",
+   "number": 34,
+   "title": "2025 年数学一 第 34 题",
+   "questionText": "（本题满分 10分）\n\n已知函数 $f ( u )$ 在区间 $\\left( 0 , + \\infty \\right)$ 内具有 2 阶导数，记 $g ( x , y ) = f { \\Bigg ( } { \\frac { x } { y } } { \\Bigg ) } ,$ x 若 $g ( x , y )$ 满足\n\n$$\nx ^ {2}   {\\frac {\\partial^ {2} g}{\\partial x ^ {2}}} + x y   {\\frac {\\partial^ {2} g}{\\partial x \\partial y}} + y ^ {2}   {\\frac {\\partial^ {2} g}{\\partial y ^ {2}}} = 1,   \\text {且}   g (x, y) = 1,   {\\frac {\\partial g}{\\partial x}} \\big | _ {(x, x)} = {\\frac {2}{x}}, \\text {求}   f (u).\n$$\n\n解： 令 $u = \\frac { x } { y }$ ,则 $\\frac { \\partial g } { \\partial x } = f ^ { \\prime } \\bigl ( u \\bigr ) \\frac { 1 } { y } , \\frac { \\partial g } { \\partial y } = f ^ { \\prime } \\bigl ( u \\bigr ) \\biggl ( - \\frac { x } { y ^ { 2 } } \\biggr )$\n\n又 $g \\left( x , x \\right) = f \\left( \\frac { x } { x } \\right) = f \\left( 1 \\right) = 1 , \\frac { \\partial g } { \\partial x } \\Big \\vert _ { ( x , x ) } = f ^ { \\prime } \\left( 1 \\right) \\frac { 1 } { x } = \\frac { 2 } { x } ,$ $f ^ { \\prime } ( 1 ) = 2$\n\n$$\n\\begin{array}{l} \\frac {\\partial^ {2} g}{\\partial x ^ {2}} = \\left(f ^ {\\prime \\prime} (u) \\frac {1}{y}\\right) \\frac {1}{y} = f ^ {\\prime \\prime} (u) \\frac {1}{y ^ {2}} \\dots \\dots . (1) \\\\ \\frac {\\partial^ {2} g}{\\partial x \\partial y} = f ^ {\\prime \\prime} (u) \\left(- \\frac {x}{y ^ {2}}\\right) \\frac {1}{y} + f ^ {\\prime} (u) \\left(- \\frac {1}{y ^ {2}}\\right) = - \\frac {x}{y ^ {3}} f ^ {\\prime \\prime} (u) - \\frac {1}{y ^ {2}} f ^ {\\prime} (u). \\tag {2} \\\\ \\frac {\\partial^ {2} g}{\\partial y ^ {2}} = f ^ {\\prime \\prime} (u) \\left(- \\frac {x}{y ^ {2}}\\right) \\frac {x}{y} + f ^ {\\prime} (u) \\left(\\frac {2 x}{y ^ {2}}\\right) = \\frac {x ^ {2}}{y ^ {4}} f ^ {\\prime \\prime} (u) + \\frac {2 x}{y ^ {3}} f ^ {\\prime} (u) \\dots (3) \\\\ \\end{array}\n$$\n\n将（1）（2）（3）代入 22 2gx   $x ^ { 2 } \\frac { \\partial ^ { 2 } g } { \\partial x ^ { 2 } } + x y \\frac { \\partial ^ { 2 } g } { \\partial x \\partial y } + y ^ { 2 } \\frac { \\partial ^ { 2 } g } { \\partial y ^ { 2 } } = 1$ 2y  化简得：x\n\n   2 u f  u  uf  u  1 ，即    1f u f u   $u ^ { 2 } f ^ { \\prime \\prime } ( u ) + u f ^ { \\prime } ( u ) = 1$ $f ^ { \\prime \\prime } { \\bigl ( } u { \\bigr ) } + { \\frac { 1 } { u ^ { 2 } } } f ^ { \\prime } { \\bigl ( } u { \\bigr ) } = { \\frac { 1 } { u ^ { 2 } } } .$ 12\n\n令 $\\mathbf { \\nabla } ^ { \\prime } p ^ { \\prime } = f ^ { \\prime } ( u )$ 则 $| p ^ { \\prime } + \\frac { 1 } { u } p ^ { \\prime } = \\frac { 1 } { u ^ { 2 } }$ 2 u\n\n$$\np = e ^ {- \\int_ {u} ^ {\\frac {1}{u}} d u} \\left[ \\int \\frac {1}{u ^ {2}} e ^ {\\int_ {u} ^ {\\frac {1}{u}} d u} d u + C \\right] = \\frac {1}{u} \\left[ \\int \\frac {1}{u} d u + C \\right] = \\frac {\\ln u}{u} + \\frac {C}{u}\n$$\n\n又 $\\left. p ^ { \\prime } \\right| _ { u = 1 } = C = 2$ ，故 $p = { \\frac { \\ln u } { u } } + { \\frac { 2 } { u } }$\n\n因此 ， f ln u 2   ，积分得   lf u   $\\frac { \\partial f } { \\partial u } = \\frac { \\ln u } { u } + \\frac { 2 } { u }$ $f \\left( u \\right) = \\int \\left( \\frac { \\ln u } { u } + \\frac { 2 } { u } \\right) d u = \\frac { 1 } { 2 } \\ln ^ { 2 } u + 2 \\ln u + C \\ ,$ u u u\n\n又 $f ( 1 ) = C = 1$ ，故 $f { \\bigl ( } u { \\bigr ) } = { \\frac { 1 } { 2 } } \\ln ^ { 2 } u + 2 \\ln u + 1$ 。\n\n# 19.（本题满分 10分）\n\n设函数 $f ( x )$ 在区间 $\\left( a , b \\right)$ 内可导.证明导函数 $f ^ { \\prime } ( x )$ 在 $\\left( a , b \\right)$ 内严格单调增加的充分必要条件是:对 $\\scriptstyle ( a , b )$ 内任意的 $x _ { 1 } , x _ { 2 } , x _ { 3 }$ ,当 $x _ { 1 } < x _ { 2 } < x _ { 3 }$ 时 $\\frac { f \\left( x _ { 2 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 2 } - x _ { 1 } } < \\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 2 } \\right) } { x _ { 3 } - x _ { 2 } } .$\n\n解：充分性：若对 $( a , b )$ 内任意的 $x _ { 1 } , x _ { 2 } , x _ { 3 }$ ，当 $x _ { 1 } < x _ { 2 } < x _ { 3 }$ 时，都有\n\n$$\n\\frac {f \\left(x _ {2}\\right) - f \\left(x _ {1}\\right)}{x _ {2} - x _ {1}} <   \\frac {f \\left(x _ {3}\\right) - f \\left(x _ {2}\\right)}{x _ {3} - x _ {2}}\n$$\n\n$( a , b )$ 内取任意的 $x _ { 1 } < x _ { 2 } < x _ { 3 } < x _ { 4 } < x _ { 5 }$ ，有则在\n\n$$\n\\frac {f \\left(x _ {2}\\right) - f \\left(x _ {1}\\right)}{x _ {2} - x _ {1}} <   \\frac {f \\left(x _ {3}\\right) - f \\left(x _ {2}\\right)}{x _ {3} - x _ {2}} <   \\frac {f \\left(x _ {4}\\right) - f \\left(x _ {3}\\right)}{x _ {4} - x _ {3}} <   \\frac {f \\left(x _ {5}\\right) - f \\left(x _ {4}\\right)}{x _ {5} - x _ {4}}\n$$\n\n在 $\\frac { f \\left( x _ { 2 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 2 } - x _ { 1 } } < \\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 2 } \\right) } { x _ { 3 } - x _ { 2 } }$ 两边同时令 2 1x x  ，得 $x _ { 2 }  { x _ { 1 } } ^ { + }$\n\n$f _ { + } ^ { ^ { \\prime } } \\left( x _ { 1 } \\right) \\leq \\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 3 } - x _ { 1 } }$ ，两边同时令 $x _ { 2 }  { x _ { 3 } } ^ { - }$ ，得 $\\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 3 } - x _ { 1 } } \\leq f _ { - } ^ { ^ { \\prime } } \\left( x _ { 3 } \\right)$ ，即\n\n     3 1f x f xf x    $f _ { + } ^ { ^ { \\prime } } \\left( x _ { 1 } \\right) \\leq \\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 3 } - x _ { 1 } } { \\leq f _ { - } ^ { ^ { \\prime } } \\left( x _ { 3 } \\right) }$ ，同 理可 得 ${ f _ { + } } ^ { \\prime } \\left( x _ { 3 } \\right) \\leq \\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 3 } - x _ { 1 } } { \\leq } { f _ { - } } ^ { \\prime } \\left( x _ { 5 } \\right)$ . 因为\n\n$\\frac { f \\left( x _ { 3 } \\right) - f \\left( x _ { 1 } \\right) } { x _ { 3 } - x _ { 1 } } < \\frac { f \\left( x _ { 5 } \\right) - f \\left( x _ { 3 } \\right) } { x _ { 5 } - x _ { 3 } }$ f  x1  f  x5    .由 1 5 x , x 的任意性，可得 f   x  在 ${ f _ { \\mathrm { + } } ^ { \\prime } } \\left( x _ { 1 } \\right) \\le { f _ { \\mathrm { - } } ^ { \\prime } } \\left( x _ { 5 } \\right)$ $x _ { 1 } , x _ { 5 }$ $f ^ { \\prime } ( x )$\n\n$\\scriptstyle ( a , b )$ 内严格单调递增，充分性得证。\n\n再证必要性，即已知 f  x 单调递增，在 x1 , x2 , x2 , x3  上分别使用拉格朗日中值定理， $f ^ { \\prime } ( x )$ $\\left[ x _ { 1 } , x _ { 2 } \\right] , \\left[ x _ { 2 } , x _ { 3 } \\right]$ 知存在 $\\xi _ { 1 } \\in { \\left( x _ { 1 } , x _ { 2 } \\right) } , \\xi _ { 2 } \\in { \\left( x _ { 2 } , x _ { 3 } \\right) }$ ，使\n\n$$\nf ^ {\\prime} \\left(\\xi_ {1}\\right) = \\frac {f \\left(x _ {2}\\right) - f \\left(x _ {1}\\right)}{x _ {2} - x _ {1}}, \\quad f ^ {\\prime} \\left(\\xi_ {2}\\right) = \\frac {f \\left(x _ {3}\\right) - f \\left(x _ {2}\\right)}{x _ {3} - x _ {2}},\n$$\n\n又由 f   x  单调递增，且 1 2    知， f 1   f 2  ，即 $f ^ { \\prime } ( x )$ $\\xi _ { 1 } < \\xi _ { 2 }$ $f ^ { \\prime } { \\left( { \\boldsymbol { \\xi } } _ { 1 } \\right) } < f ^ { \\prime } { \\left( { \\boldsymbol { \\xi } } _ { 2 } \\right) }$\n\n$$\n\\frac {f \\left(x _ {2}\\right) - f \\left(x _ {1}\\right)}{x _ {2} - x _ {1}} <   \\frac {f \\left(x _ {3}\\right) - f \\left(x _ {2}\\right)}{x _ {3} - x _ {2}}, \\text {必 要 性 得 证 。}\n$$\n\n综上所述，充要条件得证。",
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
@@ -221,7 +227,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -230,29 +236,26 @@
     "kind": "exam",
     "year": 2025,
     "paper": "math1",
-    "number": 17
+    "number": 34
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "",
    "section": "三、解答题： $1 7 { \\sim } 2 2$ 小题，共 70分．解答应写出文字说明、证明过程或演算步骤"
   },
   {
-   "id": "bank.exam.m1-2025.18",
-   "number": 18,
-   "title": "2025 年数学一 第 18 题",
-   "questionText": "求所有满足 $A \\alpha = \\alpha + \\beta , A ^ { 2 } \\alpha = \\alpha + 2 \\beta$ 的非零列向量 $\\alpha$ ， $\\beta$\n\n解：（1） $f ( \\lambda ) = \\mid A - \\lambda E \\mid = ( 1 - \\lambda ) [ ( \\lambda - a ) ( \\lambda + 1 ) + 4 ]$\n\n可得 $( 1 - a ) ( 1 + 1 ) + 4 = 0 , a = 3$ $a = 3$\n\n（2）由（1）可知 $A = \\left( \\begin{array} { r r r } { { 0 } } & { { - 1 } } & { { 2 } } \\\\ { { - 1 } } & { { 0 } } & { { 2 } } \\\\ { { - 1 } } & { { - 1 } } & { { 3 } } \\end{array} \\right) , | A - \\lambda E | = 0$ ,得 $\\pmb { A }$ 中 $\\lambda _ { 1 } = \\lambda _ { 2 } = \\lambda _ { 3 } = 1$ ，\n\n$$\nA \\alpha = \\alpha + \\beta . A ^ {2} \\alpha = \\alpha + 2 \\beta \\Rightarrow (A - E) \\alpha = \\beta , \\left(A ^ {2} - E\\right) \\alpha = 2 \\beta = 2 (A - E) \\alpha\n$$\n\n$\\left( A - E \\right) ^ { 2 } { \\pmb { a } } = { \\pmb { 0 } }$ ,其中 $( \\pmb { A } - \\pmb { E } ) ^ { 2 } \\mp \\pmb { \\operatorname { \\_ } }$ ,故 $\\pmb { \\alpha }$ 为任意的非零向量， ${ \\pmb { a } } = \\left( a _ { 1 } , a _ { 2 } , a _ { 3 } \\right) ^ { \\operatorname { T } } , a _ { 1 } a _ { 2 } a _ { 3 } \\neq 0$\n\n$$\n\\Rightarrow \\boldsymbol {\\beta} = (\\boldsymbol {A} - \\boldsymbol {E}) \\boldsymbol {\\alpha} = \\left( \\begin{array}{l l l} - 1 & - 1 & 2 \\\\ - 1 & - 1 & 2 \\\\ - 1 & - 1 & 2 \\end{array} \\right) \\left( \\begin{array}{l} a _ {1} \\\\ a _ {2} \\\\ a _ {3} \\end{array} \\right) = \\left( \\begin{array}{l} 2 a _ {3} - a _ {1} - a _ {2} \\\\ 2 a _ {3} - a _ {1} - a _ {2} \\\\ 2 a _ {3} - a _ {1} - a _ {2} \\end{array} \\right)\n$$\n\n其中 $a _ { 1 } + a _ { 2 } \\neq 2 a _ { 3 }$\n\n则综上 $\\mathbf { \\Delta } \\cdot \\mathbf { a } = { \\left( \\begin{array} { l } { a _ { 1 } } \\\\ { a _ { 2 } } \\\\ { a _ { 3 } } \\end{array} \\right) } , \\mathbf { \\beta } \\mathbf { \\int } \\mathbf { = } { \\left( \\begin{array} { l } { 2 a _ { 3 } - a _ { 1 } - a _ { 2 } } \\\\ { 2 a _ { 3 } - a _ { 1 } - a _ { 2 } } \\\\ { 2 a _ { 3 } - a _ { 1 } - a _ { 2 } } \\end{array} \\right) } , \\left( a _ { 1 } a _ { 2 } a _ { 3 } \\neq 0 , a _ { 1 } + a _ { 2 } \\neq 2 a _ { 3 } \\right)$\n\n22．（本题满分 12分）\n\n投保人的损失事件发生时，保险公司的赔付额 Y 与投保人的损失额 $X$ 的关系为$Y = { \\left\\{ \\begin{array} { l l } { 0 , X \\leq 1 0 0 , } \\\\ { x - 1 0 0 , X > 1 0 0 . } \\end{array} \\right. }$ 设 定 损 事 件 发 生 时 ， 投 保 人 的 损 失 额 $X$ 的 概 率 密 度 为\n\n$$\nf (x) = \\left\\{ \\begin{array}{l} \\frac {2 \\times 1 0 0 ^ {2}}{(1 0 0 + x) ^ {3}}, x > 0, \\\\ 0, x \\leq 0. \\end{array} \\right.\n$$\n\n（1）求 $P \\{ Y > 0 \\}$ 及 $E Y$ .\n（2）这种损失事件在一年内发生的次数记为 $N$ ，保险公司在一年内就这种损失事件产生的理赔次数记为 $M$ ，假设 $N$ 服从参数为8的泊松分布，在 $N = n \\left( n \\geq 1 \\right)$ 的条件下， $M$ 服从二项分布 $B ( n , p )$ ，其中 $p = P \\{ Y > 0 \\}$ ，求 $M$ 的概率分布.\n\n解：\n\n$\\mid { \\cal P } \\{ Y > 0 \\} = { \\cal P } \\{ X - 1 0 0 > 0 \\} = { \\cal P } \\{ X > 1 0 0 \\} = \\int _ { 1 0 0 } ^ { + \\infty } \\frac { 2 \\times 1 0 0 ^ { 2 } } { \\left( 1 0 0 + x \\right) ^ { 3 } } d x = \\frac { 1 } { 4 }$ dx =\n\n$$\nE Y = \\int_ {1 0 0} ^ {+ \\infty} (x - 1 0 0) \\frac {2 \\times 1 0 0 ^ {2}}{(1 0 0 + x) ^ {3}} d x = 5 0\n$$\n\n(2)\n\n$$\nN \\sim P (8) = \\{M \\mid N = n \\} \\sim B \\left(n, \\frac {1}{4}\\right)\n$$\n\n$$\n\\begin{array}{l} P \\{M = m \\} = \\sum_ {n = m} ^ {\\infty} P \\{N = n \\} \\cdot P \\{M = m \\mid N = n) \\\\ = \\sum_ {n = m} ^ {\\infty} \\frac {8 ^ {n}}{n !} e ^ {- 8} \\cdot C _ {n} ^ {m} \\cdot \\left(\\frac {1}{4}\\right) ^ {m} \\cdot \\left(\\frac {3}{4}\\right) ^ {n - m} \\\\ = \\sum_ {n = m} ^ {\\infty} \\frac {8 ^ {n}}{n !} e ^ {- 8} \\cdot \\frac {n !}{m ! (n - m) !} \\left(\\frac {1}{4}\\right) ^ {m} \\cdot \\left(\\frac {3}{4}\\right) ^ {n - m} \\\\ = \\left(\\frac {1}{4}\\right) ^ {m} e ^ {- 8} \\frac {8 ^ {m}}{m !} \\sum_ {n = m} ^ {\\infty} \\frac {8 ^ {n - m}}{(n - m) !} \\cdot \\left(\\frac {3}{4}\\right) ^ {n - m} \\\\ = \\left(\\frac {1}{4}\\right) ^ {m} e ^ {- 8} \\frac {8 ^ {m}}{m !} \\sum_ {n = m} ^ {\\infty} \\frac {6 ^ {n - m}}{(n - m) !} = \\frac {2 ^ {m}}{m !} e ^ {- 2} \\\\ \\end{array}\n$$",
+   "id": "bank.exam.m1-2025.36",
+   "number": 36,
+   "title": "2025 年数学一 第 36 题",
+   "questionText": "（本题满分 10分）\n\nx t  ,设 $\\varSigma$ 是由直线 $\\left\\{ { \\begin{array} { l } { x = 0 , } \\\\ { y = 0 } \\end{array} } \\right.$ 绕直线 t为参数y t   , 旋转一周得到的曲面， $\\textstyle { \\sum _ { 1 } }$ 是 $\\varSigma$ 介于平面z t \n\n$x + y + z = 0$ 与平面 $x + y + z = 1$ 之间部分的外侧，计算曲面侧积分\n\n$$\nI = \\iint_ {\\Sigma_ {1}} x \\mathrm {d} y \\mathrm {d} z + (y + 1) \\mathrm {d} z \\mathrm {d} x + (z + 2) \\mathrm {d} x \\mathrm {d} y.\n$$\n\n解：由题意可知直线 $\\left\\{ { \\begin{array} { l } { x = 0 } \\\\ { y = 0 } \\end{array} } \\right.$ 0y  记为 $l _ { 1 }$ ； $\\left\\{ \\begin{array} { l } { x = t } \\\\ { y = t } \\\\ { z = t } \\end{array} \\right.$ , 记为 $l _ { 2 }$ ，则直 线 $l _ { 1 }$ 绕直 线 $l _ { 2 }$ 旋转 所得 曲\n\n面 $\\Sigma$ 为 $\\left( x - t \\right) ^ { 2 } + \\left( y - t \\right) ^ { 2 } + \\left( z - t \\right) ^ { 2 } = 3 t ^ { 2 }$ 。已知 $\\Sigma _ { 1 }$ 是 $\\Sigma$ 介于平面 $x + y + z = 0$ 和平面$x + y + z = 1$ 之间的外侧，则补面 $\\Sigma _ { 0 } : x + y + z = 1$ ，方向指向外侧。则 $\\Sigma _ { 0 }$ 与 $\\Sigma _ { 1 }$ 所围为封闭区域，则由高斯公式可知\n\n$$\nI _ {1} = \\oiint_ {\\Sigma_ {0} + \\Sigma_ {1}} x \\mathrm {d} y \\mathrm {d} z + (y + 1) \\mathrm {d} z \\mathrm {d} x + (z + 2) \\mathrm {d} x \\mathrm {d} y\n$$\n\n$= \\iiint _ { \\Omega } ( 1 + 1 + 1 ) \\mathrm { d } \\nu = 3 \\iiint _ { \\Omega } \\mathrm { d } \\nu = 3 \\cdot { \\frac { 1 } { 3 } } \\pi { \\left( { \\frac { \\sqrt { 2 } } { 2 } } \\right) } ^ { 2 } { \\left( { \\frac { \\sqrt { 2 } } { 2 } } \\right) } = { \\frac { \\sqrt { 2 } } { 4 } } \\pi$ (注： $\\Omega$ 为圆 锥体 ) 。\n\n记 $D _ { x y }$ 为 $\\Sigma _ { 0 }$ 在xoy面上的投影， $D _ { _ { x y } } = \\left\\{ ( x , y ) | 0 { \\leqslant } x + y { \\leqslant } 1 , x \\geq 0 , y \\geq 0 \\right\\}$\n\n$$\n\\begin{array}{l} = \\iint_ {D _ {x y}} x \\mathrm {d} x \\mathrm {d} y + (y + 1) \\mathrm {d} x \\mathrm {d} y + (3 - x - y) \\mathrm {d} x \\mathrm {d} y \\\\ = \\iint_ {D _ {x y}} 2 d x d y = 2 \\cdot \\frac {1}{2} \\cdot 1 \\cdot 1 = 1 \\\\ \\end{array}\n$$\n\n故 $I = I _ { 1 } - I _ { 2 } = \\frac { \\sqrt { 2 } } { 4 } \\pi - 1$",
    "answerText": "（答案待校对补充）",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "differentiability_continuity",
-    "vector_linear_operation"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -261,9 +264,37 @@
     "kind": "exam",
     "year": 2025,
     "paper": "math1",
-    "number": 18
+    "number": 36
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "",
+   "section": "三、解答题： $1 7 { \\sim } 2 2$ 小题，共 70分．解答应写出文字说明、证明过程或演算步骤"
+  },
+  {
+   "id": "bank.exam.m1-2025.37",
+   "number": 37,
+   "title": "2025 年数学一 第 37 题",
+   "questionText": "（本题满分 10分）\n\n设矩阵 $A = { \\left( \\begin{array} { l l l } { 0 } & { - 1 } & { 2 } \\\\ { - 1 } & { 0 } & { 2 } \\\\ { - 1 } & { - 1 } & { a } \\end{array} \\right) } ,$ 已知 1是 $A$ 的特征多项式的重根.\n\n(1)求 a 的值；\n（2）求所有满足 $A \\alpha = \\alpha + \\beta , A ^ { 2 } \\alpha = \\alpha + 2 \\beta$ 的非零列向量 $\\alpha$ ， $\\beta$\n\n解：（1） $f ( \\lambda ) = \\mid A - \\lambda E \\mid = ( 1 - \\lambda ) [ ( \\lambda - a ) ( \\lambda + 1 ) + 4 ]$\n\n可得 $( 1 - a ) ( 1 + 1 ) + 4 = 0 , a = 3$ $a = 3$\n\n（2）由（1）可知 $A = \\left( \\begin{array} { r r r } { { 0 } } & { { - 1 } } & { { 2 } } \\\\ { { - 1 } } & { { 0 } } & { { 2 } } \\\\ { { - 1 } } & { { - 1 } } & { { 3 } } \\end{array} \\right) , | A - \\lambda E | = 0$ ,得 $\\pmb { A }$ 中 $\\lambda _ { 1 } = \\lambda _ { 2 } = \\lambda _ { 3 } = 1$ ，\n\n$$\nA \\alpha = \\alpha + \\beta . A ^ {2} \\alpha = \\alpha + 2 \\beta \\Rightarrow (A - E) \\alpha = \\beta , \\left(A ^ {2} - E\\right) \\alpha = 2 \\beta = 2 (A - E) \\alpha\n$$\n\n$\\left( A - E \\right) ^ { 2 } { \\pmb { a } } = { \\pmb { 0 } }$ ,其中 $( \\pmb { A } - \\pmb { E } ) ^ { 2 } \\mp \\pmb { \\operatorname { \\_ } }$ ,故 $\\pmb { \\alpha }$ 为任意的非零向量， ${ \\pmb { a } } = \\left( a _ { 1 } , a _ { 2 } , a _ { 3 } \\right) ^ { \\operatorname { T } } , a _ { 1 } a _ { 2 } a _ { 3 } \\neq 0$\n\n$$\n\\Rightarrow \\boldsymbol {\\beta} = (\\boldsymbol {A} - \\boldsymbol {E}) \\boldsymbol {\\alpha} = \\left( \\begin{array}{l l l} - 1 & - 1 & 2 \\\\ - 1 & - 1 & 2 \\\\ - 1 & - 1 & 2 \\end{array} \\right) \\left( \\begin{array}{l} a _ {1} \\\\ a _ {2} \\\\ a _ {3} \\end{array} \\right) = \\left( \\begin{array}{l} 2 a _ {3} - a _ {1} - a _ {2} \\\\ 2 a _ {3} - a _ {1} - a _ {2} \\\\ 2 a _ {3} - a _ {1} - a _ {2} \\end{array} \\right)\n$$\n\n其中 $a _ { 1 } + a _ { 2 } \\neq 2 a _ { 3 }$\n\n则综上 $\\mathbf { \\Delta } \\cdot \\mathbf { a } = { \\left( \\begin{array} { l } { a _ { 1 } } \\\\ { a _ { 2 } } \\\\ { a _ { 3 } } \\end{array} \\right) } , \\mathbf { \\beta } \\mathbf { \\int } \\mathbf { = } { \\left( \\begin{array} { l } { 2 a _ { 3 } - a _ { 1 } - a _ { 2 } } \\\\ { 2 a _ { 3 } - a _ { 1 } - a _ { 2 } } \\\\ { 2 a _ { 3 } - a _ { 1 } - a _ { 2 } } \\end{array} \\right) } , \\left( a _ { 1 } a _ { 2 } a _ { 3 } \\neq 0 , a _ { 1 } + a _ { 2 } \\neq 2 a _ { 3 } \\right)$\n\n22．（本题满分 12分）\n\n投保人的损失事件发生时，保险公司的赔付额 Y 与投保人的损失额 $X$ 的关系为$Y = { \\left\\{ \\begin{array} { l l } { 0 , X \\leq 1 0 0 , } \\\\ { x - 1 0 0 , X > 1 0 0 . } \\end{array} \\right. }$ 设 定 损 事 件 发 生 时 ， 投 保 人 的 损 失 额 $X$ 的 概 率 密 度 为\n\n$$\nf (x) = \\left\\{ \\begin{array}{l} \\frac {2 \\times 1 0 0 ^ {2}}{(1 0 0 + x) ^ {3}}, x > 0, \\\\ 0, x \\leq 0. \\end{array} \\right.\n$$\n\n（1）求 $P \\{ Y > 0 \\}$ 及 $E Y$ .\n（2）这种损失事件在一年内发生的次数记为 $N$ ，保险公司在一年内就这种损失事件产生的理赔次数记为 $M$ ，假设 $N$ 服从参数为8的泊松分布，在 $N = n \\left( n \\geq 1 \\right)$ 的条件下， $M$ 服从二项分布 $B ( n , p )$ ，其中 $p = P \\{ Y > 0 \\}$ ，求 $M$ 的概率分布.\n\n解：\n\n$\\mid { \\cal P } \\{ Y > 0 \\} = { \\cal P } \\{ X - 1 0 0 > 0 \\} = { \\cal P } \\{ X > 1 0 0 \\} = \\int _ { 1 0 0 } ^ { + \\infty } \\frac { 2 \\times 1 0 0 ^ { 2 } } { \\left( 1 0 0 + x \\right) ^ { 3 } } d x = \\frac { 1 } { 4 }$ dx =\n\n$$\nE Y = \\int_ {1 0 0} ^ {+ \\infty} (x - 1 0 0) \\frac {2 \\times 1 0 0 ^ {2}}{(1 0 0 + x) ^ {3}} d x = 5 0\n$$\n\n(2)\n\n$$\nN \\sim P (8) = \\{M \\mid N = n \\} \\sim B \\left(n, \\frac {1}{4}\\right)\n$$\n\n$$\n\\begin{array}{l} P \\{M = m \\} = \\sum_ {n = m} ^ {\\infty} P \\{N = n \\} \\cdot P \\{M = m \\mid N = n) \\\\ = \\sum_ {n = m} ^ {\\infty} \\frac {8 ^ {n}}{n !} e ^ {- 8} \\cdot C _ {n} ^ {m} \\cdot \\left(\\frac {1}{4}\\right) ^ {m} \\cdot \\left(\\frac {3}{4}\\right) ^ {n - m} \\\\ = \\sum_ {n = m} ^ {\\infty} \\frac {8 ^ {n}}{n !} e ^ {- 8} \\cdot \\frac {n !}{m ! (n - m) !} \\left(\\frac {1}{4}\\right) ^ {m} \\cdot \\left(\\frac {3}{4}\\right) ^ {n - m} \\\\ = \\left(\\frac {1}{4}\\right) ^ {m} e ^ {- 8} \\frac {8 ^ {m}}{m !} \\sum_ {n = m} ^ {\\infty} \\frac {8 ^ {n - m}}{(n - m) !} \\cdot \\left(\\frac {3}{4}\\right) ^ {n - m} \\\\ = \\left(\\frac {1}{4}\\right) ^ {m} e ^ {- 8} \\frac {8 ^ {m}}{m !} \\sum_ {n = m} ^ {\\infty} \\frac {6 ^ {n - m}}{(n - m) !} = \\frac {2 ^ {m}}{m !} e ^ {- 2} \\\\ \\end{array}\n$$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2025,
+    "paper": "math1",
+    "number": 37
+   },
+   "subjectGuess": "",
    "section": "三、解答题： $1 7 { \\sim } 2 2$ 小题，共 70分．解答应写出文字说明、证明过程或演算步骤"
   }
  ]

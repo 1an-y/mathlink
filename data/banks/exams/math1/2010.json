@@ -711,8 +711,8 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "surface_integral_definition",
-    "geometric_applications_multivariable",
-    "area_volume_arc"
+    "area_volume_arc",
+    "vector_perpendicular_parallel"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",

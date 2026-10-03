@@ -372,8 +372,8 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.invertibility_criteria",
-    "la.knowledge.orthogonal_matrix",
-    "la.knowledge.inverse_matrix"
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.orthogonal_matrix"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",

@@ -282,13 +282,13 @@
    "answerText": "$a=b$\n\n**解析：**\n因为 $f\\left(0\\right)=a$，且 $\\lim_{x\\to 0^{+}}\\dfrac{\\sin bx}{x}=b$，由连续性得 $a=b$。\n\n---",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
-    "multivariable_limit_continuity"
+    "multivariable_limit_continuity",
+    "differentiability_continuity"
    ],
    "methodIds": [],
    "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",

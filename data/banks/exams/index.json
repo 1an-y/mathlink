@@ -233,21 +233,21 @@
  {
   "year": 2021,
   "paper": "math1",
-  "total": 12,
+  "total": 13,
   "withAnswer": 0,
   "file": "data/banks/exams/math1/2021.json"
  },
  {
   "year": 2023,
   "paper": "math1",
-  "total": 15,
+  "total": 20,
   "withAnswer": 0,
   "file": "data/banks/exams/math1/2023.json"
  },
  {
   "year": 2025,
   "paper": "math1",
-  "total": 7,
+  "total": 8,
   "withAnswer": 5,
   "file": "data/banks/exams/math1/2025.json"
  },
@@ -506,7 +506,7 @@
  {
   "year": 2023,
   "paper": "math2",
-  "total": 18,
+  "total": 22,
   "withAnswer": 16,
   "file": "data/banks/exams/math2/2023.json"
  },

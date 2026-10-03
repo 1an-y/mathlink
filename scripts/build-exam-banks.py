@@ -77,12 +77,15 @@ def parse_m2(path: Path) -> dict:
             continue
         ns = [int(next(g for g in m.groups() if g)) for m in matches]
         local = min(ns) == 1
-        expect = 1 if local else ns[0]
         chain = []
-        for m, n in zip(matches, ns):
-            if n == expect:
+        last = 0
+        for mi0, (m, n) in enumerate(zip(matches, ns)):
+            if local and n > last:
                 chain.append((m, n))
-                expect += 1
+                last = n
+            elif not local and (n == last + 1 or mi0 == 0):
+                chain.append((m, n))
+                last = n
         base = offset if local else 0
         for mi, (m, n) in enumerate(chain):
             start = m.end()
@@ -101,6 +104,8 @@ def parse_m2(path: Path) -> dict:
                 "answer": answer, "explanation": explanation,
                 "section": sec.group(0).lstrip("# ").strip(),
             })
+        if not chain:
+            continue
         if local:
             offset += len(chain)
         else:
@@ -126,12 +131,15 @@ def parse_m1(path: Path) -> dict:
             continue
         ns = [int(next(g for g in m.groups() if g)) for m in matches]
         local = min(ns) == 1  # 节内从 1 起编（局部），否则为全卷连续编号
-        expect = 1 if local else ns[0]
         chain = []
-        for m, n in zip(matches, ns):
-            if n == expect:
+        last = 0
+        for mi0, (m, n) in enumerate(zip(matches, ns)):
+            if local and n > last:  # 单调递增（允许个别题号标记缺失）
                 chain.append((m, n))
-                expect += 1
+                last = n
+            elif not local and (n == last + 1 or mi0 == 0):
+                chain.append((m, n))
+                last = n
         base = offset if local else 0
         for mi, (m, n) in enumerate(chain):
             start = m.end()
@@ -148,6 +156,8 @@ def parse_m1(path: Path) -> dict:
                 "answer": answer, "explanation": "",
                 "section": sec.group(0).lstrip("# ").strip(),
             })
+        if not chain:
+            continue
         if local:
             offset += len(chain)
         else:

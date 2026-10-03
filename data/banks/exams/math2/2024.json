@@ -278,13 +278,13 @@
    "answerText": "C\n\n**解析：**\n先有\n$$\n\\frac{\\partial f}{\\partial x}(0,0)=0,\\qquad \\frac{\\partial f}{\\partial y}(0,0)=0.\n$$\n且\n$$\n\\left|\\frac{f(x,y)-f(0,0)}{\\sqrt{x^2+y^2}}\\right|\n\\le \\sqrt{x^2+y^2}\\to 0,\n$$\n故 $f$ 在 $(0,0)$ 可微。\n当 $xy\\ne 0$ 时，\n$$\n\\frac{\\partial f}{\\partial x}\n=2x\\sin\\frac{1}{xy}-\\frac{x^2+y^2}{x^2y}\\cos\\frac{1}{xy},\n$$\n其在 $(0,0)$ 附近极限不存在，所以偏导不连续。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "differentiability_continuity",
     "multivariable_limit_continuity",
+    "differentiability_continuity",
     "power_series_sum"
    ],
    "methodIds": [],
