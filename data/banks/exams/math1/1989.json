@@ -4,8 +4,8 @@
  "subject": "exam_mixed",
  "year": 1989,
  "paper": "math1",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1989年考研数学(一)真题.md",
  "paperInfo": {
   "year": 1989,
@@ -14,9 +14,15 @@
   "sections": [
    "一、填空题（本题共5小题，每小题3分，满分15分）",
    "二、选择题（本题共5小题，每小题3分，满分15分）",
-   "三、(本题共3小题，每小题5分，满分15分)",
-   "八、（本题满分8分）",
-   "十、填空题（本题共3小题，每小题2分，满分6分）"
+   "三、（本题共3小题，每小题5分，满分15分）",
+   "四、（本题满分6分）",
+   "五、（本题满分7分）",
+   "六、（本题满分7分）",
+   "七、（本题满分6分）",
+   "八、（本题满分8分，含2小题）",
+   "九、（本题满分9分）",
+   "十、填空题（本题共3小题，每小题2分，满分6分）",
+   "十一、（本题满分6分）"
   ],
   "problemsOrder": [
    {
@@ -52,19 +58,19 @@
    {
     "number": 6,
     "id": "bank.exam.m1-1989.6",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 7,
     "id": "bank.exam.m1-1989.7",
-    "subjectGuess": "probability_statistics",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m1-1989.8",
-    "subjectGuess": "probability_statistics",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -76,32 +82,32 @@
    {
     "number": 10,
     "id": "bank.exam.m1-1989.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 11,
     "id": "bank.exam.m1-1989.11",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 12,
     "id": "bank.exam.m1-1989.12",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 13,
     "id": "bank.exam.m1-1989.13",
-    "subjectGuess": "linear_algebra",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 14,
     "id": "bank.exam.m1-1989.14",
-    "subjectGuess": "probability_statistics",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 15,
@@ -118,13 +124,49 @@
    {
     "number": 17,
     "id": "bank.exam.m1-1989.17",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": false
    },
    {
     "number": 18,
     "id": "bank.exam.m1-1989.18",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-1989.19",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-1989.20",
     "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-1989.21",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-1989.22",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-1989.23",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 24,
+    "id": "bank.exam.m1-1989.24",
+    "subjectGuess": "probability_statistics",
     "objective": false
    }
   ],
@@ -136,7 +178,7 @@
    "number": 1,
    "title": "1989 年数学一 第 1 题",
    "questionText": "已知 $f^{\\prime}(3) = 2$ ，则 $\\lim_{h\\to 0}\\frac{f(3 - h) - f(3)}{2h} = \\underline{\\quad}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$-1$\n\n**解析：**\n$\\lim_{h\\to 0}\\dfrac{f(3-h)-f(3)}{2h}=-\\dfrac{1}{2}\\lim_{h\\to 0}\\dfrac{f(3-h)-f(3)}{-h}=-\\dfrac{1}{2}f^{\\prime}(3)=-1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -145,7 +187,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -163,8 +205,8 @@
    "id": "bank.exam.m1-1989.2",
    "number": 2,
    "title": "1989 年数学一 第 2 题",
-   "questionText": "设 $f(x)$ 是连续函数，且 $f(x) = x + 2\\int_{0}^{1}f(t)\\mathrm{d}t$ ，则 $f(x) = \\_$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $f(x)$ 是连续函数，且 $f(x)=x+2\\displaystyle\\int_{0}^{1}f(t)\\,\\mathrm{d}t$，则 $f(x)=\\underline{\\quad}$",
+   "answerText": "答案：$x-1$\n\n**解析：**\n记 $A=\\int_{0}^{1}f(t)\\,\\mathrm{d}t$，则 $f(x)=x+2A$。两边在 $[0,1]$ 上积分：$A=\\dfrac{1}{2}+2A$，得 $A=-\\dfrac{1}{2}$，故 $f(x)=x-1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -176,7 +218,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -195,7 +237,7 @@
    "number": 3,
    "title": "1989 年数学一 第 3 题",
    "questionText": "设平面曲线 $L$ 为下半圆 $y = -\\sqrt{1 - x^2}$ ，则曲线积分 $\\int_{L}(x^{2} + y^{2})\\mathrm{d}s = \\underline{\\quad}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\pi$\n\n**解析：**\n在下半圆周上 $x^{2}+y^{2}=1$，故被积函数恒为 1，积分等于曲线弧长，即半径为 1 的半圆周长 $\\pi$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
@@ -206,7 +248,7 @@
     "line_integral_definition"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -224,8 +266,8 @@
    "id": "bank.exam.m1-1989.4",
    "number": 4,
    "title": "1989 年数学一 第 4 题",
-   "questionText": "向量场 $\\pmb {u}(x,y,z) = xy^{2}\\pmb {i} + ye^{z}\\pmb {j} + x\\ln (1 + z^{2})\\pmb{k}$ 在点(1，1，0)处的散度 $\\mathrm{div}\\pmb {u} =$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "向量场 $\\boldsymbol{u}(x,y,z)=xy^{2}\\boldsymbol{i}+y\\mathrm{e}^{z}\\boldsymbol{j}+x\\ln(1+z^{2})\\boldsymbol{k}$ 在点 $(1,\\,1,\\,0)$ 处的散度 $\\mathrm{div}\\,\\boldsymbol{u}=\\underline{\\quad}$",
+   "answerText": "答案：$2$\n\n**解析：**\n$\\mathrm{div}\\,\\boldsymbol{u}=y^{2}+\\mathrm{e}^{z}+\\dfrac{2xz}{1+z^{2}}$，代入点 $(1,1,0)$ 得 $1+1+0=2$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
@@ -237,7 +279,7 @@
     "divergence_and_curl"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -255,8 +297,8 @@
    "id": "bank.exam.m1-1989.5",
    "number": 5,
    "title": "1989 年数学一 第 5 题",
-   "questionText": "设矩阵 $\\mathbf{A} = \\begin{pmatrix} 3 & 0 & 0\\\\ 1 & 4 & 0\\\\ 0 & 0 & 3 \\end{pmatrix}$ $E = \\left( \\begin{array}{lll}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 1 \\end{array} \\right)$ 则逆矩阵 $(\\mathbf{A} - 2\\mathbf{E})^{-1} =$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设矩阵 $\\mathbf{A}=\\begin{pmatrix} 3 & 0 & 0 \\\\ 1 & 4 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}$，$\\mathbf{E}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$，则逆矩阵 $(\\mathbf{A}-2\\mathbf{E})^{-1}=\\underline{\\quad}$",
+   "answerText": "答案：$\\begin{pmatrix} 1 & 0 & 0 \\\\ -\\frac{1}{2} & \\frac{1}{2} & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$\n\n**解析：**\n$\\mathbf{A}-2\\mathbf{E}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 1 & 2 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$，用初等行变换求逆即得 $(\\mathbf{A}-2\\mathbf{E})^{-1}=\\begin{pmatrix} 1 & 0 & 0 \\\\ -\\frac{1}{2} & \\frac{1}{2} & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -268,7 +310,7 @@
     "la.knowledge.matrix_transpose"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -286,8 +328,8 @@
    "id": "bank.exam.m1-1989.6",
    "number": 6,
    "title": "1989 年数学一 第 6 题",
-   "questionText": "当 $x > 0$ 时，曲线 $y = x\\sin \\frac{1}{x} ($\n\n（A）有且仅有水平渐近线\n(B) 有且仅有铅直渐近线\n（C）既有水平渐近线，也有铅直渐近线\n（D）既无水平渐近线，也无铅直渐近线",
-   "answerText": "（答案待校对补充）",
+   "questionText": "当 $x>0$ 时，曲线 $y=x\\sin\\dfrac{1}{x}$（ ）.\\n\\n（A）有且仅有水平渐近线\\n\\n(B) 有且仅有铅直渐近线\\n\\n（C）既有水平渐近线，也有铅直渐近线\\n\\n（D）既无水平渐近线，也无铅直渐近线",
+   "answerText": "答案：A\n\n**解析：**\n$\\lim_{x\\to+\\infty}x\\sin\\dfrac{1}{x}=\\lim_{x\\to+\\infty}\\dfrac{\\sin\\frac{1}{x}}{\\frac{1}{x}}=1$，故有水平渐近线 $y=1$；又 $\\lim_{x\\to 0^{+}}x\\sin\\dfrac{1}{x}=0$，不存在无穷间断点，故无铅直渐近线。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -296,7 +338,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -307,7 +349,7 @@
     "paper": "math1",
     "number": 6
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -315,7 +357,7 @@
    "number": 7,
    "title": "1989 年数学一 第 7 题",
    "questionText": "已知曲面 $z = 4 - x^{2} - y^{2}$ 上点 $P$ 处的切平面平行于平面 $2x + 2y + z - 1 = 0$ ，则点 $P$ 的坐标为（ ）.\n\n(A) $(1, - 1,2)$\n\n(B)(-1,1,2)\n\n(C)(1,1,2)\n\n(D) $(-1, -1, 2)$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：C\n\n**解析：**\n曲面在点 $P(x_{0},y_{0},4-x_{0}^{2}-y_{0}^{2})$ 处的法向量为 $\\boldsymbol{n}=(2x_{0},2y_{0},1)$。它与 $(2,2,1)$ 平行，即 $\\dfrac{2x_{0}}{2}=\\dfrac{2y_{0}}{2}=1$，得 $x_{0}=y_{0}=1$，$z_{0}=4-1-1=2$，故 $P=(1,1,2)$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -324,7 +366,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -335,7 +377,7 @@
     "paper": "math1",
     "number": 7
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -343,7 +385,7 @@
    "number": 8,
    "title": "1989 年数学一 第 8 题",
    "questionText": "设线性无关的函数 $y_{1}, y_{2}, y_{3}$ 都是二阶非齐次线性微分方程 $y'' + p(x)y' + q(x)y = f(x)$ 的特解， $C_{1}, C_{2}$ 为任意常数，则该非齐次线性微分方程的通解为（ ）.\n\n(A) $C_1y_1 + C_2y_2 + y_3$\n(B) $C_1y_1 + C_2y_2 - (C_1 + C_2)y_3$\n(C) $C_{1}y_{1} + C_{2}y_{2} - (1 - C_{1} - C_{2})y_{3}$\n(D) $C_{1}y_{1} + C_{2}y_{2} + (1 - C_{1} - C_{2})y_{3}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：D\n\n**解析：**\n由于 $y_{1},y_{2},y_{3}$ 都是非齐次方程的特解，$y_{1}-y_{3}$ 与 $y_{2}-y_{3}$ 是对应齐次方程的解且线性无关。故非齐次方程通解为 $y=C_{1}(y_{1}-y_{3})+C_{2}(y_{2}-y_{3})+y_{3}=C_{1}y_{1}+C_{2}y_{2}+(1-C_{1}-C_{2})y_{3}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -352,7 +394,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -363,15 +405,15 @@
     "paper": "math1",
     "number": 8
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1989.9",
    "number": 9,
    "title": "1989 年数学一 第 9 题",
-   "questionText": "设函数 $f(x) = x^{2}(0\\leqslant x < 1),S(x) = \\sum_{n = 1}^{\\infty}b_{n}\\sin n\\pi x,(-\\infty <  x <   + \\infty)$ ，其中 $b_{n} = 2\\int_{0}^{1}f(x)\\sin n\\pi x\\mathrm{d}x(n = 1,2,\\dots)$ ，则 $S\\left(-\\frac{1}{2}\\right) = ()$\n\n(A) $-\\frac{1}{2}$\n\n(B) $-\\frac{1}{4}$\n\n(C) $\\frac{1}{4}$\n\n(D) $\\frac{1}{2}$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $f(x)=x^{2}\\ (0\\leqslant x<1)$，$S(x)=\\displaystyle\\sum_{n=1}^{\\infty}b_{n}\\sin n\\pi x\\ (-\\infty<x<+\\infty)$，其中 $b_{n}=2\\displaystyle\\int_{0}^{1}f(x)\\sin n\\pi x\\,\\mathrm{d}x\\ (n=1,2,\\dots)$，则 $S\\left(-\\dfrac{1}{2}\\right)=$（ ）.\\n\\n(A) $-\\dfrac{1}{2}$\\n\\n(B) $-\\dfrac{1}{4}$\\n\\n(C) $\\dfrac{1}{4}$\\n\\n(D) $\\dfrac{1}{2}$",
+   "answerText": "答案：B\n\n**解析：**\n$S(x)$ 是对 $f$ 作奇延拓后所得函数的傅里叶（正弦）级数，故 $S\\left(-\\dfrac{1}{2}\\right)=-S\\left(\\dfrac{1}{2}\\right)$。而 $x=\\dfrac{1}{2}$ 是延拓函数的连续点，$S\\left(\\dfrac{1}{2}\\right)=f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{4}$，故 $S\\left(-\\dfrac{1}{2}\\right)=-\\dfrac{1}{4}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "infinite_series",
@@ -382,7 +424,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -401,7 +443,7 @@
    "number": 10,
    "title": "1989 年数学一 第 10 题",
    "questionText": "设 $\\mathbf{A}$ 为4阶矩阵，且 $|\\mathbf{A}| = 0$ ，则 $\\mathbf{A}$ 中（ ）.\n\n（A）必有一列元素全为0\n（B）必有两列元素对应成比例\n（C）必有一列向量是其余列向量的线性组合\n（D）任一列向量是其余列向量的线性组合",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：C\n\n**解析：**\n$|\\mathbf{A}|=0$ 说明 $\\mathbf{A}$ 的列向量组线性相关，由线性相关的性质，必有某列向量可由其余列向量线性表示，故选 C。(A)(B) 是使行列式为零的充分而非必要条件，(D) 要求过强（满秩减一秩的矩阵才成立）。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
@@ -412,7 +454,7 @@
     "vector_linear_operation"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -423,7 +465,7 @@
     "paper": "math1",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -431,7 +473,7 @@
    "number": 11,
    "title": "1989 年数学一 第 11 题",
    "questionText": "设 $z = f(2x - y) + g(x,xy)$ ，其中 $f(t)$ 二阶可导， $g(u,v)$ 具有二阶连续偏导数，求 $\\frac{\\partial^2z}{\\partial x\\partial y}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$-2f^{\\prime\\prime}+xg_{12}^{\\prime\\prime}+g_{2}^{\\prime}+xyg_{22}^{\\prime\\prime}$\n\n**解析：**\n$\\dfrac{\\partial z}{\\partial x}=2f^{\\prime}(2x-y)+g_{1}^{\\prime}(x,xy)+yg_{2}^{\\prime}(x,xy)$。再对 $y$ 求导：第一项给出 $-2f^{\\prime\\prime}(2x-y)$；$g_{1}^{\\prime}$ 对 $y$ 的偏导经第二中间变量 $xy$ 给出 $xg_{12}^{\\prime\\prime}$；对 $yg_{2}^{\\prime}$ 用乘积法则给出 $g_{2}^{\\prime}+xyg_{22}^{\\prime\\prime}$。合并即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -444,7 +486,7 @@
     "continuity_partial_differentiability"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -456,14 +498,14 @@
     "number": 11
    },
    "subjectGuess": "calculus",
-   "section": "三、(本题共3小题，每小题5分，满分15分)"
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1989.12",
    "number": 12,
    "title": "1989 年数学一 第 12 题",
    "questionText": "设曲线积分 $\\int_{C} xy^{2} \\, \\mathrm{d}x + \\varphi(x) y \\, \\mathrm{d}y$ 与路径无关，其中 $\\varphi(x)$ 具有连续的导数，且 $\\varphi(0) = 0$ 计算 $\\int_{(0,0)}^{(1,1)} xy^{2} \\, \\mathrm{d}x + \\varphi(x) y \\, \\mathrm{d}y$ 的值.",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\varphi(x)=x^{2}$；积分值为 $\\dfrac{1}{2}$\n\n**解析：**\n由路径无关条件 $\\dfrac{\\partial Q}{\\partial x}=\\dfrac{\\partial P}{\\partial y}$ 得 $\\varphi^{\\prime}(x)y=2xy$，即 $\\varphi^{\\prime}(x)=2x$，结合 $\\varphi(0)=0$ 得 $\\varphi(x)=x^{2}$。此时 $xy^{2}\\,\\mathrm{d}x+x^{2}y\\,\\mathrm{d}y=\\mathrm{d}\\left(\\dfrac{1}{2}x^{2}y^{2}\\right)$，故原积分 $=\\dfrac{1}{2}x^{2}y^{2}\\Big|_{(0,0)}^{(1,1)}=\\dfrac{1}{2}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
@@ -476,7 +518,7 @@
     "multivariable_limit_continuity"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -488,14 +530,14 @@
     "number": 12
    },
    "subjectGuess": "calculus",
-   "section": "三、(本题共3小题，每小题5分，满分15分)"
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1989.13",
    "number": 13,
    "title": "1989 年数学一 第 13 题",
    "questionText": "计算三重积分 $\\iiint_{\\Omega} (x + z) \\, \\mathrm{d}v$ ，其中 $\\Omega$ 是由 $z = \\sqrt{x^2 + y^2}$ 与 $z = \\sqrt{1 - x^2 - y^2}$ 所围成的区域.",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\dfrac{\\pi}{8}$\n\n**解析：**\n两曲面交线满足 $\\sqrt{x^{2}+y^{2}}=\\sqrt{1-x^{2}-y^{2}}$，即 $x^{2}+y^{2}=\\dfrac{1}{2}$。由对称性 $\\displaystyle\\iiint_{\\Omega}x\\,\\mathrm{d}v=0$。用球坐标（$0\\le\\varphi\\le\\dfrac{\\pi}{4}$，$0\\le r\\le 1$）：$\\displaystyle\\iiint_{\\Omega}z\\,\\mathrm{d}v=\\int_{0}^{2\\pi}\\mathrm{d}\\theta\\int_{0}^{\\frac{\\pi}{4}}\\cos\\varphi\\sin\\varphi\\,\\mathrm{d}\\varphi\\int_{0}^{1}r^{3}\\,\\mathrm{d}r=2\\pi\\cdot\\dfrac{1}{4}\\cdot\\dfrac{1}{4}=\\dfrac{\\pi}{8}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -504,7 +546,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -515,15 +557,15 @@
     "paper": "math1",
     "number": 13
    },
-   "subjectGuess": "linear_algebra",
-   "section": "三、(本题共3小题，每小题5分，满分15分)"
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
   },
   {
    "id": "bank.exam.m1-1989.14",
    "number": 14,
    "title": "1989 年数学一 第 14 题",
-   "questionText": "$\\frac{1}{\\lambda}$ 为 $\\mathbf{A}^{-1}$ 的特征值；",
-   "answerText": "（答案待校对补充）",
+   "questionText": "将函数 $f(x)=\\arctan\\dfrac{1+x}{1-x}$ 展开成 $x$ 的幂级数.",
+   "answerText": "答案：$f(x)=\\dfrac{\\pi}{4}+\\displaystyle\\sum_{n=0}^{\\infty}\\frac{(-1)^{n}}{2n+1}x^{2n+1}\\quad(-1\\leqslant x<1)$\n\n**解析：**\n先求导：$f^{\\prime}(x)=\\dfrac{1}{1+x^{2}}$（复合求导后化简），而 $\\dfrac{1}{1+x^{2}}=\\sum_{n=0}^{\\infty}(-1)^{n}x^{2n}$（$|x|<1$）。逐项积分并用 $f(0)=\\arctan 1=\\dfrac{\\pi}{4}$：$f(x)=\\dfrac{\\pi}{4}+\\sum_{n=0}^{\\infty}\\dfrac{(-1)^{n}}{2n+1}x^{2n+1}$。在 $x=-1$ 处右边级数收敛且 $f(-1)$ 有定义，故展开式成立范围为 $-1\\le x<1$（$x=1$ 处 $f$ 无定义）。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -532,7 +574,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -543,15 +585,15 @@
     "paper": "math1",
     "number": 14
    },
-   "subjectGuess": "probability_statistics",
-   "section": "八、（本题满分8分）"
+   "subjectGuess": "calculus",
+   "section": "四、（本题满分6分）"
   },
   {
    "id": "bank.exam.m1-1989.15",
    "number": 15,
    "title": "1989 年数学一 第 15 题",
-   "questionText": "$\\frac{|A|}{\\lambda}$ 为 $A$ 的伴随矩阵 $A^{*}$ 的特征值.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $f(x)=\\sin x-\\displaystyle\\int_{0}^{x}(x-t)f(t)\\,\\mathrm{d}t$，其中 $f(x)$ 为连续函数，求 $f(x)$.",
+   "answerText": "答案：$f(x)=\\dfrac{1}{2}\\sin x+\\dfrac{x}{2}\\cos x$\n\n**解析：**\n把积分拆成 $x\\int_{0}^{x}f(t)\\,\\mathrm{d}t-\\int_{0}^{x}tf(t)\\,\\mathrm{d}t$ 后求导，得 $f^{\\prime}(x)=\\cos x-\\int_{0}^{x}f(t)\\,\\mathrm{d}t$；再求导得 $f^{\\prime\\prime}(x)+f(x)=-\\sin x$，且初始条件 $f(0)=0,\\ f^{\\prime}(0)=1$。齐次通解为 $C_{1}\\cos x+C_{2}\\sin x$；设特解 $f_{0}=x(a\\cos x+b\\sin x)$，代入得 $a=\\dfrac{1}{2},\\ b=0$。由初始条件定出 $C_{1}=0,\\ C_{2}=\\dfrac{1}{2}$，故 $f(x)=\\dfrac{1}{2}\\sin x+\\dfrac{x}{2}\\cos x$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -560,7 +602,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -572,14 +614,14 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "八、（本题满分8分）"
+   "section": "五、（本题满分7分）"
   },
   {
    "id": "bank.exam.m1-1989.16",
    "number": 16,
    "title": "1989 年数学一 第 16 题",
-   "questionText": "已知随机事件 $A$ 的概率 $P(A) = 0.5$ ，随机事件 $B$ 的概率 $P(B) = 0.6$ ，以及条件概率 $P(B\\mid A) = 0.8$ ，则 $P(A\\cup B) = \\_$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "证明：方程 $\\ln x=\\dfrac{x}{\\mathrm{e}}-\\displaystyle\\int_{0}^{\\pi}\\sqrt{1-\\cos 2x}\\,\\mathrm{d}x$ 在区间 $(0,+\\infty)$ 内有且仅有两个不同的实根.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n先算常数：$\\displaystyle\\int_{0}^{\\pi}\\sqrt{1-\\cos 2x}\\,\\mathrm{d}x=\\sqrt{2}\\int_{0}^{\\pi}\\sin x\\,\\mathrm{d}x=2\\sqrt{2}$，方程化为 $\\ln x=\\dfrac{x}{\\mathrm{e}}-2\\sqrt{2}$。令 $g(x)=\\ln x-\\dfrac{x}{\\mathrm{e}}+2\\sqrt{2}$，由 $g^{\\prime}(x)=\\dfrac{1}{x}-\\dfrac{1}{\\mathrm{e}}$ 知 $g$ 在 $(0,\\mathrm{e}]$ 严格增、$[\\mathrm{e},+\\infty)$ 严格减，$g(\\mathrm{e})=2\\sqrt{2}>0$ 为最大值，且 $\\lim_{x\\to 0^{+}}g(x)=-\\infty$，$\\lim_{x\\to+\\infty}g(x)=-\\infty$。由零点定理及单调性，$g$ 在 $(0,\\mathrm{e})$ 与 $(\\mathrm{e},+\\infty)$ 内各恰有一个零点，故原方程有且仅有两个实根。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -588,7 +630,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -600,14 +642,14 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+   "section": "六、（本题满分7分）"
   },
   {
    "id": "bank.exam.m1-1989.17",
    "number": 17,
    "title": "1989 年数学一 第 17 题",
-   "questionText": "甲、乙两人独立对同一目标射击一次，其命中率分别为0.6和0.5，已知目标被击中，则它是甲击中的概率为",
-   "answerText": "（答案待校对补充）",
+   "questionText": "问 $\\lambda$ 为何值时，线性方程组 $\\left\\{\\begin{array}{l} x_{1}+x_{3}=\\lambda, \\\\ 4x_{1}+x_{2}+2x_{3}=\\lambda+2, \\\\ 6x_{1}+x_{2}+4x_{3}=2\\lambda+3 \\end{array}\\right.$ 有解，并求出解的一般形式.",
+   "answerText": "答案：$\\lambda=1$ 时有解，通解为 $\\boldsymbol{X}=(1,-1,0)^{\\mathrm{T}}+k(-1,2,1)^{\\mathrm{T}}$（$k$ 为任意常数）\n\n**解析：**\n对增广矩阵作行变换得 $\\begin{pmatrix}1&0&1&\\lambda\\\\0&1&-2&2-3\\lambda\\\\0&0&0&1-\\lambda\\end{pmatrix}$，故仅当 $\\lambda=1$ 时 $r(\\overline{A})=r(A)$，方程组有解。此时可解出 $x_{1}=1-x_{3},\\ x_{2}=-1+2x_{3}$，令 $x_{3}=k$ 得通解 $\\boldsymbol{X}=(1,-1,0)^{\\mathrm{T}}+k(-1,2,1)^{\\mathrm{T}}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -616,7 +658,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对；源解析通解向量漏写第三分量，已按验算补全",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -627,26 +669,24 @@
     "paper": "math1",
     "number": 17
    },
-   "subjectGuess": "calculus",
-   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+   "subjectGuess": "linear_algebra",
+   "section": "七、（本题满分6分）"
   },
   {
    "id": "bank.exam.m1-1989.18",
    "number": 18,
    "title": "1989 年数学一 第 18 题",
-   "questionText": "若随机变量 $\\xi$ 在 (1,6) 上服从均匀分布，则方程 $x^{2} + \\xi x + 1 = 0$ 有实根的概率为\n\n# 十一、（本题满分6分）\n\n设随机变量 $X$ 与 $Y$ 独立，且 $X$ 服从均值为1、标准差为 $\\sqrt{2}$ 的正态分布，而 $Y$ 服从标准正态分布，试求随机变量 $Z = 2X - Y + 3$ 的概率密度函数.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $\\lambda$ 为 $n$ 阶可逆矩阵 $\\mathbf{A}$ 的一个特征值，证明：\\n\\n（1）$\\dfrac{1}{\\lambda}$ 为 $\\mathbf{A}^{-1}$ 的特征值；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n$\\mathbf{A}$ 可逆故 $\\lambda\\neq 0$。设 $\\boldsymbol{\\alpha}\\neq\\boldsymbol{0}$ 是属于 $\\lambda$ 的特征向量，即 $\\mathbf{A}\\boldsymbol{\\alpha}=\\lambda\\boldsymbol{\\alpha}$。两边左乘 $\\mathbf{A}^{-1}$ 得 $\\boldsymbol{\\alpha}=\\lambda\\mathbf{A}^{-1}\\boldsymbol{\\alpha}$，即 $\\mathbf{A}^{-1}\\boldsymbol{\\alpha}=\\dfrac{1}{\\lambda}\\boldsymbol{\\alpha}$，故 $\\dfrac{1}{\\lambda}$ 是 $\\mathbf{A}^{-1}$ 的特征值。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
+   "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -657,8 +697,178 @@
     "paper": "math1",
     "number": 18
    },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1989.19",
+   "number": 19,
+   "title": "1989 年数学一 第 19 题",
+   "questionText": "设 $\\lambda$ 为 $n$ 阶可逆矩阵 $\\mathbf{A}$ 的一个特征值，证明：\\n\\n（2）$\\dfrac{|A|}{\\lambda}$ 为 $A$ 的伴随矩阵 $A^{*}$ 的特征值.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n由 $\\mathbf{A}^{*}=|\\mathbf{A}|\\mathbf{A}^{-1}$，对特征向量 $\\boldsymbol{\\alpha}$ 有 $\\mathbf{A}^{*}\\boldsymbol{\\alpha}=|\\mathbf{A}|\\mathbf{A}^{-1}\\boldsymbol{\\alpha}=\\dfrac{|\\mathbf{A}|}{\\lambda}\\boldsymbol{\\alpha}$，故 $\\dfrac{|\\mathbf{A}|}{\\lambda}$ 是 $\\mathbf{A}^{*}$ 的特征值。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1989,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1989.20",
+   "number": 20,
+   "title": "1989 年数学一 第 20 题",
+   "questionText": "设半径为 $R$ 的球面 $\\Sigma$ 的球心在定球面 $x^{2}+y^{2}+z^{2}=a^{2}$（$a>0$）上，问当 $R$ 取何值时，球面 $\\Sigma$ 位于定球面内部的那部分面积最大？",
+   "answerText": "答案：$R=\\dfrac{4}{3}a$\n\n**解析：**\n不妨设 $\\Sigma$ 的球心在 $(0,0,a)$：$x^{2}+y^{2}+(z-a)^{2}=R^{2}$（$0<R<2a$）。两球面交线满足 $x^{2}+y^{2}=R^{2}-\\dfrac{R^{4}}{4a^{2}}$，$\\Sigma$ 在定球内的部分为 $z=a-\\sqrt{R^{2}-x^{2}-y^{2}}$。由曲面面积公式，$S=\\displaystyle\\iint_{D}\\frac{R}{\\sqrt{R^{2}-x^{2}-y^{2}}}\\,\\mathrm{d}x\\mathrm{d}y=2\\pi R\\int_{0}^{\\sqrt{R^{2}-R^{4}/(4a^{2})}}\\frac{r\\,\\mathrm{d}r}{\\sqrt{R^{2}-r^{2}}}=2\\pi\\left(R^{2}-\\frac{R^{3}}{2a}\\right)$。令 $\\dfrac{\\mathrm{d}S}{\\mathrm{d}R}=2\\pi\\left(2R-\\dfrac{3R^{2}}{2a}\\right)=0$ 得 $R=\\dfrac{4}{3}a$，且该点两侧 $S'$ 由正变负，故此时面积最大。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1989,
+    "paper": "math1",
+    "number": 20
+   },
    "subjectGuess": "calculus",
+   "section": "九、（本题满分9分）"
+  },
+  {
+   "id": "bank.exam.m1-1989.21",
+   "number": 21,
+   "title": "1989 年数学一 第 21 题",
+   "questionText": "已知随机事件 $A$ 的概率 $P(A)=0.5$，随机事件 $B$ 的概率 $P(B)=0.6$，以及条件概率 $P(B\\mid A)=0.8$，则 $P(A\\cup B)=\\underline{\\quad}$",
+   "answerText": "答案：$0.7$\n\n**解析：**\n由 $P(AB)=P(A)P(B|A)=0.5\\times 0.8=0.4$，得 $P(A\\cup B)=P(A)+P(B)-P(AB)=0.5+0.6-0.4=0.7$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1989,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "probability_statistics",
    "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1989.22",
+   "number": 22,
+   "title": "1989 年数学一 第 22 题",
+   "questionText": "甲、乙两人独立对同一目标射击一次，其命中率分别为 0.6 和 0.5，已知目标被击中，则它是甲击中的概率为 $\\underline{\\quad}$",
+   "answerText": "答案：$0.75$\n\n**解析：**\n记 $A=\\{$甲命中$\\}$，$B=\\{$乙命中$\\}$，则目标被击中为 $C=A\\cup B$，$P(C)=P(A)+P(B)-P(A)P(B)=0.6+0.5-0.3=0.8$。所求为 $P(A|C)=\\dfrac{P(A)}{P(C)}=\\dfrac{0.6}{0.8}=0.75$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1989,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1989.23",
+   "number": 23,
+   "title": "1989 年数学一 第 23 题",
+   "questionText": "若随机变量 $\\xi$ 在 $(1,6)$ 上服从均匀分布，则方程 $x^{2}+\\xi x+1=0$ 有实根的概率为 $\\underline{\\quad}$",
+   "answerText": "答案：$0.8$\n\n**解析：**\n方程有实根当且仅当判别式 $\\xi^{2}-4\\ge 0$，即 $|\\xi|\\ge 2$。由 $\\xi\\sim U(1,6)$ 只需考虑 $\\xi\\ge 2$，其概率为 $\\dfrac{6-2}{6-1}=0.8$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1989,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共3小题，每小题2分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1989.24",
+   "number": 24,
+   "title": "1989 年数学一 第 24 题",
+   "questionText": "设随机变量 $X$ 与 $Y$ 独立，且 $X$ 服从均值为 1、标准差为 $\\sqrt{2}$ 的正态分布，而 $Y$ 服从标准正态分布，试求随机变量 $Z=2X-Y+3$ 的概率密度函数.",
+   "answerText": "答案：$f_{Z}(z)=\\dfrac{1}{3\\sqrt{2\\pi}}\\mathrm{e}^{-\\frac{(z-5)^{2}}{18}}\\quad(-\\infty<z<+\\infty)$\n\n**解析：**\n独立正态随机变量的线性组合仍服从正态分布。$E(Z)=2E(X)-E(Y)+3=2+3=5$，$D(Z)=4D(X)+D(Y)=4\\times 2+1=9$，故 $Z\\sim N(5,3^{2})$，密度为 $f_{Z}(z)=\\dfrac{1}{3\\sqrt{2\\pi}}\\mathrm{e}^{-\\frac{(z-5)^{2}}{18}}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1989,
+    "paper": "math1",
+    "number": 24
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分6分）"
   }
  ]
 }

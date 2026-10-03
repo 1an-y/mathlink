@@ -4,8 +4,8 @@
  "subject": "exam_mixed",
  "year": 1995,
  "paper": "math1",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1995年考研数学(一)真题.md",
  "paperInfo": {
   "year": 1995,
@@ -14,10 +14,15 @@
   "sections": [
    "一、填空题（本题共5小题，每小题3分，满分15分）",
    "二、选择题（本题共5小题，每小题3分，满分15分）",
-   "三、(本题共2小题，每小题5分，满分10分)",
+   "三、（本题共2小题，每小题5分，满分10分）",
    "四、（本题共2小题，每小题6分，满分12分）",
-   "七、(本题满分8分)",
-   "十、填空题（本题共2小题，每小题3分，满分6分）"
+   "五、（本题满分7分）",
+   "六、（本题满分8分）",
+   "七、（本题满分8分，含2小题）",
+   "八、（本题满分7分）",
+   "九、（本题满分6分）",
+   "十、填空题（本题共2小题，每小题3分，满分6分）",
+   "十一、（本题满分6分）"
   ],
   "problemsOrder": [
    {
@@ -53,19 +58,19 @@
    {
     "number": 6,
     "id": "bank.exam.m1-1995.6",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 7,
     "id": "bank.exam.m1-1995.7",
-    "subjectGuess": "probability_statistics",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m1-1995.8",
-    "subjectGuess": "probability_statistics",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -77,32 +82,32 @@
    {
     "number": 10,
     "id": "bank.exam.m1-1995.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 11,
     "id": "bank.exam.m1-1995.11",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 12,
     "id": "bank.exam.m1-1995.12",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 13,
     "id": "bank.exam.m1-1995.13",
-    "subjectGuess": "linear_algebra",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 14,
     "id": "bank.exam.m1-1995.14",
-    "subjectGuess": "probability_statistics",
-    "objective": true
+    "subjectGuess": "calculus",
+    "objective": false
    },
    {
     "number": 15,
@@ -127,6 +132,36 @@
     "id": "bank.exam.m1-1995.18",
     "subjectGuess": "calculus",
     "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-1995.19",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-1995.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-1995.21",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-1995.22",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-1995.23",
+    "subjectGuess": "probability_statistics",
+    "objective": false
    }
   ],
   "total": 18
@@ -137,7 +172,7 @@
    "number": 1,
    "title": "1995 年数学一 第 1 题",
    "questionText": "$\\lim_{x\\to 0}(1 + 3x)^{\\frac{2}{\\sin x}} = \\underline{\\quad}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\mathrm{e}^{6}$\n\n**解析：**\n$(1+3x)^{\\frac{2}{\\sin x}}=\\left[(1+3x)^{\\frac{1}{3x}}\\right]^{\\frac{6x}{\\sin x}}$，当 $x\\to 0$ 时底数趋于 $\\mathrm{e}$，指数 $\\dfrac{6x}{\\sin x}\\to 6$，故极限为 $\\mathrm{e}^{6}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
@@ -146,7 +181,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -165,7 +200,7 @@
    "number": 2,
    "title": "1995 年数学一 第 2 题",
    "questionText": "$\\frac{\\mathrm{d}}{\\mathrm{d}x}\\int_{x^2}^{0}x\\cos t^2\\mathrm{d}t = \\underline{\\quad}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$-\\displaystyle\\int_{0}^{x^{2}}\\cos t^{2}\\,\\mathrm{d}t-2x^{2}\\cos x^{4}$\n\n**解析：**\n$\\displaystyle\\int_{x^{2}}^{0}x\\cos t^{2}\\,\\mathrm{d}t=-x\\int_{0}^{x^{2}}\\cos t^{2}\\,\\mathrm{d}t$，按乘积法则求导：$-\\left[\\int_{0}^{x^{2}}\\cos t^{2}\\,\\mathrm{d}t+x\\cdot\\cos(x^{4})\\cdot 2x\\right]$，整理即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
@@ -174,7 +209,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -192,8 +227,8 @@
    "id": "bank.exam.m1-1995.3",
    "number": 3,
    "title": "1995 年数学一 第 3 题",
-   "questionText": "设 $(a\\times b)\\cdot c = 2$ ，则 $[(a + b)\\times (b + c)]\\cdot (c + a) = .$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $(\\boldsymbol{a}\\times\\boldsymbol{b})\\cdot\\boldsymbol{c}=2$，则 $\\left[(\\boldsymbol{a}+\\boldsymbol{b})\\times(\\boldsymbol{b}+\\boldsymbol{c})\\right]\\cdot(\\boldsymbol{c}+\\boldsymbol{a})=\\underline{\\quad}$ .",
+   "answerText": "答案：$4$\n\n**解析：**\n展开：$(\\boldsymbol{a}+\\boldsymbol{b})\\times(\\boldsymbol{b}+\\boldsymbol{c})=\\boldsymbol{a}\\times\\boldsymbol{b}+\\boldsymbol{a}\\times\\boldsymbol{c}+\\boldsymbol{b}\\times\\boldsymbol{c}$（$\\boldsymbol{b}\\times\\boldsymbol{b}=\\boldsymbol{0}$）。再与 $\\boldsymbol{c}+\\boldsymbol{a}$ 作混合积，含相同向量的项为零，只剩 $(\\boldsymbol{a}\\times\\boldsymbol{b})\\cdot\\boldsymbol{c}+(\\boldsymbol{b}\\times\\boldsymbol{c})\\cdot\\boldsymbol{a}$。由混合积轮换不变性第二项也等于 2，故结果为 4。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -202,7 +237,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -220,8 +255,8 @@
    "id": "bank.exam.m1-1995.4",
    "number": 4,
    "title": "1995 年数学一 第 4 题",
-   "questionText": "幂级数 $\\sum_{n=1}^{\\infty} \\frac{n}{2^n + (-3)^n} x^{2n-1}$ 的收敛半径 $R =$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{n}{2^{n}+(-3)^{n}}x^{2n-1}$ 的收敛半径 $R=\\underline{\\quad}$",
+   "answerText": "答案：$\\sqrt{3}$\n\n**解析：**\n对相邻系数作比：$\\left|\\dfrac{a_{n+1}}{a_{n}}\\right|=\\dfrac{n+1}{n}\\left|\\dfrac{2^{n}+(-3)^{n}}{2^{n+1}+(-3)^{n+1}}\\right|\\to\\dfrac{1}{3}$。本题幂级数只含 $x$ 的奇次幂，视作 $\\sum a_n x^{2n-1}$，收敛半径满足 $R^{2}=3$，故 $R=\\sqrt{3}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "infinite_series",
@@ -232,7 +267,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -250,8 +285,8 @@
    "id": "bank.exam.m1-1995.5",
    "number": 5,
    "title": "1995 年数学一 第 5 题",
-   "questionText": "设3阶方阵 $\\mathbf{A},\\mathbf{B}$ 满足关系式 $A^{-1}BA = 6A + BA$ ，且 $\\mathbf{A} = \\begin{bmatrix} \\frac{1}{3} & 0 & 0\\\\ 0 & \\frac{1}{4} & 0\\\\ 0 & 0 & \\frac{1}{7} \\end{bmatrix}$ 则 $\\pmb {B} = \\underline{\\quad}$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 3 阶方阵 $\\mathbf{A},\\mathbf{B}$ 满足关系式 $\\mathbf{A}^{-1}\\mathbf{BA}=6\\mathbf{A}+\\mathbf{BA}$，且 $\\mathbf{A}=\\begin{bmatrix} \\frac{1}{3} & 0 & 0 \\\\ 0 & \\frac{1}{4} & 0 \\\\ 0 & 0 & \\frac{1}{7} \\end{bmatrix}$，则 $\\boldsymbol{B}=\\underline{\\quad}$",
+   "answerText": "答案：$\\begin{pmatrix} 3 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$\n\n**解析：**\n原式右乘 $\\mathbf{A}^{-1}$ 得 $\\mathbf{A}^{-1}\\mathbf{B}=6\\mathbf{E}+\\mathbf{B}$，移项得 $(\\mathbf{A}^{-1}-\\mathbf{E})\\mathbf{B}=6\\mathbf{E}$，故 $\\mathbf{B}=6(\\mathbf{A}^{-1}-\\mathbf{E})^{-1}$。$\\mathbf{A}^{-1}-\\mathbf{E}=\\operatorname{diag}(2,3,6)$，其逆为 $\\operatorname{diag}\\left(\\dfrac{1}{2},\\dfrac{1}{3},\\dfrac{1}{6}\\right)$，乘 6 即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
@@ -263,7 +298,7 @@
     "la.knowledge.matrix_power"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -282,7 +317,7 @@
    "number": 6,
    "title": "1995 年数学一 第 6 题",
    "questionText": "设有直线 $L: \\left\\{ \\begin{array}{l} x + 3y + 2z + 1 = 0, \\\\ 2x - y - 10z + 3 = 0 \\end{array} \\right.$ 及平面 $\\pi: 4x - 2y + z - 2 = 0$ ，则直线 $L(\\quad)$ .\n\n（A）平行于 $\\pi$\n\n(B) 在 $\\pi$ 上\n\n(C) 垂直于 $\\pi$\n\n(D) 与 $\\pi$ 斜交",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：C\n\n**解析：**\n$L$ 的方向向量 $\\boldsymbol{s}=(1,3,2)\\times(2,-1,-10)=(-28,14,-7)=-7(4,-2,1)$，恰平行于平面 $\\pi$ 的法向量 $(4,-2,1)$，故直线 $L$ 垂直于 $\\pi$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -291,7 +326,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -302,7 +337,7 @@
     "paper": "math1",
     "number": 6
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -310,7 +345,7 @@
    "number": 7,
    "title": "1995 年数学一 第 7 题",
    "questionText": "设在 $[0,1]$ 上 $f''(x) > 0$ ，则 $f'(0), f'(1), f(1) - f(0)$ 或 $f(0) - f(1)$ 的大小顺序为（ ）.\n\n(A) $f^{\\prime}(1) > f^{\\prime}(0) > f(1) - f(0)$\n(B) $f^{\\prime}(1) > f(1) - f(0) > f^{\\prime}(0)$\n(C) $f(1) - f(0) > f'(1) > f'(0)$\n(D) $f^{\\prime}(1) > f(0) - f(1) > f^{\\prime}(0)$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：B\n\n**解析：**\n由拉格朗日中值定理，$f(1)-f(0)=f^{\\prime}(c)$（$0<c<1$）。$f^{\\prime\\prime}>0$ 使 $f^{\\prime}$ 严格递增，故 $f^{\\prime}(0)<f^{\\prime}(c)<f^{\\prime}(1)$，即 $f^{\\prime}(1)>f(1)-f(0)>f^{\\prime}(0)$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -319,7 +354,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -330,7 +365,7 @@
     "paper": "math1",
     "number": 7
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -338,7 +373,7 @@
    "number": 8,
    "title": "1995 年数学一 第 8 题",
    "questionText": "设 $f(x)$ 可导， $F(x) = f(x)(1 + |\\sin x|)$ ，则 $f(0) = 0$ 是 $F(x)$ 在 $x = 0$ 处可导的（ ）.\n\n（A）充分必要条件\n\n（B）充分条件但非必要条件\n\n（C）必要条件但非充分条件\n\n（D）既非充分条件又非必要条件",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：A\n\n**解析：**\n计算单侧导数：$F_{-}^{\\prime}(0)=\\lim_{x\\to 0^{-}}\\left[\\dfrac{f(x)-f(0)}{x}-f(x)\\dfrac{\\sin x}{x}\\right]=f^{\\prime}(0)-f(0)$；同理 $F_{+}^{\\prime}(0)=f^{\\prime}(0)+f(0)$。$F$ 在 $x=0$ 可导 $\\iff$ 两单侧导数相等 $\\iff f(0)=0$，故为充分必要条件。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -347,7 +382,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -358,7 +393,7 @@
     "paper": "math1",
     "number": 8
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -366,7 +401,7 @@
    "number": 9,
    "title": "1995 年数学一 第 9 题",
    "questionText": "设 $u_{n} = (-1)^{n}\\ln \\left(1 + \\frac{1}{\\sqrt{n}}\\right)$ 则级数（ ）.\n\n(A) $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} u_n^2$ 都收敛\n\n(B) $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} u_n^2$ 都发散\n\n(C) $\\sum_{n=1}^{\\infty} u_n$ 收敛而 $\\sum_{n=1}^{\\infty} u_n^2$ 发散\n\n(D) $\\sum_{n=1}^{\\infty} u_n$ 发散而 $\\sum_{n=1}^{\\infty} u_n^2$ 收敛",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：C\n\n**解析：**\n$\\ln\\left(1+\\dfrac{1}{\\sqrt{n}}\\right)$ 单调递减趋于零，由莱布尼茨判别法 $\\sum u_{n}$ 收敛。但 $u_{n}^{2}=\\ln^{2}\\left(1+\\dfrac{1}{\\sqrt{n}}\\right)\\sim\\dfrac{1}{n}$，而 $\\sum\\dfrac{1}{n}$ 发散，故 $\\sum u_{n}^{2}$ 发散。选 C。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "infinite_series",
@@ -375,7 +410,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -393,8 +428,8 @@
    "id": "bank.exam.m1-1995.10",
    "number": 10,
    "title": "1995 年数学一 第 10 题",
-   "questionText": "设 $\\mathbf{A} = \\begin{pmatrix} a_{11} & a_{12} & a_{13}\\\\ a_{21} & a_{22} & a_{23}\\\\ a_{31} & a_{32} & a_{33} \\end{pmatrix} ,\\mathbf{B} = \\begin{pmatrix} a_{21}\\\\ a_{11}\\\\ a_{31} + a_{11} \\end{pmatrix}$\n\n$\\begin{array}{r}a_{22}\\qquad a_{23}\\\\ a_{12}\\qquad a_{13}\\\\ a_{32} + a_{12}\\qquad a_{33} + a_{13} \\end{array}$ 0 1 0 1 0 0 1\n\n$P_{2} = \\left( \\begin{array}{lll}1 & 0 & 0\\\\ 0 & 1 & 0\\\\ 1 & 0 & 1 \\end{array} \\right)$ 则必有（ ）.\n\n(A) $\\mathbf{A}\\mathbf{P}_1\\mathbf{P}_2 = \\mathbf{B}$\n\n(B) $\\mathbf{A}\\mathbf{P}_2\\mathbf{P}_1 = \\mathbf{B}$\n\n(C) $P_{1}P_{2}\\mathbf{A} = \\mathbf{B}$\n\n(D) $\\pmb{P}_2\\pmb{P}_1\\pmb{A} = \\pmb{B}$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设 $\\mathbf{A}=\\begin{pmatrix} a_{11} & a_{12} & a_{13} \\\\ a_{21} & a_{22} & a_{23} \\\\ a_{31} & a_{32} & a_{33} \\end{pmatrix}$，$\\mathbf{B}=\\begin{pmatrix} a_{21} & a_{22} & a_{23} \\\\ a_{11} & a_{12} & a_{13} \\\\ a_{31}+a_{11} & a_{32}+a_{12} & a_{33}+a_{13} \\end{pmatrix}$，$\\mathbf{P}_{1}=\\begin{pmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$，$\\mathbf{P}_{2}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 1 & 0 & 1 \\end{pmatrix}$，则必有（ ）.\\n\\n(A) $\\mathbf{A}\\mathbf{P}_1\\mathbf{P}_2=\\mathbf{B}$\\n\\n(B) $\\mathbf{A}\\mathbf{P}_2\\mathbf{P}_1=\\mathbf{B}$\\n\\n(C) $P_{1}P_{2}\\mathbf{A}=\\mathbf{B}$\\n\\n(D) $\\boldsymbol{P}_2\\boldsymbol{P}_1\\boldsymbol{A}=\\boldsymbol{B}$",
+   "answerText": "答案：C\n\n**解析：**\n把 $\\mathbf{A}$ 的第 1 行加到第 3 行（初等矩阵 $\\mathbf{P}_{2}$ 左乘），再把第 1、2 行对调（$\\mathbf{P}_{1}$ 左乘），即得 $\\mathbf{B}$：$\\mathbf{B}=\\mathbf{P}_{1}\\mathbf{P}_{2}\\mathbf{A}$。行变换对应左乘，故选 C。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -403,7 +438,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对；源 md 题干中 B 与 P1 的矩阵排版严重错乱，按原题修复",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -414,7 +449,7 @@
     "paper": "math1",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
   },
   {
@@ -422,7 +457,7 @@
    "number": 11,
    "title": "1995 年数学一 第 11 题",
    "questionText": "设 $u = f(x,y,z),\\varphi (x^2,\\mathrm{e}^y,z) = 0,y = \\sin x$ ，其中 $f,\\varphi$ 都具有一阶连续的偏导数，且 $\\frac{\\partial\\varphi}{\\partial z}\\neq 0$ 求 $\\frac{\\mathrm{d}u}{\\mathrm{d}x}$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\dfrac{\\mathrm{d}u}{\\mathrm{d}x}=f_{1}^{\\prime}+f_{2}^{\\prime}\\cos x-f_{3}^{\\prime}\\left(2x\\dfrac{\\varphi_{1}^{\\prime}}{\\varphi_{3}^{\\prime}}+\\dfrac{\\varphi_{2}^{\\prime}}{\\varphi_{3}^{\\prime}}\\mathrm{e}^{\\sin x}\\cos x\\right)$\n\n**解析：**\n全导数：$\\dfrac{\\mathrm{d}u}{\\mathrm{d}x}=f_{1}^{\\prime}+f_{2}^{\\prime}\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}+f_{3}^{\\prime}\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}$，其中 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\cos x$。对 $\\varphi(x^{2},\\mathrm{e}^{y},z)=0$ 两边关于 $x$ 求导：$2x\\varphi_{1}^{\\prime}+\\varphi_{2}^{\\prime}\\mathrm{e}^{y}\\cos x+\\varphi_{3}^{\\prime}\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}=0$，解出 $\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}$ 代入即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -434,7 +469,7 @@
     "continuity_partial_differentiability"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -446,14 +481,14 @@
     "number": 11
    },
    "subjectGuess": "calculus",
-   "section": "三、(本题共2小题，每小题5分，满分10分)"
+   "section": "三、（本题共2小题，每小题5分，满分10分）"
   },
   {
    "id": "bank.exam.m1-1995.12",
    "number": 12,
    "title": "1995 年数学一 第 12 题",
    "questionText": "设函数 $f(x)$ 在区间 $[0,1]$ 上连续，并设 $\\int_0^1 f(x)\\mathrm{d}x = A$ ，求 $\\int_0^1\\mathrm{d}x\\int_x^1 f(x)f(y)\\mathrm{d}y.$",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\dfrac{1}{2}A^{2}$\n\n**解析：**\n记 $F(x)=\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$（$F(1)=A$）。原积分 $=\\displaystyle\\int_{0}^{1}f(x)\\left[F(1)-F(x)\\right]\\mathrm{d}x=A^{2}-\\int_{0}^{1}F(x)\\,\\mathrm{d}F(x)=A^{2}-\\frac{1}{2}A^{2}=\\frac{1}{2}A^{2}$。（也可用交换次序与对称性：积分与其自身相等相加得 $A^{2}$。）",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
@@ -465,7 +500,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -477,14 +512,14 @@
     "number": 12
    },
    "subjectGuess": "calculus",
-   "section": "三、(本题共2小题，每小题5分，满分10分)"
+   "section": "三、（本题共2小题，每小题5分，满分10分）"
   },
   {
    "id": "bank.exam.m1-1995.13",
    "number": 13,
    "title": "1995 年数学一 第 13 题",
    "questionText": "计算曲面积分 $\\iint_{\\Sigma} z \\, \\mathrm{d}S$ ，其中 $\\Sigma$ 为锥面 $z = \\sqrt{x^2 + y^2}$ 在柱体 $x^2 + y^2 \\leqslant 2x$ 内的部分.",
-   "answerText": "（答案待校对补充）",
+   "answerText": "答案：$\\dfrac{32\\sqrt{2}}{9}$\n\n**解析：**\n锥面 $z=\\sqrt{x^{2}+y^{2}}$ 上 $\\sqrt{1+z_{x}^{2}+z_{y}^{2}}=\\sqrt{2}$，故 $\\displaystyle\\iint_{\\Sigma}z\\,\\mathrm{d}S=\\sqrt{2}\\iint_{x^{2}+y^{2}\\le 2x}\\sqrt{x^{2}+y^{2}}\\,\\mathrm{d}x\\mathrm{d}y$。用极坐标（$r=2\\cos\\theta$，$-\\frac{\\pi}{2}\\le\\theta\\le\\frac{\\pi}{2}$）：$\\sqrt{2}\\displaystyle\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\mathrm{d}\\theta\\int_{0}^{2\\cos\\theta}r^{2}\\,\\mathrm{d}r=\\frac{8\\sqrt{2}}{3}\\cdot 2\\int_{0}^{\\frac{\\pi}{2}}\\cos^{3}\\theta\\,\\mathrm{d}\\theta=\\frac{16\\sqrt{2}}{3}\\cdot\\frac{2}{3}=\\frac{32\\sqrt{2}}{9}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -493,7 +528,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -504,15 +539,15 @@
     "paper": "math1",
     "number": 13
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "四、（本题共2小题，每小题6分，满分12分）"
   },
   {
    "id": "bank.exam.m1-1995.14",
    "number": 14,
    "title": "1995 年数学一 第 14 题",
-   "questionText": "将函数 $f(x) = x - 1(0\\leqslant x\\leqslant 2)$ 展开成周期为4的余弦级数.",
-   "answerText": "（答案待校对补充）",
+   "questionText": "将函数 $f(x)=x-1\\ (0\\leqslant x\\leqslant 2)$ 展开成周期为 4 的余弦级数.",
+   "answerText": "答案：$x-1=-\\dfrac{8}{\\pi^{2}}\\displaystyle\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^{2}}\\cos\\frac{(2k+1)\\pi x}{2}\\quad(0\\leqslant x\\leqslant 2)$\n\n**解析：**\n对 $f$ 作偶延拓后周期延拓（周期 4），$b_{n}=0$。$a_{0}=\\displaystyle\\int_{0}^{2}(x-1)\\,\\mathrm{d}x=0$；$a_{n}=\\displaystyle\\int_{0}^{2}(x-1)\\cos\\frac{n\\pi x}{2}\\,\\mathrm{d}x=\\frac{4[(-1)^{n}-1]}{n^{2}\\pi^{2}}$，即奇数项为 $-\\dfrac{8}{n^{2}\\pi^{2}}$、偶数项为 0。延拓函数处处连续，展开式在 $[0,2]$ 上成立。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -521,7 +556,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -532,15 +567,15 @@
     "paper": "math1",
     "number": 14
    },
-   "subjectGuess": "probability_statistics",
+   "subjectGuess": "calculus",
    "section": "四、（本题共2小题，每小题6分，满分12分）"
   },
   {
    "id": "bank.exam.m1-1995.15",
    "number": 15,
    "title": "1995 年数学一 第 15 题",
-   "questionText": "在开区间 $(a,b)$ 内 $g(x)\\neq 0$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设曲线 $L$ 位于 $xOy$ 平面的第一象限内，$L$ 上任一点 $M$ 处的切线与 $y$ 轴总相交，交点记为 $A$. 已知 $|\\overline{MA}|=|\\overline{OA}|$，且 $L$ 过点 $\\left(\\dfrac{3}{2},\\dfrac{3}{2}\\right)$，求 $L$ 的方程.",
+   "answerText": "答案：$y=\\sqrt{3x-x^{2}}\\ (0<x<3)$\n\n**解析：**\n设 $M(x,y)$，切线 $Y-y=y^{\\prime}(X-x)$ 交 $y$ 轴于 $A(0,\\,y-xy^{\\prime})$。由 $|MA|=|OA|$ 得 $x^{2}(1+y^{\\prime 2})=(y-xy^{\\prime})^{2}$，化简得 $2xyy^{\\prime}=y^{2}-x^{2}$。令 $z=y^{2}$ 得线性方程 $\\dfrac{\\mathrm{d}z}{\\mathrm{d}x}-\\dfrac{z}{x}=-x$，解得 $z=x(C-x)$。由第一象限 $y>0$ 取 $y=\\sqrt{Cx-x^{2}}$，代入 $y\\left(\\dfrac{3}{2}\\right)=\\dfrac{3}{2}$ 得 $C=3$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -549,7 +584,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -561,14 +596,14 @@
     "number": 15
    },
    "subjectGuess": "calculus",
-   "section": "七、(本题满分8分)"
+   "section": "五、（本题满分7分）"
   },
   {
    "id": "bank.exam.m1-1995.16",
    "number": 16,
    "title": "1995 年数学一 第 16 题",
-   "questionText": "在开区间 $(a,b)$ 内至少存在一点 $\\xi$ ，使 $\\frac{f(\\xi)}{g(\\xi)} = \\frac{f''(\\xi)}{g''(\\xi)}.$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $Q(x,y)$ 在 $xOy$ 平面上具有一阶连续偏导数，曲线积分 $\\displaystyle\\int_{L}2xy\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y$ 与路径无关，并且对任意 $t$ 恒有 $\\displaystyle\\int_{(0,0)}^{(t,1)}2xy\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y=\\int_{(0,0)}^{(1,t)}2xy\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y$，求 $Q(x,y)$.",
+   "answerText": "答案：$Q(x,y)=x^{2}+2y-1$\n\n**解析：**\n路径无关给出 $\\dfrac{\\partial Q}{\\partial x}=2x$，故 $Q(x,y)=x^{2}+\\varphi(y)$。沿折线分别计算两个积分：$\\displaystyle\\int_{(0,0)}^{(t,1)}=t^{2}+\\int_{0}^{1}\\varphi(y)\\,\\mathrm{d}y$，$\\displaystyle\\int_{(0,0)}^{(1,t)}=t+\\int_{0}^{t}\\varphi(y)\\,\\mathrm{d}y$。对 $t$ 求导并比较：$\\varphi(t)=2t-1$，故 $Q(x,y)=x^{2}+2y-1$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -577,7 +612,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -589,14 +624,14 @@
     "number": 16
    },
    "subjectGuess": "calculus",
-   "section": "七、(本题满分8分)"
+   "section": "六、（本题满分8分）"
   },
   {
    "id": "bank.exam.m1-1995.17",
    "number": 17,
    "title": "1995 年数学一 第 17 题",
-   "questionText": "设 $X$ 表示10次独立重复射击命中目标的次数，每次射中目标的命中率为0.4，则 $X^2$ 的数学期望 $E(X^2) = \\_$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $f(x), g(x)$ 在 $[a, b]$ 上存在二阶导数，并且 $g^{\\prime\\prime}(x)\\neq 0$，$f(a)=f(b)=g(a)=g(b)=0$，试证：\n\n（1）在开区间 $(a,b)$ 内 $g(x)\\neq 0$；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n反证：若存在 $c\\in(a,b)$ 使 $g(c)=0$，则在 $[a,c]$ 与 $[c,b]$ 上分别用罗尔定理得 $g^{\\prime}(\\xi_{1})=g^{\\prime}(\\xi_{2})=0$（$\\xi_{1}\\in(a,c),\\ \\xi_{2}\\in(c,b)$）；再对 $g^{\\prime}$ 在 $[\\xi_{1},\\xi_{2}]$ 上用罗尔定理得 $g^{\\prime\\prime}(\\xi)=0$，与 $g^{\\prime\\prime}\\neq 0$ 矛盾。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -605,7 +640,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -617,14 +652,14 @@
     "number": 17
    },
    "subjectGuess": "calculus",
-   "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+   "section": "七、（本题满分8分，含2小题）"
   },
   {
    "id": "bank.exam.m1-1995.18",
    "number": 18,
    "title": "1995 年数学一 第 18 题",
-   "questionText": "设 $X$ 和 $Y$ 为两个随机变量，且 $P\\{X \\geqslant 0, Y \\geqslant 0\\} = \\frac{3}{7}, P\\{X \\geqslant 0\\} = P\\{Y \\geqslant 0\\} = \\frac{4}{7}$ ，则 $P\\{\\max(X, Y) \\geqslant 0\\} = \\_$\n\n# 十一、（本题满分6分）\n\n设随机变量 $X$ 的概率密度为 $f_{X}(x) = \\left\\{ \\begin{array}{ll}\\mathrm{e}^{-x}, & x\\geqslant 0,\\\\ 0, & x <   0, \\end{array} \\right.$ 求随机变量 $Y = \\mathrm{e}^{X}$ 的概率密度 $f_{Y}(y)$",
-   "answerText": "（答案待校对补充）",
+   "questionText": "设函数 $f(x), g(x)$ 在 $[a, b]$ 上存在二阶导数，并且 $g^{\\prime\\prime}(x)\\neq 0$，$f(a)=f(b)=g(a)=g(b)=0$，试证：\n\n（2）在开区间 $(a,b)$ 内至少存在一点 $\\xi$，使 $\\dfrac{f(\\xi)}{g(\\xi)}=\\dfrac{f^{\\prime\\prime}(\\xi)}{g^{\\prime\\prime}(\\xi)}.$",
+   "answerText": "答案：证明见解析\n\n**解析：**\n令 $\\varphi(x)=f(x)g^{\\prime}(x)-f^{\\prime}(x)g(x)$，则 $\\varphi(a)=\\varphi(b)=0$。由罗尔定理存在 $\\xi\\in(a,b)$ 使 $\\varphi^{\\prime}(\\xi)=0$，即 $f(\\xi)g^{\\prime\\prime}(\\xi)-f^{\\prime\\prime}(\\xi)g(\\xi)=0$。结合（1）中 $g(\\xi)\\neq 0$ 与条件 $g^{\\prime\\prime}(\\xi)\\neq 0$，两边同除即得结论。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
@@ -633,7 +668,7 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -645,7 +680,147 @@
     "number": 18
    },
    "subjectGuess": "calculus",
+   "section": "七、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1995.19",
+   "number": 19,
+   "title": "1995 年数学一 第 19 题",
+   "questionText": "设 3 阶实对称矩阵 $\\mathbf{A}$ 的特征值为 $\\lambda_{1}=-1$，$\\lambda_{2}=\\lambda_{3}=1$，对应于 $\\lambda_{1}$ 的特征向量为 $\\xi_{1}=(0,1,1)^{\\mathrm{T}}$，求 $\\mathbf{A}$.",
+   "answerText": "答案：$\\mathbf{A}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 0 & -1 \\\\ 0 & -1 & 0 \\end{pmatrix}$\n\n**解析：**\n实对称矩阵属于不同特征值的特征向量正交，故 $\\lambda=1$ 的特征向量满足 $x_{2}+x_{3}=0$，取 $\\boldsymbol{\\xi}_{2}=(1,0,0)^{\\mathrm{T}}$，$\\boldsymbol{\\xi}_{3}=(0,1,-1)^{\\mathrm{T}}$。令 $\\mathbf{P}=(\\boldsymbol{\\xi}_{1},\\boldsymbol{\\xi}_{2},\\boldsymbol{\\xi}_{3})$，则 $\\mathbf{A}=\\mathbf{P}\\,\\operatorname{diag}(-1,1,1)\\,\\mathbf{P}^{-1}$，算出即得上述 $\\mathbf{A}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1995,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-1995.20",
+   "number": 20,
+   "title": "1995 年数学一 第 20 题",
+   "questionText": "设 $\\mathbf{A}$ 是 $n$ 阶矩阵，满足 $\\mathbf{A}\\mathbf{A}^{\\mathrm{T}}=\\mathbf{E}$（$\\mathbf{E}$ 为 $n$ 阶单位矩阵，$\\mathbf{A}^{\\mathrm{T}}$ 为 $\\mathbf{A}$ 的转置矩阵），$|\\mathbf{A}|<0$，求 $|\\mathbf{A}+\\mathbf{E}|$.",
+   "answerText": "答案：$0$\n\n**解析：**\n由 $\\mathbf{A}\\mathbf{A}^{\\mathrm{T}}=\\mathbf{E}$ 得 $|\\mathbf{A}|^{2}=1$，结合 $|\\mathbf{A}|<0$ 知 $|\\mathbf{A}|=-1$。于是 $|\\mathbf{A}+\\mathbf{E}|=|\\mathbf{A}+\\mathbf{A}\\mathbf{A}^{\\mathrm{T}}|=|\\mathbf{A}|\\,|\\mathbf{E}+\\mathbf{A}^{\\mathrm{T}}|=-|\\mathbf{E}+\\mathbf{A}|$，移项得 $2|\\mathbf{A}+\\mathbf{E}|=0$，故 $|\\mathbf{A}+\\mathbf{E}|=0$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1995,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "九、（本题满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1995.21",
+   "number": 21,
+   "title": "1995 年数学一 第 21 题",
+   "questionText": "设 $X$ 表示 10 次独立重复射击命中目标的次数，每次射中目标的命中率为 0.4，则 $X^{2}$ 的数学期望 $E(X^{2})=\\underline{\\quad}$",
+   "answerText": "答案：$18.4$\n\n**解析：**\n$X\\sim B(10,0.4)$，$E(X)=4$，$D(X)=10\\times 0.4\\times 0.6=2.4$。由 $E(X^{2})=D(X)+[E(X)]^{2}=2.4+16=18.4$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1995,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "probability_statistics",
    "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1995.22",
+   "number": 22,
+   "title": "1995 年数学一 第 22 题",
+   "questionText": "设 $X$ 和 $Y$ 为两个随机变量，且 $P\\{X\\geqslant 0,\\ Y\\geqslant 0\\}=\\dfrac{3}{7}$，$P\\{X\\geqslant 0\\}=P\\{Y\\geqslant 0\\}=\\dfrac{4}{7}$，则 $P\\{\\max(X,Y)\\geqslant 0\\}=\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{5}{7}$\n\n**解析：**\n$P\\{\\max(X,Y)\\ge 0\\}=P(\\{X\\ge 0\\}\\cup\\{Y\\ge 0\\})=P(A)+P(B)-P(AB)=\\dfrac{4}{7}+\\dfrac{4}{7}-\\dfrac{3}{7}=\\dfrac{5}{7}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1995,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1995.23",
+   "number": 23,
+   "title": "1995 年数学一 第 23 题",
+   "questionText": "设随机变量 $X$ 的概率密度为 $f_{X}(x)=\\begin{cases}\\mathrm{e}^{-x}, & x\\geqslant 0, \\\\ 0, & x<0,\\end{cases}$ 求随机变量 $Y=\\mathrm{e}^{X}$ 的概率密度 $f_{Y}(y)$.",
+   "answerText": "答案：$f_{Y}(y)=\\begin{cases}0, & y<1, \\\\ \\dfrac{1}{y^{2}}, & y\\geqslant 1.\\end{cases}$\n\n**解析：**\n$F_{Y}(y)=P\\{\\mathrm{e}^{X}\\le y\\}$。$y<1$ 时 $F_{Y}(y)=0$；$y\\ge 1$ 时 $F_{Y}(y)=P\\{X\\le\\ln y\\}=\\displaystyle\\int_{0}^{\\ln y}\\mathrm{e}^{-x}\\,\\mathrm{d}x=1-\\frac{1}{y}$。求导得 $f_{Y}(y)=\\dfrac{1}{y^{2}}$（$y\\ge 1$）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1995,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分6分）"
   }
  ]
 }
