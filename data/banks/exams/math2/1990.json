@@ -246,13 +246,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

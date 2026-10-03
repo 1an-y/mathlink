@@ -405,14 +405,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "mean_value_theorem",
     "infinite_and_infinitesimal"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：monotonicity_extrema，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -436,14 +436,14 @@
    "answerImages": [],
    "primaryChapterId": "",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_properties",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.linear_correlation",
     "la.knowledge.linear_combination"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：function_properties，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

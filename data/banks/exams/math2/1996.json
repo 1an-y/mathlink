@@ -647,9 +647,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "indefinite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indefinite_integral_formulas"
+   ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：indefinite_integral_formulas，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

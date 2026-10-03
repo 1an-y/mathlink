@@ -353,14 +353,14 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "infinite_and_infinitesimal",
     "limit_operations"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -475,14 +475,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_properties",
     "monotonicity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -506,14 +506,14 @@
    "answerImages": [],
    "primaryChapterId": "",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.linear_representation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.representation_theorems",
     "la.knowledge.linear_correlation"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -787,7 +787,7 @@
    "answerImages": [],
    "primaryChapterId": "",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.similarity_judgment",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.diagonalization_criteria",
@@ -795,7 +795,7 @@
     "la.knowledge.eigenvector_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.similarity_judgment，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

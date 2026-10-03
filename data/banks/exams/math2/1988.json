@@ -361,13 +361,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "differentiability_continuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：derivative_calculation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -451,14 +451,14 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_properties",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "inverse_composite_function",
     "function_domain_range"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：function_properties，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

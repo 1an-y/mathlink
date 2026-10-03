@@ -367,13 +367,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：monotonicity_extrema，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -429,9 +429,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "physical_applications_of_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "integral_physical_applications",
+    "plane_line_position_relation"
+   ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：integral_physical_applications、plane_line_position_relation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

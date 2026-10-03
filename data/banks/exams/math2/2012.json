@@ -259,13 +259,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_properties"
    ],
    "methodIds": [],
-   "notes": "已校对；已验算修正：源转录题干误为 $\\int_e^k e^{x^{2}}\\sin x\\,\\mathrm{d}x$ 且选项 (A)(D) 重复，经核原卷为 $\\int_0^{k\\pi}e^{x^{2}}\\sin x\\,\\mathrm{d}x$，答案 D（$I_2<I_1<I_3$），已按原卷恢复题干与选项",
+   "notes": "已校对；已验算修正：源转录题干误为 $\\int_e^k e^{x^{2}}\\sin x\\,\\mathrm{d}x$ 且选项 (A)(D) 重复，经核原卷为 $\\int_0^{k\\pi}e^{x^{2}}\\sin x\\,\\mathrm{d}x$，答案 D（$I_2<I_1<I_3$），已按原卷恢复题干与选项；自动打标(规则)：definite_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -319,14 +319,14 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "multiple_integral_symmetry",
     "double_integral_region"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -350,14 +350,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.linear_independence",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.linear_correlation",
     "la.knowledge.correlation_criteria"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.linear_independence，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -381,14 +381,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_operations",
     "la.knowledge.inverse_matrix"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -412,13 +412,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "implicit_derivative"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：derivative_calculation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -562,14 +562,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.adjoint_matrix",
     "la.knowledge.elementary_matrix"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.adjoint_matrix，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -593,14 +593,14 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "equivalent_infinitesimal",
     "indeterminate_form"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -624,13 +624,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "multivariable_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "partial_derivative_existence"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：multivariable_extrema，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -654,14 +654,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_application_geometry",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "area_volume_arc",
     "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：integral_application_geometry，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -685,7 +685,7 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "polar_coordinates",
@@ -694,7 +694,7 @@
    "methodIds": [
     "polar_coordinates"
    ],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -718,7 +718,7 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "characteristic_equation",
@@ -726,7 +726,7 @@
     "concavity_inflection"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -811,7 +811,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.nonhomogeneous_solvability",
@@ -819,7 +819,7 @@
     "la.knowledge.basic_solution_system"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.nonhomogeneous_system，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
