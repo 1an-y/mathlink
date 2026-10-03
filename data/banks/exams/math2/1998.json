@@ -5,7 +5,7 @@
  "year": 1998,
  "paper": "math2",
  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
+ "verified": true,
  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/1998-2.md",
  "paperInfo": {
   "year": 1998,
@@ -14,7 +14,17 @@
   "sections": [
    "一、填空题",
    "二、选择题",
-   "十、曲率与曲线方程"
+   "三、间断点",
+   "四、极限参数",
+   "五、微分方程",
+   "六、反常积分",
+   "七、沉放探测仪器",
+   "八、面积相等问题",
+   "九、旋转曲面表面积",
+   "十、曲率与曲线方程",
+   "十一、不等式证明",
+   "十二、矩阵方程",
+   "十三、向量线性表示"
   ],
   "problemsOrder": [
    {
@@ -56,13 +66,13 @@
    {
     "number": 7,
     "id": "bank.exam.m2-1998.7",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
     "number": 8,
     "id": "bank.exam.m2-1998.8",
-    "subjectGuess": "linear_algebra",
+    "subjectGuess": "calculus",
     "objective": true
    },
    {
@@ -74,40 +84,96 @@
    {
     "number": 10,
     "id": "bank.exam.m2-1998.10",
-    "subjectGuess": "calculus",
+    "subjectGuess": "linear_algebra",
     "objective": true
    },
    {
     "number": 11,
     "id": "bank.exam.m2-1998.11",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
    },
    {
     "number": 12,
     "id": "bank.exam.m2-1998.12",
     "subjectGuess": "calculus",
-    "objective": true
+    "objective": false
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m2-1998.13",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m2-1998.14",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m2-1998.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m2-1998.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m2-1998.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m2-1998.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m2-1998.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m2-1998.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m2-1998.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
    }
   ],
-  "total": 12
+  "total": 21
  },
  "problems": [
   {
    "id": "bank.exam.m2-1998.1",
    "number": 1,
    "title": "1998 年数学二 第 1 题",
-   "questionText": "极限\n**题目：** 求 $\\lim_{x \\to 0}\\frac{\\sqrt{1+x}+\\sqrt{1-x}-2}{x^{2}}=$ ______。",
-   "answerText": "$-\\frac{1}{4}$。\n\n**解析：**\n由 $\\sqrt{1+x}=1+\\frac{1}{2}x-\\frac{1}{8}x^{2}+o\\left(x^{2}\\right)$，$\\sqrt{1-x}=1-\\frac{1}{2}x-\\frac{1}{8}x^{2}+o\\left(x^{2}\\right)$，得 $\\sqrt{1+x}+\\sqrt{1-x}-2=-\\frac{1}{4}x^{2}+o\\left(x^{2}\\right)$，故原极限为 $-\\frac{1}{4}$。\n\n---",
+   "questionText": "求 $\\lim_{x \\to 0}\\frac{\\sqrt{1+x}+\\sqrt{1-x}-2}{x^{2}}=$ ______。",
+   "answerText": "$-\\dfrac{1}{4}$\n\n**解析：**\n用泰勒展开：$\\sqrt{1+x}+\\sqrt{1-x}-2=\\left[1+\\frac{x}{2}-\\frac{x^{2}}{8}\\right]+\\left[1-\\frac{x}{2}-\\frac{x^{2}}{8}\\right]-2+o\\left(x^{2}\\right)=-\\dfrac{x^{2}}{4}+o\\left(x^{2}\\right)$，除以 $x^{2}$ 取极限即得。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "taylor_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -125,20 +191,19 @@
    "id": "bank.exam.m2-1998.2",
    "number": 2,
    "title": "1998 年数学二 第 2 题",
-   "questionText": "平面图形面积\n**题目：** 曲线 $y=-x^{3}+x^{2}+2x$ 与 $x$ 轴所围成的图形的面积 $A=$ ______。",
-   "answerText": "$\\frac{37}{12}$。\n\n**解析：**\n因为 $y=-x\\left(x+1\\right)\\left(x-2\\right)$，所以交点为 $x=-1,0,2$。当 $-1\\le x\\le 0$ 时，$y<0$；当 $0\\le x\\le 2$ 时，$y\\ge 0$。故 $A=-\\int_{-1}^{0}-x\\left(x+1\\right)\\left(x-2\\right)\\mathrm{~d}x+\\int_{0}^{2}-x\\left(x+1\\right)\\left(x-2\\right)\\mathrm{~d}x=\\frac{37}{12}$。\n\n---",
+   "questionText": "曲线 $y=-x^{3}+x^{2}+2x$ 与 $x$ 轴所围成的图形的面积 $A=$ ______。",
+   "answerText": "$\\dfrac{37}{12}$\n\n**解析：**\n被积函数 $y=-x\\left(x+1\\right)\\left(x-2\\right)$ 与 $x$ 轴交于 $-1,0,2$，且在 $\\left[-1,0\\right]$ 上为负、$\\left[0,2\\right]$ 上为非负。面积 $A=-\\int_{-1}^{0}y\\,\\mathrm{d}x+\\int_{0}^{2}y\\,\\mathrm{d}x=\\dfrac{5}{12}+\\dfrac{32}{12}=\\dfrac{37}{12}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_application_geometry",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "area_volume_arc",
-    "quadric_surface_equations"
+    "area_volume_arc"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -156,17 +221,17 @@
    "id": "bank.exam.m2-1998.3",
    "number": 3,
    "title": "1998 年数学二 第 3 题",
-   "questionText": "不定积分\n**题目：** 求 $\\int \\frac{\\ln \\left(\\sin x\\right)}{\\sin^{2}x}\\mathrm{~d}x=$ ______。",
-   "answerText": "$-\\cot x\\ln \\left(\\sin x\\right)-\\cot x-x+C$。\n\n**解析：**\n$\\int \\frac{\\ln \\left(\\sin x\\right)}{\\sin^{2}x}\\mathrm{~d}x=-\\int \\ln \\left(\\sin x\\right)\\mathrm{~d}\\left(\\cot x\\right)=-\\cot x\\ln \\left(\\sin x\\right)+\\int \\left(\\csc^{2}x-1\\right)\\mathrm{~d}x=-\\cot x\\ln \\left(\\sin x\\right)-\\cot x-x+C$。\n\n---",
+   "questionText": "求 $\\int \\frac{\\ln \\left(\\sin x\\right)}{\\sin^{2}x}\\mathrm{~d}x=$ ______。",
+   "answerText": "$-\\cot x\\ln\\left(\\sin x\\right)-\\cot x-x+C$（$C$ 为任意常数）\n\n**解析：**\n分部积分：$\\csc^{2}x\\,\\mathrm{d}x=-\\mathrm{d}\\left(\\cot x\\right)$，得 $-\\cot x\\ln\\left(\\sin x\\right)+\\int\\cot^{2}x\\,\\mathrm{d}x$，再用 $\\cot^{2}=\\csc^{2}-1$ 积分整理。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "indefinite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -184,19 +249,20 @@
    "id": "bank.exam.m2-1998.4",
    "number": 4,
    "title": "1998 年数学二 第 4 题",
-   "questionText": "变限积分求导\n**题目：** 设 $f\\left(x\\right)$ 连续，则 $\\left.\\frac{\\mathrm{d}}{\\mathrm{d}x}\\right|_{x>0}\\int_{0}^{x}tf\\left(x^{2}-t^{2}\\right)\\mathrm{~d}t=$ ______。",
-   "answerText": "$xf\\left(x^{2}\\right)$。\n\n**解析：**\n令 $u=x^{2}-t^{2}$，则 $\\int_{0}^{x}tf\\left(x^{2}-t^{2}\\right)\\mathrm{~d}t=\\frac{1}{2}\\int_{0}^{x^{2}}f\\left(u\\right)\\mathrm{~d}u$，因此 $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\int_{0}^{x}tf\\left(x^{2}-t^{2}\\right)\\mathrm{~d}t=xf\\left(x^{2}\\right)$。\n\n---",
+   "questionText": "设 $f\\left(x\\right)$ 连续，则 $\\left.\\frac{\\mathrm{d}}{\\mathrm{d}x}\\right|_{x>0}\\int_{0}^{x}tf\\left(x^{2}-t^{2}\\right)\\mathrm{~d}t=$ ______。",
+   "answerText": "$xf\\left(x^{2}\\right)$\n\n**解析：**\n换元 $u=x^{2}-t^{2}$（$\\mathrm{d}u=-2t\\,\\mathrm{d}t$），积分化为 $\\dfrac{1}{2}\\int_{0}^{x^{2}}f\\left(u\\right)\\mathrm{~d}u$，对 $x$ 求导由变限求导公式即得。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity"
+    "variable_upper_integral",
+    "definite_integral_substitution"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -214,8 +280,8 @@
    "id": "bank.exam.m2-1998.5",
    "number": 5,
    "title": "1998 年数学二 第 5 题",
-   "questionText": "渐近线\n**题目：** 曲线 $y=x\\ln \\left(e+\\frac{1}{x}\\right)\\left(x>0\\right)$ 的渐近线方程为 ______。",
-   "answerText": "$y=x+\\frac{1}{e}$。\n\n**解析：**\n$\\lim_{x \\to +\\infty}\\frac{y}{x}=1$，且 $\\lim_{x \\to +\\infty}\\left(y-x\\right)=\\lim_{t \\to 0^{+}}\\frac{\\ln \\left(e+t\\right)-1}{t}=\\frac{1}{e}$，故斜渐近线为 $y=x+\\frac{1}{e}$。\n\n---",
+   "questionText": "曲线 $y=x\\ln \\left(e+\\frac{1}{x}\\right)\\left(x>0\\right)$ 的渐近线方程为 ______。",
+   "answerText": "$y=x+\\dfrac{1}{e}$\n\n**解析：**\n$\\dfrac{y}{x}=\\ln\\left(e+\\dfrac{1}{x}\\right)\\to1$；$y-x=x\\left[\\ln\\left(e+\\dfrac{1}{x}\\right)-1\\right]$，令 $t=\\dfrac{1}{x}$ 化为 $\\dfrac{\\ln\\left(e+t\\right)-1}{t}\\to\\dfrac{1}{e}$（洛必达）。故有斜渐近线 $y=x+\\dfrac{1}{e}$。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
@@ -226,7 +292,7 @@
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -244,19 +310,19 @@
    "id": "bank.exam.m2-1998.6",
    "number": 6,
    "title": "1998 年数学二 第 6 题",
-   "questionText": "数列判断\n**题目：** 设数列 $\\left\\{x_{n}\\right\\}$ 与 $\\left\\{y_{n}\\right\\}$ 满足 $\\lim_{n \\to \\infty}x_{n}y_{n}=0$，则下列断言正确的是（ ）\n\nA. 若 $\\left\\{x_{n}\\right\\}$ 发散，则 $\\left\\{y_{n}\\right\\}$ 必发散。\nB. 若 $\\left\\{x_{n}\\right\\}$ 无界，则 $\\left\\{y_{n}\\right\\}$ 必有界。\nC. 若 $\\left\\{x_{n}\\right\\}$ 有界，则 $\\left\\{y_{n}\\right\\}$ 必为无穷小。\nD. 若 $\\left\\{\\frac{1}{x_{n}}\\right\\}$ 为无穷小，则 $\\left\\{y_{n}\\right\\}$ 必为无穷小。",
-   "answerText": "D。\n\n**解析：**\n若 $\\left\\{\\frac{1}{x_{n}}\\right\\}$ 为无穷小，则 $\\left|x_{n}\\right|\\to \\infty$。又 $x_{n}y_{n}\\to 0$，所以 $y_{n}=\\left(x_{n}y_{n}\\right)\\frac{1}{x_{n}}\\to 0$，故选 D。\n\n---",
+   "questionText": "设数列 $\\left\\{x_{n}\\right\\}$ 与 $\\left\\{y_{n}\\right\\}$ 满足 $\\lim_{n \\to \\infty}x_{n}y_{n}=0$，则下列断言正确的是（ ）\n\nA. 若 $\\left\\{x_{n}\\right\\}$ 发散，则 $\\left\\{y_{n}\\right\\}$ 必发散。\nB. 若 $\\left\\{x_{n}\\right\\}$ 无界，则 $\\left\\{y_{n}\\right\\}$ 必有界。\nC. 若 $\\left\\{x_{n}\\right\\}$ 有界，则 $\\left\\{y_{n}\\right\\}$ 必为无穷小。\nD. 若 $\\left\\{\\frac{1}{x_{n}}\\right\\}$ 为无穷小，则 $\\left\\{y_{n}\\right\\}$ 必为无穷小。",
+   "answerText": "D\n\n**解析：**\n由 $\\left\\{\\dfrac{1}{x_{n}}\\right\\}$ 为无穷小知 $\\left|x_{n}\\right|\\to\\infty$，故 $y_{n}=\\left(x_{n}y_{n}\\right)\\cdot\\dfrac{1}{x_{n}}\\to0$，D 成立。A、B、C 各有反例（如取 $x_{n}$ 有界、$y_{n}$ 发散但乘积极限为零等构造）。选 D。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "infinite_and_infinitesimal"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -274,17 +340,19 @@
    "id": "bank.exam.m2-1998.7",
    "number": 7,
    "title": "1998 年数学二 第 7 题",
-   "questionText": "不可导点个数\n**题目：** 函数 $f\\left(x\\right)=\\left(x^{2}-x-2\\right)\\left|x^{3}-x\\right|$ 的不可导点的个数为（ ）\n\nA. $0$。\nB. $1$。\nC. $2$。\nD. $3$。",
-   "answerText": "C。\n\n**解析：**\n$f\\left(x\\right)=\\left(x+1\\right)\\left(x-2\\right)\\left|x\\right|\\left|x+1\\right|\\left|x-1\\right|$，只需考察 $x=-1,0,1$。其中 $x=-1$ 处可导，$x=0$ 与 $x=1$ 处左右导数不相等，故不可导点个数为 $2$。\n\n---",
+   "questionText": "函数 $f\\left(x\\right)=\\left(x^{2}-x-2\\right)\\left|x^{3}-x\\right|$ 的不可导点的个数为（ ）\n\nA. $0$。\nB. $1$。\nC. $2$。\nD. $3$。",
+   "answerText": "C\n\n**解析：**\n写 $f=\\left(x+1\\right)^{2}\\left(x-2\\right)\\left|x\\right|\\left|x-1\\right|$。$x=-1$ 处因含因子 $\\left(x+1\\right)^{2}$，函数在附近为二次型，可导；$x=0$ 与 $x=1$ 处函数形如 $c\\left|x-x_{0}\\right|$（$c\\ne0$），左右导数异号，不可导。共 $2$ 个。选 C。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "piecewise_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "piecewise_derivative"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -295,24 +363,27 @@
     "paper": "math2",
     "number": 7
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1998.8",
    "number": 8,
    "title": "1998 年数学二 第 8 题",
-   "questionText": "微分方程\n**题目：** 已知函数 $y=y\\left(x\\right)$ 在任意点 $x$ 处的增量 $\\Delta y=\\frac{y\\Delta x}{1+x^{2}}+\\alpha$，其中 $\\alpha$ 是比 $\\Delta x\\left(\\Delta x\\to 0\\right)$ 高阶的无穷小，且 $y\\left(0\\right)=\\pi$，则 $y\\left(1\\right)=$（ ）\n\nA. $\\pi e^{\\frac{\\pi}{4}}$。\nB. $2\\pi$。\nC. $\\pi$。\nD. $\\frac{\\pi}{e^{4}}$。",
-   "answerText": "A。\n\n**解析：**\n由题意得 $y^{\\prime}=\\frac{y}{1+x^{2}}$，解得 $y=Ce^{\\arctan x}$。由 $y\\left(0\\right)=\\pi$ 得 $C=\\pi$，故 $y\\left(1\\right)=\\pi e^{\\frac{\\pi}{4}}$。\n\n---",
+   "questionText": "已知函数 $y=y\\left(x\\right)$ 在任意点 $x$ 处的增量 $\\Delta y=\\frac{y\\Delta x}{1+x^{2}}+\\alpha$，其中 $\\alpha$ 是比 $\\Delta x\\left(\\Delta x\\to 0\\right)$ 高阶的无穷小，且 $y\\left(0\\right)=\\pi$，则 $y\\left(1\\right)=$（ ）\n\nA. $\\pi e^{\\frac{\\pi}{4}}$。\nB. $2\\pi$。\nC. $\\pi$。\nD. $\\frac{\\pi}{e^{4}}$。",
+   "answerText": "A\n\n**解析：**\n增量主部即微分：$\\mathrm{d}y=\\dfrac{y}{1+x^{2}}\\,\\mathrm{d}x$，即 $y^{\\prime}=\\dfrac{y}{1+x^{2}}$，解得 $y=Ce^{\\arctan x}$，由 $y\\left(0\\right)=\\pi$ 得 $C=\\pi$，故 $y\\left(1\\right)=\\pi e^{\\frac{\\pi}{4}}$。选 A。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "separable_equation",
+    "differentiability_continuity"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -323,27 +394,27 @@
     "paper": "math2",
     "number": 8
    },
-   "subjectGuess": "linear_algebra",
+   "subjectGuess": "calculus",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1998.9",
    "number": 9,
    "title": "1998 年数学二 第 9 题",
-   "questionText": "极大值性质\n**题目：** 设函数 $f\\left(x\\right)$ 在 $x=a$ 的某个邻域内连续，且 $f\\left(a\\right)$ 为其极大值，则存在 $\\delta>0$，当 $x\\in\\left(a-\\delta,a+\\delta\\right)$ 时，必有（ ）\n\nA. $\\left(x-a\\right)\\left[f\\left(x\\right)-f\\left(a\\right)\\right]\\ge 0$。\nB. $\\left(x-a\\right)\\left[f\\left(x\\right)-f\\left(a\\right)\\right]\\le 0$。\nC. $\\lim_{t \\to a}\\frac{f\\left(t\\right)-f\\left(x\\right)}{\\left(t-x\\right)^{2}}\\ge 0\\left(x\\ne a\\right)$。\nD. $\\lim_{t \\to a}\\frac{f\\left(t\\right)-f\\left(x\\right)}{\\left(t-x\\right)^{2}}\\le 0\\left(x\\ne a\\right)$。",
-   "answerText": "C。\n\n**解析：**\n因 $f\\left(a\\right)$ 为极大值，所以在 $a$ 的某邻域内 $f\\left(a\\right)\\ge f\\left(x\\right)$。当 $x\\ne a$ 时，$\\lim_{t \\to a}\\frac{f\\left(t\\right)-f\\left(x\\right)}{\\left(t-x\\right)^{2}}=\\frac{f\\left(a\\right)-f\\left(x\\right)}{\\left(a-x\\right)^{2}}\\ge 0$。\n\n---",
+   "questionText": "设函数 $f\\left(x\\right)$ 在 $x=a$ 的某个邻域内连续，且 $f\\left(a\\right)$ 为其极大值，则存在 $\\delta>0$，当 $x\\in\\left(a-\\delta,a+\\delta\\right)$ 时，必有（ ）\n\nA. $\\left(x-a\\right)\\left[f\\left(x\\right)-f\\left(a\\right)\\right]\\ge 0$。\nB. $\\left(x-a\\right)\\left[f\\left(x\\right)-f\\left(a\\right)\\right]\\le 0$。\nC. $\\lim_{t \\to a}\\frac{f\\left(t\\right)-f\\left(x\\right)}{\\left(t-x\\right)^{2}}\\ge 0\\left(x\\ne a\\right)$。\nD. $\\lim_{t \\to a}\\frac{f\\left(t\\right)-f\\left(x\\right)}{\\left(t-x\\right)^{2}}\\le 0\\left(x\\ne a\\right)$。",
+   "answerText": "C\n\n**解析：**\n极大值保证在 $a$ 的某邻域内 $f\\left(a\\right)\\ge f\\left(x\\right)$。对固定的 $x\\ne a$，令 $t\\to a$：$\\lim_{t\\to a}\\dfrac{f\\left(t\\right)-f\\left(x\\right)}{\\left(t-x\\right)^{2}}=\\dfrac{f\\left(a\\right)-f\\left(x\\right)}{\\left(a-x\\right)^{2}}\\ge0$。A、B 需要单调信息，D 与 C 相反。选 C。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
+   "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "power_series_sum"
+    "extrema",
+    "limit_operations"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -361,17 +432,20 @@
    "id": "bank.exam.m2-1998.10",
    "number": 10,
    "title": "1998 年数学二 第 10 题",
-   "questionText": "伴随矩阵\n**题目：** 设 $\\boldsymbol{A}$ 是任一 $n\\left(n\\ge 3\\right)$ 阶方阵，$\\boldsymbol{A}^{*}$ 是其伴随矩阵，又 $k$ 为常数，且 $k\\ne 0,\\pm 1$，则必有 $\\left(k\\boldsymbol{A}\\right)^{*}=$（ ）\n\nA. $k\\boldsymbol{A}^{*}$。\nB. $k^{n-1}\\boldsymbol{A}^{*}$。\nC. $k^{n}\\boldsymbol{A}^{*}$。\nD. $k^{n+1}\\boldsymbol{A}^{*}$。",
-   "answerText": "B。\n\n**解析：**\n伴随矩阵的元素是 $n-1$ 阶代数余子式，所以 $\\left(k\\boldsymbol{A}\\right)^{*}=k^{n-1}\\boldsymbol{A}^{*}$。\n\n---",
+   "questionText": "设 $\\boldsymbol{A}$ 是任一 $n\\left(n\\ge 3\\right)$ 阶方阵，$\\boldsymbol{A}^{*}$ 是其伴随矩阵，又 $k$ 为常数，且 $k\\ne 0,\\pm 1$，则必有 $\\left(k\\boldsymbol{A}\\right)^{*}=$（ ）\n\nA. $k\\boldsymbol{A}^{*}$。\nB. $k^{n-1}\\boldsymbol{A}^{*}$。\nC. $k^{n}\\boldsymbol{A}^{*}$。\nD. $k^{n+1}\\boldsymbol{A}^{*}$。",
+   "answerText": "B\n\n**解析：**\n伴随矩阵的元素是 $n-1$ 阶代数余子式，把 $k\\boldsymbol{A}$ 的每个 $n-1$ 阶子式的公因子 $k^{n-1}$ 提出即得 $\\left(k\\boldsymbol{A}\\right)^{*}=k^{n-1}\\boldsymbol{A}^{*}$。选 B。",
    "questionImages": [],
    "answerImages": [],
    "primaryChapterId": "",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.adjoint_matrix",
+    "la.knowledge.determinant_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -382,24 +456,26 @@
     "paper": "math2",
     "number": 10
    },
-   "subjectGuess": "calculus",
+   "subjectGuess": "linear_algebra",
    "section": "二、选择题"
   },
   {
    "id": "bank.exam.m2-1998.11",
    "number": 11,
    "title": "1998 年数学二 第 11 题",
-   "questionText": "证明 $\\left(1+x\\right)\\ln^{2}\\left(1+x\\right)<x^{2}$\n**解析：** 令 $F\\left(x\\right)=x^{2}-\\left(1+x\\right)\\ln^{2}\\left(1+x\\right)$。则 $F\\left(0\\right)=F^{\\prime}\\left(0\\right)=0$，且 $F^{\\prime\\prime}\\left(x\\right)=\\frac{2\\left[x-\\ln \\left(1+x\\right)\\right]}{1+x}>0$。故 $F\\left(x\\right)>0$，即 $\\left(1+x\\right)\\ln^{2}\\left(1+x\\right)<x^{2}$。",
-   "answerText": "**解析：**\n令 $F\\left(x\\right)=x^{2}-\\left(1+x\\right)\\ln^{2}\\left(1+x\\right)$。则 $F\\left(0\\right)=F^{\\prime}\\left(0\\right)=0$，且 $F^{\\prime\\prime}\\left(x\\right)=\\frac{2\\left[x-\\ln \\left(1+x\\right)\\right]}{1+x}>0$。故 $F\\left(x\\right)>0$，即 $\\left(1+x\\right)\\ln^{2}\\left(1+x\\right)<x^{2}$。",
+   "questionText": "求函数 $f\\left(x\\right)=\\left(1+x\\right)^{\\frac{1}{\\tan \\left(x-\\frac{\\pi}{4}\\right)}}$ 在区间 $\\left(0,2\\pi\\right)$ 内的间断点，并判断其类型。",
+   "answerText": "$x=\\dfrac{\\pi}{4}$，$x=\\dfrac{3\\pi}{4}$，$x=\\dfrac{5\\pi}{4}$，$x=\\dfrac{7\\pi}{4}$ 为间断点，均为第二类间断点。\n\n**解析：**\n使 $\\tan\\left(x-\\dfrac{\\pi}{4}\\right)$ 为零或不存在的点即上列四个。在 $x=\\dfrac{\\pi}{4},\\dfrac{5\\pi}{4}$ 处指数一侧趋于 $+\\infty$、另一侧趋于 $-\\infty$，函数极限为 $+\\infty$ 与 $0$；在 $x=\\dfrac{3\\pi}{4},\\dfrac{7\\pi}{4}$ 处左右极限分别为 $+\\infty$ 与 $0$。左右极限中至少有一个不存在（为无穷），故均为第二类间断点。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "continuity_and_discontinuity",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "discontinuity"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -411,25 +487,26 @@
     "number": 11
    },
    "subjectGuess": "calculus",
-   "section": "十、曲率与曲线方程"
+   "section": "三、间断点"
   },
   {
    "id": "bank.exam.m2-1998.12",
    "number": 12,
    "title": "1998 年数学二 第 12 题",
-   "questionText": "证明双边不等式\n**解析：** 令 $g\\left(x\\right)=\\frac{1}{\\ln \\left(1+x\\right)}-\\frac{1}{x}$。由（1）可得 $g^{\\prime}\\left(x\\right)<0$，故 $g\\left(x\\right)$ 在 $\\left(0,1\\right)$ 内单调递减。又 $\\lim_{x \\to 0^{+}}g\\left(x\\right)=\\frac{1}{2}$，$g\\left(1\\right)=\\frac{1}{\\ln 2}-1$，故 $\\frac{1}{\\ln 2}-1<g\\left(x\\right)<\\frac{1}{2}$。\n\n---\n\n## 十二、矩阵方程\n\n**题目：** 设 $\\left(2\\boldsymbol{E}-\\boldsymbol{C}^{-1}\\boldsymbol{B}\\right)\\boldsymbol{A}^{T}=\\boldsymbol{C}^{-1}$，其中 $\\boldsymbol{E}$ 是 $4$ 阶单位矩阵，$\\boldsymbol{A}^{T}$ 是 $4$ 阶矩阵 $\\boldsymbol{A}$ 的转置矩阵，\n\n$\\boldsymbol{B}=\\begin{pmatrix}1 & 2 & -3 & -2\\\\0 & 1 & 2 & -3\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，$\\boldsymbol{C}=\\begin{pmatrix}1 & 2 & 0 & 1\\\\0 & 1 & 2 & 0\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，求 $\\boldsymbol{A}$。\n\n**解析：** 由题意得 $\\left(2\\boldsymbol{C}-\\boldsymbol{B}\\right)\\boldsymbol{A}^{T}=\\boldsymbol{E}$，故 $\\boldsymbol{A}^{T}=\\left(2\\boldsymbol{C}-\\boldsymbol{B}\\right)^{-1}$。又 $2\\boldsymbol{C}-\\boldsymbol{B}=\\begin{pmatrix}1 & 2 & 3 & 4\\\\0 & 1 & 2 & 3\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，所以 $\\boldsymbol{A}^{T}=\\begin{pmatrix}1 & -2 & 1 & 0\\\\0 & 1 & -2 & 1\\\\0 & 0 & 1 & -2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，从而 $\\boldsymbol{A}=\\begin{pmatrix}1 & 0 & 0 & 0\\\\-2 & 1 & 0 & 0\\\\1 & -2 & 1 & 0\\\\0 & 1 & -2 & 1\\end{pmatrix}$。\n\n---\n\n## 十三、向量线性表示\n\n**题目：** 已知 $\\boldsymbol{\\alpha}_{1}=\\left(1,4,0,2\\right)^{T}$，$\\boldsymbol{\\alpha}_{2}=\\left(2,7,1,3\\right)^{T}$，$\\boldsymbol{\\alpha}_{3}=\\left(0,1,-1,a\\right)^{T}$，$\\boldsymbol{\\beta}=\\left(3,10,b,4\\right)^{T}$，问：\n\n（1）$a,b$ 取何值时，$\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示？\n（2）$a,b$ 取何值时，$\\boldsymbol{\\beta}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示？并写出此表达式。\n\n### 1. 不能线性表示\n\n**解析：** 对增广矩阵作初等行变换，可得最后一行为 $\\left(0,0,0,b-2\\right)$。故当 $b\\ne 2$，且 $a$ 为任意常数时，$\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示。\n\n### 2. 可以线性表示\n\n**解析：** 当 $b=2$ 时可以线性表示。若 $a\\ne 1$，则有唯一表示 $\\boldsymbol{\\beta}=-\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}$；若 $a=1,b=2$，则有无穷多表示 $\\boldsymbol{\\beta}=\\left(-2k-1\\right)\\boldsymbol{\\alpha}_{1}+\\left(k+2\\right)\\boldsymbol{\\alpha}_{2}+k\\boldsymbol{\\alpha}_{3}$，其中 $k$ 为任意常数。",
-   "answerText": "**解析：**\n令 $g\\left(x\\right)=\\frac{1}{\\ln \\left(1+x\\right)}-\\frac{1}{x}$。由（1）可得 $g^{\\prime}\\left(x\\right)<0$，故 $g\\left(x\\right)$ 在 $\\left(0,1\\right)$ 内单调递减。又 $\\lim_{x \\to 0^{+}}g\\left(x\\right)=\\frac{1}{2}$，$g\\left(1\\right)=\\frac{1}{\\ln 2}-1$，故 $\\frac{1}{\\ln 2}-1<g\\left(x\\right)<\\frac{1}{2}$。\n\n---\n\n## 十二、矩阵方程\n\n**题目：** 设 $\\left(2\\boldsymbol{E}-\\boldsymbol{C}^{-1}\\boldsymbol{B}\\right)\\boldsymbol{A}^{T}=\\boldsymbol{C}^{-1}$，其中 $\\boldsymbol{E}$ 是 $4$ 阶单位矩阵，$\\boldsymbol{A}^{T}$ 是 $4$ 阶矩阵 $\\boldsymbol{A}$ 的转置矩阵，\n\n$\\boldsymbol{B}=\\begin{pmatrix}1 & 2 & -3 & -2\\\\0 & 1 & 2 & -3\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，$\\boldsymbol{C}=\\begin{pmatrix}1 & 2 & 0 & 1\\\\0 & 1 & 2 & 0\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，求 $\\boldsymbol{A}$。\n\n**解析：** 由题意得 $\\left(2\\boldsymbol{C}-\\boldsymbol{B}\\right)\\boldsymbol{A}^{T}=\\boldsymbol{E}$，故 $\\boldsymbol{A}^{T}=\\left(2\\boldsymbol{C}-\\boldsymbol{B}\\right)^{-1}$。又 $2\\boldsymbol{C}-\\boldsymbol{B}=\\begin{pmatrix}1 & 2 & 3 & 4\\\\0 & 1 & 2 & 3\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，所以 $\\boldsymbol{A}^{T}=\\begin{pmatrix}1 & -2 & 1 & 0\\\\0 & 1 & -2 & 1\\\\0 & 0 & 1 & -2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，从而 $\\boldsymbol{A}=\\begin{pmatrix}1 & 0 & 0 & 0\\\\-2 & 1 & 0 & 0\\\\1 & -2 & 1 & 0\\\\0 & 1 & -2 & 1\\end{pmatrix}$。\n\n---\n\n## 十三、向量线性表示\n\n**题目：** 已知 $\\boldsymbol{\\alpha}_{1}=\\left(1,4,0,2\\right)^{T}$，$\\boldsymbol{\\alpha}_{2}=\\left(2,7,1,3\\right)^{T}$，$\\boldsymbol{\\alpha}_{3}=\\left(0,1,-1,a\\right)^{T}$，$\\boldsymbol{\\beta}=\\left(3,10,b,4\\right)^{T}$，问：\n\n（1）$a,b$ 取何值时，$\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示？\n（2）$a,b$ 取何值时，$\\boldsymbol{\\beta}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示？并写出此表达式。\n\n### 1. 不能线性表示\n\n**解析：** 对增广矩阵作初等行变换，可得最后一行为 $\\left(0,0,0,b-2\\right)$。故当 $b\\ne 2$，且 $a$ 为任意常数时，$\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示。\n\n### 2. 可以线性表示\n\n**解析：** 当 $b=2$ 时可以线性表示。若 $a\\ne 1$，则有唯一表示 $\\boldsymbol{\\beta}=-\\boldsymbol{\\alpha}_{1}+2\\boldsymbol{\\alpha}_{2}$；若 $a=1,b=2$，则有无穷多表示 $\\boldsymbol{\\beta}=\\left(-2k-1\\right)\\boldsymbol{\\alpha}_{1}+\\left(k+2\\right)\\boldsymbol{\\alpha}_{2}+k\\boldsymbol{\\alpha}_{3}$，其中 $k$ 为任意常数。",
+   "questionText": "确定常数 $a,b,c$ 的值，使 $\\lim_{x \\to 0}\\frac{ax-\\sin x}{\\int_{b}^{x}\\frac{\\ln \\left(1+t^{3}\\right)}{t}\\mathrm{~d}t}=c\\left(c\\ne 0\\right)$。",
+   "answerText": "$a=1$，$b=0$，$c=-\\dfrac{1}{2}$\n\n**解析：**\n极限存在且非零，分母须趋于 $0$（分子自动趋于 $0$），故 $b=0$。此时分母 $\\int_{0}^{x}\\dfrac{\\ln\\left(1+t^{3}\\right)}{t}\\mathrm{~d}t\\sim\\int_{0}^{x}t^{2}\\,\\mathrm{d}t=\\dfrac{x^{3}}{3}$；分子 $ax-\\sin x=\\left(a-1\\right)x+\\dfrac{x^{3}}{6}+o\\left(x^{3}\\right)$，非零极限要求 $a=1$，极限为 $\\dfrac{1/6}{1/3}=-\\dfrac{1}{2}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "parameter_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "vector_linear_operation"
+    "indeterminate_form",
+    "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "notes": "已校对",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -441,7 +518,284 @@
     "number": 12
    },
    "subjectGuess": "calculus",
+   "section": "四、极限参数"
+  },
+  {
+   "id": "bank.exam.m2-1998.13",
+   "number": 13,
+   "title": "1998 年数学二 第 13 题",
+   "questionText": "利用代换 $y=\\dfrac{u}{\\cos x}$ 将方程 $y^{\\prime\\prime}\\cos x-2y^{\\prime}\\sin x+3y\\cos x=e^{x}$ 化简，并求出原方程的通解。",
+   "answerText": "$u^{\\prime\\prime}+4u=e^{x}$；$y=\\dfrac{C_{1}\\cos 2x+C_{2}\\sin 2x+\\frac{e^{x}}{5}}{\\cos x}$（$C_{1},C_{2}$ 为任意常数）\n\n**解析：**\n把 $y=\\dfrac{u}{\\cos x}$ 及其导数代入原方程，$u^{\\prime}$ 项恰好消去，得 $u^{\\prime\\prime}+4u=e^{x}$。特征根 $\\pm2\\mathrm{i}$，自由项 $e^{x}$ 对应特解 $\\dfrac{e^{x}}{5}$，故 $u=C_{1}\\cos2x+C_{2}\\sin2x+\\dfrac{e^{x}}{5}$，除以 $\\cos x$ 即得原方程通解。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "linear_higher_order_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "second_order_nonhomogeneous_linear",
+    "characteristic_equation"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 13
+   },
+   "subjectGuess": "calculus",
+   "section": "五、微分方程"
+  },
+  {
+   "id": "bank.exam.m2-1998.14",
+   "number": 14,
+   "title": "1998 年数学二 第 14 题",
+   "questionText": "计算积分 $\\int_{\\frac{1}{2}}^{\\frac{3}{2}}\\frac{\\mathrm{d}x}{\\sqrt{\\left|1-x^{2}\\right|}}$。",
+   "answerText": "$\\dfrac{\\pi}{3}+\\ln\\dfrac{3+\\sqrt{5}}{2}$\n\n**解析：**\n以 $x=1$ 分段去绝对值：$\\int_{\\frac{1}{2}}^{1}\\dfrac{\\mathrm{d}x}{\\sqrt{1-x^{2}}}=\\dfrac{\\pi}{2}-\\dfrac{\\pi}{6}=\\dfrac{\\pi}{3}$；$\\int_{1}^{\\frac{3}{2}}\\dfrac{\\mathrm{d}x}{\\sqrt{x^{2}-1}}=\\left[\\ln\\left(x+\\sqrt{x^{2}-1}\\right)\\right]_{1}^{\\frac{3}{2}}=\\ln\\dfrac{3+\\sqrt{5}}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "improper_integral",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "unbounded_function_integral"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 14
+   },
+   "subjectGuess": "calculus",
+   "section": "六、反常积分"
+  },
+  {
+   "id": "bank.exam.m2-1998.15",
+   "number": 15,
+   "title": "1998 年数学二 第 15 题",
+   "questionText": "从船上向海中沉放某种探测仪器，按探测要求，需确定仪器的下沉深度 $y$（从海平面算起）与下沉速度 $v$ 之间的函数关系。设仪器在重力作用下，从海平面由静止开始垂直下沉，在下沉过程中还受到阻力和浮力的作用。设仪器的质量为 $m$，体积为 $B$，海水比重为 $\\rho$，仪器所受阻力与下沉速度成正比，比例系数为 $k\\left(k>0\\right)$。试建立 $y$ 与 $v$ 所满足的微分方程，并求出函数关系式 $y=y\\left(v\\right)$。",
+   "answerText": "$y=\\dfrac{m}{k^{2}}\\left(mg-\\rho Bg\\right)\\ln\\dfrac{mg-\\rho Bg}{mg-\\rho Bg-kv}-\\dfrac{m}{k}v$\n\n**解析：**\n取竖直向下为正，由牛顿第二定律 $m\\dfrac{\\mathrm{d}v}{\\mathrm{d}t}=mg-\\rho Bg-kv$。利用 $\\dfrac{\\mathrm{d}v}{\\mathrm{d}t}=v\\dfrac{\\mathrm{d}v}{\\mathrm{d}y}$ 并记 $c=mg-\\rho Bg$，得 $m\\,v\\,\\dfrac{\\mathrm{d}v}{\\mathrm{d}y}=c-kv$。分离变量积分并用 $v=0$ 时 $y=0$ 定常数，得 $y=\\dfrac{mc}{k^{2}}\\ln\\dfrac{c}{c-kv}-\\dfrac{m}{k}v$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "physical_applications_of_integral",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "separable_equation"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "七、沉放探测仪器"
+  },
+  {
+   "id": "bank.exam.m2-1998.16",
+   "number": 16,
+   "title": "1998 年数学二 第 16 题",
+   "questionText": "设 $y=f\\left(x\\right)$ 是区间 $\\left[0,1\\right]$ 上的任一非负连续函数。\n\n（1）试证存在 $x_{0}\\in\\left(0,1\\right)$，使得在区间 $\\left[0,x_{0}\\right]$ 上以 $f\\left(x_{0}\\right)$ 为高的矩形面积，等于在区间 $\\left[x_{0},1\\right]$ 上以 $y=f\\left(x\\right)$ 为曲边的曲边梯形面积；\n（2）又设 $f\\left(x\\right)$ 在区间 $\\left(0,1\\right)$ 内可导，且 $f^{\\prime}\\left(x\\right)>-\\dfrac{2f\\left(x\\right)}{x}$，证明（1）中的 $x_{0}$ 是唯一的。",
+   "answerText": "（证明见解析）\n\n**解析：**\n（1）令 $F\\left(x\\right)=x\\int_{x}^{1}f\\left(t\\right)\\mathrm{~d}t$，则 $F$ 在 $\\left[0,1\\right]$ 连续、$\\left(0,1\\right)$ 可导且 $F\\left(0\\right)=F\\left(1\\right)=0$，由罗尔定理存在 $x_{0}$ 使 $F^{\\prime}\\left(x_{0}\\right)=0$，即 $\\int_{x_{0}}^{1}f\\left(t\\right)\\mathrm{~d}t=x_{0}f\\left(x_{0}\\right)$，正是要证的等式。（2）$F^{\\prime\\prime}\\left(x\\right)=-2f\\left(x\\right)-xf^{\\prime}\\left(x\\right)<0$，故 $F^{\\prime}$ 在 $\\left(0,1\\right)$ 内严格减，至多一个零点，从而 $x_{0}$ 唯一。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "mean_value_theorem",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem",
+    "monotonicity"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "八、面积相等问题"
+  },
+  {
+   "id": "bank.exam.m2-1998.17",
+   "number": 17,
+   "title": "1998 年数学二 第 17 题",
+   "questionText": "设有曲线 $y=\\sqrt{x-1}$，过原点作其切线，求由此曲线、切线及 $x$ 轴围成的平面图形绕 $x$ 轴旋转一周所得到的旋转体的表面积。",
+   "answerText": "$\\dfrac{\\pi}{6}\\left(11\\sqrt{5}-1\\right)$\n\n**解析：**\n切点为 $\\left(2,1\\right)$，切线 $y=\\dfrac{x}{2}$。表面积由两部分组成：切线段绕轴的侧面积 $2\\pi\\int_{0}^{2}\\dfrac{x}{2}\\sqrt{1+\\dfrac{1}{4}}\\,\\mathrm{d}x=\\pi\\sqrt{5}$；曲线段 $y=\\sqrt{x-1}\\left(1\\le x\\le2\\right)$ 绕轴的面积 $2\\pi\\int_{1}^{2}\\sqrt{x-1}\\cdot\\dfrac{\\sqrt{4x-3}}{2\\sqrt{x-1}}\\,\\mathrm{d}x=\\dfrac{\\pi}{6}\\left(5\\sqrt{5}-1\\right)$。相加即得。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "integral_application_geometry",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "area_volume_arc"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "九、旋转曲面表面积"
+  },
+  {
+   "id": "bank.exam.m2-1998.18",
+   "number": 18,
+   "title": "1998 年数学二 第 18 题",
+   "questionText": "设 $y=y\\left(x\\right)$ 是一向上凸的连续曲线，其上任意一点 $\\left(x,y\\right)$ 处的曲率为 $\\dfrac{1}{\\sqrt{1+y^{\\prime 2}}}$，且此曲线上点 $\\left(0,1\\right)$ 处的切线方程为 $y=x+1$，求该曲线的方程，并求函数 $y=y\\left(x\\right)$ 的极值。",
+   "answerText": "$y=\\ln\\cos\\left(\\dfrac{\\pi}{4}-x\\right)+1+\\dfrac{1}{2}\\ln2$，$x\\in\\left(-\\dfrac{\\pi}{4},\\dfrac{3\\pi}{4}\\right)$；在 $x=\\dfrac{\\pi}{4}$ 处取极大值 $1+\\dfrac{1}{2}\\ln2$，无极小值。\n\n**解析：**\n由曲率公式及曲线向上凸（$y^{\\prime\\prime}<0$）：$\\dfrac{-y^{\\prime\\prime}}{\\left(1+y^{\\prime 2}\\right)^{\\frac{3}{2}}}=\\dfrac{1}{\\left(1+y^{\\prime 2}\\right)^{\\frac{1}{2}}}$，即 $y^{\\prime\\prime}=-\\left(1+y^{\\prime 2}\\right)$。令 $p=y^{\\prime}$，分离变量 $\\dfrac{\\mathrm{d}p}{1+p^{2}}=-\\mathrm{d}x$，由 $p\\left(0\\right)=1$ 得 $p=\\tan\\left(\\dfrac{\\pi}{4}-x\\right)$，积分并由 $y\\left(0\\right)=1$ 定常数。$y^{\\prime}=\\tan\\left(\\dfrac{\\pi}{4}-x\\right)$ 在 $x=\\dfrac{\\pi}{4}$ 处变号（左正右负），为极大值点。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "first_order_differential_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "curvature",
+    "separable_equation",
+    "extrema"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
    "section": "十、曲率与曲线方程"
+  },
+  {
+   "id": "bank.exam.m2-1998.19",
+   "number": 19,
+   "title": "1998 年数学二 第 19 题",
+   "questionText": "设 $0<x<1$，证明：\n\n（1）$\\left(1+x\\right)\\ln^{2}\\left(1+x\\right)<x^{2}$；\n（2）$\\dfrac{1}{\\ln 2}-1<\\dfrac{1}{\\ln\\left(1+x\\right)}-\\dfrac{1}{x}<\\dfrac{1}{2}$。",
+   "answerText": "（证明见解析）\n\n**解析：**\n（1）只需证 $\\sqrt{1+x}\\,\\ln\\left(1+x\\right)<x$。令 $\\varphi\\left(x\\right)=\\dfrac{x}{\\sqrt{1+x}}-\\ln\\left(1+x\\right)$，$\\varphi\\left(0\\right)=0$，$\\varphi^{\\prime}\\left(x\\right)=\\dfrac{\\left(\\sqrt{1+x}-1\\right)^{2}}{2\\left(1+x\\right)^{\\frac{3}{2}}}>0$，故 $\\varphi>0$。（2）记 $g\\left(x\\right)=\\dfrac{1}{\\ln\\left(1+x\\right)}-\\dfrac{1}{x}$，用（1）可算得 $g^{\\prime}\\left(x\\right)<0$，故 $g$ 在 $\\left(0,1\\right)$ 内单调减，于是 $g\\left(1^{-}\\right)<g\\left(x\\right)<g\\left(0^{+}\\right)$，两端分别为 $\\dfrac{1}{\\ln2}-1$ 与 $\\dfrac{1}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "inequality_proof",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "monotonicity"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "十一、不等式证明"
+  },
+  {
+   "id": "bank.exam.m2-1998.20",
+   "number": 20,
+   "title": "1998 年数学二 第 20 题",
+   "questionText": "设 $\\left(2\\boldsymbol{E}-\\boldsymbol{C}^{-1}\\boldsymbol{B}\\right)\\boldsymbol{A}^{T}=\\boldsymbol{C}^{-1}$，其中 $\\boldsymbol{E}$ 是 $4$ 阶单位矩阵，$\\boldsymbol{A}^{T}$ 是 $4$ 阶矩阵 $\\boldsymbol{A}$ 的转置矩阵，\n\n$\\boldsymbol{B}=\\begin{pmatrix}1 & 2 & -3 & -2\\\\0 & 1 & 2 & -3\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，$\\boldsymbol{C}=\\begin{pmatrix}1 & 2 & 0 & 1\\\\0 & 1 & 2 & 0\\\\0 & 0 & 1 & 2\\\\0 & 0 & 0 & 1\\end{pmatrix}$，求 $\\boldsymbol{A}$。",
+   "answerText": "$\\boldsymbol{A}=\\begin{pmatrix}1 & 0 & 0 & 0\\\\-2 & 1 & 0 & 0\\\\-7 & -2 & 1 & 0\\\\-14 & -7 & -2 & 1\\end{pmatrix}$\n\n**解析：**\n两边左乘 $\\boldsymbol{C}$：$\\left(2\\boldsymbol{C}-\\boldsymbol{B}\\right)\\boldsymbol{A}^{T}=\\boldsymbol{E}$，而 $\\left|2\\boldsymbol{C}-\\boldsymbol{B}\\right|=1$，故 $\\boldsymbol{A}^{T}=\\left(2\\boldsymbol{C}-\\boldsymbol{B}\\right)^{-1}$。$2\\boldsymbol{C}-\\boldsymbol{B}$ 为上三角矩阵且对角线全为 $1$，求逆后转置即得 $\\boldsymbol{A}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.matrix_operations"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "十二、矩阵方程"
+  },
+  {
+   "id": "bank.exam.m2-1998.21",
+   "number": 21,
+   "title": "1998 年数学二 第 21 题",
+   "questionText": "已知 $\\boldsymbol{\\alpha}_{1}=\\left(1,4,0,2\\right)^{T}$，$\\boldsymbol{\\alpha}_{2}=\\left(2,7,1,3\\right)^{T}$，$\\boldsymbol{\\alpha}_{3}=\\left(0,1,-1,a\\right)^{T}$，$\\boldsymbol{\\beta}=\\left(3,10,b,4\\right)^{T}$，问：\n\n（1）$a,b$ 取何值时，$\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示？\n（2）$a,b$ 取何值时，$\\boldsymbol{\\beta}$ 可由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示？并写出此表达式。",
+   "answerText": "（1）当 $b=2$，或 $a=1$ 且 $b\\ne-4$ 时，$\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性表示；（2）当 $a\\ne1$ 且 $b\\ne2$ 时表示唯一：$x_{1}=3-4x_{2}-2x_{4}$，$x_{2}=-\\dfrac{13}{b-2}$，$x_{3}=4+x_{2}+x_{4}$，$x_{4}=\\dfrac{b+4}{a-1}$；当 $a=1$ 且 $b=-4$ 时有无穷多表示（$x_{4}$ 任意）。\n\n**解析：**\n设 $\\boldsymbol{\\beta}=x_{1}\\boldsymbol{\\alpha}_{1}+x_{2}\\boldsymbol{\\alpha}_{2}+x_{3}\\boldsymbol{\\alpha}_{3}+x_{4}$ 的含义按分量写成方程组，增广矩阵行变换后化为含参量的两行：$\\left(b-2\\right)x_{2}=-13$ 与 $\\left(a-1\\right)x_{4}=b+4$（其余两行为不含参量的约束）。按这两式何时矛盾、何时有解分情况讨论即可。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.linear_combination",
+    "la.knowledge.nonhomogeneous_solvability",
+    "la.knowledge.gaussian_elimination"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1998,
+    "paper": "math2",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "十三、向量线性表示"
   }
  ]
 }
