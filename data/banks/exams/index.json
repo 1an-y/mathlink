@@ -544,5 +544,33 @@
   "total": 22,
   "withAnswer": 16,
   "file": "data/banks/exams/math2/2026.json"
+ },
+ {
+  "year": 2021,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 0,
+  "file": "data/banks/exams/math3/2021.json"
+ },
+ {
+  "year": 2022,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 0,
+  "file": "data/banks/exams/math3/2022.json"
+ },
+ {
+  "year": 2023,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 0,
+  "file": "data/banks/exams/math3/2023.json"
+ },
+ {
+  "year": 2024,
+  "paper": "math3",
+  "total": 22,
+  "withAnswer": 0,
+  "file": "data/banks/exams/math3/2024.json"
  }
 ]

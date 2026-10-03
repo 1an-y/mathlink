@@ -10,6 +10,7 @@
   3. 符号规则增强：\\lim/\\int/矩阵/行列式/\\iint 等映射到章节兜底
 """
 import json
+import sys
 import re
 from pathlib import Path
 
@@ -141,9 +142,18 @@ def tag_problem(problem: dict) -> dict:
 
 def main() -> None:
     stats = {"tagged": 0, "chapter": 0, "kp": 0, "total": 0}
+    # 安全护栏：已校对（verified）的卷不再重打，避免覆盖校对员修正的标签
+    only = {a for a in sys.argv[2:]} if len(sys.argv) > 2 else None
+    paper_arg = sys.argv[1] if len(sys.argv) > 1 else None
     for path in sorted((ROOT / "data/banks/exams").glob("*/*.json")):
         bank = json.loads(path.read_text(encoding="utf-8"))
         if bank.get("format") != "mathlink-bank":
+            continue
+        if bank.get("verified"):
+            continue
+        if paper_arg and paper_arg != bank.get("paper"):
+            continue
+        if only and str(bank.get("year")) not in only:
             continue
         for problem in bank["problems"]:
             stats["total"] += 1

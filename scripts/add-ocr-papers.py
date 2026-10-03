@@ -20,8 +20,8 @@ beb = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(beb)
 
 OUT = ROOT / "data/banks/exams"
-MARKER = re.compile(r"[(（](\d{1,2})[)）]|^[ \t]*(\d{1,2})\s*[.、．]\s*", re.M)
-SECTION = re.compile(r"^#{1,3}\s*[一二三四五六七八九十]、\s*([^\n：:（(]*)", re.M)
+MARKER = re.compile(r"^#{0,6}\s*[(（](\d{1,2})[)）]|^#{0,6}\s*[ \t]*(\d{1,2})\s*[.、．]\s*", re.M)
+SECTION = re.compile(r"^#{1,6}\s*[一二三四五六七八九十]、\s*([^\n：:（(]*)", re.M)
 PAGE_MARK = re.compile(r"<!--\s*page\s+\d+\s*-->\n?")
 
 
@@ -30,8 +30,8 @@ def parse_ocr_paper(path: Path, paper: str) -> dict:
     raw = beb.clean(path.read_text(encoding="utf-8"))
     raw = PAGE_MARK.sub("", raw)
     year = int(re.search(r"(\d{4})", path.name).group(1))
-    # 截掉商业解析部分（如有）
-    cut = re.search(r"^##+\s*答案与解析\s*$", raw, re.M)
+    # 截掉解析部分（商业解析不入库，版权红线；答案从块内提取客观答案）
+    cut = re.search(r"^#{1,6}\s*[^\n]*?(?:试题解析|答案与解析|参考答案)[^\n]*$", raw, re.M)
     answers_block = ""
     if cut:
         answers_block = raw[cut.start():]
@@ -73,10 +73,21 @@ def parse_ocr_paper(path: Path, paper: str) -> dict:
 
 
 def extract_answer_letters(answers_block: str, count: int) -> dict[int, str]:
-    """从 [正确答案] X 行提取客观答案字母。"""
-    out = {}
+    """从解析块提取客观答案：优先 [正确答案] X，其次 (N)【答案】X / (N)【答案】<表达式>。"""
+    out: dict[int, str] = {}
     for m in re.finditer(r"[\[【]\s*正确答案\s*[\]】]\s*[:：]?\s*([A-D])\b", answers_block):
         out[len(out) + 1] = m.group(1)
+    if len(out) >= count:
+        return out
+    out = {}
+    pat = re.compile(
+        r"[(（]\s*(\d{1,2})\s*[)）]\s*【答案】\s*(.+?)(?=\s*[(（]\s*\d{1,2}\s*[)）]\s*【答案】|$)",
+        re.S)
+    for m in pat.finditer(answers_block):
+        n = int(m.group(1))
+        ans = re.sub(r"\s+", " ", m.group(2)).strip().rstrip(".,;；.")
+        if ans:
+            out[n] = ans
     return out
 
 
@@ -96,7 +107,7 @@ def main() -> None:
             if (not p["answerText"] or p["answerText"] == "（答案待校对补充）") and p["number"] in letters:
                 p["answerText"] = f"答案：{letters[p['number']]}"
                 filled += 1
-        print(f"  从 [正确答案] 块补填 {filled} 个答案")
+        print(f"  从解析块补填 {filled} 个答案（客观答案；解析文字未收录）")
     dest = OUT / paper / f"{year}.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(bank, ensure_ascii=False, indent=1), encoding="utf-8")

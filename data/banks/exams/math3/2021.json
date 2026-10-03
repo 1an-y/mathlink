@@ -1,0 +1,806 @@
+{
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2021,
+ "paper": "math3",
+ "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/m3-2021-paper.md",
+ "paperInfo": {
+  "year": 2021,
+  "paper": "math3",
+  "label": "数学三",
+  "sections": [
+   "选择题",
+   "填空题",
+   "解答题"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m3-2021.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m3-2021.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m3-2021.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m3-2021.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m3-2021.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m3-2021.6",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m3-2021.7",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m3-2021.8",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m3-2021.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m3-2021.10",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m3-2021.11",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m3-2021.12",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m3-2021.13",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m3-2021.14",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m3-2021.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m3-2021.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m3-2021.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m3-2021.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m3-2021.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m3-2021.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m3-2021.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m3-2021.22",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 22
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m3-2021.1",
+   "number": 1,
+   "title": "2021 年数学三 第 1 题",
+   "questionText": "当$x\\rightarrow0$ 时，$\\int_{0}^{x^{2}}\\left(\\mathrm{e}^{t^{3}}-1\\right)$ )dt是$x^{7}$ 的（ )\n\n（A）低阶无穷小（B）等价无穷小（C）高阶无穷小（D）同阶但非等价无穷小",
+   "answerText": "答案：(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "infinite_and_infinitesimal"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.2",
+   "number": 2,
+   "title": "2021 年数学三 第 2 题",
+   "questionText": "函数$f(x)=\\left\\{\\begin{aligned}&\\frac{\\mathrm{e}^{x}-1}{x},&x\\neq0\\\\&1,&x=0\\end{aligned}\\right.$ ,在$x=0$ 处()\n\n（A）连续且取得极大值(B)连续且取得极小值\n\n（C）可导且导数等于0(D)可导且导数不为0",
+   "answerText": "答案：(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "differentiability_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.3",
+   "number": 3,
+   "title": "2021 年数学三 第 3 题",
+   "questionText": "设函数$f(x)=ax-b\\ln x(a>0)$ 有2个零点，则$\\frac{b}{a}$ 的取值范围是（）\n\n(A)$(e,+\\infty)$ (B)((0,e)(C)$\\left(\\frac{1}{\\mathrm{e}}\\right)$ (D)$\\left(\\frac{1}{\\mathrm{e}},+\\infty\\right)$",
+   "answerText": "答案：(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.4",
+   "number": 4,
+   "title": "2021 年数学三 第 4 题",
+   "questionText": "设函数$f(x,y)$ 可微，且$f(x+1,x^{2})=x(x+1)^{2},f(x,x^{2})=2x^{2}\\ln x$ ,则$\\mathrm{d}f(1,1)=$ (）\n\n(A)$\\mathrm{d}x+\\mathrm{d}y$\n\n(B)\n\n$$\\mathrm{d}x-\\mathrm{d}y $$\n\n(C)$\\mathrm{d}y$\n\n(D)$-\\operatorname{d}y$",
+   "answerText": "答案：(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.5",
+   "number": 5,
+   "title": "2021 年数学三 第 5 题",
+   "questionText": "二次型$f(x_{1}$ x2$\\left(x_{1}+x_{2}\\right)^{2}+\\left(x_{2}+x_{3}\\right)^{2}-\\left(x_{3}-x_{1}\\right)^{2}$ 的正惯性指数与负惯性\n\n1\n\n指数依次为(\n\n(A) 2,01,1(C) 2,1(D)1,2",
+   "answerText": "答案：(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.standard_form"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.6",
+   "number": 6,
+   "title": "2021 年数学三 第 6 题",
+   "questionText": "设$\\boldsymbol{A}=(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4})$ 为4阶正交矩阵，若矩阵$\\boldsymbol{B}=\\begin{bmatrix}\\boldsymbol{\\alpha}_{1}^{T}\\\\ \\boldsymbol{\\alpha}_{2}^{T}\\\\ \\boldsymbol{\\alpha}_{3}^{T}\\end{bmatrix},\\boldsymbol{\\beta}=\\begin{bmatrix}1\\\\ 1\\\\ 1\\end{bmatrix}$ ，k表示任意常数，则线性方程组$B x=\\beta$ 的通解$\\boldsymbol{x}=( 麵麗 )$\n\n(A)$\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}+k\\boldsymbol{\\alpha}_{1}$ (B)$\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}+k\\boldsymbol{\\alpha}_{2}$ (C)$\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{4}+k\\boldsymbol{\\alpha}_{3}$ (D)$\\boldsymbol{a}_{1}+\\boldsymbol{a}_{2}+\\boldsymbol{a}_{3}+k\\boldsymbol{a}_{4}$",
+   "answerText": "答案：(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.linear_systems",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.orthogonal_matrix",
+    "la.knowledge.matrix_transpose",
+    "la.knowledge.general_solution"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 6
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.7",
+   "number": 7,
+   "title": "2021 年数学三 第 7 题",
+   "questionText": "已知矩阵$\\boldsymbol{A}=\\begin{pmatrix}1&0&-1\\\\2&-1&1\\\\-1&2&-5\\end{pmatrix}$ ，若下三角可逆矩阵P和上三角可逆矩阵Q使$P A Q$ 为对角矩阵，则$P,Q$ 可以分别取（\n\n(A)$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix},\\begin{pmatrix}1&0&1\\\\0&1&3\\\\0&0&1\\end{pmatrix}$ (B)$\\begin{pmatrix}1&0&0\\\\2&-1&0\\\\-3&2&1\\end{pmatrix},\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}$\n\n(C)$\\begin{pmatrix}1&0&0\\\\2&-1&0\\\\-3&2&1\\end{pmatrix},\\begin{pmatrix}1&0&1\\\\0&1&3\\\\0&0&1\\end{pmatrix}$ (D)$\\begin{pmatrix}1&0&0\\\\0&1&0\\\\1&3&1\\end{pmatrix},\\begin{pmatrix}1&2&-3\\\\0&-1&2\\\\0&0&1\\end{pmatrix}$",
+   "answerText": "答案：(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 7
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.8",
+   "number": 8,
+   "title": "2021 年数学三 第 8 题",
+   "questionText": "设A,B为随机事件且$0<P(B)<1$ ，则下列命题中为假命题的是（\n\n(A）若$P(A\\mid B)=P(A)$ ,则$P(A\\mid\\bar{B})=P(A)$\n\n(B）若$P(A\\mid B)>P(A), 则 P(\\overline{A}\\mid\\overline{B})>P(\\overline{A})$\n\n(C）若$P(A\\mid B)>P(A\\mid$ B)，则$P(A\\mid B)>P(A)$\n\n(D）若$P(A\\mid A\\cup B)>P(\\overline{A}\\mid A\\cup B)$ ,则$P(A)>P(B)$",
+   "answerText": "答案：(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_events",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.sample_space_event",
+    "prob.knowledge.event_relations_operations"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 8
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.9",
+   "number": 9,
+   "title": "2021 年数学三 第 9 题",
+   "questionText": "设$\\left(X_{1},Y_{1}\\right),\\left(X_{2},Y_{2}\\right),\\cdots,\\left(X_{n},Y_{n}\\right)$ 为来自总体$N(\\mu_{1},\\mu_{2};\\sigma_{1}^{2},\\sigma_{2}^{2};\\rho)$ 】的简单随机样本，区$\\theta=\\mu_{1}-\\mu_{2},\\bar{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i},\\bar{Y}=\\frac{1}{n}\\sum_{i=1}^{n}Y_{i},\\hat{\\theta}=\\bar{X}-\\bar{Y}$ ，则（）\n\n(A)$E(\\hat{\\theta})=\\theta,D(\\hat{\\theta})=\\frac{\\sigma_{1}^{2}+\\sigma_{2}^{2}}{n}$ (B)$E(\\hat{\\theta})=\\theta,D(\\hat{\\theta})=\\frac{\\sigma_{1}^{2}+\\sigma_{2}^{2}-2\\rho\\sigma_{1}\\sigma_{2}}{\\sigma_{1}^{2}}$ n $E(\\hat{\\theta})=\\theta,D(\\hat{\\theta})=\\frac{\\sigma_{1}^{2}+\\sigma_{2}^{2}-2\\rho\\sigma_{1}\\sigma_{2}}{\\sigma_{1}^{2}}$ (C)$E(\\hat{\\theta})\\neq\\theta,D(\\hat{\\theta})=\\frac{\\sigma_{1}^{2}+\\sigma_{2}^{2}}{n}$ (D) E() ≠ θ,D(θ)$+\\sigma_{2}^{2}-2\\rho\\sigma_{1}\\sigma_{2}$ n $+\\sigma_{2}^{2}-2\\rho\\sigma_{1}\\sigma_{2}$",
+   "answerText": "答案：(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.10",
+   "number": 10,
+   "title": "2021 年数学三 第 10 题",
+   "questionText": "设总体X的概率分布为$P\\left\\{X=1\\right\\}=\\frac{1-\\theta}{2}$ $\\{X=3\\}={\\frac{1+\\theta}{4}}$ .利用来自总体X的样本值$^{1,3,2,2,1,3,1,2}$ ,可得θ的最大似然估计值为\n\n(A)$\\frac{1}{4}$ (B)$\\frac{3}{8}$ (C)$\\frac{\\frac{\\pi}{2}}{2}$ (D)$\\frac{5}{8}$\n\n### 二、 填空题：11～16小题，每小题5分，共30分.请将答案写在答题纸指定位置上",
+   "answerText": "答案：(A) ## 二、 填空题",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 10
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m3-2021.11",
+   "number": 11,
+   "title": "2021 年数学三 第 11 题",
+   "questionText": "若$y=\\cos^{-{\\sqrt{x}}}$ ,则$\\frac{\\mathrm{d}y}{\\mathrm{d}x}$",
+   "answerText": "答案：$\\frac{\\mathrm{s i n e}^{-1}}{2\\mathrm{e}}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m3-2021.12",
+   "number": 12,
+   "title": "2021 年数学三 第 12 题",
+   "questionText": "$$\\int_{\\sqrt{5}}^{5}\\frac{x}{\\sqrt{\\left|x^{2}-9\\right|}}\\mathrm{d}s $$",
+   "answerText": "答案：6",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m3-2021.13",
+   "number": 13,
+   "title": "2021 年数学三 第 13 题",
+   "questionText": "设平面区域D由曲线$y=\\sqrt{x}\\sin\\pi x(0\\leqslant x\\leqslant1)$ 与x轴围成，则D绕x轴旋转所成旋转体的体积为",
+   "answerText": "答案：$\\frac{\\pi}{4}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 13
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m3-2021.14",
+   "number": 14,
+   "title": "2021 年数学三 第 14 题",
+   "questionText": "差分方程$\\Delta y=$ t的通解为$y_{t}=\\underline{\\hspace{2cm}}$",
+   "answerText": "答案：$C+\\frac{1}{2}t^{2}-\\frac{1}{2}t$ (其中C为任意常数)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 14
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m3-2021.15",
+   "number": 15,
+   "title": "2021 年数学三 第 15 题",
+   "questionText": "多项式$f(x)$ $\\begin{bmatrix}x&x&1&2x\\\\ 1&x&2&-1\\\\ 2&1&x&1\\\\ 2&-1&1&x\\end{bmatrix}$ 中$x^{3}$ 项的系数为",
+   "answerText": "答案：一5",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m3-2021.16",
+   "number": 16,
+   "title": "2021 年数学三 第 16 题",
+   "questionText": "甲乙两个盒子中各装有2个红球和2个白球，先从甲盒中任取一个球，观察颜色后放入乙盒，再从乙盒中任取一球，令X，Y分别表示从甲盒和从乙盒中取到的红球个数，则X与Y 的相关系数为\n\n#### 三、 解答题：17～22小题，共70分.请将解答写在$\\overset{ 答题纸 }{\\cdot}$ 指定位置上.解答应写出文字说明、证明过程或演算步骤",
+   "answerText": "答案：$\\frac{1}{5}$ ## 三、 解答题",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m3-2021.17",
+   "number": 17,
+   "title": "2021 年数学三 第 17 题",
+   "questionText": "(本题满分10分)\n\n已知$\\lim_{x\\to0}\\left[a\\arctan\\frac{1}{x}+(1+|x|)^{\\frac{1}{x}}\\right]$ 存在，求a的值.",
+   "answerText": "答案：$\\frac{1-\\mathrm{e}^{2}}{\\mathrm{e}\\pi}.$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m3-2021.18",
+   "number": 18,
+   "title": "2021 年数学三 第 18 题",
+   "questionText": "(本题满分12分)\n\n求函数$f(x,y)=2\\ln|x|+\\frac{(x-1)^{2}+y^{2}}{2x^{2}}$ 的极值.",
+   "answerText": "答案：极小值为$f\\left(\\frac{1}{2},0\\right)=\\frac{1}{2}-2\\ln2,f(-1,0)=2$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "extrema",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m3-2021.19",
+   "number": 19,
+   "title": "2021 年数学三 第 19 题",
+   "questionText": "(本题满分12分)\n\n设有界区域D是圆$x^{2}+y^{2}=1$ 和直线$y=x$ 以及x轴在第一象限围成的部分，计算二重积分\n\n$$\\iint_{D}\\mathrm{e}^{(x+y)^2}\\left(x^2-y^2\\right)\\mathrm{d}x\\mathrm{d}y.$$",
+   "answerText": "答案：$\\frac{1}{8}(e-1)^2$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multiple_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m3-2021.20",
+   "number": 20,
+   "title": "2021 年数学三 第 20 题",
+   "questionText": "(本题满分12分)\n\n设n为正整数：$y=y_{n}(x)$ 是微分方程$x y^{\\prime}-(n+1)y=0$ 满足条件$y_{n}(1)=\\frac{1}{n(n+1)}$ 的解.\n\n（I）求$y_{n}(x)$\n\n（Ⅱ）求级数$\\sum_{n=1}^{\\infty}y_{n}(x)$ 的收敛域及和函数",
+   "answerText": "答案：$y_{n}(x)=\\frac{1}{n(n+1)}$ （Ⅱ)$S(x)=\\left\\{\\begin{aligned}&(1-x)\\ln(1-x)+x,\\quad x\\in[-1,1),\\\\&x=1.\\end{aligned}\\right.$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m3-2021.21",
+   "number": 21,
+   "title": "2021 年数学三 第 21 题",
+   "questionText": "(本题满分12分)\n\n设矩阵$\\boldsymbol{A}=\\begin{pmatrix}2&1&0\\\\1&2&0\\\\1&a&b\\end{pmatrix}$ 仅有两个不同的特征值，若A相似对角矩阵，求a，b的值，并求可逆矩阵P，使$\\pmb{P}^{-1}\\pmb{A}\\pmb{P}$ 为对角矩阵.",
+   "answerText": "答案：$P=\\left(\\begin{matrix}{1}\\\\ {0}\\\\ {1}\\\\ \\end{matrix}\\right)$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.eigenvalues",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.real_symmetric_properties",
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m3-2021.22",
+   "number": 22,
+   "title": "2021 年数学三 第 22 题",
+   "questionText": "(本题满分12分)\n\n在区间(0，2）上随机取一点，将该区间分成两段，较短一段的长度记为X，较长一段记为Y，区$Z={\\frac{Y}{X}}$\n\n（I）求X的概率密度\n\n（Ⅱ）求Z的概率密度\n\n（Ⅲ）求$E{\\left({\\frac{X}{Y}}\\right)}$",
+   "answerText": "答案：$f_{X}(x)=\\left\\{\\begin{aligned}1,&0<x<1,\\\\ 0,& 其他 \\end{aligned}\\right.$ （Ⅱ) $$（Ⅱ)\\mathrm{D}f_{Z}(z)=\\left\\{\\begin{aligned}\\frac{2}{(z+1)^{2}},&z>1\\\\ 0,&z\\leqslant1\\end{aligned}\\right..$$ （Ⅲ$2\\ln2-1$ 答案详解请参考《考研数学真题大解析》（标准版）（数学三）丁勇主编中国政法大学出版社出版",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_events",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.probability_properties"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2021,
+    "paper": "math3",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "解答题"
+  }
+ ],
+ "notes": ""
+}
