@@ -163,13 +163,13 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "continuity_and_discontinuity",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "discontinuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：continuity_and_discontinuity，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -224,13 +224,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：integral_defined_function，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -254,14 +254,14 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "limit_operations",
     "function_properties"
    ],
    "methodIds": [],
-   "notes": "已校对；已验算修正：选项 C 的反例改为 a_n=(-1)^n（源解析所举 a_n=2^{(-1)^n} 对 C 不成立，答案 D 不变）",
+   "notes": "已校对；已验算修正：选项 C 的反例改为 a_n=(-1)^n（源解析所举 a_n=2^{(-1)^n} 对 C 不成立，答案 D 不变）；自动打标(规则)：sequence_limit，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -285,14 +285,14 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "partial_derivative_total_differential",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "partial_derivative_existence",
     "continuity_partial_differentiability"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：partial_derivative_total_differential，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -409,7 +409,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.adjoint_matrix",
@@ -417,7 +417,7 @@
     "la.knowledge.invertibility_criteria"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.adjoint_matrix，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -441,14 +441,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.diagonalization",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.diagonalization_criteria",
     "la.knowledge.eigen_concept"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.diagonalization，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -502,13 +502,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "multivariable_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：multivariable_extrema，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -532,13 +532,13 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "separable_equation"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：first_order_differential_equation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -562,13 +562,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "higher_derivative",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "taylor_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：higher_derivative，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -623,14 +623,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.linear_independence",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.linear_correlation",
     "la.knowledge.vector_group_rank"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.linear_independence，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -654,7 +654,7 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "polar_coordinates",
@@ -662,7 +662,7 @@
     "multiple_integral_symmetry"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -686,14 +686,14 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "second_order_homogeneous_linear",
     "reducible_higher_order_equation"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -717,14 +717,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_application_geometry",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "area_volume_arc",
     "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：integral_application_geometry，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -748,13 +748,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "partial_derivative_total_differential",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "composite_function_chain_rule"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：partial_derivative_total_differential，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -811,7 +811,7 @@
    "secondaryChapterIds": [
     "la.chapter.linear_systems"
    ],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.orthogonal_standard_form",
@@ -819,7 +819,7 @@
     "la.knowledge.common_same_solution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.orthogonal_standard_form，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

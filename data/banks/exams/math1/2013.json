@@ -169,14 +169,14 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "taylor_formula",
     "indeterminate_form"
    ],
    "methodIds": [],
-   "notes": "已校对；补全选项括号",
+   "notes": "已校对；补全选项括号；自动打标(规则)：function_limit，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -262,14 +262,14 @@
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "orientation",
     "green_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -293,7 +293,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.vector_group_rank",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.equivalent_vector_groups",
@@ -301,7 +301,7 @@
     "la.knowledge.linear_combination"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.vector_group_rank，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -325,7 +325,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.similarity_judgment",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.similarity_concept",
@@ -334,7 +334,7 @@
     "la.knowledge.eigen_concept"
    ],
    "methodIds": [],
-   "notes": "已校对；补全选项括号",
+   "notes": "已校对；补全选项括号；自动打标(规则)：la.problem_type.similarity_judgment，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -358,13 +358,13 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.normal_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -450,13 +450,13 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "second_order_nonhomogeneous_linear"
    ],
    "methodIds": [],
-   "notes": "已校对；题干补空线（源 md 缺失）",
+   "notes": "已校对；题干补空线（源 md 缺失）；自动打标(规则)：linear_higher_order_equation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -480,13 +480,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "parametric_derivative"
    ],
    "methodIds": [],
-   "notes": "已校对；题干补空线（源 md 缺失）",
+   "notes": "已校对；题干补空线（源 md 缺失）；自动打标(规则)：derivative_calculation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -541,14 +541,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.determinants",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.cofactor_sum",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_product_determinant",
     "la.knowledge.adjoint_matrix"
    ],
    "methodIds": [],
-   "notes": "已校对；解析文字整理（源解析中排除 |A|=0 的表述有排版损伤，改为展开式论证）",
+   "notes": "已校对；解析文字整理（源解析中排除 |A|=0 的表述有排版损伤，改为展开式论证）；自动打标(规则)：la.problem_type.cofactor_sum，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -572,7 +572,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.common_continuous_distributions",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.exponential_distribution",
@@ -580,7 +580,7 @@
     "prob.knowledge.conditional_probability_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.common_continuous_distributions，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -604,14 +604,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "variable_upper_integral",
     "definite_integral_substitution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：integral_defined_function，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -635,14 +635,14 @@
    "answerImages": [],
    "primaryChapterId": "infinite_series",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "power_series_sum",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "power_series_sum",
     "second_order_homogeneous_linear"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：power_series_sum，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -666,13 +666,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "multivariable_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：multivariable_extrema，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -696,13 +696,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "mean_value_theorem"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：mean_value_theorem，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -788,7 +788,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.standard_form",
@@ -796,7 +796,7 @@
     "la.knowledge.diagonalization_criteria"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.orthogonal_standard_form，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -820,7 +820,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.continuous_density",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.distribution_function",
@@ -829,7 +829,7 @@
     "prob.knowledge.total_probability_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.continuous_density，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -853,7 +853,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.parameter_estimation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.population_and_sample",
@@ -861,7 +861,7 @@
     "prob.knowledge.maximum_likelihood_method"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.maximum_likelihood_estimation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

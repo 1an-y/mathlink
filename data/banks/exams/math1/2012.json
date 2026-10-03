@@ -261,13 +261,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -291,7 +291,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.vectors",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.linear_independence",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.linear_correlation",
@@ -299,7 +299,7 @@
     "la.knowledge.vector_concept"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.linear_independence，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -355,7 +355,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.common_continuous_distributions",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.exponential_distribution",
@@ -363,7 +363,7 @@
     "prob.knowledge.functions_of_random_variables"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.common_continuous_distributions，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -387,14 +387,14 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.numerical_characteristics",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.covariance_correlation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.correlation_coefficient",
     "prob.knowledge.independence_uncorrelated"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.covariance_correlation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -418,14 +418,14 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "second_order_nonhomogeneous_linear",
     "second_order_homogeneous_linear"
    ],
    "methodIds": [],
-   "notes": "已校对；题干空线规范化",
+   "notes": "已校对；题干空线规范化；自动打标(规则)：linear_higher_order_equation，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -449,13 +449,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_substitution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -479,13 +479,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "directional_derivative_gradient",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "directional_derivative_gradient"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -539,13 +539,13 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.matrix_rank",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_rank"
    ],
    "methodIds": [],
-   "notes": "已校对；题干补空线（源 md 缺失）",
+   "notes": "已校对；题干补空线（源 md 缺失）；自动打标(规则)：la.problem_type.matrix_rank，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -661,13 +661,13 @@
    "answerImages": [],
    "primaryChapterId": "infinite_series",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "power_series_sum",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：power_series_sum，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -723,14 +723,14 @@
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "line_integral_definition",
     "green_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -786,7 +786,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.standard_form",
@@ -794,7 +794,7 @@
     "la.knowledge.matrix_rank"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：la.problem_type.orthogonal_standard_form，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -818,7 +818,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_discrete_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.joint_discrete_distribution",
@@ -826,7 +826,7 @@
     "prob.knowledge.covariance"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；自动打标(规则)：prob.type.joint_discrete_distribution，待人工复核",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
