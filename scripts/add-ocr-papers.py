@@ -32,6 +32,8 @@ def parse_ocr_paper(path: Path, paper: str) -> dict:
     year = int(re.search(r"(\d{4})", path.name).group(1))
     # 截掉解析部分（商业解析不入库，版权红线；答案从块内提取客观答案）
     cut = re.search(r"^#{1,6}\s*[^\n]*?(?:试题解析|答案与解析|参考答案)[^\n]*$", raw, re.M)
+    if cut and cut.start() < len(raw) * 0.25:
+        cut = None  # 命中在文件头部（如标题行含"参考答案"字样）则不算解析块
     answers_block = ""
     if cut:
         answers_block = raw[cut.start():]

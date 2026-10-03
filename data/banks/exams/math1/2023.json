@@ -1,748 +1,814 @@
 {
-  "format": "mathlink-bank",
-  "version": 1,
-  "subject": "exam_mixed",
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2023,
+ "paper": "math1",
+ "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/shu1-2023-sol.md",
+ "paperInfo": {
   "year": 2023,
   "paper": "math1",
-  "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
-  "verified": false,
-  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/2023年考研数学(一)真题.md",
-  "paperInfo": {
+  "label": "数学一",
+  "sections": [],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-2023.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-2023.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-2023.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-2023.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-2023.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-2023.6",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-2023.7",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-2023.8",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-2023.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-2023.10",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-2023.11",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-2023.12",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-2023.13",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-2023.14",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-2023.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-2023.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-2023.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-2023.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-2023.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-2023.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-2023.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-2023.22",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 22
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-2023.1",
+   "number": 1,
+   "title": "2023 年数学一 第 1 题",
+   "questionText": "曲线$y=x\\ln(e+\\frac{1}{x-1})$ 的渐近线方程为(\n\n(A)\n\n$$y=x+e $$\n\n(B)$y=x+\\frac{1}{e}$\n\n(C)$y=x$\n\n(D)$y=x-\\frac{1}{e}$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "asymptote"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
     "year": 2023,
     "paper": "math1",
-    "label": "数学一",
-    "sections": [
-      "一、选择题：1-10 题.（每题 10 分，共 50 分）",
-      "二、填空题：11-16 题.(每题 5 分，共 30 分)",
-      "三、解答题：17-22 小题，共 70 分."
-    ],
-    "problemsOrder": [
-      {
-        "number": 1,
-        "id": "bank.exam.m1-2023.1",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 2,
-        "id": "bank.exam.m1-2023.2",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 3,
-        "id": "bank.exam.m1-2023.3",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 4,
-        "id": "bank.exam.m1-2023.4",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 5,
-        "id": "bank.exam.m1-2023.5",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 6,
-        "id": "bank.exam.m1-2023.6",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 8,
-        "id": "bank.exam.m1-2023.8",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 9,
-        "id": "bank.exam.m1-2023.9",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 10,
-        "id": "bank.exam.m1-2023.10",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 11,
-        "id": "bank.exam.m1-2023.11",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 12,
-        "id": "bank.exam.m1-2023.12",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 13,
-        "id": "bank.exam.m1-2023.13",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 14,
-        "id": "bank.exam.m1-2023.14",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 15,
-        "id": "bank.exam.m1-2023.15",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 16,
-        "id": "bank.exam.m1-2023.16",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 33,
-        "id": "bank.exam.m1-2023.33",
-        "subjectGuess": "",
-        "objective": false
-      },
-      {
-        "number": 34,
-        "id": "bank.exam.m1-2023.34",
-        "subjectGuess": "",
-        "objective": false
-      },
-      {
-        "number": 35,
-        "id": "bank.exam.m1-2023.35",
-        "subjectGuess": "",
-        "objective": false
-      },
-      {
-        "number": 36,
-        "id": "bank.exam.m1-2023.36",
-        "subjectGuess": "",
-        "objective": false
-      },
-      {
-        "number": 38,
-        "id": "bank.exam.m1-2023.38",
-        "subjectGuess": "",
-        "objective": false
-      }
-    ],
-    "total": 20
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": ""
   },
-  "problems": [
-    {
-      "id": "bank.exam.m1-2023.1",
-      "number": 1,
-      "title": "2023 年数学一 第 1 题",
-      "questionText": "曲线 $y = x \\ln \\left( \\mathrm { e } + { \\frac { 1 } { x - 1 } } \\right)$ 的斜渐近线方程为( )\n\nA. $y = x + \\mathrm { e }$\n\n$\\mathrm { B } . \\mathrm { ~ } y = x + \\frac { 1 } { \\mathrm { ~ e ~ } }$\n\nC. y = x\n\nD. $y = x - { \\frac { 1 } { \\mathrm { e } } }$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "asymptote"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 1
-      },
-      "subjectGuess": "calculus",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.2",
-      "number": 2,
-      "title": "2023 年数学一 第 2 题",
-      "questionText": "若微分方程 $y ^ { \\prime \\prime } + a y ^ { \\prime } + b y = 0$ 的解在 $( - \\infty , + \\infty )$ 上有界, 则( )\n\nA. $a < 0 , b > 0$\n\n$\\mathrm { B } . \\mathrm { ~ } a > 0 , b > 0$\n\nC. a = 0, b > 0\n\nD. $a = 0 , b < 0$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "differential_equation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "linear_higher_order_equation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "function_properties"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：linear_higher_order_equation、function_properties，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 2
-      },
-      "subjectGuess": "calculus",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.3",
-      "number": 3,
-      "title": "2023 年数学一 第 3 题",
-      "questionText": "设函数 $y = f ( x )$ 由 $\\left\\{ \\begin{array} { l } { x = 2 t + | t | , } \\\\ { y = | t | \\sin t } \\end{array} \\right.$ 确定, 则( )\n\nA. $f ( x )$ 连续, $f ^ { \\prime } ( 0 )$ 不存在.\nB. $f ^ { \\prime } ( 0 )$ 存在, $f ^ { \\prime } ( x )$ 在 $x = 0$ 处不连续.\nC. $f ^ { \\prime } ( x )$ 连续, $f ^ { \\prime \\prime } ( 0 )$ 不存在.\nD. $f ^ { \\prime \\prime } ( 0 )$ 存在, $f ^ { \\prime } ( x )$ 在 $x = 0$ 处不连续.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "multivariable_limit_continuity",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 3
-      },
-      "subjectGuess": "calculus",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.4",
-      "number": 4,
-      "title": "2023 年数学一 第 4 题",
-      "questionText": "已知 $a _ { n } < b _ { n } ( n = 1 , 2 , \\cdots )$ , 若级数 $\\sum _ { n = 1 } ^ { \\infty } a _ { n }$ 与 $\\sum _ { n = 1 } ^ { \\infty } b _ { n }$ 均收敛, 则 $\\mathrel { \\phantom { = } } \\displaystyle { \\langle \\sum _ { n = 1 } ^ { \\infty } a _ { n } \\rangle }$ “ 绝对收敛”是 “∑ $\\because \\sum _ { n = 1 } ^ { \\infty } b _ { n }$ 绝对收敛”的( )\n\nA. 充分必要条件.\nB. 充分不必要条件.\nC. 必要不充分条件.\nD. 既不充分也不必要条件.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "alternating_general_series",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "absolute_conditional_convergence"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：alternating_general_series，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 4
-      },
-      "subjectGuess": "calculus",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.5",
-      "number": 5,
-      "title": "2023 年数学一 第 5 题",
-      "questionText": "已知 $n$ 阶矩阵 $A , B , C$ 满足 $A B C = O , E$ $n$ 阶单位矩阵. 记矩阵 $\\left[ \\begin{array} { c c } { { O } } & { { A } } \\\\ { { B C } } & { { E } } \\end{array} \\right] , \\left[ \\begin{array} { c c } { { A B } } & { { C } } \\\\ { { O } } & { { E } } \\end{array} \\right] .$ $\\left[ \\begin{array} { c c } { E } & { A B } \\\\ { A B } & { O } \\end{array} \\right]$ 的秩分别为 $r _ { 1 } , r _ { 2 } , r _ { 3 }$ , 则( )\n\nA. $r _ { 1 } \\le r _ { 2 } \\le r _ { 3 }$\n\nB. $r _ { 1 } \\leq r _ { 3 } \\leq r _ { 2 }$\n\nC. r3 ≤ r2 ≤ r1\n\n$\\mathsf { D } . \\ r _ { 2 } \\leq r _ { 1 } \\leq r _ { 3 }$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.matrix_rank",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.matrix_transpose"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.matrix_rank，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 5
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.6",
-      "number": 6,
-      "title": "2023 年数学一 第 6 题",
-      "questionText": "下列矩阵中不能相似于对角矩阵的是( )\n\n$\\operatorname { A . } { \\left( \\begin{array} { l l l } { 1 } & { 1 } & { a } \\\\ { 0 } & { 2 } & { 2 } \\\\ { 0 } & { 0 } & { 3 } \\end{array} \\right) } .$\n\nC.\n\n1 a D. 0 2 0 0 2\n\n1 2 $\\beta _ { 1 } = { \\left( \\begin{array} { l } { 2 } \\\\ { 5 } \\\\ { 9 } \\end{array} \\right) } , \\quad \\beta _ { 2 } = { \\left( \\begin{array} { l } { 1 } \\\\ { 0 } \\\\ { 1 } \\end{array} \\right) } ,$ 7. 已知向量 α1 = 2 , α2 = 1 ， 若 $\\gamma$ 既可由 $\\alpha _ { 1 } , \\alpha _ { 2 }$ 线性表示，3 1也可由 $\\beta _ { 1 } , \\beta _ { 2 }$ 线性表示, 则 $\\gamma =$ (\n\n, k ∈ R.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.linear_representation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.representation_theorems",
-        "la.knowledge.matrix_transpose",
-        "la.knowledge.vector_concept"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.linear_representation，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 6
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.8",
-      "number": 8,
-      "title": "2023 年数学一 第 8 题",
-      "questionText": "设随机变量 $X$ 服从参数为 1 的泊松分布，则 $E(|X-EX|)=$（　）\n\nA. $\\dfrac{1}{e}$　　B. $\\dfrac{1}{2}$　　C. $\\dfrac{2}{e}$　　D. $1$",
-      "answerText": "选 C。\n由 $EX=1$，$$E(|X-1|)=\\sum_{k=0}^{\\infty}|k-1|\\,\\frac{e^{-1}}{k!}=e^{-1}\\left(1+0+\\sum_{k=2}^{\\infty}\\frac{k-1}{k!}\\right)$$ 其中 $$\\sum_{k=2}^{\\infty}\\frac{k-1}{k!}=\\sum_{k=2}^{\\infty}\\frac{1}{(k-1)!}-\\sum_{k=2}^{\\infty}\\frac{1}{k!}=(e-1)-(e-2)=1$$ 故 $E(|X-1|)=\\dfrac{2}{e}$。\n（一般结论：$X\\sim\\pi(\\lambda)$ 时 $E|X-\\lambda|=2\\lambda\\,P(X=\\lfloor\\lambda\\rfloor)$，本题 $\\lambda=1$ 时为 $2e^{-1}$。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.poisson_distribution",
-        "prob.knowledge.random_variables_independence",
-        "prob.knowledge.functions_of_random_variables"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；审计标记：此处公式渲染失败待人工核对；审计修复：原题面公式为 PDF 抽取乱码（array 残片）、选项 A/C 乱码，已按 2023 年数一真题原貌重写并补全解答（原答案栏为「待校对」占位）",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 8
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.9",
-      "number": 9,
-      "title": "2023 年数学一 第 9 题",
-      "questionText": "$X _ { 1 } , X _ { 2 } , \\cdots , X _ { n }$ 为来自总体的 $N \\left( \\mu _ { 1 } , \\sigma ^ { 2 } \\right)$ 的简单随机样本, $Y _ { 1 } , Y _ { 2 } , \\cdots Y _ { n }$ , 为来自总体的 $N \\left( \\mu _ { 2 } , 2 \\sigma ^ { 2 } \\right)$ 的简单随机样本, 且两样本相互独立, 记\n\n$$\n\\bar {X} = \\frac {1}{n} \\sum_ {i = 1} ^ {n} X _ {i}, \\bar {Y} = \\frac {1}{m} \\sum_ {i = 1} ^ {m} Y _ {i}, S _ {1} ^ {2} = \\frac {1}{n - 1} \\sum_ {i = 1} ^ {n} \\left(X _ {i} - \\bar {X}\\right) ^ {2}, S _ {2} ^ {2} = \\frac {1}{m - 1} \\sum_ {i = 1} ^ {m} \\left(Y _ {i} - \\bar {Y}\\right) ^ {2}\n$$\n\n则( )\n\nA.\nB.\nC.\nD.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 9
-      },
-      "subjectGuess": "calculus",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.10",
-      "number": 10,
-      "title": "2023 年数学一 第 10 题",
-      "questionText": "设 $X _ { 1 } , X _ { 2 }$ 为来自总体 $\\left( \\mu , \\sigma ^ { 2 } \\right)$ 的简单随机样本, 其中 $\\sigma ( \\sigma > 0 )$ 是末知参数, 若 $\\hat { \\sigma } = a \\left| X _ { 1 } - X _ { 2 } \\right|$ 为 $\\sigma$ 的无偏估计, 则 $a = \\left( \\begin{array} { l l } { \\mathbf { \\Sigma } } & { \\mathbf { \\Sigma } } \\end{array} \\right)$\n\nA. π $\\frac { \\sqrt { \\pi } } { 2 }$\n\n$\\mathrm { B } . \\ { \\frac { \\sqrt { 2 \\pi } } { 2 } }$\n\nC. $\\sqrt { \\pi }$\n\nD.  2π",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.parameter_estimation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.estimator_criteria",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.efficiency_consistency",
-        "prob.knowledge.unbiasedness"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：prob.type.estimator_criteria、prob.knowledge.efficiency_consistency、prob.knowledge.unbiasedness，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.parameter_estimation",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 10
-      },
-      "subjectGuess": "calculus",
-      "section": "一、选择题：1-10 题.（每题 10 分，共 50 分）"
-    },
-    {
-      "id": "bank.exam.m1-2023.11",
-      "number": 11,
-      "title": "2023 年数学一 第 11 题",
-      "questionText": "当 $x \\to 0$ 时, 函数 $f ( x ) = a x + b x ^ { 2 } + \\ln ( 1 + x )$ 与 $g ( x ) = \\mathrm { e } ^ { x ^ { 2 } } - \\cos x$ 是等价无穷小, 则 $a b =$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "equivalent_infinitesimal",
-        "infinite_and_infinitesimal",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 11
-      },
-      "subjectGuess": "calculus",
-      "section": "二、填空题：11-16 题.(每题 5 分，共 30 分)"
-    },
-    {
-      "id": "bank.exam.m1-2023.12",
-      "number": 12,
-      "title": "2023 年数学一 第 12 题",
-      "questionText": "曲面 $z = x + 2 y + \\ln { \\left( 1 + x ^ { 2 } + y ^ { 2 } \\right) }$ 在点 $( 0 , 0 , 0 )$ 处的切平面方程为",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "geometric_applications_multivariable"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 12
-      },
-      "subjectGuess": "calculus",
-      "section": "二、填空题：11-16 题.(每题 5 分，共 30 分)"
-    },
-    {
-      "id": "bank.exam.m1-2023.13",
-      "number": 13,
-      "title": "2023 年数学一 第 13 题",
-      "questionText": "设 $f ( x )$ 是周期为 2 的周期函数, 且 $f ( x ) \\ = \\ 1 - x , x \\ \\in \\ [ 0 , 1 ]$ . 若 $f ( x ) = { \\frac { a _ { 0 } } { 2 } } + \\sum _ { n = 1 } ^ { \\infty } a _ { n } \\cos n \\pi x$ , 则$\\sum _ { n = 1 } ^ { \\infty } a _ { 2 n } = \\qquad \\quad .$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_properties",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "function_properties"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：function_properties、function_properties，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 13
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "二、填空题：11-16 题.(每题 5 分，共 30 分)"
-    },
-    {
-      "id": "bank.exam.m1-2023.14",
-      "number": 14,
-      "title": "2023 年数学一 第 14 题",
-      "questionText": "设连续函数 $f ( x )$ 满足: $f ( x + 2 ) - f ( x ) = x , \\int _ { 0 } ^ { 2 } f ( x ) \\mathrm { d } x = 0$ $\\int _ { 1 } ^ { 3 } f ( x ) \\mathrm { d } x = _ { - }$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 14
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "二、填空题：11-16 题.(每题 5 分，共 30 分)"
-    },
-    {
-      "id": "bank.exam.m1-2023.15",
-      "number": 15,
-      "title": "2023 年数学一 第 15 题",
-      "questionText": "已知向量 $\\alpha _ { 1 } = \\left( \\begin{array} { c } { 1 } \\\\ { 0 } \\\\ { 1 } \\\\ { 1 } \\end{array} \\right) , \\alpha _ { 2 } = \\left( \\begin{array} { c } { - 1 } \\\\ { - 1 } \\\\ { 0 } \\\\ { 1 } \\end{array} \\right) , \\alpha _ { 3 } = \\left( \\begin{array} { c } { 0 } \\\\ { 1 } \\\\ { - 1 } \\\\ { 1 } \\end{array} \\right) , \\beta = \\left( \\begin{array} { c } { 1 } \\\\ { 1 } \\\\ { 1 } \\\\ { - 1 } \\end{array} \\right) , \\gamma = k _ { 1 } \\alpha _ { 1 } + k _ { 2 } \\alpha _ { 2 } + k _ { 3 } \\alpha _ { 3 } + k _ { 4 } \\alpha _ { 4 } ,$  , β = 3 . 若$\\gamma ^ { \\top } \\alpha _ { 1 } = \\beta ^ { \\top } \\alpha _ { i } ( i = 1 , 2 , 3 )$ , 则 $k _ { 1 } ^ { 2 } + k _ { 2 } ^ { 2 } + k _ { 3 } ^ { 2 } = \\qquad $",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "vector_linear_operation"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 15
-      },
-      "subjectGuess": "calculus",
-      "section": "二、填空题：11-16 题.(每题 5 分，共 30 分)"
-    },
-    {
-      "id": "bank.exam.m1-2023.16",
-      "number": 16,
-      "title": "2023 年数学一 第 16 题",
-      "questionText": "设随机变量 $X$ 与 $Y$ 相互独立, 且 $X \\sim B \\left( 1 , \\frac { 1 } { 3 } \\right) , Y \\sim B \\left( 2 , \\frac { 1 } { 2 } \\right)$ , 则 $P \\{ X = Y \\}$ .",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_events",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 16
-      },
-      "subjectGuess": "calculus",
-      "section": "二、填空题：11-16 题.(每题 5 分，共 30 分)"
-    },
-    {
-      "id": "bank.exam.m1-2023.33",
-      "number": 33,
-      "title": "2023 年数学一 第 33 题",
-      "questionText": "(本小题满分 10 分) 设曲线 $y = y ( x ) ( x > 0 )$ 经过点 $( 1 , 2 )$ , 该曲线上任一点 $P ( x , y )$ 到 $y$ 轴的距离等于该点处的切线在 $y$ 轴上的截距.\n\n(1) 求 $y ( x )$ ;\n(2) 求函数 $f ( x ) = \\int _ { 1 } ^ { x } y ( t ) \\mathrm { d } t$ 在 $( 0 , + \\infty )$ 上的最大值.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "extrema",
-        "plane_line_position_relation"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）；自动打标(规则)：extrema、plane_line_position_relation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 33
-      },
-      "subjectGuess": "",
-      "section": "三、解答题：17-22 小题，共 70 分."
-    },
-    {
-      "id": "bank.exam.m1-2023.34",
-      "number": 34,
-      "title": "2023 年数学一 第 34 题",
-      "questionText": "(本小题满分 12 分)\n\n求函数 $f ( x , y ) = \\left( y - x ^ { 2 } \\right) \\left( y - x ^ { 3 } \\right)$ 的极值.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "multivariable_extrema",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）；自动打标(规则)：multivariable_extrema，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multivariable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 34
-      },
-      "subjectGuess": "",
-      "section": "三、解答题：17-22 小题，共 70 分."
-    },
-    {
-      "id": "bank.exam.m1-2023.35",
-      "number": 35,
-      "title": "2023 年数学一 第 35 题",
-      "questionText": "(本小题满分 12 分)\n\n设空间有界区域 $\\Omega$ 由柱面 $x ^ { 2 } + y ^ { 2 } = 1$ 与平面 $z = 0$ 和 $x + z = 1$ 围成. $\\Sigma$ 为 $\\Omega$ 的边界曲面的外侧. 计算曲面积分\n\n$$\nI = \\iint_ {\\Sigma} 2 x z \\mathrm {d} y \\mathrm {d} z + x z \\cos y \\mathrm {d} z \\mathrm {d} x + 3 y z \\sin x \\mathrm {d} x \\mathrm {d} y.\n$$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "surface_integral_second_kind",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "cylindrical_surface"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）；自动打标(规则)：surface_integral_second_kind、cylindrical_surface，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 35
-      },
-      "subjectGuess": "",
-      "section": "三、解答题：17-22 小题，共 70 分."
-    },
-    {
-      "id": "bank.exam.m1-2023.36",
-      "number": 36,
-      "title": "2023 年数学一 第 36 题",
-      "questionText": "(本小题满分 12 分)\n\n设函数 $f ( x )$ 在 $[ - a , a ]$ 上具有 2 阶连续导数. 证明:\n\n(1) 若 $f ( 0 ) = 0$ , 则存在 $\\xi \\in ( - a , a )$ , 使得\n\n$$\nf ^ {\\prime \\prime} (\\xi) = \\frac {1}{a ^ {2}} [ f (a) + f (- a) ]\n$$\n\n(2) 若 $f ( x )$ 在 $( - a , a )$ 内取得极值, 则存在 $\\eta \\in ( - a , a )$ , 使得\n\n$$\n| f ^ {\\prime \\prime} (\\eta) | \\geq \\frac {1}{2 a ^ {2}} | f (a) - f (- a) |\n$$\n\n# 21. (本小题满分 12 分)\n\n已知二次型\n\n$$\nf \\left(x _ {1}, x _ {2}, x _ {3}\\right) = x _ {1} ^ {2} + 2 x _ {2} ^ {2} + 2 x _ {3} ^ {2} + 2 x _ {1} x _ {2} - 2 x _ {1} x _ {3},\n$$\n\n$$\ng \\left(y _ {1}, y _ {2}, y _ {3}\\right) = y _ {1} ^ {2} + y _ {2} ^ {2} + y _ {3} ^ {2} + 2 y _ {2} y _ {3}.\n$$\n\n(1) 求可逆变换 $\\scriptstyle { \\pmb { x } } = { \\pmb { P } } { \\pmb { y } }$ 将 $f \\left( x _ { 1 } , x _ { 2 } , x _ { 3 } \\right)$ 化成 $g \\left( y _ { 1 } , y _ { 2 } , y _ { 3 } \\right)$ ；\n(2) 是否存在正交变换 $\\pmb { x } = \\pmb { Q } \\pmb { y }$ 将 $f \\left( x _ { 1 } , x _ { 2 } , x _ { 3 } \\right)$ 化成 $g \\left( y _ { 1 } , y _ { 2 } , y _ { 3 } \\right)$ ?",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.quadratic_forms",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.orthogonal_standard_form"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）；自动打标(规则)：la.problem_type.orthogonal_standard_form、la.knowledge.orthogonal_standard_form，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 36
-      },
-      "subjectGuess": "",
-      "section": "三、解答题：17-22 小题，共 70 分."
-    },
-    {
-      "id": "bank.exam.m1-2023.38",
-      "number": 38,
-      "title": "2023 年数学一 第 38 题",
-      "questionText": "(本小题满分 12 分)\n\n$f ( x , y ) = { \\left\\{ \\begin{array} { l l } { { \\displaystyle { \\frac { 2 } { \\pi } } \\left( x ^ { 2 } + y ^ { 2 } \\right) } } \\\\ { 0 , } \\end{array} \\right. }$ , x2 + y 2 ≤ 1,设二维随机变量 $( X , Y )$ 的概率密度为 , 求其他.\n\n(1) 求 $X$ 与 $Y$ 的协方差;\n(2) $X$ 与 $Y$ 是否相互独立?\n(3) 求 $Z = X ^ { 2 } + Y ^ { 2 }$ 的概率密度.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.block_matrix",
-        "prob.knowledge.covariance",
-        "prob.knowledge.joint_distribution_function"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（未知）；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.covariance、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2023,
-        "paper": "math1",
-        "number": 38
-      },
-      "subjectGuess": "",
-      "section": "三、解答题：17-22 小题，共 70 分."
-    }
-  ]
+  {
+   "id": "bank.exam.m1-2023.2",
+   "number": 2,
+   "title": "2023 年数学一 第 2 题",
+   "questionText": "若微分方程$y''+ay'+by=0$ 的解在$(-\\infty,+\\infty)$ 上有界，则(\n\n(A)\n\n$$a<0,b>0$$\n\n(B)\n\n$$a>0,b>0$$\n\n(C)$a=0,b>0$\n\n(D)\n\n$$a=0,b<0$$",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.3",
+   "number": 3,
+   "title": "2023 年数学一 第 3 题",
+   "questionText": "设函数$y=f(x) 由 \\left\\{\\begin{aligned}x=2t+|t|\\\\ y=|t|\\sin t\\end{aligned}\\right.$ 确定，则( )\n\n(A)$f(x)$ 连续，$f^{\\prime}(0)$ 不存在(B)$f^{\\prime}(0)$ 存在，$f^{\\prime}(x)$ 在$x=0$ 处不连续\n\n(C)$f^{\\prime}(x)$ 连续，$f''(0)$ 不存在(D)$f''(0)$ 存在，$f''(x)$ 在$x=0$ 处不连续",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.4",
+   "number": 4,
+   "title": "2023 年数学一 第 4 题",
+   "questionText": "已知$a_{n}<b_{n}(n=1,2,\\cdots)$ ，若级数$\\sum_{n=1}^{\\infty}a_{n} 与 \\sum_{n=1}^{\\infty}b_{n}$ 均收敛，则$\\sum_{n=1}^{\\infty}a_{n}$ 绝对收敛”是$\\sum_{n=1}^{\\infty}b_{n}$ 绝对收敛的”(\n\n(A)充分必要条件(B)充分不必要条件\n\n(C)必要不充分条件(D）既不充分也不必要条件",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "absolute_conditional_convergence"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.5",
+   "number": 5,
+   "title": "2023 年数学一 第 5 题",
+   "questionText": "已知n阶矩阵A,B,C满足$ABC=0$ ，E为n阶单位矩阵，记矩阵$\\begin{pmatrix}0&A\\\\ BC&E\\end{pmatrix}$ $\\begin{pmatrix}AB&C\\\\0&E\\end{pmatrix},\\quad\\begin{pmatrix}E&AB\\\\AB&0\\end{pmatrix}$ 的秩分别为$\\gamma_{1},\\gamma_{2},\\gamma_{3}$ ,则(\n\n(A)$\\gamma_{1}\\leq\\gamma_{2}\\leq\\gamma_{3}$ (B)$\\gamma_{1}\\leq\\gamma_{3}\\leq\\gamma_{2}$ (C)$\\gamma_{3}\\leq\\gamma_{1}\\leq\\gamma_{2}$ (D)$\\gamma_{2}\\leq\\gamma_{1}\\leq\\gamma_{3}$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.6",
+   "number": 6,
+   "title": "2023 年数学一 第 6 题",
+   "questionText": "下列矩阵中不能相似于对角矩阵的是()\n\n(A)$\\begin{pmatrix}1&1&a\\\\0&2&2\\\\0&0&3\\end{pmatrix}$ (B)$\\begin{pmatrix}1&1&a\\\\1&2&0\\\\a&0&3\\end{pmatrix}$ (C)$\\begin{pmatrix}1&1&a\\\\0&2&0\\\\0&0&2\\end{pmatrix}$ (D)$\\begin{pmatrix}1&1&a\\\\0&2&2\\\\0&0&2\\end{pmatrix}$",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_transpose",
+    "la.knowledge.similarity_concept"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.7",
+   "number": 7,
+   "title": "2023 年数学一 第 7 题",
+   "questionText": "已知向量$\\alpha_{1}=\\begin{pmatrix}1\\\\ 2\\\\ 3\\end{pmatrix},\\quad\\alpha_{2}=\\begin{pmatrix}2\\\\ 1\\\\ 1\\end{pmatrix},\\quad\\beta_{1}=\\begin{pmatrix}2\\\\ 5\\\\ 9\\end{pmatrix},\\quad\\beta_{2}=\\begin{pmatrix}1\\\\ 0\\\\ 1\\end{pmatrix}$ ，若既可由$\\alpha_{1},\\alpha_{2}$ 线性表示，也可由$\\beta_{1},\\beta_{2}$ 线性表示，则$\\gamma=\\left(\\begin{array}{ccc}&&\\\\ &&\\end{array}\\right)$\n\n(A)\n\n$$k\\begin{pmatrix}3\\\\ 3\\\\ 4\\end{pmatrix},k\\in R $$\n\n(B)$k\\begin{pmatrix}3\\\\ 5\\\\ 10\\end{pmatrix},k\\in R$\n\n(C)\n\n$$k\\begin{pmatrix}-1\\\\ 1\\\\ 2\\end{pmatrix},k\\in R $$\n\n(D)$\\begin{pmatrix}k\\begin{pmatrix}1\\\\ 5\\\\ 8\\end{pmatrix},k\\in R\\end{pmatrix}$",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目按题面内容修正（probability_statistics）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.8",
+   "number": 8,
+   "title": "2023 年数学一 第 8 题",
+   "questionText": "设随机变量X服从参数为1的泊松分布，则$E(|X-EX|)=$\n\n(A)$\\frac{1}{e}$ (B)$\\frac{1}{2}$ (C)$\\frac{2}{e}$ (D)1",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.poisson_distribution",
+    "prob.knowledge.random_variables_independence",
+    "prob.knowledge.functions_of_random_variables"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.9",
+   "number": 9,
+   "title": "2023 年数学一 第 9 题",
+   "questionText": "设$X_{1},X_{2},\\cdots,X_{m}$ 为来自总体$N(\\mu_{1},\\sigma^{2})$ 的简单随机样本，$Y_{1},Y_{2},\\cdots,Y_{m}$ 为来自\n\n总体$N(\\mu_{2},2\\sigma^{2})$ 的简单随机样本，且两样本相互独立，记$\\overline{X}=\\frac{1}{n}\\sum_{i=1}^{n}X_{i}$ $\\overline{Y}=\\frac{1}{m}\\sum_{i=1}^{m}Y_{i}$ $S_{1}^{2}=\\frac{1}{n-1}\\sum_{i=1}^{n}(X_{i}-\\overline{X})^{2}$ $S_{2}^{2}=\\frac{1}{m-1}\\sum_{i=1}^{m}(Y_{i}-\\overline{Y})^{2}$ ，则( )\n\n(A)$\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n,m)$ (B)$\\frac{S_{1}^{2}}{S_{2}^{2}}\\sim F(n-1,m-1)$ (C)$\\frac{2S_{1}^{2}}{S_{2}^{2}}\\sim F(n,m)$ (D)$\\frac{2S_{1}^{2}}{S_{2}^{2}}\\sim F(n-1,m-1)$",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目按题面内容修正（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.10",
+   "number": 10,
+   "title": "2023 年数学一 第 10 题",
+   "questionText": "设$X_{1},X_{2}$ 为来自总体$N(\\mu,\\sigma^{2})$ 的简单随机样本，其中$\\sigma(\\sigma>0)$ 是未知参数.若$\\sigma=a\\left|X_{1}-X_{2}\\right|$ 为σ的无偏估计，则$a=(\\quad)$\n\n(A)$\\frac{\\sqrt{\\pi}}{2}$ (B)$\\frac{\\sqrt{2\\pi}}{2}$ (C)$\\sqrt{\\pi}$ (D)$\\sqrt{2\\pi}$",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目按题面内容修正（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m1-2023.11",
+   "number": 11,
+   "title": "2023 年数学一 第 11 题",
+   "questionText": "当$x\\to0$ 时，函数$f(x)=ax+bx^{2}+\\ln(1+x)\\quad 与 \\quad g(x)=e^{x^{2}}-\\cos x$ 是等价无穷小，则$ab=\\underline{\\hspace{1cm}}$",
+   "answerText": "-2",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "infinite_and_infinitesimal",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2023.12",
+   "number": 12,
+   "title": "2023 年数学一 第 12 题",
+   "questionText": "曲面$z=x+2y+\\ln(1+x^2+y^2)$ 在点$(0,0,0)$ 处的切平面方程为",
+   "answerText": "$x+2y-z=0$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "geometric_applications_multivariable"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2023.13",
+   "number": 13,
+   "title": "2023 年数学一 第 13 题",
+   "questionText": "设$f(x)$ 为周期为2的周期函数，且$f(x)=1-x,x\\in[0,1]$ ，若\n\n$f(x)=\\frac{a_{0}}{2}+\\sum_{n=1}^{\\infty}a_{n}\\cos n\\pi x$ ，则$\\sum_{n=1}^{\\infty}a_{2n}=$ =",
+   "answerText": "0",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目按题面内容修正（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2023.14",
+   "number": 14,
+   "title": "2023 年数学一 第 14 题",
+   "questionText": "设连续函数 $f(x)$ 满足 $f(x+2)-f(x)=x$，$\\int_{0}^{2}f(x)\\,\\mathrm{d}x=0$，则 $\\int_{1}^{3}f(x)\\,\\mathrm{d}x=$ ______",
+   "answerText": "答案：$\\dfrac{1}{2}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；答案跨行损毁已修复（验算 ∫₁³f = 1/2），解析文字未收录",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2023.15",
+   "number": 15,
+   "title": "2023 年数学一 第 15 题",
+   "questionText": "已知向量$\\alpha_{1}=\\begin{pmatrix}1\\\\ 0\\\\ 1\\\\ 1\\end{pmatrix},\\alpha_{2}=\\begin{pmatrix}-1\\\\ -1\\\\ 0\\\\ 1\\end{pmatrix},\\alpha_{3}=\\begin{pmatrix}0\\\\ 1\\\\ -1\\\\ 1\\end{pmatrix},\\beta=\\begin{pmatrix}1\\\\ 1\\\\ 1\\\\ -1\\end{pmatrix},\\gamma=k_{1}\\alpha_{1}+k_{2}\\alpha_{2}+k_{3}\\alpha_{3},$\n\n若$\\gamma^{T}\\alpha_{i}=\\beta^{T}\\alpha_{i}(i=1,2,3)$ ，则$k_{1}^{2}+k_{2}^{2}+k_{3}^{2}=$",
+   "answerText": "$\\frac{11}{9}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_linear_operation"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2023.16",
+   "number": 16,
+   "title": "2023 年数学一 第 16 题",
+   "questionText": "设随机变量X与Y相互独立，且$X\\sim B(1,\\frac{1}{3}),Y\\sim B(2,\\frac{1}{2})$ 则$P\\{X=Y\\}=$\n\n【答案 及 $\\frac{1}{3}$\n\n【解析】因为$X\\sim B\\left(1,\\frac{1}{3}\\right)$ ，所以$X=0,1$\n\n$Y\\sim B\\left(2,\\frac{1}{2}\\right)$ ，所以$Y=0,1,2$\n\n又因为X与Y相互独立，所以\n\n$$\\begin{aligned}P\\{X=Y\\}=P\\{X=0,Y=0\\}+P\\{X=1,Y=1\\}\\\\ =P\\{X=0\\}P\\{Y=0\\}+P\\{X=1\\}P\\{Y=1\\}\\\\ =\\frac{2}{3}C_{2}^{0}\\left(\\frac{1}{2}\\right)^{2}+\\frac{1}{3}C_{2}^{1}\\left(\\frac{1}{2}\\right)^{2}=\\frac{1}{3}.\\end{aligned}$$\n\n### 三、 解答题：17~22小题，共70分.解答应写出文字说明、证明过程或演\n\n算步骤.",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2023.17",
+   "number": 17,
+   "title": "2023 年数学一 第 17 题",
+   "questionText": "(本题满分10分)\n\n设曲线$y=y(x)(x>0)$ 经过点(1,2)，该曲线上任一点$P(x,y)$ 到y轴的距离等于该点处的切线在y轴上的截距.\n\n(1)求$y(x)$ ;\n\n()求函数$f(x)=\\int_{1}^{x}y(t)dt$ 在$(0,+\\infty)$ 上的最大值.\n\n【解析】(I)设点$(x,y)$ 处的切线方程为$Y-y=y^{\\prime}(X-x)$ ，故y轴的截距为$y-y^{\\prime}x$ ,则$x=y-y^{\\prime}x$ ,\n\n解得$y=x(C-\\ln x)$ ，其中C为任意常数\n\n由$y(1)=C=2$ ,故$y(x)=x(2-\\ln x)$\n\n(I1)由(1)知$f(x)=\\int_{1}^{x}t(2-\\ln t)dt$ ,故$f^{\\prime}(x)=x(2-\\ln x)=0$ ，则驻点为$x=e^{2}$\n\n当$0<x<e^{2}$ 时，$f^{\\prime}(x)>0$ ;当$x>e^{2}$ 时，$f^{\\prime}(x)<0$ ,故$f(x)$ 在$x=e^{2}$ 处取得极大值，同时也取得最大值，且最大值为$f(e^{2})=\\int_{1}^{e^{2}}x(2-\\ln x)dx=\\frac{1}{4}e^{4}-\\frac{5}{4}$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "geometric_applications_multivariable",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2023.18",
+   "number": 18,
+   "title": "2023 年数学一 第 18 题",
+   "questionText": "(本题满分12分)\n\n求函数$f(x,y)=(y-x^{2})(y-x^{3})$ 的极值.\n\n【解析】$f_{x}^{\\prime}=-x(2y+3xy-5x^{3})=0,\\quad f_{y}^{\\prime}=2y-x^{2}-x^{3}=0$ ，得驻点为$(0,0),\\quad(1,1),\\quad(\\frac{2}{3},\\frac{10}{27})$\n\n$$f_{xx}^{\\prime\\prime}=-\\left(2y+3xy-5x^{3}\\right)-x\\left(3y-15x^{2}\\right),\\quad f_{xy}^{\\prime\\prime}=-x\\left(2+3x\\right),\\quad f_{yy}^{\\prime\\prime}=2.$$\n\n代入(0,0)，$\\begin{cases}A=f_{xx}''=0,\\\\B=f_{xy}''=0,\\\\C=f_{yy}''=2\\end{cases}$ ，则$AC-B^{2}=0$ ，故充分条件失效，当$x\\to0$ 时，取\n\n$$y=x^{2}+kx^{3}(k>0),\\quad f(x,y)=(y-x^{2})(y-x^{3})=kx^{3}[x^{2}+(k-1)x^{3}]=kx^{5}+o(x^{5})$$\n\n则$\\lim_{x\\to0}\\frac{f(x,y)}{x^5}=\\lim_{x\\to0}\\frac{kx^5+o(x^5)}{x^5}=k>0$ ，由极限的局部保号性：存在$\\delta>0$ ,当$x\\in(-\\delta,0)$ 时，$\\frac{f(x,y)}{x^{5}}>0\\ ,\\quad f(x,y)<0=f(0,0)$ ，当$x\\in(0,\\delta)$ 时，$\\frac{f(x,y)}{x^{5}}>0$ $f(x,y)>0=f(0,0)$ ，故$(0,0)$ 不是极值点；\n\n代入(1,1)，$\\begin{cases}A=f_{xx}''=12\\\\B=f_{xy}''=-5\\\\C=f_{yy}''=2\\end{cases}$ ，则$AC-B^{2}<0$ ，故(1,1)不是极值点；\n\n代入$(\\frac{2}{3},\\frac{10}{27})$ ,的$\\left\\{\\begin{aligned}A=f_{xx}''=\\frac{100}{27}\\\\ B=f_{xy}''=-\\frac{8}{3}\\\\ C=f_{yy}''=2\\end{aligned}\\right.$ ,则$AC-B^{2}>0$ 且$A>0$ ,故$(\\frac{2}{3},\\frac{10}{27})$ 是极小值点；\n\n故$f\\left(\\frac{2}{3},\\frac{10}{27}\\right)=-\\frac{4}{729}$ 为极小值.",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "extrema",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2023.19",
+   "number": 19,
+   "title": "2023 年数学一 第 19 题",
+   "questionText": "(本题满分12分)\n\n设空间有界区域Ω中，柱面$x^{2}+y^{2}=1$ 与平面$z=0$ 和$x+z=1$ 围成，Σ为Ω边界的外侧，计算曲面积分\n\n$$\\oint_{\\Sigma}2xzdydz+xz\\cos ydzdy+3yz\\sin xdxdy $$\n\n【解析】由高斯公式可得：\n\n$$\\begin{aligned}&=\\iiint_{\\Omega}\\left(2z-xz\\sin y+3y\\sin x\\right)dV\\\\&=\\iiint_{\\Omega}2zdV=\\iint_{D_{xy}}dxdy\\int_{0}^{1-x}2zdz=\\iint_{D_{xy}}\\left(1-x\\right)^2dxdy\\qquad\\quad\\left(D_{xy}:x^2+y^2\\leq1\\right)\\\\&=\\iint_{D_{xy}}\\left(1-2x+x^2\\right)dxdy=\\pi+\\frac{1}{2}\\iint_{D_{xy}}\\left(x^2+y^2\\right)dxdy\\\\&=\\pi+\\frac{1}{2}\\int_{0}^{2\\pi}d\\theta\\int_{0}^{1}r^3dr=\\pi+\\frac{\\pi}{4}=\\frac{5\\pi}{4}.\\end{aligned}$$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "area_volume_arc",
+    "cylindrical_surface"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2023.20",
+   "number": 20,
+   "title": "2023 年数学一 第 20 题",
+   "questionText": "(本题满分12分)\n\n设函数$f(x)$ 在$\\left[-a,a\\right]$ 上具有二阶连续导数，证明：\n\n(I) 若$f(x)=0$ ,则存在$\\xi\\in(-a,a)$ ,使得$f^{\\prime\\prime}(\\xi)=\\frac{1}{a^{2}}\\left[f(a)+f(-a)\\right]$\n\n(I)若$f(x)$ 在$(-a,a)$ 内取得极值，则存在$\\eta\\in(-a,a)$ 使得\n\n$$\\left|f''(\\eta)\\right|\\geq\\frac{1}{2a^2}\\left|f(a)-f(-a)\\right|.$$\n\n【解析】(I)证明：$f(x)=f(0)+f'(0)x+\\frac{f''(\\eta)}{2!}x^2=f'(0)x+\\frac{f''(\\eta)}{2!}x^2$ ,η介于0与x之间，\n\n$$则f(a)=f'(0)a+\\frac{f''(\\eta_1)}{2!}a^2,0<\\eta_1<a.$$\n\n$$f(-a)=f^{\\prime}(0)(-a)+\\frac{f^{\\prime\\prime}(\\eta_2)}{2!}a^2,-a<\\eta_2<0$$\n\n①+②得：$f(a)+f(-a)=\\frac{a^{2}}{2}\\left[f^{\\prime\\prime}(\\eta_{1})+f^{\\prime\\prime}(\\eta_{2})\\right]$ ③\n\n又$f^{\\prime}(x) 在 \\left[\\eta_{2},\\eta_{1}\\right]$ 上连续，则必有最大值M与最小值m，即\n\n$m\\leq f''(\\eta_1)\\leq M,m\\leq f''(\\eta_2)\\leq M,$ .从而$m\\leq\\frac{f^{\\prime\\prime}\\left(\\eta_{1}\\right)+f^{\\prime\\prime}\\left(\\eta_{2}\\right)}{2}\\leq M$\n\n由介值定理得：存在$\\xi\\in\\left[\\eta_{2},\\eta_{1}\\right]\\subset(-a,a),\\mathrm{ 有 }\\frac{f^{\\prime\\prime}\\left(\\eta_{1}\\right)+f^{\\prime\\prime}\\left(\\eta_{2}\\right)}{2}=f^{\\prime\\prime}\\left(\\xi\\right)$\n\n代入③得：$f(a)+f(-a)=a^{2}f^{\\prime\\prime}(\\xi), 即 f^{\\prime\\prime}(\\xi)=\\frac{f(a)+f(-a)}{a^{2}}.$\n\n(I）设$f(x) 在 x=x_0\\in(-a,a)$ 取极值，且$f(x) 在 x=x_0$ 可导，则$f^{\\prime}(x_0)=0$\n\n$f(x)=f(x_0)+f'(x_0)(x-x_0)+\\frac{f''(\\gamma)}{2!}(x-x_0)^2=f(x_0)+\\frac{f''(\\gamma)}{2!}(x-x_0)^2$ ,介于0与x之间，\n\n则\n\n$$f(-a)=f(x_{0})+\\frac{f^{\\prime\\prime}(\\gamma_{1})}{2!}(-a-x_{0})^{2},-a<\\gamma_{1}<0.$$\n\n$$f(a)=f(x_0)+\\frac{f^{\\prime\\prime}(\\gamma_2)}{2!}(a-x_0)^2,0<\\gamma_2<a.$$\n\n从而$\\left|f(a)-f(-a)\\right|=\\left|\\frac{1}{2}(a-x_0)^2f''(\\gamma_2)-\\frac{1}{2}(a+x_0)^2f''(\\gamma_1)\\right|$\n\n$$\\leq\\frac{1}{2}\\left|(a-x_0)^2f''(\\gamma_2)\\right|+\\frac{1}{2}\\left|(a+x_0)^2f''(\\gamma_1)\\right|.$$\n\n又$\\left|f^{\\prime}(x)\\right|$ 连续，设$M=\\max\\left\\{\\left|f^{\\prime\\prime}(\\gamma_1)\\right|,\\left|f^{\\prime\\prime}(\\gamma_2)\\right|\\right\\}$ ，则\n\n$$\\left|f(a)-f(-a)\\right|\\leq\\frac{1}{2}M\\left(a+x_{0}\\right)^{2}+\\frac{1}{2}M\\left(a-x_{0}\\right)^{2}=M\\left(a^{2}+x_{0}^{2}\\right)$$\n\n又$x_{0}\\in(-a,a)$ ,则$\\left|f(a)-f(-a)\\right|\\leq M\\left(a^{2}+x_{0}^{2}\\right)\\leq2Ma^{2}$\n\n则$M\\geq\\frac{1}{2a^{2}}\\left|f(a)-f(-a)\\right|$ ，即存在$\\eta=\\gamma_{1}$ 或$\\eta=\\gamma_{2}\\in(-a,a)$\n\n有$\\left|f''(\\eta)\\right|\\geq\\frac{1}{2a^2}\\left|f(a)-f(-a)\\right|$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2023.21",
+   "number": 21,
+   "title": "2023 年数学一 第 21 题",
+   "questionText": "(本题满分12分)\n\n已知二次型$f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+2x_{3}^{2}+2x_{1}x_{2}-2x_{1}x_{3}$\n\n$$g(y_{1},y_{2},y_{3})=y_{1}^{2}+y_{2}^{2}+y_{3}^{2}+2y_{2}y_{3}$$\n\n(1)求可逆变换$x=P y$ ，将$f(x_{1},x_{2},x_{3})$ 化为$g(y_1,y_2,y_3)$ ;\n\n(I）是否存在正交变换$x=Qy$ ,将$f(x_{1},x_{2},x_{3})$ 化为$g(y_1,y_2,y_3)$\n\n【解析】(I）利用配方法将$f(x_{1},x_{2},x_{3})$ 和$g(y_1,y_2,y_3)$ 化为规范形，从而建立两者的关系.\n\n先将$f(x_{1},x_{2},x_{3})$ 化为规范形.\n\n$$\\begin{aligned}&f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}-2x_{1}x_{3}\\\\ &=(x_{1}+x_{2}-x_{3})^{2}+x_{2}^{2}+x_{3}^{2}+2x_{2}x_{3}=(x_{1}+x_{2}-x_{3})^{2}+(x_{2}+x_{3})^{2}\\\\ \\end{aligned}$$\n\n$$\\left\\{\\begin{aligned}z_{1}&=x_{1}+x_{2}-x_{3}\\\\ z_{2}&=x_{2}+x_{3}\\\\ z_{3}&=x_{3}\\end{aligned}\\right.\\quad 则 \\quad f(x_{1},x_{2},x_{3})=z_{1}^{2}+z_{2}^{2}$$\n\n即$\\begin{pmatrix}z_{1}\\\\z_{2}\\\\z_{3}\\end{pmatrix}=\\begin{pmatrix}1&1&-1\\\\0&1&1\\\\0&0&1\\end{pmatrix}\\begin{pmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\end{pmatrix}$ ,使得$f(x_{1},x_{2},x_{3})=z_{1}^{2}+z_{2}^{2}$\n\n再将$g(y_1,y_2,y_3)$ 化为规范形.\n\n$$g(y_{1},y_{2},y_{3})=y_{1}^{2}+y_{2}^{2}+y_{3}^{2}+2y_{2}y_{3}=y_{1}^{2}+(y_{2}+y_{3})^{2}$$\n\n区$\\begin{cases}z_{1}=y_{1}\\\\z_{2}=y_{2}+y_{3}\\\\z_{3}=y_{3}\\end{cases}$ ;,则$g(y_{1},y_{2},y_{3})=z_{1}^{2}+z_{2}^{2}$\n\n即$\\begin{pmatrix}z_{1}\\\\z_{2}\\\\z_{3}\\end{pmatrix}=\\begin{pmatrix}1&0&0\\\\0&1&1\\\\0&0&1\\end{pmatrix}\\begin{pmatrix}y_{1}\\\\y_{2}\\\\y_{3}\\end{pmatrix}$ ,使得$g(y_{1},y_{2},y_{3})=z_{1}^{2}+z_{2}^{2}$\n\n从而有$\\begin{pmatrix}z_{1}\\\\z_{2}\\\\z_{3}\\end{pmatrix}=\\begin{pmatrix}1&1&-1\\\\0&1&1\\\\0&0&1\\end{pmatrix}\\begin{pmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\end{pmatrix}=\\begin{pmatrix}1&0&0\\\\0&1&1\\\\0&0&1\\end{pmatrix}\\begin{pmatrix}y_{1}\\\\y_{2}\\\\y_{3}\\end{pmatrix},$\n\n于是可得$\\begin{pmatrix}x_{1}\\\\x_{2}\\\\x_{3}\\end{pmatrix}=\\boldsymbol{P}\\begin{pmatrix}y_{1}\\\\y_{2}\\\\y_{3}\\end{pmatrix}$ ,其中$P=\\begin{pmatrix}1&1&-1\\\\0&1&1\\\\0&0&1\\end{pmatrix}^{-1}\\begin{pmatrix}1&0&0\\\\0&1&1\\\\0&0&1\\end{pmatrix}=\\begin{pmatrix}1&-1&1\\\\0&1&0\\\\0&0&1\\end{pmatrix}$ 为所求矩阵，\n\n可将$f(x_{1},x_{2},x_{3})$ 化为$g(y_1,y_2,y_3)$\n\n(I）二次型$f(x_{1},x_{2},x_{3})$ 「和$g(y_1,y_2,y_3)$ 的矩阵分别为$A=\\begin{pmatrix}1&1&-1\\\\1&2&0\\\\-1&0&2\\end{pmatrix}$\n\n$$\\boldsymbol{B}=\\begin{pmatrix}1&0&0\\\\0&1&1\\\\0&1&1\\end{pmatrix}.$$\n\n由题意知，若存在正交变换$x=Qy$ ，则$Q^{T}AQ=Q^{-1}AQ=B$ ，可得A和B相似.易知$tr(A)=5,tr(B)=3$ ，从而A和B不相似，于是不存在正交变换$x=Qy$ 使得$f(x_{1},x_{2},x_{3})$ 化为$g(y_1,y_2,y_3)$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_rank",
+    "la.knowledge.standard_form",
+    "la.knowledge.normal_form"
+   ],
+   "methodIds": [
+    "la.method.completing_square"
+   ],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2023.22",
+   "number": 22,
+   "title": "2023 年数学一 第 22 题",
+   "questionText": "(本题满分12分)\n\n设二维随机变量（XY）的概率密度为\n\n$$f(x,y)=\\left\\{\\begin{aligned}&\\frac{2}{\\pi}(x^{2}+y^{2}),x^{2}+y^{2}\\leq1\\\\&0\\quad\\quad\\quad\\quad\\quad, 其它 \\end{aligned}\\right.$$\n\n(1)求x与Y的方差；\n\n(I)求X与Y是否相互独立；\n\n(i)求$Z=X^{2}+Y^{2}$ 的概率密度.\n\n【解析】(1)$E(X)=\\iint_{D}x\\frac{2}{\\pi}\\left(x^{2}+y^{2}\\right)d\\sigma=0;$\n\n$$\\begin{aligned}E\\left(X^{2}\\right)&=\\iint_{D}x^{2}\\frac{2}{\\pi}\\left(x^{2}+y^{2}\\right)d\\sigma=4\\iint_{D_{1}}x^{2}\\frac{2}{\\pi}\\left(x^{2}+y^{2}\\right)d\\sigma\\\\&=\\frac{4}{\\pi}\\iint_{D_{1}}\\left(x^{2}+y^{2}\\right)^{2}d\\sigma\\\\&=\\frac{4}{\\pi}\\int_{0}^{\\frac{\\pi}{2}}d\\theta\\int_{0}^{1}r^{5}d r=\\frac{1}{3}.\\end{aligned}$$\n\n所以$D(X)=\\frac{1}{3}$\n\n同理，得$D(Y)=\\frac{1}{3}$\n\n(11)\n\n$$f_{X}(x)=\\left\\{\\begin{aligned}&\\int_{-\\sqrt{1-x^{2}}}^{\\sqrt{1-x^{2}}}\\frac{2}{\\pi}(x^{2}+y^{2})dy,&-1<x<1\\\\&0,& 其他 \\end{aligned}\\right.$$\n\n同理，得：$f_{Y}(y)=\\left\\{\\begin{aligned}&\\frac{4}{3\\pi}(1+2y^{2})\\sqrt{1-y^{2}},&-1<y<1\\\\&0,& 其他 \\end{aligned}\\right.$\n\n因为，$f_{X}(x)f_{Y}(y)\\neq f(x,y)$ ,所以x与Y不相互独立.\n\n(1I1)$F_{Z}(z)=P\\{Z\\leq z\\}=P\\{X^{2}+Y^{2}\\leq z\\}$\n\n当$z<0$ 时，$F_{Z}(z)=0$\n\n当$0\\leq z<1$ 时，$F_{Z}(z)=\\iint_{D_{1}}\\frac{2}{\\pi}\\left(x^{2}+y^{2}\\right)d\\sigma=\\frac{2}{\\pi}\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\sqrt{z}}r^{3}dr=z^{2}$\n\n当$z\\geq1$ 时，$F_{Z}(z)=1$\n\n所以，Z的概率密度为$f_{Z}(z)=\\left\\{\\begin{aligned}&2z,&0<z<1\\\\ &0,& 其他 \\end{aligned}\\right.$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.random_variables_independence",
+    "prob.knowledge.probability_properties",
+    "prob.knowledge.variance"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2023,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "解答题"
+  }
+ ],
+ "notes": ""
 }
