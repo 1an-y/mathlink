@@ -1,0 +1,442 @@
+{
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2026,
+ "paper": "math3",
+ "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/shu3-2026-sol.md",
+ "paperInfo": {
+  "year": 2026,
+  "paper": "math3",
+  "label": "数学三",
+  "sections": [],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m3-2026.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m3-2026.6",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m3-2026.7",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m3-2026.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m3-2026.10",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m3-2026.12",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m3-2026.13",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m3-2026.14",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m3-2026.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m3-2026.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m3-2026.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m3-2026.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   }
+  ],
+  "total": 12
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m3-2026.1",
+   "number": 1,
+   "title": "2026 年数学三 第 1 题",
+   "questionText": "曲线$y=x e^{\\frac{1}{x}}$ （)\n\n(A)无水平渐近线，无铅直渐近线；（B）有水平渐近线，有铅直渐近线\n\n(C)无水平渐近线，有铅直渐近线；(D）有水平渐近线，无铅直渐近线",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "asymptote"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.6",
+   "number": 6,
+   "title": "2026 年数学三 第 6 题",
+   "questionText": "设A是3阶非零矩阵，$A^{*}$ 为A的伴随矩阵，若$\\dot{}A^{*}=-2A,\\  则 \\ A^{2}=\\text{1}\\text{2}\\text{3}\\text{4}$\n\n$$\\mathsf{A})\\left(\\begin{matrix}{-4}&{0}&{0}\\\\ {0}&{-4}&{0}\\\\ {0}&{0}&{-4}\\end{matrix}\\right),\\quad\\mathsf{(B)}\\quad\\left(\\begin{matrix}{-4}&{0}&{0}\\\\ {0}&{-4}&{0}\\\\ {0}&{0}&{4}\\end{matrix}\\right),\\quad\\mathsf{(}C)\\quad\\left(\\begin{matrix}{-4}&{0}&{0}\\\\ {0}&{4}&{0}\\\\ {0}&{0}&{4}\\end{matrix}\\right),\\quad\\mathsf{(D)}\\quad\\left(\\begin{matrix}{4}&{0}&{0}\\\\ {0}&{4}&{0}\\\\ {0}&{0}&{4}\\end{matrix}\\right)$$\n\n研",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.adjoint_matrix",
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 6
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.7",
+   "number": 7,
+   "title": "2026 年数学三 第 7 题",
+   "questionText": "设三阶矩阵A，B，满足$AB+BA=A^{2}+B^{2}$ ，且$.A\\neq B$ ，则下列结论错误的是（）\n\n(A)$\\left(\\boldsymbol{A}-\\boldsymbol{B}\\right)^{3}=0;$ (B)$(A-B)$ 只有零特征值；\n\n(C)A，B不能都是对角阵；(D）A-B只有一个线性无关的特征向量",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 7
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.9",
+   "number": 9,
+   "title": "2026 年数学三 第 9 题",
+   "questionText": "设随机变量$X{\\sim}N(0,1)$ ，随机变量$\\Upsilon{\\sim}B\\left(2,{\\frac{1}{2}}\\right)$ ,且X,Y相互独立，则XY与$X+Y$ 的相关系数为(）\n\nA $\\frac{\\sqrt{6}}{3}$ (B)$\\frac{\\sqrt{2}}{2}$ (C)$\\frac{2}{3}$ (D)$\\frac{1}{2}$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.10",
+   "number": 10,
+   "title": "2026 年数学三 第 10 题",
+   "questionText": "设随机变量X的概率分布为$P\\{X=k\\}={\\frac{1}{2^{k+1}}}+{\\frac{1}{3^{k+1}}}(k=1,2\\dots)$ ,则对于正整数$m,n$ 有\n\n$$\\begin{aligned}& 故 .\\;P\\{X>m+n|X>m\\}=P\\{X>m\\},&B.\\;P\\{X>m+n|X>m\\}=P\\{X>n\\},\\\\ \\end{aligned}$$\n\nC $\\begin{aligned}&\\text{:}\\mathrm{P}\\{X>m+n|X>m\\}>P\\{X>m\\},\\quad D.P\\{X>m+n|X>m\\}>P\\{X>n\\}\\end{aligned}$\n\n$$C \\begin{aligned}&\\text{:}\\mathrm{P}\\{X>m+n|X>m\\}>P\\{X>m\\},\\quad D.P\\{X>m+n|X>m\\}>P\\{X>n\\}\\end{aligned}$$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 10
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.12",
+   "number": 12,
+   "title": "2026 年数学三 第 12 题",
+   "questionText": "求$\\lim_{x\\to0}\\frac{1}{x}\\left(\\frac{\\sqrt{1+x^2}}{\\sin x}-\\frac{1}{\\tan x}\\right)=\\frac{1}{\\sqrt{1+x^2}}$\n\n$$\\frac{1}{x}\\left(\\frac{\\sqrt{1+x^{2}}-cos x}{\\sin x}\\right)=\\lim_{x\\rightarrow0}\\left(\\frac{\\sqrt{1+x^{2}}-1+1-cos x}{x^{2}}\\right)=\\lim_{x\\rightarrow0}\\frac{\\sqrt{1+x^{2}}-1}{x^{2}}+\\lim_{x\\rightarrow0}\\frac{1-cos x}{x^{2}}维考价$$\n\n维考价\n\n注：求极限时及时化简，在利用等价代换或者洛必达，泰勒展开",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [
+    "taylor_expansion",
+    "lhopital_rule"
+   ],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.13",
+   "number": 13,
+   "title": "2026 年数学三 第 13 题",
+   "questionText": "设p为常数，若反常积分$\\int_{0}^{+\\infty}\\frac{arctan x}{x^{p}(x+1)}dx$ 收敛，则p的取值范围：",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 13
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.14",
+   "number": 14,
+   "title": "2026 年数学三 第 14 题",
+   "questionText": "微分方程$y''-2y'=e^{x}$ 满足条件$y(0)=1,y^{\\prime}(0)=1$ 的解为$y=\\_\\_$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 14
+   },
+   "subjectGuess": "probability_statistics",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.15",
+   "number": 15,
+   "title": "2026 年数学三 第 15 题",
+   "questionText": "设矩阵$A=\\binom{1\\quad b\\quad-1}{a+2\\quad3\\quad-3a}$ 若二次型$x^{\\tau}(A A^{\\pi})$ $x的规范形为$y^{}则$a+b=$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.16",
+   "number": 16,
+   "title": "2026 年数学三 第 16 题",
+   "questionText": "设随机变量X服从参数为1的泊松分布，随机变量Y服从参数为3的泊松分布，X与$(Y-X)$ 相互独立，则$E(X Y)=$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.17",
+   "number": 17,
+   "title": "2026 年数学三 第 17 题",
+   "questionText": "已知函数 f(x)满足$\\begin{array}{r}{f(x)=\\frac{1}{(2-x)^{2}}-\\int_{0}^{1}f(x)d x,}\\end{array}$ ，将f(x)展开成x的幂级数。",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": ""
+  },
+  {
+   "id": "bank.exam.m3-2026.20",
+   "number": 20,
+   "title": "2026 年数学三 第 20 题",
+   "questionText": "(12分)已知平面区域$D=\\{(x,y)|0\\leq x\\leq1,0\\leq y\\leq1\\},$ ,计算$\\iint_{D}^{}\\frac{y}{(1+x^{2}+y^{2})^{\\frac{3}{2}}}dxdy$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math3",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": ""
+  }
+ ],
+ "notes": "部分卷：经维来源 PDF 仅含 22 题中的 12 题（缺 2-5、8、11、18、19、21、22），待补全源后重建；答案未收录，待校对"
+}

@@ -572,5 +572,12 @@
   "total": 22,
   "withAnswer": 22,
   "file": "data/banks/exams/math3/2024.json"
+ },
+ {
+  "year": 2026,
+  "paper": "math3",
+  "total": 12,
+  "withAnswer": 0,
+  "file": "data/banks/exams/math3/2026.json"
  }
 ]

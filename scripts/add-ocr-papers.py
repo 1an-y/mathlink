@@ -20,9 +20,9 @@ beb = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(beb)
 
 OUT = ROOT / "data/banks/exams"
-MARKER = re.compile(r"^#{0,6}\s*[(（](\d{1,2})[)）]|^#{0,6}\s*[ \t]*(\d{1,2})\s*[.、．]\s*", re.M)
+MARKER = re.compile(r"^#{0,6}\s*[(（](\d{1,2})[)）]|^#{0,6}\s*[ \t]*(\d{1,2})\s*[.、．，]\s*", re.M)
 SECTION = re.compile(r"^#{1,6}\s*[一二三四五六七八九十]、\s*([^\n：:（(]*)", re.M)
-PAGE_MARK = re.compile(r"<!--\s*page\s+\d+\s*-->\n?")
+PAGE_MARK = re.compile(r"[ \t]*<!--\s*page\s+\d+\s*-->[ \t]*\n?")
 
 
 def parse_ocr_paper(path: Path, paper: str) -> dict:
@@ -66,6 +66,8 @@ def parse_ocr_paper(path: Path, paper: str) -> dict:
         ans_m = re.search(r"【答案】\s*(.+?)\s*(?:\n|$)", chunk)
         answer = ans_m.group(1).strip() if ans_m else ""
         question = re.split(r"【答案】", chunk)[0].strip()
+        # 经维等格式解析内联无【答案】标记：切掉解析部分，只收题干（版权红线）
+        question = re.split(r"\n\s*解析[：:]", question)[0].strip()
         question = re.sub(r"\n{3,}", "\n\n", question)
         problems.append({
             "number": n, "question": question, "answer": answer,
