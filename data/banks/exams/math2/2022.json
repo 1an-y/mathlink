@@ -1,810 +1,833 @@
 {
- "format": "mathlink-bank",
- "version": 1,
- "subject": "exam_mixed",
- "year": 2022,
- "paper": "math2",
- "license": "公开试题重排转录，解析为来源社区整理，校对后仅保留题干与客观答案",
- "verified": false,
- "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2022-2.md",
- "paperInfo": {
+  "format": "mathlink-bank",
+  "version": 1,
+  "subject": "exam_mixed",
   "year": 2022,
   "paper": "math2",
-  "label": "数学二",
-  "sections": [
-   "一、选择题",
-   "二、填空题",
-   "三、解答题"
-  ],
-  "problemsOrder": [
-   {
-    "number": 1,
-    "id": "bank.exam.m2-2022.1",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 2,
-    "id": "bank.exam.m2-2022.2",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 3,
-    "id": "bank.exam.m2-2022.3",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 4,
-    "id": "bank.exam.m2-2022.4",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 5,
-    "id": "bank.exam.m2-2022.5",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 6,
-    "id": "bank.exam.m2-2022.6",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 7,
-    "id": "bank.exam.m2-2022.7",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 8,
-    "id": "bank.exam.m2-2022.8",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 9,
-    "id": "bank.exam.m2-2022.9",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 10,
-    "id": "bank.exam.m2-2022.10",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 11,
-    "id": "bank.exam.m2-2022.11",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 12,
-    "id": "bank.exam.m2-2022.12",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 13,
-    "id": "bank.exam.m2-2022.13",
-    "subjectGuess": "calculus",
-    "objective": true
-   },
-   {
-    "number": 14,
-    "id": "bank.exam.m2-2022.14",
-    "subjectGuess": "linear_algebra",
-    "objective": true
-   },
-   {
-    "number": 15,
-    "id": "bank.exam.m2-2022.15",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 16,
-    "id": "bank.exam.m2-2022.16",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 17,
-    "id": "bank.exam.m2-2022.17",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 18,
-    "id": "bank.exam.m2-2022.18",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 19,
-    "id": "bank.exam.m2-2022.19",
-    "subjectGuess": "calculus",
-    "objective": false
-   },
-   {
-    "number": 20,
-    "id": "bank.exam.m2-2022.20",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 21,
-    "id": "bank.exam.m2-2022.21",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   },
-   {
-    "number": 22,
-    "id": "bank.exam.m2-2022.22",
-    "subjectGuess": "linear_algebra",
-    "objective": false
-   }
-  ],
-  "total": 22
- },
- "problems": [
-  {
-   "id": "bank.exam.m2-2022.1",
-   "number": 1,
-   "title": "2022 年数学二 第 1 题",
-   "questionText": "若当 $x \\to 0$ 时，$a\\left( x \\right), \\beta\\left( x \\right)$ 是非零无穷小量，则以下的命题中，\n① 若 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$，则 $a^{2}\\left( x \\right) \\sim \\beta^{2}\\left( x \\right)$；\n\n② 若 $a^{2}\\left( x \\right) \\sim \\beta^{2}\\left( x \\right)$，则 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$；\n\n③ 若 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$，则 $a\\left( x \\right) - \\beta\\left( x \\right) = o\\left( a\\left( x \\right) \\right)$；\n\n④ 若 $a\\left( x \\right) - \\beta\\left( x \\right) = o\\left( a\\left( x \\right) \\right)$，则 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$，\n\n真命题的序号为 $\\left( \\ \\right)$\n\n- **A.** $①③$\n- **B.** $①④$\n- **C.** $①③④$\n- **D.** $②③④$\n\n**解析：** ①平方后仍等价；②取 $a(x)=-\\beta(x)$ 即可否定；③由 $\\frac{a-\\beta}{a}=1-\\frac{\\beta}{a}\\to0$；④由 $\\frac{\\beta}{a}=1-\\frac{a-\\beta}{a}\\to1$.故真命题为 ①③④.",
-   "answerText": "$\\mathrm{C}$\n\n**解析：**\n①平方后仍等价；②取 $a(x)=-\\beta(x)$ 即可否定；③由 $\\frac{a-\\beta}{a}=1-\\frac{\\beta}{a}\\to0$；④由 $\\frac{\\beta}{a}=1-\\frac{a-\\beta}{a}\\to1$.故真命题为 ①③④.\n\n**答案：** $\\mathrm{C}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "infinite_and_infinitesimal"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
+  "license": "公开试题转录（题干以公开真题为准）；解析为原创重写，仅保留客观答案",
+  "verified": true,
+  "source": "/home/ros/Projects/mathapp-sources/kysx2-zt/考研数二真题-※-刷题版/2022-2.md",
+  "paperInfo": {
     "year": 2022,
     "paper": "math2",
-    "number": 1
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
+    "label": "数学二",
+    "sections": [
+      "一、选择题",
+      "二、填空题",
+      "三、解答题"
+    ],
+    "problemsOrder": [
+      {
+        "number": 1,
+        "id": "bank.exam.m2-2022.1",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 2,
+        "id": "bank.exam.m2-2022.2",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 3,
+        "id": "bank.exam.m2-2022.3",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 4,
+        "id": "bank.exam.m2-2022.4",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 5,
+        "id": "bank.exam.m2-2022.5",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 6,
+        "id": "bank.exam.m2-2022.6",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 7,
+        "id": "bank.exam.m2-2022.7",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 8,
+        "id": "bank.exam.m2-2022.8",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 9,
+        "id": "bank.exam.m2-2022.9",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 10,
+        "id": "bank.exam.m2-2022.10",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 11,
+        "id": "bank.exam.m2-2022.11",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 12,
+        "id": "bank.exam.m2-2022.12",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 13,
+        "id": "bank.exam.m2-2022.13",
+        "subjectGuess": "calculus",
+        "objective": true
+      },
+      {
+        "number": 14,
+        "id": "bank.exam.m2-2022.14",
+        "subjectGuess": "linear_algebra",
+        "objective": true
+      },
+      {
+        "number": 15,
+        "id": "bank.exam.m2-2022.15",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 16,
+        "id": "bank.exam.m2-2022.16",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 17,
+        "id": "bank.exam.m2-2022.17",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 18,
+        "id": "bank.exam.m2-2022.18",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 19,
+        "id": "bank.exam.m2-2022.19",
+        "subjectGuess": "calculus",
+        "objective": false
+      },
+      {
+        "number": 20,
+        "id": "bank.exam.m2-2022.20",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 21,
+        "id": "bank.exam.m2-2022.21",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      },
+      {
+        "number": 22,
+        "id": "bank.exam.m2-2022.22",
+        "subjectGuess": "linear_algebra",
+        "objective": false
+      }
+    ],
+    "total": 22
   },
-  {
-   "id": "bank.exam.m2-2022.2",
-   "number": 2,
-   "title": "2022 年数学二 第 2 题",
-   "questionText": "$\\int_{0}^{2} \\mathrm{d}y \\int_{y}^{2} \\frac{y}{\\sqrt{\\left( 1 + x^{3} \\right)}} \\mathrm{~d}x = \\left( \\ \\right)$\n- **A.** $\\frac{\\sqrt{2}}{6}$\n- **B.** $\\frac{1}{3}$\n- **C.** $\\frac{\\sqrt{2}}{3}$\n- **D.** $\\frac{2}{3}$\n\n**解析：** 区域为 $0\\le y\\le x\\le2$，交换积分次序得\n\n$$\n\\int_0^2 \\mathrm{d}y \\int_y^2 \\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}x\n=\\int_0^2 \\mathrm{d}x \\int_0^x \\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}y\n=\\frac12\\int_0^2 \\frac{x^2}{\\sqrt{1+x^3}}\\,\\mathrm{d}x.\n$$\n\n再令 $u=1+x^3$，可得结果为 $\\frac23$.",
-   "answerText": "$\\mathrm{D}$\n\n**解析：**\n区域为 $0\\le y\\le x\\le2$，交换积分次序得\n\n$$\n\\int_0^2 \\mathrm{d}y \\int_y^2 \\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}x\n=\\int_0^2 \\mathrm{d}x \\int_0^x \\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}y\n=\\frac12\\int_0^2 \\frac{x^2}{\\sqrt{1+x^3}}\\,\\mathrm{d}x.\n$$\n\n再令 $u=1+x^3$，可得结果为 $\\frac23$.\n\n**答案：** $\\mathrm{D}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 2
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.3",
-   "number": 3,
-   "title": "2022 年数学二 第 3 题",
-   "questionText": "设 $f\\left( x \\right)$ 在 $x = x_{0}$ 处有二阶导数，则 $\\left( \\ \\right)$\n- **A.** 当 $f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内单调增加时，$f^{\\prime}\\left( x_{0} \\right) > 0$\n- **B.** 当 $f^{\\prime}\\left( x_{0} \\right) > 0$ 时，$f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内单调增加\n- **C.** 当 $f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内是凹函数时，$f^{\\prime\\prime}\\left( x_{0} \\right) > 0$\n- **D.** 当 $f^{\\prime\\prime}\\left( x_{0} \\right) > 0$ 时，$f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内是凹函数\n\n**解析：** $\\mathrm{B}$ 正确.$\\mathrm{A}$ 可取 $f(x)=x^3$ 在 $x_0=0$；$\\mathrm{C}$ 可取常数函数；$\\mathrm{D}$ 中 $f''(x_0)>0$ 表示局部为凸而非凹.",
-   "answerText": "$\\mathrm{B}$\n\n**解析：**\n$\\mathrm{B}$ 正确.$\\mathrm{A}$ 可取 $f(x)=x^3$ 在 $x_0=0$；$\\mathrm{C}$ 可取常数函数；$\\mathrm{D}$ 中 $f''(x_0)>0$ 表示局部为凸而非凹.\n\n**答案：** $\\mathrm{B}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 3
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.4",
-   "number": 4,
-   "title": "2022 年数学二 第 4 题",
-   "questionText": "已知 $f\\left( t \\right)$ 连续，令\n$F\\left( x,y \\right) = \\int_{0}^{x-y} \\left( x - y - t \\right) f\\left( t \\right) \\mathrm{~d}t$\n\n则 $\\left( \\ \\right)$\n\n- **A.** $\\frac{\\partial F}{\\partial x} = \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = \\frac{\\partial^{2}F}{\\partial y^{2}}$\n- **B.** $\\frac{\\partial F}{\\partial x} = \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = - \\frac{\\partial^{2}F}{\\partial y^{2}}$\n- **C.** $\\frac{\\partial F}{\\partial x} = - \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = \\frac{\\partial^{2}F}{\\partial y^{2}}$\n- **D.** $\\frac{\\partial F}{\\partial x} = - \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = - \\frac{\\partial^{2}F}{\\partial y^{2}}$\n\n**解析：** 设 $s=x-y$，则\n\n$$\nF(x,y)=\\int_0^s (s-t)f(t)\\,\\mathrm{d}t,\n$$\n\n故 $F$ 只通过 $s=x-y$ 依赖于 $x,y$.于是\n\n$$\n\\frac{\\partial F}{\\partial x}=F_s,\\qquad \\frac{\\partial F}{\\partial y}=-F_s,\n$$\n\n再求一次偏导得\n\n$$\n\\frac{\\partial^2 F}{\\partial x^2}=\\frac{\\partial^2 F}{\\partial y^2}=f(x-y).\n$$",
-   "answerText": "$\\mathrm{C}$\n\n**解析：**\n设 $s=x-y$，则\n\n$$\nF(x,y)=\\int_0^s (s-t)f(t)\\,\\mathrm{d}t,\n$$\n\n故 $F$ 只通过 $s=x-y$ 依赖于 $x,y$.于是\n\n$$\n\\frac{\\partial F}{\\partial x}=F_s,\\qquad \\frac{\\partial F}{\\partial y}=-F_s,\n$$\n\n再求一次偏导得\n\n$$\n\\frac{\\partial^2 F}{\\partial x^2}=\\frac{\\partial^2 F}{\\partial y^2}=f(x-y).\n$$\n\n**答案：** $\\mathrm{C}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multivariable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "multivariable_limit_continuity",
-    "continuity_partial_differentiability"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 4
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.5",
-   "number": 5,
-   "title": "2022 年数学二 第 5 题",
-   "questionText": "设 $p$ 为常数，若反常积分\n$\\int_{0}^{1} \\frac{\\ln x}{x^{p}\\left( 1-x \\right)^{1-p}} \\mathrm{~d}x$\n\n收敛，则 $p$ 的取值范围是 $\\left( \\ \\right)$\n\n- **A.** $\\left( -1,1 \\right)$\n- **B.** $\\left( -1,2 \\right)$\n- **C.** $\\left( -\\infty,1 \\right)$\n- **D.** $\\left( -\\infty,2 \\right)$\n\n**解析：** 在 $x=0$ 附近，被积函数同阶于 $\\frac{\\ln x}{x^p}$，收敛条件为 $p<1$；在 $x=1$ 附近，$\\ln x\\sim-(1-x)$，故被积函数同阶于 $-(1-x)^p$，收敛条件为 $p>-1$.综上 $-1<p<1$.",
-   "answerText": "$\\mathrm{A}$\n\n**解析：**\n在 $x=0$ 附近，被积函数同阶于 $\\frac{\\ln x}{x^p}$，收敛条件为 $p<1$；在 $x=1$ 附近，$\\ln x\\sim-(1-x)$，故被积函数同阶于 $-(1-x)^p$，收敛条件为 $p>-1$.综上 $-1<p<1$.\n\n**答案：** $\\mathrm{A}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 5
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.6",
-   "number": 6,
-   "title": "2022 年数学二 第 6 题",
-   "questionText": "设数列 $\\left\\{ x_{n} \\right\\}$ 满足 $- \\frac{\\pi}{2} \\le x_{n} \\le \\frac{\\pi}{2}$，则 $\\left( \\ \\right)$\n- **A.** 若 $\\lim_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} x_{n}$ 存在\n- **B.** 若 $\\lim_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} x_{n}$ 存在\n- **C.** 若 $\\lim_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} \\sin x_{n}$ 存在，但 $\\lim_{n \\to \\infty} x_{n}$ 不一定存在\n- **D.** 若 $\\lim_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} \\cos x_{n}$ 存在，但 $\\lim_{n \\to \\infty} x_{n}$ 不一定存在\n\n**解析：** 因 $\\cos x_n\\in[0,1]$，且 $\\sin x$ 在 $[0,1]$ 上严格单调，所以若 $\\sin(\\cos x_n)$ 有极限，则 $\\cos x_n$ 必有极限.但 $x_n$ 未必收敛，例如 $x_n=(-1)^n\\frac\\pi2$.故选 $\\mathrm{D}$.",
-   "answerText": "$\\mathrm{D}$\n\n**解析：**\n因 $\\cos x_n\\in[0,1]$，且 $\\sin x$ 在 $[0,1]$ 上严格单调，所以若 $\\sin(\\cos x_n)$ 有极限，则 $\\cos x_n$ 必有极限.但 $x_n$ 未必收敛，例如 $x_n=(-1)^n\\frac\\pi2$.故选 $\\mathrm{D}$.\n\n**答案：** $\\mathrm{D}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 6
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.7",
-   "number": 7,
-   "title": "2022 年数学二 第 7 题",
-   "questionText": "若\n$I_{1} = \\int_{0}^{1} \\frac{x}{2\\left( 1 + \\cos x \\right)} \\mathrm{~d}x,\\quad I_{2} = \\int_{0}^{1} \\frac{\\ln\\left( 1 + x \\right)}{1 + \\cos x} \\mathrm{~d}x,\\quad I_{3} = \\int_{0}^{1} \\frac{2x}{1 + \\sin x} \\mathrm{~d}x$\n\n则 $\\left( \\ \\right)$\n\n- **A.** $I_{1} < I_{2} < I_{3}$\n- **B.** $I_{2} < I_{1} < I_{3}$\n- **C.** $I_{1} < I_{3} < I_{2}$\n- **D.** $I_{3} < I_{2} < I_{1}$\n\n**解析：** 先证 $\\ln(1+x)>\\frac x2\\ (0<x<1)$，故 $I_2>I_1$.又有 $\\ln(1+x)<x$，且 $1+\\cos x>1$、$1+\\sin x<2$，于是\n\n$$\n\\frac{\\ln(1+x)}{1+\\cos x}<x<\\frac{2x}{1+\\sin x},\n$$\n\n故 $I_2<I_3$.因此 $I_1<I_2<I_3$.",
-   "answerText": "$\\mathrm{A}$\n\n**解析：**\n先证 $\\ln(1+x)>\\frac x2\\ (0<x<1)$，故 $I_2>I_1$.又有 $\\ln(1+x)<x$，且 $1+\\cos x>1$、$1+\\sin x<2$，于是\n\n$$\n\\frac{\\ln(1+x)}{1+\\cos x}<x<\\frac{2x}{1+\\sin x},\n$$\n\n故 $I_2<I_3$.因此 $I_1<I_2<I_3$.\n\n**答案：** $\\mathrm{A}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 7
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.8",
-   "number": 8,
-   "title": "2022 年数学二 第 8 题",
-   "questionText": "设矩阵\n$\\boldsymbol{A} = \\left( \\begin{array}{ccc} 1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & 0 \\end{array} \\right)$\n\n则 $\\boldsymbol{A}$ 的特征值为 $1,-1,0$ 的充分必要条件是 $\\left( \\ \\right)$\n\n- **A.** 存在可逆矩阵 $\\boldsymbol{P}, \\boldsymbol{Q}$，使得 $\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{Q}$\n- **B.** 存在可逆矩阵 $\\boldsymbol{P}$，使得 $\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{P}^{-1}$\n- **C.** 存在正交矩阵 $\\boldsymbol{Q}$，使得 $\\boldsymbol{A} = \\boldsymbol{Q}\\boldsymbol{\\Lambda}\\boldsymbol{Q}^{-1}$\n- **D.** 存在可逆矩阵 $\\boldsymbol{P}$，使得 $\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{P}^{T}$\n\n**解析：** 矩阵的特征值为 $1,-1,0$ 当且仅当它与 $\\Lambda=\\operatorname{diag}(1,-1,0)$ 相似，即存在可逆矩阵 $P$ 使\n\n$$\nA=P\\Lambda P^{-1}.\n$$",
-   "answerText": "$\\mathrm{B}$\n\n**解析：**\n矩阵的特征值为 $1,-1,0$ 当且仅当它与 $\\Lambda=\\operatorname{diag}(1,-1,0)$ 相似，即存在可逆矩阵 $P$ 使\n\n$$\nA=P\\Lambda P^{-1}.\n$$\n\n**答案：** $\\mathrm{B}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.invertibility_criteria",
-    "la.knowledge.inverse_matrix",
-    "la.knowledge.orthogonal_matrix"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 8
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.9",
-   "number": 9,
-   "title": "2022 年数学二 第 9 题",
-   "questionText": "设矩阵\n$\\boldsymbol{A} = \\left( \\begin{array}{ccc} 1 & 1 & 1 \\\\ 1 & a & a^{2} \\\\ 1 & b & b^{2} \\end{array} \\right),\\quad \\boldsymbol{b} = \\left( \\begin{array}{c} 1 \\\\ 2 \\\\ 4 \\end{array} \\right)$\n\n则线性方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{b}$ 的解的情况为 $\\left( \\ \\right)$\n\n- **A.** 无解\n- **B.** 有解\n- **C.** 有无穷多解或无解\n- **D.** 有唯一解或无解\n\n**解析：** 当 $\\det A=(a-1)(b-1)(b-a)\\ne0$ 时，方程组有唯一解；当行列式为 0 时，逐一讨论可知增广矩阵的秩大于系数矩阵的秩，因此无解.所以只可能“有唯一解或无解”.",
-   "answerText": "$\\mathrm{D}$\n\n**解析：**\n当 $\\det A=(a-1)(b-1)(b-a)\\ne0$ 时，方程组有唯一解；当行列式为 0 时，逐一讨论可知增广矩阵的秩大于系数矩阵的秩，因此无解.所以只可能“有唯一解或无解”.\n\n**答案：** $\\mathrm{D}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 9
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.10",
-   "number": 10,
-   "title": "2022 年数学二 第 10 题",
-   "questionText": "设\n$\\boldsymbol{a}_{1} = \\left( \\begin{array}{c} \\lambda \\\\ 1 \\\\ 1 \\end{array} \\right),\\quad \\boldsymbol{a}_{2} = \\left( \\begin{array}{c} 1 \\\\ \\lambda \\\\ 1 \\end{array} \\right),\\quad \\boldsymbol{a}_{3} = \\left( \\begin{array}{c} 1 \\\\ 1 \\\\ \\lambda \\end{array} \\right),\\quad \\boldsymbol{a}_{4} = \\left( \\begin{array}{c} 1 \\\\ \\lambda \\\\ \\lambda^{2} \\end{array} \\right)$\n\n若 $\\boldsymbol{a}_{1}, \\boldsymbol{a}_{2}, \\boldsymbol{a}_{3}$ 与 $\\boldsymbol{a}_{1}, \\boldsymbol{a}_{2}, \\boldsymbol{a}_{4}$ 等价，则 $\\lambda$ 的取值范围是 $\\left( \\ \\right)$\n\n- **A.** $\\left\\{ 0,1 \\right\\}$\n- **B.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -2 \\right\\}$\n- **C.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -1,\\ \\lambda \\ne -2 \\right\\}$\n- **D.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -1 \\right\\}$\n\n**解析：** 两组向量等价当且仅当秩相同.计算得\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{3})=(\\lambda-1)^2(\\lambda+2),\n$$\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{4})=(\\lambda-1)^2(\\lambda+1)^2.\n$$\n\n除 $\\lambda=-1,-2$ 外，两组秩相同；其中 $\\lambda=1$ 时两组秩同为 1，仍等价.故 $\\lambda\\ne-1,-2$.",
-   "answerText": "$\\mathrm{C}$\n\n**解析：**\n两组向量等价当且仅当秩相同.计算得\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{3})=(\\lambda-1)^2(\\lambda+2),\n$$\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{4})=(\\lambda-1)^2(\\lambda+1)^2.\n$$\n\n除 $\\lambda=-1,-2$ 外，两组秩相同；其中 $\\lambda=1$ 时两组秩同为 1，仍等价.故 $\\lambda\\ne-1,-2$.\n\n**答案：** $\\mathrm{C}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "vector_linear_operation"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 10
-   },
-   "subjectGuess": "calculus",
-   "section": "一、选择题"
-  },
-  {
-   "id": "bank.exam.m2-2022.11",
-   "number": 11,
-   "title": "2022 年数学二 第 11 题",
-   "questionText": "$\\lim_{x \\to 0} \\left( \\frac{1 + e^{x}}{2} \\right)^{\\cot x} = \\underline{\\hspace{4em}}$\n**解析：** 设极限为 $L$，取对数：\n\n$$\n\\ln L=\\lim_{x\\to0}\\cot x\\cdot\\ln\\left(\\frac{1+e^x}{2}\\right)=\\lim_{x\\to0}\\frac{\\ln\\left(\\frac{1+e^x}{2}\\right)}{\\tan x}.\n$$\n\n又 $\\ln\\left(\\frac{1+e^x}{2}\\right)\\sim \\frac x2$、$\\tan x\\sim x$，故 $\\ln L=\\frac12$，从而 $L=\\sqrt e$.",
-   "answerText": "$\\sqrt{e}$\n\n**解析：**\n设极限为 $L$，取对数：\n\n$$\n\\ln L=\\lim_{x\\to0}\\cot x\\cdot\\ln\\left(\\frac{1+e^x}{2}\\right)=\\lim_{x\\to0}\\frac{\\ln\\left(\\frac{1+e^x}{2}\\right)}{\\tan x}.\n$$\n\n又 $\\ln\\left(\\frac{1+e^x}{2}\\right)\\sim \\frac x2$、$\\tan x\\sim x$，故 $\\ln L=\\frac12$，从而 $L=\\sqrt e$.\n\n**答案：** $\\sqrt{e}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 11
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2022.12",
-   "number": 12,
-   "title": "2022 年数学二 第 12 题",
-   "questionText": "已知函数 $y = y\\left( x \\right)$ 由方程\n$x^{2} + xy + y^{3} = 3$\n\n确定，则 $y^{\\prime\\prime}\\left( 1 \\right) = \\underline{\\hspace{4em}}$\n\n**解析：** 先由 $1+y+y^3=3$ 得 $y(1)=1$.对方程 $x^2+xy+y^3=3$ 求导：\n\n$$\n2x+y+(x+3y^2)y'=0.\n$$\n\n代入 $(1,1)$ 得 $y'(1)=-\\frac34$.再求导并代入 $x=1,y=1,y'=-\\frac34$，解得 $y''(1)=-\\frac{31}{32}$.",
-   "answerText": "$- \\frac{31}{32}$\n\n**解析：**\n先由 $1+y+y^3=3$ 得 $y(1)=1$.对方程 $x^2+xy+y^3=3$ 求导：\n\n$$\n2x+y+(x+3y^2)y'=0.\n$$\n\n代入 $(1,1)$ 得 $y'(1)=-\\frac34$.再求导并代入 $x=1,y=1,y'=-\\frac34$，解得 $y''(1)=-\\frac{31}{32}$.\n\n**答案：** $- \\frac{31}{32}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "infinite_series",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 12
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2022.13",
-   "number": 13,
-   "title": "2022 年数学二 第 13 题",
-   "questionText": "$\\int_{0}^{1} \\frac{2x + 3}{x^{2} - x + 1} \\mathrm{~d}x = \\underline{\\hspace{4em}}$\n**解析：** 把分子拆成 $2x+3=(2x-1)+4$，并写成\n\n$$\nx^2-x+1=\\left(x-\\frac12\\right)^2+\\frac34.\n$$\n\n前一部分积分为 0，后一部分是反正切型积分，结果为 $\\frac{8\\sqrt3\\pi}{9}$.",
-   "answerText": "$\\frac{8\\sqrt{3}\\pi}{9}$\n\n**解析：**\n把分子拆成 $2x+3=(2x-1)+4$，并写成\n\n$$\nx^2-x+1=\\left(x-\\frac12\\right)^2+\\frac34.\n$$\n\n前一部分积分为 0，后一部分是反正切型积分，结果为 $\\frac{8\\sqrt3\\pi}{9}$.\n\n**答案：** $\\frac{8\\sqrt{3}\\pi}{9}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 13
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2022.14",
-   "number": 14,
-   "title": "2022 年数学二 第 14 题",
-   "questionText": "微分方程\n$y^{\\prime\\prime\\prime} - 2y^{\\prime\\prime} + 5y^{\\prime} = 0$\n\n的通解为 $y\\left( x \\right) = \\underline{\\hspace{10em}}$\n\n**解析：** 特征方程为 $r^3-2r^2+5r=0$，即 $r(r^2-2r+5)=0$，根为 $0,1\\pm2i$，故通解为\n\n$$\ny=C_1+e^x\\left(C_2\\cos2x+C_3\\sin2x\\right).\n$$",
-   "answerText": "$C_{1} + e^{x}\\left( C_{2}\\cos 2x + C_{3}\\sin 2x \\right)$\n\n**解析：**\n特征方程为 $r^3-2r^2+5r=0$，即 $r(r^2-2r+5)=0$，根为 $0,1\\pm2i$，故通解为\n\n$$\ny=C_1+e^x\\left(C_2\\cos2x+C_3\\sin2x\\right).\n$$\n\n**答案：** $C_{1} + e^{x}\\left( C_{2}\\cos 2x + C_{3}\\sin 2x \\right)$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.eigen_concept",
-    "la.knowledge.general_solution"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 14
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2022.15",
-   "number": 15,
-   "title": "2022 年数学二 第 15 题",
-   "questionText": "已知曲线 $L$ 的极坐标方程为\n$r = \\sin 3\\theta \\quad \\left( 0 \\le \\theta \\le \\frac{\\pi}{3} \\right)$\n\n则 $L$ 围成的有界区域的面积为 $\\underline{\\hspace{4em}}$\n\n**解析：** 由极坐标面积公式\n\n$$\nS=\\frac12\\int_0^{\\pi/3} r^2\\,\\mathrm{d}\\theta=\\frac12\\int_0^{\\pi/3}\\sin^2 3\\theta\\,\\mathrm{d}\\theta=\\frac{\\pi}{12}.\n$$",
-   "answerText": "$\\frac{\\pi}{12}$\n\n**解析：**\n由极坐标面积公式\n\n$$\nS=\\frac12\\int_0^{\\pi/3} r^2\\,\\mathrm{d}\\theta=\\frac12\\int_0^{\\pi/3}\\sin^2 3\\theta\\,\\mathrm{d}\\theta=\\frac{\\pi}{12}.\n$$\n\n**答案：** $\\frac{\\pi}{12}$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multiple_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "polar_coordinates",
-    "area_volume_arc"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 15
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2022.16",
-   "number": 16,
-   "title": "2022 年数学二 第 16 题",
-   "questionText": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，交换 $\\boldsymbol{A}$ 的第 $2$ 行和第 $3$ 行，再将第 $2$ 列的 $-1$ 倍加到第 $1$ 列，得到矩阵\n$\\left( \\begin{array}{ccc} -2 & 1 & -1 \\\\ 1 & -1 & 0 \\\\ -1 & 0 & 0 \\end{array} \\right)$\n\n则 $\\operatorname{tr}\\left( \\boldsymbol{A}^{-1} \\right) = \\underline{\\hspace{4em}}$\n\n**解析：** 记题设所得矩阵为 $B$，则 $B=P_1AP_2$，故\n\n$$\nA^{-1}=P_2B^{-1}P_1.\n$$\n\n计算可得\n\n$$\nA^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n$$\n\n因此 $\\operatorname{tr}(A^{-1})=-1$.",
-   "answerText": "$-1$\n\n**解析：**\n记题设所得矩阵为 $B$，则 $B=P_1AP_2$，故\n\n$$\nA^{-1}=P_2B^{-1}P_1.\n$$\n\n计算可得\n\n$$\nA^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n$$\n\n因此 $\\operatorname{tr}(A^{-1})=-1$.\n\n**答案：** $-1$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 16
-   },
-   "subjectGuess": "calculus",
-   "section": "二、填空题"
-  },
-  {
-   "id": "bank.exam.m2-2022.17",
-   "number": 17,
-   "title": "2022 年数学二 第 17 题",
-   "questionText": "已知函数 $f\\left( x \\right)$ 在 $x = 1$ 处可导，且\n$\\lim_{x \\to 0} \\frac{f\\left( e^{x^{2}} \\right) - 3f\\left( 1 + \\sin^{2}x \\right)}{x^{2}} = 2$\n\n求 $f^{\\prime}\\left( 1 \\right)$.\n\n**解析：** 极限存在先给出常数项满足 $f(1)-3f(1)=0$，故 $f(1)=0$.\n\n再由可导性得\n\n$$\n\\lim_{x\\to0}\\frac{f(e^{x^2})-f(1)}{x^2}=f'(1),\\qquad\n\\lim_{x\\to0}\\frac{f(1+\\sin^2x)-f(1)}{x^2}=f'(1).\n$$\n\n代回原式：\n\n$$\nf'(1)-3f'(1)=2,\n$$\n\n故 $f'(1)=-1$.\n\n---",
-   "answerText": "**解析：**\n极限存在先给出常数项满足 $f(1)-3f(1)=0$，故 $f(1)=0$.\n\n再由可导性得\n\n$$\n\\lim_{x\\to0}\\frac{f(e^{x^2})-f(1)}{x^2}=f'(1),\\qquad\n\\lim_{x\\to0}\\frac{f(1+\\sin^2x)-f(1)}{x^2}=f'(1).\n$$\n\n代回原式：\n\n$$\nf'(1)-3f'(1)=2,\n$$\n\n故 $f'(1)=-1$.\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "differentiability_continuity",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 17
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2022.18",
-   "number": 18,
-   "title": "2022 年数学二 第 18 题",
-   "questionText": "设函数 $y\\left( x \\right)$ 是微分方程\n$2x y^{\\prime} - 4y = 2\\ln x - 1$\n\n的满足条件\n\n$y\\left( 1 \\right) = \\frac{1}{4}$\n\n的解，求曲线 $y = y\\left( x \\right)$ 在 $\\left[ 1,e \\right]$ 上的弧长.\n\n**解析：** 化为线性方程\n\n$$\ny'-\\frac2x y=\\frac{2\\ln x-1}{2x},\n$$\n\n积分因子为 $x^{-2}$，解得\n\n$$\ny(x)=\\frac{x^2}{4}-\\frac12\\ln x.\n$$\n\n于是\n\n$$\ny'(x)=\\frac x2-\\frac{1}{2x},\\qquad\n1+(y')^2=\\left(\\frac x2+\\frac{1}{2x}\\right)^2.\n$$\n\n故弧长\n\n$$\ns=\\int_1^e\\left(\\frac x2+\\frac{1}{2x}\\right)\\,\\mathrm{d}x=\\frac{e^2+1}{4}.\n$$\n\n---",
-   "answerText": "**解析：**\n化为线性方程\n\n$$\ny'-\\frac2x y=\\frac{2\\ln x-1}{2x},\n$$\n\n积分因子为 $x^{-2}$，解得\n\n$$\ny(x)=\\frac{x^2}{4}-\\frac12\\ln x.\n$$\n\n于是\n\n$$\ny'(x)=\\frac x2-\\frac{1}{2x},\\qquad\n1+(y')^2=\\left(\\frac x2+\\frac{1}{2x}\\right)^2.\n$$\n\n故弧长\n\n$$\ns=\\int_1^e\\left(\\frac x2+\\frac{1}{2x}\\right)\\,\\mathrm{d}x=\\frac{e^2+1}{4}.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "one_variable_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "area_volume_arc",
-    "power_series_sum"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 18
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2022.19",
-   "number": 19,
-   "title": "2022 年数学二 第 19 题",
-   "questionText": "已知平面区域\n$D = \\left\\{ \\left( x,y \\right) \\mid y - 2 \\le x \\le \\sqrt{4 - y^{2}},\\ 0 \\le y \\le 2 \\right\\}$\n\n计算\n\n$I = \\iint_{D} \\frac{\\left( x-y \\right)^{2}}{x^{2} + y^{2}} \\mathrm{~d}x \\mathrm{~d}y$\n\n**解析：** 改用极坐标.区域边界为圆 $r=2$ 与直线 $x=y-2$，后者化为\n\n$$\nr=\\frac{2}{\\sin\\theta-\\cos\\theta}.\n$$\n\n又\n\n$$\n\\frac{(x-y)^2}{x^2+y^2}=(\\cos\\theta-\\sin\\theta)^2.\n$$\n\n按 $0\\le\\theta\\le\\frac\\pi2$ 与 $\\frac\\pi2\\le\\theta\\le\\pi$ 分段积分，得\n\n$$\nI=2\\int_0^{\\pi/2}(1-\\sin2\\theta)\\,\\mathrm{d}\\theta+2\\int_{\\pi/2}^{\\pi}\\mathrm{d}\\theta=2\\pi-2.\n$$\n\n---",
-   "answerText": "**解析：**\n改用极坐标.区域边界为圆 $r=2$ 与直线 $x=y-2$，后者化为\n\n$$\nr=\\frac{2}{\\sin\\theta-\\cos\\theta}.\n$$\n\n又\n\n$$\n\\frac{(x-y)^2}{x^2+y^2}=(\\cos\\theta-\\sin\\theta)^2.\n$$\n\n按 $0\\le\\theta\\le\\frac\\pi2$ 与 $\\frac\\pi2\\le\\theta\\le\\pi$ 分段积分，得\n\n$$\nI=2\\int_0^{\\pi/2}(1-\\sin2\\theta)\\,\\mathrm{d}\\theta+2\\int_{\\pi/2}^{\\pi}\\mathrm{d}\\theta=2\\pi-2.\n$$\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "multiple_integral",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "polar_coordinates"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 19
-   },
-   "subjectGuess": "calculus",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2022.20",
-   "number": 20,
-   "title": "2022 年数学二 第 20 题",
-   "questionText": "已知可微函数 $f\\left( u,v \\right)$ 满足\n$\\frac{\\partial f\\left( u,v \\right)}{\\partial u} - \\frac{\\partial f\\left( u,v \\right)}{\\partial v} = 2\\left( u-v \\right)e^{-\\left( u+v \\right)}$\n\n且\n\n$f\\left( u,0 \\right) = u^{2}e^{-u}$\n\n**（I）** 记 $g\\left( x,y \\right) = f\\left( x,y-x \\right)$，求 $\\frac{\\partial g\\left( x,y \\right)}{\\partial x}$；\n\n**（II）** 求 $f\\left( u,v \\right)$ 的表达式与极值.\n\n**解析：** 设 $g(x,y)=f(x,y-x)$.\n\n#### （I）\n\n由链式法则\n\n$$\n\\frac{\\partial g}{\\partial x}\n=\\frac{\\partial f}{\\partial u}-\\frac{\\partial f}{\\partial v}\n=2\\bigl(x-(y-x)\\bigr)e^{-y}=(4x-2y)e^{-y}.\n$$\n\n#### （II）\n\n对 $x$ 积分得\n\n$$\ng(x,y)=2x(x-y)e^{-y}+\\varphi(y).\n$$\n\n代入 $u=x,\\ v=y-x$，并利用 $f(u,0)=u^2e^{-u}$，可求得 $\\varphi(u)=u^2e^{-u}$，从而\n\n$$\nf(u,v)=(u^2+v^2)e^{-(u+v)}.\n$$\n\n再求偏导可得驻点为 $(0,0)$ 与 $(1,1)$；其中 $(0,0)$ 处取极小值 $0$，$(1,1)$ 不是极值点.\n\n---",
-   "answerText": "**解析：**\n设 $g(x,y)=f(x,y-x)$.\n\n#### （I）\n\n由链式法则\n\n$$\n\\frac{\\partial g}{\\partial x}\n=\\frac{\\partial f}{\\partial u}-\\frac{\\partial f}{\\partial v}\n=2\\bigl(x-(y-x)\\bigr)e^{-y}=(4x-2y)e^{-y}.\n$$\n\n#### （II）\n\n对 $x$ 积分得\n\n$$\ng(x,y)=2x(x-y)e^{-y}+\\varphi(y).\n$$\n\n代入 $u=x,\\ v=y-x$，并利用 $f(u,0)=u^2e^{-u}$，可求得 $\\varphi(u)=u^2e^{-u}$，从而\n\n$$\nf(u,v)=(u^2+v^2)e^{-(u+v)}.\n$$\n\n再求偏导可得驻点为 $(0,0)$ 与 $(1,1)$；其中 $(0,0)$ 处取极小值 $0$，$(1,1)$ 不是极值点.\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 20
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2022.21",
-   "number": 21,
-   "title": "2022 年数学二 第 21 题",
-   "questionText": "设函数 $f\\left( x \\right)$ 在 $\\left( -\\infty,+\\infty \\right)$ 上有二阶连续导数，证明：\n$f^{\\prime\\prime}\\left( x \\right) \\ge 0$\n\n的充分必要条件是对任意不同的实数 $a,b$，都有\n\n$f\\left( \\frac{a+b}{2} \\right) \\le \\frac{1}{b-a}\\int_{a}^{b} f\\left( x \\right) \\mathrm{~d}x$\n\n成立.\n\n**解析：** 记 $m=\\frac{a+b}{2}$.\n\n**必要性：** 若 $f''(x)\\ge0$，则 $f$ 为凸函数.在点 $m$ 处有\n\n$$\nf(x)\\ge f(m)+f'(m)(x-m)\\quad(x\\in[a,b]).\n$$\n\n两边在 $[a,b]$ 上积分，且 $\\int_a^b(x-m)\\,\\mathrm{d}x=0$，即得\n\n$$\nf\\left(\\frac{a+b}{2}\\right)\\le \\frac1{b-a}\\int_a^b f(x)\\,\\mathrm{d}x.\n$$\n\n**充分性：** 反设存在 $x_0$ 使 $f''(x_0)<0$.由连续性，存在邻域 $[a_0,b_0]$ 使 $f''<0$，即该区间上 $f$ 为凹函数，从而有\n\n$$\nf\\left(\\frac{a_0+b_0}{2}\\right)>\\frac1{b_0-a_0}\\int_{a_0}^{b_0} f(x)\\,\\mathrm{d}x,\n$$\n\n与题设矛盾.故 $f''(x)\\ge0$.\n\n---",
-   "answerText": "**解析：**\n记 $m=\\frac{a+b}{2}$.\n\n**必要性：** 若 $f''(x)\\ge0$，则 $f$ 为凸函数.在点 $m$ 处有\n\n$$\nf(x)\\ge f(m)+f'(m)(x-m)\\quad(x\\in[a,b]).\n$$\n\n两边在 $[a,b]$ 上积分，且 $\\int_a^b(x-m)\\,\\mathrm{d}x=0$，即得\n\n$$\nf\\left(\\frac{a+b}{2}\\right)\\le \\frac1{b-a}\\int_a^b f(x)\\,\\mathrm{d}x.\n$$\n\n**充分性：** 反设存在 $x_0$ 使 $f''(x_0)<0$.由连续性，存在邻域 $[a_0,b_0]$ 使 $f''<0$，即该区间上 $f$ 为凹函数，从而有\n\n$$\nf\\left(\\frac{a_0+b_0}{2}\\right)>\\frac1{b_0-a_0}\\int_{a_0}^{b_0} f(x)\\,\\mathrm{d}x,\n$$\n\n与题设矛盾.故 $f''(x)\\ge0$.\n\n---",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.invertibility_criteria"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 21
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  },
-  {
-   "id": "bank.exam.m2-2022.22",
-   "number": 22,
-   "title": "2022 年数学二 第 22 题",
-   "questionText": "已知二次型\n$f\\left( x_{1},x_{2},x_{3} \\right) = 3x_{1}^{2} + 4x_{2}^{2} + 3x_{3}^{2} + 2x_{1}x_{3}$\n\n**（I）** 求正交矩阵 $\\boldsymbol{Q}$，使正交变换 $\\boldsymbol{x} = \\boldsymbol{Q}\\boldsymbol{y}$ 将二次型 $f\\left( x_{1},x_{2},x_{3} \\right)$ 化为标准形；\n\n**（II）** 证明\n\n$\\min_{\\boldsymbol{x} \\ne \\boldsymbol{0}} \\frac{f\\left( \\boldsymbol{x} \\right)}{\\boldsymbol{x}^{T}\\boldsymbol{x}} = 2$\n\n**解析：** 二次型对应的对称矩阵为\n\n$$\nA=\\begin{pmatrix}3&0&1\\\\0&4&0\\\\1&0&3\\end{pmatrix}.\n$$\n\n其特征值为 $4,4,2$.可取一组标准正交特征向量\n\n$$\n\\xi_1=\\frac1{\\sqrt2}\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix},\\quad\n\\xi_2=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\quad\n\\xi_3=\\frac1{\\sqrt2}\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}.\n$$\n\n令\n\n$$\nQ=(\\xi_1,\\xi_2,\\xi_3)=\n\\begin{pmatrix}\n\\frac1{\\sqrt2}&0&-\\frac1{\\sqrt2}\\\\\n0&1&0\\\\\n\\frac1{\\sqrt2}&0&\\frac1{\\sqrt2}\n\\end{pmatrix},\n$$\n\n则\n\n$$\nQ^TAQ=\\operatorname{diag}(4,4,2),\n$$\n\n故标准形为 $4y_1^2+4y_2^2+2y_3^2$.又\n\n$$\n\\frac{f(x)}{x^Tx}=\\frac{4y_1^2+4y_2^2+2y_3^2}{y_1^2+y_2^2+y_3^2}\\ge2,\n$$\n\n当 $y_1=y_2=0,\\ y_3\\ne0$ 时取等号，因此最小值为 $2$.",
-   "answerText": "**解析：**\n二次型对应的对称矩阵为\n\n$$\nA=\\begin{pmatrix}3&0&1\\\\0&4&0\\\\1&0&3\\end{pmatrix}.\n$$\n\n其特征值为 $4,4,2$.可取一组标准正交特征向量\n\n$$\n\\xi_1=\\frac1{\\sqrt2}\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix},\\quad\n\\xi_2=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\quad\n\\xi_3=\\frac1{\\sqrt2}\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}.\n$$\n\n令\n\n$$\nQ=(\\xi_1,\\xi_2,\\xi_3)=\n\\begin{pmatrix}\n\\frac1{\\sqrt2}&0&-\\frac1{\\sqrt2}\\\\\n0&1&0\\\\\n\\frac1{\\sqrt2}&0&\\frac1{\\sqrt2}\n\\end{pmatrix},\n$$\n\n则\n\n$$\nQ^TAQ=\\operatorname{diag}(4,4,2),\n$$\n\n故标准形为 $4y_1^2+4y_2^2+2y_3^2$.又\n\n$$\n\\frac{f(x)}{x^Tx}=\\frac{4y_1^2+4y_2^2+2y_3^2}{y_1^2+y_2^2+y_3^2}\\ge2,\n$$\n\n当 $y_1=y_2=0,\\ y_3\\ne0$ 时取等号，因此最小值为 $2$.",
-   "questionImages": [],
-   "answerImages": [],
-   "primaryChapterId": "la.chapter.eigenvalues",
-   "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
-   "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [
-    "la.knowledge.symmetric_matrix",
-    "la.knowledge.orthogonal_matrix",
-    "la.knowledge.real_symmetric_properties"
-   ],
-   "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标",
-   "createdAt": "2026-09-28T00:00:00.000Z",
-   "attempts": [],
-   "origin": "builtin",
-   "difficulty": null,
-   "source": {
-    "kind": "exam",
-    "year": 2022,
-    "paper": "math2",
-    "number": 22
-   },
-   "subjectGuess": "linear_algebra",
-   "section": "三、解答题"
-  }
- ]
+  "problems": [
+    {
+      "id": "bank.exam.m2-2022.1",
+      "number": 1,
+      "title": "2022 年数学二 第 1 题",
+      "questionText": "若当 $x \\to 0$ 时，$a\\left( x \\right), \\beta\\left( x \\right)$ 是非零无穷小量，则以下的命题中，\n① 若 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$，则 $a^{2}\\left( x \\right) \\sim \\beta^{2}\\left( x \\right)$；\n\n② 若 $a^{2}\\left( x \\right) \\sim \\beta^{2}\\left( x \\right)$，则 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$；\n\n③ 若 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$，则 $a\\left( x \\right) - \\beta\\left( x \\right) = o\\left( a\\left( x \\right) \\right)$；\n\n④ 若 $a\\left( x \\right) - \\beta\\left( x \\right) = o\\left( a\\left( x \\right) \\right)$，则 $a\\left( x \\right) \\sim \\beta\\left( x \\right)$，\n\n真命题的序号为 $\\left( \\ \\right)$\n\n- **A.** $①③$\n- **B.** $①④$\n- **C.** $①③④$\n- **D.** $②③④$\n\n**解析：** ①平方后仍等价；②取 $a(x)=-\\beta(x)$ 即可否定；③由 $\\frac{a-\\beta}{a}=1-\\frac{\\beta}{a}\\to0$；④由 $\\frac{\\beta}{a}=1-\\frac{a-\\beta}{a}\\to1$.故真命题为 ①③④.",
+      "answerText": "答案：C\n\n**解析：**\n①正确：等价无穷小平方后仍等价（$\\dfrac{a^2}{\\beta^2}=\\Bigl(\\dfrac{a}{\\beta}\\Bigr)^2\\to 1$）。\n②错误：取 $a(x)=-\\beta(x)$，则 $a^2\\sim\\beta^2$ 显然成立，但 $\\dfrac{a}{\\beta}\\equiv-1$ 不趋于 $1$。\n③正确：$\\dfrac{a-\\beta}{a}=1-\\dfrac{\\beta}{a}\\to 1-1=0$，即 $a-\\beta$ 是 $a$ 的高阶无穷小。\n④正确：由 $a-\\beta=o(a)$ 得 $\\dfrac{\\beta}{a}=1-\\dfrac{a-\\beta}{a}\\to 1$。\n真命题为 ①③④。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "equivalent_infinitesimal",
+        "infinitesimal_order"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 1
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.2",
+      "number": 2,
+      "title": "2022 年数学二 第 2 题",
+      "questionText": "$\\int_{0}^{2} \\mathrm{d}y \\int_{y}^{2} \\frac{y}{\\sqrt{\\left( 1 + x^{3} \\right)}} \\mathrm{~d}x = \\left( \\ \\right)$\n- **A.** $\\frac{\\sqrt{2}}{6}$\n- **B.** $\\frac{1}{3}$\n- **C.** $\\frac{\\sqrt{2}}{3}$\n- **D.** $\\frac{2}{3}$\n\n**解析：** 区域为 $0\\le y\\le x\\le2$，交换积分次序得\n\n$$\n\\int_0^2 \\mathrm{d}y \\int_y^2 \\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}x\n=\\int_0^2 \\mathrm{d}x \\int_0^x \\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}y\n=\\frac12\\int_0^2 \\frac{x^2}{\\sqrt{1+x^3}}\\,\\mathrm{d}x.\n$$\n\n再令 $u=1+x^3$，可得结果为 $\\frac23$.",
+      "answerText": "答案：$\\dfrac{2}{3}$\n\n**解析：**\n积分区域为 $D:\\ 0\\le y\\le x\\le 2$（先 $x$ 后 $y$ 的不等式直接读出）。交换积分次序：\n$$\n\\int_0^2\\mathrm{d}y\\int_y^2\\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}x\n=\\int_0^2\\mathrm{d}x\\int_0^x\\frac{y}{\\sqrt{1+x^3}}\\,\\mathrm{d}y\n=\\int_0^2\\frac{\\mathrm{d}x}{\\sqrt{1+x^3}}\\cdot\\frac{x^2}{2}.\n$$\n令 $u=1+x^3$，$\\mathrm{d}u=3x^2\\,\\mathrm{d}x$，得\n$$\n\\frac12\\int_0^2\\frac{x^2}{\\sqrt{1+x^3}}\\,\\mathrm{d}x=\\frac16\\int_1^9 u^{-1/2}\\,\\mathrm{d}u=\\frac16\\cdot 2\\sqrt u\\Big|_1^9=\\frac{2}{3}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "integration_order",
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 2
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.3",
+      "number": 3,
+      "title": "2022 年数学二 第 3 题",
+      "questionText": "设 $f\\left( x \\right)$ 在 $x = x_{0}$ 处有二阶导数，则 $\\left( \\ \\right)$\n- **A.** 当 $f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内单调增加时，$f^{\\prime}\\left( x_{0} \\right) > 0$\n- **B.** 当 $f^{\\prime}\\left( x_{0} \\right) > 0$ 时，$f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内单调增加\n- **C.** 当 $f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内是凹函数时，$f^{\\prime\\prime}\\left( x_{0} \\right) > 0$\n- **D.** 当 $f^{\\prime\\prime}\\left( x_{0} \\right) > 0$ 时，$f\\left( x \\right)$ 在 $x_{0}$ 的某邻域内是凹函数\n\n**解析：** $\\mathrm{B}$ 正确.$\\mathrm{A}$ 可取 $f(x)=x^3$ 在 $x_0=0$；$\\mathrm{C}$ 可取常数函数；$\\mathrm{D}$ 中 $f''(x_0)>0$ 表示局部为凸而非凹.",
+      "answerText": "答案：B\n\n**解析：**\n关键在题设只保证 $f''(x_0)$ 存在：这足以保证 $f'$ 在 $x_0$ 处连续，但保证不了 $f''$ 在邻域内的符号。\n**B 正确：** $f''(x_0)=\\lim\\limits_{x\\to x_0}\\dfrac{f'(x)-f'(x_0)}{x-x_0}$ 存在，迫使 $f'(x)\\to f'(x_0)$（$x\\to x_0$），即 $f'$ 在 $x_0$ 连续。由 $f'(x_0)>0$ 与连续性，存在 $\\delta>0$ 使 $|x-x_0|<\\delta$ 时 $f'(x)>\\dfrac{f'(x_0)}{2}>0$，故 $f$ 在该邻域内单调增加。\n**A 错误：** $f(x)=x^3$ 在 $x_0=0$ 的邻域内单调增加，但 $f'(0)=0$。\n**C 错误：** 常数函数在任意邻域内既是凹又是凸，但 $f''\\equiv 0$。\n**D 错误：** $f''(x_0)>0$ 只能推出曲线在 $x_0$ 附近位于切线上方（通过 $g(x)=f(x)-f(x_0)-f'(x_0)(x-x_0)$ 在 $x_0$ 取严格局部最小看出），而凹凸性要求在整个区间上作弦比较（或 $f''\\ge0$ 处处成立）；一点处的 $f''$ 值控制不了邻域内其余点处 $f''$ 的符号，当 $f''$ 在 $x_0$ 附近不连续时可构造 $f''(x_0)>0$ 而在任何邻域内都不凹的反例。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "concavity_inflection",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "monotonicity",
+        "concavity_inflection"
+      ],
+      "methodIds": [],
+      "notes": "已校对；验算修正：源解析对 D 项的解释（\"凸而非凹\"）术语有误，改为准确的极限保号/切线比较论证",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 3
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.4",
+      "number": 4,
+      "title": "2022 年数学二 第 4 题",
+      "questionText": "已知 $f\\left( t \\right)$ 连续，令\n$F\\left( x,y \\right) = \\int_{0}^{x-y} \\left( x - y - t \\right) f\\left( t \\right) \\mathrm{~d}t$\n\n则 $\\left( \\ \\right)$\n\n- **A.** $\\frac{\\partial F}{\\partial x} = \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = \\frac{\\partial^{2}F}{\\partial y^{2}}$\n- **B.** $\\frac{\\partial F}{\\partial x} = \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = - \\frac{\\partial^{2}F}{\\partial y^{2}}$\n- **C.** $\\frac{\\partial F}{\\partial x} = - \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = \\frac{\\partial^{2}F}{\\partial y^{2}}$\n- **D.** $\\frac{\\partial F}{\\partial x} = - \\frac{\\partial F}{\\partial y},\\ \\frac{\\partial^{2}F}{\\partial x^{2}} = - \\frac{\\partial^{2}F}{\\partial y^{2}}$\n\n**解析：** 设 $s=x-y$，则\n\n$$\nF(x,y)=\\int_0^s (s-t)f(t)\\,\\mathrm{d}t,\n$$\n\n故 $F$ 只通过 $s=x-y$ 依赖于 $x,y$.于是\n\n$$\n\\frac{\\partial F}{\\partial x}=F_s,\\qquad \\frac{\\partial F}{\\partial y}=-F_s,\n$$\n\n再求一次偏导得\n\n$$\n\\frac{\\partial^2 F}{\\partial x^2}=\\frac{\\partial^2 F}{\\partial y^2}=f(x-y).\n$$",
+      "answerText": "答案：C\n\n**解析：**\n令 $s=x-y$，则 $F(x,y)=\\displaystyle\\int_0^{s}(s-t)f(t)\\,\\mathrm{d}t$ 只通过 $s$ 依赖 $x,y$，且\n$$\nF_s=\\int_0^s f(t)\\,\\mathrm{d}t\\quad(\\text{变上限求导})\n$$\n于是由链式法则\n$$\n\\frac{\\partial F}{\\partial x}=F_s\\cdot 1,\\qquad \\frac{\\partial F}{\\partial y}=F_s\\cdot(-1),\n$$\n即 $\\dfrac{\\partial F}{\\partial x}=-\\dfrac{\\partial F}{\\partial y}$。再求一次：\n$$\n\\frac{\\partial^2 F}{\\partial x^2}=F_{ss}=\\frac{\\partial^2 F}{\\partial y^2}=f(s)=f(x-y).\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "variable_upper_integral",
+        "composite_function_chain_rule"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 4
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.5",
+      "number": 5,
+      "title": "2022 年数学二 第 5 题",
+      "questionText": "设 $p$ 为常数，若反常积分\n$\\int_{0}^{1} \\frac{\\ln x}{x^{p}\\left( 1-x \\right)^{1-p}} \\mathrm{~d}x$\n\n收敛，则 $p$ 的取值范围是 $\\left( \\ \\right)$\n\n- **A.** $\\left( -1,1 \\right)$\n- **B.** $\\left( -1,2 \\right)$\n- **C.** $\\left( -\\infty,1 \\right)$\n- **D.** $\\left( -\\infty,2 \\right)$\n\n**解析：** 在 $x=0$ 附近，被积函数同阶于 $\\frac{\\ln x}{x^p}$，收敛条件为 $p<1$；在 $x=1$ 附近，$\\ln x\\sim-(1-x)$，故被积函数同阶于 $-(1-x)^p$，收敛条件为 $p>-1$.综上 $-1<p<1$.",
+      "answerText": "答案：A\n\n**解析：**\n被积函数 $\\dfrac{\\ln x}{x^{p}(1-x)^{1-p}}$ 在两端点都可能出问题，分别分析：\n**$x\\to 0^+$：** $\\ln x$ 是慢变函数，收敛性由幂次决定。$\\int_0^{1/2}\\dfrac{|\\ln x|}{x^{p}}\\,\\mathrm{d}x$ 当且仅当 $p<1$ 收敛。\n**$x\\to 1^-$：** $\\ln x\\sim-(1-x)$，故被积函数与 $-(1-x)^{p}$ 同阶，$\\int_{1/2}^{1}(1-x)^{p}\\,\\mathrm{d}x$ 当且仅当 $p>-1$ 收敛。\n综上 $-1<p<1$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "improper_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "unbounded_function_integral",
+        "improper_integral_definition"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 5
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.6",
+      "number": 6,
+      "title": "2022 年数学二 第 6 题",
+      "questionText": "设数列 $\\left\\{ x_{n} \\right\\}$ 满足 $- \\frac{\\pi}{2} \\le x_{n} \\le \\frac{\\pi}{2}$，则 $\\left( \\ \\right)$\n- **A.** 若 $\\lim_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} x_{n}$ 存在\n- **B.** 若 $\\lim_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} x_{n}$ 存在\n- **C.** 若 $\\lim_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} \\sin x_{n}$ 存在，但 $\\lim_{n \\to \\infty} x_{n}$ 不一定存在\n- **D.** 若 $\\lim_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} \\cos x_{n}$ 存在，但 $\\lim_{n \\to \\infty} x_{n}$ 不一定存在\n\n**解析：** 因 $\\cos x_n\\in[0,1]$，且 $\\sin x$ 在 $[0,1]$ 上严格单调，所以若 $\\sin(\\cos x_n)$ 有极限，则 $\\cos x_n$ 必有极限.但 $x_n$ 未必收敛，例如 $x_n=(-1)^n\\frac\\pi2$.故选 $\\mathrm{D}$.",
+      "answerText": "答案：D\n\n**解析：**\n$\\sin$ 在 $[-1,1]$ 上严格增，故 $\\sin(\\cos x_n)$ 收敛 $\\iff$ $\\cos x_n$ 收敛（$\\cos x_n\\in[0,1]$，$\\sin$ 在 $[0,1]$ 上有连续严格反函数）。所以 B、D 中真正有结论的是\"数列 $\\cos x_n$ 收敛\"，而 $\\cos x_n$ 收敛推不出 $x_n$ 收敛：取 $x_n=(-1)^n\\dfrac{\\pi}{2}$，则 $\\cos x_n\\equiv 0$ 收敛，但 $x_n$ 发散。故 B 错、D 对。\n对 A、C：$\\cos(\\sin x_n)$ 是关于 $\\sin x_n$ 的偶函数，它收敛只确定 $|\\sin x_n|$ 的极限，连 $\\sin x_n$ 的收敛都推不出（同一反例 $\\sin x_n=(-1)^n$ 发散），故 A、C 均错。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "sequence_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "sequence_limit"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 6
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.7",
+      "number": 7,
+      "title": "2022 年数学二 第 7 题",
+      "questionText": "若\n$I_{1} = \\int_{0}^{1} \\frac{x}{2\\left( 1 + \\cos x \\right)} \\mathrm{~d}x,\\quad I_{2} = \\int_{0}^{1} \\frac{\\ln\\left( 1 + x \\right)}{1 + \\cos x} \\mathrm{~d}x,\\quad I_{3} = \\int_{0}^{1} \\frac{2x}{1 + \\sin x} \\mathrm{~d}x$\n\n则 $\\left( \\ \\right)$\n\n- **A.** $I_{1} < I_{2} < I_{3}$\n- **B.** $I_{2} < I_{1} < I_{3}$\n- **C.** $I_{1} < I_{3} < I_{2}$\n- **D.** $I_{3} < I_{2} < I_{1}$\n\n**解析：** 先证 $\\ln(1+x)>\\frac x2\\ (0<x<1)$，故 $I_2>I_1$.又有 $\\ln(1+x)<x$，且 $1+\\cos x>1$、$1+\\sin x<2$，于是\n\n$$\n\\frac{\\ln(1+x)}{1+\\cos x}<x<\\frac{2x}{1+\\sin x},\n$$\n\n故 $I_2<I_3$.因此 $I_1<I_2<I_3$.",
+      "answerText": "答案：A\n\n**解析：**\n先比较 $I_1$ 与 $I_2$（分母同为 $1+\\cos x$，只比分子）：设 $h(x)=\\ln(1+x)-\\dfrac{x}{2}$，$h(0)=0$，$h'(x)=\\dfrac{1}{1+x}-\\dfrac12>0$（$0<x<1$，因 $1+x<2$），故 $h(x)>0$，即 $\\ln(1+x)>\\dfrac{x}{2}$，从而 $I_2>I_1$。\n再比较 $I_2$ 与 $I_3$：由 $\\ln(1+x)<x$ 与 $1+\\cos x>1$ 得\n$$\n\\frac{\\ln(1+x)}{1+\\cos x}<\\ln(1+x)<x;\n$$\n由 $1+\\sin x<2$ 得 $\\dfrac{2x}{1+\\sin x}>x$。故 $I_2<I_3$。\n综上 $I_1<I_2<I_3$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_equality_inequality",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 7
+      },
+      "subjectGuess": "calculus",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.8",
+      "number": 8,
+      "title": "2022 年数学二 第 8 题",
+      "questionText": "设矩阵\n\n$\\boldsymbol{\\Lambda} = \\left( \\begin{array}{ccc} 1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & 0 \\end{array} \\right)$\n\n$\\boldsymbol{A}$ 为 $3$ 阶矩阵，则 $\\boldsymbol{A}$ 的特征值为 $1,-1,0$ 的充分必要条件是 $\\left( \\ \\right)$\n\n- **A.** 存在可逆矩阵 $\\boldsymbol{P}, \\boldsymbol{Q}$，使得 $\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{Q}$\n- **B.** 存在可逆矩阵 $\\boldsymbol{P}$，使得 $\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{P}^{-1}$\n- **C.** 存在正交矩阵 $\\boldsymbol{Q}$，使得 $\\boldsymbol{A} = \\boldsymbol{Q}\\boldsymbol{\\Lambda}\\boldsymbol{Q}^{-1}$\n- **D.** 存在可逆矩阵 $\\boldsymbol{P}$，使得 $\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{P}^{T}$",
+      "answerText": "答案：B\n\n**解析：**\n**充分性：** 相似矩阵有相同的特征值，故 $A=P\\Lambda P^{-1}$ 时 $A$ 的特征值即 $\\Lambda$ 的对角元 $1,-1,0$。\n**必要性：** $A$ 的特征值为三个互异实数 $1,-1,0$，故 $A$ 必可对角化，且相似对角阵的对角元恰为特征值，即存在可逆 $P$ 使 $A=P\\Lambda P^{-1}$。\n其余选项：**A** 中 $A=P\\Lambda Q$ 只说明 $\\operatorname{rank}(A)=\\operatorname{rank}(\\Lambda)=2$（等价），与特征值无关；**C** 要求 $A$ 能正交相似于对角阵，这只有实对称阵才保证成立（非对称的反例如上三角阵 $A=\\begin{pmatrix}1&1&0\\\\0&-1&0\\\\0&0&0\\end{pmatrix}$ 特征值也是 $1,-1,0$）；**D** 中 $A=P\\Lambda P^{T}$ 必为对称阵且合同不保特征值（如 $P=\\operatorname{diag}(2,1,1)$ 给出 $A=\\operatorname{diag}(4,-1,0)$）。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.similarity_judgment",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.similarity_concept"
+      ],
+      "methodIds": [],
+      "notes": "已校对；题干对源修正：源转录把显示矩阵误标为 A 且未定义 Λ（字面上四选项皆真），按原题改为 Λ=diag(1,-1,0)、A 为 3 阶抽象矩阵",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 8
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.9",
+      "number": 9,
+      "title": "2022 年数学二 第 9 题",
+      "questionText": "设矩阵\n$\\boldsymbol{A} = \\left( \\begin{array}{ccc} 1 & 1 & 1 \\\\ 1 & a & a^{2} \\\\ 1 & b & b^{2} \\end{array} \\right),\\quad \\boldsymbol{b} = \\left( \\begin{array}{c} 1 \\\\ 2 \\\\ 4 \\end{array} \\right)$\n\n则线性方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{b}$ 的解的情况为 $\\left( \\ \\right)$\n\n- **A.** 无解\n- **B.** 有解\n- **C.** 有无穷多解或无解\n- **D.** 有唯一解或无解\n\n**解析：** 当 $\\det A=(a-1)(b-1)(b-a)\\ne0$ 时，方程组有唯一解；当行列式为 0 时，逐一讨论可知增广矩阵的秩大于系数矩阵的秩，因此无解.所以只可能“有唯一解或无解”.",
+      "answerText": "答案：D\n\n**解析：**\n系数矩阵为范德蒙德型：$\\det\\boldsymbol{A}=(a-1)(b-1)(b-a)$。\n**当 $a\\ne1,\\ b\\ne1,\\ a\\ne b$：** $\\det\\boldsymbol{A}\\ne 0$，方程组有唯一解。\n**当 $\\det\\boldsymbol{A}=0$：** 此时系数矩阵出现相同的行：$a=1$ 时第 1、2 行都是 $(1,1,1)$，但 $\\boldsymbol{b}$ 的对应分量 $1\\ne 2$；$b=1$ 时第 1、3 行相同，而 $1\\ne 4$；$a=b(\\ne1)$ 时第 2、3 行相同，而 $2\\ne 4$。相同系数行对应不同的右端项，矛盾方程出现，故无解。\n所以只有\"唯一解或无解\"两种可能。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.linear_systems",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.system_with_parameters",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.solution_properties",
+        "la.knowledge.matrix_rank"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 9
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.10",
+      "number": 10,
+      "title": "2022 年数学二 第 10 题",
+      "questionText": "设\n$\\boldsymbol{a}_{1} = \\left( \\begin{array}{c} \\lambda \\\\ 1 \\\\ 1 \\end{array} \\right),\\quad \\boldsymbol{a}_{2} = \\left( \\begin{array}{c} 1 \\\\ \\lambda \\\\ 1 \\end{array} \\right),\\quad \\boldsymbol{a}_{3} = \\left( \\begin{array}{c} 1 \\\\ 1 \\\\ \\lambda \\end{array} \\right),\\quad \\boldsymbol{a}_{4} = \\left( \\begin{array}{c} 1 \\\\ \\lambda \\\\ \\lambda^{2} \\end{array} \\right)$\n\n若 $\\boldsymbol{a}_{1}, \\boldsymbol{a}_{2}, \\boldsymbol{a}_{3}$ 与 $\\boldsymbol{a}_{1}, \\boldsymbol{a}_{2}, \\boldsymbol{a}_{4}$ 等价，则 $\\lambda$ 的取值范围是 $\\left( \\ \\right)$\n\n- **A.** $\\left\\{ 0,1 \\right\\}$\n- **B.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -2 \\right\\}$\n- **C.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -1,\\ \\lambda \\ne -2 \\right\\}$\n- **D.** $\\left\\{ \\lambda \\mid \\lambda \\in \\mathbb{R},\\ \\lambda \\ne -1 \\right\\}$\n\n**解析：** 两组向量等价当且仅当秩相同.计算得\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{3})=(\\lambda-1)^2(\\lambda+2),\n$$\n\n$$\n\\det(\\boldsymbol{a}_{1},\\boldsymbol{a}_{2},\\boldsymbol{a}_{4})=(\\lambda-1)^2(\\lambda+1)^2.\n$$\n\n除 $\\lambda=-1,-2$ 外，两组秩相同；其中 $\\lambda=1$ 时两组秩同为 1，仍等价.故 $\\lambda\\ne-1,-2$.",
+      "answerText": "答案：C\n\n**解析：**\n两个向量组等价 $\\iff$ 合在一起等价于各自，即 $\\operatorname{rank}(\\boldsymbol{a}_1,\\boldsymbol{a}_2,\\boldsymbol{a}_3,\\boldsymbol{a}_4)$ 等于两组的秩。计算两个行列式：\n$$\n\\det(\\boldsymbol{a}_1,\\boldsymbol{a}_2,\\boldsymbol{a}_3)=\\begin{vmatrix}\\lambda&1&1\\\\1&\\lambda&1\\\\1&1&\\lambda\\end{vmatrix}=(\\lambda+2)(\\lambda-1)^2,\n\\qquad\n\\det(\\boldsymbol{a}_1,\\boldsymbol{a}_2,\\boldsymbol{a}_4)=(\\lambda^2-1)^2.\n$$\n**若 $\\lambda\\ne 1,-1,-2$：** 两个行列式都非零，两组的秩都是 $3$，都张满 $\\mathbb{R}^3$，等价。\n**$\\lambda=-1$：** $\\det(\\boldsymbol{a}_1,\\boldsymbol{a}_2,\\boldsymbol{a}_4)=0$ 而第一组行列式 $=4\\ne0$，秩 $2\\ne3$，不等价。\n**$\\lambda=-2$：** 第一组行列式为 $0$ 而第二组 $=9\\ne0$，不等价。\n**$\\lambda=1$：** 四个向量全为 $(1,1,1)^T$，两组秩同为 $1$，等价。\n故 $\\lambda\\ne-1$ 且 $\\lambda\\ne-2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.vectors",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.vector_group_rank",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.equivalent_vector_groups",
+        "la.knowledge.vector_group_rank"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 10
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "一、选择题"
+    },
+    {
+      "id": "bank.exam.m2-2022.11",
+      "number": 11,
+      "title": "2022 年数学二 第 11 题",
+      "questionText": "$\\lim_{x \\to 0} \\left( \\frac{1 + e^{x}}{2} \\right)^{\\cot x} = \\underline{\\hspace{4em}}$\n**解析：** 设极限为 $L$，取对数：\n\n$$\n\\ln L=\\lim_{x\\to0}\\cot x\\cdot\\ln\\left(\\frac{1+e^x}{2}\\right)=\\lim_{x\\to0}\\frac{\\ln\\left(\\frac{1+e^x}{2}\\right)}{\\tan x}.\n$$\n\n又 $\\ln\\left(\\frac{1+e^x}{2}\\right)\\sim \\frac x2$、$\\tan x\\sim x$，故 $\\ln L=\\frac12$，从而 $L=\\sqrt e$.",
+      "answerText": "答案：$\\sqrt{e}$\n\n**解析：**\n属 $1^\\infty$ 型。设极限为 $L$，取对数：\n$$\n\\ln L=\\lim_{x\\to0}\\cot x\\,\\ln\\frac{1+e^x}{2}\n=\\lim_{x\\to0}\\frac{\\ln\\frac{1+e^x}{2}}{\\tan x}.\n$$\n当 $x\\to0$ 时 $\\dfrac{1+e^x}{2}=1+\\dfrac{x}{2}+o(x)$，故 $\\ln\\dfrac{1+e^x}{2}\\sim\\dfrac{x}{2}$，又 $\\tan x\\sim x$，于是 $\\ln L=\\dfrac12$，$L=e^{1/2}$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "function_limit_continuity",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "function_limit",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "indeterminate_form",
+        "equivalent_infinitesimal"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 11
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2022.12",
+      "number": 12,
+      "title": "2022 年数学二 第 12 题",
+      "questionText": "已知函数 $y = y\\left( x \\right)$ 由方程\n$x^{2} + xy + y^{3} = 3$\n\n确定，则 $y^{\\prime\\prime}\\left( 1 \\right) = \\underline{\\hspace{4em}}$\n\n**解析：** 先由 $1+y+y^3=3$ 得 $y(1)=1$.对方程 $x^2+xy+y^3=3$ 求导：\n\n$$\n2x+y+(x+3y^2)y'=0.\n$$\n\n代入 $(1,1)$ 得 $y'(1)=-\\frac34$.再求导并代入 $x=1,y=1,y'=-\\frac34$，解得 $y''(1)=-\\frac{31}{32}$.",
+      "answerText": "答案：$-\\dfrac{31}{32}$\n\n**解析：**\n代入 $x=1$：$1+y+y^3=3$，得 $y(1)=1$（$y^3+y-2$ 严格增，根唯一）。\n方程两边对 $x$ 求导：$2x+y+(x+3y^2)y'=0$。代入 $(1,1)$：$3+4y'(1)=0$，$y'(1)=-\\dfrac34$。\n再求导：$2+2y'+(x+3y^2)y''+6y(y')^2=0$。代入 $x=1,\\ y=1,\\ y'=-\\dfrac34$：\n$$\n2-\\frac32+4y''(1)+\\frac{27}{8}=0\n\\ \\Longrightarrow\\\ny''(1)=-\\frac{1}{4}\\Bigl(\\frac12+\\frac{27}{8}\\Bigr)=-\\frac{31}{32}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "higher_derivative",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "implicit_derivative"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 12
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2022.13",
+      "number": 13,
+      "title": "2022 年数学二 第 13 题",
+      "questionText": "$\\int_{0}^{1} \\frac{2x + 3}{x^{2} - x + 1} \\mathrm{~d}x = \\underline{\\hspace{4em}}$\n**解析：** 把分子拆成 $2x+3=(2x-1)+4$，并写成\n\n$$\nx^2-x+1=\\left(x-\\frac12\\right)^2+\\frac34.\n$$\n\n前一部分积分为 0，后一部分是反正切型积分，结果为 $\\frac{8\\sqrt3\\pi}{9}$.",
+      "answerText": "答案：$\\dfrac{8\\sqrt{3}\\,\\pi}{9}$\n\n**解析：**\n拆分子：$2x+3=(2x-1)+4$，第一段\n$$\n\\int_0^1\\frac{2x-1}{x^2-x+1}\\,\\mathrm{d}x=\\ln\\bigl(x^2-x+1\\bigr)\\Big|_0^1=0.\n$$\n第二段配方 $x^2-x+1=\\bigl(x-\\tfrac12\\bigr)^2+\\tfrac34$：\n$$\n\\int_0^1\\frac{4\\,\\mathrm{d}x}{\\left(x-\\frac12\\right)^2+\\frac34}\n=\\frac{8}{\\sqrt3}\\arctan\\frac{2x-1}{\\sqrt3}\\Big|_0^1\n=\\frac{8}{\\sqrt3}\\cdot\\frac{\\pi}{3}\n=\\frac{8\\sqrt3\\,\\pi}{9}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "definite_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "definite_integral_substitution"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 13
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2022.14",
+      "number": 14,
+      "title": "2022 年数学二 第 14 题",
+      "questionText": "微分方程\n$y^{\\prime\\prime\\prime} - 2y^{\\prime\\prime} + 5y^{\\prime} = 0$\n\n的通解为 $y\\left( x \\right) = \\underline{\\hspace{10em}}$\n\n**解析：** 特征方程为 $r^3-2r^2+5r=0$，即 $r(r^2-2r+5)=0$，根为 $0,1\\pm2i$，故通解为\n\n$$\ny=C_1+e^x\\left(C_2\\cos2x+C_3\\sin2x\\right).\n$$",
+      "answerText": "答案：$C_{1} + e^{x}\\left( C_{2}\\cos 2x + C_{3}\\sin 2x \\right)$\n\n**解析：**\n特征方程 $r^3-2r^2+5r=0$，即 $r\\,(r^2-2r+5)=0$，解得\n$$\nr_1=0,\\qquad r_{2,3}=1\\pm 2\\mathrm{i}.\n$$\n单实根给 $C_1$；一对共轭复根 $\\alpha\\pm\\beta\\mathrm{i}$ 给 $e^{\\alpha x}(C_2\\cos\\beta x+C_3\\sin\\beta x)$。故通解\n$$\ny=C_1+e^{x}(C_2\\cos 2x+C_3\\sin 2x).\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "linear_higher_order_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "characteristic_equation",
+        "second_order_homogeneous_linear"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 14
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2022.15",
+      "number": 15,
+      "title": "2022 年数学二 第 15 题",
+      "questionText": "已知曲线 $L$ 的极坐标方程为\n$r = \\sin 3\\theta \\quad \\left( 0 \\le \\theta \\le \\frac{\\pi}{3} \\right)$\n\n则 $L$ 围成的有界区域的面积为 $\\underline{\\hspace{4em}}$\n\n**解析：** 由极坐标面积公式\n\n$$\nS=\\frac12\\int_0^{\\pi/3} r^2\\,\\mathrm{d}\\theta=\\frac12\\int_0^{\\pi/3}\\sin^2 3\\theta\\,\\mathrm{d}\\theta=\\frac{\\pi}{12}.\n$$",
+      "answerText": "答案：$\\dfrac{\\pi}{12}$\n\n**解析：**\n极坐标下扇形微元面积 $\\mathrm{d}S=\\dfrac12 r^2\\,\\mathrm{d}\\theta$，故\n$$\nS=\\frac12\\int_0^{\\pi/3}\\sin^2 3\\theta\\,\\mathrm{d}\\theta\n=\\frac12\\int_0^{\\pi/3}\\frac{1-\\cos 6\\theta}{2}\\,\\mathrm{d}\\theta\n=\\frac14\\Bigl[\\theta-\\frac{\\sin 6\\theta}{6}\\Bigr]_0^{\\pi/3}\n=\\frac{\\pi}{12}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "integral_application_geometry",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "area_volume_arc",
+        "polar_coordinates"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 15
+      },
+      "subjectGuess": "calculus",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2022.16",
+      "number": 16,
+      "title": "2022 年数学二 第 16 题",
+      "questionText": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，交换 $\\boldsymbol{A}$ 的第 $2$ 行和第 $3$ 行，再将第 $2$ 列的 $-1$ 倍加到第 $1$ 列，得到矩阵\n$\\left( \\begin{array}{ccc} -2 & 1 & -1 \\\\ 1 & -1 & 0 \\\\ -1 & 0 & 0 \\end{array} \\right)$\n\n则 $\\operatorname{tr}\\left( \\boldsymbol{A}^{-1} \\right) = \\underline{\\hspace{4em}}$\n\n**解析：** 记题设所得矩阵为 $B$，则 $B=P_1AP_2$，故\n\n$$\nA^{-1}=P_2B^{-1}P_1.\n$$\n\n计算可得\n\n$$\nA^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n$$\n\n因此 $\\operatorname{tr}(A^{-1})=-1$.",
+      "answerText": "答案：-1\n\n**解析：**\n记题给结果为 $\\boldsymbol{B}$。\"交换第 2、3 行\"为左乘初等矩阵 $\\boldsymbol{P}_1$（$\\boldsymbol{P}_1^{-1}=\\boldsymbol{P}_1$），\"第 2 列的 $-1$ 倍加到第 1 列\"为右乘初等矩阵 $\\boldsymbol{P}_2$，则 $\\boldsymbol{B}=\\boldsymbol{P}_1\\boldsymbol{A}\\boldsymbol{P}_2$，于是\n$$\n\\boldsymbol{A}^{-1}=\\boldsymbol{P}_2\\,\\boldsymbol{B}^{-1}\\boldsymbol{P}_1 .\n$$\n对 $\\boldsymbol{B}$ 作初等行变换求逆：\n$$\n\\boldsymbol{B}^{-1}=\\begin{pmatrix}0&0&-1\\\\0&-1&-1\\\\-1&-1&1\\end{pmatrix}.\n$$\n左乘 $\\boldsymbol{P}_2$（第 2 行减第 1 行），再右乘 $\\boldsymbol{P}_1$（交换第 2、3 列），得\n$$\n\\boldsymbol{A}^{-1}=\\begin{pmatrix}0&-1&0\\\\0&0&-1\\\\-1&1&-1\\end{pmatrix},\n\\qquad\n\\operatorname{tr}\\bigl(\\boldsymbol{A}^{-1}\\bigr)=0+0-1=-1.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.matrices",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "la.problem_type.elementary_matrix_problem",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.elementary_matrix"
+      ],
+      "methodIds": [],
+      "notes": "已校对；验算复核 B⁻¹ 及 trace = -1 与源一致",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 16
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "二、填空题"
+    },
+    {
+      "id": "bank.exam.m2-2022.17",
+      "number": 17,
+      "title": "2022 年数学二 第 17 题",
+      "questionText": "已知函数 $f\\left( x \\right)$ 在 $x = 1$ 处可导，且\n$\\lim_{x \\to 0} \\frac{f\\left( e^{x^{2}} \\right) - 3f\\left( 1 + \\sin^{2}x \\right)}{x^{2}} = 2$\n\n求 $f^{\\prime}\\left( 1 \\right)$.\n\n**解析：** 极限存在先给出常数项满足 $f(1)-3f(1)=0$，故 $f(1)=0$.\n\n再由可导性得\n\n$$\n\\lim_{x\\to0}\\frac{f(e^{x^2})-f(1)}{x^2}=f'(1),\\qquad\n\\lim_{x\\to0}\\frac{f(1+\\sin^2x)-f(1)}{x^2}=f'(1).\n$$\n\n代回原式：\n\n$$\nf'(1)-3f'(1)=2,\n$$\n\n故 $f'(1)=-1$.\n\n---",
+      "answerText": "答案：-1\n\n**解析：**\n$x\\to0$ 时分母 $x^2\\to0^+$，极限存在为有限值 $2$，故分子必趋于 $0$：$f(1)-3f(1)=-2f(1)=0$，即 $f(1)=0$。\n由可导性写出一阶泰勒展开（$e^{x^2}-1\\sim x^2$，$\\sin^2x\\sim x^2$）：\n$$\nf\\bigl(e^{x^2}\\bigr)=f(1)+f'(1)\\,x^2+o(x^2),\\qquad\nf\\bigl(1+\\sin^2x\\bigr)=f(1)+f'(1)\\,x^2+o(x^2).\n$$\n代入原极限：\n$$\n\\frac{f'(1)x^2-3f'(1)x^2+o(x^2)}{x^2}=-2f'(1)=2\n\\ \\Longrightarrow\\ f'(1)=-1.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "derivative_calculation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "derivative_definition"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 17
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2022.18",
+      "number": 18,
+      "title": "2022 年数学二 第 18 题",
+      "questionText": "设函数 $y\\left( x \\right)$ 是微分方程\n$2x y^{\\prime} - 4y = 2\\ln x - 1$\n\n的满足条件\n\n$y\\left( 1 \\right) = \\frac{1}{4}$\n\n的解，求曲线 $y = y\\left( x \\right)$ 在 $\\left[ 1,e \\right]$ 上的弧长.\n\n**解析：** 化为线性方程\n\n$$\ny'-\\frac2x y=\\frac{2\\ln x-1}{2x},\n$$\n\n积分因子为 $x^{-2}$，解得\n\n$$\ny(x)=\\frac{x^2}{4}-\\frac12\\ln x.\n$$\n\n于是\n\n$$\ny'(x)=\\frac x2-\\frac{1}{2x},\\qquad\n1+(y')^2=\\left(\\frac x2+\\frac{1}{2x}\\right)^2.\n$$\n\n故弧长\n\n$$\ns=\\int_1^e\\left(\\frac x2+\\frac{1}{2x}\\right)\\,\\mathrm{d}x=\\frac{e^2+1}{4}.\n$$\n\n---",
+      "answerText": "答案：$\\dfrac{e^{2}+1}{4}$\n\n**解析：**\n化为一阶线性方程 $y'-\\dfrac{2}{x}y=\\dfrac{2\\ln x-1}{2x}$，两边乘积分因子 $x^{-2}$：\n$$\n\\bigl(x^{-2}y\\bigr)'=\\frac{2\\ln x-1}{2x^3}\n\\ \\Longrightarrow\\\ny=x^2\\Bigl[-\\frac{\\ln x}{2x^2}+C\\Bigr]=Cx^2-\\frac{\\ln x}{2}.\n$$\n由 $y(1)=\\dfrac14$ 得 $C=\\dfrac14$，故 $y=\\dfrac{x^2}{4}-\\dfrac{\\ln x}{2}$，$y'=\\dfrac{x}{2}-\\dfrac{1}{2x}$。于是\n$$\n1+(y')^2=\\frac{x^2}{4}+\\frac12+\\frac{1}{4x^2}=\\Bigl(\\frac{x}{2}+\\frac{1}{2x}\\Bigr)^{\\!2},\n$$\n弧长\n$$\ns=\\int_1^{e}\\Bigl(\\frac{x}{2}+\\frac{1}{2x}\\Bigr)\\mathrm{d}x\n=\\Bigl[\\frac{x^2}{4}+\\frac{\\ln x}{2}\\Bigr]_1^{e}\n=\\frac{e^2+1}{4}.\n$$",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "differential_equation",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "first_order_differential_equation",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "first_order_linear_equation",
+        "area_volume_arc"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 18
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2022.19",
+      "number": 19,
+      "title": "2022 年数学二 第 19 题",
+      "questionText": "已知平面区域\n$D = \\left\\{ \\left( x,y \\right) \\mid y - 2 \\le x \\le \\sqrt{4 - y^{2}},\\ 0 \\le y \\le 2 \\right\\}$\n\n计算\n\n$I = \\iint_{D} \\frac{\\left( x-y \\right)^{2}}{x^{2} + y^{2}} \\mathrm{~d}x \\mathrm{~d}y$\n\n**解析：** 改用极坐标.区域边界为圆 $r=2$ 与直线 $x=y-2$，后者化为\n\n$$\nr=\\frac{2}{\\sin\\theta-\\cos\\theta}.\n$$\n\n又\n\n$$\n\\frac{(x-y)^2}{x^2+y^2}=(\\cos\\theta-\\sin\\theta)^2.\n$$\n\n按 $0\\le\\theta\\le\\frac\\pi2$ 与 $\\frac\\pi2\\le\\theta\\le\\pi$ 分段积分，得\n\n$$\nI=2\\int_0^{\\pi/2}(1-\\sin2\\theta)\\,\\mathrm{d}\\theta+2\\int_{\\pi/2}^{\\pi}\\mathrm{d}\\theta=2\\pi-2.\n$$\n\n---",
+      "answerText": "答案：$2\\pi-2$\n\n**解析：**\n区域 $D$ 由圆 $x^2+y^2=4$、直线 $x=y-2$ 与 $x$ 轴围成。极坐标下被积函数化为\n$$\n\\frac{(x-y)^2}{x^2+y^2}=(\\cos\\theta-\\sin\\theta)^2=1-\\sin2\\theta,\n$$\n直线 $x=y-2$ 即 $r=\\dfrac{2}{\\sin\\theta-\\cos\\theta}$。\n**$0\\le\\theta\\le\\dfrac{\\pi}{2}$：** 射线从原点进入区域，$r$ 从 $0$ 到 $2$：\n$$\nI_1=\\int_0^{\\pi/2}\\!\\!\\mathrm{d}\\theta\\int_0^2(1-\\sin2\\theta)\\,r\\,\\mathrm{d}r\n=2\\int_0^{\\pi/2}(1-\\sin2\\theta)\\,\\mathrm{d}\\theta=\\pi-2.\n$$\n**$\\dfrac{\\pi}{2}\\le\\theta\\le\\pi$：** 射线从直线进入、圆穿出，$r$ 从 $\\dfrac{2}{\\sin\\theta-\\cos\\theta}$ 到 $2$：\n$$\nI_2=\\frac12\\int_{\\pi/2}^{\\pi}(1-\\sin2\\theta)\\Bigl[4-\\frac{4}{(\\sin\\theta-\\cos\\theta)^2}\\Bigr]\\mathrm{d}\\theta\n=\\pi+2-2=\\pi,\n$$\n其中用到 $(\\sin\\theta-\\cos\\theta)^2=1-\\sin2\\theta$ 与 $\\displaystyle\\int_{\\pi/2}^{\\pi}\\frac{\\mathrm{d}\\theta}{(\\sin\\theta-\\cos\\theta)^2}=\\Bigl[-\\frac{\\cot(\\theta-\\pi/4)}{2}\\Bigr]_{\\pi/2}^{\\pi}=1$。\n故 $I=I_1+I_2=2\\pi-2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multiple_integral",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "double_integral",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "polar_coordinates",
+        "double_integral_region"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 19
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2022.20",
+      "number": 20,
+      "title": "2022 年数学二 第 20 题",
+      "questionText": "已知可微函数 $f\\left( u,v \\right)$ 满足\n$\\frac{\\partial f\\left( u,v \\right)}{\\partial u} - \\frac{\\partial f\\left( u,v \\right)}{\\partial v} = 2\\left( u-v \\right)e^{-\\left( u+v \\right)}$\n\n且\n\n$f\\left( u,0 \\right) = u^{2}e^{-u}$\n\n**（I）** 记 $g\\left( x,y \\right) = f\\left( x,y-x \\right)$，求 $\\frac{\\partial g\\left( x,y \\right)}{\\partial x}$；\n\n**（II）** 求 $f\\left( u,v \\right)$ 的表达式与极值.\n\n**解析：** 设 $g(x,y)=f(x,y-x)$.\n\n#### （I）\n\n由链式法则\n\n$$\n\\frac{\\partial g}{\\partial x}\n=\\frac{\\partial f}{\\partial u}-\\frac{\\partial f}{\\partial v}\n=2\\bigl(x-(y-x)\\bigr)e^{-y}=(4x-2y)e^{-y}.\n$$\n\n#### （II）\n\n对 $x$ 积分得\n\n$$\ng(x,y)=2x(x-y)e^{-y}+\\varphi(y).\n$$\n\n代入 $u=x,\\ v=y-x$，并利用 $f(u,0)=u^2e^{-u}$，可求得 $\\varphi(u)=u^2e^{-u}$，从而\n\n$$\nf(u,v)=(u^2+v^2)e^{-(u+v)}.\n$$\n\n再求偏导可得驻点为 $(0,0)$ 与 $(1,1)$；其中 $(0,0)$ 处取极小值 $0$，$(1,1)$ 不是极值点.\n\n---",
+      "answerText": "答案：（I）$\\dfrac{\\partial g}{\\partial x}=(4x-2y)e^{-y}$；（II）$f(u,v)=(u^{2}+v^{2})e^{-(u+v)}$，极小值 $f(0,0)=0$，$(1,1)$ 不是极值点\n\n**解析：**\n**（I）** 由链式法则（$u=x,\\ v=y-x$）：\n$$\n\\frac{\\partial g}{\\partial x}=\\frac{\\partial f}{\\partial u}\\cdot 1+\\frac{\\partial f}{\\partial v}\\cdot(-1)\n=\\frac{\\partial f}{\\partial u}-\\frac{\\partial f}{\\partial v}\n=2\\bigl(x-(y-x)\\bigr)e^{-(x+y-x)}\n=(4x-2y)e^{-y}.\n$$\n**（II）** 对 $x$ 积分：\n$$\ng(x,y)=\\bigl(2x^2-2xy\\bigr)e^{-y}+\\varphi(y)=2x(x-y)e^{-y}+\\varphi(y).\n$$\n换回 $u,v$（$x=u,\\ y=u+v$）：\n$$\nf(u,v)=-2uv\\,e^{-(u+v)}+\\varphi(u+v).\n$$\n令 $v=0$：$f(u,0)=\\varphi(u)=u^2e^{-u}$，故\n$$\nf(u,v)=\\bigl[(u+v)^2-2uv\\bigr]e^{-(u+v)}=(u^2+v^2)\\,e^{-(u+v)}.\n$$\n求驻点：$f_u=\\bigl(2u-u^2-v^2\\bigr)e^{-(u+v)}=0$，$f_v=\\bigl(2v-u^2-v^2\\bigr)e^{-(u+v)}=0$，两式相减得 $u=v$，代回得 $2u=2u^2$，即驻点 $(0,0)$ 与 $(1,1)$。\n二阶判别：$f_{uu}=\\bigl(u^2+v^2-4u+2\\bigr)e^{-(u+v)}$，$f_{uv}=\\bigl(u^2+v^2-4u\\bigr)e^{-(u+v)}$，$f_{vv}=\\bigl(u^2+v^2-4v+2\\bigr)e^{-(u+v)}$。\n在 $(0,0)$：$A=2,\\ B=0,\\ C=2$，$AC-B^2=4>0$ 且 $A>0$，取极小值 $f(0,0)=0$。\n在 $(1,1)$：$A=0,\\ B=-2,\\ C=0$，$AC-B^2=-4<0$，不是极值点。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "multivariable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "multivariable_extrema",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "composite_function_chain_rule",
+        "extrema"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 20
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2022.21",
+      "number": 21,
+      "title": "2022 年数学二 第 21 题",
+      "questionText": "设函数 $f\\left( x \\right)$ 在 $\\left( -\\infty,+\\infty \\right)$ 上有二阶连续导数，证明：\n$f^{\\prime\\prime}\\left( x \\right) \\ge 0$\n\n的充分必要条件是对任意不同的实数 $a,b$，都有\n\n$f\\left( \\frac{a+b}{2} \\right) \\le \\frac{1}{b-a}\\int_{a}^{b} f\\left( x \\right) \\mathrm{~d}x$\n\n成立.\n\n**解析：** 记 $m=\\frac{a+b}{2}$.\n\n**必要性：** 若 $f''(x)\\ge0$，则 $f$ 为凸函数.在点 $m$ 处有\n\n$$\nf(x)\\ge f(m)+f'(m)(x-m)\\quad(x\\in[a,b]).\n$$\n\n两边在 $[a,b]$ 上积分，且 $\\int_a^b(x-m)\\,\\mathrm{d}x=0$，即得\n\n$$\nf\\left(\\frac{a+b}{2}\\right)\\le \\frac1{b-a}\\int_a^b f(x)\\,\\mathrm{d}x.\n$$\n\n**充分性：** 反设存在 $x_0$ 使 $f''(x_0)<0$.由连续性，存在邻域 $[a_0,b_0]$ 使 $f''<0$，即该区间上 $f$ 为凹函数，从而有\n\n$$\nf\\left(\\frac{a_0+b_0}{2}\\right)>\\frac1{b_0-a_0}\\int_{a_0}^{b_0} f(x)\\,\\mathrm{d}x,\n$$\n\n与题设矛盾.故 $f''(x)\\ge0$.\n\n---",
+      "answerText": "答案：命题得证（$f''(x)\\ge 0$ 与题设积分不等式互为充要条件）\n\n**解析：**\n记 $m=\\dfrac{a+b}{2}$。\n**必要性：** 设 $f''(x)\\ge0$，则 $f$ 是凹函数，曲线位于任一点处切线上方。在点 $m$ 处：\n$$\nf(x)\\ge f(m)+f'(m)(x-m),\\qquad x\\in[a,b].\n$$\n两边在 $[a,b]$ 上积分，注意 $\\displaystyle\\int_a^b(x-m)\\,\\mathrm{d}x=0$：\n$$\n\\int_a^b f(x)\\,\\mathrm{d}x\\ \\ge\\ (b-a)f(m)\n\\ \\Longrightarrow\\\nf\\Bigl(\\frac{a+b}{2}\\Bigr)\\le\\frac{1}{b-a}\\int_a^b f(x)\\,\\mathrm{d}x .\n$$\n**充分性：** 反证。设有点 $x_0$ 使 $f''(x_0)<0$。由 $f''$ 连续，存在闭区间 $[a_0,b_0]$（$a_0<b_0$）使 $f''<0$ 于其上，即 $f$ 在 $[a_0,b_0]$ 上是凸函数，重复必要性的论证（不等号全部反向）得\n$$\nf\\Bigl(\\frac{a_0+b_0}{2}\\Bigr)>\\frac{1}{b_0-a_0}\\int_{a_0}^{b_0}f(x)\\,\\mathrm{d}x,\n$$\n与题设对任意 $a,b$ 成立的积分不等式矛盾。故 $f''(x)\\ge0$ 处处成立。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "one_variable_differential",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "inequality_proof",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "concavity_inflection",
+        "definite_integral_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 21
+      },
+      "subjectGuess": "calculus",
+      "section": "三、解答题"
+    },
+    {
+      "id": "bank.exam.m2-2022.22",
+      "number": 22,
+      "title": "2022 年数学二 第 22 题",
+      "questionText": "已知二次型\n$f\\left( x_{1},x_{2},x_{3} \\right) = 3x_{1}^{2} + 4x_{2}^{2} + 3x_{3}^{2} + 2x_{1}x_{3}$\n\n**（I）** 求正交矩阵 $\\boldsymbol{Q}$，使正交变换 $\\boldsymbol{x} = \\boldsymbol{Q}\\boldsymbol{y}$ 将二次型 $f\\left( x_{1},x_{2},x_{3} \\right)$ 化为标准形；\n\n**（II）** 证明\n\n$\\min_{\\boldsymbol{x} \\ne \\boldsymbol{0}} \\frac{f\\left( \\boldsymbol{x} \\right)}{\\boldsymbol{x}^{T}\\boldsymbol{x}} = 2$\n\n**解析：** 二次型对应的对称矩阵为\n\n$$\nA=\\begin{pmatrix}3&0&1\\\\0&4&0\\\\1&0&3\\end{pmatrix}.\n$$\n\n其特征值为 $4,4,2$.可取一组标准正交特征向量\n\n$$\n\\xi_1=\\frac1{\\sqrt2}\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix},\\quad\n\\xi_2=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\quad\n\\xi_3=\\frac1{\\sqrt2}\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}.\n$$\n\n令\n\n$$\nQ=(\\xi_1,\\xi_2,\\xi_3)=\n\\begin{pmatrix}\n\\frac1{\\sqrt2}&0&-\\frac1{\\sqrt2}\\\\\n0&1&0\\\\\n\\frac1{\\sqrt2}&0&\\frac1{\\sqrt2}\n\\end{pmatrix},\n$$\n\n则\n\n$$\nQ^TAQ=\\operatorname{diag}(4,4,2),\n$$\n\n故标准形为 $4y_1^2+4y_2^2+2y_3^2$.又\n\n$$\n\\frac{f(x)}{x^Tx}=\\frac{4y_1^2+4y_2^2+2y_3^2}{y_1^2+y_2^2+y_3^2}\\ge2,\n$$\n\n当 $y_1=y_2=0,\\ y_3\\ne0$ 时取等号，因此最小值为 $2$.",
+      "answerText": "答案：（I）$\\boldsymbol{Q}=\\begin{pmatrix}\\frac{1}{\\sqrt2}&0&-\\frac{1}{\\sqrt2}\\\\0&1&0\\\\\\frac{1}{\\sqrt2}&0&\\frac{1}{\\sqrt2}\\end{pmatrix}$，标准形 $f=4y_1^{2}+4y_2^{2}+2y_3^{2}$；（II）最小值为 $2$\n\n**解析：**\n**（I）** 二次型的矩阵 $\\boldsymbol{A}=\\begin{pmatrix}3&0&1\\\\0&4&0\\\\1&0&3\\end{pmatrix}$。由\n$$\n\\det(\\lambda\\boldsymbol{E}-\\boldsymbol{A})=(\\lambda-4)^2(\\lambda-2),\n$$\n得特征值 $\\lambda_1=\\lambda_2=4,\\ \\lambda_3=2$。\n$\\lambda=4$：$(4\\boldsymbol{E}-\\boldsymbol{A})\\boldsymbol{x}=\\boldsymbol{0}$ 给 $x_1=x_3$、$x_2$ 任意，取正交单位向量\n$$\n\\boldsymbol{\\xi}_1=\\frac{1}{\\sqrt2}\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix},\\qquad\n\\boldsymbol{\\xi}_2=\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix};\n$$\n$\\lambda=2$：$x_1=-x_3,\\ x_2=0$，取\n$$\n\\boldsymbol{\\xi}_3=\\frac{1}{\\sqrt2}\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}.\n$$\n（$\\boldsymbol{\\xi}_1$ 与 $\\boldsymbol{\\xi}_3$ 分属不同特征值，$\\boldsymbol{\\xi}_1\\perp\\boldsymbol{\\xi}_3$ 自动成立；同属 $\\lambda=4$ 的两个向量恰好正交。）令\n$$\n\\boldsymbol{Q}=(\\boldsymbol{\\xi}_1,\\boldsymbol{\\xi}_2,\\boldsymbol{\\xi}_3)\n=\\begin{pmatrix}\\frac{1}{\\sqrt2}&0&-\\frac{1}{\\sqrt2}\\\\0&1&0\\\\\\frac{1}{\\sqrt2}&0&\\frac{1}{\\sqrt2}\\end{pmatrix},\n\\qquad\n\\boldsymbol{Q}^{T}\\boldsymbol{A}\\boldsymbol{Q}=\\operatorname{diag}(4,4,2),\n$$\n标准形为 $f=4y_1^2+4y_2^2+2y_3^2$。\n**（II）** 正交变换不改变向量的长度：$\\boldsymbol{x}^{T}\\boldsymbol{x}=\\boldsymbol{y}^{T}\\boldsymbol{y}$，于是\n$$\n\\frac{f(\\boldsymbol{x})}{\\boldsymbol{x}^{T}\\boldsymbol{x}}\n=\\frac{4y_1^2+4y_2^2+2y_3^2}{y_1^2+y_2^2+y_3^2}\n\\ \\ge\\ \\frac{2\\,(y_1^2+y_2^2+y_3^2)}{y_1^2+y_2^2+y_3^2}=2,\n$$\n当 $y_1=y_2=0,\\ y_3\\ne0$（即 $\\boldsymbol{x}$ 为 $\\lambda=2$ 的特征向量）时取等号，故最小值为 $2$。",
+      "questionImages": [],
+      "answerImages": [],
+      "primaryChapterId": "la.chapter.eigenvalues",
+      "secondaryChapterIds": [],
+      "primaryProblemTypeId": "",
+      "secondaryProblemTypeIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.symmetric_matrix",
+        "la.knowledge.orthogonal_matrix",
+        "la.knowledge.real_symmetric_properties"
+      ],
+      "methodIds": [],
+      "notes": "已校对",
+      "createdAt": "2026-09-28T00:00:00.000Z",
+      "attempts": [],
+      "origin": "builtin",
+      "difficulty": null,
+      "source": {
+        "kind": "exam",
+        "year": 2022,
+        "paper": "math2",
+        "number": 22
+      },
+      "subjectGuess": "linear_algebra",
+      "section": "三、解答题"
+    }
+  ]
 }
