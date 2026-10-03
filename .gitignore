@@ -37,3 +37,6 @@ backups/
 .agents/
 .codex/
 src-tauri/gen/
+
+# Python cache
+__pycache__/
