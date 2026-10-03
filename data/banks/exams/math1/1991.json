@@ -1,856 +1,860 @@
 {
-  "format": "mathlink-bank",
-  "version": 1,
-  "subject": "exam_mixed",
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 1991,
+ "paper": "math1",
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
+ "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1991年考研数学(一)真题.md",
+ "paperInfo": {
   "year": 1991,
   "paper": "math1",
-  "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
-  "verified": true,
-  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1991年考研数学(一)真题.md",
-  "paperInfo": {
+  "label": "数学一",
+  "sections": [
+   "一、填空题（本题共5小题，每小题3分，满分15分）",
+   "二、选择题（本题共5小题，每小题3分，满分15分）",
+   "三、（本题共3小题，每小题5分，满分15分）",
+   "四、（本题满分6分）",
+   "五、（本题满分8分）",
+   "六、（本题满分7分）",
+   "七、（本题满分8分，含2小题）",
+   "八、（本题满分6分）",
+   "九、（本题满分8分）",
+   "十、填空题（本题共2小题，每小题3分，满分6分）",
+   "十一、（本题满分6分）"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-1991.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-1991.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-1991.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-1991.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-1991.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-1991.6",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-1991.7",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-1991.8",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-1991.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-1991.10",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-1991.11",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-1991.12",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-1991.13",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-1991.14",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-1991.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-1991.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-1991.17",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-1991.18",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-1991.19",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-1991.20",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-1991.21",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-1991.22",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-1991.23",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 23
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-1991.1",
+   "number": 1,
+   "title": "1991 年数学一 第 1 题",
+   "questionText": "设 $\\left\\{ \\begin{array}{l}x = 1 + t^2,\\\\ y = \\cos t, \\end{array} \\right.$ 则 $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = \\_$",
+   "answerText": "答案：$\\dfrac{\\sin t-t\\cos t}{4t^{3}}$\n\n**解析：**\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{-\\sin t}{2t}$；再对 $t$ 求导并除以 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=2t$：$\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\dfrac{\\left(\\dfrac{-\\sin t}{2t}\\right)^{\\prime}}{2t}=\\dfrac{\\sin t-t\\cos t}{4t^{3}}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "derivative_calculation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "parametric_derivative"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：derivative_calculation、parametric_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
     "year": 1991,
     "paper": "math1",
-    "label": "数学一",
-    "sections": [
-      "一、填空题（本题共5小题，每小题3分，满分15分）",
-      "二、选择题（本题共5小题，每小题3分，满分15分）",
-      "三、（本题共3小题，每小题5分，满分15分）",
-      "四、（本题满分6分）",
-      "五、（本题满分8分）",
-      "六、（本题满分7分）",
-      "七、（本题满分8分，含2小题）",
-      "八、（本题满分6分）",
-      "九、（本题满分8分）",
-      "十、填空题（本题共2小题，每小题3分，满分6分）",
-      "十一、（本题满分6分）"
-    ],
-    "problemsOrder": [
-      {
-        "number": 1,
-        "id": "bank.exam.m1-1991.1",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 2,
-        "id": "bank.exam.m1-1991.2",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 3,
-        "id": "bank.exam.m1-1991.3",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 4,
-        "id": "bank.exam.m1-1991.4",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 5,
-        "id": "bank.exam.m1-1991.5",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 6,
-        "id": "bank.exam.m1-1991.6",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 7,
-        "id": "bank.exam.m1-1991.7",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 8,
-        "id": "bank.exam.m1-1991.8",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 9,
-        "id": "bank.exam.m1-1991.9",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 10,
-        "id": "bank.exam.m1-1991.10",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 11,
-        "id": "bank.exam.m1-1991.11",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 12,
-        "id": "bank.exam.m1-1991.12",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 13,
-        "id": "bank.exam.m1-1991.13",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 14,
-        "id": "bank.exam.m1-1991.14",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 15,
-        "id": "bank.exam.m1-1991.15",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 16,
-        "id": "bank.exam.m1-1991.16",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 17,
-        "id": "bank.exam.m1-1991.17",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 18,
-        "id": "bank.exam.m1-1991.18",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 19,
-        "id": "bank.exam.m1-1991.19",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 20,
-        "id": "bank.exam.m1-1991.20",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 21,
-        "id": "bank.exam.m1-1991.21",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 22,
-        "id": "bank.exam.m1-1991.22",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 23,
-        "id": "bank.exam.m1-1991.23",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      }
-    ],
-    "total": 17
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
   },
-  "problems": [
-    {
-      "id": "bank.exam.m1-1991.1",
-      "number": 1,
-      "title": "1991 年数学一 第 1 题",
-      "questionText": "设 $\\left\\{ \\begin{array}{l}x = 1 + t^2,\\\\ y = \\cos t, \\end{array} \\right.$ 则 $\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} = \\_$",
-      "answerText": "答案：$\\dfrac{\\sin t-t\\cos t}{4t^{3}}$\n\n**解析：**\n$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{-\\sin t}{2t}$；再对 $t$ 求导并除以 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=2t$：$\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}=\\dfrac{\\left(\\dfrac{-\\sin t}{2t}\\right)^{\\prime}}{2t}=\\dfrac{\\sin t-t\\cos t}{4t^{3}}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "derivative_calculation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "parametric_derivative"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：derivative_calculation、parametric_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 1
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.2",
-      "number": 2,
-      "title": "1991 年数学一 第 2 题",
-      "questionText": "由方程 $xyz + \\sqrt{x^2 + y^2 + z^2} = \\sqrt{2}$ 所确定的函数 $z = z(x, y)$ 在点 $(1, 0, -1)$ 处的全微分 $\\mathrm{d}z = \\_$",
-      "answerText": "答案：$\\mathrm{d}x-\\sqrt{2}\\,\\mathrm{d}y$\n\n**解析：**\n对方程两边求微分：$yz\\,\\mathrm{d}x+xz\\,\\mathrm{d}y+xy\\,\\mathrm{d}z+\\dfrac{x\\,\\mathrm{d}x+y\\,\\mathrm{d}y+z\\,\\mathrm{d}z}{\\sqrt{x^{2}+y^{2}+z^{2}}}=0$。代入点 $(1,0,-1)$（此处 $\\sqrt{x^{2}+y^{2}+z^{2}}=\\sqrt{2}$）得 $-\\mathrm{d}y+\\dfrac{\\mathrm{d}x-\\mathrm{d}z}{\\sqrt{2}}=0$，解出 $\\mathrm{d}z=\\mathrm{d}x-\\sqrt{2}\\,\\mathrm{d}y$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "partial_derivative_total_differential",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "total_differential",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：partial_derivative_total_differential，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 2
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.3",
-      "number": 3,
-      "title": "1991 年数学一 第 3 题",
-      "questionText": "已知两条直线方程为 $L_{1}:\\dfrac{x-1}{1}=\\dfrac{y-2}{0}=\\dfrac{z-3}{-1}$，$L_{2}:\\dfrac{x+2}{2}=\\dfrac{y-1}{1}=\\dfrac{z}{1}$，则过 $L_{1}$ 且平行于 $L_{2}$ 的平面方程是 $\\underline{\\quad}$",
-      "answerText": "答案：$x-3y+z+2=0$\n\n**解析：**\n平面过 $L_{1}$ 上的点 $(1,2,3)$，法向量 $\\boldsymbol{n}=\\boldsymbol{s}_{1}\\times\\boldsymbol{s}_{2}=(1,0,-1)\\times(2,1,1)=(1,-3,1)$。平面方程 $(x-1)-3(y-2)+(z-3)=0$，即 $x-3y+z+2=0$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 3
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.4",
-      "number": 4,
-      "title": "1991 年数学一 第 4 题",
-      "questionText": "已知当 $x \\to 0$ 时, $(1 + ax^2)^{\\frac{1}{3}} - 1$ 与 $\\cos x - 1$ 是等价无穷小, 则常数 $a = \\_$ .",
-      "answerText": "答案：$-\\dfrac{3}{2}$\n\n**解析：**\n由等价无穷小：$(1+ax^{2})^{\\frac{1}{3}}-1\\sim\\dfrac{a}{3}x^{2}$，$\\cos x-1\\sim-\\dfrac{1}{2}x^{2}$。两者等价要求 $\\dfrac{a}{3}=-\\dfrac{1}{2}$，故 $a=-\\dfrac{3}{2}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "equivalent_infinitesimal",
-        "infinite_and_infinitesimal"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 4
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.5",
-      "number": 5,
-      "title": "1991 年数学一 第 5 题",
-      "questionText": "设 4 阶矩阵 $\\mathbf{A}=\\begin{bmatrix} 5 & 2 & 0 & 0 \\\\ 2 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & -2 \\\\ 0 & 0 & 1 & 1 \\end{bmatrix}$，则 $\\mathbf{A}$ 的逆矩阵 $A^{-1}=\\underline{\\quad}$",
-      "answerText": "答案：$\\begin{bmatrix} 1 & -2 & 0 & 0 \\\\ -2 & 5 & 0 & 0 \\\\ 0 & 0 & \\frac{1}{3} & \\frac{2}{3} \\\\ 0 & 0 & -\\frac{1}{3} & \\frac{1}{3} \\end{bmatrix}$\n\n**解析：**\n$\\mathbf{A}$ 是分块对角阵 $\\mathrm{diag}(\\boldsymbol{B},\\boldsymbol{C})$，其中 $\\boldsymbol{B}=\\begin{pmatrix}5&2\\\\2&1\\end{pmatrix}$，$\\boldsymbol{C}=\\begin{pmatrix}1&-2\\\\1&1\\end{pmatrix}$。分别求逆：$\\boldsymbol{B}^{-1}=\\begin{pmatrix}1&-2\\\\-2&5\\end{pmatrix}$（$|\\boldsymbol{B}|=1$），$\\boldsymbol{C}^{-1}=\\dfrac{1}{3}\\begin{pmatrix}1&2\\\\-1&1\\end{pmatrix}$（$|\\boldsymbol{C}|=3$），再拼成分块对角阵。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.inverse_matrix",
-        "la.knowledge.matrix_transpose"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 5
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.6",
-      "number": 6,
-      "title": "1991 年数学一 第 6 题",
-      "questionText": "曲线 $y = \\frac{1 + \\mathrm{e}^{-x^2}}{1 - \\mathrm{e}^{-x^2}}$\n\n（A）没有渐近线\n\n（B）仅有水平渐近线\n\n（C）仅有铅直渐近线\n\n（D）既有水平渐近线又有铅直渐近线",
-      "answerText": "答案：D\n\n**解析：**\n$\\lim_{x\\to\\infty}y=1$，故 $y=1$ 是水平渐近线；$\\lim_{x\\to 0}y=\\infty$（分母 $1-\\mathrm{e}^{-x^{2}}\\to 0^{+}$），故 $x=0$ 是铅直渐近线。两者都有，选 D。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "asymptote"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：asymptote，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 6
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.7",
-      "number": 7,
-      "title": "1991 年数学一 第 7 题",
-      "questionText": "若连续函数 $f(x)$ 满足关系式 $f(x) = \\int_{0}^{2x} f\\left(\\frac{t}{2}\\right) \\mathrm{d}t + \\ln 2$ ，则 $f(x)$ 等于（ ）.\n\n(A) $\\mathrm{e}^x\\ln 2$\n\n(B) $\\mathrm{e}^{2x}\\ln 2$\n\n$\\mathrm{(C)}\\mathrm{e}^{x} + \\ln 2$\n\n$\\mathrm{(D)}\\mathrm{e}^{2x} + \\ln 2$",
-      "answerText": "答案：B\n\n**解析：**\n由原式 $f(0)=\\ln 2$。两边对 $x$ 求导（上限 $2x$，被积函数换成 $f(u)$ 需换元）：$\\displaystyle\\frac{\\mathrm{d}}{\\mathrm{d}x}\\int_{0}^{2x}f\\left(\\frac{t}{2}\\right)\\mathrm{d}t=2f(x)$，得 $f^{\\prime}(x)=2f(x)$。解此微分方程并用 $f(0)=\\ln 2$ 得 $f(x)=\\mathrm{e}^{2x}\\ln 2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_events",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.event_relations_operations"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 7
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.8",
-      "number": 8,
-      "title": "1991 年数学一 第 8 题",
-      "questionText": "已知级数 $\\sum_{n = 1}^{\\infty}(-1)^{n - 1}a_n = 2,\\sum_{n = 1}^{\\infty}a_{2n - 1} = 5$ ，则级数 $\\sum_{n = 1}^{\\infty}a_{n}$ 等于（ ）.\n\n(A)3\n\n(B)7\n\n(C)8\n\n(D)9",
-      "answerText": "答案：C\n\n**解析：**\n记奇数项和为 $S_{1}=\\sum a_{2n-1}=5$。交错级数和 2 给出 $S_{1}-S_{2}=2$（$S_{2}=\\sum a_{2n}$），故 $S_{2}=3$。于是 $\\sum a_{n}=S_{1}+S_{2}=8$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 8
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.9",
-      "number": 9,
-      "title": "1991 年数学一 第 9 题",
-      "questionText": "设 $D$ 是平面 $xOy$ 上以 $(1,1),(-1,1),(-1,-1)$ 为顶点的三角形区域，$D_{1}$ 是 $D$ 在第一象限的部分，则 $\\iint\\limits_{D}(xy+\\cos x\\sin y)\\,\\mathrm{d}x\\mathrm{d}y$ 等于（ ）.\\n\\n(A) $2\\iint_{D_1}\\cos x\\sin y\\,\\mathrm{d}x\\mathrm{d}y$\\n\\n(B) $2\\iint_{D_1}xy\\,\\mathrm{d}x\\mathrm{d}y$\\n\\n(C) $4\\iint\\limits_{D_1}(xy+\\cos x\\sin y)\\,\\mathrm{d}x\\mathrm{d}y$\\n\\n(D) $0$",
-      "answerText": "答案：A\n\n**解析：**\n区域 $D=\\{(x,y):-1\\le x\\le 1,\\ x\\le y\\le 1\\}$ 关于 $y$ 轴不对称、关于 $x$ 轴也不对称，但可拆成关于原点对称的两块。被积函数中 $xy$ 关于 $x$（或 $y$）为奇函数，在 $D$ 上的积分为 0；而 $\\cos x\\sin y$ 关于 $x$ 为偶函数、关于 $y$ 为奇函数，利用 $D$ 的对称性可得 $\\iint_{D}\\cos x\\sin y\\,\\mathrm{d}x\\mathrm{d}y=2\\iint_{D_{1}}\\cos x\\sin y\\,\\mathrm{d}x\\mathrm{d}y$。故选 A。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multiple_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "double_integral",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：double_integral，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 9
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.10",
-      "number": 10,
-      "title": "1991 年数学一 第 10 题",
-      "questionText": "设 $n$ 阶矩阵 $\\mathbf{A},\\mathbf{B},\\mathbf{C}$ 满足关系式 $\\mathbf{ABC} = \\mathbf{E}$ ，其中 $\\pmb{E}$ 为 $n$ 阶单位矩阵，则必有（ ）.\n\n(A) $\\mathbf{ACB} = \\mathbf{E}$\n\n(B) $\\mathbf{CBA} = \\mathbf{E}$\n\n(C) $\\mathbf{BAC} = \\mathbf{E}$\n\n(D) $\\mathbf{B}\\mathbf{C}\\mathbf{A} = \\mathbf{E}$",
-      "answerText": "答案：D\n\n**解析：**\n由 $\\mathbf{ABC}=\\mathbf{E}$ 知 $\\mathbf{A}$ 可逆且 $\\mathbf{BC}=\\mathbf{A}^{-1}$，两边右乘 $\\mathbf{A}$ 得 $\\mathbf{BCA}=\\mathbf{E}$。其余乘积顺序（如 $\\mathbf{ACB}$、$\\mathbf{BAC}$）一般不等于 $\\mathbf{E}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "differentiability_continuity"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 10
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.11",
-      "number": 11,
-      "title": "1991 年数学一 第 11 题",
-      "questionText": "求 $\\lim_{x\\to 0^{+}}(\\cos {\\sqrt{x}})^{\\frac{\\pi}{x}}.$",
-      "answerText": "答案：$\\mathrm{e}^{-\\frac{\\pi}{2}}$\n\n**解析：**\n改写成指数形式：$(\\cos\\sqrt{x})^{\\frac{\\pi}{x}}=\\mathrm{e}^{\\frac{\\pi}{x}\\ln\\cos\\sqrt{x}}$。当 $x\\to 0^{+}$ 时 $\\ln\\cos\\sqrt{x}\\sim\\cos\\sqrt{x}-1\\sim-\\dfrac{x}{2}$，故指数趋于 $\\dfrac{\\pi}{x}\\cdot\\left(-\\dfrac{x}{2}\\right)=-\\dfrac{\\pi}{2}$，极限为 $\\mathrm{e}^{-\\frac{\\pi}{2}}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 11
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共3小题，每小题5分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.12",
-      "number": 12,
-      "title": "1991 年数学一 第 12 题",
-      "questionText": "设 $n$ 是曲面 $2x^{2} + 3y^{2} + z^{2} = 6$ 在点 $P(1,1,1)$ 处的指向外侧的法向量，求函数 $u = \\frac{\\sqrt{6x^2 + 8y^2}}{z}$ 在点 $P$ 处沿方向 $n$ 的方向导数.",
-      "answerText": "答案：$\\dfrac{11}{7}$\n\n**解析：**\n椭球面在 $P$ 处的外法向量 $\\boldsymbol{n}=(4,6,2)$，方向余弦为 $\\left(\\dfrac{2}{\\sqrt{14}},\\dfrac{3}{\\sqrt{14}},\\dfrac{1}{\\sqrt{14}}\\right)$。又 $\\dfrac{\\partial u}{\\partial x}=\\dfrac{6x}{z\\sqrt{6x^{2}+8y^{2}}}$，$\\dfrac{\\partial u}{\\partial y}=\\dfrac{8y}{z\\sqrt{6x^{2}+8y^{2}}}$，$\\dfrac{\\partial u}{\\partial z}=-\\dfrac{\\sqrt{6x^{2}+8y^{2}}}{z^{2}}$，在 $P$ 处分别等于 $\\dfrac{6}{\\sqrt{14}},\\dfrac{8}{\\sqrt{14}},-\\sqrt{14}$。方向导数 $=\\dfrac{2}{\\sqrt{14}}\\cdot\\dfrac{6}{\\sqrt{14}}+\\dfrac{3}{\\sqrt{14}}\\cdot\\dfrac{8}{\\sqrt{14}}+\\dfrac{1}{\\sqrt{14}}\\cdot(-\\sqrt{14})=\\dfrac{36}{14}-1=\\dfrac{11}{7}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "directional_derivative_gradient",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "directional_derivative_gradient",
-        "vector_linear_operation",
-        "geometric_applications_multivariable"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 12
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共3小题，每小题5分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.13",
-      "number": 13,
-      "title": "1991 年数学一 第 13 题",
-      "questionText": "求 $\\iiint_{\\Omega} (x^2 + y^2 + z) \\, \\mathrm{d}v$ ，其中 $\\Omega$ 是由曲线 $\\left\\{ \\begin{array}{l} y^2 = 2z, \\\\ x = 0 \\end{array} \\right.$ 绕 $z$ 轴旋转一周而成的曲面与平面 $z = 4$ 所围成的立体.",
-      "answerText": "答案：$\\dfrac{256\\pi}{3}$\n\n**解析：**\n旋转曲面为 $x^{2}+y^{2}=2z$，立体为 $0\\le z\\le 4$、截面 $x^{2}+y^{2}\\le 2z$。用先二后一：$\\displaystyle\\iiint_{\\Omega}(x^{2}+y^{2}+z)\\,\\mathrm{d}v=\\int_{0}^{4}\\mathrm{d}z\\iint_{x^{2}+y^{2}\\le 2z}(r^{2}+z)\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\int_{0}^{4}2\\pi\\left(\\frac{(2z)^{2}}{4}+\\frac{z\\cdot 2z}{2}\\right)\\mathrm{d}z=4\\pi\\int_{0}^{4}z^{2}\\,\\mathrm{d}z=\\frac{256\\pi}{3}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multiple_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "triple_integral",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 13
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共3小题，每小题5分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.14",
-      "number": 14,
-      "title": "1991 年数学一 第 14 题",
-      "questionText": "在过点 $O(0,0)$ 和点 $A(\\pi,0)$ 的曲线族 $y=a\\sin x\\ (a>0)$ 中，求一条曲线 $L$，使沿该曲线从 $O$ 到 $A$ 的曲线积分 $\\displaystyle\\int_{L}(1+y^{3})\\,\\mathrm{d}x+(2x+y)\\,\\mathrm{d}y$ 的值最小.",
-      "answerText": "答案：$y=\\sin x$（即 $a=1$）\n\n**解析：**\n沿 $L:\\ y=a\\sin x$（$x$ 从 $0$ 到 $\\pi$）直接化为定积分：$I(a)=\\displaystyle\\int_{0}^{\\pi}\\left[(1+a^{3}\\sin^{3}x)+(2x+a\\sin x)\\,a\\cos x\\right]\\mathrm{d}x=\\pi+\\frac{4}{3}a^{3}-4a$（用到 $\\int_{0}^{\\pi}\\sin^{3}x\\,\\mathrm{d}x=\\frac{4}{3}$，$\\int_{0}^{\\pi}2x\\cos x\\,\\mathrm{d}x=-4$，$\\int_{0}^{\\pi}\\sin x\\cos x\\,\\mathrm{d}x=0$）。令 $I^{\\prime}(a)=4a^{2}-4=0$ 得 $a=1$，且 $I^{\\prime\\prime}(1)=8>0$，故 $a=1$ 时积分最小，所求曲线为 $y=\\sin x$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "line_integral_second_kind",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 14
-      },
-      "subjectGuess": "calculus",
-      "section": "四、（本题满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.15",
-      "number": 15,
-      "title": "1991 年数学一 第 15 题",
-      "questionText": "将函数 $f(x)=2+|x|\\ (-1\\leqslant x\\leqslant 1)$ 展开成以 2 为周期的傅里叶级数，并由此求级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}$ 的和.",
-      "answerText": "答案：$f(x)=\\dfrac{5}{2}-\\dfrac{4}{\\pi^{2}}\\displaystyle\\sum_{k=0}^{\\infty}\\frac{\\cos(2k+1)\\pi x}{(2k+1)^{2}}$；$\\displaystyle\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}=\\frac{\\pi^{2}}{6}$\n\n**解析：**\n$f$ 为偶函数，$b_{n}=0$；$a_{0}=2\\int_{0}^{1}(2+x)\\,\\mathrm{d}x=5$，$a_{n}=2\\int_{0}^{1}(2+x)\\cos n\\pi x\\,\\mathrm{d}x=\\dfrac{2[(-1)^{n}-1]}{n^{2}\\pi^{2}}$，即奇数项为 $-\\dfrac{4}{n^{2}\\pi^{2}}$、偶数项为 0。延拓后处处连续，故展开式在 $(-\\infty,+\\infty)$ 成立。令 $x=0$：$2=\\dfrac{5}{2}-\\dfrac{4}{\\pi^{2}}\\sum_{k=0}^{\\infty}\\dfrac{1}{(2k+1)^{2}}$，得奇数项倒数平方和为 $\\dfrac{\\pi^{2}}{8}$。再设 $S=\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}$，则 $S=\\dfrac{\\pi^{2}}{8}+\\dfrac{S}{4}$，解得 $S=\\dfrac{\\pi^{2}}{6}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "fourier_series",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "fourier_series_coefficients"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：fourier_series、fourier_series_coefficients，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 15
-      },
-      "subjectGuess": "calculus",
-      "section": "五、（本题满分8分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.16",
-      "number": 16,
-      "title": "1991 年数学一 第 16 题",
-      "questionText": "设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且 $3\\displaystyle\\int_{\\frac{2}{3}}^{1}f(x)\\,\\mathrm{d}x=f(0)$，证明：在 $(0,1)$ 内存在一点 $c$，使得 $f^{\\prime}(c)=0$.",
-      "answerText": "答案：证明见解析\n\n**解析：**\n由积分中值定理，存在 $x_{0}\\in\\left[\\dfrac{2}{3},1\\right]$ 使 $\\displaystyle\\int_{\\frac{2}{3}}^{1}f(x)\\,\\mathrm{d}x=f(x_{0})\\cdot\\frac{1}{3}$，即 $3\\int_{\\frac{2}{3}}^{1}f(x)\\,\\mathrm{d}x=f(x_{0})$。于是 $f(0)=f(x_{0})$。$f$ 在 $[0,x_{0}]$ 上连续、$(0,x_{0})$ 内可导，由罗尔定理存在 $c\\in(0,x_{0})\\subset(0,1)$ 使 $f^{\\prime}(c)=0$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 16
-      },
-      "subjectGuess": "calculus",
-      "section": "六、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.17",
-      "number": 17,
-      "title": "1991 年数学一 第 17 题",
-      "questionText": "设 $\\boldsymbol{\\alpha}_{1}=(1,0,2,3)$，$\\boldsymbol{\\alpha}_{2}=(1,1,3,5)$，$\\boldsymbol{\\alpha}_{3}=(1,-1,a+2,1)$，$\\boldsymbol{\\alpha}_{4}=(1,2,4,a+8)$ 及 $\\boldsymbol{\\beta}=(1,1,b+3,5)$.\\n\\n（1）$a, b$ 为何值时，$\\boldsymbol{\\beta}$ 不可由 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}$ 线性表示？",
-      "answerText": "答案：$a=-1$ 且 $b\\neq 0$\n\n**解析：**\n设 $x_{1}\\boldsymbol{\\alpha}_{1}+x_{2}\\boldsymbol{\\alpha}_{2}+x_{3}\\boldsymbol{\\alpha}_{3}+x_{4}\\boldsymbol{\\alpha}_{4}=\\boldsymbol{\\beta}$，对增广矩阵作初等行变换得阶梯形 $\\begin{pmatrix}1&1&1&1&1\\\\0&1&-1&2&1\\\\0&0&a+1&0&b\\\\0&0&0&a+1&0\\end{pmatrix}$。当 $a=-1$ 时末两行给出 $0=b$ 与 $0=0$，故 $b\\neq 0$ 时无解，即 $\\boldsymbol{\\beta}$ 不能被线性表示。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.linear_representation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.linear_combination"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation、la.knowledge.linear_combination，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 17
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "七、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1991.18",
-      "number": 18,
-      "title": "1991 年数学一 第 18 题",
-      "questionText": "设 $\\boldsymbol{\\alpha}_{1}=(1,0,2,3)$，$\\boldsymbol{\\alpha}_{2}=(1,1,3,5)$，$\\boldsymbol{\\alpha}_{3}=(1,-1,a+2,1)$，$\\boldsymbol{\\alpha}_{4}=(1,2,4,a+8)$ 及 $\\boldsymbol{\\beta}=(1,1,b+3,5)$.\\n\\n（2）$a, b$ 为何值时，$\\boldsymbol{\\beta}$ 可由 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}$ 唯一线性表示？并写出该表达式.",
-      "answerText": "答案：$a\\neq -1$（$b$ 任意）；$\\boldsymbol{\\beta}=-\\dfrac{2b}{a+1}\\boldsymbol{\\alpha}_{1}+\\dfrac{a+b+1}{a+1}\\boldsymbol{\\alpha}_{2}+\\dfrac{b}{a+1}\\boldsymbol{\\alpha}_{3}+0\\cdot\\boldsymbol{\\alpha}_{4}$\n\n**解析：**\n当 $a\\neq -1$ 时 $r(\\mathbf{A})=r(\\overline{\\mathbf{A}})=4$，方程组有唯一解：$x_{3}=\\dfrac{b}{a+1}$，$x_{4}=0$，回代得 $x_{2}=\\dfrac{a+b+1}{a+1}$，$x_{1}=-\\dfrac{2b}{a+1}$，即得上述唯一表达式。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.linear_representation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.linear_combination"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation、la.knowledge.linear_combination，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 18
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "七、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1991.19",
-      "number": 19,
-      "title": "1991 年数学一 第 19 题",
-      "questionText": "设 $\\mathbf{A}$ 为 $n$ 阶正定矩阵，$\\mathbf{E}$ 为 $n$ 阶单位矩阵，证明：$|\\mathbf{A}+\\mathbf{E}|>1$.",
-      "answerText": "答案：证明见解析\n\n**解析：**\n因 $\\mathbf{A}$ 正定，其特征值 $\\lambda_{1},\\dots,\\lambda_{n}$ 全大于 0。存在正交矩阵 $\\mathbf{Q}$ 使 $\\mathbf{Q}^{\\mathrm{T}}\\mathbf{A}\\mathbf{Q}=\\operatorname{diag}(\\lambda_{1},\\dots,\\lambda_{n})$，于是 $\\mathbf{Q}^{\\mathrm{T}}(\\mathbf{A}+\\mathbf{E})\\mathbf{Q}=\\operatorname{diag}(\\lambda_{1}+1,\\dots,\\lambda_{n}+1)$。两边取行列式：$|\\mathbf{A}+\\mathbf{E}|=(\\lambda_{1}+1)(\\lambda_{2}+1)\\cdots(\\lambda_{n}+1)>1$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.quadratic_forms",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.positive_definiteness",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.positive_definite_concept",
-        "la.knowledge.positive_definite_criteria"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.positive_definiteness、la.knowledge.positive_definite_concept、la.knowledge.positive_definite_criteria，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 19
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "八、（本题满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.20",
-      "number": 20,
-      "title": "1991 年数学一 第 20 题",
-      "questionText": "在上半平面求一条向上凹的曲线，其上任一点 $P(x,y)$ 处的曲率等于此曲线在该点的法线段 $PQ$ 长度的倒数（$Q$ 是法线与 $x$ 轴的交点），且曲线在点 $(1,1)$ 处的切线与 $x$ 轴平行.",
-      "answerText": "答案：$y=\\dfrac{\\mathrm{e}^{x-1}+\\mathrm{e}^{1-x}}{2}$\n\n**解析：**\n设曲线 $y=y(x)$。法线 $Y-y=-\\dfrac{1}{y^{\\prime}}(X-x)$ 与 $x$ 轴交点为 $Q(x+yy^{\\prime},\\,0)$，故 $|PQ|=y\\sqrt{1+y^{\\prime 2}}$（$y>0$）。由题意 $\\dfrac{|y^{\\prime\\prime}|}{(1+y^{\\prime 2})^{3/2}}=\\dfrac{1}{y\\sqrt{1+y^{\\prime 2}}}$，结合向上凹得 $yy^{\\prime\\prime}=1+y^{\\prime 2}$，初始条件 $y(1)=1,\\ y^{\\prime}(1)=0$。令 $y^{\\prime}=p(y)$，分离变量解得 $1+p^{2}=y^{2}$，再积分得 $\\ln\\left(y+\\sqrt{y^{2}-1}\\right)=\\pm(x-1)$，两式联立解出 $y=\\dfrac{\\mathrm{e}^{x-1}+\\mathrm{e}^{1-x}}{2}$（悬链线）。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "curvature"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：curvature，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 20
-      },
-      "subjectGuess": "calculus",
-      "section": "九、（本题满分8分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.21",
-      "number": 21,
-      "title": "1991 年数学一 第 21 题",
-      "questionText": "设随机变量 $X$ 服从均值为 2、方差为 $\\sigma^{2}$ 的正态分布，且 $P\\{2<X<4\\}=0.3$，则 $P\\{X<0\\}=\\underline{\\quad}$ .",
-      "answerText": "答案：$0.2$\n\n**解析：**\n标准化后 $\\dfrac{X-2}{\\sigma}\\sim N(0,1)$。$P\\{2<X<4\\}=\\Phi\\left(\\dfrac{2}{\\sigma}\\right)-0.5=0.3$，得 $\\Phi\\left(\\dfrac{2}{\\sigma}\\right)=0.8$。由对称性 $P\\{X<0\\}=\\Phi\\left(-\\dfrac{2}{\\sigma}\\right)=1-0.8=0.2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.normal_distribution"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation、prob.knowledge.normal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 21
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.22",
-      "number": 22,
-      "title": "1991 年数学一 第 22 题",
-      "questionText": "随机地向半圆 $0<y<\\sqrt{2ax-x^{2}}$（$a>0$）内掷一点，点落在半圆内任何区域的概率与该区域的面积成正比，则原点与该点的连线与 $x$ 轴的夹角小于 $\\dfrac{\\pi}{4}$ 的概率为 $\\underline{\\quad}$",
-      "answerText": "答案：$\\dfrac{1}{2}+\\dfrac{1}{\\pi}$\n\n**解析：**\n半圆圆心在 $(a,0)$、半径为 $a$，面积 $\\dfrac{\\pi a^{2}}{2}$。夹角小于 $\\dfrac{\\pi}{4}$ 的区域为极角 $\\theta\\in\\left(0,\\dfrac{\\pi}{4}\\right]$ 内的扇形部分，其面积 $=\\dfrac{1}{2}\\int_{0}^{\\frac{\\pi}{4}}(2a\\cos\\theta)^{2}\\,\\mathrm{d}\\theta=a^{2}\\left(\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\right)$。所求概率 $=\\dfrac{a^{2}\\left(\\frac{\\pi}{4}+\\frac{1}{2}\\right)}{\\frac{\\pi a^{2}}{2}}=\\dfrac{1}{2}+\\dfrac{1}{\\pi}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "area_volume_arc",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 22
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1991.23",
-      "number": 23,
-      "title": "1991 年数学一 第 23 题",
-      "questionText": "设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\\begin{cases}2\\mathrm{e}^{-(x+2y)}, & x>0,\\ y>0, \\\\ 0, & \\text{其他},\\end{cases}$ 求随机变量 $Z=X+2Y$ 的分布函数.",
-      "answerText": "答案：$F_{Z}(z)=\\begin{cases}1-\\mathrm{e}^{-z}-z\\mathrm{e}^{-z}, & z>0, \\\\ 0, & z\\leqslant 0.\\end{cases}$\n\n**解析：**\n$F_{Z}(z)=P\\{X+2Y\\le z\\}=\\iint_{x+2y\\le z}f(x,y)\\,\\mathrm{d}x\\mathrm{d}y$。$z\\le 0$ 时为 0；$z>0$ 时 $F_{Z}(z)=\\displaystyle\\int_{0}^{z}\\mathrm{d}x\\int_{0}^{\\frac{z-x}{2}}2\\mathrm{e}^{-(x+2y)}\\,\\mathrm{d}y=\\int_{0}^{z}\\left(\\mathrm{e}^{-x}-\\mathrm{e}^{-z}\\right)\\mathrm{d}x=1-\\mathrm{e}^{-z}-z\\mathrm{e}^{-z}$。（即 $Z$ 服从参数为 1 的 $\\Gamma(2)$ 分布。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.multidimensional_random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.block_matrix",
-        "prob.knowledge.functions_of_random_variables",
-        "prob.knowledge.joint_distribution_function"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.functions_of_random_variables、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1991,
-        "paper": "math1",
-        "number": 23
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十一、（本题满分6分）"
-    }
-  ]
+  {
+   "id": "bank.exam.m1-1991.2",
+   "number": 2,
+   "title": "1991 年数学一 第 2 题",
+   "questionText": "由方程 $xyz + \\sqrt{x^2 + y^2 + z^2} = \\sqrt{2}$ 所确定的函数 $z = z(x, y)$ 在点 $(1, 0, -1)$ 处的全微分 $\\mathrm{d}z = \\_$",
+   "answerText": "答案：$\\mathrm{d}x-\\sqrt{2}\\,\\mathrm{d}y$\n\n**解析：**\n对方程两边求微分：$yz\\,\\mathrm{d}x+xz\\,\\mathrm{d}y+xy\\,\\mathrm{d}z+\\dfrac{x\\,\\mathrm{d}x+y\\,\\mathrm{d}y+z\\,\\mathrm{d}z}{\\sqrt{x^{2}+y^{2}+z^{2}}}=0$。代入点 $(1,0,-1)$（此处 $\\sqrt{x^{2}+y^{2}+z^{2}}=\\sqrt{2}$）得 $-\\mathrm{d}y+\\dfrac{\\mathrm{d}x-\\mathrm{d}z}{\\sqrt{2}}=0$，解出 $\\mathrm{d}z=\\mathrm{d}x-\\sqrt{2}\\,\\mathrm{d}y$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "partial_derivative_total_differential",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "total_differential",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：partial_derivative_total_differential，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.3",
+   "number": 3,
+   "title": "1991 年数学一 第 3 题",
+   "questionText": "已知两条直线方程为 $L_{1}:\\dfrac{x-1}{1}=\\dfrac{y-2}{0}=\\dfrac{z-3}{-1}$，$L_{2}:\\dfrac{x+2}{2}=\\dfrac{y-1}{1}=\\dfrac{z}{1}$，则过 $L_{1}$ 且平行于 $L_{2}$ 的平面方程是 $\\underline{\\quad}$",
+   "answerText": "答案：$x-3y+z+2=0$\n\n**解析：**\n平面过 $L_{1}$ 上的点 $(1,2,3)$，法向量 $\\boldsymbol{n}=\\boldsymbol{s}_{1}\\times\\boldsymbol{s}_{2}=(1,0,-1)\\times(2,1,1)=(1,-3,1)$。平面方程 $(x-1)-3(y-2)+(z-3)=0$，即 $x-3y+z+2=0$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_perpendicular_parallel"
+   ],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：vector_perpendicular_parallel，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.4",
+   "number": 4,
+   "title": "1991 年数学一 第 4 题",
+   "questionText": "已知当 $x \\to 0$ 时, $(1 + ax^2)^{\\frac{1}{3}} - 1$ 与 $\\cos x - 1$ 是等价无穷小, 则常数 $a = \\_$ .",
+   "answerText": "答案：$-\\dfrac{3}{2}$\n\n**解析：**\n由等价无穷小：$(1+ax^{2})^{\\frac{1}{3}}-1\\sim\\dfrac{a}{3}x^{2}$，$\\cos x-1\\sim-\\dfrac{1}{2}x^{2}$。两者等价要求 $\\dfrac{a}{3}=-\\dfrac{1}{2}$，故 $a=-\\dfrac{3}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "infinite_and_infinitesimal"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.5",
+   "number": 5,
+   "title": "1991 年数学一 第 5 题",
+   "questionText": "设 4 阶矩阵 $\\mathbf{A}=\\begin{bmatrix} 5 & 2 & 0 & 0 \\\\ 2 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & -2 \\\\ 0 & 0 & 1 & 1 \\end{bmatrix}$，则 $\\mathbf{A}$ 的逆矩阵 $A^{-1}=\\underline{\\quad}$",
+   "answerText": "答案：$\\begin{bmatrix} 1 & -2 & 0 & 0 \\\\ -2 & 5 & 0 & 0 \\\\ 0 & 0 & \\frac{1}{3} & \\frac{2}{3} \\\\ 0 & 0 & -\\frac{1}{3} & \\frac{1}{3} \\end{bmatrix}$\n\n**解析：**\n$\\mathbf{A}$ 是分块对角阵 $\\mathrm{diag}(\\boldsymbol{B},\\boldsymbol{C})$，其中 $\\boldsymbol{B}=\\begin{pmatrix}5&2\\\\2&1\\end{pmatrix}$，$\\boldsymbol{C}=\\begin{pmatrix}1&-2\\\\1&1\\end{pmatrix}$。分别求逆：$\\boldsymbol{B}^{-1}=\\begin{pmatrix}1&-2\\\\-2&5\\end{pmatrix}$（$|\\boldsymbol{B}|=1$），$\\boldsymbol{C}^{-1}=\\dfrac{1}{3}\\begin{pmatrix}1&2\\\\-1&1\\end{pmatrix}$（$|\\boldsymbol{C}|=3$），再拼成分块对角阵。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.6",
+   "number": 6,
+   "title": "1991 年数学一 第 6 题",
+   "questionText": "曲线 $y = \\frac{1 + \\mathrm{e}^{-x^2}}{1 - \\mathrm{e}^{-x^2}}$\n\n（A）没有渐近线\n\n（B）仅有水平渐近线\n\n（C）仅有铅直渐近线\n\n（D）既有水平渐近线又有铅直渐近线",
+   "answerText": "答案：D\n\n**解析：**\n$\\lim_{x\\to\\infty}y=1$，故 $y=1$ 是水平渐近线；$\\lim_{x\\to 0}y=\\infty$（分母 $1-\\mathrm{e}^{-x^{2}}\\to 0^{+}$），故 $x=0$ 是铅直渐近线。两者都有，选 D。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "asymptote"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：asymptote，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.7",
+   "number": 7,
+   "title": "1991 年数学一 第 7 题",
+   "questionText": "若连续函数 $f(x)$ 满足关系式 $f(x) = \\int_{0}^{2x} f\\left(\\frac{t}{2}\\right) \\mathrm{d}t + \\ln 2$ ，则 $f(x)$ 等于（ ）.\n\n(A) $\\mathrm{e}^x\\ln 2$\n\n(B) $\\mathrm{e}^{2x}\\ln 2$\n\n$\\mathrm{(C)}\\mathrm{e}^{x} + \\ln 2$\n\n$\\mathrm{(D)}\\mathrm{e}^{2x} + \\ln 2$",
+   "answerText": "答案：B\n\n**解析：**\n由原式 $f(0)=\\ln 2$。两边对 $x$ 求导（上限 $2x$，被积函数换成 $f(u)$ 需换元）：$\\displaystyle\\frac{\\mathrm{d}}{\\mathrm{d}x}\\int_{0}^{2x}f\\left(\\frac{t}{2}\\right)\\mathrm{d}t=2f(x)$，得 $f^{\\prime}(x)=2f(x)$。解此微分方程并用 $f(0)=\\ln 2$ 得 $f(x)=\\mathrm{e}^{2x}\\ln 2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_events",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.event_relations_operations"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.8",
+   "number": 8,
+   "title": "1991 年数学一 第 8 题",
+   "questionText": "已知级数 $\\sum_{n = 1}^{\\infty}(-1)^{n - 1}a_n = 2,\\sum_{n = 1}^{\\infty}a_{2n - 1} = 5$ ，则级数 $\\sum_{n = 1}^{\\infty}a_{n}$ 等于（ ）.\n\n(A)3\n\n(B)7\n\n(C)8\n\n(D)9",
+   "answerText": "答案：C\n\n**解析：**\n记奇数项和为 $S_{1}=\\sum a_{2n-1}=5$。交错级数和 2 给出 $S_{1}-S_{2}=2$（$S_{2}=\\sum a_{2n}$），故 $S_{2}=3$。于是 $\\sum a_{n}=S_{1}+S_{2}=8$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.9",
+   "number": 9,
+   "title": "1991 年数学一 第 9 题",
+   "questionText": "设 $D$ 是平面 $xOy$ 上以 $(1,1),(-1,1),(-1,-1)$ 为顶点的三角形区域，$D_{1}$ 是 $D$ 在第一象限的部分，则 $\\iint\\limits_{D}(xy+\\cos x\\sin y)\\,\\mathrm{d}x\\mathrm{d}y$ 等于（ ）.\\n\\n(A) $2\\iint_{D_1}\\cos x\\sin y\\,\\mathrm{d}x\\mathrm{d}y$\\n\\n(B) $2\\iint_{D_1}xy\\,\\mathrm{d}x\\mathrm{d}y$\\n\\n(C) $4\\iint\\limits_{D_1}(xy+\\cos x\\sin y)\\,\\mathrm{d}x\\mathrm{d}y$\\n\\n(D) $0$",
+   "answerText": "答案：A\n\n**解析：**\n区域 $D=\\{(x,y):-1\\le x\\le 1,\\ x\\le y\\le 1\\}$ 关于 $y$ 轴不对称、关于 $x$ 轴也不对称，但可拆成关于原点对称的两块。被积函数中 $xy$ 关于 $x$（或 $y$）为奇函数，在 $D$ 上的积分为 0；而 $\\cos x\\sin y$ 关于 $x$ 为偶函数、关于 $y$ 为奇函数，利用 $D$ 的对称性可得 $\\iint_{D}\\cos x\\sin y\\,\\mathrm{d}x\\mathrm{d}y=2\\iint_{D_{1}}\\cos x\\sin y\\,\\mathrm{d}x\\mathrm{d}y$。故选 A。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multiple_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "double_integral",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.10",
+   "number": 10,
+   "title": "1991 年数学一 第 10 题",
+   "questionText": "设 $n$ 阶矩阵 $\\mathbf{A},\\mathbf{B},\\mathbf{C}$ 满足关系式 $\\mathbf{ABC} = \\mathbf{E}$ ，其中 $\\pmb{E}$ 为 $n$ 阶单位矩阵，则必有（ ）.\n\n(A) $\\mathbf{ACB} = \\mathbf{E}$\n\n(B) $\\mathbf{CBA} = \\mathbf{E}$\n\n(C) $\\mathbf{BAC} = \\mathbf{E}$\n\n(D) $\\mathbf{B}\\mathbf{C}\\mathbf{A} = \\mathbf{E}$",
+   "answerText": "答案：D\n\n**解析：**\n由 $\\mathbf{ABC}=\\mathbf{E}$ 知 $\\mathbf{A}$ 可逆且 $\\mathbf{BC}=\\mathbf{A}^{-1}$，两边右乘 $\\mathbf{A}$ 得 $\\mathbf{BCA}=\\mathbf{E}$。其余乘积顺序（如 $\\mathbf{ACB}$、$\\mathbf{BAC}$）一般不等于 $\\mathbf{E}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.11",
+   "number": 11,
+   "title": "1991 年数学一 第 11 题",
+   "questionText": "求 $\\lim_{x\\to 0^{+}}(\\cos {\\sqrt{x}})^{\\frac{\\pi}{x}}.$",
+   "answerText": "答案：$\\mathrm{e}^{-\\frac{\\pi}{2}}$\n\n**解析：**\n改写成指数形式：$(\\cos\\sqrt{x})^{\\frac{\\pi}{x}}=\\mathrm{e}^{\\frac{\\pi}{x}\\ln\\cos\\sqrt{x}}$。当 $x\\to 0^{+}$ 时 $\\ln\\cos\\sqrt{x}\\sim\\cos\\sqrt{x}-1\\sim-\\dfrac{x}{2}$，故指数趋于 $\\dfrac{\\pi}{x}\\cdot\\left(-\\dfrac{x}{2}\\right)=-\\dfrac{\\pi}{2}$，极限为 $\\mathrm{e}^{-\\frac{\\pi}{2}}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.12",
+   "number": 12,
+   "title": "1991 年数学一 第 12 题",
+   "questionText": "设 $n$ 是曲面 $2x^{2} + 3y^{2} + z^{2} = 6$ 在点 $P(1,1,1)$ 处的指向外侧的法向量，求函数 $u = \\frac{\\sqrt{6x^2 + 8y^2}}{z}$ 在点 $P$ 处沿方向 $n$ 的方向导数.",
+   "answerText": "答案：$\\dfrac{11}{7}$\n\n**解析：**\n椭球面在 $P$ 处的外法向量 $\\boldsymbol{n}=(4,6,2)$，方向余弦为 $\\left(\\dfrac{2}{\\sqrt{14}},\\dfrac{3}{\\sqrt{14}},\\dfrac{1}{\\sqrt{14}}\\right)$。又 $\\dfrac{\\partial u}{\\partial x}=\\dfrac{6x}{z\\sqrt{6x^{2}+8y^{2}}}$，$\\dfrac{\\partial u}{\\partial y}=\\dfrac{8y}{z\\sqrt{6x^{2}+8y^{2}}}$，$\\dfrac{\\partial u}{\\partial z}=-\\dfrac{\\sqrt{6x^{2}+8y^{2}}}{z^{2}}$，在 $P$ 处分别等于 $\\dfrac{6}{\\sqrt{14}},\\dfrac{8}{\\sqrt{14}},-\\sqrt{14}$。方向导数 $=\\dfrac{2}{\\sqrt{14}}\\cdot\\dfrac{6}{\\sqrt{14}}+\\dfrac{3}{\\sqrt{14}}\\cdot\\dfrac{8}{\\sqrt{14}}+\\dfrac{1}{\\sqrt{14}}\\cdot(-\\sqrt{14})=\\dfrac{36}{14}-1=\\dfrac{11}{7}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "directional_derivative_gradient",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "directional_derivative_gradient",
+    "vector_linear_operation",
+    "geometric_applications_multivariable"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.13",
+   "number": 13,
+   "title": "1991 年数学一 第 13 题",
+   "questionText": "求 $\\iiint_{\\Omega} (x^2 + y^2 + z) \\, \\mathrm{d}v$ ，其中 $\\Omega$ 是由曲线 $\\left\\{ \\begin{array}{l} y^2 = 2z, \\\\ x = 0 \\end{array} \\right.$ 绕 $z$ 轴旋转一周而成的曲面与平面 $z = 4$ 所围成的立体.",
+   "answerText": "答案：$\\dfrac{256\\pi}{3}$\n\n**解析：**\n旋转曲面为 $x^{2}+y^{2}=2z$，立体为 $0\\le z\\le 4$、截面 $x^{2}+y^{2}\\le 2z$。用先二后一：$\\displaystyle\\iiint_{\\Omega}(x^{2}+y^{2}+z)\\,\\mathrm{d}v=\\int_{0}^{4}\\mathrm{d}z\\iint_{x^{2}+y^{2}\\le 2z}(r^{2}+z)\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\int_{0}^{4}2\\pi\\left(\\frac{(2z)^{2}}{4}+\\frac{z\\cdot 2z}{2}\\right)\\mathrm{d}z=4\\pi\\int_{0}^{4}z^{2}\\,\\mathrm{d}z=\\frac{256\\pi}{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multiple_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "triple_integral",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.14",
+   "number": 14,
+   "title": "1991 年数学一 第 14 题",
+   "questionText": "在过点 $O(0,0)$ 和点 $A(\\pi,0)$ 的曲线族 $y=a\\sin x\\ (a>0)$ 中，求一条曲线 $L$，使沿该曲线从 $O$ 到 $A$ 的曲线积分 $\\displaystyle\\int_{L}(1+y^{3})\\,\\mathrm{d}x+(2x+y)\\,\\mathrm{d}y$ 的值最小.",
+   "answerText": "答案：$y=\\sin x$（即 $a=1$）\n\n**解析：**\n沿 $L:\\ y=a\\sin x$（$x$ 从 $0$ 到 $\\pi$）直接化为定积分：$I(a)=\\displaystyle\\int_{0}^{\\pi}\\left[(1+a^{3}\\sin^{3}x)+(2x+a\\sin x)\\,a\\cos x\\right]\\mathrm{d}x=\\pi+\\frac{4}{3}a^{3}-4a$（用到 $\\int_{0}^{\\pi}\\sin^{3}x\\,\\mathrm{d}x=\\frac{4}{3}$，$\\int_{0}^{\\pi}2x\\cos x\\,\\mathrm{d}x=-4$，$\\int_{0}^{\\pi}\\sin x\\cos x\\,\\mathrm{d}x=0$）。令 $I^{\\prime}(a)=4a^{2}-4=0$ 得 $a=1$，且 $I^{\\prime\\prime}(1)=8>0$，故 $a=1$ 时积分最小，所求曲线为 $y=\\sin x$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "line_integral_second_kind",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "calculus",
+   "section": "四、（本题满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.15",
+   "number": 15,
+   "title": "1991 年数学一 第 15 题",
+   "questionText": "将函数 $f(x)=2+|x|\\ (-1\\leqslant x\\leqslant 1)$ 展开成以 2 为周期的傅里叶级数，并由此求级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}$ 的和.",
+   "answerText": "答案：$f(x)=\\dfrac{5}{2}-\\dfrac{4}{\\pi^{2}}\\displaystyle\\sum_{k=0}^{\\infty}\\frac{\\cos(2k+1)\\pi x}{(2k+1)^{2}}$；$\\displaystyle\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}=\\frac{\\pi^{2}}{6}$\n\n**解析：**\n$f$ 为偶函数，$b_{n}=0$；$a_{0}=2\\int_{0}^{1}(2+x)\\,\\mathrm{d}x=5$，$a_{n}=2\\int_{0}^{1}(2+x)\\cos n\\pi x\\,\\mathrm{d}x=\\dfrac{2[(-1)^{n}-1]}{n^{2}\\pi^{2}}$，即奇数项为 $-\\dfrac{4}{n^{2}\\pi^{2}}$、偶数项为 0。延拓后处处连续，故展开式在 $(-\\infty,+\\infty)$ 成立。令 $x=0$：$2=\\dfrac{5}{2}-\\dfrac{4}{\\pi^{2}}\\sum_{k=0}^{\\infty}\\dfrac{1}{(2k+1)^{2}}$，得奇数项倒数平方和为 $\\dfrac{\\pi^{2}}{8}$。再设 $S=\\sum_{n=1}^{\\infty}\\frac{1}{n^{2}}$，则 $S=\\dfrac{\\pi^{2}}{8}+\\dfrac{S}{4}$，解得 $S=\\dfrac{\\pi^{2}}{6}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "fourier_series",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "fourier_series_coefficients"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：fourier_series、fourier_series_coefficients，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "五、（本题满分8分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.16",
+   "number": 16,
+   "title": "1991 年数学一 第 16 题",
+   "questionText": "设函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 内可导，且 $3\\displaystyle\\int_{\\frac{2}{3}}^{1}f(x)\\,\\mathrm{d}x=f(0)$，证明：在 $(0,1)$ 内存在一点 $c$，使得 $f^{\\prime}(c)=0$.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n由积分中值定理，存在 $x_{0}\\in\\left[\\dfrac{2}{3},1\\right]$ 使 $\\displaystyle\\int_{\\frac{2}{3}}^{1}f(x)\\,\\mathrm{d}x=f(x_{0})\\cdot\\frac{1}{3}$，即 $3\\int_{\\frac{2}{3}}^{1}f(x)\\,\\mathrm{d}x=f(x_{0})$。于是 $f(0)=f(x_{0})$。$f$ 在 $[0,x_{0}]$ 上连续、$(0,x_{0})$ 内可导，由罗尔定理存在 $c\\in(0,x_{0})\\subset(0,1)$ 使 $f^{\\prime}(c)=0$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：differentiability_continuity，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "六、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.17",
+   "number": 17,
+   "title": "1991 年数学一 第 17 题",
+   "questionText": "设 $\\boldsymbol{\\alpha}_{1}=(1,0,2,3)$，$\\boldsymbol{\\alpha}_{2}=(1,1,3,5)$，$\\boldsymbol{\\alpha}_{3}=(1,-1,a+2,1)$，$\\boldsymbol{\\alpha}_{4}=(1,2,4,a+8)$ 及 $\\boldsymbol{\\beta}=(1,1,b+3,5)$.\\n\\n（1）$a, b$ 为何值时，$\\boldsymbol{\\beta}$ 不可由 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}$ 线性表示？",
+   "answerText": "答案：$a=-1$ 且 $b\\neq 0$\n\n**解析：**\n设 $x_{1}\\boldsymbol{\\alpha}_{1}+x_{2}\\boldsymbol{\\alpha}_{2}+x_{3}\\boldsymbol{\\alpha}_{3}+x_{4}\\boldsymbol{\\alpha}_{4}=\\boldsymbol{\\beta}$，对增广矩阵作初等行变换得阶梯形 $\\begin{pmatrix}1&1&1&1&1\\\\0&1&-1&2&1\\\\0&0&a+1&0&b\\\\0&0&0&a+1&0\\end{pmatrix}$。当 $a=-1$ 时末两行给出 $0=b$ 与 $0=0$，故 $b\\neq 0$ 时无解，即 $\\boldsymbol{\\beta}$ 不能被线性表示。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.linear_representation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.linear_combination"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation、la.knowledge.linear_combination，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "七、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1991.18",
+   "number": 18,
+   "title": "1991 年数学一 第 18 题",
+   "questionText": "设 $\\boldsymbol{\\alpha}_{1}=(1,0,2,3)$，$\\boldsymbol{\\alpha}_{2}=(1,1,3,5)$，$\\boldsymbol{\\alpha}_{3}=(1,-1,a+2,1)$，$\\boldsymbol{\\alpha}_{4}=(1,2,4,a+8)$ 及 $\\boldsymbol{\\beta}=(1,1,b+3,5)$.\\n\\n（2）$a, b$ 为何值时，$\\boldsymbol{\\beta}$ 可由 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}$ 唯一线性表示？并写出该表达式.",
+   "answerText": "答案：$a\\neq -1$（$b$ 任意）；$\\boldsymbol{\\beta}=-\\dfrac{2b}{a+1}\\boldsymbol{\\alpha}_{1}+\\dfrac{a+b+1}{a+1}\\boldsymbol{\\alpha}_{2}+\\dfrac{b}{a+1}\\boldsymbol{\\alpha}_{3}+0\\cdot\\boldsymbol{\\alpha}_{4}$\n\n**解析：**\n当 $a\\neq -1$ 时 $r(\\mathbf{A})=r(\\overline{\\mathbf{A}})=4$，方程组有唯一解：$x_{3}=\\dfrac{b}{a+1}$，$x_{4}=0$，回代得 $x_{2}=\\dfrac{a+b+1}{a+1}$，$x_{1}=-\\dfrac{2b}{a+1}$，即得上述唯一表达式。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.linear_representation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.linear_combination"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.linear_representation、la.knowledge.linear_combination，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "七、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1991.19",
+   "number": 19,
+   "title": "1991 年数学一 第 19 题",
+   "questionText": "设 $\\mathbf{A}$ 为 $n$ 阶正定矩阵，$\\mathbf{E}$ 为 $n$ 阶单位矩阵，证明：$|\\mathbf{A}+\\mathbf{E}|>1$.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n因 $\\mathbf{A}$ 正定，其特征值 $\\lambda_{1},\\dots,\\lambda_{n}$ 全大于 0。存在正交矩阵 $\\mathbf{Q}$ 使 $\\mathbf{Q}^{\\mathrm{T}}\\mathbf{A}\\mathbf{Q}=\\operatorname{diag}(\\lambda_{1},\\dots,\\lambda_{n})$，于是 $\\mathbf{Q}^{\\mathrm{T}}(\\mathbf{A}+\\mathbf{E})\\mathbf{Q}=\\operatorname{diag}(\\lambda_{1}+1,\\dots,\\lambda_{n}+1)$。两边取行列式：$|\\mathbf{A}+\\mathbf{E}|=(\\lambda_{1}+1)(\\lambda_{2}+1)\\cdots(\\lambda_{n}+1)>1$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.positive_definiteness",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.positive_definite_concept",
+    "la.knowledge.positive_definite_criteria"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.positive_definiteness、la.knowledge.positive_definite_concept、la.knowledge.positive_definite_criteria，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.20",
+   "number": 20,
+   "title": "1991 年数学一 第 20 题",
+   "questionText": "在上半平面求一条向上凹的曲线，其上任一点 $P(x,y)$ 处的曲率等于此曲线在该点的法线段 $PQ$ 长度的倒数（$Q$ 是法线与 $x$ 轴的交点），且曲线在点 $(1,1)$ 处的切线与 $x$ 轴平行.",
+   "answerText": "答案：$y=\\dfrac{\\mathrm{e}^{x-1}+\\mathrm{e}^{1-x}}{2}$\n\n**解析：**\n设曲线 $y=y(x)$。法线 $Y-y=-\\dfrac{1}{y^{\\prime}}(X-x)$ 与 $x$ 轴交点为 $Q(x+yy^{\\prime},\\,0)$，故 $|PQ|=y\\sqrt{1+y^{\\prime 2}}$（$y>0$）。由题意 $\\dfrac{|y^{\\prime\\prime}|}{(1+y^{\\prime 2})^{3/2}}=\\dfrac{1}{y\\sqrt{1+y^{\\prime 2}}}$，结合向上凹得 $yy^{\\prime\\prime}=1+y^{\\prime 2}$，初始条件 $y(1)=1,\\ y^{\\prime}(1)=0$。令 $y^{\\prime}=p(y)$，分离变量解得 $1+p^{2}=y^{2}$，再积分得 $\\ln\\left(y+\\sqrt{y^{2}-1}\\right)=\\pm(x-1)$，两式联立解出 $y=\\dfrac{\\mathrm{e}^{x-1}+\\mathrm{e}^{1-x}}{2}$（悬链线）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "curvature"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：curvature，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "calculus",
+   "section": "九、（本题满分8分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.21",
+   "number": 21,
+   "title": "1991 年数学一 第 21 题",
+   "questionText": "设随机变量 $X$ 服从均值为 2、方差为 $\\sigma^{2}$ 的正态分布，且 $P\\{2<X<4\\}=0.3$，则 $P\\{X<0\\}=\\underline{\\quad}$ .",
+   "answerText": "答案：$0.2$\n\n**解析：**\n标准化后 $\\dfrac{X-2}{\\sigma}\\sim N(0,1)$。$P\\{2<X<4\\}=\\Phi\\left(\\dfrac{2}{\\sigma}\\right)-0.5=0.3$，得 $\\Phi\\left(\\dfrac{2}{\\sigma}\\right)=0.8$。由对称性 $P\\{X<0\\}=\\Phi\\left(-\\dfrac{2}{\\sigma}\\right)=1-0.8=0.2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.normal_distribution"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation、prob.knowledge.normal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.22",
+   "number": 22,
+   "title": "1991 年数学一 第 22 题",
+   "questionText": "随机地向半圆 $0<y<\\sqrt{2ax-x^{2}}$（$a>0$）内掷一点，点落在半圆内任何区域的概率与该区域的面积成正比，则原点与该点的连线与 $x$ 轴的夹角小于 $\\dfrac{\\pi}{4}$ 的概率为 $\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{1}{2}+\\dfrac{1}{\\pi}$\n\n**解析：**\n半圆圆心在 $(a,0)$、半径为 $a$，面积 $\\dfrac{\\pi a^{2}}{2}$。夹角小于 $\\dfrac{\\pi}{4}$ 的区域为极角 $\\theta\\in\\left(0,\\dfrac{\\pi}{4}\\right]$ 内的扇形部分，其面积 $=\\dfrac{1}{2}\\int_{0}^{\\frac{\\pi}{4}}(2a\\cos\\theta)^{2}\\,\\mathrm{d}\\theta=a^{2}\\left(\\dfrac{\\pi}{4}+\\dfrac{1}{2}\\right)$。所求概率 $=\\dfrac{a^{2}\\left(\\frac{\\pi}{4}+\\frac{1}{2}\\right)}{\\frac{\\pi a^{2}}{2}}=\\dfrac{1}{2}+\\dfrac{1}{\\pi}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "area_volume_arc",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1991.23",
+   "number": 23,
+   "title": "1991 年数学一 第 23 题",
+   "questionText": "设二维随机变量 $(X,Y)$ 的概率密度为 $f(x,y)=\\begin{cases}2\\mathrm{e}^{-(x+2y)}, & x>0,\\ y>0, \\\\ 0, & \\text{其他},\\end{cases}$ 求随机变量 $Z=X+2Y$ 的分布函数.",
+   "answerText": "答案：$F_{Z}(z)=\\begin{cases}1-\\mathrm{e}^{-z}-z\\mathrm{e}^{-z}, & z>0, \\\\ 0, & z\\leqslant 0.\\end{cases}$\n\n**解析：**\n$F_{Z}(z)=P\\{X+2Y\\le z\\}=\\iint_{x+2y\\le z}f(x,y)\\,\\mathrm{d}x\\mathrm{d}y$。$z\\le 0$ 时为 0；$z>0$ 时 $F_{Z}(z)=\\displaystyle\\int_{0}^{z}\\mathrm{d}x\\int_{0}^{\\frac{z-x}{2}}2\\mathrm{e}^{-(x+2y)}\\,\\mathrm{d}y=\\int_{0}^{z}\\left(\\mathrm{e}^{-x}-\\mathrm{e}^{-z}\\right)\\mathrm{d}x=1-\\mathrm{e}^{-z}-z\\mathrm{e}^{-z}$。（即 $Z$ 服从参数为 1 的 $\\Gamma(2)$ 分布。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.multidimensional_random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.function_of_two_variables",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.block_matrix",
+    "prob.knowledge.functions_of_random_variables",
+    "prob.knowledge.joint_distribution_function"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.functions_of_random_variables、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1991,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分6分）"
+  }
+ ]
 }

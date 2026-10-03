@@ -1,923 +1,934 @@
 {
-  "format": "mathlink-bank",
-  "version": 1,
-  "subject": "exam_mixed",
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2002,
+ "paper": "math1",
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
+ "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/2002年考研数学(一)真题.md",
+ "paperInfo": {
   "year": 2002,
   "paper": "math1",
-  "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
-  "verified": true,
-  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/2002年考研数学(一)真题.md",
-  "paperInfo": {
+  "label": "数学一",
+  "sections": [
+   "一、填空题（本题共5小题，每小题3分，满分15分）",
+   "二、选择题（本题共5小题，每小题3分，满分15分）",
+   "三、（本题满分6分）",
+   "四、（本题满分7分）",
+   "五、（本题满分7分）",
+   "六、（本题满分8分，含2小题）",
+   "七、（本题满分7分，含2小题）",
+   "八、（本题满分7分，含2小题）",
+   "九、（本题满分6分）",
+   "十、（本题满分8分，含3小题）",
+   "十一、（本题满分7分）",
+   "十二、（本题满分7分）"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-2002.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-2002.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-2002.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-2002.4",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-2002.5",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-2002.6",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-2002.7",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-2002.8",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-2002.9",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-2002.10",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-2002.11",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-2002.12",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-2002.13",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-2002.14",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-2002.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-2002.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-2002.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-2002.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-2002.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-2002.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-2002.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-2002.22",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-2002.23",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 24,
+    "id": "bank.exam.m1-2002.24",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   },
+   {
+    "number": 25,
+    "id": "bank.exam.m1-2002.25",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 25
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-2002.1",
+   "number": 1,
+   "title": "2002 年数学一 第 1 题",
+   "questionText": "$\\int_{\\mathrm{e}}^{+\\infty} \\frac{\\mathrm{d}x}{x \\ln^2 x} = \\underline{\\quad}$ .",
+   "answerText": "答案：$1$\n\n**解析：**\n$\\displaystyle\\int_{\\mathrm{e}}^{+\\infty}\\frac{\\mathrm{d}x}{x\\ln^{2}x}=\\int_{\\mathrm{e}}^{+\\infty}\\frac{\\mathrm{d}(\\ln x)}{\\ln^{2}x}=\\left[-\\frac{1}{\\ln x}\\right]_{\\mathrm{e}}^{+\\infty}=1$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：infinite_interval_integral，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
     "year": 2002,
     "paper": "math1",
-    "label": "数学一",
-    "sections": [
-      "一、填空题（本题共5小题，每小题3分，满分15分）",
-      "二、选择题（本题共5小题，每小题3分，满分15分）",
-      "三、（本题满分6分）",
-      "四、（本题满分7分）",
-      "五、（本题满分7分）",
-      "六、（本题满分8分，含2小题）",
-      "七、（本题满分7分，含2小题）",
-      "八、（本题满分7分，含2小题）",
-      "九、（本题满分6分）",
-      "十、（本题满分8分，含3小题）",
-      "十一、（本题满分7分）",
-      "十二、（本题满分7分）"
-    ],
-    "problemsOrder": [
-      {
-        "number": 1,
-        "id": "bank.exam.m1-2002.1",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 2,
-        "id": "bank.exam.m1-2002.2",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 3,
-        "id": "bank.exam.m1-2002.3",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 4,
-        "id": "bank.exam.m1-2002.4",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 5,
-        "id": "bank.exam.m1-2002.5",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 6,
-        "id": "bank.exam.m1-2002.6",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 7,
-        "id": "bank.exam.m1-2002.7",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 8,
-        "id": "bank.exam.m1-2002.8",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 9,
-        "id": "bank.exam.m1-2002.9",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 10,
-        "id": "bank.exam.m1-2002.10",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 11,
-        "id": "bank.exam.m1-2002.11",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 12,
-        "id": "bank.exam.m1-2002.12",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 13,
-        "id": "bank.exam.m1-2002.13",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 14,
-        "id": "bank.exam.m1-2002.14",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 15,
-        "id": "bank.exam.m1-2002.15",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 16,
-        "id": "bank.exam.m1-2002.16",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 17,
-        "id": "bank.exam.m1-2002.17",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 18,
-        "id": "bank.exam.m1-2002.18",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 19,
-        "id": "bank.exam.m1-2002.19",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 20,
-        "id": "bank.exam.m1-2002.20",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 21,
-        "id": "bank.exam.m1-2002.21",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 22,
-        "id": "bank.exam.m1-2002.22",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 23,
-        "id": "bank.exam.m1-2002.23",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 24,
-        "id": "bank.exam.m1-2002.24",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      },
-      {
-        "number": 25,
-        "id": "bank.exam.m1-2002.25",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      }
-    ],
-    "total": 19
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
   },
-  "problems": [
-    {
-      "id": "bank.exam.m1-2002.1",
-      "number": 1,
-      "title": "2002 年数学一 第 1 题",
-      "questionText": "$\\int_{\\mathrm{e}}^{+\\infty} \\frac{\\mathrm{d}x}{x \\ln^2 x} = \\underline{\\quad}$ .",
-      "answerText": "答案：$1$\n\n**解析：**\n$\\displaystyle\\int_{\\mathrm{e}}^{+\\infty}\\frac{\\mathrm{d}x}{x\\ln^{2}x}=\\int_{\\mathrm{e}}^{+\\infty}\\frac{\\mathrm{d}(\\ln x)}{\\ln^{2}x}=\\left[-\\frac{1}{\\ln x}\\right]_{\\mathrm{e}}^{+\\infty}=1$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "infinite_interval_integral"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：infinite_interval_integral，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 1
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.2",
-      "number": 2,
-      "title": "2002 年数学一 第 2 题",
-      "questionText": "已知函数 $y=y(x)$ 由方程 $\\mathrm{e}^{y}+6xy+x^{2}-1=0$ 确定，则 $y^{\\prime\\prime}(0)=\\underline{\\quad}$ .",
-      "answerText": "答案：$-2$\n\n**解析：**\n$x=0$ 时 $y=0$。方程两边对 $x$ 求导：$\\mathrm{e}^{y}y^{\\prime}+6y+6xy^{\\prime}+2x=0$，代入 $(0,0)$ 得 $y^{\\prime}(0)=0$。再求导：$\\mathrm{e}^{y}(y^{\\prime})^{2}+\\mathrm{e}^{y}y^{\\prime\\prime}+12y^{\\prime}+6xy^{\\prime\\prime}+2=0$，代入 $x=0,\\ y=0,\\ y^{\\prime}(0)=0$ 得 $y^{\\prime\\prime}(0)=-2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 2
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.3",
-      "number": 3,
-      "title": "2002 年数学一 第 3 题",
-      "questionText": "微分方程 $yy^{\\prime\\prime}+(y^{\\prime})^{2}=0$ 满足初始条件 $y\\Big|_{x=0}=1,\\ y^{\\prime}\\Big|_{x=0}=\\dfrac{1}{2}$ 的特解是 $\\underline{\\quad}$",
-      "answerText": "答案：$y=\\sqrt{x+1}$\n\n**解析：**\n注意到 $(yy^{\\prime})^{\\prime}=yy^{\\prime\\prime}+(y^{\\prime})^{2}=0$，故 $yy^{\\prime}=C_{1}$。由初始条件得 $C_{1}=\\dfrac{1}{2}$，即 $\\dfrac{1}{2}(y^{2})^{\\prime}=\\dfrac{1}{2}$，$y^{2}=x+C_{2}$；再由 $y(0)=1$ 得 $C_{2}=1$，取正根（$y(0)>0$）得 $y=\\sqrt{x+1}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "differential_equation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "linear_higher_order_equation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 3
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.4",
-      "number": 4,
-      "title": "2002 年数学一 第 4 题",
-      "questionText": "已知实二次型 $f(x_{1}, x_{2}, x_{3})=a\\left(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}\\right)+4x_{1}x_{2}+4x_{1}x_{3}+4x_{2}x_{3}$ 经正交变换 $\\mathbf{x}=\\mathbf{P}\\mathbf{y}$ 可化成标准形 $f=6y_{1}^{2}$，则 $a=\\underline{\\quad}$",
-      "answerText": "答案：$2$\n\n**解析：**\n二次型矩阵 $\\mathbf{A}=\\begin{pmatrix}a&2&2\\\\2&a&2\\\\2&2&a\\end{pmatrix}$ 的特征值为标准形系数 $6,0,0$。由迹 $3a=6$ 得 $a=2$。（由 $|\\mathbf{A}|=0$ 得 $a=2$ 或 $a=-4$，而 $a=-4$ 时特征值为 $0,-6,-6$，不合题意。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.quadratic_forms",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.orthogonal_standard_form"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.orthogonal_standard_form、la.knowledge.orthogonal_standard_form，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 4
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.5",
-      "number": 5,
-      "title": "2002 年数学一 第 5 题",
-      "questionText": "设随机变量 $X$ 服从正态分布 $N(\\mu, \\sigma^{2})\\ (\\sigma>0)$，且二次方程 $y^{2}+4y+X=0$ 无实根的概率为 $\\dfrac{1}{2}$，则 $\\mu=\\underline{\\quad}$",
-      "answerText": "答案：$4$\n\n**解析：**\n方程无实根 $\\iff$ 判别式 $16-4X<0\\iff X>4$。由 $P\\{X>4\\}=\\dfrac{1}{2}$ 及正态分布关于均值 $\\mu$ 的对称性（$P\\{X>\\mu\\}=\\dfrac{1}{2}$）得 $\\mu=4$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.normal_distribution"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation、prob.knowledge.normal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 5
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.6",
-      "number": 6,
-      "title": "2002 年数学一 第 6 题",
-      "questionText": "考虑二元函数 $f(x,y)$ 的下面 4 条性质：\\n\\n① $f(x,y)$ 在点 $(x_{0},y_{0})$ 处连续；\\n\\n② $f_{x}^{\\prime}(x,y)$ 与 $f_{y}^{\\prime}(x,y)$ 在点 $(x_{0},y_{0})$ 处连续；\\n\\n③ $f(x,y)$ 在点 $(x_{0},y_{0})$ 处可微；\\n\\n④ $f(x,y)$ 在点 $(x_{0},y_{0})$ 处的两个偏导数存在.\\n\\n若用“ $P \\Rightarrow Q$ ”表示可由性质 $P$ 推出性质 $Q$，则有（ ）\n\n(A) $② \\Rightarrow ③ \\Rightarrow ①$\n\n(B) $③ \\Rightarrow ② \\Rightarrow ①$\n\n(C) $③ \\Rightarrow ④ \\Rightarrow ①$\n\n(D) $③ \\Rightarrow ① \\Rightarrow ④$",
-      "answerText": "答案：A\n\n**解析：**\n基本关系：偏导数连续（②）$\\Rightarrow$ 可微（③）$\\Rightarrow$ 连续（①），且可微（③）$\\Rightarrow$ 偏导数存在（④）；各步均不可逆。故 ②⇒③⇒① 成立，选 A。（③⇒②、②⇒③ 反例众多，如 $f=\\begin{cases}\\frac{xy}{x^{2}+y^{2}}, &(x,y)\\neq 0\\\\ 0, &(x,y)=0\\end{cases}$ 等。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；源 md 题干中性质①②的排版严重错乱，按原题修复为：①连续、②偏导数连续、③可微、④偏导数存在；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 6
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.7",
-      "number": 7,
-      "title": "2002 年数学一 第 7 题",
-      "questionText": "设 $u_{n} \\neq 0 (n = 1, 2, 3, \\dots)$ , 且 $\\lim_{n \\to \\infty} \\frac{n}{u_{n}} = 1$ , 则级数 $\\sum_{n=1}^{\\infty} (-1)^{n+1} \\left(\\frac{1}{u_{n}} + \\frac{1}{u_{n+1}}\\right)$\n\n（A）发散.\n\n（B）绝对收敛.\n\n（C）条件收敛\n\n(D) 收敛性根据所给条件不能判定.",
-      "answerText": "答案：C\n\n**解析：**\n部分和 $S_{n}=\\left(\\dfrac{1}{u_{1}}+\\dfrac{1}{u_{2}}\\right)-\\left(\\dfrac{1}{u_{2}}+\\dfrac{1}{u_{3}}\\right)+\\dots+(-1)^{n+1}\\left(\\dfrac{1}{u_{n}}+\\dfrac{1}{u_{n+1}}\\right)=\\dfrac{1}{u_{1}}+(-1)^{n+1}\\dfrac{1}{u_{n+1}}$，由 $\\dfrac{1}{u_{n}}\\to 0$ 知 $S_{n}\\to\\dfrac{1}{u_{1}}$，级数收敛。但绝对值级数为 $\\sum\\left(\\dfrac{1}{u_{n}}+\\dfrac{1}{u_{n+1}}\\right)$，由 $\\dfrac{1}{u_{n}}\\sim\\dfrac{1}{n}$ 与调和级数比较知其发散。故条件收敛，选 C。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "alternating_general_series",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "absolute_conditional_convergence"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：alternating_general_series、absolute_conditional_convergence，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 7
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.8",
-      "number": 8,
-      "title": "2002 年数学一 第 8 题",
-      "questionText": "设函数 $y = f(x)$ 在 $(0, +\\infty)$ 内有界且可导，则（ ）\n\n(A) 当 $\\lim_{x \\to +\\infty} f(x) = 0$ 时, 必有 $\\lim_{x \\to +\\infty} f'(x) = 0$ .\n(B) 当 $\\lim_{x \\to +\\infty} f'(x)$ 存在时, 必有 $\\lim_{x \\to +\\infty} f'(x) = 0$ .\n(C) 当 $\\lim_{x \\to 0^{+}} f(x) = 0$ 时, 必有 $\\lim_{x \\to 0^{+}} f'(x) = 0$ .\n(D) 当 $\\lim_{x \\to 0^{+}} f'(x)$ 存在时, 必有 $\\lim_{x \\to 0^{+}} f'(x) = 0$ .",
-      "answerText": "答案：B\n\n**解析：**\n反证：若 $\\lim_{x\\to+\\infty}f^{\\prime}(x)=A$ 存在且 $A\\neq 0$，不妨 $A>0$，则存在 $X$ 使 $x>X$ 时 $f^{\\prime}(x)>\\dfrac{A}{2}$，由拉格朗日中值定理 $f(x)>f(X)+\\dfrac{A}{2}(x-X)\\to+\\infty$，与 $f$ 有界矛盾；$A<0$ 同理。故必有 $A=0$，选 B。（A 的反例：$f(x)=\\dfrac{\\sin x^{2}}{x}\\to 0$ 但 $f^{\\prime}$ 极限不存在。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "function_properties"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：function_properties，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 8
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.9",
-      "number": 9,
-      "title": "2002 年数学一 第 9 题",
-      "questionText": "设有三张不同平面的方程 $a_{i1}x + a_{i2}y + a_{i3}z = b_i, i = 1,2,3$ , 它们所组成的线性方程组的系数矩阵与增广矩阵的秩都为 2 , 则这三张平面可能的位置关系为 ( )\n\n![](images/5a83b0446d5d8be79a045e814853bc7c8100c050854275d5d10f62e99d7d957a.jpg)\n(A)\n\n![](images/8127aa31eb9b732b4b21f0f9cef9fb714092b8e440718188c6f9f5e6bca799ea.jpg)\n(B)\n\n![](images/6a75d47c3f3e7e51ebaa752538b7c072f125f4e206a99dc4cf9ded5b5eb9967e.jpg)\n(C)\n\n![](images/9e0f14659cf0e9e2d0d8f7fb57cbd30d2d222507d38b5194e452c67cb2205a15.jpg)\n(D)",
-      "answerText": "答案：B\n\n**解析：**\n$r(\\mathbf{A})=r(\\overline{\\mathbf{A}})=2<3$，方程组有无穷多解，即三张平面有无穷多个公共点。（A）表示唯一交点（秩为 3），（C）（D）表示无公共点（$r(\\mathbf{A})<r(\\overline{\\mathbf{A}})$），故应为三平面交于一条直线或互异，选 B（图中（B）为三平面经过同一直线）。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "differentiability_continuity"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 9
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.10",
-      "number": 10,
-      "title": "2002 年数学一 第 10 题",
-      "questionText": "设 $X_{1}$ 和 $X_{2}$ 是任意两个相互独立的连续型随机变量, 它们的概率密度分别为 $f_{1}(x)$ 和 $f_{2}(x)$ , 分布函数分别为 $F_{1}(x)$ 和 $F_{2}(x)$ , 则( )\n\n$(\\mathrm{A})f_{1}(x) + f_{2}(x)$ 必为某一随机变量的概率密度\n(B) $f_{1}(x)f_{2}(x)$ 必为某一随机变量的概率密度.\n$(\\mathrm{C})F_{1}(x) + F_{2}(x)$ 必为某一随机变量的分布函数\n$(\\mathrm{D})F_{1}(x)F_{2}(x)$ 必为某一随机变量的分布函数",
-      "answerText": "答案：D\n\n**解析：**\n$f_{1}+f_{2}$ 在全直线积分等于 2，不是密度，排除 A；$F_{1}+F_{2}$ 在 $+\\infty$ 处为 2，不是分布函数，排除 C；（B）可举反例 $X_{1},X_{2}$ 同服从 $\\mathrm{e}^{-x}$（$x>0$），则 $f_{1}f_{2}$ 积分为 $\\dfrac{1}{2}\\neq 1$。而 $F_{1}F_{2}$ 单调不减、右连续，极限值 $0$ 与 $1$ 正确，故必为某随机变量的分布函数，选 D。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "multivariable_limit_continuity",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 10
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.11",
-      "number": 11,
-      "title": "2002 年数学一 第 11 题",
-      "questionText": "设函数 $f(x)$ 在 $x=0$ 的某邻域内具有一阶连续导数，且 $f(0)\\neq 0$，$f^{\\prime}(0)\\neq 0$，若 $af(h)+bf(2h)-f(0)$ 在 $h\\to 0$ 时是比 $h$ 高阶的无穷小，试确定 $a, b$ 的值.",
-      "answerText": "答案：$a=2,\\ b=-1$\n\n**解析：**\n由 $af(h)+bf(2h)-f(0)=o(h)$：令 $h\\to 0$ 得 $(a+b-1)f(0)=0$，由 $f(0)\\neq 0$ 得 $a+b=1$。再对 $\\dfrac{af(h)+bf(2h)-f(0)}{h}$ 取极限：拆成 $a\\dfrac{f(h)-f(0)}{h}+2b\\dfrac{f(2h)-f(0)}{2h}\\to(a+2b)f^{\\prime}(0)=0$，由 $f^{\\prime}(0)\\neq 0$ 得 $a+2b=0$。联立解得 $a=2,\\ b=-1$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 11
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.12",
-      "number": 12,
-      "title": "2002 年数学一 第 12 题",
-      "questionText": "已知两曲线 $y=f(x)$ 与 $y=\\displaystyle\\int_{0}^{\\arctan x}\\mathrm{e}^{-t^{2}}\\,\\mathrm{d}t$ 在点 $(0,0)$ 处的切线相同，写出此切线方程，并求极限 $\\displaystyle\\lim_{n\\to\\infty}nf\\left(\\frac{2}{n}\\right)$.",
-      "answerText": "答案：切线 $y=x$；$\\lim_{n\\to\\infty}nf\\left(\\dfrac{2}{n}\\right)=2$\n\n**解析：**\n变上限求导给出第二条曲线在 $x=0$ 处的导数为 $\\mathrm{e}^{-\\arctan^{2}0}\\cdot\\dfrac{1}{1+0}=1$，又它过原点，故 $f(0)=0,\\ f^{\\prime}(0)=1$，切线为 $y=x$。由导数定义：$\\displaystyle\\lim_{n\\to\\infty}nf\\left(\\frac{2}{n}\\right)=2\\lim_{n\\to\\infty}\\frac{f\\left(\\frac{2}{n}\\right)-f(0)}{\\frac{2}{n}}=2f^{\\prime}(0)=2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "sequence_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 12
-      },
-      "subjectGuess": "calculus",
-      "section": "四、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.13",
-      "number": 13,
-      "title": "2002 年数学一 第 13 题",
-      "questionText": "计算二重积分 $\\displaystyle\\iint_{D}\\mathrm{e}^{\\max\\left\\{x^{2}, y^{2}\\right\\}}\\,\\mathrm{d}x\\,\\mathrm{d}y$，其中 $D=\\{(x, y)\\mid 0\\leqslant x\\leqslant 1,\\ 0\\leqslant y\\leqslant 1\\}$.",
-      "answerText": "答案：$\\mathrm{e}-1$\n\n**解析：**\n用直线 $y=x$ 把 $D$ 分成 $D_{1}$（$y\\le x$，$\\max=x^{2}$）与 $D_{2}$（$y\\ge x$，$\\max=y^{2}$）。由关于 $y=x$ 的对称性，$\\displaystyle\\iint_{D}=2\\iint_{D_{1}}\\mathrm{e}^{x^{2}}\\,\\mathrm{d}x\\mathrm{d}y=2\\int_{0}^{1}\\mathrm{e}^{x^{2}}\\,\\mathrm{d}x\\int_{0}^{x}\\mathrm{d}y=2\\int_{0}^{1}x\\,\\mathrm{e}^{x^{2}}\\,\\mathrm{d}x=\\left.\\mathrm{e}^{x^{2}}\\right|_{0}^{1}=\\mathrm{e}-1$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multiple_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "double_integral",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 13
-      },
-      "subjectGuess": "calculus",
-      "section": "五、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.14",
-      "number": 14,
-      "title": "2002 年数学一 第 14 题",
-      "questionText": "设函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 内具有一阶连续导数，$L$ 是上半平面 $(y>0)$ 内的有向分段光滑曲线，其起点为 $(a, b)$，终点为 $(c, d)$. 记 $I=\\displaystyle\\int_{L}\\frac{1}{y}\\left[1+y^{2}f(xy)\\right]\\mathrm{d}x+\\frac{x}{y^{2}}\\left[y^{2}f(xy)-1\\right]\\mathrm{d}y.$\n\n（1）证明曲线积分 $I$ 与路径 $L$ 无关；",
-      "answerText": "答案：证明见解析\n\n**解析：**\n在上半平面内 $P=\\dfrac{1}{y}+yf(xy)$，$Q=xf(xy)-\\dfrac{x}{y^{2}}$，均为连续可微函数。计算 $\\dfrac{\\partial P}{\\partial y}=-\\dfrac{1}{y^{2}}+f(xy)+xyf^{\\prime}(xy)$，$\\dfrac{\\partial Q}{\\partial x}=f(xy)+xyf^{\\prime}(xy)-\\dfrac{1}{y^{2}}$，两者相等，故积分与路径无关。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "line_integral_second_kind",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "line_integral_definition"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 14
-      },
-      "subjectGuess": "calculus",
-      "section": "六、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.15",
-      "number": 15,
-      "title": "2002 年数学一 第 15 题",
-      "questionText": "设函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 内具有一阶连续导数，$L$ 是上半平面 $(y>0)$ 内的有向分段光滑曲线，其起点为 $(a, b)$，终点为 $(c, d)$. 记 $I=\\displaystyle\\int_{L}\\frac{1}{y}\\left[1+y^{2}f(xy)\\right]\\mathrm{d}x+\\frac{x}{y^{2}}\\left[y^{2}f(xy)-1\\right]\\mathrm{d}y.$\n\n（2）当 $ab = cd$ 时，求 $I$ 的值.",
-      "answerText": "答案：$I=\\dfrac{bc-ad}{bd}$\n\n**解析：**\n拆成两组：$I=\\displaystyle\\int_{L}\\frac{1}{y}\\,\\mathrm{d}x-\\frac{x}{y^{2}}\\,\\mathrm{d}y+\\int_{L}yf(xy)\\,\\mathrm{d}x+xf(xy)\\,\\mathrm{d}y$。第一组恰为 $\\mathrm{d}\\left(\\dfrac{x}{y}\\right)$，积分等于 $\\dfrac{c}{d}-\\dfrac{a}{b}$；第二组为 $\\mathrm{d}F(xy)$（$F$ 为 $f$ 的原函数），等于 $F(cd)-F(ab)$，由 $ab=cd$ 知其为 0。故 $I=\\dfrac{c}{d}-\\dfrac{a}{b}=\\dfrac{bc-ad}{bd}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "line_integral_second_kind",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 15
-      },
-      "subjectGuess": "calculus",
-      "section": "六、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.16",
-      "number": 16,
-      "title": "2002 年数学一 第 16 题",
-      "questionText": "验证函数 $y(x) = 1 + \\frac{x^3}{3!} + \\frac{x^6}{6!} + \\frac{x^9}{9!} + \\dots + \\frac{x^{3n}}{(3n)!} + \\dots (-\\infty < x < +\\infty)$ 满足微分方程 $y'' + y' + y = e^x$ ;",
-      "answerText": "答案：验证成立\n\n**解析：**\n幂级数处处收敛，可逐项求导：$y^{\\prime}=\\displaystyle\\sum_{n=1}^{\\infty}\\frac{x^{3n-1}}{(3n-1)!}$，$y^{\\prime\\prime}=\\sum_{n=1}^{\\infty}\\frac{x^{3n-2}}{(3n-2)!}$。相加：$y^{\\prime\\prime}+y^{\\prime}+y=\\sum_{k=0}^{\\infty}\\frac{x^{k}}{k!}=\\mathrm{e}^{x}$（三类下标 $3n,\\ 3n-1,\\ 3n-2$ 恰好拼齐全部非负整数幂），即 $y$ 满足方程 $y^{\\prime\\prime}+y^{\\prime}+y=\\mathrm{e}^{x}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "differential_equation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "linear_higher_order_equation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 16
-      },
-      "subjectGuess": "calculus",
-      "section": "七、（本题满分7分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.17",
-      "number": 17,
-      "title": "2002 年数学一 第 17 题",
-      "questionText": "利用 (1) 的结果求幂级数 $\\sum_{n=0}^{\\infty} \\frac{x^{3n}}{(3n)!}$ 的和函数.",
-      "answerText": "答案：$\\displaystyle\\sum_{n=0}^{\\infty}\\frac{x^{3n}}{(3n)!}=\\frac{2}{3}\\mathrm{e}^{-\\frac{x}{2}}\\cos\\frac{\\sqrt{3}}{2}x+\\frac{1}{3}\\mathrm{e}^{x}\\quad(-\\infty<x<+\\infty)$\n\n**解析：**\n由（1），$y(x)=\\sum\\dfrac{x^{3n}}{(3n)!}$ 是初值问题 $y^{\\prime\\prime}+y^{\\prime}+y=\\mathrm{e}^{x}$，$y(0)=1,\\ y^{\\prime}(0)=0$ 的解。齐次特征根为 $-\\dfrac{1}{2}\\pm\\dfrac{\\sqrt{3}}{2}\\mathrm{i}$，特解取 $\\dfrac{1}{3}\\mathrm{e}^{x}$，通解为 $y=\\mathrm{e}^{-\\frac{x}{2}}\\left(C_{1}\\cos\\dfrac{\\sqrt{3}}{2}x+C_{2}\\sin\\dfrac{\\sqrt{3}}{2}x\\right)+\\dfrac{1}{3}\\mathrm{e}^{x}$。代入初始条件得 $C_{1}=\\dfrac{2}{3},\\ C_{2}=0$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "power_series_sum",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：power_series_sum、power_series_sum，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 17
-      },
-      "subjectGuess": "calculus",
-      "section": "七、（本题满分7分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.18",
-      "number": 18,
-      "title": "2002 年数学一 第 18 题",
-      "questionText": "设有一小山，取它的底面所在的平面为 $xOy$ 坐标面，其底部所占的区域为 $D=\\{(x,y)\\mid x^{2}+y^{2}-xy\\leqslant 75\\}$，小山的高度函数为 $h(x,y)=75-x^{2}-y^{2}+xy$.\n\n（1）设 $M(x_0, y_0)$ 为区域 $D$ 上一点，问 $h(x, y)$ 在该点沿平面上什么方向的方向导数最大？若记此方向导数的最大值为 $g(x_0, y_0)$，试写出 $g(x_0, y_0)$ 的表达式.",
-      "answerText": "答案：沿梯度 $\\left(y_{0}-2x_{0},\\ x_{0}-2y_{0}\\right)$ 方向最大；$g(x_{0}, y_{0})=\\sqrt{5x_{0}^{2}+5y_{0}^{2}-8x_{0}y_{0}}$\n\n**解析：**\n函数沿梯度方向的方向导数最大，最大值为梯度的模。$\\mathrm{grad}\\,h\\big|_{M}=\\left(-2x_{0}+y_{0},\\ x_{0}-2y_{0}\\right)$，其模的平方为 $(y_{0}-2x_{0})^{2}+(x_{0}-2y_{0})^{2}=5x_{0}^{2}+5y_{0}^{2}-8x_{0}y_{0}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "directional_derivative_gradient",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "directional_derivative_gradient",
-        "orientation"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 18
-      },
-      "subjectGuess": "calculus",
-      "section": "八、（本题满分7分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.19",
-      "number": 19,
-      "title": "2002 年数学一 第 19 题",
-      "questionText": "设有一小山，取它的底面所在的平面为 $xOy$ 坐标面，其底部所占的区域为 $D=\\{(x,y)\\mid x^{2}+y^{2}-xy\\leqslant 75\\}$，小山的高度函数为 $h(x,y)=75-x^{2}-y^{2}+xy$.\n\n（2）现欲利用此小山开展攀岩活动，为此需要在山脚寻找一上山坡度最大的点作为攀登的起点. 也就是说，要在 $D$ 的边界线 $x^{2}+y^{2}-xy=75$ 上找出使（1）中的 $g(x, y)$ 达到最大值的点. 试确定攀登起点的位置.",
-      "answerText": "答案：攀登起点可取 $(5,-5)$ 或 $(-5,5)$\n\n**解析：**\n用拉格朗日乘数法求 $g^{2}=5x^{2}+5y^{2}-8xy$ 在约束 $x^{2}+y^{2}-xy=75$ 下的最大值。令 $F=5x^{2}+5y^{2}-8xy+\\lambda(x^{2}+y^{2}-xy-75)$，两个偏导方程相加得 $(x+y)(\\lambda+2)=0$：$\\lambda=-2$ 给出 $y=x$，解得 $\\left(\\pm 5\\sqrt{3},\\ \\pm 5\\sqrt{3}\\right)$，此时 $g=5\\sqrt{6}$；$y=-x$ 给出 $(5,-5)$ 与 $(-5,5)$，此时 $g=15\\sqrt{2}>5\\sqrt{6}$。故在点 $(5,-5)$ 或 $(-5,5)$ 处坡度最大。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 19
-      },
-      "subjectGuess": "calculus",
-      "section": "八、（本题满分7分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.20",
-      "number": 20,
-      "title": "2002 年数学一 第 20 题",
-      "questionText": "已知 4 阶方阵 $\\mathbf{A}=(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4})$，$\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 均为 4 维列向量，其中 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关，$\\boldsymbol{\\alpha}_{1}=2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}$. 如果 $\\boldsymbol{\\beta}=\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}$，求线性方程组 $\\mathbf{A}x=\\boldsymbol{\\beta}$ 的通解.",
-      "answerText": "答案：$\\boldsymbol{X}=(1,1,1,1)^{\\mathrm{T}}+k(1,-2,1,0)^{\\mathrm{T}}$（$k$ 为任意常数）\n\n**解析：**\n由 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关及 $\\alpha_{1}=2\\alpha_{2}-\\alpha_{3}$ 知 $r(\\mathbf{A})=3$，故 $\\mathbf{A}x=0$ 的基础解系含一个解向量：由 $\\alpha_{1}-2\\alpha_{2}+\\alpha_{3}=0$ 得 $\\boldsymbol{\\xi}=(1,-2,1,0)^{\\mathrm{T}}$。又 $\\boldsymbol{\\beta}=\\alpha_{1}+\\alpha_{2}+\\alpha_{3}+\\alpha_{4}$ 说明 $\\boldsymbol{\\eta}=(1,1,1,1)^{\\mathrm{T}}$ 是 $\\mathbf{A}x=\\boldsymbol{\\beta}$ 的特解。通解为特解加齐次通解。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.linear_systems",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.general_solution"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.knowledge.general_solution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 20
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "九、（本题满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.21",
-      "number": 21,
-      "title": "2002 年数学一 第 21 题",
-      "questionText": "设 $\\mathbf{A}, \\mathbf{B}$ 为同阶方阵.\n\n（1）如果 $A, B$ 相似，试证 $A, B$ 的特征多项式相等；",
-      "answerText": "答案：证明见解析\n\n**解析：**\n设 $\\mathbf{P}^{-1}\\mathbf{A}\\mathbf{P}=\\mathbf{B}$，则 $|\\lambda\\mathbf{E}-\\mathbf{B}|=|\\lambda\\mathbf{P}^{-1}\\mathbf{P}-\\mathbf{P}^{-1}\\mathbf{A}\\mathbf{P}|=|\\mathbf{P}^{-1}|\\,|\\lambda\\mathbf{E}-\\mathbf{A}|\\,|\\mathbf{P}|=|\\lambda\\mathbf{E}-\\mathbf{A}|$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.eigenvalues",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.similarity_judgment",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.eigen_concept",
-        "la.knowledge.similarity_concept"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.similarity_judgment、infinitesimal_order、la.knowledge.similarity_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues；审计修复：跨科目/非法知识点 infinitesimal_order → la.knowledge.eigen_concept（纯线代相似证明题，特征多项式对应特征值概念）",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 21
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "十、（本题满分8分，含3小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.22",
-      "number": 22,
-      "title": "2002 年数学一 第 22 题",
-      "questionText": "设 $\\mathbf{A}, \\mathbf{B}$ 为同阶方阵.\n\n（2）举一个 2 阶方阵的例子说明（1）的逆命题不成立.",
-      "answerText": "答案：反例：$\\mathbf{A}=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$ 与 $\\mathbf{B}=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$\n\n**解析：**\n两矩阵的特征多项式都等于 $\\lambda^{2}$，但 $r(\\mathbf{A})=0\\neq 1=r(\\mathbf{B})$，相似矩阵必等价故秩相同，因此 $\\mathbf{A}$ 与 $\\mathbf{B}$ 不相似。这说明特征多项式相等不能推出相似。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "infinitesimal_order"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：infinitesimal_order，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 22
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "十、（本题满分8分，含3小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.23",
-      "number": 23,
-      "title": "2002 年数学一 第 23 题",
-      "questionText": "设 $\\mathbf{A}, \\mathbf{B}$ 为同阶方阵.\n\n（3）当 $A, B$ 均为实对称矩阵时，试证（1）的逆命题成立.",
-      "answerText": "答案：证明见解析\n\n**解析：**\n实对称矩阵必可正交（相似）对角化。若 $\\mathbf{A},\\mathbf{B}$ 特征多项式相同，则它们有相同的特征值 $\\lambda_{1},\\dots,\\lambda_{n}$，于是存在可逆矩阵 $\\mathbf{P}_{1},\\mathbf{P}_{2}$ 使 $\\mathbf{P}_{1}^{-1}\\mathbf{A}\\mathbf{P}_{1}=\\mathbf{P}_{2}^{-1}\\mathbf{B}\\mathbf{P}_{2}=\\operatorname{diag}(\\lambda_{1},\\dots,\\lambda_{n})$。由此 $\\mathbf{B}=(\\mathbf{P}_{1}\\mathbf{P}_{2}^{-1})^{-1}\\mathbf{A}(\\mathbf{P}_{1}\\mathbf{P}_{2}^{-1})$，即 $\\mathbf{A}\\sim\\mathbf{B}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "infinitesimal_order",
-        "la.knowledge.symmetric_matrix"
-      ],
-      "methodIds": [],
-      "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）；自动打标(规则)：infinitesimal_order、la.knowledge.symmetric_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 23
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "十、（本题满分8分，含3小题）"
-    },
-    {
-      "id": "bank.exam.m1-2002.24",
-      "number": 24,
-      "title": "2002 年数学一 第 24 题",
-      "questionText": "设随机变量 $X$ 的概率密度为 $f(x)=\\begin{cases}\\dfrac{1}{2}\\cos\\dfrac{x}{2}, & 0\\leqslant x\\leqslant\\pi, \\\\ 0, & \\text{其他},\\end{cases}$ 对 $X$ 独立地重复观察 4 次，用 $Y$ 表示观察值大于 $\\dfrac{\\pi}{3}$ 的次数，求 $Y^{2}$ 的数学期望.",
-      "answerText": "答案：$5$\n\n**解析：**\n每次观察值大于 $\\dfrac{\\pi}{3}$ 的概率 $p=\\displaystyle\\int_{\\frac{\\pi}{3}}^{\\pi}\\frac{1}{2}\\cos\\frac{x}{2}\\,\\mathrm{d}x=\\left[\\sin\\frac{x}{2}\\right]_{\\frac{\\pi}{3}}^{\\pi}=1-\\frac{1}{2}=\\frac{1}{2}$。故 $Y\\sim B\\left(4,\\dfrac{1}{2}\\right)$，$E(Y)=2$，$D(Y)=1$，$E(Y^{2})=D(Y)+[E(Y)]^{2}=5$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.numerical_characteristics",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.expectation_calculation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.mathematical_expectation"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.type.expectation_calculation、prob.knowledge.mathematical_expectation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 24
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十一、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-2002.25",
-      "number": 25,
-      "title": "2002 年数学一 第 25 题",
-      "questionText": "设总体 $X$ 的概率分布为\\n\\n| $X$ | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| $P$ | $\\theta^{2}$ | $2\\theta(1-\\theta)$ | $\\theta^{2}$ | $1-2\\theta$ |\\n\\n其中 $\\theta\\left(0<\\theta<\\dfrac{1}{2}\\right)$ 是未知参数，利用总体 $X$ 的如下样本值 $3,\\ 1,\\ 3,\\ 0,\\ 3,\\ 1,\\ 2,\\ 3$，求 $\\theta$ 的矩估计值和最大似然估计值.",
-      "answerText": "答案：矩估计值 $\\hat{\\theta}=\\dfrac{1}{4}$；最大似然估计值 $\\hat{\\theta}=\\dfrac{7-\\sqrt{13}}{12}$\n\n**解析：**\n矩法：$E(X)=2\\theta(1-\\theta)+2\\theta^{2}+3(1-2\\theta)=3-4\\theta$，样本均值 $\\overline{x}=2$，令 $3-4\\theta=2$ 得 $\\hat{\\theta}=\\dfrac{1}{4}$。似然法：样本中 0 出现 1 次、1 出现 2 次、2 出现 1 次、3 出现 4 次，$L(\\theta)=\\theta^{2}\\left[2\\theta(1-\\theta)\\right]^{2}\\theta^{2}(1-2\\theta)^{4}=4\\theta^{6}(1-\\theta)^{2}(1-2\\theta)^{4}$。令 $\\dfrac{\\mathrm{d}\\ln L}{\\mathrm{d}\\theta}=\\dfrac{6}{\\theta}-\\dfrac{2}{1-\\theta}-\\dfrac{8}{1-2\\theta}=0$，解得 $\\theta=\\dfrac{7\\pm\\sqrt{13}}{12}$；因 $\\dfrac{7+\\sqrt{13}}{12}>\\dfrac{1}{2}$ 舍去，故 $\\hat{\\theta}=\\dfrac{7-\\sqrt{13}}{12}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.parameter_estimation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.maximum_likelihood_method",
-        "prob.knowledge.moment_estimation_method"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.type.maximum_likelihood_estimation、prob.knowledge.maximum_likelihood_method、prob.knowledge.moment_estimation_method，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.parameter_estimation",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2002,
-        "paper": "math1",
-        "number": 25
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十二、（本题满分7分）"
-    }
-  ]
+  {
+   "id": "bank.exam.m1-2002.2",
+   "number": 2,
+   "title": "2002 年数学一 第 2 题",
+   "questionText": "已知函数 $y=y(x)$ 由方程 $\\mathrm{e}^{y}+6xy+x^{2}-1=0$ 确定，则 $y^{\\prime\\prime}(0)=\\underline{\\quad}$ .",
+   "answerText": "答案：$-2$\n\n**解析：**\n$x=0$ 时 $y=0$。方程两边对 $x$ 求导：$\\mathrm{e}^{y}y^{\\prime}+6y+6xy^{\\prime}+2x=0$，代入 $(0,0)$ 得 $y^{\\prime}(0)=0$。再求导：$\\mathrm{e}^{y}(y^{\\prime})^{2}+\\mathrm{e}^{y}y^{\\prime\\prime}+12y^{\\prime}+6xy^{\\prime\\prime}+2=0$，代入 $x=0,\\ y=0,\\ y^{\\prime}(0)=0$ 得 $y^{\\prime\\prime}(0)=-2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.3",
+   "number": 3,
+   "title": "2002 年数学一 第 3 题",
+   "questionText": "微分方程 $yy^{\\prime\\prime}+(y^{\\prime})^{2}=0$ 满足初始条件 $y\\Big|_{x=0}=1,\\ y^{\\prime}\\Big|_{x=0}=\\dfrac{1}{2}$ 的特解是 $\\underline{\\quad}$",
+   "answerText": "答案：$y=\\sqrt{x+1}$\n\n**解析：**\n注意到 $(yy^{\\prime})^{\\prime}=yy^{\\prime\\prime}+(y^{\\prime})^{2}=0$，故 $yy^{\\prime}=C_{1}$。由初始条件得 $C_{1}=\\dfrac{1}{2}$，即 $\\dfrac{1}{2}(y^{2})^{\\prime}=\\dfrac{1}{2}$，$y^{2}=x+C_{2}$；再由 $y(0)=1$ 得 $C_{2}=1$，取正根（$y(0)>0$）得 $y=\\sqrt{x+1}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "linear_higher_order_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.4",
+   "number": 4,
+   "title": "2002 年数学一 第 4 题",
+   "questionText": "已知实二次型 $f(x_{1}, x_{2}, x_{3})=a\\left(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}\\right)+4x_{1}x_{2}+4x_{1}x_{3}+4x_{2}x_{3}$ 经正交变换 $\\mathbf{x}=\\mathbf{P}\\mathbf{y}$ 可化成标准形 $f=6y_{1}^{2}$，则 $a=\\underline{\\quad}$",
+   "answerText": "答案：$2$\n\n**解析：**\n二次型矩阵 $\\mathbf{A}=\\begin{pmatrix}a&2&2\\\\2&a&2\\\\2&2&a\\end{pmatrix}$ 的特征值为标准形系数 $6,0,0$。由迹 $3a=6$ 得 $a=2$。（由 $|\\mathbf{A}|=0$ 得 $a=2$ 或 $a=-4$，而 $a=-4$ 时特征值为 $0,-6,-6$，不合题意。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.orthogonal_standard_form"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.orthogonal_standard_form、la.knowledge.orthogonal_standard_form，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.5",
+   "number": 5,
+   "title": "2002 年数学一 第 5 题",
+   "questionText": "设随机变量 $X$ 服从正态分布 $N(\\mu, \\sigma^{2})\\ (\\sigma>0)$，且二次方程 $y^{2}+4y+X=0$ 无实根的概率为 $\\dfrac{1}{2}$，则 $\\mu=\\underline{\\quad}$",
+   "answerText": "答案：$4$\n\n**解析：**\n方程无实根 $\\iff$ 判别式 $16-4X<0\\iff X>4$。由 $P\\{X>4\\}=\\dfrac{1}{2}$ 及正态分布关于均值 $\\mu$ 的对称性（$P\\{X>\\mu\\}=\\dfrac{1}{2}$）得 $\\mu=4$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.normal_distribution"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.type.normal_distribution_calculation、prob.knowledge.normal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.6",
+   "number": 6,
+   "title": "2002 年数学一 第 6 题",
+   "questionText": "考虑二元函数 $f(x,y)$ 的下面 4 条性质：\\n\\n① $f(x,y)$ 在点 $(x_{0},y_{0})$ 处连续；\\n\\n② $f_{x}^{\\prime}(x,y)$ 与 $f_{y}^{\\prime}(x,y)$ 在点 $(x_{0},y_{0})$ 处连续；\\n\\n③ $f(x,y)$ 在点 $(x_{0},y_{0})$ 处可微；\\n\\n④ $f(x,y)$ 在点 $(x_{0},y_{0})$ 处的两个偏导数存在.\\n\\n若用“ $P \\Rightarrow Q$ ”表示可由性质 $P$ 推出性质 $Q$，则有（ ）\n\n(A) $② \\Rightarrow ③ \\Rightarrow ①$\n\n(B) $③ \\Rightarrow ② \\Rightarrow ①$\n\n(C) $③ \\Rightarrow ④ \\Rightarrow ①$\n\n(D) $③ \\Rightarrow ① \\Rightarrow ④$",
+   "answerText": "答案：A\n\n**解析：**\n基本关系：偏导数连续（②）$\\Rightarrow$ 可微（③）$\\Rightarrow$ 连续（①），且可微（③）$\\Rightarrow$ 偏导数存在（④）；各步均不可逆。故 ②⇒③⇒① 成立，选 A。（③⇒②、②⇒③ 反例众多，如 $f=\\begin{cases}\\frac{xy}{x^{2}+y^{2}}, &(x,y)\\neq 0\\\\ 0, &(x,y)=0\\end{cases}$ 等。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "composite_function_chain_rule",
+    "differentiability_continuity",
+    "partial_derivative_existence"
+   ],
+   "methodIds": [],
+   "notes": "已校对；源 md 题干中性质①②的排版严重错乱，按原题修复为：①连续、②偏导数连续、③可微、④偏导数存在；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：composite_function_chain_rule、differentiability_continuity、partial_derivative_existence，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.7",
+   "number": 7,
+   "title": "2002 年数学一 第 7 题",
+   "questionText": "设 $u_{n} \\neq 0 (n = 1, 2, 3, \\dots)$ , 且 $\\lim_{n \\to \\infty} \\frac{n}{u_{n}} = 1$ , 则级数 $\\sum_{n=1}^{\\infty} (-1)^{n+1} \\left(\\frac{1}{u_{n}} + \\frac{1}{u_{n+1}}\\right)$\n\n（A）发散.\n\n（B）绝对收敛.\n\n（C）条件收敛\n\n(D) 收敛性根据所给条件不能判定.",
+   "answerText": "答案：C\n\n**解析：**\n部分和 $S_{n}=\\left(\\dfrac{1}{u_{1}}+\\dfrac{1}{u_{2}}\\right)-\\left(\\dfrac{1}{u_{2}}+\\dfrac{1}{u_{3}}\\right)+\\dots+(-1)^{n+1}\\left(\\dfrac{1}{u_{n}}+\\dfrac{1}{u_{n+1}}\\right)=\\dfrac{1}{u_{1}}+(-1)^{n+1}\\dfrac{1}{u_{n+1}}$，由 $\\dfrac{1}{u_{n}}\\to 0$ 知 $S_{n}\\to\\dfrac{1}{u_{1}}$，级数收敛。但绝对值级数为 $\\sum\\left(\\dfrac{1}{u_{n}}+\\dfrac{1}{u_{n+1}}\\right)$，由 $\\dfrac{1}{u_{n}}\\sim\\dfrac{1}{n}$ 与调和级数比较知其发散。故条件收敛，选 C。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "alternating_general_series",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "absolute_conditional_convergence"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：alternating_general_series、absolute_conditional_convergence，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.8",
+   "number": 8,
+   "title": "2002 年数学一 第 8 题",
+   "questionText": "设函数 $y = f(x)$ 在 $(0, +\\infty)$ 内有界且可导，则（ ）\n\n(A) 当 $\\lim_{x \\to +\\infty} f(x) = 0$ 时, 必有 $\\lim_{x \\to +\\infty} f'(x) = 0$ .\n(B) 当 $\\lim_{x \\to +\\infty} f'(x)$ 存在时, 必有 $\\lim_{x \\to +\\infty} f'(x) = 0$ .\n(C) 当 $\\lim_{x \\to 0^{+}} f(x) = 0$ 时, 必有 $\\lim_{x \\to 0^{+}} f'(x) = 0$ .\n(D) 当 $\\lim_{x \\to 0^{+}} f'(x)$ 存在时, 必有 $\\lim_{x \\to 0^{+}} f'(x) = 0$ .",
+   "answerText": "答案：B\n\n**解析：**\n反证：若 $\\lim_{x\\to+\\infty}f^{\\prime}(x)=A$ 存在且 $A\\neq 0$，不妨 $A>0$，则存在 $X$ 使 $x>X$ 时 $f^{\\prime}(x)>\\dfrac{A}{2}$，由拉格朗日中值定理 $f(x)>f(X)+\\dfrac{A}{2}(x-X)\\to+\\infty$，与 $f$ 有界矛盾；$A<0$ 同理。故必有 $A=0$，选 B。（A 的反例：$f(x)=\\dfrac{\\sin x^{2}}{x}\\to 0$ 但 $f^{\\prime}$ 极限不存在。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "function_properties"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：function_properties，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.9",
+   "number": 9,
+   "title": "2002 年数学一 第 9 题",
+   "questionText": "设有三张不同平面的方程 $a_{i1}x + a_{i2}y + a_{i3}z = b_i, i = 1,2,3$ , 它们所组成的线性方程组的系数矩阵与增广矩阵的秩都为 2 , 则这三张平面可能的位置关系为 ( )\n\n![](images/5a83b0446d5d8be79a045e814853bc7c8100c050854275d5d10f62e99d7d957a.jpg)\n(A)\n\n![](images/8127aa31eb9b732b4b21f0f9cef9fb714092b8e440718188c6f9f5e6bca799ea.jpg)\n(B)\n\n![](images/6a75d47c3f3e7e51ebaa752538b7c072f125f4e206a99dc4cf9ded5b5eb9967e.jpg)\n(C)\n\n![](images/9e0f14659cf0e9e2d0d8f7fb57cbd30d2d222507d38b5194e452c67cb2205a15.jpg)\n(D)",
+   "answerText": "答案：B\n\n**解析：**\n$r(\\mathbf{A})=r(\\overline{\\mathbf{A}})=2<3$，方程组有无穷多解，即三张平面有无穷多个公共点。（A）表示唯一交点（秩为 3），（C）（D）表示无公共点（$r(\\mathbf{A})<r(\\overline{\\mathbf{A}})$），故应为三平面交于一条直线或互异，选 B（图中（B）为三平面经过同一直线）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.10",
+   "number": 10,
+   "title": "2002 年数学一 第 10 题",
+   "questionText": "设 $X_{1}$ 和 $X_{2}$ 是任意两个相互独立的连续型随机变量, 它们的概率密度分别为 $f_{1}(x)$ 和 $f_{2}(x)$ , 分布函数分别为 $F_{1}(x)$ 和 $F_{2}(x)$ , 则( )\n\n$(\\mathrm{A})f_{1}(x) + f_{2}(x)$ 必为某一随机变量的概率密度\n(B) $f_{1}(x)f_{2}(x)$ 必为某一随机变量的概率密度.\n$(\\mathrm{C})F_{1}(x) + F_{2}(x)$ 必为某一随机变量的分布函数\n$(\\mathrm{D})F_{1}(x)F_{2}(x)$ 必为某一随机变量的分布函数",
+   "answerText": "答案：D\n\n**解析：**\n$f_{1}+f_{2}$ 在全直线积分等于 2，不是密度，排除 A；$F_{1}+F_{2}$ 在 $+\\infty$ 处为 2，不是分布函数，排除 C；（B）可举反例 $X_{1},X_{2}$ 同服从 $\\mathrm{e}^{-x}$（$x>0$），则 $f_{1}f_{2}$ 积分为 $\\dfrac{1}{2}\\neq 1$。而 $F_{1}F_{2}$ 单调不减、右连续，极限值 $0$ 与 $1$ 正确，故必为某随机变量的分布函数，选 D。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.11",
+   "number": 11,
+   "title": "2002 年数学一 第 11 题",
+   "questionText": "设函数 $f(x)$ 在 $x=0$ 的某邻域内具有一阶连续导数，且 $f(0)\\neq 0$，$f^{\\prime}(0)\\neq 0$，若 $af(h)+bf(2h)-f(0)$ 在 $h\\to 0$ 时是比 $h$ 高阶的无穷小，试确定 $a, b$ 的值.",
+   "answerText": "答案：$a=2,\\ b=-1$\n\n**解析：**\n由 $af(h)+bf(2h)-f(0)=o(h)$：令 $h\\to 0$ 得 $(a+b-1)f(0)=0$，由 $f(0)\\neq 0$ 得 $a+b=1$。再对 $\\dfrac{af(h)+bf(2h)-f(0)}{h}$ 取极限：拆成 $a\\dfrac{f(h)-f(0)}{h}+2b\\dfrac{f(2h)-f(0)}{2h}\\to(a+2b)f^{\\prime}(0)=0$，由 $f^{\\prime}(0)\\neq 0$ 得 $a+2b=0$。联立解得 $a=2,\\ b=-1$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinite_and_infinitesimal"
+   ],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 function_limit_continuity；自动打标(规则)：infinite_and_infinitesimal，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.12",
+   "number": 12,
+   "title": "2002 年数学一 第 12 题",
+   "questionText": "已知两曲线 $y=f(x)$ 与 $y=\\displaystyle\\int_{0}^{\\arctan x}\\mathrm{e}^{-t^{2}}\\,\\mathrm{d}t$ 在点 $(0,0)$ 处的切线相同，写出此切线方程，并求极限 $\\displaystyle\\lim_{n\\to\\infty}nf\\left(\\frac{2}{n}\\right)$.",
+   "answerText": "答案：切线 $y=x$；$\\lim_{n\\to\\infty}nf\\left(\\dfrac{2}{n}\\right)=2$\n\n**解析：**\n变上限求导给出第二条曲线在 $x=0$ 处的导数为 $\\mathrm{e}^{-\\arctan^{2}0}\\cdot\\dfrac{1}{1+0}=1$，又它过原点，故 $f(0)=0,\\ f^{\\prime}(0)=1$，切线为 $y=x$。由导数定义：$\\displaystyle\\lim_{n\\to\\infty}nf\\left(\\frac{2}{n}\\right)=2\\lim_{n\\to\\infty}\\frac{f\\left(\\frac{2}{n}\\right)-f(0)}{\\frac{2}{n}}=2f^{\\prime}(0)=2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "sequence_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "四、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.13",
+   "number": 13,
+   "title": "2002 年数学一 第 13 题",
+   "questionText": "计算二重积分 $\\displaystyle\\iint_{D}\\mathrm{e}^{\\max\\left\\{x^{2}, y^{2}\\right\\}}\\,\\mathrm{d}x\\,\\mathrm{d}y$，其中 $D=\\{(x, y)\\mid 0\\leqslant x\\leqslant 1,\\ 0\\leqslant y\\leqslant 1\\}$.",
+   "answerText": "答案：$\\mathrm{e}-1$\n\n**解析：**\n用直线 $y=x$ 把 $D$ 分成 $D_{1}$（$y\\le x$，$\\max=x^{2}$）与 $D_{2}$（$y\\ge x$，$\\max=y^{2}$）。由关于 $y=x$ 的对称性，$\\displaystyle\\iint_{D}=2\\iint_{D_{1}}\\mathrm{e}^{x^{2}}\\,\\mathrm{d}x\\mathrm{d}y=2\\int_{0}^{1}\\mathrm{e}^{x^{2}}\\,\\mathrm{d}x\\int_{0}^{x}\\mathrm{d}y=2\\int_{0}^{1}x\\,\\mathrm{e}^{x^{2}}\\,\\mathrm{d}x=\\left.\\mathrm{e}^{x^{2}}\\right|_{0}^{1}=\\mathrm{e}-1$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multiple_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "double_integral",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "calculus",
+   "section": "五、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.14",
+   "number": 14,
+   "title": "2002 年数学一 第 14 题",
+   "questionText": "设函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 内具有一阶连续导数，$L$ 是上半平面 $(y>0)$ 内的有向分段光滑曲线，其起点为 $(a, b)$，终点为 $(c, d)$. 记 $I=\\displaystyle\\int_{L}\\frac{1}{y}\\left[1+y^{2}f(xy)\\right]\\mathrm{d}x+\\frac{x}{y^{2}}\\left[y^{2}f(xy)-1\\right]\\mathrm{d}y.$\n\n（1）证明曲线积分 $I$ 与路径 $L$ 无关；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n在上半平面内 $P=\\dfrac{1}{y}+yf(xy)$，$Q=xf(xy)-\\dfrac{x}{y^{2}}$，均为连续可微函数。计算 $\\dfrac{\\partial P}{\\partial y}=-\\dfrac{1}{y^{2}}+f(xy)+xyf^{\\prime}(xy)$，$\\dfrac{\\partial Q}{\\partial x}=f(xy)+xyf^{\\prime}(xy)-\\dfrac{1}{y^{2}}$，两者相等，故积分与路径无关。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "line_integral_second_kind",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "calculus",
+   "section": "六、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.15",
+   "number": 15,
+   "title": "2002 年数学一 第 15 题",
+   "questionText": "设函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 内具有一阶连续导数，$L$ 是上半平面 $(y>0)$ 内的有向分段光滑曲线，其起点为 $(a, b)$，终点为 $(c, d)$. 记 $I=\\displaystyle\\int_{L}\\frac{1}{y}\\left[1+y^{2}f(xy)\\right]\\mathrm{d}x+\\frac{x}{y^{2}}\\left[y^{2}f(xy)-1\\right]\\mathrm{d}y.$\n\n（2）当 $ab = cd$ 时，求 $I$ 的值.",
+   "answerText": "答案：$I=\\dfrac{bc-ad}{bd}$\n\n**解析：**\n拆成两组：$I=\\displaystyle\\int_{L}\\frac{1}{y}\\,\\mathrm{d}x-\\frac{x}{y^{2}}\\,\\mathrm{d}y+\\int_{L}yf(xy)\\,\\mathrm{d}x+xf(xy)\\,\\mathrm{d}y$。第一组恰为 $\\mathrm{d}\\left(\\dfrac{x}{y}\\right)$，积分等于 $\\dfrac{c}{d}-\\dfrac{a}{b}$；第二组为 $\\mathrm{d}F(xy)$（$F$ 为 $f$ 的原函数），等于 $F(cd)-F(ab)$，由 $ab=cd$ 知其为 0。故 $I=\\dfrac{c}{d}-\\dfrac{a}{b}=\\dfrac{bc-ad}{bd}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "line_integral_second_kind",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral",
+    "piecewise_integral"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "六、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.16",
+   "number": 16,
+   "title": "2002 年数学一 第 16 题",
+   "questionText": "验证函数 $y(x) = 1 + \\frac{x^3}{3!} + \\frac{x^6}{6!} + \\frac{x^9}{9!} + \\dots + \\frac{x^{3n}}{(3n)!} + \\dots (-\\infty < x < +\\infty)$ 满足微分方程 $y'' + y' + y = e^x$ ;",
+   "answerText": "答案：验证成立\n\n**解析：**\n幂级数处处收敛，可逐项求导：$y^{\\prime}=\\displaystyle\\sum_{n=1}^{\\infty}\\frac{x^{3n-1}}{(3n-1)!}$，$y^{\\prime\\prime}=\\sum_{n=1}^{\\infty}\\frac{x^{3n-2}}{(3n-2)!}$。相加：$y^{\\prime\\prime}+y^{\\prime}+y=\\sum_{k=0}^{\\infty}\\frac{x^{k}}{k!}=\\mathrm{e}^{x}$（三类下标 $3n,\\ 3n-1,\\ 3n-2$ 恰好拼齐全部非负整数幂），即 $y$ 满足方程 $y^{\\prime\\prime}+y^{\\prime}+y=\\mathrm{e}^{x}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "linear_higher_order_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "七、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.17",
+   "number": 17,
+   "title": "2002 年数学一 第 17 题",
+   "questionText": "利用 (1) 的结果求幂级数 $\\sum_{n=0}^{\\infty} \\frac{x^{3n}}{(3n)!}$ 的和函数.",
+   "answerText": "答案：$\\displaystyle\\sum_{n=0}^{\\infty}\\frac{x^{3n}}{(3n)!}=\\frac{2}{3}\\mathrm{e}^{-\\frac{x}{2}}\\cos\\frac{\\sqrt{3}}{2}x+\\frac{1}{3}\\mathrm{e}^{x}\\quad(-\\infty<x<+\\infty)$\n\n**解析：**\n由（1），$y(x)=\\sum\\dfrac{x^{3n}}{(3n)!}$ 是初值问题 $y^{\\prime\\prime}+y^{\\prime}+y=\\mathrm{e}^{x}$，$y(0)=1,\\ y^{\\prime}(0)=0$ 的解。齐次特征根为 $-\\dfrac{1}{2}\\pm\\dfrac{\\sqrt{3}}{2}\\mathrm{i}$，特解取 $\\dfrac{1}{3}\\mathrm{e}^{x}$，通解为 $y=\\mathrm{e}^{-\\frac{x}{2}}\\left(C_{1}\\cos\\dfrac{\\sqrt{3}}{2}x+C_{2}\\sin\\dfrac{\\sqrt{3}}{2}x\\right)+\\dfrac{1}{3}\\mathrm{e}^{x}$。代入初始条件得 $C_{1}=\\dfrac{2}{3},\\ C_{2}=0$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "power_series_sum",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：power_series_sum、power_series_sum，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "七、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.18",
+   "number": 18,
+   "title": "2002 年数学一 第 18 题",
+   "questionText": "设有一小山，取它的底面所在的平面为 $xOy$ 坐标面，其底部所占的区域为 $D=\\{(x,y)\\mid x^{2}+y^{2}-xy\\leqslant 75\\}$，小山的高度函数为 $h(x,y)=75-x^{2}-y^{2}+xy$.\n\n（1）设 $M(x_0, y_0)$ 为区域 $D$ 上一点，问 $h(x, y)$ 在该点沿平面上什么方向的方向导数最大？若记此方向导数的最大值为 $g(x_0, y_0)$，试写出 $g(x_0, y_0)$ 的表达式.",
+   "answerText": "答案：沿梯度 $\\left(y_{0}-2x_{0},\\ x_{0}-2y_{0}\\right)$ 方向最大；$g(x_{0}, y_{0})=\\sqrt{5x_{0}^{2}+5y_{0}^{2}-8x_{0}y_{0}}$\n\n**解析：**\n函数沿梯度方向的方向导数最大，最大值为梯度的模。$\\mathrm{grad}\\,h\\big|_{M}=\\left(-2x_{0}+y_{0},\\ x_{0}-2y_{0}\\right)$，其模的平方为 $(y_{0}-2x_{0})^{2}+(x_{0}-2y_{0})^{2}=5x_{0}^{2}+5y_{0}^{2}-8x_{0}y_{0}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "directional_derivative_gradient",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "directional_derivative_gradient",
+    "orientation"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "八、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.19",
+   "number": 19,
+   "title": "2002 年数学一 第 19 题",
+   "questionText": "设有一小山，取它的底面所在的平面为 $xOy$ 坐标面，其底部所占的区域为 $D=\\{(x,y)\\mid x^{2}+y^{2}-xy\\leqslant 75\\}$，小山的高度函数为 $h(x,y)=75-x^{2}-y^{2}+xy$.\n\n（2）现欲利用此小山开展攀岩活动，为此需要在山脚寻找一上山坡度最大的点作为攀登的起点. 也就是说，要在 $D$ 的边界线 $x^{2}+y^{2}-xy=75$ 上找出使（1）中的 $g(x, y)$ 达到最大值的点. 试确定攀登起点的位置.",
+   "answerText": "答案：攀登起点可取 $(5,-5)$ 或 $(-5,5)$\n\n**解析：**\n用拉格朗日乘数法求 $g^{2}=5x^{2}+5y^{2}-8xy$ 在约束 $x^{2}+y^{2}-xy=75$ 下的最大值。令 $F=5x^{2}+5y^{2}-8xy+\\lambda(x^{2}+y^{2}-xy-75)$，两个偏导方程相加得 $(x+y)(\\lambda+2)=0$：$\\lambda=-2$ 给出 $y=x$，解得 $\\left(\\pm 5\\sqrt{3},\\ \\pm 5\\sqrt{3}\\right)$，此时 $g=5\\sqrt{6}$；$y=-x$ 给出 $(5,-5)$ 与 $(-5,5)$，此时 $g=15\\sqrt{2}>5\\sqrt{6}$。故在点 $(5,-5)$ 或 $(-5,5)$ 处坡度最大。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "八、（本题满分7分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.20",
+   "number": 20,
+   "title": "2002 年数学一 第 20 题",
+   "questionText": "已知 4 阶方阵 $\\mathbf{A}=(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4})$，$\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 均为 4 维列向量，其中 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关，$\\boldsymbol{\\alpha}_{1}=2\\boldsymbol{\\alpha}_{2}-\\boldsymbol{\\alpha}_{3}$. 如果 $\\boldsymbol{\\beta}=\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}+\\boldsymbol{\\alpha}_{4}$，求线性方程组 $\\mathbf{A}x=\\boldsymbol{\\beta}$ 的通解.",
+   "answerText": "答案：$\\boldsymbol{X}=(1,1,1,1)^{\\mathrm{T}}+k(1,-2,1,0)^{\\mathrm{T}}$（$k$ 为任意常数）\n\n**解析：**\n由 $\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 线性无关及 $\\alpha_{1}=2\\alpha_{2}-\\alpha_{3}$ 知 $r(\\mathbf{A})=3$，故 $\\mathbf{A}x=0$ 的基础解系含一个解向量：由 $\\alpha_{1}-2\\alpha_{2}+\\alpha_{3}=0$ 得 $\\boldsymbol{\\xi}=(1,-2,1,0)^{\\mathrm{T}}$。又 $\\boldsymbol{\\beta}=\\alpha_{1}+\\alpha_{2}+\\alpha_{3}+\\alpha_{4}$ 说明 $\\boldsymbol{\\eta}=(1,1,1,1)^{\\mathrm{T}}$ 是 $\\mathbf{A}x=\\boldsymbol{\\beta}$ 的特解。通解为特解加齐次通解。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.linear_systems",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.general_solution"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.knowledge.general_solution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "九、（本题满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.21",
+   "number": 21,
+   "title": "2002 年数学一 第 21 题",
+   "questionText": "设 $\\mathbf{A}, \\mathbf{B}$ 为同阶方阵.\n\n（1）如果 $A, B$ 相似，试证 $A, B$ 的特征多项式相等；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n设 $\\mathbf{P}^{-1}\\mathbf{A}\\mathbf{P}=\\mathbf{B}$，则 $|\\lambda\\mathbf{E}-\\mathbf{B}|=|\\lambda\\mathbf{P}^{-1}\\mathbf{P}-\\mathbf{P}^{-1}\\mathbf{A}\\mathbf{P}|=|\\mathbf{P}^{-1}|\\,|\\lambda\\mathbf{E}-\\mathbf{A}|\\,|\\mathbf{P}|=|\\lambda\\mathbf{E}-\\mathbf{A}|$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.eigenvalues",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.similarity_judgment",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.eigen_concept",
+    "la.knowledge.similarity_concept"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.similarity_judgment、infinitesimal_order、la.knowledge.similarity_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues；审计修复：跨科目/非法知识点 infinitesimal_order → la.knowledge.eigen_concept（纯线代相似证明题，特征多项式对应特征值概念）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "十、（本题满分8分，含3小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.22",
+   "number": 22,
+   "title": "2002 年数学一 第 22 题",
+   "questionText": "设 $\\mathbf{A}, \\mathbf{B}$ 为同阶方阵.\n\n（2）举一个 2 阶方阵的例子说明（1）的逆命题不成立.",
+   "answerText": "答案：反例：$\\mathbf{A}=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}$ 与 $\\mathbf{B}=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$\n\n**解析：**\n两矩阵的特征多项式都等于 $\\lambda^{2}$，但 $r(\\mathbf{A})=0\\neq 1=r(\\mathbf{B})$，相似矩阵必等价故秩相同，因此 $\\mathbf{A}$ 与 $\\mathbf{B}$ 不相似。这说明特征多项式相等不能推出相似。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinitesimal_order"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：infinitesimal_order，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "十、（本题满分8分，含3小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.23",
+   "number": 23,
+   "title": "2002 年数学一 第 23 题",
+   "questionText": "设 $\\mathbf{A}, \\mathbf{B}$ 为同阶方阵.\n\n（3）当 $A, B$ 均为实对称矩阵时，试证（1）的逆命题成立.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n实对称矩阵必可正交（相似）对角化。若 $\\mathbf{A},\\mathbf{B}$ 特征多项式相同，则它们有相同的特征值 $\\lambda_{1},\\dots,\\lambda_{n}$，于是存在可逆矩阵 $\\mathbf{P}_{1},\\mathbf{P}_{2}$ 使 $\\mathbf{P}_{1}^{-1}\\mathbf{A}\\mathbf{P}_{1}=\\mathbf{P}_{2}^{-1}\\mathbf{B}\\mathbf{P}_{2}=\\operatorname{diag}(\\lambda_{1},\\dots,\\lambda_{n})$。由此 $\\mathbf{B}=(\\mathbf{P}_{1}\\mathbf{P}_{2}^{-1})^{-1}\\mathbf{A}(\\mathbf{P}_{1}\\mathbf{P}_{2}^{-1})$，即 $\\mathbf{A}\\sim\\mathbf{B}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinitesimal_order",
+    "la.knowledge.symmetric_matrix"
+   ],
+   "methodIds": [],
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）；自动打标(规则)：infinitesimal_order、la.knowledge.symmetric_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "十、（本题满分8分，含3小题）"
+  },
+  {
+   "id": "bank.exam.m1-2002.24",
+   "number": 24,
+   "title": "2002 年数学一 第 24 题",
+   "questionText": "设随机变量 $X$ 的概率密度为 $f(x)=\\begin{cases}\\dfrac{1}{2}\\cos\\dfrac{x}{2}, & 0\\leqslant x\\leqslant\\pi, \\\\ 0, & \\text{其他},\\end{cases}$ 对 $X$ 独立地重复观察 4 次，用 $Y$ 表示观察值大于 $\\dfrac{\\pi}{3}$ 的次数，求 $Y^{2}$ 的数学期望.",
+   "answerText": "答案：$5$\n\n**解析：**\n每次观察值大于 $\\dfrac{\\pi}{3}$ 的概率 $p=\\displaystyle\\int_{\\frac{\\pi}{3}}^{\\pi}\\frac{1}{2}\\cos\\frac{x}{2}\\,\\mathrm{d}x=\\left[\\sin\\frac{x}{2}\\right]_{\\frac{\\pi}{3}}^{\\pi}=1-\\frac{1}{2}=\\frac{1}{2}$。故 $Y\\sim B\\left(4,\\dfrac{1}{2}\\right)$，$E(Y)=2$，$D(Y)=1$，$E(Y^{2})=D(Y)+[E(Y)]^{2}=5$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.expectation_calculation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.mathematical_expectation"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.type.expectation_calculation、prob.knowledge.mathematical_expectation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 24
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-2002.25",
+   "number": 25,
+   "title": "2002 年数学一 第 25 题",
+   "questionText": "设总体 $X$ 的概率分布为\\n\\n| $X$ | 0 | 1 | 2 | 3 |\\n| --- | --- | --- | --- | --- |\\n| $P$ | $\\theta^{2}$ | $2\\theta(1-\\theta)$ | $\\theta^{2}$ | $1-2\\theta$ |\\n\\n其中 $\\theta\\left(0<\\theta<\\dfrac{1}{2}\\right)$ 是未知参数，利用总体 $X$ 的如下样本值 $3,\\ 1,\\ 3,\\ 0,\\ 3,\\ 1,\\ 2,\\ 3$，求 $\\theta$ 的矩估计值和最大似然估计值.",
+   "answerText": "答案：矩估计值 $\\hat{\\theta}=\\dfrac{1}{4}$；最大似然估计值 $\\hat{\\theta}=\\dfrac{7-\\sqrt{13}}{12}$\n\n**解析：**\n矩法：$E(X)=2\\theta(1-\\theta)+2\\theta^{2}+3(1-2\\theta)=3-4\\theta$，样本均值 $\\overline{x}=2$，令 $3-4\\theta=2$ 得 $\\hat{\\theta}=\\dfrac{1}{4}$。似然法：样本中 0 出现 1 次、1 出现 2 次、2 出现 1 次、3 出现 4 次，$L(\\theta)=\\theta^{2}\\left[2\\theta(1-\\theta)\\right]^{2}\\theta^{2}(1-2\\theta)^{4}=4\\theta^{6}(1-\\theta)^{2}(1-2\\theta)^{4}$。令 $\\dfrac{\\mathrm{d}\\ln L}{\\mathrm{d}\\theta}=\\dfrac{6}{\\theta}-\\dfrac{2}{1-\\theta}-\\dfrac{8}{1-2\\theta}=0$，解得 $\\theta=\\dfrac{7\\pm\\sqrt{13}}{12}$；因 $\\dfrac{7+\\sqrt{13}}{12}>\\dfrac{1}{2}$ 舍去，故 $\\hat{\\theta}=\\dfrac{7-\\sqrt{13}}{12}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.parameter_estimation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.maximum_likelihood_method",
+    "prob.knowledge.moment_estimation_method"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.type.maximum_likelihood_estimation、prob.knowledge.maximum_likelihood_method、prob.knowledge.moment_estimation_method，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.parameter_estimation",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2002,
+    "paper": "math1",
+    "number": 25
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十二、（本题满分7分）"
+  }
+ ]
 }

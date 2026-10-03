@@ -1,958 +1,960 @@
 {
-  "format": "mathlink-bank",
-  "version": 1,
-  "subject": "exam_mixed",
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 1996,
+ "paper": "math1",
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
+ "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1996年考研数学(一)真题.md",
+ "paperInfo": {
   "year": 1996,
   "paper": "math1",
-  "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
-  "verified": true,
-  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1996年考研数学(一)真题.md",
-  "paperInfo": {
+  "label": "数学一",
+  "sections": [
+   "一、填空题（本题共5小题，每小题3分，满分15分）",
+   "二、选择题（本题共5小题，每小题3分，满分15分）",
+   "三、（本题共2小题，每小题5分，满分10分）",
+   "四、（本题共2小题，每小题6分，满分12分）",
+   "五、（本题满分7分）",
+   "六、（本题满分7分）",
+   "七、（本题满分8分，含2小题）",
+   "八、（本题满分6分，含2小题）",
+   "九、（本题满分8分，含2小题）",
+   "十、填空题（本题共2小题，每小题3分，满分6分）",
+   "十一、（本题满分6分，含2小题）"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-1996.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-1996.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-1996.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-1996.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-1996.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-1996.6",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-1996.7",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-1996.8",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-1996.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-1996.10",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-1996.11",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-1996.12",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-1996.13",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-1996.14",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-1996.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-1996.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-1996.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-1996.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-1996.19",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-1996.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-1996.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-1996.22",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-1996.23",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 24,
+    "id": "bank.exam.m1-1996.24",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 25,
+    "id": "bank.exam.m1-1996.25",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   },
+   {
+    "number": 26,
+    "id": "bank.exam.m1-1996.26",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 26
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-1996.1",
+   "number": 1,
+   "title": "1996 年数学一 第 1 题",
+   "questionText": "设 $\\lim_{x\\to\\infty}\\left(\\dfrac{x+2a}{x-a}\\right)^{x}=8$，则 $a=\\underline{\\quad}$",
+   "answerText": "答案：$\\ln 2$\n\n**解析：**\n$\\left(\\dfrac{x+2a}{x-a}\\right)^{x}=\\left[\\left(1+\\dfrac{3a}{x-a}\\right)^{\\frac{x-a}{3a}}\\right]^{\\frac{3ax}{x-a}}\\to\\mathrm{e}^{3a}$。由 $\\mathrm{e}^{3a}=8$ 得 $3a=3\\ln 2$，即 $a=\\ln 2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
     "year": 1996,
     "paper": "math1",
-    "label": "数学一",
-    "sections": [
-      "一、填空题（本题共5小题，每小题3分，满分15分）",
-      "二、选择题（本题共5小题，每小题3分，满分15分）",
-      "三、（本题共2小题，每小题5分，满分10分）",
-      "四、（本题共2小题，每小题6分，满分12分）",
-      "五、（本题满分7分）",
-      "六、（本题满分7分）",
-      "七、（本题满分8分，含2小题）",
-      "八、（本题满分6分，含2小题）",
-      "九、（本题满分8分，含2小题）",
-      "十、填空题（本题共2小题，每小题3分，满分6分）",
-      "十一、（本题满分6分，含2小题）"
-    ],
-    "problemsOrder": [
-      {
-        "number": 1,
-        "id": "bank.exam.m1-1996.1",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 2,
-        "id": "bank.exam.m1-1996.2",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 3,
-        "id": "bank.exam.m1-1996.3",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 4,
-        "id": "bank.exam.m1-1996.4",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 5,
-        "id": "bank.exam.m1-1996.5",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 6,
-        "id": "bank.exam.m1-1996.6",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 7,
-        "id": "bank.exam.m1-1996.7",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 8,
-        "id": "bank.exam.m1-1996.8",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 9,
-        "id": "bank.exam.m1-1996.9",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 10,
-        "id": "bank.exam.m1-1996.10",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 11,
-        "id": "bank.exam.m1-1996.11",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 12,
-        "id": "bank.exam.m1-1996.12",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 13,
-        "id": "bank.exam.m1-1996.13",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 14,
-        "id": "bank.exam.m1-1996.14",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 15,
-        "id": "bank.exam.m1-1996.15",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 16,
-        "id": "bank.exam.m1-1996.16",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 17,
-        "id": "bank.exam.m1-1996.17",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 18,
-        "id": "bank.exam.m1-1996.18",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 19,
-        "id": "bank.exam.m1-1996.19",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 20,
-        "id": "bank.exam.m1-1996.20",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 21,
-        "id": "bank.exam.m1-1996.21",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 22,
-        "id": "bank.exam.m1-1996.22",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 23,
-        "id": "bank.exam.m1-1996.23",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 24,
-        "id": "bank.exam.m1-1996.24",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 25,
-        "id": "bank.exam.m1-1996.25",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      },
-      {
-        "number": 26,
-        "id": "bank.exam.m1-1996.26",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      }
-    ],
-    "total": 22
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
   },
-  "problems": [
-    {
-      "id": "bank.exam.m1-1996.1",
-      "number": 1,
-      "title": "1996 年数学一 第 1 题",
-      "questionText": "设 $\\lim_{x\\to\\infty}\\left(\\dfrac{x+2a}{x-a}\\right)^{x}=8$，则 $a=\\underline{\\quad}$",
-      "answerText": "答案：$\\ln 2$\n\n**解析：**\n$\\left(\\dfrac{x+2a}{x-a}\\right)^{x}=\\left[\\left(1+\\dfrac{3a}{x-a}\\right)^{\\frac{x-a}{3a}}\\right]^{\\frac{3ax}{x-a}}\\to\\mathrm{e}^{3a}$。由 $\\mathrm{e}^{3a}=8$ 得 $3a=3\\ln 2$，即 $a=\\ln 2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 1
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.2",
-      "number": 2,
-      "title": "1996 年数学一 第 2 题",
-      "questionText": "设一平面经过原点及点 $(6,-3,2)$，且与平面 $4x-y+2z=8$ 垂直，则此平面方程为 $\\underline{\\quad}$",
-      "answerText": "答案：$2x+2y-3z=0$\n\n**解析：**\n平面过原点，可设 $Ax+By+Cz=0$。代入点 $(6,-3,2)$ 得 $6A-3B+2C=0$；与已知平面垂直给出 $4A-B+2C=0$。两式相减得 $2A-2B=0$，即 $B=A$，进而 $C=-\\dfrac{3}{2}A$。取 $A=2$ 得 $2x+2y-3z=0$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "plane_equation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "vector_perpendicular_parallel"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：plane_equation，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 2
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.3",
-      "number": 3,
-      "title": "1996 年数学一 第 3 题",
-      "questionText": "微分方程 $y^{\\prime\\prime}-2y^{\\prime}+2y=\\mathrm{e}^{x}$ 的通解为 $\\underline{\\quad}$",
-      "answerText": "答案：$y=\\mathrm{e}^{x}\\left(C_{1}\\cos x+C_{2}\\sin x\\right)+\\mathrm{e}^{x}$\n\n**解析：**\n特征方程 $\\lambda^{2}-2\\lambda+2=0$，根 $\\lambda=1\\pm\\mathrm{i}$，齐次通解 $\\mathrm{e}^{x}(C_{1}\\cos x+C_{2}\\sin x)$。把 $y=\\mathrm{e}^{x}$ 代入左端得 $\\mathrm{e}^{x}$，故它就是特解。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "differential_equation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "linear_higher_order_equation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 3
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.4",
-      "number": 4,
-      "title": "1996 年数学一 第 4 题",
-      "questionText": "函数 $u=\\ln\\left(x+\\sqrt{y^{2}+z^{2}}\\right)$ 在点 $A(1,0,1)$ 处沿点 $A$ 指向点 $B(3,-2,2)$ 方向的方向导数为 $\\underline{\\quad}$",
-      "answerText": "答案：$\\dfrac{1}{2}$\n\n**解析：**\n$\\dfrac{\\partial u}{\\partial x}=\\dfrac{1}{x+\\sqrt{y^{2}+z^{2}}}$，在 $A$ 处为 $\\dfrac{1}{2}$；$\\dfrac{\\partial u}{\\partial y}$ 在 $A$ 处为 0；$\\dfrac{\\partial u}{\\partial z}$ 在 $A$ 处为 $\\dfrac{1}{2}$。$\\overrightarrow{AB}=(2,-2,1)$，方向余弦 $\\left(\\dfrac{2}{3},-\\dfrac{2}{3},\\dfrac{1}{3}\\right)$。方向导数 $=\\dfrac{1}{2}\\cdot\\dfrac{2}{3}+0+\\dfrac{1}{2}\\cdot\\dfrac{1}{3}=\\dfrac{1}{2}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "directional_derivative_gradient",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "directional_derivative_gradient",
-        "orientation",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 4
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.5",
-      "number": 5,
-      "title": "1996 年数学一 第 5 题",
-      "questionText": "设 $\\mathbf{A}$ 是 $4\\times 3$ 矩阵，且 $\\mathbf{A}$ 的秩 $r(\\mathbf{A})=2$，而 $\\boldsymbol{B}=\\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 2 & 0 \\\\ -1 & 0 & 3 \\end{pmatrix}$，则 $r(\\mathbf{AB})=\\underline{\\quad}$",
-      "answerText": "答案：$2$\n\n**解析：**\n$|\\boldsymbol{B}|=2(3+2)=10\\neq 0$，$\\boldsymbol{B}$ 可逆。用一个可逆矩阵右乘不改变秩，故 $r(\\mathbf{AB})=r(\\mathbf{A})=2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.matrix_rank",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.matrix_transpose"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.matrix_rank，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 5
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.6",
-      "number": 6,
-      "title": "1996 年数学一 第 6 题",
-      "questionText": "已知 $\\frac{(x + ay)\\mathrm{d}x + y\\mathrm{d}y}{(x + y)^2}$ 为某函数的全微分，则 $a$ 等于（ ）.\n\n(A) -1\n\n(B)0\n\n(C)1\n\n(D)2",
-      "answerText": "答案：D\n\n**解析：**\n记 $P=\\dfrac{x+ay}{(x+y)^{2}}$，$Q=\\dfrac{y}{(x+y)^{2}}$。全微分存在要求 $\\dfrac{\\partial P}{\\partial y}=\\dfrac{\\partial Q}{\\partial x}$：$\\dfrac{a(x+y)-2(x+ay)}{(x+y)^{3}}=\\dfrac{-2y}{(x+y)^{3}}$，比较系数得 $a-2=0$ 且 $-a=-2$，故 $a=2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "total_differential"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：total_differential，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multivariable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 6
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.7",
-      "number": 7,
-      "title": "1996 年数学一 第 7 题",
-      "questionText": "设 $f(x)$ 有二阶连续导数，且 $f^{\\prime}(0) = 0,\\lim_{x\\to 0}\\frac{f^{\\prime\\prime}(x)}{|x|} = 1$ ，则（ ）.\n\n(A) $f(0)$ 是 $f(x)$ 的极大值\n(B) $f(0)$ 是 $f(x)$ 的极小值\n(C) $(0, f(0))$ 是曲线 $y = f(x)$ 的拐点\n(D) $f(0)$ 不是 $f(x)$ 的极值， $(0,f(0))$ 也不是曲线 $y = f(x)$ 的拐点",
-      "answerText": "答案：B\n\n**解析：**\n由保号性，在 $x=0$ 的某去心邻域内 $f^{\\prime\\prime}(x)>0$，故 $f^{\\prime}$ 单调递增；结合 $f^{\\prime}(0)=0$ 知 $f^{\\prime}$ 在 $0$ 左侧为负、右侧为正，$f$ 先减后增，$f(0)$ 为极小值。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "concavity_inflection",
-        "extrema"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：concavity_inflection、extrema，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 7
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.8",
-      "number": 8,
-      "title": "1996 年数学一 第 8 题",
-      "questionText": "设 $a_{n} > 0 (n = 1,2,\\dots)$ , 且 $\\sum_{n=1}^{\\infty} a_{n}$ 收敛, 常数 $\\lambda \\in \\left(0, \\frac{\\pi}{2}\\right)$ , 则级数 $\\sum_{n=1}^{\\infty} (-1)^{n} \\left(n \\tan \\frac{\\lambda}{n}\\right) a_{2n}$ .\n\n（A）绝对收敛\n\n（B）条件收敛\n\n（C）发散\n\n(D) 收敛性与 $\\lambda$ 有关",
-      "answerText": "答案：A\n\n**解析：**\n当 $n\\to\\infty$ 时 $\\left|n\\tan\\dfrac{\\lambda}{n}\\,a_{2n}\\right|\\sim\\lambda a_{2n}$。由正项级数 $\\sum a_{n}$ 收敛知 $\\sum a_{2n}$ 收敛，由比较判别法知原级数绝对收敛（且与 $\\lambda$ 无关）。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "alternating_general_series",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "absolute_conditional_convergence"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：alternating_general_series、absolute_conditional_convergence，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 8
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.9",
-      "number": 9,
-      "title": "1996 年数学一 第 9 题",
-      "questionText": "设 $f(x)$ 有连续导数， $f(0) = 0, f'(0) \\neq 0, F(x) = \\int_{0}^{x} (x^2 - t^2) f(t) \\, \\mathrm{d}t$ ，且当 $x \\to 0$ 时， $F'(x)$ 与 $x^k$ 是同阶无穷小，则 $k$ 等于（ ）.\n\n(A)1\n\n(B)2\n\n(C)3\n\n(D)4",
-      "answerText": "答案：C\n\n**解析：**\n$F(x)=x^{2}\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t-\\int_{0}^{x}t^{2}f(t)\\,\\mathrm{d}t$，求导得 $F^{\\prime}(x)=2x\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$。于是 $\\displaystyle\\lim_{x\\to 0}\\frac{F^{\\prime}(x)}{x^{3}}=\\lim_{x\\to 0}\\frac{\\int_{0}^{x}f(t)\\,\\mathrm{d}t}{x^{2}}=\\lim_{x\\to 0}\\frac{f(x)}{2x}=\\frac{f^{\\prime}(0)}{2}\\neq 0$，故 $F^{\\prime}$ 与 $x^{3}$ 同阶，$k=3$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "infinite_and_infinitesimal",
-        "multivariable_limit_continuity"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 9
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.10",
-      "number": 10,
-      "title": "1996 年数学一 第 10 题",
-      "questionText": "4阶行列式 $\\left| \\begin{array}{cccc}a_{1} & 0 & 0 & b_{1}\\\\ 0 & a_{2} & b_{2} & 0\\\\ 0 & b_{3} & a_{3} & 0\\\\ b_{4} & 0 & 0 & a_{4} \\end{array} \\right|$ 的值等于（ ）.\n\n(A) $a_{1}a_{2}a_{3}a_{4} - b_{1}b_{2}b_{3}b_{4}$\n\n(B) $a_{1}a_{2}a_{3}a_{4} + b_{1}b_{2}b_{3}b_{4}$\n\n(C) $(a_{1}a_{2} - b_{1}b_{2})(a_{3}a_{4} - b_{3}b_{4})$\n\n(D) $(a_{2}a_{3} - b_{2}b_{3})(a_{1}a_{4} - b_{1}b_{4})$",
-      "answerText": "答案：D\n\n**解析：**\n按第一行展开：原式 $=a_{1}a_{4}\\begin{vmatrix}a_{2}&b_{2}\\\\b_{3}&a_{3}\\end{vmatrix}-b_{1}b_{4}\\begin{vmatrix}a_{2}&b_{2}\\\\b_{3}&a_{3}\\end{vmatrix}=(a_{1}a_{4}-b_{1}b_{4})(a_{2}a_{3}-b_{2}b_{3})$，选 D。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.determinants",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.determinants",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 10
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.11",
-      "number": 11,
-      "title": "1996 年数学一 第 11 题",
-      "questionText": "求心形线 $r = a(1 + \\cos \\theta)$ 的全长，其中 $a > 0$ 是常数",
-      "answerText": "答案：$8a$\n\n**解析：**\n心形线关于极轴对称，弧长 $s=2\\displaystyle\\int_{0}^{\\pi}\\sqrt{r^{2}+r^{\\prime 2}}\\,\\mathrm{d}\\theta$。$r=a(1+\\cos\\theta)$，$r^{\\prime}=-a\\sin\\theta$，$r^{2}+r^{\\prime 2}=2a^{2}(1+\\cos\\theta)=4a^{2}\\cos^{2}\\dfrac{\\theta}{2}$，故 $s=2\\displaystyle\\int_{0}^{\\pi}2a\\cos\\frac{\\theta}{2}\\,\\mathrm{d}\\theta=4a\\left[2\\sin\\frac{\\theta}{2}\\right]_{0}^{\\pi}=8a$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 11
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共2小题，每小题5分，满分10分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.12",
-      "number": 12,
-      "title": "1996 年数学一 第 12 题",
-      "questionText": "设 $x_{1} = 10, x_{n + 1} = \\sqrt{6 + x_{n}} (n = 1,2,\\dots)$ ，试证数列 $\\{x_{n}\\}$ 极限存在，并求此极限.",
-      "answerText": "答案：极限存在且等于 $3$\n\n**解析：**\n设 $f(x)=\\sqrt{6+x}$，它在 $[0,+\\infty)$ 单调递增。$x_{2}=2\\sqrt{2}\\approx 2.83<10=x_{1}$，且若 $x_{n}>x_{n+1}$ 则 $x_{n+1}=\\sqrt{6+x_{n}}>\\sqrt{6+x_{n+1}}=x_{n+2}$，归纳得 $\\{x_{n}\\}$ 单调递减；又 $x_{n}>3$（归纳可证：若 $x_n>3$，则 $x_{n+1}=\\sqrt{6+x_n}>3$），即有下界。由单调有界原理极限存在。设极限为 $A$，则 $A=\\sqrt{6+A}$，解得 $A=3$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 12
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共2小题，每小题5分，满分10分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.13",
-      "number": 13,
-      "title": "1996 年数学一 第 13 题",
-      "questionText": "计算曲面积分 $\\iint_{S} (2x + z) \\, \\mathrm{d}y \\, \\mathrm{d}z + z \\, \\mathrm{d}x \\, \\mathrm{d}y$ ，其中 $S$ 为有向曲面 $z = x^2 + y^2 (0 \\leqslant z \\leqslant 1)$ ，其法向量与 $z$ 轴正向的夹角为锐角.",
-      "answerText": "答案：$-\\dfrac{\\pi}{2}$\n\n**解析：**\n补平面片 $S_{1}:\\ z=1\\ (x^{2}+y^{2}\\le 1)$，与 $S$ 围成区域 $\\Omega$（取外侧时 $S$ 上法向朝下）。散度 $=2+1=3$，故外侧闭曲面积分 $=3\\iiint_{\\Omega}\\mathrm{d}v=3\\displaystyle\\int_{0}^{1}\\pi z\\,\\mathrm{d}z=\\frac{3\\pi}{2}$。题给 $S$ 的法向朝上（指向 $\\Omega$ 内部），与外侧相反；$S_{1}$ 外侧朝上，其通量为 $\\displaystyle\\iint_{x^{2}+y^{2}\\le 1}1\\,\\mathrm{d}x\\mathrm{d}y=\\pi$。故所求 $=\\left(\\frac{3\\pi}{2}-\\pi\\right)$ 取相反定向，得 $-\\dfrac{\\pi}{2}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.vector_concept"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 13
-      },
-      "subjectGuess": "calculus",
-      "section": "四、（本题共2小题，每小题6分，满分12分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.14",
-      "number": 14,
-      "title": "1996 年数学一 第 14 题",
-      "questionText": "设变换 $\\left\\{ \\begin{array}{l} u = x - 2y, \\\\ v = x + ay \\end{array} \\right.$ 可把方程 $6\\frac{\\partial^2z}{\\partial x^2} + \\frac{\\partial^2z}{\\partial x\\partial y} - \\frac{\\partial^2z}{\\partial y^2} = 0$ 化简为 $\\frac{\\partial^2z}{\\partial u\\partial v} = 0$ ，求常数 $a$ ，其中 $z = z(x,y)$ 有二阶连续的偏导数.",
-      "answerText": "答案：$a=3$\n\n**解析：**\n链式求导：$\\dfrac{\\partial z}{\\partial x}=z_{u}+z_{v}$，$\\dfrac{\\partial z}{\\partial y}=-2z_{u}+az_{v}$，继续求二阶导并代入原方程，整理得 $(5a+10)\\dfrac{\\partial^{2}z}{\\partial u\\partial v}+(-a^{2}+a+6)\\dfrac{\\partial^{2}z}{\\partial v^{2}}=0$。要化简为 $\\dfrac{\\partial^{2}z}{\\partial u\\partial v}=0$，需 $-a^{2}+a+6=0$ 且 $5a+10\\neq 0$，即 $a=3$（$a=-2$ 舍去）。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 14
-      },
-      "subjectGuess": "calculus",
-      "section": "四、（本题共2小题，每小题6分，满分12分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.15",
-      "number": 15,
-      "title": "1996 年数学一 第 15 题",
-      "questionText": "求级数 $\\displaystyle\\sum_{n=2}^{\\infty}\\frac{1}{(n^{2}-1)2^{n}}$ 的和.",
-      "answerText": "答案：$\\dfrac{5}{8}-\\dfrac{3}{4}\\ln 2$\n\n**解析：**\n考虑 $S(x)=\\displaystyle\\sum_{n=2}^{\\infty}\\frac{x^{n}}{n^{2}-1}$（$|x|<1$）。拆分 $\\dfrac{1}{n^{2}-1}=\\dfrac{1}{2}\\left(\\dfrac{1}{n-1}-\\dfrac{1}{n+1}\\right)$，利用 $\\sum_{n=1}^{\\infty}\\dfrac{x^{n}}{n}=-\\ln(1-x)$，得 $S(x)=\\left(\\dfrac{1}{2x}-\\dfrac{x}{2}\\right)\\ln(1-x)+\\dfrac{1}{2}+\\dfrac{x}{4}$（$x\\neq 0$）。所求和 $=S\\left(\\dfrac{1}{2}\\right)=\\dfrac{5}{8}-\\dfrac{3}{4}\\ln 2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 15
-      },
-      "subjectGuess": "calculus",
-      "section": "五、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.16",
-      "number": 16,
-      "title": "1996 年数学一 第 16 题",
-      "questionText": "设对任意的 $x>0$，曲线 $y=f(x)$ 上点 $(x, f(x))$ 处的切线在 $y$ 轴上的截距等于 $\\dfrac{1}{x}\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$，求 $f(x)$ 的一般表达式.",
-      "answerText": "答案：$f(x)=C_{1}\\ln x+C_{2}$（$C_{1}, C_{2}$ 为任意常数）\n\n**解析：**\n切线在 $x=0$ 处的纵截距为 $f(x)-xf^{\\prime}(x)$，由题意 $f(x)-xf^{\\prime}(x)=\\dfrac{1}{x}\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$，即 $xf(x)-x^{2}f^{\\prime}(x)=\\int_{0}^{x}f(t)\\,\\mathrm{d}t$。两边求导并化简得 $xf^{\\prime\\prime}(x)+f^{\\prime}(x)=0$，即 $\\left[xf^{\\prime}(x)\\right]^{\\prime}=0$。故 $xf^{\\prime}=C_{1}$，积分得 $f(x)=C_{1}\\ln x+C_{2}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 16
-      },
-      "subjectGuess": "calculus",
-      "section": "六、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.17",
-      "number": 17,
-      "title": "1996 年数学一 第 17 题",
-      "questionText": "设 $f(x)$ 在 $[0,1]$ 上具有二阶导数，且满足条件：$|f(x)|\\leqslant a$，$|f^{\\prime\\prime}(x)|\\leqslant b$，其中 $a, b$ 都是非负常数，$c$ 为 $(0,1)$ 内任意一点.\n\n（1）写出 $f(x)$ 在点 $x=c$ 处带拉格朗日余项的一阶泰勒公式；",
-      "answerText": "答案：$f(x)=f(c)+f^{\\prime}(c)(x-c)+\\dfrac{f^{\\prime\\prime}(\\xi)}{2}(x-c)^{2}$，其中 $\\xi$ 介于 $c$ 与 $x$ 之间\n\n**解析：**\n由一阶泰勒公式，对任意 $x\\in[0,1]$，存在介于 $c$ 与 $x$ 之间的 $\\xi$ 使上式成立。（第（2）问中把它分别用于 $x=0$ 与 $x=1$，两式相减消去 $f(c)$ 得 $f^{\\prime}(c)=f(1)-f(0)+\\dfrac{c^{2}}{2}f^{\\prime\\prime}(\\xi_{1})-\\dfrac{(1-c)^{2}}{2}f^{\\prime\\prime}(\\xi_{2})$。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "taylor_formula"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 17
-      },
-      "subjectGuess": "calculus",
-      "section": "七、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.18",
-      "number": 18,
-      "title": "1996 年数学一 第 18 题",
-      "questionText": "设 $f(x)$ 在 $[0,1]$ 上具有二阶导数，且满足条件：$|f(x)|\\leqslant a$，$|f^{\\prime\\prime}(x)|\\leqslant b$，其中 $a, b$ 都是非负常数，$c$ 为 $(0,1)$ 内任意一点.\n\n（2）证明：$\\left|f^{\\prime}(c)\\right|\\leqslant 2a+\\dfrac{b}{2}.$",
-      "answerText": "答案：证明见解析\n\n**解析：**\n把（1）中 $x=0$ 与 $x=1$ 的两个展开式相减：$f^{\\prime}(c)=f(1)-f(0)+\\dfrac{c^{2}}{2}f^{\\prime\\prime}(\\xi_{1})-\\dfrac{(1-c)^{2}}{2}f^{\\prime\\prime}(\\xi_{2})$。取绝对值并用 $|f|\\le a$、$|f^{\\prime\\prime}|\\le b$：$|f^{\\prime}(c)|\\le 2a+\\dfrac{b}{2}\\left[c^{2}+(1-c)^{2}\\right]$。由 $c^{2}\\le c$ 与 $(1-c)^{2}\\le 1-c$ 得 $c^{2}+(1-c)^{2}\\le 1$，故 $|f^{\\prime}(c)|\\le 2a+\\dfrac{b}{2}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 18
-      },
-      "subjectGuess": "calculus",
-      "section": "七、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.19",
-      "number": 19,
-      "title": "1996 年数学一 第 19 题",
-      "questionText": "设 $\\mathbf{A}=\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$，其中 $\\boldsymbol{E}$ 是 $n$ 阶单位矩阵，$\\boldsymbol{\\xi}$ 是 $n$ 维非零列向量，$\\boldsymbol{\\xi}^{\\mathrm{T}}$ 是 $\\boldsymbol{\\xi}$ 的转置，证明：\n\n（1）$A^{2}=A$ 的充分必要条件是 $\\xi^{\\mathrm{T}}\\xi=1$；",
-      "answerText": "答案：证明见解析\n\n**解析：**\n记 $k=\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}$（数）。$\\mathbf{A}^{2}=(\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}})^{2}=\\mathbf{E}-2\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}+(\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi})\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}=\\mathbf{E}+(k-2)\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$。于是 $\\mathbf{A}^{2}=\\mathbf{A}=-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}+\\mathbf{E}$ 当且仅当 $(k-1)\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}=\\mathbf{0}$；由 $\\boldsymbol{\\xi}\\neq\\boldsymbol{0}$ 知 $\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}\\neq\\mathbf{O}$，故充要条件为 $k=1$，即 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 19
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "八、（本题满分6分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.20",
-      "number": 20,
-      "title": "1996 年数学一 第 20 题",
-      "questionText": "设 $\\mathbf{A}=\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$，其中 $\\boldsymbol{E}$ 是 $n$ 阶单位矩阵，$\\boldsymbol{\\xi}$ 是 $n$ 维非零列向量，$\\boldsymbol{\\xi}^{\\mathrm{T}}$ 是 $\\boldsymbol{\\xi}$ 的转置，证明：\n\n（2）当 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1$ 时，$\\mathbf{A}$ 是不可逆矩阵.",
-      "answerText": "答案：证明见解析\n\n**解析：**\n当 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1$ 时 $\\mathbf{A}^{2}=\\mathbf{A}$，即 $\\mathbf{A}(\\mathbf{E}-\\mathbf{A})=\\mathbf{O}$，于是 $r(\\mathbf{A})+r(\\mathbf{E}-\\mathbf{A})\\le n$；另一方面 $r(\\mathbf{A})+r(\\mathbf{E}-\\mathbf{A})\\ge r(\\mathbf{E})=n$，故两秩之和恰为 $n$。而 $\\mathbf{E}-\\mathbf{A}=\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}\\neq\\mathbf{O}$ 使 $r(\\mathbf{E}-\\mathbf{A})\\ge 1$，从而 $r(\\mathbf{A})<n$，$\\mathbf{A}$ 不可逆。（或：$\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$ 的特征值为 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1,0,\\dots,0$，故 $\\mathbf{A}=\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$ 有特征值 0。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.inverse_matrix"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix、la.knowledge.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 20
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "八、（本题满分6分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.21",
-      "number": 21,
-      "title": "1996 年数学一 第 21 题",
-      "questionText": "已知二次型 $f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}$ 的秩为 2.\n\n（1）求参数 $c$ 的值及此二次型对应矩阵的特征值；",
-      "answerText": "答案：$c=3$；特征值为 $\\lambda_{1}=0,\\ \\lambda_{2}=4,\\ \\lambda_{3}=9$\n\n**解析：**\n二次型矩阵 $\\mathbf{A}=\\begin{pmatrix}5&-1&3\\\\-1&5&-3\\\\3&-3&c\\end{pmatrix}$。二次型的秩为 2 说明 $|\\mathbf{A}|=0$：$|\\mathbf{A}|=24c-72=0$ 得 $c=3$（可验证此时 $r(\\mathbf{A})=2$）。由 $|\\lambda\\mathbf{E}-\\mathbf{A}|=\\lambda(\\lambda-4)(\\lambda-9)$ 得特征值 $0,4,9$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.eigenvalues",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.eigen_concept",
-        "la.knowledge.quadratic_form_concept"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.knowledge.eigen_concept、la.knowledge.quadratic_form_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 21
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "九、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.22",
-      "number": 22,
-      "title": "1996 年数学一 第 22 题",
-      "questionText": "已知二次型 $f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}$ 的秩为 2.\n\n（2）指出方程 $f(x_{1},x_{2},x_{3})=1$ 表示何种二次曲面.",
-      "answerText": "答案：椭圆柱面\n\n**解析：**\n由（1），经正交变换二次型化为标准形 $f=4y_{2}^{2}+9y_{3}^{2}$（不含 $y_{1}$ 项）。方程 $4y_{2}^{2}+9y_{3}^{2}=1$ 在空间中表示母线平行于 $y_{1}$ 轴的椭圆柱面。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.quadratic_forms",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.quadratic_form_concept",
-        "la.knowledge.standard_form"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.knowledge.quadratic_form_concept、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms；审计修复：跨科目/非法知识点 quadric_surface_equations → la.knowledge.standard_form（第(2)问即化标准形判断二次曲面类型）",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 22
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "九、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.23",
-      "number": 23,
-      "title": "1996 年数学一 第 23 题",
-      "questionText": "设工厂 $A$ 和工厂 $B$ 的产品的次品率分别为 $1\\%$ 和 $2\\%$，现从由 $A$ 厂和 $B$ 厂的产品分别占 $60\\%$ 和 $40\\%$ 的一批产品中随机抽取一件，发现是次品，则该次品属于 $A$ 厂生产的概率为 $\\underline{\\quad}$",
-      "answerText": "答案：$\\dfrac{3}{7}$\n\n**解析：**\n由贝叶斯公式：$P(A_{1}|B)=\\dfrac{0.6\\times 0.01}{0.6\\times 0.01+0.4\\times 0.02}=\\dfrac{0.006}{0.006+0.008}=\\dfrac{3}{7}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 23
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.24",
-      "number": 24,
-      "title": "1996 年数学一 第 24 题",
-      "questionText": "设 $\\xi,\\eta$ 是两个相互独立且均服从正态分布 $N\\left(0,\\left(\\dfrac{1}{\\sqrt{2}}\\right)^{2}\\right)$ 的随机变量，则随机变量 $|\\xi-\\eta|$ 的数学期望 $E(|\\xi-\\eta|)=\\underline{\\quad}$",
-      "answerText": "答案：$\\sqrt{\\dfrac{2}{\\pi}}\\left(=\\dfrac{2}{\\sqrt{2\\pi}}\\right)$\n\n**解析：**\n$\\xi-\\eta$ 服从 $N(0,1)$。$E(|\\xi-\\eta|)=\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{-\\infty}^{+\\infty}|u|\\,\\mathrm{e}^{-\\frac{u^{2}}{2}}\\mathrm{d}u=\\sqrt{\\frac{2}{\\pi}}\\int_{0}^{+\\infty}u\\,\\mathrm{e}^{-\\frac{u^{2}}{2}}\\mathrm{d}u=\\sqrt{\\frac{2}{\\pi}}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.normal_distribution",
-        "prob.knowledge.random_variables_independence",
-        "prob.knowledge.mathematical_expectation"
-      ],
-      "methodIds": [],
-      "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 24
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1996.25",
-      "number": 25,
-      "title": "1996 年数学一 第 25 题",
-      "questionText": "设 $\\xi,\\eta$ 是相互独立且都服从同一分布的两个随机变量，且 $\\xi$ 的分布律为 $P\\{\\xi=i\\}=\\dfrac{1}{3}\\ (i=1,2,3)$，又设 $X=\\max\\{\\xi,\\eta\\}$，$Y=\\min\\{\\xi,\\eta\\}$.\\n\\n（1）写出二维随机变量 $(X,Y)$ 的分布律：\\n\\n| Y\\\\X | 1 | 2 | 3 |\\n| --- | --- | --- | --- |\\n| 1 |  |  |  |\\n| 2 |  |  |  |\\n| 3 |  |  |  |",
-      "answerText": "答案：$P\\{X=i, Y=j\\}$：$P\\{1,1\\}=\\dfrac{1}{9}$，$P\\{2,1\\}=\\dfrac{2}{9}$，$P\\{2,2\\}=\\dfrac{1}{9}$，$P\\{3,1\\}=\\dfrac{2}{9}$，$P\\{3,2\\}=\\dfrac{2}{9}$，$P\\{3,3\\}=\\dfrac{1}{9}$，其余为 $0$\n\n**解析：**\n由 $\\xi,\\eta$ 独立同分布，$P\\{X=i,Y=j\\}$ 分三类：$i<j$ 时不可能（$X\\ge Y$），概率为 0；$i=j$ 时 $P\\{\\xi=i,\\eta=i\\}=\\dfrac{1}{9}$；$i>j$ 时 $P\\{\\xi=i,\\eta=j\\}+P\\{\\xi=j,\\eta=i\\}=\\dfrac{2}{9}$。逐格填表即得。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.multidimensional_random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.block_matrix",
-        "prob.knowledge.functions_of_random_variables",
-        "prob.knowledge.joint_distribution_function"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.functions_of_random_variables、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 25
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十一、（本题满分6分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1996.26",
-      "number": 26,
-      "title": "1996 年数学一 第 26 题",
-      "questionText": "设 $\\xi,\\eta$ 是相互独立且都服从同一分布的两个随机变量，且 $\\xi$ 的分布律为 $P\\{\\xi=i\\}=\\dfrac{1}{3}\\ (i=1,2,3)$，又设 $X=\\max\\{\\xi,\\eta\\}$，$Y=\\min\\{\\xi,\\eta\\}$.\\n\\n（2）求随机变量 $X$ 的数学期望 $E(X)$.",
-      "answerText": "答案：$\\dfrac{22}{9}$\n\n**解析：**\n由（1）的联合分布律求边缘：$P\\{X=1\\}=\\dfrac{1}{9}$，$P\\{X=2\\}=\\dfrac{3}{9}$，$P\\{X=3\\}=\\dfrac{5}{9}$。故 $E(X)=1\\cdot\\dfrac{1}{9}+2\\cdot\\dfrac{3}{9}+3\\cdot\\dfrac{5}{9}=\\dfrac{22}{9}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.multidimensional_random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.functions_of_random_variables",
-        "prob.knowledge.mathematical_expectation"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.knowledge.functions_of_random_variables、prob.knowledge.mathematical_expectation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1996,
-        "paper": "math1",
-        "number": 26
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十一、（本题满分6分，含2小题）"
-    }
-  ]
+  {
+   "id": "bank.exam.m1-1996.2",
+   "number": 2,
+   "title": "1996 年数学一 第 2 题",
+   "questionText": "设一平面经过原点及点 $(6,-3,2)$，且与平面 $4x-y+2z=8$ 垂直，则此平面方程为 $\\underline{\\quad}$",
+   "answerText": "答案：$2x+2y-3z=0$\n\n**解析：**\n平面过原点，可设 $Ax+By+Cz=0$。代入点 $(6,-3,2)$ 得 $6A-3B+2C=0$；与已知平面垂直给出 $4A-B+2C=0$。两式相减得 $2A-2B=0$，即 $B=A$，进而 $C=-\\dfrac{3}{2}A$。取 $A=2$ 得 $2x+2y-3z=0$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "plane_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_perpendicular_parallel"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：plane_equation，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.3",
+   "number": 3,
+   "title": "1996 年数学一 第 3 题",
+   "questionText": "微分方程 $y^{\\prime\\prime}-2y^{\\prime}+2y=\\mathrm{e}^{x}$ 的通解为 $\\underline{\\quad}$",
+   "answerText": "答案：$y=\\mathrm{e}^{x}\\left(C_{1}\\cos x+C_{2}\\sin x\\right)+\\mathrm{e}^{x}$\n\n**解析：**\n特征方程 $\\lambda^{2}-2\\lambda+2=0$，根 $\\lambda=1\\pm\\mathrm{i}$，齐次通解 $\\mathrm{e}^{x}(C_{1}\\cos x+C_{2}\\sin x)$。把 $y=\\mathrm{e}^{x}$ 代入左端得 $\\mathrm{e}^{x}$，故它就是特解。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "differential_equation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "linear_higher_order_equation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.4",
+   "number": 4,
+   "title": "1996 年数学一 第 4 题",
+   "questionText": "函数 $u=\\ln\\left(x+\\sqrt{y^{2}+z^{2}}\\right)$ 在点 $A(1,0,1)$ 处沿点 $A$ 指向点 $B(3,-2,2)$ 方向的方向导数为 $\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{1}{2}$\n\n**解析：**\n$\\dfrac{\\partial u}{\\partial x}=\\dfrac{1}{x+\\sqrt{y^{2}+z^{2}}}$，在 $A$ 处为 $\\dfrac{1}{2}$；$\\dfrac{\\partial u}{\\partial y}$ 在 $A$ 处为 0；$\\dfrac{\\partial u}{\\partial z}$ 在 $A$ 处为 $\\dfrac{1}{2}$。$\\overrightarrow{AB}=(2,-2,1)$，方向余弦 $\\left(\\dfrac{2}{3},-\\dfrac{2}{3},\\dfrac{1}{3}\\right)$。方向导数 $=\\dfrac{1}{2}\\cdot\\dfrac{2}{3}+0+\\dfrac{1}{2}\\cdot\\dfrac{1}{3}=\\dfrac{1}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "directional_derivative_gradient",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "directional_derivative_gradient",
+    "orientation",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：directional_derivative_gradient，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.5",
+   "number": 5,
+   "title": "1996 年数学一 第 5 题",
+   "questionText": "设 $\\mathbf{A}$ 是 $4\\times 3$ 矩阵，且 $\\mathbf{A}$ 的秩 $r(\\mathbf{A})=2$，而 $\\boldsymbol{B}=\\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 2 & 0 \\\\ -1 & 0 & 3 \\end{pmatrix}$，则 $r(\\mathbf{AB})=\\underline{\\quad}$",
+   "answerText": "答案：$2$\n\n**解析：**\n$|\\boldsymbol{B}|=2(3+2)=10\\neq 0$，$\\boldsymbol{B}$ 可逆。用一个可逆矩阵右乘不改变秩，故 $r(\\mathbf{AB})=r(\\mathbf{A})=2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.matrix_rank",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.matrix_rank，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.6",
+   "number": 6,
+   "title": "1996 年数学一 第 6 题",
+   "questionText": "已知 $\\frac{(x + ay)\\mathrm{d}x + y\\mathrm{d}y}{(x + y)^2}$ 为某函数的全微分，则 $a$ 等于（ ）.\n\n(A) -1\n\n(B)0\n\n(C)1\n\n(D)2",
+   "answerText": "答案：D\n\n**解析：**\n记 $P=\\dfrac{x+ay}{(x+y)^{2}}$，$Q=\\dfrac{y}{(x+y)^{2}}$。全微分存在要求 $\\dfrac{\\partial P}{\\partial y}=\\dfrac{\\partial Q}{\\partial x}$：$\\dfrac{a(x+y)-2(x+ay)}{(x+y)^{3}}=\\dfrac{-2y}{(x+y)^{3}}$，比较系数得 $a-2=0$ 且 $-a=-2$，故 $a=2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "partial_derivative_total_differential",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "total_differential"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：total_differential，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multivariable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.7",
+   "number": 7,
+   "title": "1996 年数学一 第 7 题",
+   "questionText": "设 $f(x)$ 有二阶连续导数，且 $f^{\\prime}(0) = 0,\\lim_{x\\to 0}\\frac{f^{\\prime\\prime}(x)}{|x|} = 1$ ，则（ ）.\n\n(A) $f(0)$ 是 $f(x)$ 的极大值\n(B) $f(0)$ 是 $f(x)$ 的极小值\n(C) $(0, f(0))$ 是曲线 $y = f(x)$ 的拐点\n(D) $f(0)$ 不是 $f(x)$ 的极值， $(0,f(0))$ 也不是曲线 $y = f(x)$ 的拐点",
+   "answerText": "答案：B\n\n**解析：**\n由保号性，在 $x=0$ 的某去心邻域内 $f^{\\prime\\prime}(x)>0$，故 $f^{\\prime}$ 单调递增；结合 $f^{\\prime}(0)=0$ 知 $f^{\\prime}$ 在 $0$ 左侧为负、右侧为正，$f$ 先减后增，$f(0)$ 为极小值。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "concavity_inflection",
+    "extrema"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：concavity_inflection、extrema，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.8",
+   "number": 8,
+   "title": "1996 年数学一 第 8 题",
+   "questionText": "设 $a_{n} > 0 (n = 1,2,\\dots)$ , 且 $\\sum_{n=1}^{\\infty} a_{n}$ 收敛, 常数 $\\lambda \\in \\left(0, \\frac{\\pi}{2}\\right)$ , 则级数 $\\sum_{n=1}^{\\infty} (-1)^{n} \\left(n \\tan \\frac{\\lambda}{n}\\right) a_{2n}$ .\n\n（A）绝对收敛\n\n（B）条件收敛\n\n（C）发散\n\n(D) 收敛性与 $\\lambda$ 有关",
+   "answerText": "答案：A\n\n**解析：**\n当 $n\\to\\infty$ 时 $\\left|n\\tan\\dfrac{\\lambda}{n}\\,a_{2n}\\right|\\sim\\lambda a_{2n}$。由正项级数 $\\sum a_{n}$ 收敛知 $\\sum a_{2n}$ 收敛，由比较判别法知原级数绝对收敛（且与 $\\lambda$ 无关）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "alternating_general_series",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "absolute_conditional_convergence"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：alternating_general_series、absolute_conditional_convergence，待人工复核；审计回填：主章节原为空，按打标多数票推断为 infinite_series",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.9",
+   "number": 9,
+   "title": "1996 年数学一 第 9 题",
+   "questionText": "设 $f(x)$ 有连续导数， $f(0) = 0, f'(0) \\neq 0, F(x) = \\int_{0}^{x} (x^2 - t^2) f(t) \\, \\mathrm{d}t$ ，且当 $x \\to 0$ 时， $F'(x)$ 与 $x^k$ 是同阶无穷小，则 $k$ 等于（ ）.\n\n(A)1\n\n(B)2\n\n(C)3\n\n(D)4",
+   "answerText": "答案：C\n\n**解析：**\n$F(x)=x^{2}\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t-\\int_{0}^{x}t^{2}f(t)\\,\\mathrm{d}t$，求导得 $F^{\\prime}(x)=2x\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$。于是 $\\displaystyle\\lim_{x\\to 0}\\frac{F^{\\prime}(x)}{x^{3}}=\\lim_{x\\to 0}\\frac{\\int_{0}^{x}f(t)\\,\\mathrm{d}t}{x^{2}}=\\lim_{x\\to 0}\\frac{f(x)}{2x}=\\frac{f^{\\prime}(0)}{2}\\neq 0$，故 $F^{\\prime}$ 与 $x^{3}$ 同阶，$k=3$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinite_and_infinitesimal",
+    "multivariable_limit_continuity"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.10",
+   "number": 10,
+   "title": "1996 年数学一 第 10 题",
+   "questionText": "4阶行列式 $\\left| \\begin{array}{cccc}a_{1} & 0 & 0 & b_{1}\\\\ 0 & a_{2} & b_{2} & 0\\\\ 0 & b_{3} & a_{3} & 0\\\\ b_{4} & 0 & 0 & a_{4} \\end{array} \\right|$ 的值等于（ ）.\n\n(A) $a_{1}a_{2}a_{3}a_{4} - b_{1}b_{2}b_{3}b_{4}$\n\n(B) $a_{1}a_{2}a_{3}a_{4} + b_{1}b_{2}b_{3}b_{4}$\n\n(C) $(a_{1}a_{2} - b_{1}b_{2})(a_{3}a_{4} - b_{3}b_{4})$\n\n(D) $(a_{2}a_{3} - b_{2}b_{3})(a_{1}a_{4} - b_{1}b_{4})$",
+   "answerText": "答案：D\n\n**解析：**\n按第一行展开：原式 $=a_{1}a_{4}\\begin{vmatrix}a_{2}&b_{2}\\\\b_{3}&a_{3}\\end{vmatrix}-b_{1}b_{4}\\begin{vmatrix}a_{2}&b_{2}\\\\b_{3}&a_{3}\\end{vmatrix}=(a_{1}a_{4}-b_{1}b_{4})(a_{2}a_{3}-b_{2}b_{3})$，选 D。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.determinants",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.determinant_computation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.determinants；自动打标(规则)：la.problem_type.determinant_computation，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.11",
+   "number": 11,
+   "title": "1996 年数学一 第 11 题",
+   "questionText": "求心形线 $r = a(1 + \\cos \\theta)$ 的全长，其中 $a > 0$ 是常数",
+   "answerText": "答案：$8a$\n\n**解析：**\n心形线关于极轴对称，弧长 $s=2\\displaystyle\\int_{0}^{\\pi}\\sqrt{r^{2}+r^{\\prime 2}}\\,\\mathrm{d}\\theta$。$r=a(1+\\cos\\theta)$，$r^{\\prime}=-a\\sin\\theta$，$r^{2}+r^{\\prime 2}=2a^{2}(1+\\cos\\theta)=4a^{2}\\cos^{2}\\dfrac{\\theta}{2}$，故 $s=2\\displaystyle\\int_{0}^{\\pi}2a\\cos\\frac{\\theta}{2}\\,\\mathrm{d}\\theta=4a\\left[2\\sin\\frac{\\theta}{2}\\right]_{0}^{\\pi}=8a$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共2小题，每小题5分，满分10分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.12",
+   "number": 12,
+   "title": "1996 年数学一 第 12 题",
+   "questionText": "设 $x_{1} = 10, x_{n + 1} = \\sqrt{6 + x_{n}} (n = 1,2,\\dots)$ ，试证数列 $\\{x_{n}\\}$ 极限存在，并求此极限.",
+   "answerText": "答案：极限存在且等于 $3$\n\n**解析：**\n设 $f(x)=\\sqrt{6+x}$，它在 $[0,+\\infty)$ 单调递增。$x_{2}=2\\sqrt{2}\\approx 2.83<10=x_{1}$，且若 $x_{n}>x_{n+1}$ 则 $x_{n+1}=\\sqrt{6+x_{n}}>\\sqrt{6+x_{n+1}}=x_{n+2}$，归纳得 $\\{x_{n}\\}$ 单调递减；又 $x_{n}>3$（归纳可证：若 $x_n>3$，则 $x_{n+1}=\\sqrt{6+x_n}>3$），即有下界。由单调有界原理极限存在。设极限为 $A$，则 $A=\\sqrt{6+A}$，解得 $A=3$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共2小题，每小题5分，满分10分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.13",
+   "number": 13,
+   "title": "1996 年数学一 第 13 题",
+   "questionText": "计算曲面积分 $\\iint_{S} (2x + z) \\, \\mathrm{d}y \\, \\mathrm{d}z + z \\, \\mathrm{d}x \\, \\mathrm{d}y$ ，其中 $S$ 为有向曲面 $z = x^2 + y^2 (0 \\leqslant z \\leqslant 1)$ ，其法向量与 $z$ 轴正向的夹角为锐角.",
+   "answerText": "答案：$-\\dfrac{\\pi}{2}$\n\n**解析：**\n补平面片 $S_{1}:\\ z=1\\ (x^{2}+y^{2}\\le 1)$，与 $S$ 围成区域 $\\Omega$（取外侧时 $S$ 上法向朝下）。散度 $=2+1=3$，故外侧闭曲面积分 $=3\\iiint_{\\Omega}\\mathrm{d}v=3\\displaystyle\\int_{0}^{1}\\pi z\\,\\mathrm{d}z=\\frac{3\\pi}{2}$。题给 $S$ 的法向朝上（指向 $\\Omega$ 内部），与外侧相反；$S_{1}$ 外侧朝上，其通量为 $\\displaystyle\\iint_{x^{2}+y^{2}\\le 1}1\\,\\mathrm{d}x\\mathrm{d}y=\\pi$。故所求 $=\\left(\\frac{3\\pi}{2}-\\pi\\right)$ 取相反定向，得 $-\\dfrac{\\pi}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.vector_concept"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "calculus",
+   "section": "四、（本题共2小题，每小题6分，满分12分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.14",
+   "number": 14,
+   "title": "1996 年数学一 第 14 题",
+   "questionText": "设变换 $\\left\\{ \\begin{array}{l} u = x - 2y, \\\\ v = x + ay \\end{array} \\right.$ 可把方程 $6\\frac{\\partial^2z}{\\partial x^2} + \\frac{\\partial^2z}{\\partial x\\partial y} - \\frac{\\partial^2z}{\\partial y^2} = 0$ 化简为 $\\frac{\\partial^2z}{\\partial u\\partial v} = 0$ ，求常数 $a$ ，其中 $z = z(x,y)$ 有二阶连续的偏导数.",
+   "answerText": "答案：$a=3$\n\n**解析：**\n链式求导：$\\dfrac{\\partial z}{\\partial x}=z_{u}+z_{v}$，$\\dfrac{\\partial z}{\\partial y}=-2z_{u}+az_{v}$，继续求二阶导并代入原方程，整理得 $(5a+10)\\dfrac{\\partial^{2}z}{\\partial u\\partial v}+(-a^{2}+a+6)\\dfrac{\\partial^{2}z}{\\partial v^{2}}=0$。要化简为 $\\dfrac{\\partial^{2}z}{\\partial u\\partial v}=0$，需 $-a^{2}+a+6=0$ 且 $5a+10\\neq 0$，即 $a=3$（$a=-2$ 舍去）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "calculus",
+   "section": "四、（本题共2小题，每小题6分，满分12分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.15",
+   "number": 15,
+   "title": "1996 年数学一 第 15 题",
+   "questionText": "求级数 $\\displaystyle\\sum_{n=2}^{\\infty}\\frac{1}{(n^{2}-1)2^{n}}$ 的和.",
+   "answerText": "答案：$\\dfrac{5}{8}-\\dfrac{3}{4}\\ln 2$\n\n**解析：**\n考虑 $S(x)=\\displaystyle\\sum_{n=2}^{\\infty}\\frac{x^{n}}{n^{2}-1}$（$|x|<1$）。拆分 $\\dfrac{1}{n^{2}-1}=\\dfrac{1}{2}\\left(\\dfrac{1}{n-1}-\\dfrac{1}{n+1}\\right)$，利用 $\\sum_{n=1}^{\\infty}\\dfrac{x^{n}}{n}=-\\ln(1-x)$，得 $S(x)=\\left(\\dfrac{1}{2x}-\\dfrac{x}{2}\\right)\\ln(1-x)+\\dfrac{1}{2}+\\dfrac{x}{4}$（$x\\neq 0$）。所求和 $=S\\left(\\dfrac{1}{2}\\right)=\\dfrac{5}{8}-\\dfrac{3}{4}\\ln 2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "五、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.16",
+   "number": 16,
+   "title": "1996 年数学一 第 16 题",
+   "questionText": "设对任意的 $x>0$，曲线 $y=f(x)$ 上点 $(x, f(x))$ 处的切线在 $y$ 轴上的截距等于 $\\dfrac{1}{x}\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$，求 $f(x)$ 的一般表达式.",
+   "answerText": "答案：$f(x)=C_{1}\\ln x+C_{2}$（$C_{1}, C_{2}$ 为任意常数）\n\n**解析：**\n切线在 $x=0$ 处的纵截距为 $f(x)-xf^{\\prime}(x)$，由题意 $f(x)-xf^{\\prime}(x)=\\dfrac{1}{x}\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$，即 $xf(x)-x^{2}f^{\\prime}(x)=\\int_{0}^{x}f(t)\\,\\mathrm{d}t$。两边求导并化简得 $xf^{\\prime\\prime}(x)+f^{\\prime}(x)=0$，即 $\\left[xf^{\\prime}(x)\\right]^{\\prime}=0$。故 $xf^{\\prime}=C_{1}$，积分得 $f(x)=C_{1}\\ln x+C_{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "variable_upper_integral"
+   ],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：variable_upper_integral，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "六、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.17",
+   "number": 17,
+   "title": "1996 年数学一 第 17 题",
+   "questionText": "设 $f(x)$ 在 $[0,1]$ 上具有二阶导数，且满足条件：$|f(x)|\\leqslant a$，$|f^{\\prime\\prime}(x)|\\leqslant b$，其中 $a, b$ 都是非负常数，$c$ 为 $(0,1)$ 内任意一点.\n\n（1）写出 $f(x)$ 在点 $x=c$ 处带拉格朗日余项的一阶泰勒公式；",
+   "answerText": "答案：$f(x)=f(c)+f^{\\prime}(c)(x-c)+\\dfrac{f^{\\prime\\prime}(\\xi)}{2}(x-c)^{2}$，其中 $\\xi$ 介于 $c$ 与 $x$ 之间\n\n**解析：**\n由一阶泰勒公式，对任意 $x\\in[0,1]$，存在介于 $c$ 与 $x$ 之间的 $\\xi$ 使上式成立。（第（2）问中把它分别用于 $x=0$ 与 $x=1$，两式相减消去 $f(c)$ 得 $f^{\\prime}(c)=f(1)-f(0)+\\dfrac{c^{2}}{2}f^{\\prime\\prime}(\\xi_{1})-\\dfrac{(1-c)^{2}}{2}f^{\\prime\\prime}(\\xi_{2})$。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "taylor_formula"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "七、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.18",
+   "number": 18,
+   "title": "1996 年数学一 第 18 题",
+   "questionText": "设 $f(x)$ 在 $[0,1]$ 上具有二阶导数，且满足条件：$|f(x)|\\leqslant a$，$|f^{\\prime\\prime}(x)|\\leqslant b$，其中 $a, b$ 都是非负常数，$c$ 为 $(0,1)$ 内任意一点.\n\n（2）证明：$\\left|f^{\\prime}(c)\\right|\\leqslant 2a+\\dfrac{b}{2}.$",
+   "answerText": "答案：证明见解析\n\n**解析：**\n把（1）中 $x=0$ 与 $x=1$ 的两个展开式相减：$f^{\\prime}(c)=f(1)-f(0)+\\dfrac{c^{2}}{2}f^{\\prime\\prime}(\\xi_{1})-\\dfrac{(1-c)^{2}}{2}f^{\\prime\\prime}(\\xi_{2})$。取绝对值并用 $|f|\\le a$、$|f^{\\prime\\prime}|\\le b$：$|f^{\\prime}(c)|\\le 2a+\\dfrac{b}{2}\\left[c^{2}+(1-c)^{2}\\right]$。由 $c^{2}\\le c$ 与 $(1-c)^{2}\\le 1-c$ 得 $c^{2}+(1-c)^{2}\\le 1$，故 $|f^{\\prime}(c)|\\le 2a+\\dfrac{b}{2}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "七、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.19",
+   "number": 19,
+   "title": "1996 年数学一 第 19 题",
+   "questionText": "设 $\\mathbf{A}=\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$，其中 $\\boldsymbol{E}$ 是 $n$ 阶单位矩阵，$\\boldsymbol{\\xi}$ 是 $n$ 维非零列向量，$\\boldsymbol{\\xi}^{\\mathrm{T}}$ 是 $\\boldsymbol{\\xi}$ 的转置，证明：\n\n（1）$A^{2}=A$ 的充分必要条件是 $\\xi^{\\mathrm{T}}\\xi=1$；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n记 $k=\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}$（数）。$\\mathbf{A}^{2}=(\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}})^{2}=\\mathbf{E}-2\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}+(\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi})\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}=\\mathbf{E}+(k-2)\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$。于是 $\\mathbf{A}^{2}=\\mathbf{A}=-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}+\\mathbf{E}$ 当且仅当 $(k-1)\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}=\\mathbf{0}$；由 $\\boldsymbol{\\xi}\\neq\\boldsymbol{0}$ 知 $\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}\\neq\\mathbf{O}$，故充要条件为 $k=1$，即 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分6分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.20",
+   "number": 20,
+   "title": "1996 年数学一 第 20 题",
+   "questionText": "设 $\\mathbf{A}=\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$，其中 $\\boldsymbol{E}$ 是 $n$ 阶单位矩阵，$\\boldsymbol{\\xi}$ 是 $n$ 维非零列向量，$\\boldsymbol{\\xi}^{\\mathrm{T}}$ 是 $\\boldsymbol{\\xi}$ 的转置，证明：\n\n（2）当 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1$ 时，$\\mathbf{A}$ 是不可逆矩阵.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n当 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1$ 时 $\\mathbf{A}^{2}=\\mathbf{A}$，即 $\\mathbf{A}(\\mathbf{E}-\\mathbf{A})=\\mathbf{O}$，于是 $r(\\mathbf{A})+r(\\mathbf{E}-\\mathbf{A})\\le n$；另一方面 $r(\\mathbf{A})+r(\\mathbf{E}-\\mathbf{A})\\ge r(\\mathbf{E})=n$，故两秩之和恰为 $n$。而 $\\mathbf{E}-\\mathbf{A}=\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}\\neq\\mathbf{O}$ 使 $r(\\mathbf{E}-\\mathbf{A})\\ge 1$，从而 $r(\\mathbf{A})<n$，$\\mathbf{A}$ 不可逆。（或：$\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$ 的特征值为 $\\boldsymbol{\\xi}^{\\mathrm{T}}\\boldsymbol{\\xi}=1,0,\\dots,0$，故 $\\mathbf{A}=\\mathbf{E}-\\boldsymbol{\\xi}\\boldsymbol{\\xi}^{\\mathrm{T}}$ 有特征值 0。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix、la.knowledge.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分6分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.21",
+   "number": 21,
+   "title": "1996 年数学一 第 21 题",
+   "questionText": "已知二次型 $f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}$ 的秩为 2.\n\n（1）求参数 $c$ 的值及此二次型对应矩阵的特征值；",
+   "answerText": "答案：$c=3$；特征值为 $\\lambda_{1}=0,\\ \\lambda_{2}=4,\\ \\lambda_{3}=9$\n\n**解析：**\n二次型矩阵 $\\mathbf{A}=\\begin{pmatrix}5&-1&3\\\\-1&5&-3\\\\3&-3&c\\end{pmatrix}$。二次型的秩为 2 说明 $|\\mathbf{A}|=0$：$|\\mathbf{A}|=24c-72=0$ 得 $c=3$（可验证此时 $r(\\mathbf{A})=2$）。由 $|\\lambda\\mathbf{E}-\\mathbf{A}|=\\lambda(\\lambda-4)(\\lambda-9)$ 得特征值 $0,4,9$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.eigenvalues",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.eigen_concept",
+    "la.knowledge.quadratic_form_concept"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.knowledge.eigen_concept、la.knowledge.quadratic_form_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.eigenvalues",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "九、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.22",
+   "number": 22,
+   "title": "1996 年数学一 第 22 题",
+   "questionText": "已知二次型 $f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}$ 的秩为 2.\n\n（2）指出方程 $f(x_{1},x_{2},x_{3})=1$ 表示何种二次曲面.",
+   "answerText": "答案：椭圆柱面\n\n**解析：**\n由（1），经正交变换二次型化为标准形 $f=4y_{2}^{2}+9y_{3}^{2}$（不含 $y_{1}$ 项）。方程 $4y_{2}^{2}+9y_{3}^{2}=1$ 在空间中表示母线平行于 $y_{1}$ 轴的椭圆柱面。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.quadratic_form_matrix",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.quadratic_form_concept",
+    "la.knowledge.standard_form"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.knowledge.quadratic_form_concept、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms；审计修复：跨科目/非法知识点 quadric_surface_equations → la.knowledge.standard_form（第(2)问即化标准形判断二次曲面类型）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "九、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.23",
+   "number": 23,
+   "title": "1996 年数学一 第 23 题",
+   "questionText": "设工厂 $A$ 和工厂 $B$ 的产品的次品率分别为 $1\\%$ 和 $2\\%$，现从由 $A$ 厂和 $B$ 厂的产品分别占 $60\\%$ 和 $40\\%$ 的一批产品中随机抽取一件，发现是次品，则该次品属于 $A$ 厂生产的概率为 $\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{3}{7}$\n\n**解析：**\n由贝叶斯公式：$P(A_{1}|B)=\\dfrac{0.6\\times 0.01}{0.6\\times 0.01+0.4\\times 0.02}=\\dfrac{0.006}{0.006+0.008}=\\dfrac{3}{7}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.24",
+   "number": 24,
+   "title": "1996 年数学一 第 24 题",
+   "questionText": "设 $\\xi,\\eta$ 是两个相互独立且均服从正态分布 $N\\left(0,\\left(\\dfrac{1}{\\sqrt{2}}\\right)^{2}\\right)$ 的随机变量，则随机变量 $|\\xi-\\eta|$ 的数学期望 $E(|\\xi-\\eta|)=\\underline{\\quad}$",
+   "answerText": "答案：$\\sqrt{\\dfrac{2}{\\pi}}\\left(=\\dfrac{2}{\\sqrt{2\\pi}}\\right)$\n\n**解析：**\n$\\xi-\\eta$ 服从 $N(0,1)$。$E(|\\xi-\\eta|)=\\dfrac{1}{\\sqrt{2\\pi}}\\displaystyle\\int_{-\\infty}^{+\\infty}|u|\\,\\mathrm{e}^{-\\frac{u^{2}}{2}}\\mathrm{d}u=\\sqrt{\\frac{2}{\\pi}}\\int_{0}^{+\\infty}u\\,\\mathrm{e}^{-\\frac{u^{2}}{2}}\\mathrm{d}u=\\sqrt{\\frac{2}{\\pi}}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.normal_distribution",
+    "prob.knowledge.random_variables_independence",
+    "prob.knowledge.mathematical_expectation"
+   ],
+   "methodIds": [],
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 24
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、填空题（本题共2小题，每小题3分，满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1996.25",
+   "number": 25,
+   "title": "1996 年数学一 第 25 题",
+   "questionText": "设 $\\xi,\\eta$ 是相互独立且都服从同一分布的两个随机变量，且 $\\xi$ 的分布律为 $P\\{\\xi=i\\}=\\dfrac{1}{3}\\ (i=1,2,3)$，又设 $X=\\max\\{\\xi,\\eta\\}$，$Y=\\min\\{\\xi,\\eta\\}$.\\n\\n（1）写出二维随机变量 $(X,Y)$ 的分布律：\\n\\n| Y\\\\X | 1 | 2 | 3 |\\n| --- | --- | --- | --- |\\n| 1 |  |  |  |\\n| 2 |  |  |  |\\n| 3 |  |  |  |",
+   "answerText": "答案：$P\\{X=i, Y=j\\}$：$P\\{1,1\\}=\\dfrac{1}{9}$，$P\\{2,1\\}=\\dfrac{2}{9}$，$P\\{2,2\\}=\\dfrac{1}{9}$，$P\\{3,1\\}=\\dfrac{2}{9}$，$P\\{3,2\\}=\\dfrac{2}{9}$，$P\\{3,3\\}=\\dfrac{1}{9}$，其余为 $0$\n\n**解析：**\n由 $\\xi,\\eta$ 独立同分布，$P\\{X=i,Y=j\\}$ 分三类：$i<j$ 时不可能（$X\\ge Y$），概率为 0；$i=j$ 时 $P\\{\\xi=i,\\eta=i\\}=\\dfrac{1}{9}$；$i>j$ 时 $P\\{\\xi=i,\\eta=j\\}+P\\{\\xi=j,\\eta=i\\}=\\dfrac{2}{9}$。逐格填表即得。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.multidimensional_random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.max_min_distribution",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.block_matrix",
+    "prob.knowledge.functions_of_random_variables",
+    "prob.knowledge.joint_distribution_function"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.functions_of_random_variables、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 25
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分6分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1996.26",
+   "number": 26,
+   "title": "1996 年数学一 第 26 题",
+   "questionText": "设 $\\xi,\\eta$ 是相互独立且都服从同一分布的两个随机变量，且 $\\xi$ 的分布律为 $P\\{\\xi=i\\}=\\dfrac{1}{3}\\ (i=1,2,3)$，又设 $X=\\max\\{\\xi,\\eta\\}$，$Y=\\min\\{\\xi,\\eta\\}$.\\n\\n（2）求随机变量 $X$ 的数学期望 $E(X)$.",
+   "answerText": "答案：$\\dfrac{22}{9}$\n\n**解析：**\n由（1）的联合分布律求边缘：$P\\{X=1\\}=\\dfrac{1}{9}$，$P\\{X=2\\}=\\dfrac{3}{9}$，$P\\{X=3\\}=\\dfrac{5}{9}$。故 $E(X)=1\\cdot\\dfrac{1}{9}+2\\cdot\\dfrac{3}{9}+3\\cdot\\dfrac{5}{9}=\\dfrac{22}{9}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.multidimensional_random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.max_min_distribution",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.functions_of_random_variables",
+    "prob.knowledge.mathematical_expectation"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.knowledge.functions_of_random_variables、prob.knowledge.mathematical_expectation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1996,
+    "paper": "math1",
+    "number": 26
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十一、（本题满分6分，含2小题）"
+  }
+ ]
 }

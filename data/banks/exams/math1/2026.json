@@ -1,829 +1,831 @@
 {
-  "format": "mathlink-bank",
-  "version": 1,
-  "subject": "exam_mixed",
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 2026,
+ "paper": "math1",
+ "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
+ "verified": false,
+ "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/m1-2026-paper.md",
+ "paperInfo": {
   "year": 2026,
   "paper": "math1",
-  "license": "公开试题 OCR 转录初稿；解析文字未收录，答案为客观答案，待逐题校对",
-  "verified": false,
-  "source": "/home/ros/Projects/mathapp-sources/ocr-work/md/m1-2026-paper.md",
-  "paperInfo": {
+  "label": "数学一",
+  "sections": [
+   "选择题",
+   "填空题",
+   "解答题"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-2026.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-2026.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-2026.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-2026.4",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-2026.5",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-2026.6",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-2026.7",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-2026.8",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-2026.9",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-2026.10",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-2026.11",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-2026.12",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-2026.13",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-2026.14",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-2026.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-2026.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-2026.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-2026.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-2026.19",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-2026.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-2026.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-2026.22",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 22
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-2026.1",
+   "number": 1,
+   "title": "2026 年数学一 第 1 题",
+   "questionText": "设$z=z(x,y)$ 由方程$x-a z=e^{y+a z}$ (a是非零常数)，则()\n\n(A)\n\n$$\\frac{\\partial z}{\\partial x}-\\frac{\\partial z}{\\partial y}=\\frac{1}{a}$$\n\n(B)\n\n$$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{1}{a}$$\n\n(C)\n\n$$\\frac{\\partial z}{\\partial x}-\\frac{\\partial z}{\\partial y}=-\\frac{1}{a}$$\n\n(D)\n\n$$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{1}{a}$$",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "partial_derivative_total_differential",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：partial_derivative_total_differential，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multivariable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
     "year": 2026,
     "paper": "math1",
-    "label": "数学一",
-    "sections": [
-      "选择题",
-      "填空题",
-      "解答题"
-    ],
-    "problemsOrder": [
-      {
-        "number": 1,
-        "id": "bank.exam.m1-2026.1",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 2,
-        "id": "bank.exam.m1-2026.2",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 3,
-        "id": "bank.exam.m1-2026.3",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 4,
-        "id": "bank.exam.m1-2026.4",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 5,
-        "id": "bank.exam.m1-2026.5",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 6,
-        "id": "bank.exam.m1-2026.6",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 7,
-        "id": "bank.exam.m1-2026.7",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 8,
-        "id": "bank.exam.m1-2026.8",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 9,
-        "id": "bank.exam.m1-2026.9",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 10,
-        "id": "bank.exam.m1-2026.10",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 11,
-        "id": "bank.exam.m1-2026.11",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 12,
-        "id": "bank.exam.m1-2026.12",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 13,
-        "id": "bank.exam.m1-2026.13",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 14,
-        "id": "bank.exam.m1-2026.14",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 15,
-        "id": "bank.exam.m1-2026.15",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 16,
-        "id": "bank.exam.m1-2026.16",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 17,
-        "id": "bank.exam.m1-2026.17",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 18,
-        "id": "bank.exam.m1-2026.18",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 19,
-        "id": "bank.exam.m1-2026.19",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 20,
-        "id": "bank.exam.m1-2026.20",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 21,
-        "id": "bank.exam.m1-2026.21",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 22,
-        "id": "bank.exam.m1-2026.22",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      }
-    ],
-    "total": 22
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
   },
-  "problems": [
-    {
-      "id": "bank.exam.m1-2026.1",
-      "number": 1,
-      "title": "2026 年数学一 第 1 题",
-      "questionText": "设$z=z(x,y)$ 由方程$x-a z=e^{y+a z}$ (a是非零常数)，则()\n\n(A)\n\n$$\\frac{\\partial z}{\\partial x}-\\frac{\\partial z}{\\partial y}=\\frac{1}{a}$$\n\n(B)\n\n$$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{1}{a}$$\n\n(C)\n\n$$\\frac{\\partial z}{\\partial x}-\\frac{\\partial z}{\\partial y}=-\\frac{1}{a}$$\n\n(D)\n\n$$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=\\frac{1}{a}$$",
-      "answerText": "(A)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "partial_derivative_total_differential",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：partial_derivative_total_differential，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multivariable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 1
-      },
-      "subjectGuess": "calculus",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.2",
-      "number": 2,
-      "title": "2026 年数学一 第 2 题",
-      "questionText": "幂级数$\\sum_{n=1}^{\\infty}\\left(\\frac{3+(-1)^{n}}{4}\\right)^{n}$ $x^{2n}$ 的收敛域为(）\n\n(A)$\\left[-2,2\\right]$ (B)$\\left[-1,1\\right]$\n\n(C) (−2,2)(D) (−1,1)",
-      "answerText": "(D)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "power_series_radius_domain",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：power_series_radius_domain，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 2
-      },
-      "subjectGuess": "calculus",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.3",
-      "number": 3,
-      "title": "2026 年数学一 第 3 题",
-      "questionText": "已知$f{\\big(}x{\\big)}$ 在区间$\\left[-1,1\\right]$ 内有定义，则()\n\n(A)当$f(x) 在 (-1,0)$ 内单调递减，(0,1)内单调递增时，$f{\\bigl(}0{\\bigr)}$ 是极小值\n\n(B)当$f{\\bigl(}0{\\bigr)}$ 是极小值时，$f{\\big(}x{\\big)}$ 在(-1,0)内单调递减，(0,1)内单调递增\n\n(C)当$f{\\big(}x{\\big)}$ 在区间$\\left[-1,1\\right]$ 内是凹函数时，$\\frac{f(x)-f(1)}{x-1} 在 [-1,1]$ 上单调递增\n\n(D)当$\\frac{f(x)-f(1)}{x-1} 在 [-1,1]$ 上单调递增时，$f{\\big(}x{\\big)}$ 在区间$\\left[-1,1\\right]$ 内是凹函数",
-      "answerText": "(C)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "surface_integral_definition",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 3
-      },
-      "subjectGuess": "calculus",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.4",
-      "number": 4,
-      "title": "2026 年数学一 第 4 题",
-      "questionText": "设$z=\\sqrt{4-x^{2}-y^{2}},z=\\sqrt{x^{2}+y^{2}}$ 两个曲面相交的有界闭区域为Ω，$f{\\bigl(}u{\\bigr)}$ 为连续函数，则$\\iiint_{\\Omega}f\\left(x^{2}+y^{2}+z^{2}\\right)dy$ 可表示为()\n\n(A)$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{2}dr\\int_{r}^{\\sqrt{4-r^{2}}}f\\left(r^{2}+z^{2}\\right)dz$\n\n(B)\n\n$$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\sqrt{2}}dr\\int_{0}^{\\sqrt{4-r^2}}f\\left(r^2+z^2\\right)dz $$\n\n(C)\n\n$$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\frac{\\pi}{4}}d\\varphi\\int_{0}^{2}f\\left(r^{2}\\right)r^{2}\\sin\\varphi dr $$\n\n(D)\n\n$$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\frac{\\pi}{2}}d\\varphi\\int_{0}^{2}f\\left(r^{2}\\right)r^{2}\\sin\\varphi dr $$",
-      "answerText": "(C)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "multivariable_limit_continuity",
-        "geometric_applications_multivariable",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 4
-      },
-      "subjectGuess": "calculus",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.5",
-      "number": 5,
-      "title": "2026 年数学一 第 5 题",
-      "questionText": "单位阵经过若干次两行互换得到的矩阵为置换矩阵，设A为n阶置换矩阵，$A^{*}$ 为A的伴随矩阵，则(）\n\n(A)$\\boldsymbol{A}^{*}$ 为置换矩阵\n\n(B)$\\boldsymbol{A}^{-1}$ 为置换矩阵\n\n(C)$\\boldsymbol{A}^{*}=\\boldsymbol{A}^{-1}$\n\n(D)$A^{*}=-A^{-1}$",
-      "answerText": "(B)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.inverse_matrix",
-        "la.knowledge.adjoint_matrix",
-        "la.knowledge.matrix_transpose"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.adjoint_matrix，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 5
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.6",
-      "number": 6,
-      "title": "2026 年数学一 第 6 题",
-      "questionText": "设三阶矩阵A，B，其中A的列向量组可由B的列向量组线性表示，则(\n\n(A)$A x=\\beta$ 有解时，$B x=\\beta$ 有解\n\n(B)$B x=\\beta$ 有解时，$Ax=\\beta$ 有解\n\n(C)$A^{T}x=\\beta$ 有解时，$B^{T}x=\\beta$ 有解\n\n(D)$B^{T}x=\\beta$ 有解时，$A^{T}x=\\beta$ 有解",
-      "answerText": "(A)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.linear_representation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.representation_theorems",
-        "la.knowledge.vector_group_rank",
-        "la.knowledge.matrix_transpose"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.linear_representation，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 6
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.7",
-      "number": 7,
-      "title": "2026 年数学一 第 7 题",
-      "questionText": "设$f\\left(x_{1},x_{2},x_{3}\\right)=a\\left(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}\\right)+4x_{1}x_{2}+4x_{1}x_{3}+4x_{2}x_{3}$ 若$f\\left(x_{1},x_{2},x_{3}\\right)=-1$ 表示柱面，则()\n\n(A)$a=-4,f\\left(x_{1},x_{2},x_{3}\\right)$ 对应的规范形为$-y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n(B)$a=-4,f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换下的标准形为$-6y_{1}^{2}-6y_{2}^{2}$\n\n(C)$a=2,f(x_1,x_2,x_3)$ 对应的规范形为$-y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n(D)$a=2,f(x_1,x_2,x_3)$ 在正交变换下的标准形为$-6y_{1}^{2}-6y_{2}^{2}$",
-      "answerText": "(B)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.quadratic_forms",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.inertia_normal_form",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.standard_form",
-        "la.knowledge.inertia_theorem",
-        "la.knowledge.normal_form"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；自动打标(规则)：la.problem_type.inertia_normal_form、cylindrical_surface、la.knowledge.inertia_theorem、la.knowledge.normal_form，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms；审计修复：跨科目/非法知识点 cylindrical_surface → la.knowledge.standard_form（二次型标准形判曲面（柱面））",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 7
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.8",
-      "number": 8,
-      "title": "2026 年数学一 第 8 题",
-      "questionText": "设随机变量$X\\sim N(1,2),f(t)=E\\left[(X+t)^2\\right]$ ，则$f\\big(t\\big)$ 的最小值点与最小值为(）I\n\n(A) 1,2(B)1,4(C)−1,2(D)$-1,4$",
-      "answerText": "(C)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.random_variables_independence"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 8
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.9",
-      "number": 9,
-      "title": "2026 年数学一 第 9 题",
-      "questionText": "设连续型随机变量X的分布函数为$F{\\big(}x{\\big)}$ ，随机变量Y的分布函数为$F(aY+b)$ ，X的数学期望为，方差为$\\sigma^{2}\\left(\\sigma>0\\right)$ ，若Y的数学期望与方差分别为0和1，则(\n\n(A)\n\n$$a=\\sigma,b=\\mu $$\n\n(B)\n\n$$a=\\sigma,b=-\\mu $$\n\n(C)\n\n$$a=\\frac{1}{\\sigma},b=\\mu $$\n\n(D)\n\n$$a=\\frac{1}{\\sigma},b=-\\mu $$",
-      "answerText": "(A)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "multivariable_limit_continuity",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 9
-      },
-      "subjectGuess": "calculus",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.10",
-      "number": 10,
-      "title": "2026 年数学一 第 10 题",
-      "questionText": "设随机变量X的概率分布为$P\\left\\{X=k\\right\\}=\\frac{1}{2^{k+1}}+\\frac{1}{3^{k}}\\left(k=1,2,\\cdots\\right)$ ，则对任意的正整数 $m,n$ 有（）\n\n(A)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}=P\\left\\{X>m\\right\\} $$\n\n(B)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}=P\\left\\{X>n\\right\\} $$\n\n(C)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}>P\\left\\{X>m\\right\\} $$\n\n(D)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}>P\\left\\{X>n\\right\\}$$",
-      "answerText": "(D)",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 10
-      },
-      "subjectGuess": "calculus",
-      "section": "选择题"
-    },
-    {
-      "id": "bank.exam.m1-2026.11",
-      "number": 11,
-      "title": "2026 年数学一 第 11 题",
-      "questionText": "$\\mathbf{v}_{1}=(0,x,z),\\mathbf{v}_{2}=(y,0,1)$ $F(x,y,z)=\\mathbf{v}_{1}\\times\\mathbf{v}_{2}$ ，则$d i v\\mathbf{F}=$",
-      "answerText": "$1+z$",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 11
-      },
-      "subjectGuess": "calculus",
-      "section": "填空题"
-    },
-    {
-      "id": "bank.exam.m1-2026.12",
-      "number": 12,
-      "title": "2026 年数学一 第 12 题",
-      "questionText": "极限$\\lim_{x\\to0}\\left[\\frac{1}{x}-\\frac{\\ln(1+x)}{x\\sin x}\\right]$",
-      "answerText": "$\\frac{1}{2}$",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 12
-      },
-      "subjectGuess": "calculus",
-      "section": "填空题"
-    },
-    {
-      "id": "bank.exam.m1-2026.13",
-      "number": 13,
-      "title": "2026 年数学一 第 13 题",
-      "questionText": "设函数$y=y(x)$ 由参数方程$\\begin{cases}x=2\\sin^{2}t\\\\y=t+\\cos t\\end{cases}\\left(t\\in\\left(0,\\frac{\\pi}{2}\\right)\\right)$ 确定，则$\\left.\\frac{d^{2}y}{dx^{2}}\\right|_{t=\\frac{\\pi}{4}}=$",
-      "answerText": "$-{\\frac{\\sqrt{2}}{8}}$",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "parametric_derivative"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：parametric_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 13
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "填空题"
-    },
-    {
-      "id": "bank.exam.m1-2026.14",
-      "number": 14,
-      "title": "2026 年数学一 第 14 题",
-      "questionText": "$\\int_{1}^{+\\infty}\\frac{\\ln(1+x)}{x^2}dx=$",
-      "answerText": "2ln2",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 14
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "填空题"
-    },
-    {
-      "id": "bank.exam.m1-2026.15",
-      "number": 15,
-      "title": "2026 年数学一 第 15 题",
-      "questionText": "设矩阵$\\boldsymbol{A}=\\begin{pmatrix}1&0&0\\\\2&a&2\\\\0&2&a\\end{pmatrix},\\boldsymbol{B}=\\begin{pmatrix}a&-1&-1\\\\-1&2&1\\\\-1&-1&a\\end{pmatrix}$ $m{\\big(}X{\\big)}$ 是矩阵X的实值特征值的最大值，上考研\n\n且$m(A)<m(B)$ ，则a的取值范围为",
-      "answerText": "$\\left(-\\infty,0\\right)$",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "extrema",
-        "la.knowledge.eigen_concept"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：extrema、la.knowledge.eigen_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 15
-      },
-      "subjectGuess": "calculus",
-      "section": "填空题"
-    },
-    {
-      "id": "bank.exam.m1-2026.16",
-      "number": 16,
-      "title": "2026 年数学一 第 16 题",
-      "questionText": "设随机变量X服从参数为1的泊松分布，Y服从参数为3的泊松分布，且X和$X-Y$ 相互独立，则$E(X Y)=$",
-      "answerText": "4",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.numerical_characteristics",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.expectation_calculation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.mathematical_expectation",
-        "prob.knowledge.poisson_distribution"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：prob.type.expectation_calculation、prob.knowledge.mathematical_expectation、prob.knowledge.poisson_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 16
-      },
-      "subjectGuess": "calculus",
-      "section": "填空题"
-    },
-    {
-      "id": "bank.exam.m1-2026.17",
-      "number": 17,
-      "title": "2026 年数学一 第 17 题",
-      "questionText": "(本题满分10分)求函数$f(x,y)=\\left(2x^{2}-y^{2}\\right)e^{x}$ 的极值.\n\n【解析】区$\\left\\{\\begin{aligned}f_{x}^{\\prime}&=e^{x}\\left(2x^{2}+4x-y^{2}\\right)=0\\\\ f_{y}^{\\prime}&=-2ye^{x}=0\\end{aligned}\\right.$ ，解得：$(x,y)=(0,0),(-2,0)$\n\n$$f_{xx}^{\\prime\\prime}=e^{x}\\left(2x^{2}+8x+4-y^{2}\\right),\\quad f_{xy}^{\\prime\\prime}=-2ye^{x},\\quad f_{yy}^{\\prime\\prime}=-2e^{x}$$\n\n(0,0)处:$A_{1}=f_{xx}^{\\prime\\prime}(0,0)=4,B_{1}=f_{xy}^{\\prime\\prime}(0,0)=0,C_{1}=f_{yy}^{\\prime\\prime}(0,0)=-2$\n\n$A_{1}C_{1}-B_{1}^{2}<0$ ，故$\\left(0,0\\right)$ 不是$f{\\big(}x,y{\\big)}$ 的极值点；\n\n$\\left(-2,0\\right)$ 处：$A_{2}=f_{xx}^{\\prime\\prime}(-2,0)=-4e^{-2},B_{2}=f_{xy}^{\\prime\\prime}(-2,0)=0,C_{1}=f_{yy}^{\\prime\\prime}(-2,0)=-2e^{-2}$ $A_{2}C_{2}-B_{2}^{2}>0,A_{2}<0$ ，故$f(-2,0)=8e^{-2}$ 是$f{\\big(}x,y{\\big)}$ 的极大值.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "extrema",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 17
-      },
-      "subjectGuess": "calculus",
-      "section": "解答题"
-    },
-    {
-      "id": "bank.exam.m1-2026.18",
-      "number": 18,
-      "title": "2026 年数学一 第 18 题",
-      "questionText": "(本题满分12分)若函数$f{\\bigl(}u{\\bigr)}$ 在区间$\\left(0,+\\infty\\right)$ 内有3阶连续导数，且存在可微函数\n\n$$F(x,y) 使 dF(x,y)=\\frac{f(xy)}{x^2y}dx+\\frac{f^{\\prime\\prime}(xy)}{xy^2}dy(xy>0).$$\n\n(1)证明:$\\frac{f''(u)}{u}-\\frac{f(u)}{u}=C$ ，其中C为任意常数\n\n(2)若$f(1)=1,f^{\\prime}(1)=-1,f^{\\prime\\prime}(1)=0$ ，求函数$f{\\bigl(}u{\\bigr)}$ 的表达式.\n\n【解析】\n\n(1)记$P(x,y)=\\frac{f(xy)}{x^{2}y},Q(x,y)=\\frac{f^{\\prime\\prime}(xy)}{xy^{2}}$\n\n$\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}$ ，得：$\\frac{f'''(xy)}{xy}-\\frac{f''(xy)}{x^2y^2}-\\frac{f'(xy)}{xy}+\\frac{f(xy)}{x^2y^2}=0$\n\n记$u=x y$ ，则$\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f^{\\prime\\prime}(u)}{u^{2}}-\\frac{f^{\\prime}(u)}{u}+\\frac{f(u)}{u^{2}}=0$\n\n要证$\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f(u)}{u}=C$ ，即证\n\n$\\frac{d}{du}\\left[\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f(u)}{u}\\right]=\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f^{\\prime\\prime}(u)}{u^2}-\\frac{f^{\\prime}(u)}{u}+\\frac{f(u)}{u^2}=0$ ,由(1)知命题得证.\n\n(2)由(1)知:$f^{\\prime\\prime}(u)-f(u)=Cu$ ，带入初始条件得：$C=-1$ ，解此二阶常系数线性微分方程得：$f(u)=C_{1}e^{u}+C_{2}e^{-u}+u$ ，带入初始条件得：$C_{1}=-\\frac{1}{e},C_{2}=e$\n\n综上：$f\\left(u\\right)=-e^{u-1}+e^{1-u}+u$\n\n扫码下载掌上考研APP—更多考研资讯、考研真题一键获取扫码下载掌上考研APP——更多考研资讯、考研真题一键获取\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1081_1512_1235_1714.jpg\" alt=\"Image\" width=\"12%\" /></div>",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "multivariable_limit_continuity",
-        "differentiability_continuity",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 18
-      },
-      "subjectGuess": "calculus",
-      "section": "解答题"
-    },
-    {
-      "id": "bank.exam.m1-2026.19",
-      "number": 19,
-      "title": "2026 年数学一 第 19 题",
-      "questionText": "(本题满分12分)设有向曲线L为椭圆$x^{2}+3y^{2}=1$ 沿逆时针方向从点$A\\left(-\\frac{1}{2},-\\frac{1}{2}\\right)$ 到点$B\\left(\\frac{1}{2},\\frac{1}{2}\\right)$ 的部分，计算$\\int_{L}\\left(e^{x^{2}}\\sin x-2xy\\right)dx+\\left(6x-x^{2}-y\\cos^{4}y\\right)dy$\n\n【解析】记$L_{1}:y=x$ 从B到A的有向线段，记\n\n$$\\begin{aligned}P\\left(x,y\\right)=e^{x^{2}}\\sin x-2xy,Q\\left(x,y\\right)=6x-x^{2}-y\\cos^{4}y,\\\\  则 I=\\oint_{L+L_{1}}Pdx+Qdy-\\int_{L_{1}}Pdx+Qdy\\end{aligned}$$\n\n由格林公式得：\n\n$$\\begin{aligned}&I_{_1}=\\oint_{_{L+L_{_1}}}Pdx+Qdy=\\iint\\limits_{D}\\left(\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}\\right)d\\sigma=\\iint\\limits_{D}6l\\ \\sigma=6\\cdot S_{_D}=6\\cdot\\frac{1}{2}\\cdot\\pi\\cdot1\\cdot\\frac{1}{\\sqrt{3}}=\\sqrt{3}\\pi.\\\\ &\\\\ &I_{_2}=\\int_{L_{_1}}Pdx+Qdy=\\int_{\\frac{1}{2}}^{\\frac{1}{2}}\\left(e^{^{x^2}}\\sin x-2x^2+6x-x^2-x\\cos^4x\\right)dx\\\\ &\\\\ &=-\\int_{\\frac{1}{2}}^{\\frac{1}{2}}\\left(-3x^2\\right)dx=x^3\\Big|_{-\\frac{1}{2}}^{\\frac{1}{2}}=\\frac{1}{4}\\\\ &\\\\ & 综上:I=I_{_1}-I_{_2}=\\sqrt{3}\\pi-\\frac{1}{4}.\\\\ \\end{aligned}$$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "orientation"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 19
-      },
-      "subjectGuess": "calculus",
-      "section": "解答题"
-    },
-    {
-      "id": "bank.exam.m1-2026.20",
-      "number": 20,
-      "title": "2026 年数学一 第 20 题",
-      "questionText": "(本题满分12分）设可导函数$f(x)^{\\mathrm{严}}$ 格单调递增，且$\\int_{-1}^{1}f(x)dx=0,\\quad\\int_{0}^{1}f(x)dx$ (1)证明:$a>0$ ;\n\n(2)若$F\\left(x\\right)=a\\left(1-x^{2}\\right)+\\int_{1}^{x}f\\left(t\\right)dt$ ，证明存在$\\xi\\in\\left(-1,1\\right)$ ，使得$F^{\\prime\\prime}(\\xi)=0$\n\n【证明】\n\n(1)由$f(x) 严$ 格单增，根据几何意义得：$\\int_{0}^{1}f(x)dx>\\int_{-1}^{0}f(x)dx$\n\n故$2\\int_{0}^{1}f\\left(x\\right)dx>\\int_{0}^{1}f\\left(x\\right)dx+\\int_{-1}^{0}f\\left(x\\right)dx=0$ ，得$2a>0,a>0$ ,得证.\n\n(2)由$F\\left(-1\\right)=\\int_{1}^{-1}f\\left(x\\right)dx=0,F\\left(0\\right)=a+\\int_{1}^{0}f\\left(x\\right)dx=0,F\\left(1\\right)=0\\ ,F\\left(x\\right)=\\left\\lbrack-1,1\\right\\rbrack$ 上连续，$\\scriptstyle{\\big(}-1,1{\\big)}$ 内二阶可导，由罗尔定理得：\n\n$\\exists\\xi_{1}\\in(-1,0)$ ,使得$F^{\\prime}\\left(\\xi_{1}\\right)=0$ $\\exists\\xi_{2}\\in(0,1)$ ,使得$F^{\\prime}(\\xi_{2})=0$\n\n$\\exists\\xi\\in\\left(\\xi_{1},\\xi_{2}\\right)\\subset\\left(-1,1\\right)$ ,使得$F^{\\prime\\prime}(\\xi)=0$ ，得证.",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.inverse_matrix",
-        "mean_value_theorem",
-        "monotonicity"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：la.knowledge.inverse_matrix、mean_value_theorem、monotonicity，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 20
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "解答题"
-    },
-    {
-      "id": "bank.exam.m1-2026.21",
-      "number": 21,
-      "title": "2026 年数学一 第 21 题",
-      "questionText": "(本题满分12分）设向量组$\\alpha_{1}=\\begin{pmatrix}1\\\\ 0\\\\ -1\\\\ -1\\end{pmatrix},\\alpha_{2}=\\begin{pmatrix}1\\\\ -1\\\\ 0\\\\ -2\\end{pmatrix},\\alpha_{3}=\\begin{pmatrix}0\\\\ -1\\\\ 1\\\\ -1\\end{pmatrix},\\alpha_{4}=\\begin{pmatrix}0\\\\ 1\\\\ -1\\\\ -1\\end{pmatrix}$\n\n$$A=\\left(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}\\right),\\quad G=\\left(\\alpha_{1},\\alpha_{2}\\right),$$\n\n(1)证明$\\alpha_{1},\\alpha_{2}$ 是$\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 的一个极大无关组；\n\n(2)求H，满足$A=G H$ ，并求$A^{10}$\n\n【解析】\n\n(1)由\n\n$$(1)由\\left(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}\\right)=\\begin{pmatrix}1&1&0&0\\\\0&-1&-1&1\\\\-1&0&1&-1\\\\-1&-2&-1&-1\\\\\\end{pmatrix}\\rightarrow\\begin{pmatrix}1&1&0&0\\\\0&-1&-1&1\\\\0&0&0&0\\\\0&0&0&0\\\\\\end{pmatrix}上考研$$\n\n得(2)解矩阵方程组$r\\left(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}\\right)=2$ $G H=A$ 且，由$\\alpha_{1},\\alpha_{2}$ 线性无关，故A上考$\\alpha_{1},\\alpha_{2} 是 \\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ Syan.cn $\\alpha_{1},\\alpha_{2} 是 \\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 的一个极大无关组；\n\n$$\\begin{pmatrix}G\\vdots A\\end{pmatrix}\\rightarrow\\begin{pmatrix}1&1&\\vdots&1&0&0\\\\0&-1&\\vdots&0&-1&-1&1\\\\0&0&\\vdots&0&0&0\\\\0&0&\\vdots&0&0&0\\end{pmatrix} 上考研$$\n\n解得：$\\eta_{1}=(1,0)^{T},\\eta_{2}=(0,1)^{T},\\eta_{3}=(-1,1)^{T},\\eta_{4}=(1,-1)^{T}$\n\n$$H=\\left(\\eta_{1},\\eta_{2},\\eta_{3},\\eta_{4}\\right)=\\left(\\begin{matrix}1&0&-1&1\\\\ 0&1&1&-1\\end{matrix}\\right),\\quad H G=\\left(\\begin{matrix}1&-1\\\\ 0&1\\end{matrix}\\right)$$\n\n则\n\n$$A^{10}=GHGH\\cdots GH=G\\left(HG\\right)^{9}H=G\\begin{pmatrix}1&-9\\\\0&1\\end{pmatrix}H=G\\begin{pmatrix}1&-9&-10&10\\\\0&1&1&-1\\end{pmatrix}$$\n\n$$\\begin{aligned}=&\\begin{pmatrix}1&-8&-9&9\\\\0&-1&-1&1\\\\-1&9&10&-10\\\\-1&7&8&-8\\end{pmatrix}.\\end{aligned}$$",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.maximal_independent_group",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.maximal_independent_group",
-        "la.knowledge.linear_correlation",
-        "la.knowledge.vector_group_rank"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.maximal_independent_group，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 21
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "解答题"
-    },
-    {
-      "id": "bank.exam.m1-2026.22",
-      "number": 22,
-      "title": "2026 年数学一 第 22 题",
-      "questionText": "(本题满分12分）假设某种元件的寿命服从指数分布，其均值θ是未知参数,为估计θ，取n个这种元件同时做寿命试验，试验到出现k个元件失效时停止；\n\n(1)若$k{=}1$ ，失效元件的寿命记为T,(i)计算T的概率密度；(i)记${\\stackrel{\\wedge}{\\theta}}=a T$ ，确定a使得$\\hat{\\boldsymbol{\\theta}}$ 是7\n\n扫码下载掌上考研APP——更多考研资讯、考研真题一键获取扫码下载掌上考研APP——更多考研资讯、考研真题一键获取\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1077_1567_1225_1716.jpg\" alt=\"Image\" width=\"11%\" /></div>\n\nθ的无偏估计量，并求$D{\\left({\\hat{\\theta}}\\right)}$\n\n(2)已知k个失效元件的寿命值分别为$0\\leq t_{1}\\leq t_{2}\\leq\\cdots\\leq t_{k}$ ，似然函数\n\n$L\\left(\\theta\\right)=\\frac{1}{\\theta^{k}}e^{-\\frac{1}{\\theta}\\left\\lbrack\\sum_{i=1}^{k}t_{i}+(n-k)t_{k}\\right\\rbrack}$ ，求θ的最大似然估计值.\n\n【解析】\n\n(1)设各电子元件使用寿命为$X_{i},i=1,2,\\cdots,n$ ，则$T=\\min\\left\\{X_{1},X_{2},\\cdots,X_{n}\\right\\}$ ，其中$X_{i}$ 均服从指数分布$E\\left({\\frac{1}{\\theta}}\\right)$\n\nT的分布函数为\n\n$$F(t)=P\\{T\\leq t\\}=P\\{\\min(X_{1},X_{2},\\cdots,X_{n})\\leq t\\}=1-P\\{\\min(X_{1},X_{2},\\cdots,X_{n})>t\\}考研$$\n\n$$1-\\left[P\\left(X_{i}>t\\right)\\right]^{n}=\\left\\{\\begin{aligned}0,&t<0,\\\\ 1-e^{-\\frac{n t}{\\theta}},&t\\geq0,\\end{aligned}\\right.$$\n\n考研van.cn 故T的概率密度为$f(t)=F^{\\prime}(t)=\\left\\{\\begin{aligned}&\\frac{n}{\\theta}e^{-\\frac{nt}{\\theta}},t>0,\\\\ &0,t\\leq0.\\end{aligned}\\right.$ $T\\sim E\\left(\\frac{n}{\\theta}\\right)$\n\n$$E\\left(\\hat{\\theta}\\right)=a E\\left(T\\right)=a\\cdot\\frac{\\theta}{n}=\\theta\\Rightarrow a=n;$$\n\n$$D\\left(\\hat{\\theta}\\right)=a^{2}D\\left(T\\right)=a^{2}\\cdot\\frac{\\theta^{2}}{n^{2}}=\\theta^{2};$$\n\n(2) lr $\\ln L\\left(\\theta\\right)=-k\\ln\\theta-\\frac{1}{\\theta}\\left[\\sum_{i=1}^{k}t_{i}+(n-k)t_{k}\\right]$\n\n$$\\frac{d\\ln L\\left(\\theta\\right)}{d\\theta}=\\frac{-k}{\\theta}+\\frac{1}{\\theta^{2}}\\left[\\sum_{i=1}^{k}t_{i}+(n-k)t_{k}\\right]=0$$\n\n得$\\hat{\\theta}=\\frac{1}{k}\\left[\\sum_{i=1}^{k}t_i+(n-k)t_k\\right]$ 为θ的最大似然估计值.\n\n扫描二维码，下载掌上考研获取完整版真题和资料",
-      "answerText": "（答案待校对补充）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.common_continuous_distributions",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.distribution_function",
-        "prob.knowledge.exponential_distribution",
-        "prob.knowledge.probability_properties"
-      ],
-      "methodIds": [],
-      "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；自动打标(规则)：prob.type.common_continuous_distributions，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 2026,
-        "paper": "math1",
-        "number": 22
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "解答题"
-    }
-  ],
-  "notes": ""
+  {
+   "id": "bank.exam.m1-2026.2",
+   "number": 2,
+   "title": "2026 年数学一 第 2 题",
+   "questionText": "幂级数$\\sum_{n=1}^{\\infty}\\left(\\frac{3+(-1)^{n}}{4}\\right)^{n}$ $x^{2n}$ 的收敛域为(）\n\n(A)$\\left[-2,2\\right]$ (B)$\\left[-1,1\\right]$\n\n(C) (−2,2)(D) (−1,1)",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "power_series_radius_domain",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：power_series_radius_domain，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.3",
+   "number": 3,
+   "title": "2026 年数学一 第 3 题",
+   "questionText": "已知$f{\\big(}x{\\big)}$ 在区间$\\left[-1,1\\right]$ 内有定义，则()\n\n(A)当$f(x) 在 (-1,0)$ 内单调递减，(0,1)内单调递增时，$f{\\bigl(}0{\\bigr)}$ 是极小值\n\n(B)当$f{\\bigl(}0{\\bigr)}$ 是极小值时，$f{\\big(}x{\\big)}$ 在(-1,0)内单调递减，(0,1)内单调递增\n\n(C)当$f{\\big(}x{\\big)}$ 在区间$\\left[-1,1\\right]$ 内是凹函数时，$\\frac{f(x)-f(1)}{x-1} 在 [-1,1]$ 上单调递增\n\n(D)当$\\frac{f(x)-f(1)}{x-1} 在 [-1,1]$ 上单调递增时，$f{\\big(}x{\\big)}$ 在区间$\\left[-1,1\\right]$ 内是凹函数",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.4",
+   "number": 4,
+   "title": "2026 年数学一 第 4 题",
+   "questionText": "设$z=\\sqrt{4-x^{2}-y^{2}},z=\\sqrt{x^{2}+y^{2}}$ 两个曲面相交的有界闭区域为Ω，$f{\\bigl(}u{\\bigr)}$ 为连续函数，则$\\iiint_{\\Omega}f\\left(x^{2}+y^{2}+z^{2}\\right)dy$ 可表示为()\n\n(A)$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{2}dr\\int_{r}^{\\sqrt{4-r^{2}}}f\\left(r^{2}+z^{2}\\right)dz$\n\n(B)\n\n$$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\sqrt{2}}dr\\int_{0}^{\\sqrt{4-r^2}}f\\left(r^2+z^2\\right)dz $$\n\n(C)\n\n$$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\frac{\\pi}{4}}d\\varphi\\int_{0}^{2}f\\left(r^{2}\\right)r^{2}\\sin\\varphi dr $$\n\n(D)\n\n$$\\int_{0}^{2\\pi}d\\theta\\int_{0}^{\\frac{\\pi}{2}}d\\varphi\\int_{0}^{2}f\\left(r^{2}\\right)r^{2}\\sin\\varphi dr $$",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "geometric_applications_multivariable",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.5",
+   "number": 5,
+   "title": "2026 年数学一 第 5 题",
+   "questionText": "单位阵经过若干次两行互换得到的矩阵为置换矩阵，设A为n阶置换矩阵，$A^{*}$ 为A的伴随矩阵，则(）\n\n(A)$\\boldsymbol{A}^{*}$ 为置换矩阵\n\n(B)$\\boldsymbol{A}^{-1}$ 为置换矩阵\n\n(C)$\\boldsymbol{A}^{*}=\\boldsymbol{A}^{-1}$\n\n(D)$A^{*}=-A^{-1}$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.adjoint_matrix",
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.adjoint_matrix，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.6",
+   "number": 6,
+   "title": "2026 年数学一 第 6 题",
+   "questionText": "设三阶矩阵A，B，其中A的列向量组可由B的列向量组线性表示，则(\n\n(A)$A x=\\beta$ 有解时，$B x=\\beta$ 有解\n\n(B)$B x=\\beta$ 有解时，$Ax=\\beta$ 有解\n\n(C)$A^{T}x=\\beta$ 有解时，$B^{T}x=\\beta$ 有解\n\n(D)$B^{T}x=\\beta$ 有解时，$A^{T}x=\\beta$ 有解",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.linear_representation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.representation_theorems",
+    "la.knowledge.vector_group_rank",
+    "la.knowledge.matrix_transpose"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.linear_representation，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.7",
+   "number": 7,
+   "title": "2026 年数学一 第 7 题",
+   "questionText": "设$f\\left(x_{1},x_{2},x_{3}\\right)=a\\left(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}\\right)+4x_{1}x_{2}+4x_{1}x_{3}+4x_{2}x_{3}$ 若$f\\left(x_{1},x_{2},x_{3}\\right)=-1$ 表示柱面，则()\n\n(A)$a=-4,f\\left(x_{1},x_{2},x_{3}\\right)$ 对应的规范形为$-y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n(B)$a=-4,f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换下的标准形为$-6y_{1}^{2}-6y_{2}^{2}$\n\n(C)$a=2,f(x_1,x_2,x_3)$ 对应的规范形为$-y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$\n\n(D)$a=2,f(x_1,x_2,x_3)$ 在正交变换下的标准形为$-6y_{1}^{2}-6y_{2}^{2}$",
+   "answerText": "(B)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.quadratic_forms",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.inertia_normal_form",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.standard_form",
+    "la.knowledge.inertia_theorem",
+    "la.knowledge.normal_form"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；自动打标(规则)：la.problem_type.inertia_normal_form、cylindrical_surface、la.knowledge.inertia_theorem、la.knowledge.normal_form，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.quadratic_forms；审计修复：跨科目/非法知识点 cylindrical_surface → la.knowledge.standard_form（二次型标准形判曲面（柱面））",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.8",
+   "number": 8,
+   "title": "2026 年数学一 第 8 题",
+   "questionText": "设随机变量$X\\sim N(1,2),f(t)=E\\left[(X+t)^2\\right]$ ，则$f\\big(t\\big)$ 的最小值点与最小值为(）I\n\n(A) 1,2(B)1,4(C)−1,2(D)$-1,4$",
+   "answerText": "(C)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.random_variables_independence"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.9",
+   "number": 9,
+   "title": "2026 年数学一 第 9 题",
+   "questionText": "设连续型随机变量X的分布函数为$F{\\big(}x{\\big)}$ ，随机变量Y的分布函数为$F(aY+b)$ ，X的数学期望为，方差为$\\sigma^{2}\\left(\\sigma>0\\right)$ ，若Y的数学期望与方差分别为0和1，则(\n\n(A)\n\n$$a=\\sigma,b=\\mu $$\n\n(B)\n\n$$a=\\sigma,b=-\\mu $$\n\n(C)\n\n$$a=\\frac{1}{\\sigma},b=\\mu $$\n\n(D)\n\n$$a=\\frac{1}{\\sigma},b=-\\mu $$",
+   "answerText": "(A)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.10",
+   "number": 10,
+   "title": "2026 年数学一 第 10 题",
+   "questionText": "设随机变量X的概率分布为$P\\left\\{X=k\\right\\}=\\frac{1}{2^{k+1}}+\\frac{1}{3^{k}}\\left(k=1,2,\\cdots\\right)$ ，则对任意的正整数 $m,n$ 有（）\n\n(A)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}=P\\left\\{X>m\\right\\} $$\n\n(B)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}=P\\left\\{X>n\\right\\} $$\n\n(C)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}>P\\left\\{X>m\\right\\} $$\n\n(D)\n\n$$P\\left\\{X>m+n\\mid X>m\\right\\}>P\\left\\{X>n\\right\\}$$",
+   "answerText": "(D)",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "calculus",
+   "section": "选择题"
+  },
+  {
+   "id": "bank.exam.m1-2026.11",
+   "number": 11,
+   "title": "2026 年数学一 第 11 题",
+   "questionText": "$\\mathbf{v}_{1}=(0,x,z),\\mathbf{v}_{2}=(y,0,1)$ $F(x,y,z)=\\mathbf{v}_{1}\\times\\mathbf{v}_{2}$ ，则$d i v\\mathbf{F}=$",
+   "answerText": "$1+z$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2026.12",
+   "number": 12,
+   "title": "2026 年数学一 第 12 题",
+   "questionText": "极限$\\lim_{x\\to0}\\left[\\frac{1}{x}-\\frac{\\ln(1+x)}{x\\sin x}\\right]$",
+   "answerText": "$\\frac{1}{2}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2026.13",
+   "number": 13,
+   "title": "2026 年数学一 第 13 题",
+   "questionText": "设函数$y=y(x)$ 由参数方程$\\begin{cases}x=2\\sin^{2}t\\\\y=t+\\cos t\\end{cases}\\left(t\\in\\left(0,\\frac{\\pi}{2}\\right)\\right)$ 确定，则$\\left.\\frac{d^{2}y}{dx^{2}}\\right|_{t=\\frac{\\pi}{4}}=$",
+   "answerText": "$-{\\frac{\\sqrt{2}}{8}}$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "parametric_derivative"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：parametric_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2026.14",
+   "number": 14,
+   "title": "2026 年数学一 第 14 题",
+   "questionText": "$\\int_{1}^{+\\infty}\\frac{\\ln(1+x)}{x^2}dx=$",
+   "answerText": "2ln2",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "infinite_interval_integral"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：infinite_interval_integral，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2026.15",
+   "number": 15,
+   "title": "2026 年数学一 第 15 题",
+   "questionText": "设矩阵$\\boldsymbol{A}=\\begin{pmatrix}1&0&0\\\\2&a&2\\\\0&2&a\\end{pmatrix},\\boldsymbol{B}=\\begin{pmatrix}a&-1&-1\\\\-1&2&1\\\\-1&-1&a\\end{pmatrix}$ $m{\\big(}X{\\big)}$ 是矩阵X的实值特征值的最大值，上考研\n\n且$m(A)<m(B)$ ，则a的取值范围为",
+   "answerText": "$\\left(-\\infty,0\\right)$",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "monotonicity_extrema",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "extrema",
+    "la.knowledge.eigen_concept"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：extrema、la.knowledge.eigen_concept，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2026.16",
+   "number": 16,
+   "title": "2026 年数学一 第 16 题",
+   "questionText": "设随机变量X服从参数为1的泊松分布，Y服从参数为3的泊松分布，且X和$X-Y$ 相互独立，则$E(X Y)=$",
+   "answerText": "4",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.expectation_calculation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.mathematical_expectation",
+    "prob.knowledge.poisson_distribution"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；自动打标(规则)：prob.type.expectation_calculation、prob.knowledge.mathematical_expectation、prob.knowledge.poisson_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "填空题"
+  },
+  {
+   "id": "bank.exam.m1-2026.17",
+   "number": 17,
+   "title": "2026 年数学一 第 17 题",
+   "questionText": "(本题满分10分)求函数$f(x,y)=\\left(2x^{2}-y^{2}\\right)e^{x}$ 的极值.\n\n【解析】区$\\left\\{\\begin{aligned}f_{x}^{\\prime}&=e^{x}\\left(2x^{2}+4x-y^{2}\\right)=0\\\\ f_{y}^{\\prime}&=-2ye^{x}=0\\end{aligned}\\right.$ ，解得：$(x,y)=(0,0),(-2,0)$\n\n$$f_{xx}^{\\prime\\prime}=e^{x}\\left(2x^{2}+8x+4-y^{2}\\right),\\quad f_{xy}^{\\prime\\prime}=-2ye^{x},\\quad f_{yy}^{\\prime\\prime}=-2e^{x}$$\n\n(0,0)处:$A_{1}=f_{xx}^{\\prime\\prime}(0,0)=4,B_{1}=f_{xy}^{\\prime\\prime}(0,0)=0,C_{1}=f_{yy}^{\\prime\\prime}(0,0)=-2$\n\n$A_{1}C_{1}-B_{1}^{2}<0$ ，故$\\left(0,0\\right)$ 不是$f{\\big(}x,y{\\big)}$ 的极值点；\n\n$\\left(-2,0\\right)$ 处：$A_{2}=f_{xx}^{\\prime\\prime}(-2,0)=-4e^{-2},B_{2}=f_{xy}^{\\prime\\prime}(-2,0)=0,C_{1}=f_{yy}^{\\prime\\prime}(-2,0)=-2e^{-2}$ $A_{2}C_{2}-B_{2}^{2}>0,A_{2}<0$ ，故$f(-2,0)=8e^{-2}$ 是$f{\\big(}x,y{\\big)}$ 的极大值.",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "extrema",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2026.18",
+   "number": 18,
+   "title": "2026 年数学一 第 18 题",
+   "questionText": "(本题满分12分)若函数$f{\\bigl(}u{\\bigr)}$ 在区间$\\left(0,+\\infty\\right)$ 内有3阶连续导数，且存在可微函数\n\n$$F(x,y) 使 dF(x,y)=\\frac{f(xy)}{x^2y}dx+\\frac{f^{\\prime\\prime}(xy)}{xy^2}dy(xy>0).$$\n\n(1)证明:$\\frac{f''(u)}{u}-\\frac{f(u)}{u}=C$ ，其中C为任意常数\n\n(2)若$f(1)=1,f^{\\prime}(1)=-1,f^{\\prime\\prime}(1)=0$ ，求函数$f{\\bigl(}u{\\bigr)}$ 的表达式.\n\n【解析】\n\n(1)记$P(x,y)=\\frac{f(xy)}{x^{2}y},Q(x,y)=\\frac{f^{\\prime\\prime}(xy)}{xy^{2}}$\n\n$\\frac{\\partial Q}{\\partial x}=\\frac{\\partial P}{\\partial y}$ ，得：$\\frac{f'''(xy)}{xy}-\\frac{f''(xy)}{x^2y^2}-\\frac{f'(xy)}{xy}+\\frac{f(xy)}{x^2y^2}=0$\n\n记$u=x y$ ，则$\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f^{\\prime\\prime}(u)}{u^{2}}-\\frac{f^{\\prime}(u)}{u}+\\frac{f(u)}{u^{2}}=0$\n\n要证$\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f(u)}{u}=C$ ，即证\n\n$\\frac{d}{du}\\left[\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f(u)}{u}\\right]=\\frac{f^{\\prime\\prime}(u)}{u}-\\frac{f^{\\prime\\prime}(u)}{u^2}-\\frac{f^{\\prime}(u)}{u}+\\frac{f(u)}{u^2}=0$ ,由(1)知命题得证.\n\n(2)由(1)知:$f^{\\prime\\prime}(u)-f(u)=Cu$ ，带入初始条件得：$C=-1$ ，解此二阶常系数线性微分方程得：$f(u)=C_{1}e^{u}+C_{2}e^{-u}+u$ ，带入初始条件得：$C_{1}=-\\frac{1}{e},C_{2}=e$\n\n综上：$f\\left(u\\right)=-e^{u-1}+e^{1-u}+u$\n\n扫码下载掌上考研APP—更多考研资讯、考研真题一键获取扫码下载掌上考研APP——更多考研资讯、考研真题一键获取\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1081_1512_1235_1714.jpg\" alt=\"Image\" width=\"12%\" /></div>",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "partial_derivative_total_differential",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "differentiability_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：partial_derivative_total_differential，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2026.19",
+   "number": 19,
+   "title": "2026 年数学一 第 19 题",
+   "questionText": "(本题满分12分)设有向曲线L为椭圆$x^{2}+3y^{2}=1$ 沿逆时针方向从点$A\\left(-\\frac{1}{2},-\\frac{1}{2}\\right)$ 到点$B\\left(\\frac{1}{2},\\frac{1}{2}\\right)$ 的部分，计算$\\int_{L}\\left(e^{x^{2}}\\sin x-2xy\\right)dx+\\left(6x-x^{2}-y\\cos^{4}y\\right)dy$\n\n【解析】记$L_{1}:y=x$ 从B到A的有向线段，记\n\n$$\\begin{aligned}P\\left(x,y\\right)=e^{x^{2}}\\sin x-2xy,Q\\left(x,y\\right)=6x-x^{2}-y\\cos^{4}y,\\\\  则 I=\\oint_{L+L_{1}}Pdx+Qdy-\\int_{L_{1}}Pdx+Qdy\\end{aligned}$$\n\n由格林公式得：\n\n$$\\begin{aligned}&I_{_1}=\\oint_{_{L+L_{_1}}}Pdx+Qdy=\\iint\\limits_{D}\\left(\\frac{\\partial Q}{\\partial x}-\\frac{\\partial P}{\\partial y}\\right)d\\sigma=\\iint\\limits_{D}6l\\ \\sigma=6\\cdot S_{_D}=6\\cdot\\frac{1}{2}\\cdot\\pi\\cdot1\\cdot\\frac{1}{\\sqrt{3}}=\\sqrt{3}\\pi.\\\\ &\\\\ &I_{_2}=\\int_{L_{_1}}Pdx+Qdy=\\int_{\\frac{1}{2}}^{\\frac{1}{2}}\\left(e^{^{x^2}}\\sin x-2x^2+6x-x^2-x\\cos^4x\\right)dx\\\\ &\\\\ &=-\\int_{\\frac{1}{2}}^{\\frac{1}{2}}\\left(-3x^2\\right)dx=x^3\\Big|_{-\\frac{1}{2}}^{\\frac{1}{2}}=\\frac{1}{4}\\\\ &\\\\ & 综上:I=I_{_1}-I_{_2}=\\sqrt{3}\\pi-\\frac{1}{4}.\\\\ \\end{aligned}$$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "orientation"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "calculus",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2026.20",
+   "number": 20,
+   "title": "2026 年数学一 第 20 题",
+   "questionText": "(本题满分12分）设可导函数$f(x)^{\\mathrm{严}}$ 格单调递增，且$\\int_{-1}^{1}f(x)dx=0,\\quad\\int_{0}^{1}f(x)dx$ (1)证明:$a>0$ ;\n\n(2)若$F\\left(x\\right)=a\\left(1-x^{2}\\right)+\\int_{1}^{x}f\\left(t\\right)dt$ ，证明存在$\\xi\\in\\left(-1,1\\right)$ ，使得$F^{\\prime\\prime}(\\xi)=0$\n\n【证明】\n\n(1)由$f(x) 严$ 格单增，根据几何意义得：$\\int_{0}^{1}f(x)dx>\\int_{-1}^{0}f(x)dx$\n\n故$2\\int_{0}^{1}f\\left(x\\right)dx>\\int_{0}^{1}f\\left(x\\right)dx+\\int_{-1}^{0}f\\left(x\\right)dx=0$ ，得$2a>0,a>0$ ,得证.\n\n(2)由$F\\left(-1\\right)=\\int_{1}^{-1}f\\left(x\\right)dx=0,F\\left(0\\right)=a+\\int_{1}^{0}f\\left(x\\right)dx=0,F\\left(1\\right)=0\\ ,F\\left(x\\right)=\\left\\lbrack-1,1\\right\\rbrack$ 上连续，$\\scriptstyle{\\big(}-1,1{\\big)}$ 内二阶可导，由罗尔定理得：\n\n$\\exists\\xi_{1}\\in(-1,0)$ ,使得$F^{\\prime}\\left(\\xi_{1}\\right)=0$ $\\exists\\xi_{2}\\in(0,1)$ ,使得$F^{\\prime}(\\xi_{2})=0$\n\n$\\exists\\xi\\in\\left(\\xi_{1},\\xi_{2}\\right)\\subset\\left(-1,1\\right)$ ,使得$F^{\\prime\\prime}(\\xi)=0$ ，得证.",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "mean_value_theorem",
+    "monotonicity"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：la.knowledge.inverse_matrix、mean_value_theorem、monotonicity，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2026.21",
+   "number": 21,
+   "title": "2026 年数学一 第 21 题",
+   "questionText": "(本题满分12分）设向量组$\\alpha_{1}=\\begin{pmatrix}1\\\\ 0\\\\ -1\\\\ -1\\end{pmatrix},\\alpha_{2}=\\begin{pmatrix}1\\\\ -1\\\\ 0\\\\ -2\\end{pmatrix},\\alpha_{3}=\\begin{pmatrix}0\\\\ -1\\\\ 1\\\\ -1\\end{pmatrix},\\alpha_{4}=\\begin{pmatrix}0\\\\ 1\\\\ -1\\\\ -1\\end{pmatrix}$\n\n$$A=\\left(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}\\right),\\quad G=\\left(\\alpha_{1},\\alpha_{2}\\right),$$\n\n(1)证明$\\alpha_{1},\\alpha_{2}$ 是$\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 的一个极大无关组；\n\n(2)求H，满足$A=G H$ ，并求$A^{10}$\n\n【解析】\n\n(1)由\n\n$$(1)由\\left(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}\\right)=\\begin{pmatrix}1&1&0&0\\\\0&-1&-1&1\\\\-1&0&1&-1\\\\-1&-2&-1&-1\\\\\\end{pmatrix}\\rightarrow\\begin{pmatrix}1&1&0&0\\\\0&-1&-1&1\\\\0&0&0&0\\\\0&0&0&0\\\\\\end{pmatrix}上考研$$\n\n得(2)解矩阵方程组$r\\left(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}\\right)=2$ $G H=A$ 且，由$\\alpha_{1},\\alpha_{2}$ 线性无关，故A上考$\\alpha_{1},\\alpha_{2} 是 \\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ Syan.cn $\\alpha_{1},\\alpha_{2} 是 \\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4}$ 的一个极大无关组；\n\n$$\\begin{pmatrix}G\\vdots A\\end{pmatrix}\\rightarrow\\begin{pmatrix}1&1&\\vdots&1&0&0\\\\0&-1&\\vdots&0&-1&-1&1\\\\0&0&\\vdots&0&0&0\\\\0&0&\\vdots&0&0&0\\end{pmatrix} 上考研$$\n\n解得：$\\eta_{1}=(1,0)^{T},\\eta_{2}=(0,1)^{T},\\eta_{3}=(-1,1)^{T},\\eta_{4}=(1,-1)^{T}$\n\n$$H=\\left(\\eta_{1},\\eta_{2},\\eta_{3},\\eta_{4}\\right)=\\left(\\begin{matrix}1&0&-1&1\\\\ 0&1&1&-1\\end{matrix}\\right),\\quad H G=\\left(\\begin{matrix}1&-1\\\\ 0&1\\end{matrix}\\right)$$\n\n则\n\n$$A^{10}=GHGH\\cdots GH=G\\left(HG\\right)^{9}H=G\\begin{pmatrix}1&-9\\\\0&1\\end{pmatrix}H=G\\begin{pmatrix}1&-9&-10&10\\\\0&1&1&-1\\end{pmatrix}$$\n\n$$\\begin{aligned}=&\\begin{pmatrix}1&-8&-9&9\\\\0&-1&-1&1\\\\-1&9&10&-10\\\\-1&7&8&-8\\end{pmatrix}.\\end{aligned}$$",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.maximal_independent_group",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.maximal_independent_group",
+    "la.knowledge.linear_correlation",
+    "la.knowledge.vector_group_rank"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；已按规则打标；自动打标(规则)：la.problem_type.maximal_independent_group，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "解答题"
+  },
+  {
+   "id": "bank.exam.m1-2026.22",
+   "number": 22,
+   "title": "2026 年数学一 第 22 题",
+   "questionText": "(本题满分12分）假设某种元件的寿命服从指数分布，其均值θ是未知参数,为估计θ，取n个这种元件同时做寿命试验，试验到出现k个元件失效时停止；\n\n(1)若$k{=}1$ ，失效元件的寿命记为T,(i)计算T的概率密度；(i)记${\\stackrel{\\wedge}{\\theta}}=a T$ ，确定a使得$\\hat{\\boldsymbol{\\theta}}$ 是7\n\n扫码下载掌上考研APP——更多考研资讯、考研真题一键获取扫码下载掌上考研APP——更多考研资讯、考研真题一键获取\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1077_1567_1225_1716.jpg\" alt=\"Image\" width=\"11%\" /></div>\n\nθ的无偏估计量，并求$D{\\left({\\hat{\\theta}}\\right)}$\n\n(2)已知k个失效元件的寿命值分别为$0\\leq t_{1}\\leq t_{2}\\leq\\cdots\\leq t_{k}$ ，似然函数\n\n$L\\left(\\theta\\right)=\\frac{1}{\\theta^{k}}e^{-\\frac{1}{\\theta}\\left\\lbrack\\sum_{i=1}^{k}t_{i}+(n-k)t_{k}\\right\\rbrack}$ ，求θ的最大似然估计值.\n\n【解析】\n\n(1)设各电子元件使用寿命为$X_{i},i=1,2,\\cdots,n$ ，则$T=\\min\\left\\{X_{1},X_{2},\\cdots,X_{n}\\right\\}$ ，其中$X_{i}$ 均服从指数分布$E\\left({\\frac{1}{\\theta}}\\right)$\n\nT的分布函数为\n\n$$F(t)=P\\{T\\leq t\\}=P\\{\\min(X_{1},X_{2},\\cdots,X_{n})\\leq t\\}=1-P\\{\\min(X_{1},X_{2},\\cdots,X_{n})>t\\}考研$$\n\n$$1-\\left[P\\left(X_{i}>t\\right)\\right]^{n}=\\left\\{\\begin{aligned}0,&t<0,\\\\ 1-e^{-\\frac{n t}{\\theta}},&t\\geq0,\\end{aligned}\\right.$$\n\n考研van.cn 故T的概率密度为$f(t)=F^{\\prime}(t)=\\left\\{\\begin{aligned}&\\frac{n}{\\theta}e^{-\\frac{nt}{\\theta}},t>0,\\\\ &0,t\\leq0.\\end{aligned}\\right.$ $T\\sim E\\left(\\frac{n}{\\theta}\\right)$\n\n$$E\\left(\\hat{\\theta}\\right)=a E\\left(T\\right)=a\\cdot\\frac{\\theta}{n}=\\theta\\Rightarrow a=n;$$\n\n$$D\\left(\\hat{\\theta}\\right)=a^{2}D\\left(T\\right)=a^{2}\\cdot\\frac{\\theta^{2}}{n^{2}}=\\theta^{2};$$\n\n(2) lr $\\ln L\\left(\\theta\\right)=-k\\ln\\theta-\\frac{1}{\\theta}\\left[\\sum_{i=1}^{k}t_{i}+(n-k)t_{k}\\right]$\n\n$$\\frac{d\\ln L\\left(\\theta\\right)}{d\\theta}=\\frac{-k}{\\theta}+\\frac{1}{\\theta^{2}}\\left[\\sum_{i=1}^{k}t_{i}+(n-k)t_{k}\\right]=0$$\n\n得$\\hat{\\theta}=\\frac{1}{k}\\left[\\sum_{i=1}^{k}t_i+(n-k)t_k\\right]$ 为θ的最大似然估计值.\n\n扫描二维码，下载掌上考研获取完整版真题和资料",
+   "answerText": "（答案待校对补充）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.common_continuous_distributions",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.distribution_function",
+    "prob.knowledge.exponential_distribution",
+    "prob.knowledge.probability_properties"
+   ],
+   "methodIds": [],
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；自动打标(规则)：prob.type.common_continuous_distributions，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 2026,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "解答题"
+  }
+ ],
+ "notes": ""
 }

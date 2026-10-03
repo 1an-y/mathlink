@@ -1,879 +1,887 @@
 {
-  "format": "mathlink-bank",
-  "version": 1,
-  "subject": "exam_mixed",
+ "format": "mathlink-bank",
+ "version": 1,
+ "subject": "exam_mixed",
+ "year": 1997,
+ "paper": "math1",
+ "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
+ "verified": true,
+ "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1997年考研数学(一)真题.md",
+ "paperInfo": {
   "year": 1997,
   "paper": "math1",
-  "license": "公开试题重排转录；题干依据开源源稿 kaoyan-md-shu1（CC BY-NC-SA 4.0）校对，解析为校对时重写，仅保留题干与客观答案",
-  "verified": true,
-  "source": "/home/ros/Projects/mathapp-sources/kaoyan-md-shu1/papers/1997年考研数学(一)真题.md",
-  "paperInfo": {
+  "label": "数学一",
+  "sections": [
+   "一、填空题（本题共5小题，每小题3分，满分15分）",
+   "二、选择题（本题共5小题，每小题3分，满分15分）",
+   "三、（本题共3小题，每小题5分，满分15分）",
+   "四、（本题共2小题，第(1)小题6分，第(2)小题7分，满分13分）",
+   "五、（本题满分6分）",
+   "六、（本题满分8分，含2小题）",
+   "七、（本题共2小题，第(1)小题5分，第(2)小题6分，满分11分）",
+   "八、（本题满分5分，含2小题）",
+   "九、（本题满分7分）",
+   "十、（本题满分5分）"
+  ],
+  "problemsOrder": [
+   {
+    "number": 1,
+    "id": "bank.exam.m1-1997.1",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 2,
+    "id": "bank.exam.m1-1997.2",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 3,
+    "id": "bank.exam.m1-1997.3",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 4,
+    "id": "bank.exam.m1-1997.4",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 5,
+    "id": "bank.exam.m1-1997.5",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 6,
+    "id": "bank.exam.m1-1997.6",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 7,
+    "id": "bank.exam.m1-1997.7",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 8,
+    "id": "bank.exam.m1-1997.8",
+    "subjectGuess": "calculus",
+    "objective": true
+   },
+   {
+    "number": 9,
+    "id": "bank.exam.m1-1997.9",
+    "subjectGuess": "linear_algebra",
+    "objective": true
+   },
+   {
+    "number": 10,
+    "id": "bank.exam.m1-1997.10",
+    "subjectGuess": "probability_statistics",
+    "objective": true
+   },
+   {
+    "number": 11,
+    "id": "bank.exam.m1-1997.11",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 12,
+    "id": "bank.exam.m1-1997.12",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 13,
+    "id": "bank.exam.m1-1997.13",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 14,
+    "id": "bank.exam.m1-1997.14",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 15,
+    "id": "bank.exam.m1-1997.15",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 16,
+    "id": "bank.exam.m1-1997.16",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 17,
+    "id": "bank.exam.m1-1997.17",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 18,
+    "id": "bank.exam.m1-1997.18",
+    "subjectGuess": "calculus",
+    "objective": false
+   },
+   {
+    "number": 19,
+    "id": "bank.exam.m1-1997.19",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 20,
+    "id": "bank.exam.m1-1997.20",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 21,
+    "id": "bank.exam.m1-1997.21",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 22,
+    "id": "bank.exam.m1-1997.22",
+    "subjectGuess": "linear_algebra",
+    "objective": false
+   },
+   {
+    "number": 23,
+    "id": "bank.exam.m1-1997.23",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   },
+   {
+    "number": 24,
+    "id": "bank.exam.m1-1997.24",
+    "subjectGuess": "probability_statistics",
+    "objective": false
+   }
+  ],
+  "total": 24
+ },
+ "problems": [
+  {
+   "id": "bank.exam.m1-1997.1",
+   "number": 1,
+   "title": "1997 年数学一 第 1 题",
+   "questionText": "$\\lim_{x\\to 0}\\frac{3\\sin{x} + x^{2}\\cos{\\frac{1}{x}}}{(1 + \\cos{x})\\ln(1 + x)} = \\underline{\\quad}.$",
+   "answerText": "答案：$\\dfrac{3}{2}$\n\n**解析：**\n分母 $(1+\\cos x)\\ln(1+x)\\sim 2x$。故原式 $=\\dfrac{1}{2}\\lim_{x\\to 0}\\dfrac{3\\sin x+x^{2}\\cos\\frac{1}{x}}{x}=\\dfrac{1}{2}\\lim_{x\\to 0}\\left(3\\dfrac{\\sin x}{x}+x\\cos\\dfrac{1}{x}\\right)=\\dfrac{3}{2}$（有界量乘无穷小仍为无穷小）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
     "year": 1997,
     "paper": "math1",
-    "label": "数学一",
-    "sections": [
-      "一、填空题（本题共5小题，每小题3分，满分15分）",
-      "二、选择题（本题共5小题，每小题3分，满分15分）",
-      "三、（本题共3小题，每小题5分，满分15分）",
-      "四、（本题共2小题，第(1)小题6分，第(2)小题7分，满分13分）",
-      "五、（本题满分6分）",
-      "六、（本题满分8分，含2小题）",
-      "七、（本题共2小题，第(1)小题5分，第(2)小题6分，满分11分）",
-      "八、（本题满分5分，含2小题）",
-      "九、（本题满分7分）",
-      "十、（本题满分5分）"
-    ],
-    "problemsOrder": [
-      {
-        "number": 1,
-        "id": "bank.exam.m1-1997.1",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 2,
-        "id": "bank.exam.m1-1997.2",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 3,
-        "id": "bank.exam.m1-1997.3",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 4,
-        "id": "bank.exam.m1-1997.4",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 5,
-        "id": "bank.exam.m1-1997.5",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 6,
-        "id": "bank.exam.m1-1997.6",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 7,
-        "id": "bank.exam.m1-1997.7",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 8,
-        "id": "bank.exam.m1-1997.8",
-        "subjectGuess": "calculus",
-        "objective": true
-      },
-      {
-        "number": 9,
-        "id": "bank.exam.m1-1997.9",
-        "subjectGuess": "linear_algebra",
-        "objective": true
-      },
-      {
-        "number": 10,
-        "id": "bank.exam.m1-1997.10",
-        "subjectGuess": "probability_statistics",
-        "objective": true
-      },
-      {
-        "number": 11,
-        "id": "bank.exam.m1-1997.11",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 12,
-        "id": "bank.exam.m1-1997.12",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 13,
-        "id": "bank.exam.m1-1997.13",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 14,
-        "id": "bank.exam.m1-1997.14",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 15,
-        "id": "bank.exam.m1-1997.15",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 16,
-        "id": "bank.exam.m1-1997.16",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 17,
-        "id": "bank.exam.m1-1997.17",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 18,
-        "id": "bank.exam.m1-1997.18",
-        "subjectGuess": "calculus",
-        "objective": false
-      },
-      {
-        "number": 19,
-        "id": "bank.exam.m1-1997.19",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 20,
-        "id": "bank.exam.m1-1997.20",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 21,
-        "id": "bank.exam.m1-1997.21",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 22,
-        "id": "bank.exam.m1-1997.22",
-        "subjectGuess": "linear_algebra",
-        "objective": false
-      },
-      {
-        "number": 23,
-        "id": "bank.exam.m1-1997.23",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      },
-      {
-        "number": 24,
-        "id": "bank.exam.m1-1997.24",
-        "subjectGuess": "probability_statistics",
-        "objective": false
-      }
-    ],
-    "total": 21
+    "number": 1
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
   },
-  "problems": [
-    {
-      "id": "bank.exam.m1-1997.1",
-      "number": 1,
-      "title": "1997 年数学一 第 1 题",
-      "questionText": "$\\lim_{x\\to 0}\\frac{3\\sin{x} + x^{2}\\cos{\\frac{1}{x}}}{(1 + \\cos{x})\\ln(1 + x)} = \\underline{\\quad}.$",
-      "answerText": "答案：$\\dfrac{3}{2}$\n\n**解析：**\n分母 $(1+\\cos x)\\ln(1+x)\\sim 2x$。故原式 $=\\dfrac{1}{2}\\lim_{x\\to 0}\\dfrac{3\\sin x+x^{2}\\cos\\frac{1}{x}}{x}=\\dfrac{1}{2}\\lim_{x\\to 0}\\left(3\\dfrac{\\sin x}{x}+x\\cos\\dfrac{1}{x}\\right)=\\dfrac{3}{2}$（有界量乘无穷小仍为无穷小）。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 1
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.2",
-      "number": 2,
-      "title": "1997 年数学一 第 2 题",
-      "questionText": "设幂级数 $\\displaystyle\\sum_{n=0}^{\\infty}a_{n}x^{n}$ 的收敛半径为 3，则幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}na_{n}(x-1)^{n+1}$ 的收敛区间为 $\\underline{\\quad}$",
-      "answerText": "答案：$(-2,4)$\n\n**解析：**\n逐项求导或乘 $n$ 不改变收敛半径，平移中心到 $x=1$ 后半径仍为 3，故 $|x-1|<3$，收敛区间为 $(-2,4)$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "power_series_radius_domain",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：power_series_radius_domain，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 2
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.3",
-      "number": 3,
-      "title": "1997 年数学一 第 3 题",
-      "questionText": "对数螺线 $\\rho=\\mathrm{e}^{\\theta}$ 在点 $(\\rho,\\theta)=\\left(\\mathrm{e}^{\\frac{\\pi}{2}},\\dfrac{\\pi}{2}\\right)$ 处的切线的直角坐标方程为 $\\underline{\\quad}$",
-      "answerText": "答案：$y=-x+\\mathrm{e}^{\\frac{\\pi}{2}}$\n\n**解析：**\n参数方程 $x=\\mathrm{e}^{\\theta}\\cos\\theta,\\ y=\\mathrm{e}^{\\theta}\\sin\\theta$。$\\theta=\\dfrac{\\pi}{2}$ 时点为 $\\left(0,\\mathrm{e}^{\\frac{\\pi}{2}}\\right)$；$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\cos\\theta+\\sin\\theta}{\\cos\\theta-\\sin\\theta}$，代入 $\\theta=\\dfrac{\\pi}{2}$ 得斜率 $-1$。切线：$y-\\mathrm{e}^{\\frac{\\pi}{2}}=-x$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "geometric_applications_multivariable"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 3
-      },
-      "subjectGuess": "calculus",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.4",
-      "number": 4,
-      "title": "1997 年数学一 第 4 题",
-      "questionText": "设 $\\mathbf{A}=\\begin{pmatrix} 1 & 2 & -2 \\\\ 4 & t & 3 \\\\ 3 & -1 & 1 \\end{pmatrix}$，$\\mathbf{B}$ 为 3 阶非零矩阵，且 $\\mathbf{AB}=\\mathbf{0}$，则 $t=\\underline{\\quad}$ .",
-      "answerText": "答案：$-3$\n\n**解析：**\n$\\mathbf{B}\\neq\\mathbf{O}$ 且 $\\mathbf{AB}=\\mathbf{O}$ 说明 $\\mathbf{B}$ 的非零列都是 $\\mathbf{AX}=\\mathbf{0}$ 的解，即齐次方程组有非零解，故 $|\\mathbf{A}|=0$。计算 $|\\mathbf{A}|=7t+21=0$，得 $t=-3$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 4
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.5",
-      "number": 5,
-      "title": "1997 年数学一 第 5 题",
-      "questionText": "袋中有 50 个乒乓球，其中 20 个是黄球，30 个是白球. 今有两人依次随机地从袋中各取一球，取后不放回，则第二人取得黄球的概率是 $\\underline{\\quad}$",
-      "answerText": "答案：$\\dfrac{2}{5}$\n\n**解析：**\n由全概率公式：$P(B)=P(A_{1})P(B|A_{1})+P(A_{2})P(B|A_{2})=\\dfrac{2}{5}\\cdot\\dfrac{19}{49}+\\dfrac{3}{5}\\cdot\\dfrac{20}{49}=\\dfrac{98}{245}=\\dfrac{2}{5}$。（抽签原理：不放回抽取时各次中签概率相同。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 5
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.6",
-      "number": 6,
-      "title": "1997 年数学一 第 6 题",
-      "questionText": "二元函数 $f(x,y)=\\begin{cases}\\dfrac{xy}{x^{2}+y^{2}}, & (x,y)\\neq(0,0), \\\\ 0, & (x,y)=(0,0)\\end{cases}$ 在点 $(0,0)$ 处（ ）.\\n\\n（A）连续，偏导数存在\\n\\n（B）连续，偏导数不存在\\n\\n(C) 不连续，偏导数存在\\n\\n(D) 不连续，偏导数不存在",
-      "answerText": "答案：C\n\n**解析：**\n沿 $y=kx$ 趋于原点时 $f\\to\\dfrac{k}{1+k^{2}}$，与 $k$ 有关，故 $f$ 在 $(0,0)$ 不连续。但 $f(x,0)=f(0,y)=0$，两个偏导数都存在且为 0。选 C。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "one_variable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 6
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.7",
-      "number": 7,
-      "title": "1997 年数学一 第 7 题",
-      "questionText": "设在区间 $[a, b]$ 上 $f(x) > 0, f'(x) < 0, f''(x) > 0$ . 令 $S_{1} = \\int_{a}^{b} f(x) \\mathrm{d}x, S_{2} = f(b)(b - a)$ , $S_{3} = \\frac{1}{2} [f(a) + f(b)] (b - a)$ , 则( )\n\n(A) $S_{1} < S_{2} < S_{3}$ .\n\n(B) $S_{2} < S_{1} < S_{3}$ .\n\n(C) $S_{3} < S_{1} < S_{2}$ .\n\n$(\\mathrm{D})S_{2} <   S_{3} <   S_{1}$",
-      "answerText": "答案：B\n\n**解析：**\n$f^{\\prime}<0$ 说明 $f$ 递减，故曲边梯形面积 $S_{1}$ 大于以 $f(b)$ 为高的矩形面积 $S_{2}$；$f^{\\prime\\prime}>0$ 说明曲线下凸（凹弧），弦在曲线上方，故 $S_{1}$ 小于梯形面积 $S_{3}$。综上 $S_{2}<S_{1}<S_{3}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 7
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.8",
-      "number": 8,
-      "title": "1997 年数学一 第 8 题",
-      "questionText": "设 $F(x) = \\int_{x}^{x + 2\\pi}\\mathrm{e}^{\\sin t}\\sin t\\mathrm{d}t$ ，则 $F(x)$ ( )\n\n（A）为正常数\n\n(B) 为负常数.\n\n(C) 恒为零.\n\n(D) 不为常数.",
-      "answerText": "答案：A\n\n**解析：**\n被积函数 $\\mathrm{e}^{\\sin t}\\sin t$ 以 $2\\pi$ 为周期，故 $F(x)$ 与 $x$ 无关，为常数。计算 $F=\\displaystyle\\int_{-\\pi}^{\\pi}\\mathrm{e}^{\\sin t}\\sin t\\,\\mathrm{d}t=\\int_{0}^{\\pi}\\left(\\mathrm{e}^{\\sin t}-\\mathrm{e}^{-\\sin t}\\right)\\sin t\\,\\mathrm{d}t>0$（被积函数在 $(0,\\pi)$ 内为正），故 $F$ 为正常数。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 8
-      },
-      "subjectGuess": "calculus",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.9",
-      "number": 9,
-      "title": "1997 年数学一 第 9 题",
-      "questionText": "设 $\\pmb{\\alpha}_{1} = \\begin{pmatrix} a_{1} \\\\ a_{2} \\\\ a_{3} \\end{pmatrix}, \\pmb{\\alpha}_{2} = \\begin{pmatrix} b_{1} \\\\ b_{2} \\\\ b_{3} \\end{pmatrix}, \\pmb{\\alpha}_{3} = \\begin{pmatrix} c_{1} \\\\ c_{2} \\\\ c_{3} \\end{pmatrix}$ , 则三条直线 $a_{1}x + b_{1}y + c_{1} = 0, a_{2}x + b_{2}y + c_{2} = 0$ , $a_{3}x + b_{3}y + c_{3} = 0$ (其中 $a_{i}^{2} + b_{i}^{2} \\neq 0, i = 1, 2, 3$ ) 交于一点的充要条件是( )\n\n(A) $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性相关.\n(B) $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性无关.\n(C) 秩 $r(\\pmb{\\alpha}_1, \\pmb{\\alpha}_2, \\pmb{\\alpha}_3) =$ 秩 $r(\\pmb{\\alpha}_1, \\pmb{\\alpha}_2)$ .\n$(\\mathrm{D})\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3}$ 线性相关， $\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2}$ 线性无关",
-      "answerText": "答案：D\n\n**解析：**\n三直线交于一点 $\\iff$ 方程组 $\\begin{cases}a_{i}x+b_{i}y=-c_{i}\\end{cases}$ 有唯一解 $\\iff r(\\mathbf{A})=r(\\overline{\\mathbf{A}})=2$。这等价于：增广矩阵的三行即 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性相关，而系数矩阵的两行 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2}$ 线性无关。选 D。（仅线性相关不足以保证唯一交点，可能三线重合或互异平行。）",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.vectors",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.linear_correlation",
-        "la.knowledge.matrix_rank"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.knowledge.linear_correlation、la.knowledge.matrix_rank，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 9
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.10",
-      "number": 10,
-      "title": "1997 年数学一 第 10 题",
-      "questionText": "设两个相互独立的随机变量 $X$ 和 $Y$ 的方差分别为 4 和 2, 则随机变量 $3X - 2Y$ 的方差是 ( )\n\n(A)8.\n\n(B)16.\n\n(C)28.\n\n(D)44.",
-      "answerText": "答案：D\n\n**解析：**\n由独立性，$D(3X-2Y)=3^{2}D(X)+(-2)^{2}D(Y)=9\\times 4+4\\times 2=44$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.numerical_characteristics",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.variance_calculation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.variance"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.type.variance_calculation、prob.knowledge.variance，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 10
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.11",
-      "number": 11,
-      "title": "1997 年数学一 第 11 题",
-      "questionText": "计算 $I = \\iiint_{\\Omega} (x^2 + y^2) \\, \\mathrm{d}v$ ，其中 $\\Omega$ 为平面曲线 $\\left\\{ \\begin{array}{l} y^2 = 2z, \\\\ x = 0 \\end{array} \\right.$ ，绕 $z$ 轴旋转一周形成的曲面与平面 $z = 8$ 所围成的区域.",
-      "answerText": "答案：$\\dfrac{1024\\pi}{3}$\n\n**解析：**\n旋转曲面为 $x^{2}+y^{2}=2z$，区域为 $0\\le z\\le 8$、截面 $x^{2}+y^{2}\\le 2z$。用先二后一（柱坐标）：$I=\\displaystyle\\int_{0}^{8}\\mathrm{d}z\\iint_{x^{2}+y^{2}\\le 2z}r^{2}\\cdot r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\int_{0}^{8}2\\pi\\cdot\\frac{(2z)^{2}}{4}\\,\\mathrm{d}z=2\\pi\\int_{0}^{8}z^{2}\\,\\mathrm{d}z=\\frac{1024\\pi}{3}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "geometric_applications_multivariable"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 11
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共3小题，每小题5分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.12",
-      "number": 12,
-      "title": "1997 年数学一 第 12 题",
-      "questionText": "计算曲线积分 $\\oint_{C} (z - y) \\, \\mathrm{d}x + (x - z) \\, \\mathrm{d}y + (x - y) \\, \\mathrm{d}z$ , 其中 $C$ 是曲线 $\\left\\{ \\begin{array}{l} x^2 + y^2 = 1, \\\\ x - y + z = 2, \\end{array} \\right.$ 从 $z$ 轴正向往 $z$ 轴负向看, $C$ 的方向是顺时针的.",
-      "answerText": "答案：$-2\\pi$\n\n**解析：**\n用斯托克斯公式：$\\boldsymbol{F}$ 的旋度为 $\\nabla\\times\\boldsymbol{F}=(0,0,2)$。$C$ 张成平面 $x-y+z=2$ 上的圆盘 $\\Sigma$（单位圆盘），从 $z$ 轴正向看 $C$ 为顺时针，对应单位法向量取 $\\boldsymbol{n}=\\dfrac{1}{\\sqrt{3}}(-1,1,-1)$。于是积分 $=\\displaystyle\\iint_{\\Sigma}(0,0,2)\\cdot\\boldsymbol{n}\\,\\mathrm{d}S=-\\frac{2}{\\sqrt{3}}\\iint_{\\Sigma}\\mathrm{d}S=-\\frac{2}{\\sqrt{3}}\\cdot\\sqrt{3}\\pi=-2\\pi$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "curve_surface_integral",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "line_integral_second_kind",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "line_integral_definition",
-        "orientation"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 12
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共3小题，每小题5分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.13",
-      "number": 13,
-      "title": "1997 年数学一 第 13 题",
-      "questionText": "在某一人群中推广新技术是通过其中已掌握新技术的人进行的. 设该人群的总人数为 $N$ , 在 $t = 0$ 时刻已掌握新技术的人数为 $x_0$ , 在任意时刻 $t$ 已掌握新技术的人数为 $x(t)$ (将 $x(t)$ 视为连续可微变量), 其变化率与已掌握新技术人数和未掌握新技术人数之积成正比, 比例常数 $k > 0$ , 求 $x(t)$ .",
-      "answerText": "答案：$x(t)=\\dfrac{Nx_{0}\\mathrm{e}^{kNt}}{N-x_{0}+x_{0}\\mathrm{e}^{kNt}}$\n\n**解析：**\n由题意 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=kx(N-x)$，$x(0)=x_{0}$。分离变量：$\\dfrac{\\mathrm{d}x}{x(N-x)}=k\\,\\mathrm{d}t$，积分得 $\\dfrac{1}{N}\\ln\\dfrac{x}{N-x}=kt+C$。代入初始条件定出 $C$，解出 $x(t)=\\dfrac{Nx_{0}\\mathrm{e}^{kNt}}{N-x_{0}+x_{0}\\mathrm{e}^{kNt}}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 13
-      },
-      "subjectGuess": "calculus",
-      "section": "三、（本题共3小题，每小题5分，满分15分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.14",
-      "number": 14,
-      "title": "1997 年数学一 第 14 题",
-      "questionText": "（1）设直线 $l:\\begin{cases} x+y+b=0, \\\\ x+ay-z-3=0 \\end{cases}$ 在平面 $\\pi$ 上，而平面 $\\pi$ 与曲面 $z=x^{2}+y^{2}$ 相切于点 $(1,-2,5)$，求 $a, b$ 之值.",
-      "answerText": "答案：$a=-5,\\ b=-2$\n\n**解析：**\n曲面在切点处的法向量 $\\boldsymbol{n}=(2,-4,-1)$，故 $\\pi:\\ 2(x-1)-4(y+2)-(z-5)=0$，即 $2x-4y-z-5=0$。直线 $l$ 的方向向量 $\\boldsymbol{s}=(1,1,0)\\times(1,a,-1)=(-1,1,a-1)$。$l\\subset\\pi$ 要求 $\\boldsymbol{n}\\cdot\\boldsymbol{s}=0$，得 $a=-5$；再把 $l$ 的参数式（$y=-x-b,\\ z=6x+5b-3$）代入 $\\pi$ 得 $-b-2=0$，即 $b=-2$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 14
-      },
-      "subjectGuess": "calculus",
-      "section": "四、（本题共2小题，第(1)小题6分，第(2)小题7分，满分13分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.15",
-      "number": 15,
-      "title": "1997 年数学一 第 15 题",
-      "questionText": "（2）设函数 $f(u)$ 具有二阶连续导数，而 $z=f(\\mathrm{e}^{x}\\sin y)$ 满足方程 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=\\mathrm{e}^{2x}z$，求 $f(u)$ .",
-      "answerText": "答案：$f(u)=C_{1}\\mathrm{e}^{-u}+C_{2}\\mathrm{e}^{u}$（$C_{1}, C_{2}$ 为任意常数）\n\n**解析：**\n记 $u=\\mathrm{e}^{x}\\sin y$，链式求导得 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}=f^{\\prime\\prime}(u)\\mathrm{e}^{2x}\\sin^{2}y+f^{\\prime}(u)\\mathrm{e}^{x}\\sin y$，$\\dfrac{\\partial^{2}z}{\\partial y^{2}}=f^{\\prime\\prime}(u)\\mathrm{e}^{2x}\\cos^{2}y-f^{\\prime}(u)\\mathrm{e}^{x}\\sin y$。相加得 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=f^{\\prime\\prime}(u)\\mathrm{e}^{2x}$。代入方程并约去 $\\mathrm{e}^{2x}$：$f^{\\prime\\prime}(u)=f(u)$，通解即得。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "multivariable_differential",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "multivariable_limit_continuity",
-        "power_series_sum"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 15
-      },
-      "subjectGuess": "calculus",
-      "section": "四、（本题共2小题，第(1)小题6分，第(2)小题7分，满分13分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.16",
-      "number": 16,
-      "title": "1997 年数学一 第 16 题",
-      "questionText": "设 $f(x)$ 连续，$\\varphi(x)=\\displaystyle\\int_{0}^{1}f(xt)\\,\\mathrm{d}t$，且 $\\lim_{x\\to 0}\\dfrac{f(x)}{x}=A$（$A$ 为常数），求 $\\varphi^{\\prime}(x)$ 并讨论 $\\varphi^{\\prime}(x)$ 在 $x=0$ 处的连续性.",
-      "answerText": "答案：$\\varphi^{\\prime}(x)=\\dfrac{xf(x)-\\int_{0}^{x}f(u)\\,\\mathrm{d}u}{x^{2}}\\ (x\\neq 0)$，$\\varphi^{\\prime}(0)=\\dfrac{A}{2}$；$\\varphi^{\\prime}$ 在 $x=0$ 处连续\n\n**解析：**\n由 $\\lim_{x\\to 0}\\dfrac{f(x)}{x}=A$ 知 $f(0)=0$。$x\\neq 0$ 时令 $u=xt$ 得 $\\varphi(x)=\\dfrac{1}{x}\\displaystyle\\int_{0}^{x}f(u)\\,\\mathrm{d}u$（$\\varphi(0)=0$）。求导得上述表达式；在 $x=0$ 处按定义求导：$\\varphi^{\\prime}(0)=\\lim_{x\\to 0}\\dfrac{\\varphi(x)}{x}=\\lim_{x\\to 0}\\dfrac{\\int_{0}^{x}f(u)\\,\\mathrm{d}u}{x^{2}}=\\lim_{x\\to 0}\\dfrac{f(x)}{2x}=\\dfrac{A}{2}$。又 $\\lim_{x\\to 0}\\varphi^{\\prime}(x)=\\lim_{x\\to 0}\\left[\\dfrac{f(x)}{x}-\\dfrac{\\int_{0}^{x}f(u)\\,\\mathrm{d}u}{x^{2}}\\right]=A-\\dfrac{A}{2}=\\dfrac{A}{2}=\\varphi^{\\prime}(0)$，故连续。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "function_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：function_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 16
-      },
-      "subjectGuess": "calculus",
-      "section": "五、（本题满分6分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.17",
-      "number": 17,
-      "title": "1997 年数学一 第 17 题",
-      "questionText": "设 $a_{1}=2$，$a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)\\ (n=1,2,\\dots)$，证明：\n\n（1）$\\lim_{n\\to \\infty}a_n$ 存在；",
-      "answerText": "答案：证明见解析\n\n**解析：**\n由均值不等式 $a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)\\ge 1$，数列有下界；又 $a_{n+1}-a_{n}=\\dfrac{1-a_{n}^{2}}{2a_{n}}\\le 0$（$n\\ge 2$ 时 $a_{n}\\ge 1$），数列单调不增。由单调有界原理，$\\lim_{n\\to\\infty}a_{n}$ 存在。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "function_limit_continuity",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "sequence_limit",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 17
-      },
-      "subjectGuess": "calculus",
-      "section": "六、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1997.18",
-      "number": 18,
-      "title": "1997 年数学一 第 18 题",
-      "questionText": "设 $a_{1}=2$，$a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)\\ (n=1,2,\\dots)$，证明：\n\n（2）级数 $\\sum_{n=1}^{\\infty}\\left(\\dfrac{a_{n}}{a_{n+1}}-1\\right)$ 收敛.",
-      "answerText": "答案：证明见解析\n\n**解析：**\n由（1）知 $\\{a_{n}\\}$ 单调不增且 $a_{n}\\ge 1$，故 $0\\le\\dfrac{a_{n}}{a_{n+1}}-1=\\dfrac{a_{n}-a_{n+1}}{a_{n+1}}\\le a_{n}-a_{n+1}$。而正项级数 $\\sum(a_{n}-a_{n+1})$ 的部分和 $S_{n}=a_{1}-a_{n+1}\\to 2-\\lim a_{n+1}$ 存在，故其收敛。由比较判别法，所论级数收敛。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "infinite_series",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "alternating_general_series",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 18
-      },
-      "subjectGuess": "calculus",
-      "section": "六、（本题满分8分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1997.19",
-      "number": 19,
-      "title": "1997 年数学一 第 19 题",
-      "questionText": "设 $\\pmb{B}$ 是秩为 2 的 $5 \\times 4$ 矩阵, $\\pmb{\\alpha}_{1} = (1,1,2,3)^{\\mathrm{T}}, \\pmb{\\alpha}_{2} = (-1,1,4,-1)^{\\mathrm{T}}, \\pmb{\\alpha}_{3} = (5,-1,-8,9)^{\\mathrm{T}}$ 是齐次线性方程组 $\\pmb{Bx} = \\mathbf{0}$ 的解向量, 求 $\\pmb{Bx} = \\mathbf{0}$ 的解空间的一个标准正交基.",
-      "answerText": "答案：$\\boldsymbol{\\gamma}_{1}=\\dfrac{1}{\\sqrt{15}}(1,1,2,3)^{\\mathrm{T}}$，$\\boldsymbol{\\gamma}_{2}=\\dfrac{1}{\\sqrt{39}}(-2,1,5,-3)^{\\mathrm{T}}$\n\n**解析：**\n$r(\\boldsymbol{B})=2$ 说明解空间是 4 维中的 2 维子空间。可验证 $\\boldsymbol{\\alpha}_{3}=2\\boldsymbol{\\alpha}_{1}-3\\boldsymbol{\\alpha}_{2}$，而 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2}$ 线性无关，故它们构成基础解系。施密特正交化：$\\boldsymbol{\\beta}_{1}=\\boldsymbol{\\alpha}_{1}$，$\\boldsymbol{\\beta}_{2}=\\boldsymbol{\\alpha}_{2}-\\dfrac{(\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\beta}_{1})}{(\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{1})}\\boldsymbol{\\beta}_{1}=\\dfrac{2}{3}(-2,1,5,-3)^{\\mathrm{T}}$。单位化即得上述标准正交基。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "vector_linear_operation"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 19
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "七、（本题共2小题，第(1)小题5分，第(2)小题6分，满分11分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.20",
-      "number": 20,
-      "title": "1997 年数学一 第 20 题",
-      "questionText": "已知 $\\pmb{\\xi} = \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}$ 是矩阵 $\\mathbf{A} = \\begin{pmatrix} 2 & -1 & 2 \\\\ 5 & a & 3 \\\\ -1 & b & -2 \\end{pmatrix}$ 的一个特征向量.\n\n（I）试确定参数 $a, b$ 及特征向量 $\\pmb{\\xi}$ 所对应的特征值；\n\n（Ⅱ）问 $\\mathbf{A}$ 能否相似于对角阵?说明理由.",
-      "answerText": "答案：（I）$a=-3,\\ b=0$，$\\lambda=-1$；（II）$\\mathbf{A}$ 不能相似于对角阵\n\n**解析：**\n（I）由 $\\mathbf{A}\\boldsymbol{\\xi}=\\lambda\\boldsymbol{\\xi}$ 得方程组 $-1=\\lambda$，$a+2=\\lambda$，$-(b+1)=-\\lambda$，解得 $\\lambda=-1$，$a=-3$，$b=0$。（II）由 $|\\lambda\\mathbf{E}-\\mathbf{A}|=(\\lambda+1)^{3}=0$ 知 $\\lambda=-1$ 是三重特征值；对 $-\\mathbf{E}-\\mathbf{A}$ 作初等行变换知其秩为 2，属于 $\\lambda=-1$ 的线性无关特征向量只有 $3-2=1$ 个，少于重数，不满足可对角化的充要条件，故不能相似于对角阵。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "vector_linear_operation"
-      ],
-      "methodIds": [],
-      "notes": "已校对",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 20
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "七、（本题共2小题，第(1)小题5分，第(2)小题6分，满分11分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.21",
-      "number": 21,
-      "title": "1997 年数学一 第 21 题",
-      "questionText": "设 $\\mathbf{A}$ 是 $n$ 阶可逆方阵，将 $\\mathbf{A}$ 的第 $i$ 行和第 $j$ 行对换后得到的矩阵记为 $\\mathbf{B}$.\n\n（1）证明 $\\boldsymbol{B}$ 可逆；",
-      "answerText": "答案：证明见解析\n\n**解析：**\n记对换 $i,j$ 两行的初等矩阵为 $\\mathbf{E}(i,j)$，则 $\\mathbf{B}=\\mathbf{E}(i,j)\\mathbf{A}$。行列式 $|\\mathbf{E}(i,j)|=-1$，故 $|\\mathbf{B}|=-|\\mathbf{A}|\\neq 0$（$\\mathbf{A}$ 可逆），从而 $\\mathbf{B}$ 可逆。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.inverse_matrix"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix、la.knowledge.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 21
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "八、（本题满分5分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1997.22",
-      "number": 22,
-      "title": "1997 年数学一 第 22 题",
-      "questionText": "设 $\\mathbf{A}$ 是 $n$ 阶可逆方阵，将 $\\mathbf{A}$ 的第 $i$ 行和第 $j$ 行对换后得到的矩阵记为 $\\mathbf{B}$.\n\n（2）求 $AB^{-1}$ .",
-      "answerText": "答案：$\\mathbf{E}(i,j)$（即把单位矩阵第 $i,j$ 行对换所得的初等矩阵）\n\n**解析：**\n由 $\\mathbf{B}=\\mathbf{E}(i,j)\\mathbf{A}$ 得 $\\mathbf{B}^{-1}=\\mathbf{A}^{-1}\\mathbf{E}(i,j)^{-1}$，故 $\\mathbf{AB}^{-1}=\\mathbf{A}\\mathbf{A}^{-1}\\mathbf{E}(i,j)^{-1}=\\mathbf{E}(i,j)^{-1}=\\mathbf{E}(i,j)$（对换阵的逆等于自身）。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "la.chapter.matrices",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "la.problem_type.inverse_matrix",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "la.knowledge.inverse_matrix"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix、la.knowledge.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 22
-      },
-      "subjectGuess": "linear_algebra",
-      "section": "八、（本题满分5分，含2小题）"
-    },
-    {
-      "id": "bank.exam.m1-1997.23",
-      "number": 23,
-      "title": "1997 年数学一 第 23 题",
-      "questionText": "从学校乘汽车到火车站的途中有 3 个交通岗，假设在各个交通岗遇到红灯的事件是相互独立的，并且概率都是 $\\dfrac{2}{5}$. 设 $X$ 为途中遇到红灯的次数，求随机变量 $X$ 的分布律、分布函数和数学期望.",
-      "answerText": "答案：$P\\{X=k\\}=\\mathrm{C}_{3}^{k}\\left(\\dfrac{2}{5}\\right)^{k}\\left(\\dfrac{3}{5}\\right)^{3-k}\\ (k=0,1,2,3)$；$F(x)=\\begin{cases}0, & x<0\\\\ \\frac{27}{125}, & 0\\le x<1\\\\ \\frac{81}{125}, & 1\\le x<2\\\\ \\frac{117}{125}, & 2\\le x<3\\\\ 1, & x\\ge 3\\end{cases}$；$E(X)=\\dfrac{6}{5}$\n\n**解析：**\n$X\\sim B\\left(3,\\dfrac{2}{5}\\right)$：$P\\{X=0\\}=\\dfrac{27}{125}$，$P\\{X=1\\}=\\dfrac{54}{125}$，$P\\{X=2\\}=\\dfrac{36}{125}$，$P\\{X=3\\}=\\dfrac{8}{125}$。逐段累加得分布函数 $F(x)$。期望 $E(X)=np=3\\times\\dfrac{2}{5}=\\dfrac{6}{5}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.random_variables",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.discrete_distribution",
-        "prob.knowledge.mathematical_expectation"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.knowledge.discrete_distribution、prob.knowledge.mathematical_expectation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 23
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "九、（本题满分7分）"
-    },
-    {
-      "id": "bank.exam.m1-1997.24",
-      "number": 24,
-      "title": "1997 年数学一 第 24 题",
-      "questionText": "设总体 $X$ 的概率密度为 $f(x)=\\begin{cases}(\\theta+1)x^{\\theta}, & 0<x<1, \\\\ 0, & \\text{其他},\\end{cases}$ 其中 $\\theta>-1$ 是未知参数，$X_{1}, X_{2}, \\dots, X_{n}$ 是来自总体 $X$ 的一个容量为 $n$ 的简单随机样本，分别用矩估计法和极大似然估计法求 $\\theta$ 的估计量.",
-      "answerText": "答案：矩估计量 $\\hat{\\theta}=\\dfrac{2\\overline{X}-1}{1-\\overline{X}}$；极大似然估计量 $\\hat{\\theta}=-1-\\dfrac{n}{\\sum_{i=1}^{n}\\ln X_{i}}$\n\n**解析：**\n矩法：$E(X)=(\\theta+1)\\displaystyle\\int_{0}^{1}x^{\\theta+1}\\mathrm{d}x=\\frac{\\theta+1}{\\theta+2}$，令其等于 $\\overline{X}$ 解出 $\\theta$。似然法：$L(\\theta)=(\\theta+1)^{n}\\left(\\prod_{i=1}^{n}x_{i}\\right)^{\\theta}$（$0<x_{i}<1$），$\\ln L=n\\ln(\\theta+1)+\\theta\\sum\\ln x_{i}$，令 $\\dfrac{\\mathrm{d}\\ln L}{\\mathrm{d}\\theta}=\\dfrac{n}{\\theta+1}+\\sum_{i=1}^{n}\\ln x_{i}=0$，解出 $\\theta=-1-\\dfrac{n}{\\sum\\ln x_{i}}$。",
-      "questionImages": [],
-      "answerImages": [],
-      "primaryChapterId": "prob.chapter.parameter_estimation",
-      "secondaryChapterIds": [],
-      "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
-      "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [
-        "prob.knowledge.maximum_likelihood_method",
-        "prob.knowledge.moment_estimation_method"
-      ],
-      "methodIds": [],
-      "notes": "已校对；自动打标(规则)：prob.type.maximum_likelihood_estimation、prob.knowledge.maximum_likelihood_method、prob.knowledge.moment_estimation_method，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.parameter_estimation",
-      "createdAt": "2026-09-28T00:00:00.000Z",
-      "attempts": [],
-      "origin": "builtin",
-      "difficulty": null,
-      "source": {
-        "kind": "exam",
-        "year": 1997,
-        "paper": "math1",
-        "number": 24
-      },
-      "subjectGuess": "probability_statistics",
-      "section": "十、（本题满分5分）"
-    }
-  ]
+  {
+   "id": "bank.exam.m1-1997.2",
+   "number": 2,
+   "title": "1997 年数学一 第 2 题",
+   "questionText": "设幂级数 $\\displaystyle\\sum_{n=0}^{\\infty}a_{n}x^{n}$ 的收敛半径为 3，则幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}na_{n}(x-1)^{n+1}$ 的收敛区间为 $\\underline{\\quad}$",
+   "answerText": "答案：$(-2,4)$\n\n**解析：**\n逐项求导或乘 $n$ 不改变收敛半径，平移中心到 $x=1$ 后半径仍为 3，故 $|x-1|<3$，收敛区间为 $(-2,4)$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "power_series_radius_domain",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：power_series_radius_domain，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 2
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.3",
+   "number": 3,
+   "title": "1997 年数学一 第 3 题",
+   "questionText": "对数螺线 $\\rho=\\mathrm{e}^{\\theta}$ 在点 $(\\rho,\\theta)=\\left(\\mathrm{e}^{\\frac{\\pi}{2}},\\dfrac{\\pi}{2}\\right)$ 处的切线的直角坐标方程为 $\\underline{\\quad}$",
+   "answerText": "答案：$y=-x+\\mathrm{e}^{\\frac{\\pi}{2}}$\n\n**解析：**\n参数方程 $x=\\mathrm{e}^{\\theta}\\cos\\theta,\\ y=\\mathrm{e}^{\\theta}\\sin\\theta$。$\\theta=\\dfrac{\\pi}{2}$ 时点为 $\\left(0,\\mathrm{e}^{\\frac{\\pi}{2}}\\right)$；$\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=\\dfrac{\\cos\\theta+\\sin\\theta}{\\cos\\theta-\\sin\\theta}$，代入 $\\theta=\\dfrac{\\pi}{2}$ 得斜率 $-1$。切线：$y-\\mathrm{e}^{\\frac{\\pi}{2}}=-x$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "geometric_applications_multivariable"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 3
+   },
+   "subjectGuess": "calculus",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.4",
+   "number": 4,
+   "title": "1997 年数学一 第 4 题",
+   "questionText": "设 $\\mathbf{A}=\\begin{pmatrix} 1 & 2 & -2 \\\\ 4 & t & 3 \\\\ 3 & -1 & 1 \\end{pmatrix}$，$\\mathbf{B}$ 为 3 阶非零矩阵，且 $\\mathbf{AB}=\\mathbf{0}$，则 $t=\\underline{\\quad}$ .",
+   "answerText": "答案：$-3$\n\n**解析：**\n$\\mathbf{B}\\neq\\mathbf{O}$ 且 $\\mathbf{AB}=\\mathbf{O}$ 说明 $\\mathbf{B}$ 的非零列都是 $\\mathbf{AX}=\\mathbf{0}$ 的解，即齐次方程组有非零解，故 $|\\mathbf{A}|=0$。计算 $|\\mathbf{A}|=7t+21=0$，得 $t=-3$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 4
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.5",
+   "number": 5,
+   "title": "1997 年数学一 第 5 题",
+   "questionText": "袋中有 50 个乒乓球，其中 20 个是黄球，30 个是白球. 今有两人依次随机地从袋中各取一球，取后不放回，则第二人取得黄球的概率是 $\\underline{\\quad}$",
+   "answerText": "答案：$\\dfrac{2}{5}$\n\n**解析：**\n由全概率公式：$P(B)=P(A_{1})P(B|A_{1})+P(A_{2})P(B|A_{2})=\\dfrac{2}{5}\\cdot\\dfrac{19}{49}+\\dfrac{3}{5}\\cdot\\dfrac{20}{49}=\\dfrac{98}{245}=\\dfrac{2}{5}$。（抽签原理：不放回抽取时各次中签概率相同。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 5
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "一、填空题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.6",
+   "number": 6,
+   "title": "1997 年数学一 第 6 题",
+   "questionText": "二元函数 $f(x,y)=\\begin{cases}\\dfrac{xy}{x^{2}+y^{2}}, & (x,y)\\neq(0,0), \\\\ 0, & (x,y)=(0,0)\\end{cases}$ 在点 $(0,0)$ 处（ ）.\\n\\n（A）连续，偏导数存在\\n\\n（B）连续，偏导数不存在\\n\\n(C) 不连续，偏导数存在\\n\\n(D) 不连续，偏导数不存在",
+   "answerText": "答案：C\n\n**解析：**\n沿 $y=kx$ 趋于原点时 $f\\to\\dfrac{k}{1+k^{2}}$，与 $k$ 有关，故 $f$ 在 $(0,0)$ 不连续。但 $f(x,0)=f(0,y)=0$，两个偏导数都存在且为 0。选 C。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "one_variable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "composite_function_chain_rule",
+    "partial_derivative_existence"
+   ],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：composite_function_chain_rule、partial_derivative_existence，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 6
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.7",
+   "number": 7,
+   "title": "1997 年数学一 第 7 题",
+   "questionText": "设在区间 $[a, b]$ 上 $f(x) > 0, f'(x) < 0, f''(x) > 0$ . 令 $S_{1} = \\int_{a}^{b} f(x) \\mathrm{d}x, S_{2} = f(b)(b - a)$ , $S_{3} = \\frac{1}{2} [f(a) + f(b)] (b - a)$ , 则( )\n\n(A) $S_{1} < S_{2} < S_{3}$ .\n\n(B) $S_{2} < S_{1} < S_{3}$ .\n\n(C) $S_{3} < S_{1} < S_{2}$ .\n\n$(\\mathrm{D})S_{2} <   S_{3} <   S_{1}$",
+   "answerText": "答案：B\n\n**解析：**\n$f^{\\prime}<0$ 说明 $f$ 递减，故曲边梯形面积 $S_{1}$ 大于以 $f(b)$ 为高的矩形面积 $S_{2}$；$f^{\\prime\\prime}>0$ 说明曲线下凸（凹弧），弦在曲线上方，故 $S_{1}$ 小于梯形面积 $S_{3}$。综上 $S_{2}<S_{1}<S_{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 7
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.8",
+   "number": 8,
+   "title": "1997 年数学一 第 8 题",
+   "questionText": "设 $F(x) = \\int_{x}^{x + 2\\pi}\\mathrm{e}^{\\sin t}\\sin t\\mathrm{d}t$ ，则 $F(x)$ ( )\n\n（A）为正常数\n\n(B) 为负常数.\n\n(C) 恒为零.\n\n(D) 不为常数.",
+   "answerText": "答案：A\n\n**解析：**\n被积函数 $\\mathrm{e}^{\\sin t}\\sin t$ 以 $2\\pi$ 为周期，故 $F(x)$ 与 $x$ 无关，为常数。计算 $F=\\displaystyle\\int_{-\\pi}^{\\pi}\\mathrm{e}^{\\sin t}\\sin t\\,\\mathrm{d}t=\\int_{0}^{\\pi}\\left(\\mathrm{e}^{\\sin t}-\\mathrm{e}^{-\\sin t}\\right)\\sin t\\,\\mathrm{d}t>0$（被积函数在 $(0,\\pi)$ 内为正），故 $F$ 为正常数。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 8
+   },
+   "subjectGuess": "calculus",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.9",
+   "number": 9,
+   "title": "1997 年数学一 第 9 题",
+   "questionText": "设 $\\pmb{\\alpha}_{1} = \\begin{pmatrix} a_{1} \\\\ a_{2} \\\\ a_{3} \\end{pmatrix}, \\pmb{\\alpha}_{2} = \\begin{pmatrix} b_{1} \\\\ b_{2} \\\\ b_{3} \\end{pmatrix}, \\pmb{\\alpha}_{3} = \\begin{pmatrix} c_{1} \\\\ c_{2} \\\\ c_{3} \\end{pmatrix}$ , 则三条直线 $a_{1}x + b_{1}y + c_{1} = 0, a_{2}x + b_{2}y + c_{2} = 0$ , $a_{3}x + b_{3}y + c_{3} = 0$ (其中 $a_{i}^{2} + b_{i}^{2} \\neq 0, i = 1, 2, 3$ ) 交于一点的充要条件是( )\n\n(A) $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性相关.\n(B) $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 线性无关.\n(C) 秩 $r(\\pmb{\\alpha}_1, \\pmb{\\alpha}_2, \\pmb{\\alpha}_3) =$ 秩 $r(\\pmb{\\alpha}_1, \\pmb{\\alpha}_2)$ .\n$(\\mathrm{D})\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3}$ 线性相关， $\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2}$ 线性无关",
+   "answerText": "答案：D\n\n**解析：**\n三直线交于一点 $\\iff$ 方程组 $\\begin{cases}a_{i}x+b_{i}y=-c_{i}\\end{cases}$ 有唯一解 $\\iff r(\\mathbf{A})=r(\\overline{\\mathbf{A}})=2$。这等价于：增广矩阵的三行即 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性相关，而系数矩阵的两行 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2}$ 线性无关。选 D。（仅线性相关不足以保证唯一交点，可能三线重合或互异平行。）",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.vectors",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.linear_independence",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.linear_correlation",
+    "la.knowledge.matrix_rank"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.knowledge.linear_correlation、la.knowledge.matrix_rank，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.vectors",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 9
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.10",
+   "number": 10,
+   "title": "1997 年数学一 第 10 题",
+   "questionText": "设两个相互独立的随机变量 $X$ 和 $Y$ 的方差分别为 4 和 2, 则随机变量 $3X - 2Y$ 的方差是 ( )\n\n(A)8.\n\n(B)16.\n\n(C)28.\n\n(D)44.",
+   "answerText": "答案：D\n\n**解析：**\n由独立性，$D(3X-2Y)=3^{2}D(X)+(-2)^{2}D(Y)=9\\times 4+4\\times 2=44$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.variance_calculation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.variance"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.type.variance_calculation、prob.knowledge.variance，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.numerical_characteristics",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 10
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "二、选择题（本题共5小题，每小题3分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.11",
+   "number": 11,
+   "title": "1997 年数学一 第 11 题",
+   "questionText": "计算 $I = \\iiint_{\\Omega} (x^2 + y^2) \\, \\mathrm{d}v$ ，其中 $\\Omega$ 为平面曲线 $\\left\\{ \\begin{array}{l} y^2 = 2z, \\\\ x = 0 \\end{array} \\right.$ ，绕 $z$ 轴旋转一周形成的曲面与平面 $z = 8$ 所围成的区域.",
+   "answerText": "答案：$\\dfrac{1024\\pi}{3}$\n\n**解析：**\n旋转曲面为 $x^{2}+y^{2}=2z$，区域为 $0\\le z\\le 8$、截面 $x^{2}+y^{2}\\le 2z$。用先二后一（柱坐标）：$I=\\displaystyle\\int_{0}^{8}\\mathrm{d}z\\iint_{x^{2}+y^{2}\\le 2z}r^{2}\\cdot r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\int_{0}^{8}2\\pi\\cdot\\frac{(2z)^{2}}{4}\\,\\mathrm{d}z=2\\pi\\int_{0}^{8}z^{2}\\,\\mathrm{d}z=\\frac{1024\\pi}{3}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "geometric_applications_multivariable"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 11
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.12",
+   "number": 12,
+   "title": "1997 年数学一 第 12 题",
+   "questionText": "计算曲线积分 $\\oint_{C} (z - y) \\, \\mathrm{d}x + (x - z) \\, \\mathrm{d}y + (x - y) \\, \\mathrm{d}z$ , 其中 $C$ 是曲线 $\\left\\{ \\begin{array}{l} x^2 + y^2 = 1, \\\\ x - y + z = 2, \\end{array} \\right.$ 从 $z$ 轴正向往 $z$ 轴负向看, $C$ 的方向是顺时针的.",
+   "answerText": "答案：$-2\\pi$\n\n**解析：**\n用斯托克斯公式：$\\boldsymbol{F}$ 的旋度为 $\\nabla\\times\\boldsymbol{F}=(0,0,2)$。$C$ 张成平面 $x-y+z=2$ 上的圆盘 $\\Sigma$（单位圆盘），从 $z$ 轴正向看 $C$ 为顺时针，对应单位法向量取 $\\boldsymbol{n}=\\dfrac{1}{\\sqrt{3}}(-1,1,-1)$。于是积分 $=\\displaystyle\\iint_{\\Sigma}(0,0,2)\\cdot\\boldsymbol{n}\\,\\mathrm{d}S=-\\frac{2}{\\sqrt{3}}\\iint_{\\Sigma}\\mathrm{d}S=-\\frac{2}{\\sqrt{3}}\\cdot\\sqrt{3}\\pi=-2\\pi$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "curve_surface_integral",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "line_integral_second_kind",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition",
+    "orientation"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 12
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.13",
+   "number": 13,
+   "title": "1997 年数学一 第 13 题",
+   "questionText": "在某一人群中推广新技术是通过其中已掌握新技术的人进行的. 设该人群的总人数为 $N$ , 在 $t = 0$ 时刻已掌握新技术的人数为 $x_0$ , 在任意时刻 $t$ 已掌握新技术的人数为 $x(t)$ (将 $x(t)$ 视为连续可微变量), 其变化率与已掌握新技术人数和未掌握新技术人数之积成正比, 比例常数 $k > 0$ , 求 $x(t)$ .",
+   "answerText": "答案：$x(t)=\\dfrac{Nx_{0}\\mathrm{e}^{kNt}}{N-x_{0}+x_{0}\\mathrm{e}^{kNt}}$\n\n**解析：**\n由题意 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=kx(N-x)$，$x(0)=x_{0}$。分离变量：$\\dfrac{\\mathrm{d}x}{x(N-x)}=k\\,\\mathrm{d}t$，积分得 $\\dfrac{1}{N}\\ln\\dfrac{x}{N-x}=kt+C$。代入初始条件定出 $C$，解出 $x(t)=\\dfrac{Nx_{0}\\mathrm{e}^{kNt}}{N-x_{0}+x_{0}\\mathrm{e}^{kNt}}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "differentiability_continuity"
+   ],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：differentiability_continuity，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 13
+   },
+   "subjectGuess": "calculus",
+   "section": "三、（本题共3小题，每小题5分，满分15分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.14",
+   "number": 14,
+   "title": "1997 年数学一 第 14 题",
+   "questionText": "（1）设直线 $l:\\begin{cases} x+y+b=0, \\\\ x+ay-z-3=0 \\end{cases}$ 在平面 $\\pi$ 上，而平面 $\\pi$ 与曲面 $z=x^{2}+y^{2}$ 相切于点 $(1,-2,5)$，求 $a, b$ 之值.",
+   "answerText": "答案：$a=-5,\\ b=-2$\n\n**解析：**\n曲面在切点处的法向量 $\\boldsymbol{n}=(2,-4,-1)$，故 $\\pi:\\ 2(x-1)-4(y+2)-(z-5)=0$，即 $2x-4y-z-5=0$。直线 $l$ 的方向向量 $\\boldsymbol{s}=(1,1,0)\\times(1,a,-1)=(-1,1,a-1)$。$l\\subset\\pi$ 要求 $\\boldsymbol{n}\\cdot\\boldsymbol{s}=0$，得 $a=-5$；再把 $l$ 的参数式（$y=-x-b,\\ z=6x+5b-3$）代入 $\\pi$ 得 $-b-2=0$，即 $b=-2$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 14
+   },
+   "subjectGuess": "calculus",
+   "section": "四、（本题共2小题，第(1)小题6分，第(2)小题7分，满分13分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.15",
+   "number": 15,
+   "title": "1997 年数学一 第 15 题",
+   "questionText": "（2）设函数 $f(u)$ 具有二阶连续导数，而 $z=f(\\mathrm{e}^{x}\\sin y)$ 满足方程 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=\\mathrm{e}^{2x}z$，求 $f(u)$ .",
+   "answerText": "答案：$f(u)=C_{1}\\mathrm{e}^{-u}+C_{2}\\mathrm{e}^{u}$（$C_{1}, C_{2}$ 为任意常数）\n\n**解析：**\n记 $u=\\mathrm{e}^{x}\\sin y$，链式求导得 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}=f^{\\prime\\prime}(u)\\mathrm{e}^{2x}\\sin^{2}y+f^{\\prime}(u)\\mathrm{e}^{x}\\sin y$，$\\dfrac{\\partial^{2}z}{\\partial y^{2}}=f^{\\prime\\prime}(u)\\mathrm{e}^{2x}\\cos^{2}y-f^{\\prime}(u)\\mathrm{e}^{x}\\sin y$。相加得 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=f^{\\prime\\prime}(u)\\mathrm{e}^{2x}$。代入方程并约去 $\\mathrm{e}^{2x}$：$f^{\\prime\\prime}(u)=f(u)$，通解即得。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "multivariable_differential",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "multivariable_limit_continuity",
+    "power_series_sum"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 15
+   },
+   "subjectGuess": "calculus",
+   "section": "四、（本题共2小题，第(1)小题6分，第(2)小题7分，满分13分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.16",
+   "number": 16,
+   "title": "1997 年数学一 第 16 题",
+   "questionText": "设 $f(x)$ 连续，$\\varphi(x)=\\displaystyle\\int_{0}^{1}f(xt)\\,\\mathrm{d}t$，且 $\\lim_{x\\to 0}\\dfrac{f(x)}{x}=A$（$A$ 为常数），求 $\\varphi^{\\prime}(x)$ 并讨论 $\\varphi^{\\prime}(x)$ 在 $x=0$ 处的连续性.",
+   "answerText": "答案：$\\varphi^{\\prime}(x)=\\dfrac{xf(x)-\\int_{0}^{x}f(u)\\,\\mathrm{d}u}{x^{2}}\\ (x\\neq 0)$，$\\varphi^{\\prime}(0)=\\dfrac{A}{2}$；$\\varphi^{\\prime}$ 在 $x=0$ 处连续\n\n**解析：**\n由 $\\lim_{x\\to 0}\\dfrac{f(x)}{x}=A$ 知 $f(0)=0$。$x\\neq 0$ 时令 $u=xt$ 得 $\\varphi(x)=\\dfrac{1}{x}\\displaystyle\\int_{0}^{x}f(u)\\,\\mathrm{d}u$（$\\varphi(0)=0$）。求导得上述表达式；在 $x=0$ 处按定义求导：$\\varphi^{\\prime}(0)=\\lim_{x\\to 0}\\dfrac{\\varphi(x)}{x}=\\lim_{x\\to 0}\\dfrac{\\int_{0}^{x}f(u)\\,\\mathrm{d}u}{x^{2}}=\\lim_{x\\to 0}\\dfrac{f(x)}{2x}=\\dfrac{A}{2}$。又 $\\lim_{x\\to 0}\\varphi^{\\prime}(x)=\\lim_{x\\to 0}\\left[\\dfrac{f(x)}{x}-\\dfrac{\\int_{0}^{x}f(u)\\,\\mathrm{d}u}{x^{2}}\\right]=A-\\dfrac{A}{2}=\\dfrac{A}{2}=\\varphi^{\\prime}(0)$，故连续。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "function_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "continuity",
+    "multivariable_limit_continuity"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 16
+   },
+   "subjectGuess": "calculus",
+   "section": "五、（本题满分6分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.17",
+   "number": 17,
+   "title": "1997 年数学一 第 17 题",
+   "questionText": "设 $a_{1}=2$，$a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)\\ (n=1,2,\\dots)$，证明：\n\n（1）$\\lim_{n\\to \\infty}a_n$ 存在；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n由均值不等式 $a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)\\ge 1$，数列有下界；又 $a_{n+1}-a_{n}=\\dfrac{1-a_{n}^{2}}{2a_{n}}\\le 0$（$n\\ge 2$ 时 $a_{n}\\ge 1$），数列单调不增。由单调有界原理，$\\lim_{n\\to\\infty}a_{n}$ 存在。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "function_limit_continuity",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "sequence_limit",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 17
+   },
+   "subjectGuess": "calculus",
+   "section": "六、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1997.18",
+   "number": 18,
+   "title": "1997 年数学一 第 18 题",
+   "questionText": "设 $a_{1}=2$，$a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)\\ (n=1,2,\\dots)$，证明：\n\n（2）级数 $\\sum_{n=1}^{\\infty}\\left(\\dfrac{a_{n}}{a_{n+1}}-1\\right)$ 收敛.",
+   "answerText": "答案：证明见解析\n\n**解析：**\n由（1）知 $\\{a_{n}\\}$ 单调不增且 $a_{n}\\ge 1$，故 $0\\le\\dfrac{a_{n}}{a_{n+1}}-1=\\dfrac{a_{n}-a_{n+1}}{a_{n+1}}\\le a_{n}-a_{n+1}$。而正项级数 $\\sum(a_{n}-a_{n+1})$ 的部分和 $S_{n}=a_{1}-a_{n+1}\\to 2-\\lim a_{n+1}$ 存在，故其收敛。由比较判别法，所论级数收敛。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "infinite_series",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "alternating_general_series",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 18
+   },
+   "subjectGuess": "calculus",
+   "section": "六、（本题满分8分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1997.19",
+   "number": 19,
+   "title": "1997 年数学一 第 19 题",
+   "questionText": "设 $\\pmb{B}$ 是秩为 2 的 $5 \\times 4$ 矩阵, $\\pmb{\\alpha}_{1} = (1,1,2,3)^{\\mathrm{T}}, \\pmb{\\alpha}_{2} = (-1,1,4,-1)^{\\mathrm{T}}, \\pmb{\\alpha}_{3} = (5,-1,-8,9)^{\\mathrm{T}}$ 是齐次线性方程组 $\\pmb{Bx} = \\mathbf{0}$ 的解向量, 求 $\\pmb{Bx} = \\mathbf{0}$ 的解空间的一个标准正交基.",
+   "answerText": "答案：$\\boldsymbol{\\gamma}_{1}=\\dfrac{1}{\\sqrt{15}}(1,1,2,3)^{\\mathrm{T}}$，$\\boldsymbol{\\gamma}_{2}=\\dfrac{1}{\\sqrt{39}}(-2,1,5,-3)^{\\mathrm{T}}$\n\n**解析：**\n$r(\\boldsymbol{B})=2$ 说明解空间是 4 维中的 2 维子空间。可验证 $\\boldsymbol{\\alpha}_{3}=2\\boldsymbol{\\alpha}_{1}-3\\boldsymbol{\\alpha}_{2}$，而 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2}$ 线性无关，故它们构成基础解系。施密特正交化：$\\boldsymbol{\\beta}_{1}=\\boldsymbol{\\alpha}_{1}$，$\\boldsymbol{\\beta}_{2}=\\boldsymbol{\\alpha}_{2}-\\dfrac{(\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\beta}_{1})}{(\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{1})}\\boldsymbol{\\beta}_{1}=\\dfrac{2}{3}(-2,1,5,-3)^{\\mathrm{T}}$。单位化即得上述标准正交基。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_linear_operation"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 19
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "七、（本题共2小题，第(1)小题5分，第(2)小题6分，满分11分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.20",
+   "number": 20,
+   "title": "1997 年数学一 第 20 题",
+   "questionText": "已知 $\\pmb{\\xi} = \\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}$ 是矩阵 $\\mathbf{A} = \\begin{pmatrix} 2 & -1 & 2 \\\\ 5 & a & 3 \\\\ -1 & b & -2 \\end{pmatrix}$ 的一个特征向量.\n\n（I）试确定参数 $a, b$ 及特征向量 $\\pmb{\\xi}$ 所对应的特征值；\n\n（Ⅱ）问 $\\mathbf{A}$ 能否相似于对角阵?说明理由.",
+   "answerText": "答案：（I）$a=-3,\\ b=0$，$\\lambda=-1$；（II）$\\mathbf{A}$ 不能相似于对角阵\n\n**解析：**\n（I）由 $\\mathbf{A}\\boldsymbol{\\xi}=\\lambda\\boldsymbol{\\xi}$ 得方程组 $-1=\\lambda$，$a+2=\\lambda$，$-(b+1)=-\\lambda$，解得 $\\lambda=-1$，$a=-3$，$b=0$。（II）由 $|\\lambda\\mathbf{E}-\\mathbf{A}|=(\\lambda+1)^{3}=0$ 知 $\\lambda=-1$ 是三重特征值；对 $-\\mathbf{E}-\\mathbf{A}$ 作初等行变换知其秩为 2，属于 $\\lambda=-1$ 的线性无关特征向量只有 $3-2=1$ 个，少于重数，不满足可对角化的充要条件，故不能相似于对角阵。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "vector_linear_operation"
+   ],
+   "methodIds": [],
+   "notes": "已校对",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 20
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "七、（本题共2小题，第(1)小题5分，第(2)小题6分，满分11分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.21",
+   "number": 21,
+   "title": "1997 年数学一 第 21 题",
+   "questionText": "设 $\\mathbf{A}$ 是 $n$ 阶可逆方阵，将 $\\mathbf{A}$ 的第 $i$ 行和第 $j$ 行对换后得到的矩阵记为 $\\mathbf{B}$.\n\n（1）证明 $\\boldsymbol{B}$ 可逆；",
+   "answerText": "答案：证明见解析\n\n**解析：**\n记对换 $i,j$ 两行的初等矩阵为 $\\mathbf{E}(i,j)$，则 $\\mathbf{B}=\\mathbf{E}(i,j)\\mathbf{A}$。行列式 $|\\mathbf{E}(i,j)|=-1$，故 $|\\mathbf{B}|=-|\\mathbf{A}|\\neq 0$（$\\mathbf{A}$ 可逆），从而 $\\mathbf{B}$ 可逆。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix、la.knowledge.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 21
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分5分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1997.22",
+   "number": 22,
+   "title": "1997 年数学一 第 22 题",
+   "questionText": "设 $\\mathbf{A}$ 是 $n$ 阶可逆方阵，将 $\\mathbf{A}$ 的第 $i$ 行和第 $j$ 行对换后得到的矩阵记为 $\\mathbf{B}$.\n\n（2）求 $AB^{-1}$ .",
+   "answerText": "答案：$\\mathbf{E}(i,j)$（即把单位矩阵第 $i,j$ 行对换所得的初等矩阵）\n\n**解析：**\n由 $\\mathbf{B}=\\mathbf{E}(i,j)\\mathbf{A}$ 得 $\\mathbf{B}^{-1}=\\mathbf{A}^{-1}\\mathbf{E}(i,j)^{-1}$，故 $\\mathbf{AB}^{-1}=\\mathbf{A}\\mathbf{A}^{-1}\\mathbf{E}(i,j)^{-1}=\\mathbf{E}(i,j)^{-1}=\\mathbf{E}(i,j)$（对换阵的逆等于自身）。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "la.chapter.matrices",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "la.problem_type.inverse_matrix",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：la.problem_type.inverse_matrix、la.knowledge.inverse_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 22
+   },
+   "subjectGuess": "linear_algebra",
+   "section": "八、（本题满分5分，含2小题）"
+  },
+  {
+   "id": "bank.exam.m1-1997.23",
+   "number": 23,
+   "title": "1997 年数学一 第 23 题",
+   "questionText": "从学校乘汽车到火车站的途中有 3 个交通岗，假设在各个交通岗遇到红灯的事件是相互独立的，并且概率都是 $\\dfrac{2}{5}$. 设 $X$ 为途中遇到红灯的次数，求随机变量 $X$ 的分布律、分布函数和数学期望.",
+   "answerText": "答案：$P\\{X=k\\}=\\mathrm{C}_{3}^{k}\\left(\\dfrac{2}{5}\\right)^{k}\\left(\\dfrac{3}{5}\\right)^{3-k}\\ (k=0,1,2,3)$；$F(x)=\\begin{cases}0, & x<0\\\\ \\frac{27}{125}, & 0\\le x<1\\\\ \\frac{81}{125}, & 1\\le x<2\\\\ \\frac{117}{125}, & 2\\le x<3\\\\ 1, & x\\ge 3\\end{cases}$；$E(X)=\\dfrac{6}{5}$\n\n**解析：**\n$X\\sim B\\left(3,\\dfrac{2}{5}\\right)$：$P\\{X=0\\}=\\dfrac{27}{125}$，$P\\{X=1\\}=\\dfrac{54}{125}$，$P\\{X=2\\}=\\dfrac{36}{125}$，$P\\{X=3\\}=\\dfrac{8}{125}$。逐段累加得分布函数 $F(x)$。期望 $E(X)=np=3\\times\\dfrac{2}{5}=\\dfrac{6}{5}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.random_variables",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.discrete_distribution_law",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.discrete_distribution",
+    "prob.knowledge.mathematical_expectation"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.knowledge.discrete_distribution、prob.knowledge.mathematical_expectation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.random_variables",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 23
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "九、（本题满分7分）"
+  },
+  {
+   "id": "bank.exam.m1-1997.24",
+   "number": 24,
+   "title": "1997 年数学一 第 24 题",
+   "questionText": "设总体 $X$ 的概率密度为 $f(x)=\\begin{cases}(\\theta+1)x^{\\theta}, & 0<x<1, \\\\ 0, & \\text{其他},\\end{cases}$ 其中 $\\theta>-1$ 是未知参数，$X_{1}, X_{2}, \\dots, X_{n}$ 是来自总体 $X$ 的一个容量为 $n$ 的简单随机样本，分别用矩估计法和极大似然估计法求 $\\theta$ 的估计量.",
+   "answerText": "答案：矩估计量 $\\hat{\\theta}=\\dfrac{2\\overline{X}-1}{1-\\overline{X}}$；极大似然估计量 $\\hat{\\theta}=-1-\\dfrac{n}{\\sum_{i=1}^{n}\\ln X_{i}}$\n\n**解析：**\n矩法：$E(X)=(\\theta+1)\\displaystyle\\int_{0}^{1}x^{\\theta+1}\\mathrm{d}x=\\frac{\\theta+1}{\\theta+2}$，令其等于 $\\overline{X}$ 解出 $\\theta$。似然法：$L(\\theta)=(\\theta+1)^{n}\\left(\\prod_{i=1}^{n}x_{i}\\right)^{\\theta}$（$0<x_{i}<1$），$\\ln L=n\\ln(\\theta+1)+\\theta\\sum\\ln x_{i}$，令 $\\dfrac{\\mathrm{d}\\ln L}{\\mathrm{d}\\theta}=\\dfrac{n}{\\theta+1}+\\sum_{i=1}^{n}\\ln x_{i}=0$，解出 $\\theta=-1-\\dfrac{n}{\\sum\\ln x_{i}}$。",
+   "questionImages": [],
+   "answerImages": [],
+   "primaryChapterId": "prob.chapter.parameter_estimation",
+   "secondaryChapterIds": [],
+   "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
+   "secondaryProblemTypeIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.maximum_likelihood_method",
+    "prob.knowledge.moment_estimation_method"
+   ],
+   "methodIds": [],
+   "notes": "已校对；自动打标(规则)：prob.type.maximum_likelihood_estimation、prob.knowledge.maximum_likelihood_method、prob.knowledge.moment_estimation_method，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.parameter_estimation",
+   "createdAt": "2026-09-28T00:00:00.000Z",
+   "attempts": [],
+   "origin": "builtin",
+   "difficulty": null,
+   "source": {
+    "kind": "exam",
+    "year": 1997,
+    "paper": "math1",
+    "number": 24
+   },
+   "subjectGuess": "probability_statistics",
+   "section": "十、（本题满分5分）"
+  }
+ ]
 }
