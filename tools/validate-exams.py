@@ -119,7 +119,12 @@ def check_problem(problem, TAX_IDS):
         if field == 'primaryProblemTypeId' and problem.get(field, '') == '':
             untagged = True
         if field in FIELD_LIMIT and len(values) > FIELD_LIMIT[field]:
-            errors.append((field, f'数量 {len(values)} 超上限 {FIELD_LIMIT[field]}: {values}'))
+            # 真题综合大题常带 4–6 个知识点（富打标保留筛选信息）：
+            # 超上限降级为警告，超过 2 倍上限才视为异常
+            if len(values) > 2 * FIELD_LIMIT[field]:
+                errors.append((field, f'数量 {len(values)} 超上限 {FIELD_LIMIT[field]}: {values}'))
+            else:
+                warnings.append((field, f'数量 {len(values)} 超软上限 {FIELD_LIMIT[field]}（综合题富打标，允许）: {values}'))
         seen = set()
         for v in values:
             if v == '':
