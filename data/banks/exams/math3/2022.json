@@ -197,11 +197,11 @@
    "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "sequence_limit",
+    "extrema",
     "monotonicity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工修复：kp 误填题型 id sequence_limit -> extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -434,7 +434,7 @@
    "id": "bank.exam.m3-2022.10",
    "number": 10,
    "title": "2022 年数学三 第 10 题",
-   "questionText": "设二维随机变量 $(X,Y)$ 的概率分布为\n\n| $X\\Y$ | $0$ | $1$ | $2$ |\n|---|---|---|---|\n| $-1$ | $0.1$ | $0.1$ | $b$ |\n| $1$ | $a$ | $0.1$ | $0.1$ |\n\n若事件 $\\{\\max(X,Y)=2\\}$ 与事件 $\\{\\min(X,Y)=1\\}$ 相互独立，则 $\\operatorname{Cov}(X,Y)=$（ ）\n\n- **A.** $-0.6$\n- **B.** $-0.36$\n- **C.** $0$\n- **D.** $0.48$",
+   "questionText": "设二维随机变量 $(X,Y)$ 的概率分布为\n\n| $X\\backslash Y$ | $0$ | $1$ | $2$ |\n|---|---|---|---|\n| $-1$ | $0.1$ | $0.1$ | $b$ |\n| $1$ | $a$ | $0.1$ | $0.1$ |\n\n若事件 $\\{\\max(X,Y)=2\\}$ 与事件 $\\{\\min(X,Y)=1\\}$ 相互独立，则 $\\operatorname{Cov}(X,Y)=$（ ）\n\n- **A.** $-0.6$\n- **B.** $-0.36$\n- **C.** $0$\n- **D.** $0.48$",
    "answerText": "答案：B（$-0.36$）\n\n**解析：**\n由分布律归一化：$0.1+0.1+b+a+0.1+0.1=1$，$a+b=0.6$。\n$A=\\{\\max(X,Y)=2\\}$：含 $(-1,2)$ 与 $(1,2)$，$P(A)=b+0.1$；$B=\\{\\min(X,Y)=1\\}$：含 $(1,1)$ 与 $(1,2)$，$P(B)=0.2$；$A\\cap B=\\{(1,2)\\}$，$P(A\\cap B)=0.1$。\n独立条件 $0.1=(b+0.1)\\times0.2$ 给 $b=0.4$，从而 $a=0.2$。\n$$\nE(X)=-1(0.6)+1(0.4)=-0.2,\\qquad\nE(Y)=0(0.3)+1(0.2)+2(0.5)=1.2,\n$$\n$$\nE(XY)=(-1)(1)(0.1)+(-1)(2)(0.4)+(1)(1)(0.1)+(1)(2)(0.1)=-0.6,\n$$\n$$\n\\operatorname{Cov}(X,Y)=-0.6-(-0.2)(1.2)=-0.36 .\n$$",
    "questionImages": [],
    "answerImages": [],
@@ -447,7 +447,7 @@
     "prob.knowledge.joint_discrete_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对；题干对源修正：分布表 OCR 全毁，经官方版试卷 PDF 核对重建（X∈{-1,1}, Y∈{0,1,2}，已知 0.1 与 a,b），独立条件解出 a=0.2, b=0.4",
+   "notes": "已校对；题干对源修正：分布表 OCR 全毁，经官方版试卷 PDF 核对重建（X∈{-1,1}, Y∈{0,1,2}，已知 0.1 与 a,b），独立条件解出 a=0.2, b=0.4；人工修复：分布表头 $X\\backslash Y$（KaTeX 不识别 \\Y）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
