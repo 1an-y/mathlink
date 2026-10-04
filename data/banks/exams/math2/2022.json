@@ -807,7 +807,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.real_symmetric_diagonalization",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.symmetric_matrix",
@@ -815,7 +815,7 @@
     "la.knowledge.real_symmetric_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.real_symmetric_diagonalization",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -193,7 +193,7 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema",
@@ -201,7 +201,7 @@
     "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 monotonicity_extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -257,7 +257,7 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "infinite_and_infinitesimal",
@@ -265,7 +265,7 @@
     "equivalent_infinitesimal"
    ],
    "methodIds": [],
-   "notes": "已校对；已验算修正：选项 A 按 2025 官方真题由 O(g(x)) 订正为 o(g(x))",
+   "notes": "已校对；已验算修正：选项 A 按 2025 官方真题由 O(g(x)) 订正为 o(g(x))；人工补标：题型 function_limit",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -289,14 +289,14 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "integration_order",
     "double_integral_region"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 double_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -320,13 +320,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "physical_applications_of_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_substitution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 physical_applications_of_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -350,7 +350,7 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "derivative_definition",
@@ -358,7 +358,7 @@
     "continuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 derivative_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -476,13 +476,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "improper_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "infinite_interval_integral"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 improper_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -504,15 +504,15 @@
    "answerText": "答案：$y=x-1$\n\n**解析：** 曲线处处有定义，无铅直渐近线；$x\\to\\infty$ 时 $y\\to\\infty$，无水平渐近线。\n\n计算斜渐近线系数：\n$$\n\\frac{y}{x}=\\sqrt[3]{1-\\frac3x+\\frac1{x^{3}}}\\to1,\n\\qquad\ny-x=x\\left[\\sqrt[3]{1-\\frac3x+\\frac1{x^{3}}}-1\\right]\\to-1\n$$\n（用了 $(1+u)^{1/3}-1\\sim\\dfrac u3$）。故斜渐近线为 $y=x-1$（$x\\to\\pm\\infty$ 两个方向相同）。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "one_variable_differential",
+   "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 function_limit；人工修正主章节：one_variable_differential -> function_limit_continuity（对齐题型所在章）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -536,14 +536,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "definite_integral_properties",
     "fundamental_theorem_calculus"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 definite_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -567,7 +567,7 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "parametric_derivative",
@@ -575,7 +575,7 @@
     "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 derivative_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -599,13 +599,13 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "homogeneous_first_order_equation"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 first_order_differential_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -694,14 +694,14 @@
    "secondaryChapterIds": [
     "function_limit_continuity"
    ],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "derivative_definition",
     "indeterminate_form"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 derivative_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -820,7 +820,7 @@
    "secondaryChapterIds": [
     "la.chapter.eigenvalues"
    ],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.contract",
@@ -830,7 +830,7 @@
    "methodIds": [
     "la.method.orthogonal_diagonalize"
    ],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.orthogonal_standard_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
