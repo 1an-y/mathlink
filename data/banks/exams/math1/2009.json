@@ -268,13 +268,13 @@
    "answerImages": [],
    "primaryChapterId": "infinite_series",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "alternating_general_series",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "numeric_series_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 alternating_general_series",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -329,14 +329,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.adjoint_matrix",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.adjoint_matrix",
     "la.knowledge.block_matrix"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.adjoint_matrix",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -391,7 +391,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.function_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.distribution_function",
@@ -400,7 +400,7 @@
     "prob.knowledge.total_probability_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.function_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -640,7 +640,7 @@
    "answerImages": [],
    "primaryChapterId": "infinite_series",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "power_series_sum",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "area_volume_arc",
@@ -648,7 +648,7 @@
     "power_series_sum"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 power_series_sum",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -672,14 +672,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_application_geometry",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "area_volume_arc",
     "rotating_surface"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 integral_application_geometry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -703,7 +703,7 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "differentiability_continuity",
@@ -711,7 +711,7 @@
     "closed_interval_continuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 mean_value_theorem",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -766,7 +766,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.linear_correlation",
@@ -774,7 +774,7 @@
     "la.knowledge.general_solution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.nonhomogeneous_system",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -830,7 +830,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_discrete_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.random_variables_independence",
@@ -839,7 +839,7 @@
     "prob.knowledge.conditional_probability_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.joint_discrete_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

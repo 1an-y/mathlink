@@ -337,13 +337,13 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_properties",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "inverse_composite_function"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 function_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

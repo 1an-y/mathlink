@@ -262,13 +262,13 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "double_integral_region"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 double_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -510,13 +510,13 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "multiple_integral_application",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "triple_integral_region"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 multiple_integral_application",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -572,14 +572,14 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.common_discrete_distributions",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.poisson_distribution",
     "prob.knowledge.mathematical_expectation"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.common_discrete_distributions",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -788,7 +788,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.positive_definite_concept",
@@ -796,7 +796,7 @@
     "la.knowledge.orthogonal_standard_form"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.orthogonal_standard_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -820,7 +820,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_continuous_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.joint_continuous_distribution",
@@ -828,7 +828,7 @@
     "prob.knowledge.bivariate_normal_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.joint_continuous_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

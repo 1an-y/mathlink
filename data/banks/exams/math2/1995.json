@@ -282,13 +282,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 monotonicity_extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -434,14 +434,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "piecewise_derivative",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "derivative_arithmetic_rules",
     "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "已校对；审计修复：原打标 piecewise_derivative 不存在，已改为 derivative_arithmetic_rules",
+   "notes": "已校对；审计修复：原打标 piecewise_derivative 不存在，已改为 derivative_arithmetic_rules；人工补标：题型 piecewise_derivative",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

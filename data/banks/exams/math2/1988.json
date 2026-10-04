@@ -301,13 +301,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 derivative_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -331,13 +331,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_properties",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "differentiability_continuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 function_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -229,14 +229,14 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "multivariable_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema",
     "partial_derivative_existence"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 multivariable_extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -384,7 +384,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.numerical_properties_application",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.random_variables_independence",
@@ -392,7 +392,7 @@
     "prob.knowledge.independence_uncorrelated"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.numerical_properties_application",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -416,14 +416,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "integral_application_geometry",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "arc_differential",
     "variable_upper_integral"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 integral_application_geometry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -540,14 +540,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.orthogonal_standard_form",
     "la.knowledge.eigen_concept"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.orthogonal_standard_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -571,7 +571,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.numerical_properties_application",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.normal_distribution",
@@ -579,7 +579,7 @@
     "prob.knowledge.functions_of_random_variables"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.numerical_properties_application",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -696,14 +696,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "inequality_proof",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "mean_value_theorem",
     "monotonicity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 inequality_proof",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -820,7 +820,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_discrete_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.random_variables_independence",
@@ -828,7 +828,7 @@
     "prob.knowledge.joint_discrete_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.joint_discrete_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

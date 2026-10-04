@@ -257,13 +257,13 @@
       "answerImages": [],
       "primaryChapterId": "one_variable_differential",
       "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
+      "primaryProblemTypeId": "function_limit",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
         "asymptote"
       ],
       "methodIds": [],
-      "notes": "已校对",
+      "notes": "已校对；人工补标：题型 function_limit",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -379,13 +379,13 @@
       "answerImages": [],
       "primaryChapterId": "one_variable_differential",
       "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
+      "primaryProblemTypeId": "monotonicity_extrema",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
         "monotonicity"
       ],
       "methodIds": [],
-      "notes": "已校对",
+      "notes": "已校对；人工补标：题型 monotonicity_extrema",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -747,14 +747,14 @@
       "answerImages": [],
       "primaryChapterId": "la.chapter.matrices",
       "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
+      "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
         "la.knowledge.matrix_operations",
         "la.knowledge.general_solution"
       ],
       "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工补标：题型 la.problem_type.nonhomogeneous_system",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",

@@ -199,13 +199,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "已校对；已验算修正：源转录题干误为 $y=\\sqrt{x^{2}+3x+1}$，经核原卷为 $y=\\frac{(1+x)^{3/2}}{\\sqrt{x}}$（两者渐近线相同）",
+   "notes": "已校对；已验算修正：源转录题干误为 $y=\\sqrt{x^{2}+3x+1}$，经核原卷为 $y=\\frac{(1+x)^{3/2}}{\\sqrt{x}}$（两者渐近线相同）；人工补标：题型 function_limit",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -319,14 +319,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.abstract_determinant",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_operations",
     "la.knowledge.matrix_product_determinant"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.abstract_determinant",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -661,7 +661,7 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "multivariable_limit_continuity",
@@ -671,7 +671,7 @@
    "methodIds": [
     "integration_by_parts"
    ],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 definite_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -725,14 +725,14 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "closed_interval_continuity",
     "mean_value_theorem"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 mean_value_theorem",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

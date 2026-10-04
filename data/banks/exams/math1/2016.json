@@ -447,13 +447,13 @@
    "answerImages": [],
    "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "vector_operations",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "divergence_and_curl"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 vector_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -477,14 +477,14 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "composite_implicit_derivative",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "implicit_function",
     "total_differential"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 composite_implicit_derivative",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -508,13 +508,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "higher_derivative",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "taylor_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 higher_derivative",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -755,14 +755,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.system_with_parameters",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.nonhomogeneous_solvability",
     "la.knowledge.general_solution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.system_with_parameters",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -786,7 +786,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.diagonalization",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.diagonalization_criteria",
@@ -794,7 +794,7 @@
     "la.knowledge.linear_combination"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.diagonalization",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -818,7 +818,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_continuous_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.joint_continuous_distribution",
@@ -826,7 +826,7 @@
     "prob.knowledge.distribution_function"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.joint_continuous_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

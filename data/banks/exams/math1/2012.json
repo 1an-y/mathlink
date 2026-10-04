@@ -169,13 +169,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 function_limit",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -199,13 +199,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "derivative_definition"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 derivative_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -229,7 +229,7 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "partial_derivative_total_differential",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "multivariable_limit_continuity",
@@ -237,7 +237,7 @@
     "continuity_partial_differentiability"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 partial_derivative_total_differential",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -323,7 +323,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.similarity_judgment",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.inverse_matrix",
@@ -331,7 +331,7 @@
     "la.knowledge.similarity_invariants"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.similarity_judgment",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -509,13 +509,13 @@
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "surface_integral_first_kind",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "surface_integral_definition"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 surface_integral_first_kind",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -569,7 +569,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_events",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.conditional_probability",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.sample_space_event",
@@ -577,7 +577,7 @@
     "prob.knowledge.conditional_probability_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.conditional_probability",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -601,13 +601,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "inequality_proof",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "monotonicity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 inequality_proof",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -631,13 +631,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "multivariable_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 multivariable_extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -691,7 +691,7 @@
    "answerImages": [],
    "primaryChapterId": "differential_equation",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "area_volume_arc",
@@ -699,7 +699,7 @@
     "parametric_derivative"
    ],
    "methodIds": [],
-   "notes": "已校对；解析推导重新整理（源解析中距离条件化简过程有排版损伤）",
+   "notes": "已校对；解析推导重新整理（源解析中距离条件化简过程有排版损伤）；人工补标：题型 first_order_differential_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -754,7 +754,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.general_solution",
@@ -762,7 +762,7 @@
     "la.knowledge.nonhomogeneous_solvability"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.nonhomogeneous_system",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -850,7 +850,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.mathematical_statistics",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.maximum_likelihood_estimation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.normal_distribution",
@@ -859,7 +859,7 @@
     "prob.knowledge.unbiasedness"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.maximum_likelihood_estimation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

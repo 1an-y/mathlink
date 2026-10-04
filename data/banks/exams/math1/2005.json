@@ -169,13 +169,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "asymptote"
    ],
    "methodIds": [],
-   "notes": "已校对；题干补空线（源 md 缺失）",
+   "notes": "已校对；题干补空线（源 md 缺失）；人工补标：题型 function_limit",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -259,13 +259,13 @@
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "gauss_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 surface_integral_second_kind",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -289,14 +289,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.abstract_determinant",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_product_determinant",
     "la.knowledge.determinant_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.abstract_determinant",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -320,14 +320,14 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_events",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.total_probability_bayes",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.total_probability_formula",
     "prob.knowledge.conditional_probability_formula"
    ],
    "methodIds": [],
-   "notes": "已校对；题干补空线（源 md 缺失）；科目按题面改判为概率统计",
+   "notes": "已校对；题干补空线（源 md 缺失）；科目按题面改判为概率统计；人工补标：题型 prob.type.total_probability_bayes",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -535,14 +535,14 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_discrete_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.joint_discrete_distribution",
     "prob.knowledge.event_independence"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.joint_discrete_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -566,7 +566,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.mathematical_statistics",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.three_sampling_distributions",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.sample_mean_variance",
@@ -576,7 +576,7 @@
     "prob.knowledge.f_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对；选项 D 补标号（源 md 缺失）",
+   "notes": "已校对；选项 D 补标号（源 md 缺失）；人工补标：题型 prob.type.three_sampling_distributions",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -691,7 +691,7 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "differentiability_continuity",
@@ -699,7 +699,7 @@
     "closed_interval_continuity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 mean_value_theorem",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -785,14 +785,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.homogeneous_system",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.general_solution",
     "la.knowledge.basic_solution_system"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.homogeneous_system",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -816,7 +816,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.joint_continuous_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.joint_continuous_distribution",
@@ -824,7 +824,7 @@
     "prob.knowledge.functions_of_random_variables"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.joint_continuous_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

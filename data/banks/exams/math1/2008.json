@@ -260,14 +260,14 @@
    "answerImages": [],
    "primaryChapterId": "function_limit_continuity",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "limit_existence",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "function_properties",
     "limit_operations"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 limit_existence",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -323,7 +323,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.quadratic_forms",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.orthogonal_standard_form",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.real_symmetric_properties",
@@ -331,7 +331,7 @@
     "la.knowledge.inertia_theorem"
    ],
    "methodIds": [],
-   "notes": "已校对；原图为必要图形信息，题干文字补充曲面描述；图片路径存 questionImages",
+   "notes": "已校对；原图为必要图形信息，题干文字补充曲面描述；图片路径存 questionImages；人工补标：题型 la.problem_type.orthogonal_standard_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -447,13 +447,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "composite_implicit_derivative",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "implicit_derivative"
    ],
    "methodIds": [],
-   "notes": "已校对；题干补空线（源 md 缺失）",
+   "notes": "已校对；题干补空线（源 md 缺失）；人工补标：题型 composite_implicit_derivative",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -507,14 +507,14 @@
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "gauss_formula",
     "surface_integral_definition"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 surface_integral_second_kind",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -569,7 +569,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.common_discrete_distributions",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.poisson_distribution",
@@ -577,7 +577,7 @@
     "prob.knowledge.variance"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.common_discrete_distributions",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -663,13 +663,13 @@
    "answerImages": [],
    "primaryChapterId": "multivariable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "conditional_extrema",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "extrema"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 conditional_extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -787,14 +787,14 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.linear_systems",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_product_determinant",
     "la.knowledge.general_solution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.nonhomogeneous_system",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -851,7 +851,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.mathematical_statistics",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.sample_mean_variance",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.population_and_sample",
@@ -860,7 +860,7 @@
     "prob.knowledge.unbiasedness"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.sample_mean_variance",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -292,13 +292,13 @@
       "answerImages": [],
       "primaryChapterId": "la.chapter.matrices",
       "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
+      "primaryProblemTypeId": "la.problem_type.matrix_operation",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
         "la.knowledge.matrix_operations"
       ],
       "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_operation",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -322,14 +322,14 @@
       "answerImages": [],
       "primaryChapterId": "la.chapter.matrices",
       "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
+      "primaryProblemTypeId": "la.problem_type.matrix_equation",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
         "la.knowledge.matrix_product_determinant",
         "la.knowledge.inverse_matrix"
       ],
       "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_equation",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -819,7 +819,7 @@
       "answerImages": [],
       "primaryChapterId": "la.chapter.linear_systems",
       "secondaryChapterIds": [],
-      "primaryProblemTypeId": "",
+      "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
       "secondaryProblemTypeIds": [],
       "knowledgePointIds": [
         "la.knowledge.nonhomogeneous_solvability",
@@ -827,7 +827,7 @@
         "la.knowledge.matrix_rank"
       ],
       "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
+      "notes": "已校对；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems；人工补标：题型 la.problem_type.nonhomogeneous_system",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",

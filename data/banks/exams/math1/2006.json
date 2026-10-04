@@ -229,13 +229,13 @@
    "answerImages": [],
    "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "gauss_formula"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 surface_integral_second_kind",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -289,13 +289,13 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.matrix_equation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.matrix_product_determinant"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.matrix_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -350,13 +350,13 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "monotonicity"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 derivative_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -380,14 +380,14 @@
    "answerImages": [],
    "primaryChapterId": "multiple_integral",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "integration_order",
     "polar_coordinates"
    ],
    "methodIds": [],
-   "notes": "已校对；选项 A 补标号（源 md 缺失）；科目按题面改判为高等数学",
+   "notes": "已校对；选项 A 补标号（源 md 缺失）；科目按题面改判为高等数学；人工补标：题型 double_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -534,14 +534,14 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_events",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.conditional_probability",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.conditional_probability_formula",
     "prob.knowledge.probability_properties"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.conditional_probability",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -565,13 +565,13 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.normal_distribution_calculation",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.normal_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 prob.type.normal_distribution_calculation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -781,7 +781,7 @@
    "answerImages": [],
    "primaryChapterId": "la.chapter.eigenvalues",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "la.problem_type.real_symmetric_diagonalization",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "la.knowledge.real_symmetric_properties",
@@ -792,7 +792,7 @@
     "la.knowledge.schmidt_orthogonalization"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 la.problem_type.real_symmetric_diagonalization",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -816,7 +816,7 @@
    "answerImages": [],
    "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "prob.type.function_distribution",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "prob.knowledge.distribution_function",
@@ -824,7 +824,7 @@
     "prob.knowledge.function_of_random_variable"
    ],
    "methodIds": [],
-   "notes": "已校对；修复题干断行粘连（变量/量）",
+   "notes": "已校对；修复题干断行粘连（变量/量）；人工补标：题型 prob.type.function_distribution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

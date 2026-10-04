@@ -427,14 +427,14 @@
    "answerImages": [],
    "primaryChapterId": "one_variable_differential",
    "secondaryChapterIds": [],
-   "primaryProblemTypeId": "",
+   "primaryProblemTypeId": "concavity_inflection",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "function_properties",
     "concavity_inflection"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工补标：题型 concavity_inflection",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
