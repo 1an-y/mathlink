@@ -272,9 +272,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "important_limits",
+    "derivative_arithmetic_rules"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 important_limits,derivative_arithmetic_rules",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -360,9 +363,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.abstract_determinant",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.determinant_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；人工补标：题型 la.problem_type.abstract_determinant；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.determinants（内容与章节错挂）",
+   "notes": "已校对；人工补标：题型 la.problem_type.abstract_determinant；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.determinants（内容与章节错挂）；人工补标：知识点 la.knowledge.determinant_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -448,9 +453,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "triple_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核",
+   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；人工补标：知识点 multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -536,9 +543,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "composite_implicit_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "composite_function_chain_rule"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 composite_implicit_derivative",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 composite_implicit_derivative；人工补标：知识点 composite_function_chain_rule",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -564,9 +573,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "characteristic_equation",
+    "second_order_nonhomogeneous_linear"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation；人工补标：知识点 characteristic_equation,second_order_nonhomogeneous_linear",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -623,9 +635,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.matrix_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.matrix_power"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.matrix_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "notes": "已校对；自动打标(规则)：la.problem_type.matrix_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工补标：知识点 la.knowledge.inverse_matrix,la.knowledge.matrix_power",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -681,9 +696,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.similarity_judgment",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.similarity_concept",
+    "la.knowledge.eigen_concept",
+    "la.knowledge.diagonalization_criteria"
+   ],
    "methodIds": [],
-   "notes": "已校对；人工补标：题型 la.problem_type.similarity_judgment；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.eigenvalues（内容与章节错挂）",
+   "notes": "已校对；人工补标：题型 la.problem_type.similarity_judgment；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.eigenvalues（内容与章节错挂）；人工补标：知识点 la.knowledge.similarity_concept,la.knowledge.eigen_concept,la.knowledge.diagonalization_criteria",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

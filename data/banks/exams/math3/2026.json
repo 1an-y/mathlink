@@ -316,9 +316,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "characteristic_equation",
+    "second_order_nonhomogeneous_linear"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；自动打标(规则)：linear_higher_order_equation，待人工复核；入库回填：主章节按打标推断为 differential_equation",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；自动打标(规则)：linear_higher_order_equation，待人工复核；入库回填：主章节按打标推断为 differential_equation；人工补标：知识点 characteristic_equation,second_order_nonhomogeneous_linear",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -436,9 +439,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "double_integral_region",
+    "rectangular_coordinates"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：double_integral，待人工复核；入库回填：主章节按打标推断为 multiple_integral",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：double_integral，待人工复核；入库回填：主章节按打标推断为 multiple_integral；人工补标：知识点 double_integral_region,rectangular_coordinates",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

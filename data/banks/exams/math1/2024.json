@@ -349,9 +349,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.eigenvalue_properties",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.eigen_concept",
+    "la.knowledge.eigen_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.eigenvalues（内容为eigenvalues）；人工补标：题型 la.problem_type.eigenvalue_properties",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；已按规则打标；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.eigenvalues（内容为eigenvalues）；人工补标：题型 la.problem_type.eigenvalue_properties；人工补标：知识点 la.knowledge.eigen_concept,la.knowledge.eigen_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -469,9 +472,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 equivalent_infinitesimal,indeterminate_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -557,9 +563,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "homogeneous_first_order_equation",
+    "separable_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 first_order_differential_equation；人工修正主章节：one_variable_differential -> differential_equation（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 first_order_differential_equation；人工修正主章节：one_variable_differential -> differential_equation（对齐题型所在章）；人工补标：知识点 homogeneous_first_order_equation,separable_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -615,9 +624,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.bernoulli_trials",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.conditional_probability_formula",
+    "prob.knowledge.independent_repeated_trials"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.bernoulli_trials",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.bernoulli_trials；人工补标：知识点 prob.knowledge.conditional_probability_formula,prob.knowledge.independent_repeated_trials",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -643,9 +655,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "polar_coordinates",
+    "double_integral_region"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：double_integral，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；已按规则打标；自动打标(规则)：double_integral，待人工复核；人工补标：知识点 polar_coordinates,double_integral_region",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -732,9 +747,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition",
+    "orientation",
+    "stokes_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 line_integral_definition,orientation,stokes_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -185,9 +185,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；人工补标：题型 derivative_calculation",
+   "notes": "已校对；人工补标：题型 derivative_calculation；人工补标：知识点 derivative_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -550,9 +552,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "triple_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "cylindrical_spherical_coordinates",
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral；人工补标：知识点 cylindrical_spherical_coordinates,multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -668,9 +673,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.system_with_parameters",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.nonhomogeneous_solvability",
+    "la.knowledge.general_solution"
+   ],
    "methodIds": [],
-   "notes": "已校对；源解析通解向量漏写第三分量，已按验算补全；自动打标(规则)：la.problem_type.system_with_parameters，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
+   "notes": "已校对；源解析通解向量漏写第三分量，已按验算补全；自动打标(规则)：la.problem_type.system_with_parameters，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems；人工补标：知识点 la.knowledge.nonhomogeneous_solvability,la.knowledge.general_solution",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -756,9 +764,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_first_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "area_volume_arc",
+    "extrema"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 surface_integral_first_kind",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 surface_integral_first_kind；人工补标：知识点 area_volume_arc,extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -814,9 +825,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.conditional_probability",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.conditional_probability_formula",
+    "prob.knowledge.event_independence"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.conditional_probability",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.conditional_probability；人工补标：知识点 prob.knowledge.conditional_probability_formula,prob.knowledge.event_independence",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

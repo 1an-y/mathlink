@@ -252,9 +252,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "reducible_higher_order_equation"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；人工补标：知识点 reducible_higher_order_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -552,9 +554,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "double_integral_region",
+    "integration_order",
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral；人工补标：知识点 double_integral_region,integration_order,multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -641,9 +647,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "second_order_nonhomogeneous_linear",
+    "taylor_series"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation；人工补标：知识点 second_order_nonhomogeneous_linear,taylor_series",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -730,9 +739,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "conditional_extrema",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "directional_derivative_gradient",
+    "extrema"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 conditional_extrema",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 conditional_extrema；人工补标：知识点 directional_derivative_gradient,extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -392,9 +392,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "alternating_general_series",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "numeric_series_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series；人工补标：题型 alternating_general_series",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series；人工补标：题型 alternating_general_series；人工补标：知识点 numeric_series_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -420,9 +422,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：double_integral，待人工复核",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；人工补标：知识点 multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -478,9 +482,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form",
+    "equivalent_infinitesimal"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 indeterminate_form,equivalent_infinitesimal",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -538,9 +545,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "triple_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "triple_integral_region",
+    "polar_coordinates"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "notes": "已校对；自动打标(规则)：triple_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral；人工补标：知识点 triple_integral_region,polar_coordinates",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -566,9 +576,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition",
+    "extrema"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 line_integral_definition,extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

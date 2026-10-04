@@ -209,9 +209,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "important_limits",
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 important_limits,indeterminate_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -267,9 +270,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "integration_order",
+    "double_integral_region"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核；人工补标：知识点 integration_order,double_integral_region",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -326,9 +332,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "variable_upper_integral"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 integral_defined_function",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 integral_defined_function；人工补标：知识点 variable_upper_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -354,9 +362,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "higher_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_arithmetic_rules",
+    "composite_derivative"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：higher_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "notes": "已校对；自动打标(规则)：higher_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential；人工补标：知识点 derivative_arithmetic_rules,composite_derivative",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -443,9 +454,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.solution_structure",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.general_solution",
+    "la.knowledge.basic_solution_system"
+   ],
    "methodIds": [],
-   "notes": "已校对；人工补标：题型 la.problem_type.solution_structure；人工修正主章节：differential_equation -> la.chapter.linear_systems（内容与章节错挂）",
+   "notes": "已校对；人工补标：题型 la.problem_type.solution_structure；人工修正主章节：differential_equation -> la.chapter.linear_systems（内容与章节错挂）；人工补标：知识点 la.knowledge.general_solution,la.knowledge.basic_solution_system",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -471,9 +485,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核；人工补标：知识点 definite_integral_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -592,9 +608,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "gauss_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 surface_integral_definition,gauss_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

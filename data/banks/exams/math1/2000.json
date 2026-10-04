@@ -181,9 +181,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "area_volume_arc"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核",
+   "notes": "已校对；自动打标(规则)：definite_integral，待人工复核；人工补标：知识点 area_volume_arc",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -239,9 +241,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "reducible_higher_order_equation"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；人工补标：知识点 reducible_higher_order_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -267,9 +271,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.system_with_parameters",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.nonhomogeneous_solvability"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.system_with_parameters；人工修正主章节：function_limit_continuity -> la.chapter.linear_systems",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.system_with_parameters；人工修正主章节：function_limit_continuity -> la.chapter.linear_systems；人工补标：知识点 la.knowledge.nonhomogeneous_solvability",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -325,9 +331,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "monotonicity_extrema",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "monotonicity",
+    "derivative_arithmetic_rules"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 monotonicity_extrema",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 monotonicity_extrema；人工补标：知识点 monotonicity,derivative_arithmetic_rules",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -353,9 +362,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "multiple_integral_symmetry",
+    "surface_integral_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral；人工补标：知识点 multiple_integral_symmetry,surface_integral_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -381,9 +393,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "alternating_general_series",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "numeric_series_properties",
+    "absolute_conditional_convergence"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series；自动打标(规则)：alternating_general_series，待人工复核",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 infinite_series；自动打标(规则)：alternating_general_series，待人工复核；人工补标：知识点 numeric_series_properties,absolute_conditional_convergence",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -473,9 +488,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "one_sided_limit",
+    "infinite_and_infinitesimal"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity；人工补标：知识点 one_sided_limit,infinite_and_infinitesimal",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -531,9 +549,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "green_formula",
+    "line_integral_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 green_formula,line_integral_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -559,9 +580,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "gauss_formula",
+    "first_order_linear_equation"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 surface_integral_second_kind",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 surface_integral_second_kind；人工补标：知识点 gauss_formula,first_order_linear_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

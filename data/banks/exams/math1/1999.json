@@ -181,9 +181,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form",
+    "equivalent_infinitesimal"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 indeterminate_form,equivalent_infinitesimal",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -239,9 +242,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "characteristic_equation",
+    "second_order_nonhomogeneous_linear"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；人工补标：知识点 characteristic_equation,second_order_nonhomogeneous_linear",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -417,9 +423,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.matrix_rank",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.rank_properties",
+    "la.knowledge.matrix_rank"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_rank",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_rank；人工补标：知识点 la.knowledge.rank_properties,la.knowledge.matrix_rank",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -506,9 +515,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition",
+    "green_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 line_integral_definition,green_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -564,9 +576,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "inequality_proof",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "monotonicity",
+    "extrema"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 inequality_proof",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 inequality_proof；人工补标：知识点 monotonicity,extrema",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -592,9 +607,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "physical_applications_of_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "integral_physical_applications"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 physical_applications_of_integral",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 physical_applications_of_integral；人工补标：知识点 integral_physical_applications",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

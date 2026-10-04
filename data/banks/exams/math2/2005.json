@@ -697,11 +697,14 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "parametric_derivative",
+    "second_order_homogeneous_linear"
+   ],
    "methodIds": [
     "variable_substitution"
    ],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；人工补标：知识点 parametric_derivative,second_order_homogeneous_linear",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

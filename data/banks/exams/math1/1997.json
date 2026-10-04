@@ -184,9 +184,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 equivalent_infinitesimal,indeterminate_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -272,9 +275,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.homogeneous_system",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.homogeneous_nonzero_solution",
+    "la.knowledge.determinant_zero_criteria"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.homogeneous_system",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.homogeneous_system；人工补标：知识点 la.knowledge.homogeneous_nonzero_solution,la.knowledge.determinant_zero_criteria",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -300,9 +306,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.total_probability_bayes",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.total_probability_formula",
+    "prob.knowledge.conditional_probability_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables；人工补标：题型 prob.type.total_probability_bayes",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables；人工补标：题型 prob.type.total_probability_bayes；人工补标：知识点 prob.knowledge.total_probability_formula,prob.knowledge.conditional_probability_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -359,9 +368,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties",
+    "monotonicity",
+    "concavity_inflection"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral；人工补标：知识点 definite_integral_properties,monotonicity,concavity_inflection",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -387,9 +400,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral；人工补标：知识点 definite_integral_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -567,9 +582,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "partial_derivative_total_differential",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "geometric_applications_multivariable",
+    "plane_line_position_relation"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 partial_derivative_total_differential",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 partial_derivative_total_differential；人工补标：知识点 geometric_applications_multivariable,plane_line_position_relation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -657,9 +675,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "function_properties",
+    "limit_operations"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；人工补标：知识点 function_properties,limit_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -685,9 +706,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "alternating_general_series",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "numeric_series_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核",
+   "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核；人工补标：知识点 numeric_series_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

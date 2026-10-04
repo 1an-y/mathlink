@@ -225,9 +225,11 @@
       "secondaryChapterIds": [],
       "primaryProblemTypeId": "indefinite_integral",
       "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
       "methodIds": [],
-      "notes": "已校对",
+      "notes": "已校对；人工补标：知识点 indefinite_integral_formulas",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -283,9 +285,12 @@
       "secondaryChapterIds": [],
       "primaryProblemTypeId": "la.problem_type.vector_group_rank",
       "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
+      "knowledgePointIds": [
+        "la.knowledge.vector_group_rank",
+        "la.knowledge.linear_correlation"
+      ],
       "methodIds": [],
-      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.vector_group_rank",
+      "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.vector_group_rank；人工补标：知识点 la.knowledge.vector_group_rank,la.knowledge.linear_correlation",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",
@@ -525,9 +530,11 @@
       "secondaryChapterIds": [],
       "primaryProblemTypeId": "indefinite_integral",
       "secondaryProblemTypeIds": [],
-      "knowledgePointIds": [],
+      "knowledgePointIds": [
+        "indefinite_integral_formulas"
+      ],
       "methodIds": [],
-      "notes": "已校对",
+      "notes": "已校对；人工补标：知识点 indefinite_integral_formulas",
       "createdAt": "2026-09-28T00:00:00.000Z",
       "attempts": [],
       "origin": "builtin",

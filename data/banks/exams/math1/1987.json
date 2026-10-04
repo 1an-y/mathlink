@@ -380,9 +380,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.matrix_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.inverse_matrix",
+    "la.knowledge.matrix_operations"
+   ],
    "methodIds": [],
-   "notes": "已校对；人工补标：题型 la.problem_type.matrix_equation；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.matrices（内容与章节错挂）",
+   "notes": "已校对；人工补标：题型 la.problem_type.matrix_equation；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.matrices（内容与章节错挂）；人工补标：知识点 la.knowledge.inverse_matrix,la.knowledge.matrix_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -408,9 +411,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "characteristic_equation",
+    "second_order_nonhomogeneous_linear"
+   ],
    "methodIds": [],
-   "notes": "已校对；源 md 题干误录为 $y''+6y''+(9+a^{2})y'=1$，按解析中特征方程核验应为 $y'''$，已修正；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
+   "notes": "已校对；源 md 题干误录为 $y''+6y''+(9+a^{2})y'=1$，按解析中特征方程核验应为 $y'''$，已修正；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation；人工补标：知识点 characteristic_equation,second_order_nonhomogeneous_linear",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -586,9 +592,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.total_probability_bayes",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.total_probability_formula",
+    "prob.knowledge.bayes_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables；人工补标：题型 prob.type.total_probability_bayes",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables；人工补标：题型 prob.type.total_probability_bayes；人工补标：知识点 prob.knowledge.total_probability_formula,prob.knowledge.bayes_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -677,9 +686,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "gauss_formula",
+    "rotating_surface"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 surface_integral_definition,gauss_formula,rotating_surface",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -705,9 +718,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "equation_root",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "closed_interval_continuity",
+    "mean_value_theorem"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 equation_root",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 equation_root；人工补标：知识点 closed_interval_continuity,mean_value_theorem",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -312,9 +312,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.matrix_rank",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_rank",
+    "la.knowledge.rank_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_rank",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_rank；人工补标：知识点 la.knowledge.matrix_rank,la.knowledge.rank_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -434,9 +437,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 equivalent_infinitesimal,indeterminate_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -493,9 +499,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "directional_derivative_gradient",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "directional_derivative_gradient"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 directional_derivative_gradient；人工修正主章节：function_limit_continuity -> multivariable_differential（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 directional_derivative_gradient；人工修正主章节：function_limit_continuity -> multivariable_differential（对齐题型所在章）；人工补标：知识点 directional_derivative_gradient",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -521,9 +529,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition",
+    "green_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；自动打标(规则)：definite_integral，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；自动打标(规则)：definite_integral，待人工复核；人工补标：知识点 line_integral_definition,green_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -610,9 +621,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indefinite_integral_formulas",
+    "fundamental_theorem_calculus"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral；人工修正主章节：function_limit_continuity -> one_variable_integral（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral；人工修正主章节：function_limit_continuity -> one_variable_integral（对齐题型所在章）；人工补标：知识点 indefinite_integral_formulas,fundamental_theorem_calculus",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -638,9 +652,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "composite_implicit_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "composite_function_chain_rule",
+    "euler_equation"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 composite_implicit_derivative；人工修正主章节：one_variable_differential -> multivariable_differential（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 composite_implicit_derivative；人工修正主章节：one_variable_differential -> multivariable_differential（对齐题型所在章）；人工补标：知识点 composite_function_chain_rule,euler_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -696,9 +713,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "gauss_formula",
+    "surface_integral_definition",
+    "rotating_surface"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；人工补标：题型 surface_integral_second_kind；人工修正主章节：one_variable_integral -> curve_surface_integral（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；人工补标：题型 surface_integral_second_kind；人工修正主章节：one_variable_integral -> curve_surface_integral（对齐题型所在章）；人工补标：知识点 gauss_formula,surface_integral_definition,rotating_surface",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -724,9 +745,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.eigenvalue_computation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.eigen_concept",
+    "la.knowledge.eigenvector_properties"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.eigenvalue_computation；人工修正主章节：la.chapter.matrices -> la.chapter.eigenvalues（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.eigenvalue_computation；人工修正主章节：la.chapter.matrices -> la.chapter.eigenvalues（对齐题型所在章）；人工补标：知识点 la.knowledge.eigen_concept,la.knowledge.eigenvector_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

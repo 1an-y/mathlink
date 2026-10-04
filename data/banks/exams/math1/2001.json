@@ -393,9 +393,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "derivative_calculation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 derivative_calculation",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 derivative_calculation；人工补标：知识点 derivative_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -482,9 +484,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "indefinite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indefinite_integral_formulas"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 indefinite_integral",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 indefinite_integral；人工补标：知识点 indefinite_integral_formulas",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -600,9 +604,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem",
+    "monotonicity"
+   ],
    "methodIds": [],
-   "notes": "已校对；解析文字按源思路重写；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 mean_value_theorem",
+   "notes": "已校对；解析文字按源思路重写；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 mean_value_theorem；人工补标：知识点 mean_value_theorem,monotonicity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -628,9 +635,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "taylor_formula",
+    "mean_value_theorem"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 taylor_formula,mean_value_theorem",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -656,9 +666,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "separable_equation",
+    "area_volume_arc",
+    "surface_integral_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 first_order_differential_equation",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 first_order_differential_equation；人工补标：知识点 separable_equation,area_volume_arc,surface_integral_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

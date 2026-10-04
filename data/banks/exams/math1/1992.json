@@ -276,9 +276,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "first_order_linear_equation"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：first_order_differential_equation，待人工复核",
+   "notes": "已校对；自动打标(规则)：first_order_differential_equation，待人工复核；人工补标：知识点 first_order_linear_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -334,9 +336,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "one_sided_limit",
+    "infinite_and_infinitesimal"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity；人工补标：知识点 one_sided_limit,infinite_and_infinitesimal",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -422,9 +427,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "higher_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：higher_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential",
+   "notes": "已校对；自动打标(规则)：higher_derivative，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_differential；人工补标：知识点 derivative_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -450,9 +457,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.homogeneous_system",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.homogeneous_nonzero_solution",
+    "la.knowledge.matrix_rank"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.homogeneous_system，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems",
+   "notes": "已校对；自动打标(规则)：la.problem_type.homogeneous_system，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.linear_systems；人工补标：知识点 la.knowledge.homogeneous_nonzero_solution,la.knowledge.matrix_rank",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -478,9 +488,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "taylor_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 equivalent_infinitesimal,taylor_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -537,9 +550,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "definite_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_substitution",
+    "piecewise_integral"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 definite_integral；人工补标：知识点 definite_integral_substitution,piecewise_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -565,9 +581,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "linear_higher_order_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "characteristic_equation",
+    "second_order_nonhomogeneous_linear"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation",
+   "notes": "已校对；自动打标(规则)：linear_higher_order_equation，待人工复核；审计回填：主章节原为空，按打标多数票推断为 differential_equation；人工补标：知识点 characteristic_equation,second_order_nonhomogeneous_linear",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -593,9 +612,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "gauss_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：surface_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 surface_integral_definition,gauss_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -621,9 +643,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "inequality_proof",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem",
+    "monotonicity"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 inequality_proof",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 inequality_proof；人工补标：知识点 mean_value_theorem,monotonicity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -800,9 +825,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.event_relations_operations",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.event_relations_operations",
+    "prob.knowledge.probability_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.event_relations_operations",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.event_relations_operations；人工补标：知识点 prob.knowledge.event_relations_operations,prob.knowledge.probability_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

@@ -165,9 +165,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "equivalent_infinitesimal",
+    "limit_operations"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；入库回填：主章节按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；入库回填：主章节按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 equivalent_infinitesimal,limit_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -223,9 +226,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "limit_operations"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；入库回填：主章节按关键词兜底推断为 function_limit_continuity；自动打标(规则)：sequence_limit，待人工复核",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；入库回填：主章节按关键词兜底推断为 function_limit_continuity；自动打标(规则)：sequence_limit，待人工复核；人工补标：知识点 limit_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

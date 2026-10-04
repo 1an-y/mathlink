@@ -189,9 +189,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "taylor_formula",
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 taylor_formula,indeterminate_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -247,9 +250,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_first_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "line_integral_definition",
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_first_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：line_integral_first_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 line_integral_definition,multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -365,9 +371,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "piecewise_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：piecewise_derivative，待人工复核",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；自动打标(规则)：piecewise_derivative，待人工复核；人工补标：知识点 derivative_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -453,9 +461,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.event_independence_judgment",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.event_independence",
+    "prob.knowledge.conditional_probability_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.event_independence_judgment",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_events；人工补标：题型 prob.type.event_independence_judgment；人工补标：知识点 prob.knowledge.event_independence,prob.knowledge.conditional_probability_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -571,9 +582,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "gauss_formula"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral",
+   "notes": "已校对；自动打标(规则)：double_integral，待人工复核；审计回填：主章节原为空，按打标多数票推断为 multiple_integral；人工补标：知识点 surface_integral_definition,gauss_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -599,9 +613,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "definite_integral_properties",
+    "limit_operations"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity；人工补标：知识点 definite_integral_properties,limit_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -748,9 +765,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.linear_correlation"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.linear_systems；自动打标(规则)：la.problem_type.nonhomogeneous_system，待人工复核",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.linear_systems；自动打标(规则)：la.problem_type.nonhomogeneous_system，待人工复核；人工补标：知识点 la.knowledge.linear_correlation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

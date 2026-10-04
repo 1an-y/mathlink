@@ -179,9 +179,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "important_limits",
+    "indeterminate_form"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 important_limits,indeterminate_form",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -207,9 +210,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "integral_defined_function",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "variable_upper_integral"
+   ],
    "methodIds": [],
-   "notes": "已校对；人工补标：题型 integral_defined_function",
+   "notes": "已校对；人工补标：题型 integral_defined_function；人工补标：知识点 variable_upper_integral",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -235,9 +240,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "vector_operations",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mixed_product",
+    "vector_product"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 vector_operations",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 vector_operations；人工补标：知识点 mixed_product,vector_product",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -354,9 +362,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem",
+    "monotonicity"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 mean_value_theorem",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 mean_value_theorem；人工补标：知识点 mean_value_theorem,monotonicity",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -382,9 +393,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "piecewise_derivative",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "derivative_definition"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 piecewise_derivative",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 piecewise_derivative；人工补标：知识点 derivative_definition",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -410,9 +423,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "alternating_general_series",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "alternating_series",
+    "numeric_series_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核",
+   "notes": "已校对；自动打标(规则)：alternating_general_series，待人工复核；人工补标：知识点 alternating_series,numeric_series_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -438,9 +454,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.elementary_matrix_problem",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.elementary_matrix",
+    "la.knowledge.elementary_transformation"
+   ],
    "methodIds": [],
-   "notes": "已校对；源 md 题干中 B 与 P1 的矩阵排版严重错乱，按原题修复；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.elementary_matrix_problem；人工修正主章节：function_limit_continuity -> la.chapter.matrices（内容与章节错挂）",
+   "notes": "已校对；源 md 题干中 B 与 P1 的矩阵排版严重错乱，按原题修复；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.elementary_matrix_problem；人工修正主章节：function_limit_continuity -> la.chapter.matrices（内容与章节错挂）；人工补标：知识点 la.knowledge.elementary_matrix,la.knowledge.elementary_transformation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -588,9 +607,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "first_order_differential_equation",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "first_order_linear_equation"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 first_order_differential_equation",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 first_order_differential_equation；人工补标：知识点 first_order_linear_equation",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -646,9 +667,11 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "mean_value_theorem",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "mean_value_theorem"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 mean_value_theorem",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 one_variable_differential；人工补标：题型 mean_value_theorem；人工补标：知识点 mean_value_theorem",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -735,9 +758,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.abstract_determinant",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_product_determinant",
+    "la.knowledge.orthogonal_matrix"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.abstract_determinant",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.abstract_determinant；人工补标：知识点 la.knowledge.matrix_product_determinant,la.knowledge.orthogonal_matrix",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -823,9 +849,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.function_distribution",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.function_of_random_variable",
+    "prob.knowledge.continuous_density"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_variables；人工补标：题型 prob.type.function_distribution",
+   "notes": "已校对；审计回填：主章节原为空，按关键词推断为 prob.chapter.random_variables；人工补标：题型 prob.type.function_distribution；人工补标：知识点 prob.knowledge.function_of_random_variable,prob.knowledge.continuous_density",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

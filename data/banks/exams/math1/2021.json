@@ -311,9 +311,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.orthogonalization",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.schmidt_orthogonalization",
+    "la.knowledge.inner_product"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.orthogonalization；人工修正主章节：function_limit_continuity -> la.chapter.vectors（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.orthogonalization；人工修正主章节：function_limit_continuity -> la.chapter.vectors（对齐题型所在章）；人工补标：知识点 la.knowledge.schmidt_orthogonalization,la.knowledge.inner_product",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -339,9 +342,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.matrix_rank",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.matrix_rank",
+    "la.knowledge.rank_properties",
+    "la.knowledge.block_matrix"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_rank",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 la.chapter.matrices；人工补标：题型 la.problem_type.matrix_rank；人工补标：知识点 la.knowledge.matrix_rank,la.knowledge.rank_properties,la.knowledge.block_matrix",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -550,9 +557,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "surface_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "surface_integral_definition",
+    "gauss_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；人工补标：题型 surface_integral_second_kind；人工修正主章节：one_variable_integral -> curve_surface_integral（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（probability_statistics）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；人工补标：题型 surface_integral_second_kind；人工修正主章节：one_variable_integral -> curve_surface_integral（对齐题型所在章）；人工补标：知识点 surface_integral_definition,gauss_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -730,9 +740,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "double_integral",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "double_integral_region",
+    "polar_coordinates",
+    "green_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；人工补标：题型 double_integral；人工修正主章节：one_variable_integral -> multiple_integral（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（linear_algebra）；审计回填：主章节原为空，按关键词推断为 one_variable_integral；人工补标：题型 double_integral；人工修正主章节：one_variable_integral -> multiple_integral（对齐题型所在章）；人工补标：知识点 double_integral_region,polar_coordinates,green_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

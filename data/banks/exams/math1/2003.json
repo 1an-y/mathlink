@@ -222,9 +222,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form",
+    "equivalent_infinitesimal",
+    "important_limits"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：function_limit，待人工复核",
+   "notes": "已校对；自动打标(规则)：function_limit，待人工复核；人工补标：知识点 indeterminate_form,equivalent_infinitesimal,important_limits",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -434,9 +438,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "sequence_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "infinite_and_infinitesimal",
+    "limit_operations"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "notes": "已校对；自动打标(规则)：sequence_limit，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity；人工补标：知识点 infinite_and_infinitesimal,limit_operations",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -674,9 +681,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "green_formula",
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 green_formula,multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -702,9 +712,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "green_formula",
+    "multiple_integral_symmetry"
+   ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral",
+   "notes": "已校对；自动打标(规则)：line_integral_second_kind，待人工复核；审计回填：主章节原为空，按打标多数票推断为 curve_surface_integral；人工补标：知识点 green_formula,multiple_integral_symmetry",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -882,9 +895,13 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "integral_equality_inequality",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "variable_upper_integral",
+    "polar_coordinates",
+    "cylindrical_spherical_coordinates"
+   ],
    "methodIds": [],
-   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 integral_equality_inequality",
+   "notes": "已校对；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 integral_equality_inequality；人工补标：知识点 variable_upper_integral,polar_coordinates,cylindrical_spherical_coordinates",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -940,9 +957,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.nonhomogeneous_system",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "la.knowledge.nonhomogeneous_solvability",
+    "la.knowledge.rank_properties"
+   ],
    "methodIds": [],
-   "notes": "已校对；解析按标准证法重写（利用含增广列的行列式）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.nonhomogeneous_system；人工修正主章节：function_limit_continuity -> la.chapter.linear_systems",
+   "notes": "已校对；解析按标准证法重写（利用含增广列的行列式）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；人工补标：题型 la.problem_type.nonhomogeneous_system；人工修正主章节：function_limit_continuity -> la.chapter.linear_systems；人工补标：知识点 la.knowledge.nonhomogeneous_solvability,la.knowledge.rank_properties",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -999,9 +1019,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.total_probability_bayes",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "prob.knowledge.total_probability_formula",
+    "prob.knowledge.classical_probability"
+   ],
    "methodIds": [],
-   "notes": "已校对；删除粘连入题干的下一大题片段（十二题题干）；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables；人工补标：题型 prob.type.total_probability_bayes",
+   "notes": "已校对；删除粘连入题干的下一大题片段（十二题题干）；审计回填：主章节原为空，按关键词兜底推断为 prob.chapter.random_variables；人工补标：题型 prob.type.total_probability_bayes；人工补标：知识点 prob.knowledge.total_probability_formula,prob.knowledge.classical_probability",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

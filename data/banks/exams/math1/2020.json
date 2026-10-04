@@ -385,9 +385,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "function_limit",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "indeterminate_form",
+    "taylor_formula"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核；答案由 OCR 解析卷回填（16 为验算值）；人工修复：题干截除混入的解析文本",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；自动打标(规则)：function_limit，待人工复核；答案由 OCR 解析卷回填（16 为验算值）；人工修复：题干截除混入的解析文本；人工补标：知识点 indeterminate_form,taylor_formula",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -555,9 +558,12 @@
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "line_integral_second_kind",
    "secondaryProblemTypeIds": [],
-   "knowledgePointIds": [],
+   "knowledgePointIds": [
+    "green_formula",
+    "path_independence"
+   ],
    "methodIds": [],
-   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；审计标记：原 OCR 公式有重复与截断（ Green 公式偏导等式后的中段无法确证），已截断待人工核对原卷；答案由 OCR 解析卷回填（16 为验算值）；人工修复：题干此前误存为纯解析文本，已恢复原始试卷转录题干（解析不入题干）；人工补标：题型 line_integral_second_kind；人工修正主章节：function_limit_continuity -> curve_surface_integral（对齐题型所在章）",
+   "notes": "OCR/文本转录初稿，待逐题校对；科目归类为按题号推算（calculus）；审计回填：主章节原为空，按关键词兜底推断为 function_limit_continuity；审计标记：原 OCR 公式有重复与截断（ Green 公式偏导等式后的中段无法确证），已截断待人工核对原卷；答案由 OCR 解析卷回填（16 为验算值）；人工修复：题干此前误存为纯解析文本，已恢复原始试卷转录题干（解析不入题干）；人工补标：题型 line_integral_second_kind；人工修正主章节：function_limit_continuity -> curve_surface_integral（对齐题型所在章）；人工补标：知识点 green_formula,path_independence",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
