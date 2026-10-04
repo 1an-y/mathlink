@@ -238,10 +238,17 @@
   "file": "data/banks/exams/math1/2021.json"
  },
  {
+  "year": 2022,
+  "paper": "math1",
+  "total": 22,
+  "withAnswer": 22,
+  "file": "data/banks/exams/math1/2022.json"
+ },
+ {
   "year": 2023,
   "paper": "math1",
   "total": 22,
-  "withAnswer": 15,
+  "withAnswer": 22,
   "file": "data/banks/exams/math1/2023.json"
  },
  {
@@ -577,7 +584,7 @@
   "year": 2026,
   "paper": "math3",
   "total": 12,
-  "withAnswer": 0,
+  "withAnswer": 12,
   "file": "data/banks/exams/math3/2026.json"
  }
 ]
