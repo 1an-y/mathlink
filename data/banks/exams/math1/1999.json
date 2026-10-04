@@ -616,7 +616,7 @@
    "answerText": "答案：$\\dfrac{3\\pi}{2}$\n\n**解析：**\n椭球面在 $P$ 处的切平面为 $\\dfrac{x}{2}X+\\dfrac{y}{2}Y+zZ=1$，故 $\\rho=\\dfrac{1}{\\sqrt{\\frac{x^{2}}{4}+\\frac{y^{2}}{4}+z^{2}}}$。在 $S$ 上 $z=\\sqrt{1-\\frac{x^{2}+y^{2}}{2}}$，于是 $z\\sqrt{\\frac{x^{2}}{4}+\\frac{y^{2}}{4}+z^{2}}=\\dfrac{z}{2}\\sqrt{4-x^{2}-y^{2}}$，而 $\\mathrm{d}S=\\dfrac{\\sqrt{4-x^{2}-y^{2}}}{2z}\\,\\mathrm{d}x\\mathrm{d}y$，两者相乘恰为 $\\dfrac{4-x^{2}-y^{2}}{4}\\,\\mathrm{d}x\\mathrm{d}y$。故原积分 $=\\dfrac{1}{4}\\displaystyle\\iint_{x^{2}+y^{2}\\le 2}(4-r^{2})\\,r\\,\\mathrm{d}r\\,\\mathrm{d}\\theta=\\frac{1}{4}\\cdot 2\\pi\\left(2r^{2}-\\frac{r^{4}}{4}\\right)\\Big|_{0}^{\\sqrt{2}}=\\frac{3\\pi}{2}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "vector_algebra_and_space_analytic_geometry",
+   "primaryChapterId": "curve_surface_integral",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
@@ -627,7 +627,7 @@
     "quadric_surface_equations"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：geometric_applications_multivariable、plane_line_position_relation、prob.knowledge.correlation_coefficient、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 vector_algebra_and_space_analytic_geometry",
+   "notes": "已校对；自动打标(规则)：geometric_applications_multivariable、plane_line_position_relation、prob.knowledge.correlation_coefficient、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 vector_algebra_and_space_analytic_geometry；人工修正主章节：vector_algebra_and_space_analytic_geometry -> curve_surface_integral（跨科目错挂）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -776,13 +776,12 @@
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.block_matrix",
     "prob.knowledge.conditional_distribution",
     "prob.knowledge.joint_discrete_distribution",
     "prob.knowledge.marginal_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.conditional_distribution、prob.knowledge.joint_discrete_distribution、prob.knowledge.marginal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
+   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.conditional_distribution、prob.knowledge.joint_discrete_distribution、prob.knowledge.marginal_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables；人工修复：删除无关跨科目标签 la.knowledge.block_matrix",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

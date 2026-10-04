@@ -830,7 +830,7 @@
    "answerText": "答案：$f_{X}(x)=\\begin{cases}2x, & 0<x<1,\\\\ 0, & \\text{其他}；\\end{cases}\\quad D(Z)=\\dfrac{2}{9}$\n\n**解析：**\n区域 $D$ 的面积为 1，故联合密度在 $D$ 内为 1。当 $0<x<1$ 时，$f_{X}(x)=\\int_{-x}^{x}\\mathrm{d}y=2x$，其他为 0。计算 $E(X)=\\int_{0}^{1}x\\cdot 2x\\,\\mathrm{d}x=\\dfrac{2}{3}$，$E(X^{2})=\\int_{0}^{1}x^{2}\\cdot 2x\\,\\mathrm{d}x=\\dfrac{1}{2}$，故 $D(X)=\\dfrac{1}{2}-\\dfrac{4}{9}=\\dfrac{1}{18}$，$D(Z)=D(2X+1)=4D(X)=\\dfrac{2}{9}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
+   "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.block_matrix",
    "secondaryProblemTypeIds": [],
@@ -839,7 +839,7 @@
     "prob.knowledge.variance"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.variance，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.variance，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工修正主章节：la.chapter.matrices -> prob.chapter.multidimensional_random_variables（跨科目错挂）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

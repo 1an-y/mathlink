@@ -542,11 +542,10 @@
    "primaryProblemTypeId": "physical_applications_of_integral",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "integral_physical_applications",
-    "prob.knowledge.correlation_coefficient"
+    "integral_physical_applications"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：integral_physical_applications、prob.knowledge.correlation_coefficient，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_integral",
+   "notes": "已校对；自动打标(规则)：integral_physical_applications、prob.knowledge.correlation_coefficient，待人工复核；审计回填：主章节原为空，按打标多数票推断为 one_variable_integral；人工修复：删除无关跨科目标签 prob.knowledge.correlation_coefficient",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
@@ -720,11 +719,10 @@
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
     "cylindrical_surface",
-    "la.knowledge.orthogonal_matrix",
     "quadric_surface_equations"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：cylindrical_surface、la.knowledge.orthogonal_matrix、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 vector_algebra_and_space_analytic_geometry",
+   "notes": "已校对；自动打标(规则)：cylindrical_surface、la.knowledge.orthogonal_matrix、quadric_surface_equations，待人工复核；审计回填：主章节原为空，按打标多数票推断为 vector_algebra_and_space_analytic_geometry；人工修正主章节：vector_algebra_and_space_analytic_geometry -> la.chapter.quadratic_forms（跨科目错挂）；人工修正：二次曲面识别题归高数向量代数章，删除无关 la 标签",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

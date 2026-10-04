@@ -846,16 +846,15 @@
    "answerText": "答案：证明见解析\n\n**解析：**\n实对称矩阵必可正交（相似）对角化。若 $\\mathbf{A},\\mathbf{B}$ 特征多项式相同，则它们有相同的特征值 $\\lambda_{1},\\dots,\\lambda_{n}$，于是存在可逆矩阵 $\\mathbf{P}_{1},\\mathbf{P}_{2}$ 使 $\\mathbf{P}_{1}^{-1}\\mathbf{A}\\mathbf{P}_{1}=\\mathbf{P}_{2}^{-1}\\mathbf{B}\\mathbf{P}_{2}=\\operatorname{diag}(\\lambda_{1},\\dots,\\lambda_{n})$。由此 $\\mathbf{B}=(\\mathbf{P}_{1}\\mathbf{P}_{2}^{-1})^{-1}\\mathbf{A}(\\mathbf{P}_{1}\\mathbf{P}_{2}^{-1})$，即 $\\mathbf{A}\\sim\\mathbf{B}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "function_limit_continuity",
+   "primaryChapterId": "la.chapter.matrices",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "infinitesimal_order",
     "la.knowledge.symmetric_matrix"
    ],
    "methodIds": [],
-   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）；自动打标(规则)：infinitesimal_order、la.knowledge.symmetric_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity",
+   "notes": "已校对；删除粘连入题干的下一大题片段（十一题题干）；自动打标(规则)：infinitesimal_order、la.knowledge.symmetric_matrix，待人工复核；审计回填：主章节原为空，按打标多数票推断为 function_limit_continuity；人工修正主章节：function_limit_continuity -> la.chapter.matrices（跨科目错挂）；人工修复：删除无关 kp infinitesimal_order；题干仅含第(3)问，(1)(2)问原文缺失待补",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

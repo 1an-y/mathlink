@@ -801,7 +801,7 @@
    "answerText": "答案：$P\\{X=n,\\ Y=m\\}=\\dfrac{\\lambda^{n}}{n!}\\mathrm{e}^{-\\lambda}\\,\\mathrm{C}_{n}^{m}p^{m}(1-p)^{n-m}\\quad(0\\leqslant m\\leqslant n,\\ n=0,1,2,\\dots)$\n\n**解析：**\n由乘法公式 $P\\{X=n,\\ Y=m\\}=P\\{X=n\\}\\,P\\{Y=m\\mid X=n\\}$，其中 $P\\{X=n\\}=\\dfrac{\\lambda^{n}}{n!}\\mathrm{e}^{-\\lambda}$，条件分布由（1）给出，相乘即得联合分布。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
+   "primaryChapterId": "prob.chapter.random_variables",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.block_matrix",
    "secondaryProblemTypeIds": [],
@@ -811,7 +811,7 @@
     "prob.knowledge.poisson_distribution"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.block_matrix、la.knowledge.block_matrix、prob.knowledge.joint_distribution_function、prob.knowledge.poisson_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "notes": "已校对；自动打标(规则)：la.problem_type.block_matrix、la.knowledge.block_matrix、prob.knowledge.joint_distribution_function、prob.knowledge.poisson_distribution，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工修正主章节：la.chapter.matrices -> prob.chapter.random_variables（跨科目错挂）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

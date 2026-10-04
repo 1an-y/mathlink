@@ -337,7 +337,7 @@
    "answerText": "答案：$\\dfrac{1}{4}$\n\n**解析：**\n$P\\{X+Y\\le 1\\}=\\displaystyle\\int_{0}^{\\frac{1}{2}}\\mathrm{d}x\\int_{x}^{1-x}6x\\,\\mathrm{d}y=\\int_{0}^{\\frac{1}{2}}6x(1-2x)\\,\\mathrm{d}x=\\left[3x^{2}-4x^{3}\\right]_{0}^{\\frac{1}{2}}=\\frac{3}{4}-\\frac{1}{2}=\\frac{1}{4}$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "la.chapter.matrices",
+   "primaryChapterId": "prob.chapter.multidimensional_random_variables",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.block_matrix",
    "secondaryProblemTypeIds": [],
@@ -346,7 +346,7 @@
     "prob.knowledge.joint_distribution_function"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.problem_type.block_matrix、la.knowledge.block_matrix、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices",
+   "notes": "已校对；自动打标(规则)：la.problem_type.block_matrix、la.knowledge.block_matrix、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 la.chapter.matrices；人工修正主章节：la.chapter.matrices -> prob.chapter.multidimensional_random_variables（跨科目错挂）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

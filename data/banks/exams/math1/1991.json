@@ -837,12 +837,11 @@
    "primaryProblemTypeId": "prob.type.function_of_two_variables",
    "secondaryProblemTypeIds": [],
    "knowledgePointIds": [
-    "la.knowledge.block_matrix",
     "prob.knowledge.functions_of_random_variables",
     "prob.knowledge.joint_distribution_function"
    ],
    "methodIds": [],
-   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.functions_of_random_variables、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables",
+   "notes": "已校对；自动打标(规则)：la.knowledge.block_matrix、prob.knowledge.functions_of_random_variables、prob.knowledge.joint_distribution_function，待人工复核；审计回填：主章节原为空，按打标多数票推断为 prob.chapter.multidimensional_random_variables；人工修复：删除无关跨科目标签 la.knowledge.block_matrix",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

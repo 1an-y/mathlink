@@ -407,7 +407,7 @@
    "answerText": "答案：B（$\\dfrac16$）\n\n**解析：**\n独立同分布序列的样本均值依概率收敛于期望（辛钦大数定律）：\n$$\nE(X^{2})=\\int_{-1}^{1}x^{2}(1-|x|)\\,\\mathrm{d}x=2\\int_{0}^{1}(x^{2}-x^{3})\\,\\mathrm{d}x=2\\Bigl(\\frac13-\\frac14\\Bigr)=\\frac16 .\n$$\n故 $\\dfrac1n\\displaystyle\\sum_{i=1}^{n}X_{i}^{2}\\xrightarrow{P}E(X^{2})=\\dfrac16$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "infinite_series",
+   "primaryChapterId": "prob.chapter.limit_theorems",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "prob.type.law_of_large_numbers",
    "secondaryProblemTypeIds": [],
@@ -416,7 +416,7 @@
     "prob.knowledge.mathematical_expectation"
    ],
    "methodIds": [],
-   "notes": "已校对；题干对源修正：OCR 漏掉 X 的平方（应为 ΣXᵢ²），经官方版试卷 PDF 核对补全",
+   "notes": "已校对；题干对源修正：OCR 漏掉 X 的平方（应为 ΣXᵢ²），经官方版试卷 PDF 核对补全；人工修正主章节：infinite_series -> prob.chapter.limit_theorems（跨科目错挂）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",

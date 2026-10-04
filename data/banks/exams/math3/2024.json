@@ -340,7 +340,7 @@
    "answerText": "答案：B（$a=0$ 或 $a=\\dfrac32$）\n\n**解析：**\n$-M_{21}+M_{22}-M_{23}=A_{21}+A_{22}+A_{23}$，等于把 $A$ 的第 2 行换成 $(1,1,1)$ 后的行列式：\n$$\n\\begin{vmatrix}a+1&b&3\\\\1&1&1\\\\1&1&2\\end{vmatrix}=(a+1)(2-1)-b(2-1)+3(1-1)=a+1-b=0\n\\ \\Longrightarrow\\ b=a+1 .\n$$\n代入 $|A|=-\\dfrac12$：\n$$\n|A|=(a+1)(1-a)+\\frac{3(a-1)}{2}\\cdot\\! =-a^{2}+\\frac{3a}{2}-\\frac12=-\\frac12\n\\ \\Longrightarrow\\ a\\Bigl(a-\\frac32\\Bigr)=0,\n$$\n故 $a=0$ 或 $a=\\dfrac32$。",
    "questionImages": [],
    "answerImages": [],
-   "primaryChapterId": "prob.chapter.numerical_characteristics",
+   "primaryChapterId": "la.chapter.determinants",
    "secondaryChapterIds": [],
    "primaryProblemTypeId": "la.problem_type.cofactor_sum",
    "secondaryProblemTypeIds": [],
@@ -349,7 +349,7 @@
     "la.knowledge.adjoint_matrix"
    ],
    "methodIds": [],
-   "notes": "已校对",
+   "notes": "已校对；人工修正主章节：prob.chapter.numerical_characteristics -> la.chapter.determinants（跨科目错挂）",
    "createdAt": "2026-09-28T00:00:00.000Z",
    "attempts": [],
    "origin": "builtin",
